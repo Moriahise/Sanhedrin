@@ -1,0 +1,44 @@
+[
+    {
+        "number": 1,
+        "title_he": "שאלה בעניין שבת במקום עבודה",
+        "title_en": "Question Regarding Shabbat Observance at Workplace",
+        "summary_he": "שאלה הנוגעת לשמירת שבת במקום עבודה מעורב, והאפשרויות ההלכתיות העומדות בפני עובד שומר שבת",
+        "summary_en": "A question concerning Shabbat observance in a mixed workplace environment, and the halachic options available to a Shabbat-observant employee",
+        "category": "shabbat",
+        "category_he": "שבת וחגים",
+        "category_en": "Shabbat & Holidays",
+        "date": "15/03/2025",
+        "year": 2025,
+        "file": "responsa/2025/responsa-001-shabbat-workplace.html",
+        "type": "html"
+    },
+    {
+        "number": 2,
+        "title_he": "תשובה בדיני חוזים מודרניים",
+        "title_en": "Response on Modern Contract Law",
+        "summary_he": "דיון מעמיק בהשלכות ההלכתיות של חוזים דיגיטליים וחתימות אלקטרוניות לאור דיני ממונות בהלכה",
+        "summary_en": "An in-depth discussion of the halachic implications of digital contracts and electronic signatures in light of Jewish monetary law",
+        "category": "civil",
+        "category_he": "דיני ממונות",
+        "category_en": "Civil Law",
+        "date": "22/02/2025",
+        "year": 2025,
+        "file": "responsa/2025/responsa-002-digital-contracts.html",
+        "type": "html"
+    },
+    {
+        "number": 3,
+        "title_he": "פסק בעניין כשרות מזון מודרני",
+        "title_en": "Ruling on Modern Food Kashrut",
+        "summary_he": "התייחסות לשאלות כשרות הנוגעות לתהליכי ייצור מזון מודרניים, כולל מזון מעבדה ותחליפי בשר",
+        "summary_en": "Addressing kashrut questions related to modern food production processes, including lab-grown food and meat substitutes",
+        "category": "kashrut",
+        "category_he": "כשרות",
+        "category_en": "Kashrut",
+        "date": "08/01/2025",
+        "year": 2025,
+        "file": "responsa/2025/responsa-003-modern-kashrut.pdf",
+        "type": "pdf"
+    }
+]
