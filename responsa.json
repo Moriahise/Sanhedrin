@@ -1,17 +1,17 @@
 [
     {
-        "number": 1,
-        "title_he": "שאלה בעניין שבת במקום עבודה",
-        "title_en": "Question Regarding Shabbat Observance at Workplace",
-        "summary_he": "שאלה הנוגעת לשמירת שבת במקום עבודה מעורב, והאפשרויות ההלכתיות העומדות בפני עובד שומר שבת",
-        "summary_en": "A question concerning Shabbat observance in a mixed workplace environment, and the halachic options available to a Shabbat-observant employee",
-        "category": "shabbat",
-        "category_he": "שבת וחגים",
-        "category_en": "Shabbat & Holidays",
-        "date": "15/03/2025",
-        "year": 2025,
-        "file": "responsa/2025/responsa-001-shabbat-workplace.html",
-        "type": "html"
+    "number": 1,
+    "title_he": "אחסון ספרי תורה במגירות אופקיות",
+    "title_en": "Storage of Torah Scrolls in Horizontal Drawers",
+    "summary_he": "שאלה האם מותר לאחסן ספרי תורה במגירות אופקיות (בשכיבה), בניגוד למנהג המקובל של אחסון אנכי (בעמידה) בארון הקודש. הפסק: אסור לכתחילה, חובה להעמידו אנכית",
+    "summary_en": "Question whether it is permitted to store Torah scrolls in horizontal drawers (lying down), contrary to the accepted custom of vertical storage (standing) in the Holy Ark. Ruling: Forbidden initially, must be stored vertically",
+    "category": "ritual",
+    "category_he": "הלכות עבודה",
+    "category_en": "Ritual Law",
+    "date": "09/12/2025",
+    "year": 2025,
+    "file": "responsa/2025/אחסון ספרי תורה במגירות אופקיות-no-links.html",
+    "type": "html"
     },
     {
         "number": 2,
