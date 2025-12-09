@@ -28,17 +28,17 @@
     "type": "html"
     },
     {
-        "number": 3,
-        "title_he": "פסק בעניין כשרות מזון מודרני",
-        "title_en": "Ruling on Modern Food Kashrut",
-        "summary_he": "התייחסות לשאלות כשרות הנוגעות לתהליכי ייצור מזון מודרניים, כולל מזון מעבדה ותחליפי בשר",
-        "summary_en": "Addressing kashrut questions related to modern food production processes, including lab-grown food and meat substitutes",
-        "category": "kashrut",
-        "category_he": "כשרות",
-        "category_en": "Kashrut",
-        "date": "08/01/2025",
-        "year": 2025,
-        "file": "responsa/2025/responsa-003-modern-kashrut.pdf",
-        "type": "pdf"
+    "number": 3,
+    "title_he": "מוצא הסמיכה המודרנית",
+    "title_en": "The Origin of Modern Rabbinic Ordination",
+    "summary_he": "בירור מקיף של התפתחות הסמיכה לדורותיה, החל מן הסנהדרין ועד לתוקפה ההלכתי של הסמיכה המודרנית בימינו.",
+    "summary_en": "A comprehensive examination of the historical development of rabbinic ordination, from the ancient Sanhedrin to the halachic status of modern ordination today.",
+    "category": "halacha-history",
+    "category_he": "הלכה – תולדות",
+    "category_en": "Halacha – History",
+    "date": "25/07/2025",
+    "year": 2025,
+    "file": "מוצא הסמיכה המודרנית.html",
+    "type": "html
     }
 ]
