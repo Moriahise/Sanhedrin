@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>בית דין גדול סנהדרין | Beit Din Gadol Sanhedrin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo-section">
+                <div class="title-section">
+                    <h1 class="site-title">
+                        <span class="hebrew-title">בית דין גדול סנהדרין</span>
+                        <span class="english-title">Beit Din Gadol Sanhedrin</span>
+                    </h1>
+                    <p class="subtitle">
+                        <span class="hebrew-subtitle">ארכיון שאלות ותשובות</span>
+                        <span class="english-subtitle">Responsa Archive</span>
+                    </p>
+                </div>
+            </div>
+            <div class="language-toggle">
+                <button id="langToggle" onclick="toggleLanguage()">
+                    <span class="lang-he">English</span>
+                    <span class="lang-en">עברית</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-content">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="חיפוש... / Search..." onkeyup="searchResponsa()">
+            </div>
+            <div class="filter-section">
+                <select id="categoryFilter" onchange="filterResponsa()">
+                    <option value="all" data-he="כל הקטגוריות" data-en="All Categories">כל הקטגוריות</option>
+                    <option value="civil" data-he="דיני ממונות" data-en="Civil Law">דיני ממונות</option>
+                    <option value="family" data-he="דיני משפחה" data-en="Family Law">דיני משפחה</option>
+                    <option value="ritual" data-he="הלכות עבודה" data-en="Ritual Law">הלכות עבודה</option>
+                    <option value="kashrut" data-he="כשרות" data-en="Kashrut">כשרות</option>
+                    <option value="shabbat" data-he="שבת וחגים" data-en="Shabbat & Holidays">שבת וחגים</option>
+                    <option value="conversion" data-he="גיור" data-en="Conversion">גיור</option>
+                    <option value="halacha-history" data-he="הלכה – תולדות" data-en="Halacha – History">הלכה – תולדות</option>
+                    <option value="other" data-he="אחר" data-en="Other">אחר</option>
+                </select>
+                <select id="yearFilter" onchange="filterResponsa()">
+                    <option value="all" data-he="כל השנים" data-en="All Years">כל השנים</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-wrapper">
+            <!-- Statistics Panel -->
+            <div class="stats-panel">
+                <div class="stat-box">
+                    <span class="stat-number" id="totalResponsa">0</span>
+                    <span class="stat-label">
+                        <span class="lang-he">תשובות</span>
+                        <span class="lang-en">Responsa</span>
+                    </span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number" id="totalCategories">8</span>
+                    <span class="stat-label">
+                        <span class="lang-he">קטגוריות</span>
+                        <span class="lang-en">Categories</span>
+                    </span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number" id="latestYear">2025</span>
+                    <span class="stat-label">
+                        <span class="lang-he">שנה אחרונה</span>
+                        <span class="lang-en">Latest Year</span>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Responsa Grid -->
+            <div id="responsaGrid" class="responsa-grid">
+                <!-- Responsa cards will be dynamically inserted here -->
+            </div>
+
+            <!-- Pagination Controls -->
+            <!-- Will be populated dynamically by script.js with Previous/Next buttons and page indicator -->
+            <div id="paginationControls" class="pagination-controls" style="display: none;"></div>
+
+            <!-- Empty State -->
+            <div id="emptyState" class="empty-state" style="display: none;">
+                <p class="lang-he">לא נמצאו תוצאות</p>
+                <p class="lang-en">No results found</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p class="lang-he">© 2025 בית דין גדול סנהדרין | כל הזכויות שמורות</p>
+            <p class="lang-en">© 2025 Beit Din Gadol Sanhedrin | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

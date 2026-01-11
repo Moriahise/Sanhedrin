@@ -1,0 +1,63 @@
+name: QA → responsa.json (auto)
+
+on:
+  push:
+    paths:
+      - "data/qa/*/*.json"  # ← NUR Unterordner, NICHT data/qa/*.json!
+      - "tools/qa_merge.py"
+      - "tools/build_qa_db.py"
+      - "qa.html"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: responsa-update  # ← GLEICHE Gruppe!
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build qa_db.json
+        run: |
+          python tools/build_qa_db.py
+
+      - name: Merge QA into responsa.json
+        run: |
+          python tools/qa_merge.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add responsa.json qa_db.json
+          
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+
+          git commit -m "Auto-update qa_db.json + responsa.json"
+          
+          # Retry-Logik mit Pull vor Push
+          for i in {1..5}; do
+            git fetch origin main
+            git pull --rebase origin main || true
+            git push && break || {
+              echo "Push failed, attempt $i/5"
+              sleep 2
+            }
+          done

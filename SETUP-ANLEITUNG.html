@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsa Archive - Setup Anleitung</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .step {
+            background: #f8f9fa;
+            border-left: 5px solid #667eea;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        
+        .step h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+        }
+        
+        .step-number {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 35px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        code {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+        }
+        
+        pre {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 15px 0;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .success {
+            background: #d4edda;
+            border-left-color: #28a745;
+        }
+        
+        .warning {
+            background: #fff3cd;
+            border-left-color: #ffc107;
+        }
+        
+        .info {
+            background: #d1ecf1;
+            border-left-color: #17a2b8;
+        }
+        
+        ul, ol {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .emoji {
+            font-size: 1.3em;
+            margin-right: 5px;
+        }
+        
+        .highlight {
+            background: #fff3cd;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        
+        footer {
+            background: #2d2d2d;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .checklist {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .checklist li::before {
+            content: "☐ ";
+            color: #667eea;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Responsa Archive</h1>
+            <p>Automatisiertes System für Halachische Teshuvot</p>
+        </header>
+        
+        <div class="content">
+            <!-- Überblick -->
+            <div class="section">
+                <h2><span class="emoji">🎯</span> Überblick</h2>
+                <div class="step success">
+                    <h3>Was macht dieses System?</h3>
+                    <p>Automatische Verwaltung eines Online-Archivs für halachische Responsa:</p>
+                    <ul>
+                        <li><strong>Automatisches Update:</strong> Neue HTML/PDF-Dateien werden automatisch erkannt</li>
+                        <li><strong>GitHub Actions:</strong> Aktualisiert <code>responsa.json</code> bei jedem Upload</li>
+                        <li><strong>Responsive Website:</strong> Zweisprachig (Hebräisch/Englisch)</li>
+                        <li><strong>Suche & Filter:</strong> Nach Kategorie, Jahr und Freitext</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Setup -->
+            <div class="section">
+                <h2><span class="emoji">🚀</span> Setup in 5 Schritten</h2>
+                
+                <div class="step">
+                    <h3><span class="step-number">1</span> GitHub Repository erstellen</h3>
+                    <ol>
+                        <li>Gehe zu <a href="https://github.com/new" target="_blank">https://github.com/new</a></li>
+                        <li>Repository Name: <code>responsa-archive</code></li>
+                        <li>Visibility: Public oder Private</li>
+                        <li>Klicke <strong>"Create repository"</strong></li>
+                    </ol>
+                </div>
+                
+                <div class="step">
+                    <h3><span class="step-number">2</span> Code hochladen</h3>
+                    <p><strong>Option A: GitHub Desktop (einfacher)</strong></p>
+                    <ol>
+                        <li>Downloade <a href="https://desktop.github.com/" target="_blank">GitHub Desktop</a></li>
+                        <li>"Add" → "Add Existing Repository" → Wähle den responsa-archive Ordner</li>
+                        <li>Klicke "Publish repository"</li>
+                    </ol>
+                    
+                    <p><strong>Option B: Command Line</strong></p>
+                    <pre>cd /pfad/zum/responsa-archive
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/DEIN-USERNAME/responsa-archive.git
+git push -u origin main</pre>
+                </div>
+                
+                <div class="step warning">
+                    <h3><span class="step-number">3</span> GitHub Actions konfigurieren <span class="highlight">WICHTIG!</span></h3>
+                    <p><strong>Ohne diesen Schritt funktioniert die Automatik nicht!</strong></p>
+                    <ol>
+                        <li>Gehe zu deinem Repository auf GitHub</li>
+                        <li>Klicke auf <strong>Settings</strong> (oben rechts)</li>
+                        <li>Klicke auf <strong>Actions → General</strong> (linke Sidebar)</li>
+                        <li>Scrolle zu "Workflow permissions"</li>
+                        <li>✅ Wähle: <strong>"Read and write permissions"</strong></li>
+                        <li>✅ Aktiviere: <strong>"Allow GitHub Actions to create and approve pull requests"</strong></li>
+                        <li>Klicke <strong>"Save"</strong></li>
+                    </ol>
+                </div>
+                
+                <div class="step">
+                    <h3><span class="step-number">4</span> GitHub Pages aktivieren (für Website)</h3>
+                    <ol>
+                        <li>Noch in Settings, klicke auf <strong>Pages</strong></li>
+                        <li>Source: <strong>"Deploy from a branch"</strong></li>
+                        <li>Branch: <strong>main</strong> / Folder: <strong>/ (root)</strong></li>
+                        <li>Klicke <strong>"Save"</strong></li>
+                        <li>⏱️ Warte 1-2 Minuten...</li>
+                    </ol>
+                    <p><strong>Deine Website ist dann live unter:</strong></p>
+                    <pre>https://DEIN-USERNAME.github.io/responsa-archive/</pre>
+                </div>
+                
+                <div class="step success">
+                    <h3><span class="step-number">5</span> Neue Responsa hinzufügen</h3>
+                    <p><strong>Einfachste Methode - über GitHub Website:</strong></p>
+                    <ol>
+                        <li>Gehe zu deinem Repository</li>
+                        <li>Navigiere zu <code>responsa/2025/</code></li>
+                        <li>Klicke <strong>"Add file" → "Upload files"</strong></li>
+                        <li>Ziehe deine HTML/PDF-Dateien rein</li>
+                        <li>Klicke <strong>"Commit changes"</strong></li>
+                    </ol>
+                    
+                    <p><strong>Was passiert automatisch:</strong></p>
+                    <ul>
+                        <li>✅ GitHub Actions erkennt die neuen Dateien</li>
+                        <li>✅ Update-Script läuft automatisch</li>
+                        <li>✅ <code>responsa.json</code> wird aktualisiert</li>
+                        <li>✅ Website zeigt die neuen Einträge</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Lokales Testen -->
+            <div class="section">
+                <h2><span class="emoji">🧪</span> Lokales Testen (Optional)</h2>
+                
+                <div class="step info">
+                    <h3>Test-Script ausführen</h3>
+                    <pre>pip install beautifulsoup4 lxml
+python3 test_local.py</pre>
+                    <p>Das Script:</p>
+                    <ul>
+                        <li>Erstellt Test-Dateien</li>
+                        <li>Aktualisiert responsa.json</li>
+                        <li>Startet einen lokalen Webserver</li>
+                        <li>Öffnet deinen Browser automatisch</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Troubleshooting -->
+            <div class="section">
+                <h2><span class="emoji">❓</span> Häufige Probleme</h2>
+                
+                <div class="step warning">
+                    <h3>❌ Workflow schlägt fehl</h3>
+                    <p><strong>Lösung:</strong> Prüfe ob "Read and write permissions" aktiviert ist (Schritt 3)</p>
+                </div>
+                
+                <div class="step warning">
+                    <h3>❌ responsa.json wird nicht aktualisiert</h3>
+                    <p><strong>Lösung:</strong></p>
+                    <ol>
+                        <li>Gehe zu "Actions" Tab im Repository</li>
+                        <li>Klicke auf den fehlgeschlagenen Workflow</li>
+                        <li>Lese die Fehler-Logs</li>
+                    </ol>
+                </div>
+                
+                <div class="step warning">
+                    <h3>❌ Website zeigt keine Daten</h3>
+                    <p><strong>Lösung:</strong></p>
+                    <ol>
+                        <li>Öffne Browser-Konsole (F12)</li>
+                        <li>Prüfe auf JavaScript-Fehler</li>
+                        <li>Stelle sicher dass <code>responsa.json</code> existiert</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <!-- Checkliste -->
+            <div class="section">
+                <h2><span class="emoji">✅</span> Checkliste</h2>
+                <div class="step success">
+                    <ul class="checklist">
+                        <li>Repository auf GitHub erstellt</li>
+                        <li>Code hochgeladen (alle Dateien)</li>
+                        <li>"Read and write permissions" aktiviert</li>
+                        <li>GitHub Pages aktiviert</li>
+                        <li>Erste Test-Datei hochgeladen</li>
+                        <li>Workflow läuft erfolgreich (grüner Haken)</li>
+                        <li>Website ist erreichbar</li>
+                        <li>Neue Einträge werden angezeigt</li>
+                    </ul>
+                    <p style="margin-top: 20px;"><strong>Wenn alle Punkte ✅ sind: Gratulation! 🎉</strong></p>
+                </div>
+            </div>
+            
+            <!-- Dateistruktur -->
+            <div class="section">
+                <h2><span class="emoji">📁</span> Dateistruktur</h2>
+                <pre>responsa-archive/
+├── .github/workflows/
+│   └── update-responsa.yml    # GitHub Actions Workflow
+├── responsa/                  # Hier Dateien hinzufügen!
+│   └── 2025/
+│       ├── dokument1.html
+│       ├── dokument2.html
+│       └── dokument3.pdf
+├── index.html                 # Hauptseite
+├── script.js                  # JavaScript
+├── styles.css                 # Styling
+├── responsa.json              # Auto-generiert
+├── update_responsa.py         # Update-Script
+├── test_local.py              # Test-Script
+├── README.md                  # Ausführliche Doku
+└── SCHNELLSTART.md            # Kurzanleitung</pre>
+            </div>
+        </div>
+        
+        <footer>
+            <p>📚 Beit Din Gadol Sanhedrin - Responsa Archive</p>
+            <p>© 2025 | Alle Rechte vorbehalten</p>
+        </footer>
+    </div>
+</body>
+</html>

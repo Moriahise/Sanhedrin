@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>שאלות ותשובות | Q&amp;A</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .qa-container{ max-width: 1000px; margin: 0 auto; padding: 2.5rem 1rem; }
+    .qa-card{
+      background: linear-gradient(135deg, rgba(26, 44, 66, 0.92), rgba(45, 74, 111, 0.92));
+      border: 2px solid var(--primary-gold);
+      border-radius: 18px;
+      padding: 2rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+    .qa-title{ font-size: 1.8rem; color: var(--light-gold); margin: 0 0 0.75rem 0; line-height: 1.35; }
+    .qa-meta{ display:flex; flex-wrap:wrap; gap: 0.75rem 1rem; color: var(--text-gold); margin: 0 0 1.25rem 0; font-size: 0.95rem; }
+    .qa-tags{ display:flex; flex-wrap:wrap; gap: .5rem; margin: 0 0 1.25rem 0; }
+    .qa-tag{
+      display:inline-block;
+      padding: .25rem .65rem;
+      border-radius: 999px;
+      border: 1px solid rgba(212,165,116,0.5);
+      background: rgba(10, 24, 40, 0.55);
+      color: var(--text-light);
+      font-size: .85rem;
+      font-weight: 700;
+    }
+    .qa-section{ border-top: 1px solid rgba(212, 165, 116, 0.35); padding-top: 1.25rem; margin-top: 1.25rem; }
+    .qa-label{
+      display:inline-block;
+      background: rgba(74, 124, 140, 0.35);
+      border: 1px solid var(--accent-teal);
+      color: var(--text-light);
+      padding: 0.35rem 0.8rem;
+      border-radius: 999px;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+    .qa-text{ color: var(--text-light); line-height: 1.9; font-size: 1.05rem; white-space: normal; }
+    .qa-text p, .qa-text li{ margin: 0 0 .65rem 0; }
+    .qa-text ul{ margin: .5rem 0 .5rem 1.2rem; }
+    .qa-text a{ color: var(--primary-gold); }
+    .qa-actions{ margin-top: 1.5rem; display:flex; flex-wrap:wrap; gap: 0.75rem; justify-content: space-between; align-items: center; }
+    .qa-link{ color: var(--primary-gold); text-decoration: none; font-weight: 700; }
+    .qa-link:hover{ color: var(--light-gold); }
+    .qa-back{
+      display:inline-block; padding: 0.65rem 1rem; border-radius: 12px;
+      border: 2px solid var(--primary-gold); color: var(--text-light); text-decoration: none;
+      background: rgba(10, 24, 40, 0.65); font-weight: 700;
+    }
+    .qa-back:hover{ border-color: var(--light-gold); box-shadow: 0 0 18px rgba(212,165,116,0.25); }
+    body[dir="ltr"] .qa-container{ direction:ltr; }
+  </style>
+</head>
+<body>
+  <header class="main-header">
+    <div class="header-content">
+      <div class="logo-section">
+        <div class="title-section">
+          <h1 class="site-title">
+            <span class="hebrew-title">בית דין גדול סנהדרין</span>
+            <span class="english-title">Beit Din Gadol Sanhedrin</span>
+          </h1>
+          <p class="subtitle">
+            <span class="hebrew-subtitle">שאלות ותשובות</span>
+            <span class="english-subtitle">Q&amp;A</span>
+          </p>
+        </div>
+      </div>
+      <div class="language-toggle">
+        <button id="langToggle" onclick="toggleLanguage()">
+          <span class="lang-he">English</span>
+          <span class="lang-en">עברית</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="qa-container">
+    <div class="qa-card">
+      <h2 class="qa-title" id="qaTitle">טוען…</h2>
+      <div class="qa-meta" id="qaMeta"></div>
+      <div class="qa-tags" id="qaTags" style="display:none;"></div>
+
+      <div class="qa-section">
+        <div class="qa-label"><span class="lang-he">שאלה</span><span class="lang-en">Question</span></div>
+        <div class="qa-text" id="qaQuestion"></div>
+      </div>
+
+      <div class="qa-section">
+        <div class="qa-label"><span class="lang-he">תשובה</span><span class="lang-en">Answer</span></div>
+        <div class="qa-text" id="qaAnswer"></div>
+      </div>
+
+      <div class="qa-actions">
+        <a class="qa-back" href="index.html">← <span class="lang-he">חזרה לאינדקס</span><span class="lang-en">Back to index</span></a>
+        <a class="qa-link" id="qaSourceLink" href="#" target="_blank" rel="noopener">🔗 <span class="lang-he">מקור</span><span class="lang-en">Source</span></a>
+      </div>
+    </div>
+
+    <div id="emptyState" class="empty-state" style="display:none;">
+      <p class="lang-he">לא נמצא פריט</p>
+      <p class="lang-en">Item not found</p>
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-content">
+      <p class="lang-he">© 2025 בית דין גדול סנהדרין | כל הזכויות שמורות</p>
+      <p class="lang-en">© 2025 Beit Din Gadol Sanhedrin | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script>
+    let currentLanguage = 'he';
+    function toggleLanguage(){
+      currentLanguage = currentLanguage === 'he' ? 'en' : 'he';
+      document.documentElement.lang = currentLanguage;
+      document.body.dir = currentLanguage === 'he' ? 'rtl' : 'ltr';
+    }
+
+    function getParam(name){
+      const url = new URL(window.location.href);
+      return url.searchParams.get(name);
+    }
+
+    function safeText(s){ return (s == null) ? '' : String(s); }
+
+    function extractMiYodeaQA(content){
+      // content is markdown-ish with embedded html.
+      // Extract between "## Frage" and "## Antworten" (question),
+      // and pick best answer: "### ✅ Antwort" else first "### Antwort".
+      const src = safeText(content);
+
+      const qMatch = src.match(/##\s*Frage([\s\S]*?)(##\s*Antworten|$)/i);
+      const questionHtml = qMatch ? qMatch[1].trim() : '';
+
+      // Best answer (✅) preferred
+      let aMatch = src.match(/###\s*✅\s*Antwort[\s\S]*?\n([\s\S]*?)(\n###\s|$)/i);
+      if(!aMatch){
+        aMatch = src.match(/###\s*Antwort[\s\S]*?\n([\s\S]*?)(\n###\s|$)/i);
+      }
+      const answerHtml = aMatch ? aMatch[1].trim() : '';
+
+      return {
+        questionHtml: questionHtml || src,
+        answerHtml: answerHtml || ''
+      };
+    }
+
+    function setTags(tags){
+      const box = document.getElementById('qaTags');
+      box.innerHTML = '';
+      if(!tags || !Array.isArray(tags) || tags.length === 0){
+        box.style.display = 'none';
+        return;
+      }
+      tags.slice(0, 20).forEach(t => {
+        const span = document.createElement('span');
+        span.className = 'qa-tag';
+        span.textContent = String(t);
+        box.appendChild(span);
+      });
+      box.style.display = 'flex';
+    }
+
+    async function loadQA(){
+      const id = getParam('id');
+      let srcParam = getParam('src');
+      if(!id){
+        document.querySelector('.qa-card').style.display = 'none';
+        document.getElementById('emptyState').style.display = 'block';
+        return;
+      }
+
+      try{
+        // Determine which source file to load. If the user specified a `src` parameter,
+        // use that. Otherwise, consult responsa.json to find the corresponding source
+        // path based on the source_id of this question. This avoids relying on
+        // a single qa_db.json file that may not exist when the database is split.
+        let resolvedSrc = srcParam;
+        // Cache for responsa data; used for fallback to year file
+        let responsaData = null;
+        if(!resolvedSrc){
+          // Fetch responsa.json to find the entry for this question
+          const respRes = await fetch('responsa.json');
+          responsaData = await respRes.json();
+          const entry = Array.isArray(responsaData) ? responsaData.find(r => String(r.source_id) === String(id)) : null;
+          if(entry && entry.src){
+            resolvedSrc = entry.src;
+          }
+        }
+
+        // Attempt to load data from the resolved source
+        let data = null;
+        let isMiYodea = false;
+        let item = null;
+        if(resolvedSrc){
+          const res = await fetch(resolvedSrc);
+          data = await res.json();
+          if(Array.isArray(data)){
+            isMiYodea = true;
+            item = data.find(x => String(x.id) === String(id));
+          } else {
+            const list = (data && data.questions) ? data.questions : [];
+            item = list.find(x => String(x.id) === String(id));
+          }
+        }
+
+        // If still not found, attempt to derive year from responsa entry and load that file
+        if(!item){
+          // Ensure responsaData is loaded
+          if(!responsaData){
+            const respRes2 = await fetch('responsa.json');
+            responsaData = await respRes2.json();
+          }
+          const entry2 = Array.isArray(responsaData) ? responsaData.find(r => String(r.source_id) === String(id)) : null;
+          if(entry2 && entry2.year){
+            const yearFile = 'qa_db/' + entry2.year + '.json';
+            try{
+              const yearRes = await fetch(yearFile);
+              const yearData = await yearRes.json();
+              const list2 = (yearData && yearData.questions) ? yearData.questions : [];
+              item = list2.find(x => String(x.id) === String(id));
+              if(item){
+                resolvedSrc = yearFile;
+                isMiYodea = false; // Yeshiva style
+              }
+            }catch(err){
+              // ignore
+            }
+          }
+        }
+
+        if(!item){
+          document.querySelector('.qa-card').style.display = 'none';
+          document.getElementById('emptyState').style.display = 'block';
+          return;
+        }
+
+        // Title
+        document.getElementById('qaTitle').textContent = item.title || ('שאלה #' + id);
+
+        // Meta + Tags
+        const meta = item.metadata || {};
+        const parts = [];
+        if(meta.date){
+          const dt = new Date(meta.date);
+          if(!isNaN(dt.getTime())){
+            parts.push('📅 ' + dt.toLocaleDateString('he-IL'));
+          }
+        }
+        if(meta.rabbi) parts.push('👤 ' + meta.rabbi);
+        if(typeof meta.upvotes !== 'undefined') parts.push('👍 ' + meta.upvotes);
+        if(typeof meta.score !== 'undefined') parts.push('⭐ ' + meta.score);
+        if(typeof meta.views !== 'undefined') parts.push('👁️ ' + meta.views);
+        document.getElementById('qaMeta').textContent = parts.join('   |   ');
+        setTags(meta.tags || []);
+
+        // Body
+        if(isMiYodea){
+          const extracted = extractMiYodeaQA(item.content);
+          document.getElementById('qaQuestion').innerHTML = extracted.questionHtml;
+          document.getElementById('qaAnswer').innerHTML = extracted.answerHtml || '<p>(No extracted answer found)</p>';
+        } else {
+          document.getElementById('qaQuestion').textContent = item.question || '';
+          document.getElementById('qaAnswer').textContent = item.answer || '';
+        }
+
+        // Source link
+        const link = document.getElementById('qaSourceLink');
+        let srcUrl = '';
+        if (item && item.url) {
+          srcUrl = String(item.url);
+        } else if (meta && meta.url) {
+          srcUrl = String(meta.url);
+        } else if (!isMiYodea && id) {
+          srcUrl = 'https://www.yeshiva.org.il/ask/' + id;
+        }
+        link.href = srcUrl || '#';
+        link.style.display = srcUrl ? 'inline-block' : 'none';
+
+      } catch(e){
+        console.error(e);
+        document.querySelector('.qa-card').style.display = 'none';
+        document.getElementById('emptyState').style.display = 'block';
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', loadQA);
+  </script>
+</body>
+</html>
