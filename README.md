@@ -1,2 +1,0 @@
-# Sanhedrin
-Halachic Responsa
