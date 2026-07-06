@@ -1,0 +1,11 @@
+# Migrations-/Test-Artefakte: nur lokal, nie pushen
+_migration_test_output/
+_backup_before_question_migration/
+
+# Python
+__pycache__/
+*.pyc
+
+# Betriebssystem/Editor
+.DS_Store
+*~
