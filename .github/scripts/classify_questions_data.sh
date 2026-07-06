@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Trigger classification workflow for current data/questions.
 python3 -m py_compile migrate_qa.py classify_qa.py
 python3 classify_qa.py --run
 
