@@ -42,6 +42,24 @@ def _atomic_write(path: Path, obj) -> None:
             os.unlink(tmp)
 
 
+def _classify(title: str, question: str, tags: list[str]):
+    """Return category, confidence, needs_review for both old/new classify APIs."""
+    result = migrate_qa.classify(title or "", question or "", tags or [])
+    if len(result) >= 3:
+        return result[0], result[1], bool(result[2])
+    raise ValidationError("Klassifizierung lieferte ein ungültiges Ergebnis")
+
+
+def _entry_year(entry: dict):
+    if entry.get("year"):
+        return entry.get("year")
+    if hasattr(migrate_qa, "year_of"):
+        return migrate_qa.year_of(entry)
+    if hasattr(migrate_qa, "year_from_date"):
+        return migrate_qa.year_from_date(entry.get("date"))
+    return None
+
+
 class QAStore:
     def __init__(self, root=".", base="data/questions", max_per_chunk=None, max_chunk_bytes=None):
         self.root = Path(root).resolve()
@@ -170,7 +188,7 @@ class QAStore:
                 raise ValidationError(f"unbekannte Kategorie '{category_override}'")
             category, confidence, needs_review = category_override, "high", False
         else:
-            category, confidence, needs_review = migrate_qa.classify(
+            category, confidence, needs_review = _classify(
                 q.get("title", ""), q.get("question", ""), q.get("tags") or []
             )
 
@@ -244,18 +262,19 @@ class QAStore:
 
     @staticmethod
     def _index_rec(entry: dict, chunk_no: int) -> dict:
-        hebrew_title = bool(re.search(r"[\u0590-\u05FF]", entry.get("title", "")))
+        title = entry.get("title") or entry.get("title_he") or entry.get("title_en") or ""
+        hebrew_title = bool(re.search(r"[\u0590-\u05FF]", title))
         accepted = next((a for a in entry.get("answers", []) if a.get("accepted")),
                         entry.get("answers", [None])[0] if entry.get("answers") else None)
         rec = {
             "id": entry["id"],
-            "t_he": entry.get("title", "") if hebrew_title else "",
-            "t_en": "" if hebrew_title else entry.get("title", ""),
+            "t_he": title if hebrew_title else entry.get("title_he", ""),
+            "t_en": entry.get("title_en", "") if hebrew_title else title,
             "x": migrate_qa.excerpt(entry.get("question", "")),
             "ax": migrate_qa.excerpt(accepted.get("text", "")) if accepted else "",
             "tg": [str(t).lower() for t in (entry.get("tags") or [])],
             "c": entry["category"],
-            "y": migrate_qa.year_of(entry),
+            "y": _entry_year(entry),
             "ch": chunk_no,
             "s": entry["source"],
         }
@@ -274,12 +293,18 @@ class QAStore:
                 rec = self._index_rec(question, payload["chunk"])
                 entries.append(rec)
                 bycat.setdefault(question["category"], []).append(rec)
+                aliases[question["id"]] = {"id": question["id"], "ch": payload["chunk"]}
                 sid = question.get("legacy", {}).get("source_id")
                 if sid:
                     aliases[sid] = {"id": question["id"], "ch": payload["chunk"]}
+                    if hasattr(migrate_qa, "source_id_number"):
+                        aliases[migrate_qa.source_id_number(str(sid))] = {"id": question["id"], "ch": payload["chunk"]}
                 num = question.get("legacy", {}).get("number")
                 if num is not None:
                     aliases[f"n{num}"] = {"id": question["id"], "ch": payload["chunk"]}
+                old_file = question.get("legacy", {}).get("old_file")
+                if old_file:
+                    aliases[str(old_file)] = {"id": question["id"], "ch": payload["chunk"]}
 
         now = datetime.now(timezone.utc).isoformat(timespec="seconds")
         self.index = {"schema": SCHEMA, "generated": now, "count": len(entries), "entries": entries}
@@ -296,6 +321,7 @@ class QAStore:
             })
 
         self.manifest["total"] = len(entries)
+        self.manifest["generated"] = now
         _atomic_write(self.base / "manifest.json", self.manifest)
         self._known_ids = {e["id"] for e in entries}
         return len(entries)
