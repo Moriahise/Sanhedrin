@@ -62,9 +62,9 @@ def load_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def clean_source_id(raw_id) -> str:
-    qid = str(raw_id or "").strip()
-    return qid.replace("miyodeya_", "")
+def source_id(raw_id) -> str:
+    # Nicht kürzen: migrate_qa.py verwendet die Roh-ID stabil als legacy.source_id.
+    return str(raw_id or "").strip()
 
 
 def main() -> int:
@@ -83,7 +83,7 @@ def main() -> int:
                 q_txt, a_txt = extract_q_a(item.get("content", ""))
                 meta = item.get("metadata", {}) or {}
                 raw_id = item.get("id") or item.get("qid") or item.get("question_id")
-                source_id = clean_source_id(raw_id)
+                sid = source_id(raw_id)
                 answers = [{"text": a_txt, "accepted": True, "author": None, "score": None}] if a_txt else []
 
                 normalized = {
@@ -106,7 +106,7 @@ def main() -> int:
                 try:
                     store.add_question({
                         "source": "miyodea",
-                        "source_id": source_id,
+                        "source_id": sid,
                         "title": item.get("title") or "",
                         "question": q_txt,
                         "answers": answers,
