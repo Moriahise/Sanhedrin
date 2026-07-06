@@ -2,6 +2,12 @@ name: Q&A quality cleanup
 
 on:
   workflow_dispatch: {}
+  push:
+    paths:
+      - "quality_check_qa.py"
+      - "rebuild_index.py"
+      - ".github/scripts/quality_apply_questions.sh"
+      - ".github/workflows/quality-apply-questions.yml"
 
 permissions:
   contents: write
