@@ -4,6 +4,7 @@ let allResponsa = [];
 let currentResponsa = [];
 let qaCategories = [];
 let qaDataMode = 'legacy';
+let groupByCategory = false;
 
 // Pagination configuration
 const ITEMS_PER_PAGE = 60;
@@ -35,6 +36,15 @@ function sanitizeSummary(text, titleText) {
         }
     }
     return summary;
+}
+
+function escapeHtml(value) {
+    return String(value == null ? '' : value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
 }
 
 // Initialize on page load
@@ -103,6 +113,7 @@ async function loadResponsa() {
         currentResponsa = allResponsa;
         populateYearFilter();
         currentPage = 1;
+        renderCategoryOverview();
         displayResponsa(currentResponsa);
         updateStatistics();
     } catch (error) {
@@ -127,6 +138,7 @@ function rebuildCategoryFilter() {
     const categoryFilter = document.getElementById('categoryFilter');
     if (!categoryFilter || !qaCategories.length) return;
 
+    const currentValue = categoryFilter.value || 'all';
     const allText = currentLanguage === 'he' ? 'כל הקטגוריות' : 'All Categories';
     categoryFilter.innerHTML = '';
     const allOption = document.createElement('option');
@@ -143,6 +155,71 @@ function rebuildCategoryFilter() {
         option.dataset.en = cat.label_en || cat.id;
         option.textContent = currentLanguage === 'he' ? option.dataset.he : option.dataset.en;
         categoryFilter.appendChild(option);
+    });
+
+    if ([...categoryFilter.options].some(option => option.value === currentValue)) {
+        categoryFilter.value = currentValue;
+    }
+}
+
+function getCategoryCounts(items) {
+    const counts = new Map();
+    items.forEach(item => {
+        const id = item.category || 'general';
+        counts.set(id, (counts.get(id) || 0) + 1);
+    });
+    return counts;
+}
+
+function setCategoryFilter(categoryId) {
+    const categoryFilter = document.getElementById('categoryFilter');
+    if (!categoryFilter) return;
+    categoryFilter.value = categoryId || 'all';
+    filterResponsa();
+}
+
+function renderCategoryOverview() {
+    const overview = document.getElementById('categoryOverview');
+    if (!overview || !qaCategories.length) return;
+
+    const categoryFilter = document.getElementById('categoryFilter');
+    const activeCategory = categoryFilter ? categoryFilter.value : 'all';
+    const counts = getCategoryCounts(allResponsa);
+    const label = currentLanguage === 'he' ? 'קטגוריות' : 'Categories';
+    const hint = currentLanguage === 'he'
+        ? 'סנן את השאלות לפי תחום'
+        : 'Filter questions by subject';
+    const allLabel = currentLanguage === 'he' ? 'הכול' : 'All';
+
+    overview.innerHTML = `
+        <div class="category-overview-header">
+            <div>
+                <h2>${escapeHtml(label)}</h2>
+                <p>${escapeHtml(hint)}</p>
+            </div>
+        </div>
+        <div class="category-chip-row" id="categoryChipRow"></div>
+    `;
+
+    const row = document.getElementById('categoryChipRow');
+    const total = allResponsa.length;
+
+    const addChip = (id, text, count) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'category-chip' + (activeCategory === id ? ' active' : '');
+        button.setAttribute('aria-pressed', activeCategory === id ? 'true' : 'false');
+        button.dataset.category = id;
+        button.innerHTML = `${escapeHtml(text)} <span class="category-chip-count">${count}</span>`;
+        button.onclick = () => setCategoryFilter(id);
+        row.appendChild(button);
+    };
+
+    addChip('all', allLabel, total);
+    qaCategories.forEach(cat => {
+        const id = cat.id;
+        const text = categoryLabel(id, currentLanguage);
+        addChip(id, text, counts.get(id) || 0);
     });
 }
 
@@ -196,18 +273,67 @@ function displayResponsa(responsa) {
     const endIndex = startIndex + ITEMS_PER_PAGE;
     const pageItems = responsa.slice(startIndex, endIndex);
 
-    pageItems.forEach(item => {
-        const card = createResponsaCard(item);
-        grid.appendChild(card);
-    });
+    if (groupByCategory) {
+        renderGroupedCards(grid, pageItems);
+    } else {
+        pageItems.forEach(item => {
+            const card = createResponsaCard(item);
+            grid.appendChild(card);
+        });
+    }
 
     renderPaginationControls(responsa.length);
+}
+
+function renderGroupedCards(grid, items) {
+    const grouped = new Map();
+    items.forEach(item => {
+        const category = item.category || 'general';
+        if (!grouped.has(category)) grouped.set(category, []);
+        grouped.get(category).push(item);
+    });
+
+    qaCategories
+        .filter(cat => grouped.has(cat.id))
+        .forEach(cat => {
+            const groupItems = grouped.get(cat.id);
+            const heading = document.createElement('div');
+            heading.className = 'category-group-heading';
+            heading.innerHTML = `
+                <span>${escapeHtml(categoryLabel(cat.id, currentLanguage))}</span>
+                <small>${groupItems.length}</small>
+            `;
+            grid.appendChild(heading);
+            groupItems.forEach(item => grid.appendChild(createResponsaCard(item)));
+        });
+
+    // Falls Legacy-Daten eine Kategorie enthalten, die nicht in der Definition steht.
+    [...grouped.keys()]
+        .filter(id => !qaCategories.some(cat => cat.id === id))
+        .forEach(id => {
+            const groupItems = grouped.get(id);
+            const heading = document.createElement('div');
+            heading.className = 'category-group-heading';
+            heading.innerHTML = `
+                <span>${escapeHtml(categoryLabel(id, currentLanguage))}</span>
+                <small>${groupItems.length}</small>
+            `;
+            grid.appendChild(heading);
+            groupItems.forEach(item => grid.appendChild(createResponsaCard(item)));
+        });
+}
+
+function cardMetaTags(item) {
+    const tags = Array.isArray(item.tags) ? item.tags.filter(Boolean).slice(0, 4) : [];
+    if (!tags.length) return '';
+    return `<div class="card-tags">${tags.map(tag => `<span>${escapeHtml(tag)}</span>`).join('')}</div>`;
 }
 
 // Create individual responsa card
 function createResponsaCard(item) {
     const card = document.createElement('div');
     card.className = 'responsa-card';
+    if (item.needs_review) card.classList.add('needs-review-card');
     card.onclick = () => window.open(item.file, '_blank');
 
     const titleText = (currentLanguage === 'he' ? item.title_he : item.title_en) ||
@@ -222,28 +348,34 @@ function createResponsaCard(item) {
     const categoryText = (currentLanguage === 'he' ? item.category_he : item.category_en) ||
                          categoryLabel(item.category, currentLanguage);
     const readMoreText = currentLanguage === 'he' ? 'קרא עוד ←' : 'Read More →';
+    const reviewText = currentLanguage === 'he' ? 'בדיקה' : 'Review';
 
     const fileIcon = item.type === 'pdf' ? '📄' : '📝';
     const fileTypeLabel = item.type === 'pdf' ? 'PDF' : 'HTML';
     const dateText = item.date || '';
     const yearText = item.year || '';
+    const reviewBadge = item.needs_review ? `<span class="review-badge">${reviewText}</span>` : '';
 
     card.innerHTML = `
         <div class="card-header">
-            <span class="card-number">#${item.number}</span>
-            <h3 class="card-title">${titleText}</h3>
+            <span class="card-number">#${escapeHtml(item.number)}</span>
+            <h3 class="card-title">${escapeHtml(titleText)}</h3>
             <div class="card-meta">
-                <span>📅 ${dateText}</span>
-                <span>📖 ${yearText}</span>
+                <span>📅 ${escapeHtml(dateText)}</span>
+                <span>📖 ${escapeHtml(yearText)}</span>
                 <span>${fileIcon} ${fileTypeLabel}</span>
             </div>
         </div>
         <div class="card-body">
-            <p class="card-summary">${summaryText}</p>
-            <span class="card-category">${categoryText}</span>
+            <p class="card-summary">${escapeHtml(summaryText)}</p>
+            <div class="card-category-row">
+                <span class="card-category">${escapeHtml(categoryText)}</span>
+                ${reviewBadge}
+            </div>
+            ${cardMetaTags(item)}
         </div>
         <div class="card-footer">
-            <a href="${item.file}" class="card-link" onclick="event.stopPropagation()">${readMoreText}</a>
+            <a href="${escapeHtml(item.file)}" class="card-link" onclick="event.stopPropagation()">${readMoreText}</a>
         </div>
     `;
 
@@ -304,6 +436,7 @@ async function searchResponsa() {
 
     currentResponsa = filtered;
     currentPage = 1;
+    renderCategoryOverview();
     displayResponsa(currentResponsa);
 }
 
@@ -312,12 +445,20 @@ function filterResponsa() {
     searchResponsa();
 }
 
+function toggleCategoryGrouping() {
+    const checkbox = document.getElementById('groupByCategory');
+    groupByCategory = !!(checkbox && checkbox.checked);
+    displayResponsa(currentResponsa);
+}
+
 // Toggle language
 async function toggleLanguage() {
     currentLanguage = currentLanguage === 'he' ? 'en' : 'he';
     document.documentElement.lang = currentLanguage;
     document.body.dir = currentLanguage === 'he' ? 'rtl' : 'ltr';
+    rebuildCategoryFilter();
     updateLanguage();
+    renderCategoryOverview();
     await searchResponsa();
 }
 
