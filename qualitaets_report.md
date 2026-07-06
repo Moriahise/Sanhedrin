@@ -1,5 +1,5 @@
-# qualitaets_report — 06.07.2026 22:05:46
-Modus: REPORT (keine Datenänderung)
+# qualitaets_report — 06.07.2026 22:24:30
+Modus: ENTFERNEN (--run)
 
 ## Analyse (87849 Einträge geprüft)
 - LEER (kein Fragetext, kein Titel): 0
@@ -10,4 +10,11 @@ Modus: REPORT (keine Datenänderung)
 - GLEICHE_FRAGE, andere Antworten (manuell prüfen, NICHT entfernt): 2 — [['ye-4787', 'ye-4819'], ['my-154597', 'ye-154597']]
 - **Zu entfernen gesamt: 40778 von 87849 (46 %)**
 
-**Report-Modus — nichts wurde geändert.** Wenn die Funde plausibel sind: mit --run ausführen.
+## Ausführung
+- Backup: 201 Chunks + Index nach _backup_before_quality/2026-07-06_22-24-30/ (Prüfsummen verifiziert)
+- Quarantäne: 40778 vollständige Einträge in entfernte_eintraege.json
+- Entfernt: 40778 | Bestand jetzt: 47071
+- Aliase entfernter Duplikate auf Überlebende umgeleitet: 40738
+- Index neu aufgebaut | Konsistenz: OK
+
+Rückweg: Chunks + Index aus dem lokalen Backup-Ordner zurückkopieren; entfernte Einträge stehen vollständig in entfernte_eintraege.json.
