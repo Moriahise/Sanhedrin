@@ -2,6 +2,7 @@
 _migration_test_output/
 _backup_before_question_migration/
 _backup_before_classification/
+_backup_before_quality/
 
 # Python
 __pycache__/
