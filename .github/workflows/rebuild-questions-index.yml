@@ -1,0 +1,25 @@
+name: Rebuild questions index
+
+on:
+  workflow_dispatch: {}
+  push:
+    paths:
+      - "rebuild_index.py"
+      - "qa_store.py"
+      - ".github/scripts/rebuild_questions_index.sh"
+      - ".github/workflows/rebuild-questions-index.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: bash .github/scripts/rebuild_questions_index.sh
