@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Rebuild from current chunk files.
 python3 -m py_compile migrate_qa.py qa_store.py rebuild_index.py
 python3 rebuild_index.py
 
