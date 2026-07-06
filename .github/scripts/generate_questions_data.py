@@ -9,12 +9,16 @@ from __future__ import annotations
 
 import json
 import shutil
+import sys
 from datetime import datetime
 from pathlib import Path
 
+ROOT = Path(__file__).resolve().parents[2]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
 import migrate_qa
 
-ROOT = Path(__file__).resolve().parents[2]
 TARGET = ROOT / "data" / "questions"
 REPORT = ROOT / "migration_report.md"
 MAX_PER_CHUNK = 500
