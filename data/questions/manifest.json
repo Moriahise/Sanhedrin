@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated": "2026-07-06T20:59:51+00:00",
+ "generated": "2026-07-06T21:22:12+00:00",
  "total": 87849,
  "chunks": 201,
  "open_chunk": 201,
@@ -8,5 +8,6 @@
  "max_chunk_bytes": 1500000,
  "index_files": [
   "index.json"
- ]
+ ],
+ "upload_counter": 0
 }
