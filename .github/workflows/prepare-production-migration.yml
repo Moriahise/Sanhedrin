@@ -1,0 +1,44 @@
+name: Prepare production Q&A migration
+
+on:
+  push:
+    branches:
+      - qa-production-migration-2026-07-06
+    paths:
+      - '.github/workflows/prepare-production-migration.yml'
+      - 'migrate_production.py'
+      - 'migrate_qa.py'
+      - 'validate_migration.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: qa-production-migration-2026-07-06
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run non-destructive production migration
+        run: |
+          python3 migrate_production.py --run --force-rebuild
+
+      - name: Commit generated migration structure
+        run: |
+          git add data/questions _backup_before_question_migration migration_report.md
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+          else
+            git commit -m "Generate production Q&A migration structure"
+            git push origin qa-production-migration-2026-07-06
+          fi
