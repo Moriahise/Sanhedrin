@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Triggered via GitHub Actions to generate data/questions from current main.
 python3 -m py_compile migrate_qa.py .github/scripts/generate_questions_data.py
 python3 .github/scripts/generate_questions_data.py
 
