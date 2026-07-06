@@ -15,4 +15,5 @@ if git diff --cached --quiet; then
 fi
 
 git commit -m "Add Q&A quality report"
+git pull --rebase origin main
 git push
