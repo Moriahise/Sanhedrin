@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Generate professional report before removing empty or duplicate Q&A records.
 python3 -m py_compile migrate_qa.py qa_store.py quality_check_qa.py
 python3 quality_check_qa.py
 
