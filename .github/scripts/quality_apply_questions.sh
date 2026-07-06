@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-python3 -m py_compile migrate_qa.py qa_store.py quality_check_qa.py
-python3 quality_check_qa.py --run
+# Confirmed after reviewing qualitaets_report.md: remove empty/title-only/duplicate entries.
+python3 -m py_compile migrate_qa.py qa_store.py quality_check_qa.py rebuild_index.py
+python3 quality_check_qa.py --run --yes-i-checked-the-report
 python3 rebuild_index.py
 
 git config user.name "github-actions[bot]"
@@ -15,4 +16,5 @@ if git diff --cached --quiet; then
 fi
 
 git commit -m "Clean empty and duplicate Q&A records"
+git pull --rebase origin main
 git push
