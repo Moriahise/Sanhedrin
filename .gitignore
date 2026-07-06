@@ -1,6 +1,7 @@
 # Migrations-/Test-Artefakte: nur lokal, nie pushen
 _migration_test_output/
 _backup_before_question_migration/
+_backup_before_classification/
 
 # Python
 __pycache__/
