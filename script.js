@@ -1,39 +1,16 @@
 // Global state
 let currentLanguage = 'he';
 let allResponsa = [];
+let currentResponsa = [];
+let qaCategories = [];
+let qaDataMode = 'legacy';
 
 // Pagination configuration
-// Number of cards to display on each page. Adjust this value to balance performance
-// and the amount of content displayed on the screen. A lower number means fewer
-// cards are rendered at once, which keeps the DOM small and the page responsive.
 const ITEMS_PER_PAGE = 60;
-// The currently active page (1-based index). When filters or searches change,
-// this resets to 1 so the user always starts at the beginning of the result set.
 let currentPage = 1;
-// Holds the current filtered list of responsa. This is updated after every search
-// or filter operation. Rendering functions operate on this list rather than
-// recomputing the filter chain each time.
-let currentResponsa = [];
 
 // Helper to sanitize summary text for Mi Yodeya entries.
-// Mi Yodeya entries sometimes include markdown headings like "# Title" or "## Frage".
-// This function removes any line starting with '#' (after trimming) and also removes
-// a leading line that repeats the title text. It returns a trimmed version of the
-// summary for display in cards. If no suitable summary remains, it returns an empty
-// string, prompting the caller to use a fallback.
 function sanitizeSummary(text, titleText) {
-    // Helper to sanitize summary text for Mi Yodeya entries.
-    // Mi Yodeya summaries often embed markdown headings such as "# Title", "## Frage" or
-    // in‑line markers like "##" or "###" within a single line. These headings add
-    // unnecessary clutter to the short snippet shown on the index page. To keep
-    // summaries concise and meaningful we:
-    //   1. Skip any lines that are empty or start with one or more '#' characters.
-    //   2. Within each remaining line, strip content after the first occurrence of '##' or '###'.
-    //   3. Use only the first processed line as the summary. This typically corresponds
-    //      to the question text itself. If this line repeats the title (case‑insensitive),
-    //      we discard it and take the next processed line if available.
-    //   4. If no suitable line is found, return an empty string and let the caller
-    //      decide how to handle the absence of a summary.
     if (!text) return '';
     const lines = String(text).split(/\r?\n/);
     const processedLines = [];
@@ -45,11 +22,8 @@ function sanitizeSummary(text, titleText) {
         if (idx2 !== -1 && idx2 < cutIndex) cutIndex = idx2;
         const idx3 = line.indexOf('###');
         if (idx3 !== -1 && idx3 < cutIndex) cutIndex = idx3;
-        if (cutIndex < line.length) {
-            line = line.substring(0, cutIndex).trim();
-        }
-        if (line === '') continue;
-        processedLines.push(line);
+        if (cutIndex < line.length) line = line.substring(0, cutIndex).trim();
+        if (line !== '') processedLines.push(line);
     }
     if (processedLines.length === 0) return '';
     let summary = processedLines[0];
@@ -69,71 +43,164 @@ document.addEventListener('DOMContentLoaded', function() {
     updateLanguage();
 });
 
-// Load responsa data
+function categoryLabel(categoryId, lang) {
+    const cat = qaCategories.find(c => c.id === categoryId);
+    if (!cat) return categoryId || '';
+    return lang === 'he' ? (cat.label_he || cat.label_en || cat.id)
+                         : (cat.label_en || cat.label_he || cat.id);
+}
+
+function normalizeQuestionIndexEntry(entry, idx) {
+    const titleHe = entry.title_he || '';
+    const titleEn = entry.title_en || titleHe || '';
+    const summary = entry.excerpt || '';
+    const category = entry.category || 'general';
+    const id = entry.id || String(idx + 1);
+
+    return {
+        number: id,
+        source_id: id,
+        category: category,
+        category_he: categoryLabel(category, 'he'),
+        category_en: categoryLabel(category, 'en'),
+        title_he: titleHe,
+        title_en: titleEn,
+        summary_he: summary,
+        summary_en: summary,
+        file: 'qa.html?id=' + encodeURIComponent(id),
+        date: entry.year || '',
+        year: entry.year || '',
+        type: 'html',
+        qaIndex: true,
+        needs_review: !!entry.needsReview,
+        tags: entry.tags || []
+    };
+}
+
+// Load responsa / Q&A index data
 async function loadResponsa() {
     try {
-        const response = await fetch('responsa.json');
-        allResponsa = await response.json();
-        // The full dataset is the initial set of responsa
+        if (window.QAData) {
+            const modeInfo = await QAData.init();
+            qaDataMode = modeInfo.mode;
+            qaCategories = await QAData.loadCategories();
+
+            if (qaDataMode === 'new') {
+                const questionIndex = await QAData.loadQuestionIndex();
+                allResponsa = questionIndex.map(normalizeQuestionIndexEntry);
+                rebuildCategoryFilter();
+            } else {
+                const response = await fetch('responsa.json');
+                allResponsa = await response.json();
+                qaCategories = legacyCategoriesFromSelect();
+            }
+        } else {
+            const response = await fetch('responsa.json');
+            allResponsa = await response.json();
+            qaCategories = legacyCategoriesFromSelect();
+        }
+
         currentResponsa = allResponsa;
         populateYearFilter();
-        // Reset to page 1 and render the first page
         currentPage = 1;
         displayResponsa(currentResponsa);
         updateStatistics();
     } catch (error) {
         console.error('Error loading responsa:', error);
-        // If file doesn't exist, show empty state
         document.getElementById('emptyState').style.display = 'block';
     }
+}
+
+function legacyCategoriesFromSelect() {
+    const select = document.getElementById('categoryFilter');
+    return Array.from(select.querySelectorAll('option'))
+        .filter(option => option.value !== 'all')
+        .map((option, idx) => ({
+            id: option.value,
+            label_he: option.dataset.he || option.textContent,
+            label_en: option.dataset.en || option.textContent,
+            order: idx + 1
+        }));
+}
+
+function rebuildCategoryFilter() {
+    const categoryFilter = document.getElementById('categoryFilter');
+    if (!categoryFilter || !qaCategories.length) return;
+
+    const allText = currentLanguage === 'he' ? 'כל הקטגוריות' : 'All Categories';
+    categoryFilter.innerHTML = '';
+    const allOption = document.createElement('option');
+    allOption.value = 'all';
+    allOption.dataset.he = 'כל הקטגוריות';
+    allOption.dataset.en = 'All Categories';
+    allOption.textContent = allText;
+    categoryFilter.appendChild(allOption);
+
+    qaCategories.forEach(cat => {
+        const option = document.createElement('option');
+        option.value = cat.id;
+        option.dataset.he = cat.label_he || cat.id;
+        option.dataset.en = cat.label_en || cat.id;
+        option.textContent = currentLanguage === 'he' ? option.dataset.he : option.dataset.en;
+        categoryFilter.appendChild(option);
+    });
 }
 
 // Populate year filter
 function populateYearFilter() {
     const yearFilter = document.getElementById('yearFilter');
-    const years = [...new Set(allResponsa.map(r => r.year))].sort((a, b) => b - a);
-    
+    if (!yearFilter) return;
+    const currentValue = yearFilter.value || 'all';
+    yearFilter.innerHTML = '';
+    const allOption = document.createElement('option');
+    allOption.value = 'all';
+    allOption.dataset.he = 'כל השנים';
+    allOption.dataset.en = 'All Years';
+    allOption.textContent = currentLanguage === 'he' ? 'כל השנים' : 'All Years';
+    yearFilter.appendChild(allOption);
+
+    const years = [...new Set(allResponsa.map(r => r.year).filter(Boolean))]
+        .sort((a, b) => Number(b) - Number(a));
+
     years.forEach(year => {
         const option = document.createElement('option');
         option.value = year;
         option.textContent = year;
         yearFilter.appendChild(option);
     });
+
+    if ([...yearFilter.options].some(o => o.value === currentValue)) {
+        yearFilter.value = currentValue;
+    }
 }
 
 // Display responsa cards
 function displayResponsa(responsa) {
     const grid = document.getElementById('responsaGrid');
     const emptyState = document.getElementById('emptyState');
-    
-    // Always clear the grid before rendering
+
     grid.innerHTML = '';
-    
-    // If no items match the current filter, show the empty state and hide pagination
+
     if (responsa.length === 0) {
         grid.style.display = 'none';
         emptyState.style.display = 'block';
         const paginationContainer = document.getElementById('paginationControls');
-        if (paginationContainer) {
-            paginationContainer.style.display = 'none';
-        }
+        if (paginationContainer) paginationContainer.style.display = 'none';
         return;
     }
-    
+
     grid.style.display = 'grid';
     emptyState.style.display = 'none';
-    
-    // Determine which slice of items to render for the current page
+
     const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
     const pageItems = responsa.slice(startIndex, endIndex);
-    
+
     pageItems.forEach(item => {
         const card = createResponsaCard(item);
         grid.appendChild(card);
     });
-    
-    // Render pagination controls to allow navigating between pages
+
     renderPaginationControls(responsa.length);
 }
 
@@ -142,30 +209,32 @@ function createResponsaCard(item) {
     const card = document.createElement('div');
     card.className = 'responsa-card';
     card.onclick = () => window.open(item.file, '_blank');
-    
-    const titleText = currentLanguage === 'he' ? item.title_he : item.title_en;
-    // Choose the appropriate summary based on language and sanitize it for display. If the sanitized
-    // summary is empty (for example, if it contained only markdown headings), fall back to the
-    // original summary text or an empty string.
-    const rawSummary = currentLanguage === 'he' ? item.summary_he : item.summary_en;
+
+    const titleText = (currentLanguage === 'he' ? item.title_he : item.title_en) ||
+                      item.title_he || item.title_en || item.number || '';
+
+    const rawSummary = (currentLanguage === 'he' ? item.summary_he : item.summary_en) ||
+                       item.summary_he || item.summary_en || '';
+
     let summaryText = sanitizeSummary(rawSummary, titleText);
-    if (!summaryText) {
-        summaryText = rawSummary || '';
-    }
-    const categoryText = currentLanguage === 'he' ? item.category_he : item.category_en;
+    if (!summaryText) summaryText = rawSummary || '';
+
+    const categoryText = (currentLanguage === 'he' ? item.category_he : item.category_en) ||
+                         categoryLabel(item.category, currentLanguage);
     const readMoreText = currentLanguage === 'he' ? 'קרא עוד ←' : 'Read More →';
-    
-    // Determine file type icon
+
     const fileIcon = item.type === 'pdf' ? '📄' : '📝';
     const fileTypeLabel = item.type === 'pdf' ? 'PDF' : 'HTML';
-    
+    const dateText = item.date || '';
+    const yearText = item.year || '';
+
     card.innerHTML = `
         <div class="card-header">
             <span class="card-number">#${item.number}</span>
             <h3 class="card-title">${titleText}</h3>
             <div class="card-meta">
-                <span>📅 ${item.date}</span>
-                <span>📖 ${item.year}</span>
+                <span>📅 ${dateText}</span>
+                <span>📖 ${yearText}</span>
                 <span>${fileIcon} ${fileTypeLabel}</span>
             </div>
         </div>
@@ -177,40 +246,50 @@ function createResponsaCard(item) {
             <a href="${item.file}" class="card-link" onclick="event.stopPropagation()">${readMoreText}</a>
         </div>
     `;
-    
+
     return card;
 }
 
 // Search functionality
-function searchResponsa() {
-    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+async function searchResponsa() {
+    const searchTerm = document.getElementById('searchInput').value;
     const categoryFilter = document.getElementById('categoryFilter').value;
     const yearFilter = document.getElementById('yearFilter').value;
-    
-    let filtered = allResponsa;
-    
-    // Apply search
-    if (searchTerm) {
-        filtered = filtered.filter(item => 
-            item.title_he.toLowerCase().includes(searchTerm) ||
-            item.title_en.toLowerCase().includes(searchTerm) ||
-            item.summary_he.toLowerCase().includes(searchTerm) ||
-            item.summary_en.toLowerCase().includes(searchTerm) ||
-            item.number.toString().includes(searchTerm)
-        );
+
+    let filtered;
+
+    if (window.QAData && qaDataMode === 'new') {
+        const opts = {};
+        if (categoryFilter !== 'all') opts.category = categoryFilter;
+        const result = searchTerm
+            ? await QAData.search(searchTerm, opts)
+            : (categoryFilter !== 'all'
+                ? await QAData.getQuestionsByCategory(categoryFilter)
+                : await QAData.loadQuestionIndex());
+        filtered = result.map(normalizeQuestionIndexEntry);
+    } else {
+        filtered = allResponsa;
+        const term = String(searchTerm || '').toLowerCase();
+
+        if (term) {
+            filtered = filtered.filter(item =>
+                String(item.title_he || '').toLowerCase().includes(term) ||
+                String(item.title_en || '').toLowerCase().includes(term) ||
+                String(item.summary_he || '').toLowerCase().includes(term) ||
+                String(item.summary_en || '').toLowerCase().includes(term) ||
+                String(item.number || '').toLowerCase().includes(term)
+            );
+        }
+
+        if (categoryFilter !== 'all') {
+            filtered = filtered.filter(item => item.category === categoryFilter);
+        }
     }
-    
-    // Apply category filter
-    if (categoryFilter !== 'all') {
-        filtered = filtered.filter(item => item.category === categoryFilter);
-    }
-    
-    // Apply year filter
+
     if (yearFilter !== 'all') {
-        filtered = filtered.filter(item => item.year.toString() === yearFilter);
+        filtered = filtered.filter(item => String(item.year || '') === String(yearFilter));
     }
-    
-    // Update the global filtered responsa and reset to the first page
+
     currentResponsa = filtered;
     currentPage = 1;
     displayResponsa(currentResponsa);
@@ -222,142 +301,95 @@ function filterResponsa() {
 }
 
 // Toggle language
-function toggleLanguage() {
+async function toggleLanguage() {
     currentLanguage = currentLanguage === 'he' ? 'en' : 'he';
     document.documentElement.lang = currentLanguage;
     document.body.dir = currentLanguage === 'he' ? 'rtl' : 'ltr';
     updateLanguage();
-    // Recompute the filtered list to ensure language-specific fields (e.g. title) are updated
-    currentResponsa = getFilteredResponsa();
-    // Maintain the current page when toggling language (do not reset to page 1)
-    displayResponsa(currentResponsa);
+    await searchResponsa();
 }
 
 // Update language-dependent elements
 function updateLanguage() {
-    // Update select options
     const selects = document.querySelectorAll('select option');
     selects.forEach(option => {
         const text = currentLanguage === 'he' ? option.dataset.he : option.dataset.en;
         if (text) option.textContent = text;
     });
-    
-    // Update placeholder
+
     const searchInput = document.getElementById('searchInput');
-    searchInput.placeholder = currentLanguage === 'he' ? 'חיפוש...' : 'Search...';
+    if (searchInput) {
+        searchInput.placeholder = currentLanguage === 'he' ? 'חיפוש...' : 'Search...';
+    }
 }
 
 // Get currently filtered responsa
 function getFilteredResponsa() {
-    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-    const categoryFilter = document.getElementById('categoryFilter').value;
-    const yearFilter = document.getElementById('yearFilter').value;
-    
-    let filtered = allResponsa;
-    
-    if (searchTerm) {
-        filtered = filtered.filter(item => 
-            item.title_he.toLowerCase().includes(searchTerm) ||
-            item.title_en.toLowerCase().includes(searchTerm) ||
-            item.summary_he.toLowerCase().includes(searchTerm) ||
-            item.summary_en.toLowerCase().includes(searchTerm)
-        );
-    }
-    
-    if (categoryFilter !== 'all') {
-        filtered = filtered.filter(item => item.category === categoryFilter);
-    }
-    
-    if (yearFilter !== 'all') {
-        filtered = filtered.filter(item => item.year.toString() === yearFilter);
-    }
-    
-    return filtered;
+    return currentResponsa;
 }
 
 // Update statistics
 function updateStatistics() {
     document.getElementById('totalResponsa').textContent = allResponsa.length;
-    
+    const totalCategories = document.getElementById('totalCategories');
+    if (totalCategories && qaCategories.length) totalCategories.textContent = qaCategories.length;
+
     if (allResponsa.length > 0) {
-        const years = allResponsa.map(r => r.year);
-        const latestYear = Math.max(...years);
-        document.getElementById('latestYear').textContent = latestYear;
+        const years = allResponsa.map(r => Number(r.year)).filter(Boolean);
+        if (years.length) {
+            document.getElementById('latestYear').textContent = Math.max(...years);
+        }
     }
 }
 
-/**
- * Render pagination controls below the responsa grid. This function creates
- * Previous/Next buttons and a page indicator based on the total number of
- * items. Buttons are disabled when on the first or last page. The labels
- * adjust to the current language.
- *
- * @param {number} totalItems - Total number of items in the current filtered list.
- */
 function renderPaginationControls(totalItems) {
-    // Locate or create the pagination container
     let paginationContainer = document.getElementById('paginationControls');
     if (!paginationContainer) {
         paginationContainer = document.createElement('div');
         paginationContainer.id = 'paginationControls';
         paginationContainer.className = 'pagination-controls';
-        // Insert after the responsa grid
         const gridParent = document.getElementById('responsaGrid').parentNode;
         gridParent.appendChild(paginationContainer);
     }
-    // Clear existing controls
-    paginationContainer.innerHTML = '';
 
+    paginationContainer.innerHTML = '';
     const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
-    // If only one page is needed, hide controls
+
     if (totalPages <= 1) {
         paginationContainer.style.display = 'none';
         return;
     }
+
     paginationContainer.style.display = 'flex';
 
-    // Determine labels based on language
     const prevLabel = currentLanguage === 'he' ? 'הקודם' : 'Previous';
     const nextLabel = currentLanguage === 'he' ? 'הבא' : 'Next';
-    // Create Previous button
+
     const prevButton = document.createElement('button');
     prevButton.textContent = prevLabel;
     prevButton.disabled = currentPage === 1;
     prevButton.onclick = function(event) {
         event.preventDefault();
-        if (currentPage > 1) {
-            changePage(currentPage - 1);
-        }
+        if (currentPage > 1) changePage(currentPage - 1);
     };
     paginationContainer.appendChild(prevButton);
-    
-    // Page indicator
+
     const pageIndicator = document.createElement('span');
     pageIndicator.textContent = `${currentPage} / ${totalPages}`;
     pageIndicator.className = 'page-indicator';
     pageIndicator.style.margin = '0 1rem';
     paginationContainer.appendChild(pageIndicator);
-    
-    // Create Next button
+
     const nextButton = document.createElement('button');
     nextButton.textContent = nextLabel;
     nextButton.disabled = currentPage === totalPages;
     nextButton.onclick = function(event) {
         event.preventDefault();
-        if (currentPage < totalPages) {
-            changePage(currentPage + 1);
-        }
+        if (currentPage < totalPages) changePage(currentPage + 1);
     };
     paginationContainer.appendChild(nextButton);
 }
 
-/**
- * Change the current page and re-render the responsa grid using the previously
- * filtered list. This function ensures that the page number remains within
- * bounds and triggers a call to displayResponsa.
- *
- * @param {number} page - The new page number to display.
- */
 function changePage(page) {
     const totalPages = Math.ceil(currentResponsa.length / ITEMS_PER_PAGE);
     if (page < 1 || page > totalPages) return;
