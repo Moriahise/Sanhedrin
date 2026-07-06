@@ -113,8 +113,10 @@
     </div>
   </footer>
 
+  <script src="qa-data.js"></script>
   <script>
     let currentLanguage = 'he';
+
     function toggleLanguage(){
       currentLanguage = currentLanguage === 'he' ? 'en' : 'he';
       document.documentElement.lang = currentLanguage;
@@ -128,26 +130,9 @@
 
     function safeText(s){ return (s == null) ? '' : String(s); }
 
-    function extractMiYodeaQA(content){
-      // content is markdown-ish with embedded html.
-      // Extract between "## Frage" and "## Antworten" (question),
-      // and pick best answer: "### ✅ Antwort" else first "### Antwort".
-      const src = safeText(content);
-
-      const qMatch = src.match(/##\s*Frage([\s\S]*?)(##\s*Antworten|$)/i);
-      const questionHtml = qMatch ? qMatch[1].trim() : '';
-
-      // Best answer (✅) preferred
-      let aMatch = src.match(/###\s*✅\s*Antwort[\s\S]*?\n([\s\S]*?)(\n###\s|$)/i);
-      if(!aMatch){
-        aMatch = src.match(/###\s*Antwort[\s\S]*?\n([\s\S]*?)(\n###\s|$)/i);
-      }
-      const answerHtml = aMatch ? aMatch[1].trim() : '';
-
-      return {
-        questionHtml: questionHtml || src,
-        answerHtml: answerHtml || ''
-      };
+    function showEmpty(){
+      document.querySelector('.qa-card').style.display = 'none';
+      document.getElementById('emptyState').style.display = 'block';
     }
 
     function setTags(tags){
@@ -166,126 +151,60 @@
       box.style.display = 'flex';
     }
 
+    function answerHtml(answer, index){
+      const text = safeText(answer && answer.text);
+      if(!text) return '';
+      const prefix = (answer && answer.accepted && index > 0) ? '<p><strong>✓</strong></p>' : '';
+      return prefix + text;
+    }
+
     async function loadQA(){
       const id = getParam('id');
-      let srcParam = getParam('src');
-      if(!id){
-        document.querySelector('.qa-card').style.display = 'none';
-        document.getElementById('emptyState').style.display = 'block';
+      const srcParam = getParam('src');
+
+      if(!id || !window.QAData){
+        showEmpty();
         return;
       }
 
       try{
-        // Determine which source file to load. If the user specified a `src` parameter,
-        // use that. Otherwise, consult responsa.json to find the corresponding source
-        // path based on the source_id of this question. This avoids relying on
-        // a single qa_db.json file that may not exist when the database is split.
-        let resolvedSrc = srcParam;
-        // Cache for responsa data; used for fallback to year file
-        let responsaData = null;
-        if(!resolvedSrc){
-          // Fetch responsa.json to find the entry for this question
-          const respRes = await fetch('responsa.json');
-          responsaData = await respRes.json();
-          const entry = Array.isArray(responsaData) ? responsaData.find(r => String(r.source_id) === String(id)) : null;
-          if(entry && entry.src){
-            resolvedSrc = entry.src;
-          }
-        }
-
-        // Attempt to load data from the resolved source
-        let data = null;
-        let isMiYodea = false;
-        let item = null;
-        if(resolvedSrc){
-          const res = await fetch(resolvedSrc);
-          data = await res.json();
-          if(Array.isArray(data)){
-            isMiYodea = true;
-            item = data.find(x => String(x.id) === String(id));
-          } else {
-            const list = (data && data.questions) ? data.questions : [];
-            item = list.find(x => String(x.id) === String(id));
-          }
-        }
-
-        // If still not found, attempt to derive year from responsa entry and load that file
+        const item = await QAData.loadQuestionById(id, srcParam);
         if(!item){
-          // Ensure responsaData is loaded
-          if(!responsaData){
-            const respRes2 = await fetch('responsa.json');
-            responsaData = await respRes2.json();
-          }
-          const entry2 = Array.isArray(responsaData) ? responsaData.find(r => String(r.source_id) === String(id)) : null;
-          if(entry2 && entry2.year){
-            const yearFile = 'qa_db/' + entry2.year + '.json';
-            try{
-              const yearRes = await fetch(yearFile);
-              const yearData = await yearRes.json();
-              const list2 = (yearData && yearData.questions) ? yearData.questions : [];
-              item = list2.find(x => String(x.id) === String(id));
-              if(item){
-                resolvedSrc = yearFile;
-                isMiYodea = false; // Yeshiva style
-              }
-            }catch(err){
-              // ignore
-            }
-          }
-        }
-
-        if(!item){
-          document.querySelector('.qa-card').style.display = 'none';
-          document.getElementById('emptyState').style.display = 'block';
+          showEmpty();
           return;
         }
 
-        // Title
-        document.getElementById('qaTitle').textContent = item.title || ('שאלה #' + id);
+        const title = item.title || item.title_he || item.title_en || ('שאלה #' + id);
+        document.getElementById('qaTitle').textContent = title;
 
-        // Meta + Tags
-        const meta = item.metadata || {};
         const parts = [];
-        if(meta.date){
-          const dt = new Date(meta.date);
-          if(!isNaN(dt.getTime())){
-            parts.push('📅 ' + dt.toLocaleDateString('he-IL'));
-          }
+        const dateValue = item.date || (item.metadata && item.metadata.date);
+        if(dateValue){
+          const dt = new Date(dateValue);
+          parts.push('📅 ' + (isNaN(dt.getTime()) ? safeText(dateValue) : dt.toLocaleDateString('he-IL')));
         }
-        if(meta.rabbi) parts.push('👤 ' + meta.rabbi);
-        if(typeof meta.upvotes !== 'undefined') parts.push('👍 ' + meta.upvotes);
-        if(typeof meta.score !== 'undefined') parts.push('⭐ ' + meta.score);
-        if(typeof meta.views !== 'undefined') parts.push('👁️ ' + meta.views);
+        if(item.source) parts.push('📚 ' + item.source);
+        if(item.category) parts.push('🏷️ ' + item.category);
+        if(typeof item.score !== 'undefined' && item.score !== null) parts.push('⭐ ' + item.score);
+        if(typeof item.views !== 'undefined' && item.views !== null) parts.push('👁️ ' + item.views);
         document.getElementById('qaMeta').textContent = parts.join('   |   ');
-        setTags(meta.tags || []);
 
-        // Body
-        if(isMiYodea){
-          const extracted = extractMiYodeaQA(item.content);
-          document.getElementById('qaQuestion').innerHTML = extracted.questionHtml;
-          document.getElementById('qaAnswer').innerHTML = extracted.answerHtml || '<p>(No extracted answer found)</p>';
-        } else {
-          document.getElementById('qaQuestion').textContent = item.question || '';
-          document.getElementById('qaAnswer').textContent = item.answer || '';
-        }
+        setTags(item.tags || (item.metadata && item.metadata.tags) || []);
 
-        // Source link
+        document.getElementById('qaQuestion').innerHTML = safeText(item.question);
+        const answers = Array.isArray(item.answers) ? item.answers : [];
+        document.getElementById('qaAnswer').innerHTML = answers.length
+          ? answers.map(answerHtml).filter(Boolean).join('<hr>')
+          : '<p>(No extracted answer found)</p>';
+
         const link = document.getElementById('qaSourceLink');
-        let srcUrl = '';
-        if (item && item.url) {
-          srcUrl = String(item.url);
-        } else if (meta && meta.url) {
-          srcUrl = String(meta.url);
-        } else if (!isMiYodea && id) {
-          srcUrl = 'https://www.yeshiva.org.il/ask/' + id;
-        }
+        const srcUrl = item.url || (item.metadata && item.metadata.url) || '';
         link.href = srcUrl || '#';
         link.style.display = srcUrl ? 'inline-block' : 'none';
 
       } catch(e){
         console.error(e);
-        document.querySelector('.qa-card').style.display = 'none';
-        document.getElementById('emptyState').style.display = 'block';
+        showEmpty();
       }
     }
 
