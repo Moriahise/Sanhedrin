@@ -261,11 +261,20 @@ async function searchResponsa() {
     if (window.QAData && qaDataMode === 'new') {
         const opts = {};
         if (categoryFilter !== 'all') opts.category = categoryFilter;
-        const result = searchTerm
-            ? await QAData.search(searchTerm, opts)
-            : (categoryFilter !== 'all'
+
+        let result;
+        if (searchTerm) {
+            // Standard: schneller Index. Fallback: Volltext nur, wenn der Index nichts findet.
+            result = await QAData.search(searchTerm, opts);
+            if (result.length === 0 && typeof QAData.searchDeep === 'function') {
+                result = await QAData.searchDeep(searchTerm, opts);
+            }
+        } else {
+            result = categoryFilter !== 'all'
                 ? await QAData.getQuestionsByCategory(categoryFilter)
-                : await QAData.loadQuestionIndex());
+                : await QAData.loadQuestionIndex();
+        }
+
         filtered = result.map(normalizeQuestionIndexEntry);
     } else {
         filtered = allResponsa;
@@ -277,6 +286,9 @@ async function searchResponsa() {
                 String(item.title_en || '').toLowerCase().includes(term) ||
                 String(item.summary_he || '').toLowerCase().includes(term) ||
                 String(item.summary_en || '').toLowerCase().includes(term) ||
+                String(item.category || '').toLowerCase().includes(term) ||
+                String(item.category_he || '').toLowerCase().includes(term) ||
+                String(item.category_en || '').toLowerCase().includes(term) ||
                 String(item.number || '').toLowerCase().includes(term)
             );
         }
