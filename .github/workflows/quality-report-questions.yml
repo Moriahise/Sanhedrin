@@ -1,0 +1,24 @@
+name: Q&A quality report
+
+on:
+  workflow_dispatch: {}
+  push:
+    paths:
+      - "quality_check_qa.py"
+      - ".github/scripts/quality_report_questions.sh"
+      - ".github/workflows/quality-report-questions.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: bash .github/scripts/quality_report_questions.sh
