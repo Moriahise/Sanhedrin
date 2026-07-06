@@ -2,6 +2,11 @@ name: Generate questions data
 
 on:
   workflow_dispatch: {}
+  push:
+    paths:
+      - ".github/workflows/generate-questions.yml"
+      - ".github/scripts/generate_questions_data.sh"
+      - ".github/scripts/generate_questions_data.py"
 
 permissions:
   contents: write
