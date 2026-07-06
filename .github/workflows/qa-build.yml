@@ -1,11 +1,15 @@
-name: QA → responsa.json (auto)
+name: QA → data/questions (chunked)
 
 on:
   push:
     paths:
-      - "data/qa/*/*.json"  # ← NUR Unterordner, NICHT data/qa/*.json!
+      - "data/qa/*.json"
+      - "data/qa/*/*.json"
       - "tools/qa_merge.py"
-      - "tools/build_qa_db.py"
+      - "qa_store.py"
+      - "add_qa_upload.py"
+      - "migrate_qa.py"
+      - "qa-data.js"
       - "qa.html"
   workflow_dispatch: {}
 
@@ -13,7 +17,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: responsa-update  # ← GLEICHE Gruppe!
+  group: qa-question-store-update
   cancel-in-progress: false
 
 jobs:
@@ -30,29 +34,26 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Build qa_db.json
-        run: |
-          python tools/build_qa_db.py
-
-      - name: Merge QA into responsa.json
+      - name: Merge QA uploads into data/questions
         run: |
           python tools/qa_merge.py
+
+      - name: Verify chunked question store
+        run: |
+          python add_qa_upload.py --verify
 
       - name: Commit & push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add responsa.json qa_db.json
-          
+          git add data/questions
           if git diff --cached --quiet; then
             echo "No changes"
             exit 0
           fi
 
-          git commit -m "Auto-update qa_db.json + responsa.json"
-          
-          # Retry-Logik mit Pull vor Push
+          git commit -m "Auto-update chunked Q&A data"
           for i in {1..5}; do
             git fetch origin main
             git pull --rebase origin main || true

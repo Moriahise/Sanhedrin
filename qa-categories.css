@@ -1,0 +1,197 @@
+/* qa-categories.css — ergänzende Kategorie-UI, ohne bestehendes Layout zu überschreiben. */
+
+.group-toggle {
+    flex: 1;
+    min-width: 220px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    padding: 0.8rem 1rem;
+    border: 2px solid rgba(212, 165, 116, 0.75);
+    background: rgba(10, 24, 40, 0.55);
+    color: var(--text-light);
+    border-radius: 10px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.group-toggle input {
+    accent-color: var(--primary-gold);
+}
+
+.category-overview {
+    margin: -1rem 0 2rem;
+    padding: 1.25rem;
+    border: 1px solid rgba(212, 165, 116, 0.45);
+    border-radius: 16px;
+    background: linear-gradient(135deg, rgba(26, 44, 66, 0.72), rgba(45, 74, 111, 0.48));
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
+}
+
+.category-overview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 0.9rem;
+}
+
+.category-overview h2 {
+    margin: 0 0 0.25rem;
+    color: var(--light-gold);
+    font-size: 1.35rem;
+}
+
+.category-overview p {
+    margin: 0;
+    color: var(--text-gold);
+    font-size: 0.95rem;
+}
+
+.category-chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+}
+
+.category-chip {
+    border: 1px solid rgba(212, 165, 116, 0.7);
+    background: rgba(10, 24, 40, 0.62);
+    color: var(--text-light);
+    border-radius: 999px;
+    padding: 0.45rem 0.9rem;
+    font: inherit;
+    font-size: 0.92rem;
+    line-height: 1.2;
+    cursor: pointer;
+    transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+
+.category-chip:hover {
+    border-color: var(--light-gold);
+    background: rgba(74, 124, 140, 0.35);
+    transform: translateY(-1px);
+}
+
+.category-chip.active {
+    background: linear-gradient(135deg, var(--primary-gold), var(--dark-gold));
+    color: var(--deep-blue);
+    border-color: var(--light-gold);
+    font-weight: bold;
+}
+
+.category-chip-count {
+    display: inline-block;
+    min-width: 1.45em;
+    margin-inline-start: 0.35rem;
+    padding: 0.08rem 0.35rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.14);
+    font-size: 0.8em;
+}
+
+.category-chip.active .category-chip-count {
+    background: rgba(10, 24, 40, 0.18);
+}
+
+.category-group-heading {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 0.5rem 0 -0.5rem;
+    padding: 0.8rem 1rem;
+    border-inline-start: 4px solid var(--primary-gold);
+    border-radius: 12px;
+    background: rgba(10, 24, 40, 0.55);
+    color: var(--light-gold);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.category-group-heading small {
+    color: var(--text-gold);
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
+.card-title,
+.card-summary {
+    overflow-wrap: anywhere;
+    word-break: normal;
+}
+
+.card-summary {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card-category-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.review-badge {
+    display: inline-block;
+    padding: 0.28rem 0.7rem;
+    border-radius: 999px;
+    border: 1px dashed rgba(244, 228, 193, 0.65);
+    color: var(--light-gold);
+    background: rgba(212, 165, 116, 0.12);
+    font-size: 0.78rem;
+}
+
+.needs-review-card {
+    border-style: dashed;
+}
+
+.card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: 0.75rem;
+}
+
+.card-tags span {
+    display: inline-block;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    border: 1px solid rgba(74, 124, 140, 0.75);
+    color: var(--text-gold);
+    background: rgba(10, 24, 40, 0.35);
+    font-size: 0.76rem;
+}
+
+@media (max-width: 768px) {
+    .category-overview {
+        margin-top: -0.5rem;
+        padding: 1rem;
+    }
+
+    .category-overview-header {
+        display: block;
+    }
+
+    .category-chip-row {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 0.35rem;
+        scrollbar-width: thin;
+    }
+
+    .category-chip {
+        flex: 0 0 auto;
+        white-space: nowrap;
+    }
+
+    .group-toggle {
+        width: 100%;
+        justify-content: flex-start;
+    }
+}

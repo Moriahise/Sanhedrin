@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>בית דין גדול סנהדרין | Beit Din Gadol Sanhedrin</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="qa-categories.css">
 </head>
 <body>
     <!-- Header -->
@@ -52,6 +53,11 @@
                 <select id="yearFilter" onchange="filterResponsa()">
                     <option value="all" data-he="כל השנים" data-en="All Years">כל השנים</option>
                 </select>
+                <label class="group-toggle" for="groupByCategory">
+                    <input type="checkbox" id="groupByCategory" onchange="toggleCategoryGrouping()">
+                    <span class="lang-he">קיבוץ לפי קטגוריה</span>
+                    <span class="lang-en">Group by category</span>
+                </label>
             </div>
         </div>
     </nav>
@@ -84,6 +90,11 @@
                 </div>
             </div>
 
+            <!-- Category Overview -->
+            <section id="categoryOverview" class="category-overview" aria-label="Categories">
+                <!-- Category chips will be dynamically inserted here -->
+            </section>
+
             <!-- Responsa Grid -->
             <div id="responsaGrid" class="responsa-grid">
                 <!-- Responsa cards will be dynamically inserted here -->
@@ -109,6 +120,7 @@
         </div>
     </footer>
 
+    <script src="qa-data.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
