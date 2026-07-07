@@ -9,6 +9,7 @@ on:
       - "qa_store.py"
       - "add_qa_upload.py"
       - "migrate_qa.py"
+      - "rebuild_index.py"
       - "qa-data.js"
       - "qa.html"
   workflow_dispatch: {}
@@ -36,7 +37,11 @@ jobs:
 
       - name: Syntax check
         run: |
-          python3 -m py_compile migrate_qa.py qa_store.py add_qa_upload.py tools/qa_merge.py
+          python3 -m py_compile migrate_qa.py qa_store.py add_qa_upload.py tools/qa_merge.py rebuild_index.py
+
+      - name: Rebuild current index from chunks
+        run: |
+          python3 rebuild_index.py
 
       - name: Merge QA uploads into data/questions
         run: |
