@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Repair after legacy ingest changed responsa/qa_db and the chunked store lost entries.
 CLEAN_SHA="b7a63522b79fab64766faee271bb3af8665f2d67"
 
 python3 -m py_compile migrate_qa.py qa_store.py add_qa_upload.py tools/qa_merge.py
