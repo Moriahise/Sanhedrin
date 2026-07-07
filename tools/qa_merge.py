@@ -11,7 +11,6 @@ from __future__ import annotations
 
 import json
 import sys
-from datetime import datetime
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
@@ -52,6 +51,16 @@ def normalize_answers(raw: dict) -> list[dict]:
     return normalized
 
 
+def clean_date(raw_value) -> str:
+    """Use only a real source date. Never invent the current year for imports."""
+    value = str(raw_value or "").strip()
+    if not value:
+        return ""
+    if "T" in value:
+        value = value.split("T", 1)[0]
+    return value
+
+
 def normalize_item(raw: dict, path: Path, fallback_no: int) -> dict:
     meta = raw.get("metadata") or {}
     source = raw.get("source") or meta.get("source") or "yeshiva"
@@ -60,12 +69,7 @@ def normalize_item(raw: dict, path: Path, fallback_no: int) -> dict:
         qid = f"{path.stem}-{fallback_no}"
         source = "upload"
 
-    date = raw.get("date") or meta.get("date") or raw.get("saved_at") or ""
-    if "T" in str(date):
-        date = str(date).split("T", 1)[0]
-    if not date:
-        date = datetime.utcnow().strftime("%Y-%m-%d")
-
+    date = clean_date(raw.get("date") or meta.get("date") or raw.get("saved_at") or meta.get("saved_at"))
     question = str(raw.get("question") or raw.get("body") or raw.get("content") or "").strip()
     title = str(raw.get("title") or question or f"שאלה #{qid}").strip()
 
