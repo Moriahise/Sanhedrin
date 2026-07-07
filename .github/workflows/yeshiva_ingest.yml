@@ -1,16 +1,14 @@
 name: Ingest Yeshiva QA
 
 on:
-  push:
-    paths:
-      - "data/qa/*.json"
+  workflow_dispatch: {}
 
 permissions:
   contents: write
 
 concurrency:
-  group: responsa-update  # ← GLEICHE Gruppe für alle!
-  cancel-in-progress: false  # ← Nicht abbrechen, nacheinander!
+  group: responsa-update
+  cancel-in-progress: false
 
 jobs:
   ingest:
@@ -26,30 +24,8 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Ingest Yeshiva QA → responsa.json and qa_db
+      - name: Ingest Yeshiva QA legacy mode
         run: |
-          python scripts/ingest_yeshiva_qa.py
-
-      - name: Commit changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          git add responsa.json qa_db/*.json || true
-          
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
-          
-          git commit -m "Auto-ingest Yeshiva QA"
-          
-          # Retry-Logik mit Pull vor Push
-          for i in {1..5}; do
-            git fetch origin main
-            git pull --rebase origin main || true
-            git push && break || {
-              echo "Push failed, attempt $i/5"
-              sleep 2
-            }
-          done
+          echo "Legacy responsa/qa_db ingest is disabled for automatic uploads."
+          echo "Use QA → data/questions (chunked) for new uploads."
+          exit 0
