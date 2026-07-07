@@ -52,7 +52,7 @@ def normalize_answers(raw: dict) -> list[dict]:
 
 
 def clean_date(raw_value) -> str:
-    """Use only a real source date. Never invent the current year for imports."""
+    """Use only a real source/upload date. Never invent the current year."""
     value = str(raw_value or "").strip()
     if not value:
         return ""
@@ -61,7 +61,7 @@ def clean_date(raw_value) -> str:
     return value
 
 
-def normalize_item(raw: dict, path: Path, fallback_no: int) -> dict:
+def normalize_item(raw: dict, path: Path, fallback_no: int, default_date: str = "") -> dict:
     meta = raw.get("metadata") or {}
     source = raw.get("source") or meta.get("source") or "yeshiva"
     qid = str(raw.get("id") or raw.get("source_id") or meta.get("id") or "").strip()
@@ -69,7 +69,13 @@ def normalize_item(raw: dict, path: Path, fallback_no: int) -> dict:
         qid = f"{path.stem}-{fallback_no}"
         source = "upload"
 
-    date = clean_date(raw.get("date") or meta.get("date") or raw.get("saved_at") or meta.get("saved_at"))
+    date = clean_date(
+        raw.get("saved_at")
+        or meta.get("saved_at")
+        or default_date
+        or raw.get("date")
+        or meta.get("date")
+    )
     question = str(raw.get("question") or raw.get("body") or raw.get("content") or "").strip()
     title = str(raw.get("title") or question or f"שאלה #{qid}").strip()
 
@@ -122,6 +128,7 @@ def main() -> int:
             print(f"ABGELEHNT ({path.name}): JSON kann nicht gelesen werden: {exc}")
             continue
 
+        default_date = clean_date(data.get("exported_at")) if isinstance(data, dict) else ""
         items = extract_items(data)
         if not items:
             print(f"ÜBERSPRUNGEN ({path.name}): keine Fragenliste gefunden")
@@ -132,7 +139,7 @@ def main() -> int:
                 rejected += 1
                 print(f"ABGELEHNT ({path.name} #{no}): Eintrag ist kein Objekt")
                 continue
-            item = normalize_item(raw, path, no)
+            item = normalize_item(raw, path, no, default_date)
             try:
                 res = store.add_question(item, require_answer=False)
                 added += 1
