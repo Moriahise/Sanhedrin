@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "history",
- "count": 1480,
+ "count": 1487,
  "entries": [
   {
    "id": "ye-4787",
@@ -23874,6 +23874,140 @@
    "s": "yeshiva"
   },
   {
+   "id": "ye-154296",
+   "t_he": "",
+   "t_en": "Why didn’t Yerovam ben Nevat simply make a new temple without cow worship?",
+   "x": "<p>Melochim 1 12:26-33 discusses how Yerovam made two alternate temples focused on a golden calf in each because he was concerned he would lose his monarchy if…",
+   "ax": "<p>It seems to me that your working assumption is that once the Temple was constructed, all members of Am Yisrael instantly forgot the old ways of using the ba…",
+   "tg": [
+    "tanach",
+    "avodah-zarah"
+   ],
+   "c": "history",
+   "y": 2025,
+   "ch": 201,
+   "s": "yeshiva"
+  },
+  {
+   "id": "ye-154510",
+   "t_he": "",
+   "t_en": "Is there a way to rectify the following situation",
+   "x": "<p>In the Rosh Chodesh Musaf, some have the custom to have in mind one of twelve צְרוּפֵי הֲוָיָ״ה while saying ברוך אתה ה׳ מקדש השבת ורָאשֵׁי חוֹדשים.</p> <p>…",
+   "ax": "",
+   "tg": [
+    "minhag",
+    "mysticism-kabbalah",
+    "rosh-chodesh-new-month",
+    "musaf"
+   ],
+   "c": "history",
+   "y": 2025,
+   "ch": 201,
+   "s": "yeshiva",
+   "r": 1
+  },
+  {
+   "id": "ye-154525",
+   "t_he": "",
+   "t_en": "What is the future of kashrut?",
+   "x": "<p>With the advent, acceptance and constant improvement of artificial, plant-based meat, are shechitah, eating animals, and not mixing milk and meat destined t…",
+   "ax": "",
+   "tg": [
+    "kashrut-kosher",
+    "halacha-theory",
+    "korban",
+    "meat"
+   ],
+   "c": "history",
+   "y": 2025,
+   "ch": 201,
+   "s": "yeshiva"
+  },
+  {
+   "id": "ye-154553",
+   "t_he": "",
+   "t_en": "Meaning of Psalm 113 verses 7-8",
+   "x": "<p>What is the meaning of Psalms 113 7-8?</p> <blockquote> <ol start=\"7\"> <li>Who raiseth up the poor person out of the dust, and lifteth up the needy person o…",
+   "ax": "",
+   "tg": [
+    "hashkafah-philosophy",
+    "tehilim-psalms"
+   ],
+   "c": "history",
+   "y": 2025,
+   "ch": 201,
+   "s": "yeshiva",
+   "r": 1
+  },
+  {
+   "id": "ye-154608",
+   "t_he": "",
+   "t_en": "Interrupting Tachanun to say certain amens in Kaddish",
+   "x": "<p>In the \"Guidelines\" sefer on prayer, they write that someone in the middle of pesukei d'zimra can only respond to certain amens in Kaddish, namely the first…",
+   "ax": "",
+   "tg": [
+    "kaddish",
+    "tachanun",
+    "hefsek-interruption",
+    "amen"
+   ],
+   "c": "history",
+   "y": 2025,
+   "ch": 201,
+   "s": "yeshiva",
+   "r": 1
+  },
+  {
+   "id": "ye-2025032810460233",
+   "t_he": "יום טוב שני של גלויות למי שמתכנן לעלות לארץ",
+   "t_en": "",
+   "x": "שלום הרב,אני מתגורר בחו\"ל כרגע אך מתכנן אי\"ה לעלות לארץ בקיץ הקרוב, האם אני צריך להמשיך לשמור יו\"ט שני של גלויות או מכיון שאני מתכנן לעלות אני נחשב כבן א\"י?תוד…",
+   "ax": "",
+   "tg": [],
+   "c": "history",
+   "y": 2025,
+   "ch": 201,
+   "s": "yeshiva",
+   "r": 1
+  },
+  {
+   "id": "ye-2025050815255012",
+   "t_he": "חובת אכילת בשר בשבת וחג",
+   "t_en": "",
+   "x": "שלום הרב האם קיימת הלכה או משהו שאומר שחייבים לאכול בשר? שלום וברכה בשבת, ובעיקר ביום טוב יש באופן עקרוני חובת אכילת בשר משום עונג שבת ומשום שמחת יום טוב, כדבר…",
+   "ax": "",
+   "tg": [],
+   "c": "history",
+   "y": 2025,
+   "ch": 201,
+   "s": "yeshiva"
+  },
+  {
+   "id": "ye-137184",
+   "t_he": "כמה בגדי כהונה גדולה היו?",
+   "t_en": "",
+   "x": "שלום וברכה רציתי לדעת-מה היו עושים בבית המקדש כאשר היו 2 כהנים גדולים או יותר (כהן מכהן או כהן שעבר) האם היו 2 מערכות שונות של בגדים, כולל חושן ואפוד שהרי לכאו…",
+   "ax": "לשואל שלום וברכה! 1. האם יש בפועל מצב ששני כהנים עובדים בתור כהן גדול? זוהי מחלוקת תנאים ביומא יב ע\"ב - יג ע\"א, ולהלכה נפסק שם כדעת רבי יוסי שלאחר שהכהן הגדול…",
+   "tg": [],
+   "c": "history",
+   "y": 2026,
+   "ch": 202,
+   "s": "yeshiva"
+  },
+  {
+   "id": "ye-137355",
+   "t_he": "כל ישראל ערבים זה לזה",
+   "t_en": "",
+   "x": "שלום, נושא שמציק לי תקופה.. האם בעניין של כל ישראל ערבים זה לזה ובעניין של עוון אבות אם אני עושה איזו שהיא עבירה יכול להיות שאדם אחר יפגע בגלל זה ? כביכול יקבל…",
+   "ax": "שלום וברכה. הגמרא כבר שואלת את שאלתך, ועונה שבענין שכל ישראל ערבין זה לזה- דוקא אם יכלו למחות בעושה העבירה ולא מיחו. (כמובן בגדרי מחאה ותוכחה, אם יכול לשמוע ול…",
+   "tg": [],
+   "c": "history",
+   "y": 2026,
+   "ch": 202,
+   "s": "yeshiva",
+   "r": 1
+  },
+  {
    "id": "ye-137778",
    "t_he": "שאלת המשך לגבי ספר שאינו מוגה",
    "t_en": "",
@@ -23881,7 +24015,7 @@
    "ax": "שלום וברכה! אכן דעתי היא שונה מן התשובה שקיבלת מאותו רב. לענ\"ד אין איסור להשתמש במהדורה כזו, אף שאינה מדוייקת, ואין חובה לתקן בספר כל מקום שאתה מוצא שהוא טעון…",
    "tg": [],
    "c": "history",
-   "y": 2023,
+   "y": 2025,
    "ch": 202,
    "s": "yeshiva",
    "r": 1
@@ -23894,32 +24028,7 @@
    "ax": "בס\"ד שלום רב, מחילה על העיכוב בתשובה. ראשית אשבח את המודעות הכנות והחתירה לתיקון המידות. לא רק לך, להרבה מאד אנשים קשה עבודת המידות בבית יותר מאשר בחוץ. ויש לז…",
    "tg": [],
    "c": "history",
-   "y": 2023,
-   "ch": 202,
-   "s": "yeshiva",
-   "r": 1
-  },
-  {
-   "id": "ye-137184",
-   "t_he": "כמה בגדי כהונה גדולה היו?",
-   "t_en": "",
-   "x": "שלום וברכה רציתי לדעת-מה היו עושים בבית המקדש כאשר היו 2 כהנים גדולים או יותר (כהן מכהן או כהן שעבר) האם היו 2 מערכות שונות של בגדים, כולל חושן ואפוד שהרי לכאו…",
-   "ax": "לשואל שלום וברכה! 1. האם יש בפועל מצב ששני כהנים עובדים בתור כהן גדול? זוהי מחלוקת תנאים ביומא יב ע\"ב - יג ע\"א, ולהלכה נפסק שם כדעת רבי יוסי שלאחר שהכהן הגדול…",
-   "tg": [],
-   "c": "history",
-   "y": 2023,
-   "ch": 202,
-   "s": "yeshiva"
-  },
-  {
-   "id": "ye-137355",
-   "t_he": "כל ישראל ערבים זה לזה",
-   "t_en": "",
-   "x": "שלום, נושא שמציק לי תקופה.. האם בעניין של כל ישראל ערבים זה לזה ובעניין של עוון אבות אם אני עושה איזו שהיא עבירה יכול להיות שאדם אחר יפגע בגלל זה ? כביכול יקבל…",
-   "ax": "שלום וברכה. הגמרא כבר שואלת את שאלתך, ועונה שבענין שכל ישראל ערבין זה לזה- דוקא אם יכלו למחות בעושה העבירה ולא מיחו. (כמובן בגדרי מחאה ותוכחה, אם יכול לשמוע ול…",
-   "tg": [],
-   "c": "history",
-   "y": 2023,
+   "y": 2025,
    "ch": 202,
    "s": "yeshiva",
    "r": 1

@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "kabbalah",
- "count": 547,
+ "count": 554,
  "entries": [
   {
    "id": "ye-11561",
@@ -8772,15 +8772,120 @@
    "s": "yeshiva"
   },
   {
-   "id": "ye-137526",
-   "t_he": "מה עדיף ללמוד זוהר או גמרא?",
+   "id": "ye-154234",
+   "t_he": "",
+   "t_en": "Question about spiritual gates in sixth millennium in Zohar",
+   "x": "<p>According the Sohar <a href=\"https://www.sefaria.org/Zohar.1.117a.3\" rel=\"nofollow noreferrer\">https://www.sefaria.org/Zohar.1.117a.3</a> become important s…",
+   "ax": "<p>B\"H</p> <p>The Rebbe in <a href=\"https://awtsmoos.com/heichelos/ikar/series/likkuteiSichosVolume15/6?idx=0&sub=1\" rel=\"nofollow noreferrer\">Likkutei Sichos,…",
+   "tg": [
+    "zohar"
+   ],
+   "c": "kabbalah",
+   "y": 2025,
+   "ch": 201,
+   "s": "yeshiva"
+  },
+  {
+   "id": "ye-154289",
+   "t_he": "",
+   "t_en": "Does the Rebbe Rashab in Samach Tesamach agree with the Mittler Rebbe in Sha’ar HaYichud about Sefirot before the Tzimtzum?",
+   "x": "<p>To keep it short and to the point, the Rebbe Rashab brings the Pardes and Etz Chaim about the Sefirot pre-Tzimtzum. He does this in a number of places, but…",
+   "ax": "",
+   "tg": [
+    "mysticism-kabbalah",
+    "theology",
+    "chasidut-hasidism",
+    "chabad",
+    "sefirot-attributes"
+   ],
+   "c": "kabbalah",
+   "y": 2025,
+   "ch": 201,
+   "s": "yeshiva"
+  },
+  {
+   "id": "ye-154377",
+   "t_he": "What is the rashei tevot ח”ש in this context",
    "t_en": "",
-   "x": "יש לי זמן פנוי ואני יודע ללמוד גמרא עדיף לי ללמוד זוהר או גמרא?",
-   "ax": "אין אדם למד אלא במקום שליבו חפץ אלא שלימוד זוהר כשמו כן הוא - \"קבלה\" - דהיינו יש לקבלו במסורת מפי בר סמכא אמתי (לא כל \"מקובל\" מקובל עלינו) וכמו\"כ יש צורך בבסיס…",
+   "x": "<p>In the beginning of <a href=\"https://hebrewbooks.org/pdfpager.aspx?req=46817&st=&pgnum=40&hilite=\" rel=\"nofollow noreferrer\">Seder HaDorot</a> there is this…",
+   "ax": "<p>It is וז\"ש and stands for וזהו שכתוב.</p> <p>see snip from different edition <a href=\"https://i.sstatic.net/Yj8503Ox.png\" rel=\"nofollow noreferrer\"><img src…",
+   "tg": [
+    "acronyms"
+   ],
+   "c": "kabbalah",
+   "y": 2025,
+   "ch": 201,
+   "s": "yeshiva",
+   "r": 1
+  },
+  {
+   "id": "ye-154469",
+   "t_he": "Is there a Sefer עבודת הקודש by the רמ\"ק?",
+   "t_en": "",
+   "x": "<p><a href=\"https://www.sefaria.org/Chelkat%20Mechokek%201:8\" rel=\"nofollow noreferrer\">This Chelkat Mechokek</a> cites:</p> <blockquote> <p><strong>ס' עבודת ה…",
+   "ax": "<p>It's almost certainly an error. Chelek HaTachlis is the third part of Avodas HaKodesh by R' Meir ibn Gabai, and chapter 17 addresses the topic under discuss…",
+   "tg": [
+    "jewish-books"
+   ],
+   "c": "kabbalah",
+   "y": 2025,
+   "ch": 201,
+   "s": "yeshiva"
+  },
+  {
+   "id": "ye-154515",
+   "t_he": "",
+   "t_en": "When was niqqud first added to the printed editions of Zohar?",
+   "x": "<p>I'm trying to figure out where we receive the niqqud tradition of the Zohar, as we see on websites like Sefaria and Torat Emet, and available in several pri…",
+   "ax": "<p>Based on looking at some bibliographical sources, although not exhaustively, I was able to find what seems to be the first editions (not counting parts of t…",
+   "tg": [
+    "history",
+    "zohar",
+    "writing-printing",
+    "vowels-nekudot"
+   ],
+   "c": "kabbalah",
+   "y": 2025,
+   "ch": 201,
+   "s": "yeshiva"
+  },
+  {
+   "id": "ye-154528",
+   "t_he": "",
+   "t_en": "Is there a connection between the sefirot and the flower of life symbol",
+   "x": "<p>Do the Sephirot and the Flower of Life refer to the same concept?</p> <p>The <a href=\"https://en.wikipedia.org/wiki/Overlapping_circles_grid\" rel=\"nofollow…",
+   "ax": "<p>There’s no known connection. If there ever was one, nobody knows it today.</p> <p><a href=\"https://artifacts.flowerofliferesearch.com/index.html\" rel=\"nofol…",
+   "tg": [
+    "mysticism-kabbalah"
+   ],
+   "c": "kabbalah",
+   "y": 2025,
+   "ch": 201,
+   "s": "yeshiva"
+  },
+  {
+   "id": "ye-202009303522013",
+   "t_he": "חביטת ערבות בהושענא רבה – נשים",
+   "t_en": "",
+   "x": "חיבוט ערבות – האם נשים צריכות לחבוט בערבות בהושענא רבה? האם חייבים דווקא 5? או שאפשר פחות נהגו שגם נשים וקטנים חובטים ערבות ביום הושענא רבה, משום שכל דבר שיש ב…",
+   "ax": "",
    "tg": [],
    "c": "kabbalah",
-   "y": 2023,
-   "ch": 202,
+   "y": 2025,
+   "ch": 201,
+   "s": "yeshiva",
+   "r": 1
+  },
+  {
+   "id": "ye-202510094878900",
+   "t_he": "עבודה כפקיד מלון בחול המועד",
+   "t_en": "",
+   "x": "שלום כבוד הרב ומועדים לשמחה. האם מותר לעבוד כשכיר בבית מלון בתור פקיד קבלה במועד? (אין חשש שיפטרו אותי אם לא אעבוד). במהלך העבודה אני צריך לכתוב ולהחתים אנשים…",
+   "ax": "",
+   "tg": [],
+   "c": "kabbalah",
+   "y": 2025,
+   "ch": 201,
    "s": "yeshiva",
    "r": 1
   },
@@ -8792,20 +8897,20 @@
    "ax": "שלום וברכה. אולי כוונת כבודו, למה שכתוב בסידור הרש\"ש (כת\"י מיוחס לירא דף 167), שאין לגלח את השיער ע\"י גוי, כיון שע\"י זה מתערב צלם היהודי עם צלם הגוי. וראה בספר…",
    "tg": [],
    "c": "kabbalah",
-   "y": 2023,
+   "y": 2026,
    "ch": 202,
    "s": "yeshiva",
    "r": 1
   },
   {
-   "id": "ye-202510094878900",
-   "t_he": "עבודה כפקיד מלון בחול המועד",
+   "id": "ye-137526",
+   "t_he": "מה עדיף ללמוד זוהר או גמרא?",
    "t_en": "",
-   "x": "שלום כבוד הרב ומועדים לשמחה. האם מותר לעבוד כשכיר בבית מלון בתור פקיד קבלה במועד? (אין חשש שיפטרו אותי אם לא אעבוד). במהלך העבודה אני צריך לכתוב ולהחתים אנשים…",
-   "ax": "עבודה כזו שכרוכה בהדפסות ומשא ומתן עדיף שלא לעשות בחול המועד והייתי נמנע מכך, שונה הדבר לגבי מלצרות וכדומה שאינם מלאכה. אמנם אסור לעבוד בחול המועד גם במלאכות ה…",
+   "x": "יש לי זמן פנוי ואני יודע ללמוד גמרא עדיף לי ללמוד זוהר או גמרא?",
+   "ax": "אין אדם למד אלא במקום שליבו חפץ אלא שלימוד זוהר כשמו כן הוא - \"קבלה\" - דהיינו יש לקבלו במסורת מפי בר סמכא אמתי (לא כל \"מקובל\" מקובל עלינו) וכמו\"כ יש צורך בבסיס…",
    "tg": [],
    "c": "kabbalah",
-   "y": 2025,
+   "y": 2026,
    "ch": 202,
    "s": "yeshiva",
    "r": 1
