@@ -219,6 +219,7 @@ class QAStore:
         ):
             chunk_no += 1
             chunk = self._load_chunk(chunk_no)
+            chunk_path = self._chunk_path(chunk_no)
             self.manifest["open_chunk"] = chunk_no
             self.manifest["chunks"] = max(int(self.manifest.get("chunks", 0)), chunk_no)
 
