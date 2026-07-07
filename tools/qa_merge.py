@@ -3,9 +3,9 @@
 """
 Merge Q&A JSON files under data/qa/*.json into the new chunked store.
 
-Old behavior appended to responsa.json. That is intentionally stopped for Q&A.
-New behavior writes only through qa_store.QAStore into data/questions/:
-chunks, index.json, by-category, aliases.json and manifest.json.
+This workflow is deliberately tolerant for GitHub upload folders:
+valid new questions are added, duplicates are skipped, invalid rows are reported
+but do not break the whole ingestion run. responsa.json is never modified.
 """
 from __future__ import annotations
 
@@ -27,45 +27,76 @@ def load_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def normalize_item(q: dict) -> dict:
-    qid = str(q.get("id", "")).strip()
-    meta = q.get("metadata") or {}
-    answer = q.get("answer") or q.get("response") or ""
-    answers = q.get("answers")
-
+def normalize_answers(raw: dict) -> list[dict]:
+    answer = raw.get("answer") or raw.get("response") or raw.get("answer_text") or ""
+    answers = raw.get("answers")
     if answers is None:
-        answers = [{"text": answer, "accepted": True, "author": None, "score": None}] if answer else []
-    else:
-        norm = []
-        for i, a in enumerate(answers):
-            if isinstance(a, str):
-                norm.append({"text": a, "accepted": i == 0, "author": None, "score": None})
-            elif isinstance(a, dict):
-                norm.append({
-                    "text": a.get("text") or a.get("answer") or "",
-                    "accepted": bool(a.get("accepted", i == 0)),
-                    "author": a.get("author"),
-                    "score": a.get("score"),
-                })
-        answers = norm
+        return [{"text": str(answer), "accepted": True, "author": None, "score": None}] if str(answer).strip() else []
 
-    date = q.get("date") or meta.get("date") or q.get("saved_at") or ""
+    normalized = []
+    for i, item in enumerate(answers or []):
+        if isinstance(item, str):
+            text = item
+            accepted = i == 0
+            author = None
+            score = None
+        elif isinstance(item, dict):
+            text = item.get("text") or item.get("answer") or item.get("body") or ""
+            accepted = bool(item.get("accepted", i == 0))
+            author = item.get("author")
+            score = item.get("score")
+        else:
+            continue
+        if str(text).strip():
+            normalized.append({"text": str(text), "accepted": accepted, "author": author, "score": score})
+    return normalized
+
+
+def normalize_item(raw: dict, path: Path, fallback_no: int) -> dict:
+    meta = raw.get("metadata") or {}
+    source = raw.get("source") or meta.get("source") or "yeshiva"
+    qid = str(raw.get("id") or raw.get("source_id") or meta.get("id") or "").strip()
+    if not qid:
+        qid = f"{path.stem}-{fallback_no}"
+        source = "upload"
+
+    date = raw.get("date") or meta.get("date") or raw.get("saved_at") or ""
     if "T" in str(date):
         date = str(date).split("T", 1)[0]
     if not date:
         date = datetime.utcnow().strftime("%Y-%m-%d")
 
+    question = str(raw.get("question") or raw.get("body") or raw.get("content") or "").strip()
+    title = str(raw.get("title") or question or f"שאלה #{qid}").strip()
+
+    tags = raw.get("tags") or meta.get("tags") or []
+    if isinstance(tags, str):
+        tags = [t.strip() for t in tags.split(",") if t.strip()]
+
     return {
-        "source": q.get("source") or "yeshiva",
+        "source": source,
         "source_id": qid,
-        "title": (q.get("title") or q.get("question") or f"שאלה #{qid}").strip(),
-        "question": (q.get("question") or "").strip(),
-        "answers": answers,
-        "tags": q.get("tags") or meta.get("tags") or [],
-        "category": q.get("category"),
+        "title": title,
+        "question": question,
+        "answers": normalize_answers(raw),
+        "tags": tags,
+        "category": raw.get("category") or meta.get("category"),
         "date": date,
-        "url": q.get("url") or meta.get("url") or (f"https://www.yeshiva.org.il/ask/{qid}" if qid else None),
+        "url": raw.get("url") or meta.get("url") or (f"https://www.yeshiva.org.il/ask/{qid}" if source == "yeshiva" and qid else None),
     }
+
+
+def extract_items(data):
+    if isinstance(data, list):
+        return data
+    if isinstance(data, dict):
+        for key in ("questions", "items", "data", "qa", "records"):
+            value = data.get(key)
+            if isinstance(value, list):
+                return value
+        if data.get("question") or data.get("title") or data.get("answer") or data.get("answers"):
+            return [data]
+    return []
 
 
 def main() -> int:
@@ -76,26 +107,30 @@ def main() -> int:
         return 0
 
     store = QAStore(REPO)
-    added = skipped = rejected = 0
+    added = skipped = rejected = files_seen = 0
 
     for path in qa_files:
-        data = load_json(path)
-        items = data.get("questions") if isinstance(data, dict) else None
-        if items is None and isinstance(data, dict):
-            items = data.get("items")
-        if items is None and isinstance(data, list):
-            items = data
-        if not isinstance(items, list):
+        files_seen += 1
+        try:
+            data = load_json(path)
+        except Exception as exc:
+            rejected += 1
+            print(f"ABGELEHNT ({path.name}): JSON kann nicht gelesen werden: {exc}")
             continue
 
-        for raw in items:
-            item = normalize_item(raw)
-            if not item["source_id"]:
+        items = extract_items(data)
+        if not items:
+            print(f"ÜBERSPRUNGEN ({path.name}): keine Fragenliste gefunden")
+            continue
+
+        for no, raw in enumerate(items, start=1):
+            if not isinstance(raw, dict):
                 rejected += 1
-                print(f"ABGELEHNT ({path.name}): fehlende id")
+                print(f"ABGELEHNT ({path.name} #{no}): Eintrag ist kein Objekt")
                 continue
+            item = normalize_item(raw, path, no)
             try:
-                res = store.add_question(item, require_answer=True)
+                res = store.add_question(item, require_answer=False)
                 added += 1
                 flag = " [needs_review]" if res["needs_review"] else ""
                 print(f"OK {res['id']} -> {res['chunk_file']} {res['category']} ({res['confidence']}){flag}")
@@ -104,8 +139,9 @@ def main() -> int:
                 print(f"ÜBERSPRUNGEN: {exc}")
             except ValidationError as exc:
                 rejected += 1
-                print(f"ABGELEHNT ({item['source_id']}): {exc}")
+                print(f"ABGELEHNT ({item.get('source_id')}): {exc}")
 
+    rebuilt = store.rebuild_index()
     problems = store.verify()
     if problems:
         print("Konsistenzprüfung FEHLER:")
@@ -113,9 +149,9 @@ def main() -> int:
             print("  ", problem)
         return 1
 
-    print(f"OK: added={added}, skipped_duplicates={skipped}, rejected={rejected}")
+    print(f"OK: files={files_seen}, added={added}, skipped_duplicates={skipped}, rejected={rejected}, index={rebuilt}")
     print("OK: data/questions/ konsistent. responsa.json wurde nicht verändert.")
-    return 0 if rejected == 0 else 1
+    return 0
 
 
 if __name__ == "__main__":
