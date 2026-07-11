@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "talmud",
- "count": 3556,
+ "count": 3557,
  "entries": [
   {
    "id": "ye-2010112513418718",
@@ -57473,6 +57473,24 @@
     "talmud",
     "inspiration-entertainment",
     "question-answer",
+    "needs-review"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-267679",
+   "t_he": "",
+   "t_en": "Why Does a Jewish Bride Wear a Veil on Her Face?",
+   "x": "Why Does a Jewish Bride Wear a Veil on Her Face?",
+   "ax": "Since ancient times, Jewish brides have been wearing veils. The Mishnah (completed in the second century) records the custom of some Jewish brides to wear a ve…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article",
     "needs-review"
    ],
    "c": "talmud",

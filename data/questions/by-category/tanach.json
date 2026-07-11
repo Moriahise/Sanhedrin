@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "tanach",
- "count": 7636,
+ "count": 7643,
  "entries": [
   {
    "id": "ye-4809",
@@ -122634,6 +122634,125 @@
     "inspiration-entertainment",
     "question-answer",
     "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-160968",
+   "t_he": "",
+   "t_en": "What is Humility?",
+   "x": "Question: With all due respect, rabbi, I don't think you could possibly give me a satisfying answer to the following question. In the Torah it says, \"And Moses…",
+   "ax": "Before I answer your question, allow me to make it even stronger. It also says in the Torah, \"Moses spoke face to face with G‑d\", \"No man like Moses ever lived…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-160969",
+   "t_he": "",
+   "t_en": "If You Could Be G‑d for One Week, What Would You Do?",
+   "x": "Question: The movie \"Bruce Almighty\" raises some important questions. It is about a man who is given the job of being G‑d for a week. Answers to the questions…",
+   "ax": "I have not seen the movie, but the storyline is familiar. A small book was written by Rabbi Aryeh Kaplan in 1983 called \"If You Were G‑d\" posing the exact same…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-160971",
+   "t_he": "",
+   "t_en": "Is Judaism the Truth?",
+   "x": "Question: As a rabbi, I assume you believe that Judaism is THE truth. If so, how do you explain the fact that there are so many other religions, and only a tin…",
+   "ax": "Jim, do you have brothers and sisters? If you do, I'm sure you'll agree that each of you is different. One of you may be musical, another a sports freak, and y…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-166898",
+   "t_he": "",
+   "t_en": "Why So Little About Life After Death in the Bible?",
+   "x": "Question: Does Judaism believe in an afterlife? From what I’ve read of the Torah, it seems that there is no mention of life after death. Is this world all ther…",
+   "ax": "You have hit on one of the most powerful messages of Judaism: there may be many worlds, but this is the one that matters the most. As you wrote, the Torah does…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-216477",
+   "t_he": "",
+   "t_en": "The Murky Truth About Truth",
+   "x": "Question: Is the Torah the complete truth? I'm not asking if the Torah is completely true, in the sense that there's nothing untrue in it; but is it the comple…",
+   "ax": "This is one of those questions that really gets to the bottom of things. You can tell when you're getting to the bottom of things because it's usually pretty m…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-255998",
+   "t_he": "",
+   "t_en": "Why Are So Many Comedians Jewish?",
+   "x": "Why Are So Many Comedians Jewish?",
+   "ax": "Laughing has been an important part of Judaism since biblical times. Many are familiar with the famous story of Abraham and Sarah, who were not able to have ch…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-280329",
+   "t_he": "",
+   "t_en": "How and When Was the Torah Written?",
+   "x": "Question: Give me the handle on this Sinai thing. As I got it from Hebrew school, Moses went up the mountain, sat down at his desk and took dictation for forty…",
+   "ax": "The story you got in Hebrew school is basically true, but it's also missing lots of the details. So it ends up coming across as a simplistic Hebrew-School stor…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
    ],
    "c": "tanach",
    "y": 2026,

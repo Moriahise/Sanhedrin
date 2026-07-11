@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "general",
- "count": 18582,
+ "count": 18605,
  "entries": [
   {
    "id": "ye-200912288164429",
@@ -302390,6 +302390,420 @@
    "c": "general",
    "y": 2026,
    "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-160964",
+   "t_he": "",
+   "t_en": "How Does One Quit Judaism?",
+   "x": "Question: Although I was raised in a traditional home, was brissed and barmitzvad (sorry about these spellings) I have never had any faith or \"religious\" belie…",
+   "ax": "Dear Edward, I would like to help you, but I feel there's nothing I can do. According to your question, you have done everything possible to negate your Jewish…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-160965",
+   "t_he": "",
+   "t_en": "What Does “Mazel Tov” Mean?",
+   "x": "What Does “Mazel Tov” Mean?",
+   "ax": "Mazal tov literally means “good luck,” but Jews use it pretty much the same way that English-speakers use the word “congratulations.” So this is the appropriat…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-160973",
+   "t_he": "",
+   "t_en": "The Beard",
+   "x": "Question: I have often wondered why many religious Jews have long hairy beards. Is this, like the kipah, a means of identifying oneself as a Jew or do the bear…",
+   "ax": "There is more to the beard than just identifying as a Jew. According to Kabbalah the beard should not even be trimmed, but should be allowed to grow freely. Wh…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-160975",
+   "t_he": "",
+   "t_en": "When a Loved One Dies, is that the End of the Relationship?",
+   "x": "Question: My grandmother passed away last year. I was always her favorite grandchild and we shared an especially close bond. I'm getting married in a couple of…",
+   "ax": "Your grandmother not only heard you — she will respond. You may be surprised to learn that what you did is in fact an ancient Jewish custom. Over the generatio…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-160983",
+   "t_he": "",
+   "t_en": "Comforting the Mourner--When and How",
+   "x": "Comforting the Mourner--When and How",
+   "ax": "There are three times when we interact with the mourners: 1) the funeral, 2) the \"Minyan\" in the house of mourning and 3) visiting and comforting the mourners.…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-160985",
+   "t_he": "",
+   "t_en": "What does Judaism say about the Discovery of Aliens?",
+   "x": "Question: Would the discovery of ETs (extra-terrestrials) threaten organized religion?",
+   "ax": "The discovery of ETs would pose no more of a threat to Judaism than would the discovery of a new species of rabbit. It would be limiting G‑d's power to say tha…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-160995",
+   "t_he": "",
+   "t_en": "Why Aren't We Vegetarians?",
+   "x": "Question: If Judaism requires us to be kind to animals, shouldn't we be commanded to be vegetarians?",
+   "ax": "I have the utmost respect for anyone who chooses not to eat meat out of concern for animal welfare. And there have been some who have suggested that this is in…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-161001",
+   "t_he": "",
+   "t_en": "Why Work for a Living?",
+   "x": "Question: If you really trust in G‑d, why do you work for a living? Surely G‑d will provide!",
+   "ax": "If I sit back and wait for money to fall from heaven, that is not faith—that’s lack of faith. Such an attitude means that I’m essentially saying: if money fall…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-161005",
+   "t_he": "",
+   "t_en": "Should We Have Children?",
+   "x": "Question: My wife and I long ago decided against having children. We are happy with our lives and don't feel that we need the added burden of parenthood. But r…",
+   "ax": "My suggestion: do not delay having children any longer. You owe it to yourself, your future children, your parents, the universe and G‑d. For yourself: A paren…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-161007",
+   "t_he": "",
+   "t_en": "Judaism or Lennonism?",
+   "x": "Question: I don’t want my children to be small-minded or fundamentalist, so I haven’t given them a Jewish education. They have been brought up without any reli…",
+   "ax": "I admire your passion and idealism. You have obviously given some thought to your children’s moral future, which is a credit to you. You are free to believe wh…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-166899",
+   "t_he": "",
+   "t_en": "Why Don't You Spell Out G-d's Name?",
+   "x": "Question: As you know, I'm not a \"believer.\" I am a logical person — I only believe in things that can be logically proven. But I was just interested: Why do y…",
+   "ax": "We do not write G‑d's name in a place where it may be discarded or erased. Treating G‑d's name with reverence is a way to give respect to G‑d. So even though o…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-166907",
+   "t_he": "",
+   "t_en": "Is Judaism a Cult?",
+   "x": "Question: I’m in Israel now, and I’ve come across a situation that I don’t know what to make of; perhaps you can help. I’m asking you because you’re the only r…",
+   "ax": "While it is not a cult, even Judaism can sometimes be used in ways that are disturbingly similar to how people behave in a cult. What is the difference between…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-166909",
+   "t_he": "",
+   "t_en": "What Is the ‘Evil Eye’?",
+   "x": "What Is the ‘Evil Eye’?",
+   "ax": "In Judaism, the “evil eye,” ayin hara in Hebrew, is the harmful negative energy that is created when one looks at something with envy or ill feeling. The idea…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-247657",
+   "t_he": "",
+   "t_en": "G-d, How Could You Do This?",
+   "x": "G-d, How Could You Do This?",
+   "ax": "There are no words to adequately describe the horror caused by the tsunami. Watching the disaster unfolding on the film taken by an amateur cameraman in Aceh,…",
+   "tg": [
+    "chabad",
+    "general",
+    "insight-commentary",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-248166",
+   "t_he": "",
+   "t_en": "Jewish Fundamentalism?",
+   "x": "Question: I was wondering if there is such a person as a Jewish fundamentalist, the way that there are those folks in Christianity and Islam? If so, what perce…",
+   "ax": "I'm not sure what your definition of fundamentalism is. I've heard a number of definitions of the term, and my feeling is that it means different things to dif…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-255907",
+   "t_he": "",
+   "t_en": "When People Suffer, Is It G-d's Fault?",
+   "x": "Question: I feel I am losing faith in G‑d as a result of the recent tragedies. If G‑d can let such suffering happen, how can I believe in Him? Do you have any…",
+   "ax": "I share in your horror and shock at the tragedies that the world has witnessed over the last couple of weeks. Any thinking person must ask the questions that y…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-260252",
+   "t_he": "",
+   "t_en": "What Is Kiddush?",
+   "x": "What Is Kiddush?",
+   "ax": "The Hebrew word kiddush translates as “sanctification” or “separation.” Kiddush refers to a brief text, recited while holding a goblet of wine on Shabbat eve,…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-260254",
+   "t_he": "",
+   "t_en": "Why Do We Smell Aromatic Spices (Besamim) at Havdalah?",
+   "x": "Why Do We Smell Aromatic Spices (Besamim) at Havdalah?",
+   "ax": "The sages instituted that we smell fragrant spices (besamim) every motzaei Shabbat, the evening after Shabbat (unless Sunday is a holiday), in order to comfort…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-267678",
+   "t_he": "",
+   "t_en": "The Ethics of Double Dating",
+   "x": "Question: I am happy in my relationship, and things are getting quite serious. But there is one nagging doubt at the back of my mind. This is the first real lo…",
+   "ax": "I understand your logic. If you were looking to buy a car, it would be silly to jump at the first model that catches your eye. You would compare prices and tes…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-274823",
+   "t_he": "",
+   "t_en": "What Do Dreams Mean?",
+   "x": "Question: I had a dream last night in which I saw my late father. He held my hands and mouthed some words. It was so vivid that I was sure it was real. What do…",
+   "ax": "Dreams are a display of what our mind sees when we don’t control it. They can be caused by many different factors. How we should react to a dream will be deter…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-279478",
+   "t_he": "",
+   "t_en": "Will I Be the Next Runaway Bride?",
+   "x": "Question: I'm sure you read about the runaway bride whose story was in all the newspapers a couple of weeks ago. She didn't show up to her own wedding. I think…",
+   "ax": "Aside from the joy and excitement it brings, engagement can be a difficult time. You are in limbo, a no-man's land between being single and being married. It i…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-302700",
+   "t_he": "",
+   "t_en": "There's More to Love than Giving",
+   "x": "Question: I truly love my wife, but there seems to be a blockage that is obstructing our relationship. For some reason, her feelings for me are not as strong a…",
+   "ax": "People often say that love is about giving, giving and giving. But that's not true. Receiving is just as vital to a relationship as giving is. While giving is…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-305549",
+   "t_he": "",
+   "t_en": "Torah, Slavery and the Jews",
+   "x": "Question: My question is about slavery in the Torah. Why did the Torah allow it? It bothers me, though I know there must be some explanation.",
+   "ax": "Once in a while a question comes along that gets to the core of everything. Then along comes some smart-aleck to provide an answer and wash the whole thing awa…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
    "s": "upload"
   }
  ]

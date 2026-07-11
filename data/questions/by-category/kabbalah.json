@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "kabbalah",
- "count": 569,
+ "count": 576,
  "entries": [
   {
    "id": "ye-11561",
@@ -9151,6 +9151,126 @@
    "c": "kabbalah",
    "y": 2026,
    "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-160966",
+   "t_he": "",
+   "t_en": "What's the Story with Reincarnation?",
+   "x": "Question: I have a question (rather a big one!). What's the story with reincarnation? Who is reincarnated, and why?",
+   "ax": "Imagine you are a volunteer for a humanitarian organisation. Your boss sends you on a five year assignment to an underprivileged community. Your mission: to br…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-160970",
+   "t_he": "",
+   "t_en": "Why the Jacket and Black Hat?",
+   "x": "Question: Dear Rabbi Moss, \"Rabbi Moss is the rudest rabbi I ever met!\" That's how I felt yesterday. I saw you from a distance walking down aisle 3 in Coles Su…",
+   "ax": "Dear Max, Firstly, I must apologize for seeming to ignore you — even though it wasn't me. I can imagine how offensive that must have been for someone with such…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-160976",
+   "t_he": "",
+   "t_en": "Can a convert be my soul-mate?",
+   "x": "Question: My girlfriend isn't Jewish, but she is in the process of converting. In your Kabbalah class you said that everyone has a soul-mate, the missing part…",
+   "ax": "Good question Don. While generally a Jew's soul-mates also born Jewish, there are rare exceptions — it could also be a convert. Because there's more to a conve…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-160992",
+   "t_he": "",
+   "t_en": "Can a Jew believe in Jesus?",
+   "x": "Question: I was accosted at the beach today by a guy from Jews for Jesus. He offered me a New Testament in Yiddish and said that many Jews have been \"saved\" by…",
+   "ax": "Of course a Jew can believe in Jesus. Just like a vegetarian can enjoy a rump steak, a peace activist can join a violent demonstration, and a dictator who prea…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-166900",
+   "t_he": "",
+   "t_en": "What's this \"Jewish soul\" Thing? Aren't We All One?",
+   "x": "Question: Why do you speak of a \"Jewish soul\"? How can you put souls in boxes? I think that, at a certain point, the question every human being will ask is \"Wh…",
+   "ax": "Dear Gary, The idea that all souls are the same is one of the biggest mistakes of modern spirituality. We are so used to thinking that definitions create barri…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-266286",
+   "t_he": "",
+   "t_en": "Do Jews Believe in an Afterlife?",
+   "x": "Do Jews Believe in an Afterlife?",
+   "ax": "The Soul and Heaven in Judaism One of the fundamental beliefs of Judaism is that life does not begin with birth, nor does it end with death. This is articulate…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-301160",
+   "t_he": "",
+   "t_en": "What Is a Soul (Neshamah)?",
+   "x": "What Is a Soul (Neshamah)?",
+   "ax": "The soul, or neshamah in Jewish thought, is the self, the \"I\" that inhabits the body and acts through it. There are many words for the soul in Hebrew, but the…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 205,
    "s": "upload"
   }
  ]
