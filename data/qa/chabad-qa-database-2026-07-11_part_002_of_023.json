@@ -2,7 +2,7 @@
   "schema": 2,
   "format": "sanhedrin-qa-upload",
   "profile": "sanhedrin-github-upload-v2",
-  "generated_at": "2026-07-11T12:23:57+00:00",
+  "generated_at": "2026-07-11T12:06:21+00:00",
   "exported_at": "2026-07-11T09:58:33.920Z",
   "source": "chabad.org",
   "provider": "chabad",
@@ -23,7 +23,7 @@
   },
   "questions": [
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160962",
       "id": "chabad-160962",
       "provider": "chabad",
@@ -74,7 +74,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160963",
       "id": "chabad-160963",
       "provider": "chabad",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160964",
       "id": "chabad-160964",
       "provider": "chabad",
@@ -170,7 +170,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160965",
       "id": "chabad-160965",
       "provider": "chabad",
@@ -216,7 +216,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160966",
       "id": "chabad-160966",
       "provider": "chabad",
@@ -265,7 +265,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160967",
       "id": "chabad-160967",
       "provider": "chabad",
@@ -314,7 +314,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160968",
       "id": "chabad-160968",
       "provider": "chabad",
@@ -363,7 +363,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160969",
       "id": "chabad-160969",
       "provider": "chabad",
@@ -412,7 +412,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160970",
       "id": "chabad-160970",
       "provider": "chabad",
@@ -459,7 +459,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160971",
       "id": "chabad-160971",
       "provider": "chabad",
@@ -506,7 +506,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160973",
       "id": "chabad-160973",
       "provider": "chabad",
@@ -552,7 +552,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160975",
       "id": "chabad-160975",
       "provider": "chabad",
@@ -598,7 +598,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160976",
       "id": "chabad-160976",
       "provider": "chabad",
@@ -647,7 +647,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160977",
       "id": "chabad-160977",
       "provider": "chabad",
@@ -697,7 +697,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160978",
       "id": "chabad-160978",
       "provider": "chabad",
@@ -745,7 +745,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160981",
       "id": "chabad-160981",
       "provider": "chabad",
@@ -795,7 +795,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160983",
       "id": "chabad-160983",
       "provider": "chabad",
@@ -841,7 +841,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160985",
       "id": "chabad-160985",
       "provider": "chabad",
@@ -887,7 +887,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160986",
       "id": "chabad-160986",
       "provider": "chabad",
@@ -935,7 +935,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160987",
       "id": "chabad-160987",
       "provider": "chabad",
@@ -985,7 +985,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160988",
       "id": "chabad-160988",
       "provider": "chabad",
@@ -1034,7 +1034,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160990",
       "id": "chabad-160990",
       "provider": "chabad",
@@ -1085,7 +1085,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160991",
       "id": "chabad-160991",
       "provider": "chabad",
@@ -1132,7 +1132,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160992",
       "id": "chabad-160992",
       "provider": "chabad",
@@ -1179,7 +1179,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160993",
       "id": "chabad-160993",
       "provider": "chabad",
@@ -1226,7 +1226,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160995",
       "id": "chabad-160995",
       "provider": "chabad",
@@ -1272,7 +1272,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160997",
       "id": "chabad-160997",
       "provider": "chabad",
@@ -1323,7 +1323,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-160998",
       "id": "chabad-160998",
       "provider": "chabad",
@@ -1372,7 +1372,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-161000",
       "id": "chabad-161000",
       "provider": "chabad",
@@ -1420,7 +1420,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-161001",
       "id": "chabad-161001",
       "provider": "chabad",
@@ -1466,7 +1466,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-161004",
       "id": "chabad-161004",
       "provider": "chabad",
@@ -1515,7 +1515,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-161005",
       "id": "chabad-161005",
       "provider": "chabad",
@@ -1561,7 +1561,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-161006",
       "id": "chabad-161006",
       "provider": "chabad",
@@ -1608,7 +1608,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-161007",
       "id": "chabad-161007",
       "provider": "chabad",
@@ -1654,7 +1654,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-166898",
       "id": "chabad-166898",
       "provider": "chabad",
@@ -1704,7 +1704,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-166899",
       "id": "chabad-166899",
       "provider": "chabad",
@@ -1750,7 +1750,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-166900",
       "id": "chabad-166900",
       "provider": "chabad",
@@ -1800,7 +1800,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-166901",
       "id": "chabad-166901",
       "provider": "chabad",
@@ -1849,7 +1849,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-166902",
       "id": "chabad-166902",
       "provider": "chabad",
@@ -1896,7 +1896,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-166903",
       "id": "chabad-166903",
       "provider": "chabad",
@@ -1945,7 +1945,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-166907",
       "id": "chabad-166907",
       "provider": "chabad",
@@ -1991,7 +1991,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-166908",
       "id": "chabad-166908",
       "provider": "chabad",
@@ -2039,7 +2039,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-166909",
       "id": "chabad-166909",
       "provider": "chabad",
@@ -2085,7 +2085,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-216477",
       "id": "chabad-216477",
       "provider": "chabad",
@@ -2136,7 +2136,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-225405",
       "id": "chabad-225405",
       "provider": "chabad",
@@ -2184,7 +2184,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-225406",
       "id": "chabad-225406",
       "provider": "chabad",
@@ -2235,7 +2235,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-247657",
       "id": "chabad-247657",
       "provider": "chabad",
@@ -2281,7 +2281,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-248150",
       "id": "chabad-248150",
       "provider": "chabad",
@@ -2331,7 +2331,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-248160",
       "id": "chabad-248160",
       "provider": "chabad",
@@ -2380,7 +2380,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-248162",
       "id": "chabad-248162",
       "provider": "chabad",
@@ -2430,7 +2430,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-248163",
       "id": "chabad-248163",
       "provider": "chabad",
@@ -2480,7 +2480,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-248165",
       "id": "chabad-248165",
       "provider": "chabad",
@@ -2532,7 +2532,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-248166",
       "id": "chabad-248166",
       "provider": "chabad",
@@ -2578,7 +2578,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-251967",
       "id": "chabad-251967",
       "provider": "chabad",
@@ -2626,7 +2626,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-255907",
       "id": "chabad-255907",
       "provider": "chabad",
@@ -2672,7 +2672,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-255908",
       "id": "chabad-255908",
       "provider": "chabad",
@@ -2719,7 +2719,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-255986",
       "id": "chabad-255986",
       "provider": "chabad",
@@ -2770,7 +2770,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-255998",
       "id": "chabad-255998",
       "provider": "chabad",
@@ -2820,7 +2820,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-256010",
       "id": "chabad-256010",
       "provider": "chabad",
@@ -2871,7 +2871,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-256073",
       "id": "chabad-256073",
       "provider": "chabad",
@@ -2923,7 +2923,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-256915",
       "id": "chabad-256915",
       "provider": "chabad",
@@ -2974,7 +2974,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-257259",
       "id": "chabad-257259",
       "provider": "chabad",
@@ -3024,7 +3024,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-260252",
       "id": "chabad-260252",
       "provider": "chabad",
@@ -3070,7 +3070,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-260253",
       "id": "chabad-260253",
       "provider": "chabad",
@@ -3117,7 +3117,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-260254",
       "id": "chabad-260254",
       "provider": "chabad",
@@ -3163,7 +3163,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-260255",
       "id": "chabad-260255",
       "provider": "chabad",
@@ -3211,7 +3211,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-260662",
       "id": "chabad-260662",
       "provider": "chabad",
@@ -3263,7 +3263,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-263606",
       "id": "chabad-263606",
       "provider": "chabad",
@@ -3312,7 +3312,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-266286",
       "id": "chabad-266286",
       "provider": "chabad",
@@ -3363,7 +3363,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-267677",
       "id": "chabad-267677",
       "provider": "chabad",
@@ -3412,7 +3412,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-267678",
       "id": "chabad-267678",
       "provider": "chabad",
@@ -3458,7 +3458,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-267679",
       "id": "chabad-267679",
       "provider": "chabad",
@@ -3508,7 +3508,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-267866",
       "id": "chabad-267866",
       "provider": "chabad",
@@ -3556,7 +3556,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-269721",
       "id": "chabad-269721",
       "provider": "chabad",
@@ -3607,7 +3607,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-274326",
       "id": "chabad-274326",
       "provider": "chabad",
@@ -3658,7 +3658,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-274823",
       "id": "chabad-274823",
       "provider": "chabad",
@@ -3704,7 +3704,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-274826",
       "id": "chabad-274826",
       "provider": "chabad",
@@ -3753,7 +3753,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-279478",
       "id": "chabad-279478",
       "provider": "chabad",
@@ -3799,7 +3799,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-280329",
       "id": "chabad-280329",
       "provider": "chabad",
@@ -3851,7 +3851,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-300864",
       "id": "chabad-300864",
       "provider": "chabad",
@@ -3899,7 +3899,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-301160",
       "id": "chabad-301160",
       "provider": "chabad",
@@ -3949,7 +3949,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-302700",
       "id": "chabad-302700",
       "provider": "chabad",
@@ -3995,7 +3995,7 @@
       }
     },
     {
-      "source": "chabad",
+      "source": "upload",
       "source_id": "chabad-305549",
       "id": "chabad-305549",
       "provider": "chabad",
