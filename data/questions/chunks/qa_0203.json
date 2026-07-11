@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "chunk": 203,
- "count": 400,
+ "count": 500,
  "questions": [
   {
    "id": "ye-136672",
@@ -7245,6 +7245,1772 @@
    "tags": [],
    "date": "2026-07-10",
    "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135450",
+   "legacy": {
+    "source_id": "135450"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135450",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135451",
+   "legacy": {
+    "source_id": "135451"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135451",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135452",
+   "legacy": {
+    "source_id": "135452"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135452",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135453",
+   "legacy": {
+    "source_id": "135453"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135453",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135454",
+   "legacy": {
+    "source_id": "135454"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135454",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135456",
+   "legacy": {
+    "source_id": "135456"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135456",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135457",
+   "legacy": {
+    "source_id": "135457"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135457",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135458",
+   "legacy": {
+    "source_id": "135458"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135458",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135459",
+   "legacy": {
+    "source_id": "135459"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135459",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135464",
+   "legacy": {
+    "source_id": "135464"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135464",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135465",
+   "legacy": {
+    "source_id": "135465"
+   },
+   "source": "yeshiva",
+   "title": "מאכלים האסורים באכילה ערב יום כיפור",
+   "question": "שלום וברכה\r\nשמעתי כי יש מאכלים שיש להמנע מאכילתם בערב יום כיפור כגון: שומשום כי מעלה גרים (כנראה הכוונה להעלאת גירה אולי העלאת גזים)\r\nמה המקור ומהם המאכלים שלא נהוג לאוכלם בערב יום כיפור ובנוסף מי ששומשום לא גורם לו להעלאת גזים (נראה לעניות דעתי שרוב האנשים) האם מותר לאוכלו בערב יום כיפור\r\n\r\nישר כח ותזכו למצוות",
+   "answers": [
+    {
+     "text": "מקור הדברים הוא במסכת יומא. והדברים הובאו בשולחן ערוך ומפרשיו בהלכות יום הכפורים (סימן תר\"ח) לא נזכר שם הטעם שכתבת אלא טעמים אחרים. בעיקר שיהיו מאכלים שמתעכלים בקלות ולא גורמים להרגשת כובד וחוסר נוחות בתפילה.",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135465",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "halacha",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135467",
+   "legacy": {
+    "source_id": "135467"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135467",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135468",
+   "legacy": {
+    "source_id": "135468"
+   },
+   "source": "yeshiva",
+   "title": "קניית עלייה בכיפור",
+   "question": "שלום כבוד הרב \r\nשמרתי 1600 שקלים לכבוד כיפורים לכבוד לקיים מצוות לקניית עליות בכיפור הצלחתי ברוך השם לתרום 600 ונשאר 1000 כי היה הצעות גבוהות בעליות שאנשים הציאו השאלה היא מה לעשות עם הכסף שנשאר?\r\nמותר לקנות ציצית קטן, ולתת לצדקה?\r\nאני חושב שזה נדר והיה אתרת נדרים אותו זמן הייתי ליד ההיכל בלי סידור שהתחילו את אתרת הנדרים פשוט הייתי ושמעתי,\r\nמה לעשות עם הכסף שנשאר?\r\n\r\n\r\nתודה מראש!",
+   "answers": [
+    {
+     "text": "מעיקר הדין נדר צריך להוציא בשפתיו, בדיבור,וללא זה אין נדרו חל. (שולחן ערוך יורה דעה סימן ר\"י)\r\nאמנם בנדרי צדקה יש מהפוסקים שסברו שדינו כמו הקדש ואף במחשבה יש לו לקיים נדרו. (רמ\"א יורה דעה סימן רנ\"ח סעיף יג)\r\nלכן נראה לענ\"ד שלתת לצדקה לעניים ובעיקר לבני תורה ניתן להשתמש בכסף זה.\r\nלקנות ציצית, בגד - לא\r\nאפשר לעשות התרת נדרים בפני שלשה ובכך להתיר את השימוש בכסף לכל דבר. ",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135468",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "halacha",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135470",
+   "legacy": {
+    "source_id": "135470"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135470",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135471",
+   "legacy": {
+    "source_id": "135471"
+   },
+   "source": "yeshiva",
+   "title": "האם הנטלה ראויה לנטילה",
+   "question": "סליחה על הבוטות. אחיינית שלי הטילה את מימיה בתוך הנטלה של המקלחת (בתור משחק או משהו..), כמובן שטפנו את הנטלה היטב היטב עם המון סבון. אבל מבחינה מהותית האם ראוי להמשיך להשתמש בנטלה?",
+   "answers": [
+    {
+     "text": "שלום וברכה\r\nאין שום בעיה.\r\nברכה והצלחה וכל טוב.",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135471",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135472",
+   "legacy": {
+    "source_id": "135472"
+   },
+   "source": "yeshiva",
+   "title": "השוואה בין דתות",
+   "question": "הרב כתב בתשובה שאין ניסים או הדברים היסטוריים שמתועדים בנצרות, אלא רק הרבה אנשים שטוענים שזה קרא כי הם קראו על זה. מה זה שונה מיהדות? הרי גם לנו יש ספר שאנשים קוראים ממנו. וכן לגבי עמים אחרים שטוענים שיש להם סיפורי התגלות הרב כתב שאי אפשר להאמין לסיפורי התגלות לרבים שאמנם מסופרים על ידי אדם אחד. ובכן מניין לנו שלא כך תורת ישראל שהלכה מתוך סיפור של יחיד על רבים והתפשטה?",
+   "answers": [
+    {
+     "text": "שלום לך,\r\nהסיפור על מתן תורה הוא הסיפור היחיד בעולם על התגלות של האל בפני רבים, שהועברה על ידי רבים, לדורות הבאים. לא אדם אחד ראה, אלא כולם ראו, וכולם סיפרו לבניהם. אין שום הגיון לומר שכולם ראו, אבל רק אחד סיפר הלאה, לדורות הבאים. ואילו כך היה המצב, אכן לא היינו מאמינים. וגם בני הדורות הקודמים לא היו מאמינים שכולם ראו ורק אחד סיפר. אם הם בחרו להעביר את האמונה הזו לבניהם, סימן שהם היו בטוחים שזו האמת, קרי: כולם ראו.\r\nאבל האמת היא שזו נקודה שולית בדרך לאמונה. הוויכוח על כמה אנשים ראו את מעמד הר סיני, לא בהכרח יביא לאמונה. הדרך לאמונה עוברת דרך הדביקות בעם ישראל, ודרך לימוד תורה, שדרכם מתקשרים לתכני אמונה ומפנימים את מהות הקשר עם אלוקים.\r\nבברכה\r\nאוריאל טויטו. \r\n",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135472",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "halacha",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135474",
+   "legacy": {
+    "source_id": "135474"
+   },
+   "source": "yeshiva",
+   "title": "מגדיל או מגדול",
+   "question": "האם צריך להגיד מגדול בצאת יום הכיפורים משום שאמרנו מוסף ביום הכיפורים? (ואם אפשר בבקשה לשלוח פירוט)",
+   "answers": [
+    {
+     "text": "כתוב בבית יוסף סימן תרכ\"ד שבמוצאי יום הכיפורים יוצאת בת קול ואומרת לך אכול בשמחה לחמך. וכן כתב בסמ\"ג, וכתב הטור באותו סימן אוכלים ושותים בשמחה. ובדרכי משה כתב בשם מהר\"י ווייל ואור זרוע 'מרבים בסעודה שהוא יום טוב', ומכאן פשוט שיש לומר מגדול.",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135474",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135475",
+   "legacy": {
+    "source_id": "135475"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135475",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135477",
+   "legacy": {
+    "source_id": "135477"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135477",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135478",
+   "legacy": {
+    "source_id": "135478"
+   },
+   "source": "yeshiva",
+   "title": "שימוש בשמן בחלל הפה בצומות ובשבת",
+   "question": "שלום וברכה\r\nהאם מותר להשתמש בשמן (זית או קוקוס) בחלל הפה (מעין שימוש במי פה ואחכ יורקים יש הטוענים שהשימוש בכך מקנה יתרונות מסוימים מבחינה בריאותית) ואחכ לירוק אותו בלי לבלוע בצומות בכלל וביום כיפור בפרט\r\nהאם מותר לעשות זאת גם בשבתות ובימים טובים\r\n\r\nישר כח ותזכו למצוות",
+   "answers": [
+    {
+     "text": "אסור לעשות זאת, בכלל הצומות.",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135478",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "halacha",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135479",
+   "legacy": {
+    "source_id": "135479"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135479",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135483",
+   "legacy": {
+    "source_id": "135483"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135483",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135484",
+   "legacy": {
+    "source_id": "135484"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135484",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135486",
+   "legacy": {
+    "source_id": "135486"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135486",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135487",
+   "legacy": {
+    "source_id": "135487"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135487",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135488",
+   "legacy": {
+    "source_id": "135488"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135488",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135489",
+   "legacy": {
+    "source_id": "135489"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135489",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135490",
+   "legacy": {
+    "source_id": "135490"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135490",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135491",
+   "legacy": {
+    "source_id": "135491"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135491",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135493",
+   "legacy": {
+    "source_id": "135493"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135493",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135494",
+   "legacy": {
+    "source_id": "135494"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135494",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135496",
+   "legacy": {
+    "source_id": "135496"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135496",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135500",
+   "legacy": {
+    "source_id": "135500"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135500",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135502",
+   "legacy": {
+    "source_id": "135502"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135502",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135503",
+   "legacy": {
+    "source_id": "135503"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135503",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135504",
+   "legacy": {
+    "source_id": "135504"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135504",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135507",
+   "legacy": {
+    "source_id": "135507"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135507",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135509",
+   "legacy": {
+    "source_id": "135509"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135509",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135510",
+   "legacy": {
+    "source_id": "135510"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135510",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135511",
+   "legacy": {
+    "source_id": "135511"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135511",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135513",
+   "legacy": {
+    "source_id": "135513"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135513",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135514",
+   "legacy": {
+    "source_id": "135514"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135514",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135515",
+   "legacy": {
+    "source_id": "135515"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135515",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135516",
+   "legacy": {
+    "source_id": "135516"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135516",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135517",
+   "legacy": {
+    "source_id": "135517"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135517",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135518",
+   "legacy": {
+    "source_id": "135518"
+   },
+   "source": "yeshiva",
+   "title": "ספרי פנטזיה",
+   "question": "האם מותר לקרוא ספרי פנטזיה של סופרים נוצריים כמו הארי פוטר ופרסי גקסון?",
+   "answers": [
+    {
+     "text": "איני מכיר את תוכנם של הספרים. אם יש מהם מסרים נוצריים הם פסולים, וכן מסרים שליליים אחרים. אך אם יש בהם מסרים ערכיים, חינוכיים אוניברסליים וכדו' הם מותרים.\r\n",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135518",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "halacha",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135519",
+   "legacy": {
+    "source_id": "135519"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135519",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135526",
+   "legacy": {
+    "source_id": "135526"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135526",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135527",
+   "legacy": {
+    "source_id": "135527"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135527",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135529",
+   "legacy": {
+    "source_id": "135529"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135529",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135530",
+   "legacy": {
+    "source_id": "135530"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135530",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135531",
+   "legacy": {
+    "source_id": "135531"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135531",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135532",
+   "legacy": {
+    "source_id": "135532"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135532",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135537",
+   "legacy": {
+    "source_id": "135537"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135537",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135538",
+   "legacy": {
+    "source_id": "135538"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135538",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135539",
+   "legacy": {
+    "source_id": "135539"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135539",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135541",
+   "legacy": {
+    "source_id": "135541"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135541",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135542",
+   "legacy": {
+    "source_id": "135542"
+   },
+   "source": "yeshiva",
+   "title": "פסוקי שיר השירים בראשי תיבות יעקב - מה ענייינם?",
+   "question": "שלום וברכה\r\nמי שלא היה לו פנאי לומר שיר השירים כולו קודם קבלת שבת, יאמר אלו ד פסוקים שסימנם יעקב:\r\n\r\n<strong>י</strong>שָּׁקֵנִי מִנְּשִׁיקוֹת פִּיהוּ כִּי טוֹבִים דֹּדֶיךָ מִיָּיִן: \r\n<strong>ע</strong>וּרִי צָפוֹן וּבוֹאִי תֵימָן הָפִיחִי גַנִּי יִזְלוּ בְשָׂמָיו יָבֹא דוֹדִי לְגַנּוֹ וְיֹאכַל פְּרִי מְגָדָיו: \r\n<strong>ק</strong>וֹל דּוֹדִי הִנֵּה זֶה בָּא מְדַלֵּג עַל הֶהָרִים מְקַפֵּץ עַל הַגְּבָעוֹת: \r\n<strong>ב</strong>אתִי לְגַנִּי אֲחֹתִי כַלָּה אָרִיתִי מוֹרִי עִם בְּשָׂמִי אָכַלְתִּי יַעְרִי עִם דִּבְשִׁי שָׁתִיתִי יֵינִי עִם חֲלָבִי אִכְלוּ רֵעִים שְׁתוּ וְשִׁכְרוּ דּוֹדִים:\r\n\r\nושאלתי - מדוע נבחרו דוקא פסוקים אלה ומדוע דוקא בראשי תיבות של יעקב\r\n\r\nישר כח ותזכו למצוות",
+   "answers": [
+    {
+     "text": "השם יעקב מכוון לעם ישראל היהודים הפשוטים שגם הם מלאי אהבה לשם ית' וגם הוא אוהב אותם מאוד.\r\nבפסוקים יש גם רמזים לגאולה ההולכת ומתקרבת בפרט שהקב\"ה רואה כמה תורה ומצוות ומעשים טובים יש בישראל.",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135542",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135543",
+   "legacy": {
+    "source_id": "135543"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135543",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135544",
+   "legacy": {
+    "source_id": "135544"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135544",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135545",
+   "legacy": {
+    "source_id": "135545"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135545",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135546",
+   "legacy": {
+    "source_id": "135546"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135546",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135547",
+   "legacy": {
+    "source_id": "135547"
+   },
+   "source": "yeshiva",
+   "title": "חלום",
+   "question": "שלום לכבוד הרב.. דודה שלי נפטרה לפני כעשר שנים ממחלה.. היינו מאוד קרובות.\r\nחלמתי בלילה האחרון שאני מגיעה אליה הביתה ורואה את הבנים שלה ובעלה בבית כשהחיים מתנהלים כרגיל.. דודה שלי מבשלת צוחקת ומדבר איתי רגיל.\r\nפניתי אליה בשאלה בחלום איך זה יכול להיות שאת חיה? הרי אני הייתי בהלוויה שלך ואת מתה?. דודה שלי ענתה כי את ואמא שלך עוד מעט תגיעו אליי.. מיד התחלתי לבכות לדודה שלי שאני נורא צעירה ויש לי ילדים קטנים שאני לא רוצה לעזוב.. והיא ענתה לי שהיא גם עזבה את ילדיה.. ובכיתי לה גם למה היא אומרת על אמא שלי והיא ענתה תגידי לאמא שלך שתבדוק טוב טוב את הגוף שלה.. וכך נגמר החלום.\r\nהתעוררתי (כבר היה בוקר) בהיסטריה ובהרגשה מאוד רעה.. אשמח לדעת האם לדעתך יש מסר מהחלום? או מסמן על פחד מוות וגעגועים?",
+   "answers": [
+    {
+     "text": "כיון שיש משמעות מרתיעה קצת, כדאי לעשות הטבת חלום ע\"י תלמידי חכמים, לתת צדקה ולעשות פדיון נפש לך ולאמך. ד' יאריך ימיכם בשנים רבות ונעימות.",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135547",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135548",
+   "legacy": {
+    "source_id": "135548"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135548",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135549",
+   "legacy": {
+    "source_id": "135549"
+   },
+   "source": "yeshiva",
+   "title": "באילו חגים צריך לקנות בגד לאשה?",
+   "question": "ראיתי בהלכה שאדם צריך לקנות לאשתו מתנה בחג. כפי שכתב השולחן ערוך (תקכ\"ט ב): \"חייב אדם להיות שמח וטוב לב במועד הוא ואשתו ובניו וכל הנלוים אליו. כיצד משמחן? הקטנים נותן להם קליות ואגוזים והנשים קונה להם בגדים ותכשיטין כפי ממונו\".\r\nשאלותי:\r\n\r\n1. לגבי זמן המצווה, האם צריך לתת דווקא בערב חג (מהבוקר/אחרי חצות) או שאפשר גם כמה ימים לפני כי ידוע (וגם אומרים בדרך כלל) שזה לכבוד הרגל ?\r\n\r\n2. באיזה חגים צריך לתת מתנה? האם צריך לתת גם בראש השנה / יום כיפור / שמיני עצרת, שמחת תורה / חגים נוספים כלשהם, או דווקא בשלושת הרגלים עצמם בלבד (לעניין חיוב המצווה שמחמת הרגל ולא לעניין מצווה לשמח אשתו בכללי) ?",
+   "answers": [
+    {
+     "text": "שלום וברכה\r\n\r\n1. אפשר לתת לאשה את הבגד כמה ימים לפני הרגל (ראה חוט שני, יום טוב, כב, ב)\r\n\r\n2. בשלש רגלים – פסח, שבועות וסוכות יש חיוב לקנות לאשה בגד. נחלקו הפוסקים אם יש חיוב לקנות לאשה בגד לפני ראש השנה. למעשה אין חיוב. ביום כיפור מוסכם שאין צורך לקנות בגד לאשה. שמיני עצרת (שמחת תורה) לעניין זה נחשב חלק מסוכות ודי במתנה שנתן לפני סוכות.\r\n\r\nיש לציין שהמציאות היום בדרך כלל היא שהאשה קונה לעצמה בגדים ותכשיטים. לכן המצווה בזמננו בדרך כלל מתקיימת בכך שהבעל מעודד את אשתו לקנות בגד והוא יוזם את הקנייה. \r\n\r\nבמקרה שיש לאשה מספיק בגדים ותכשיטים או כאשר אין להם יכולת לקנות משהו יקר, או שהאשה מסתפקת במועט ולא רוצה בגד יקר, הבעל יכול לקנות לאשתו מתנה אחרת לחג אפילו מתנה קטנה. העיקר שהבעל ישמח את אשתו לקראת החג.  \r\n\r\nהגר\"א וייס שליט\"א אמר לי שאפשר גם לצאת ידי חובה אם הבעל יקנה לאשתו פרחים, בתנאי שמובן שהפרחים נקנו עבורה לשמחה בחג, ולא שסתם קנה כדי שיהיו בבית לכבוד החג.    \r\n\r\n\r\n\r\nמקורות והרחבה:\r\n\r\n1. זה לשון החוט שני (שם): \"הא דצריך לקנות בגדים לאשתו לשמחת יו\"ט אין צריך להמתין מלקנות לה עד יו\"ט אלא יכול לקנות אף קודם היו\"ט שתלבשנו כשקונה, וגם אח\"כ תלבשנו ביו\"ט וכמו שרגיל שמכין לה בגד ליו\"ט ושמחה בזה כל היו\"ט, דאין מצוי שהשמחה תהיה רק בלבישה הראשונה ושוב לא תהיה שמחה בו\".\r\n \r\n2. נבאר את ההלכה בחגים השונים:\r\n\r\n שלשת הרגלים (פסח שבועות וסוכות): יש חיוב לקנות לאשה מתנה כמבואר בסימן תקכט, סע' ב.\r\n\r\n ראש השנה: השולחן ערוך פסק (תקצז, א): אוכלים ושותים ושמחים, ואין מתענין בר\"ה ולא בשבת שובה; אמנם לא יאכלו כל שבעם, למען לא יקלו ראשם ותהיה יראת ה' על פניהם\". \r\n\r\nביאר המשנה ברורה (ס\"ק א): \"אוכלים ושותים ושמחים - ר\"ל אף שהוא יום הדין מ\"מ מצוה של ושמחת בחגך שייך גם בו שגם הוא בכלל חג כדכתיב תקעו בחודש שופר בכסה ליום חגנו ונאמר בנחמיה ח' אכלו משמנים ושתו ממתקים וגו' כי קדוש היום לאדונינו ואל תעצבו כי חדות ד' היא מעוזכם\". \r\n\r\nמלשון המשנה ברורה שהזכיר את הפסוק 'ושמחת בחגך' משמע שחיוב השמחה בראש השנה הוא כמו ברגלים. \r\n\r\nאולם בספר שאלת רב (עמ' שעו) כתב הגרח\"ק שאף על פי שכתב המשנה ברורה שמצות ושמחת בחגך נוהגת בראש השנה מכל מקום אין חיוב לשמח את אשתו וכו בראש השנה.\r\n\r\nבילקוט יוסף הלכות ראש השנה (עמ' רעו) נטה שיש חיוב לקנות לאשה בגד לפני ראש השנה וציין שלכאורה רבים לא נזהרים בזה. \r\nלדעת הגרש\"ז אוירבך (ועלהו לא יבול, ח\"א, עמ' ריב) אין חיוב לקנות לאשה בגד לפני ראש השנה (ואמר לשואל שהוא עצמו לא קנה לאשתו מתנה לפני ראש השנה). \r\nהגר\"א נבנצל שליט\"א אמר לי שרק בשלשת הרגלים יש חיוב לקנות לאשה מתנה לפני החג. \r\nושוב ראיתי שכך כתב הגר\"א נבנצל בספר ירושלים במועדיה (עמ' צז) שאף שיש חיוב שמחה בראש השנה בר\"ה, מכל מקום אין זה ממש כחיוב שמחה שיש ברגלים ולכן לא חייב לקנות לאשתו בגדים ומנעלים לחג. \r\n\r\nבמנחת אשר מועדים (ראש השנה סי' ב) דקדק בלשון הרמב\"ם שיש חיוב שמחה בראש השנה כמו שאר הרגלים. אולם נטה לומר בדעת השולחן ערוך והמגן אברהם שאין בראש השנה מצוות שמחה כמו ימים טובים אלא חיוב השמחה בראש השנה נלמד לדעתם מהפסוק בנביא \"אכלו מעדנים וכו כי חדות ה' היא מעוזכם\". ע\"ש.\r\n\r\nונראה שעיקר ההלכה שלא צריך לקנות מתנה לפני ראש השנה, שכך פסקו הגרש\"ז, הגרח\"ק והגר\"א נבנצל. ואף שהילקוט יוסף נטה לומר שחייבים, הוא עצמו העיר שלא נוהגים לקנות. ופוק חזי מאי עמא דבר. עוד נראה שאם היה חיוב לקנות מתנה לפני ראש השנה היה לפוסקים להזכיר זאת, משום שלא ברור שזה כלול בחיוב.\r\n\r\n יום כיפור: נראה שאין חיוב לקנות בגד לאשה לפני יום כיפור לכל הדיעות, משום שאין בו מצוות שמחה. \r\nאף שהמנחת אשר (שם) דקדק ברמב\"ם שיש ביום כיפור מצוות שמחה מסוימת שכתב על ימי ראש השנה ויום כיפור \"לפי שהן ימי תשובה ויראה ופחד לא ימי שמחה יתירה\". הרי שאין בהם שמחה יתירה אבל מצות שמחה יש בהם. \r\nובמנחת אשר (שם) הביא שמשמעות דבריו של היראים היא שביום כיפור אין מצוות שמחה, שלא כמו ראש השנה.\r\nמכל מקום נראה פשוט שלכל הדיעות (גם לרמב\"ם) אין חיוב לקנות מתנה לאשה לפני יום כיפור, וקל וחומר מראש השנה שלרוב הדיעות אין חיוב. \r\n\r\n שמיני עצרת: שמיני עצרת בכלל סוכות ואין חיוב לקנות לאשה מתנה מיוחדת לפני שמיני עצרת. כך נראה פשוט. אולם מכיון שלא מצאתי שהפוסקים התייחסו לזה שאלתי את הגר\"א נבנצל שליט\"א ואמר לי שאכן אין חיוב לתת מתנה מיוחדת לפני שמיני עצרת.\r\n\r\n\r\nהרחבה מעשית בעניין קיום מצווה זו:\r\nיש להעיר כמה הערות מעשיות בעניין קיום מצווה זו: \r\nא. קיום המצווה במציאות זמננו שהאשה קונה לעצמה בגדים: \r\n\r\nבזמננו בדרך כלל יש לבעל ולאשה חשבון בנק משותף והאשה מוציאה כסף כרצונה וקונה לעצמה בגדים לפני החג מהכסף המשותף. לכן יש לעיין באופי קיום המצווה בימינו. \r\nהגר\"א נבנצל שליט\"א אמר לי שגם כאשר יש כסף משותף החיוב נותר בעינו משום שזה משמח את האשה שהבעל קונה עבורה מתנה. ואמר שהבעל יכול לצאת ידי חובה אם אשתו קונה בגד לעצמה ובתנאי שהבעל בירך אותה ועודד אותה לקנות. \r\nגם הגר\"א וייס שליט\"א אמר כעין דברי הגר\"א נבנצל, שאף שהחשבון בנק משותף מכיוון שכל אחד רשאי למשוך כסף לצרכיו, הבעל מחויב לקיים את המצווה ולקנות לאשתו מתנה.\r\nואמר שאם האשה קונה לעצמה בגד המצווה מתקיימת בכך, ובתנאי שהבעל הוא זה שיוזם את הקנייה ולא שהאשה קונה את הבגד באופן שכופה את עצמה על בעלה.  עכ\"ד.\r\n\r\nבספר כל משאלותיך (עמ' תמח) מובא שנשאל הגרח\"ק על כך: \r\n\"שאלה: מה עדיף, הידור במצוה שבזמן הזה הוא מדרבנן (כמו אתרוג בשאר הימים) או הידור בבגדי צבעונים לאשתו שהיא מצוה מהתורה? \r\nתשובה: בגדי צבעונין היינו רק כשהיא רוצה. כשלאשה יש את הכסף וכל השנה יכולה לקנות מה שתרצה, בכך שהיא יכולה לקנות מתקיים בזה המצוה. ומסתמא סגי בדבר מועט\".\r\n\r\nב. איזה מתנה צריך לקנות לאשה?: נחלקו הפוסקים בדבר: כתב השולחן ערוך (תקכט, ב):\r\n\"והנשים, קונה להם בגדים ותכשיטין כפי ממונו\". \r\nבביאור הלכה שם כתב: \"ואם אין ידו משגת יקנה להם לכל הפחות מנעלים חדשים לכבוד יו\"ט [א\"ר בשם מהרי\"ל]\". \r\n\r\nהגרי\"ש אלישיב (לקט דיני יו\"ט וחוה\"מ לרב דינר א, ד) וכן בשו\"ת ויצבור יוסף (ח\"ב, נ) פסקו שצריך לתת דווקא בגד או תכשיט כפי שאמרו חז\"ל ולא מתנה אחרת. \r\n\r\nבחוט שני (שם) כתב שלא צריך לקנות דווקא בגד, וניתן לקנות לאשה כלי אכילה נאים לכבוד יום טוב, אולם המתנה צריכה להיות מיוחדת ליום טוב ולא משהו שמתאים רק לימי חול או לחול המועד. \r\n\r\nהגרש\"ז כתב (שולחן שלמה, יום טוב, תקכט, הערה ה) שאפילו מיקסר מועיל אם זה משמח אותה. \r\nבשבט הלוי (ח\"ח סי' קכד) כתב שיתכן שניתן לקיים את המצווה בקניית פרחים וכן רקידה וטיול לכבוד השמחה של היום שגורם הרחבת הדעת. אבל נתינת ספר גורם אמנם חדוה ושמחה אבל אינו קשור עם שמחת היום דוקא, וכן טלפון אינו מועיל לעניין זה. \r\n\r\nוכן אמר לי הגר\"א נבנצל שליט\"א שאם משמח אותה טיול בחג הבעל יכול לצאת ידי חובה בכך שמטייל איתה (לענ\"ד הדברים מחודשים לצאת ידי חובה בטיול שלכאורה אף שיש מצווה בטיולים וריקודים כמבואר ברמב\"ם בספר המצוות עשה נד, שבכלל מצוות השמחה ביום טוב יש לשמוח בכל מיני אופנים, אבל לכאורה לא מתקיים בזה המצווה של הבעל לשמח את אשתו אם אינו נותן לה דבר ממשי). \r\n\r\nבספר כל משאלותיך (עמ' תמח) מובא בשם הגרח\"ק שניתן לתת לאשה כל דבר שישמח את האשה ואפילו כלי מיטה או דבר כלשהו שישמח אותה. \r\n\r\nהגר\"א נבנצל שליט\"א אמר לי שאם משמח אותה פרחים הוא יכול לתת פרחים, וכן אם בשר ויין משמח אותה הוא יכול לצאת ידי חובה בנתינת בשר ויין. \r\n\r\nהגר\"א וייס שליט\"א אמר לי שניתן לתת לה כל דבר שישמח אותה ביום טוב. וכמו שלא צריך לתת לילדים קליות ואגוזים וניתן לתת להם במבה או כל דבר אחר. וכמו כן ניתן לשתות מיץ ענבים ולא יין למי שאוהב מיץ ענבים. כך לא צריך לתת לאשה בגד צבעונין שלא מקובל היום בגדים כאלו. וניתן לתת לה כל דבר שישמח אותה. חז\"ל רק דיברו בהווה ונתנו דוגמא. שאלתי את הגר\"א וייס אם ניתן לתת לאשה פרחים. והשיב שאם זה מודגש שהפרחים הם עבורה זה טוב, אבל אם זה לבית ולא עבורה דווקא לא יוצאים בפרחים.\r\n\r\nג. האם מועילה מחילה של האשה? בשו\"ת ויצבור יוסף (ח\"ב, נ) כתב שהחיוב הוא מצד החיוב בכתובה לנהוג כמנהג גברים יהודאין ולכן מועילה מחילה של האשה. \r\nלענ\"ד צע\"ג לומר שזה חיוב מדיני הכתובה, שהרי החיוב מפורש בפסוקים המדברים על שמחת החג, וזה מובא בגמרא בדיני שמחת החג.\r\n \r\nבחוט שני (שם) כתב שמכיון שלא מדובר בשעבוד אלא במצוה, ממילא לא מועילה מחילה. \r\n\r\nבשונה הלכות (יום טוב, עמ' ח) כתב הגרח\"ק שמועילה מחילה של האשה אבל אז הבעל לא יקיים את המצווה. \r\nוכן מובא בשמו בספר כל משאלותיך (עמ' תמח) שאשה יכולה למחול. \r\n\r\nהגר\"א וייס שליט\"א ואמר לי שמועילה בזה מחילה אבל לא מדובר במחילה ממונית רגילה כי לא מדובר על חוב ממוני. אלא מועילה בזה מחילה במובן של \"הריני כאילו התקבלתי\". כלומר אם האשה מתרצה בלב שלם שלא לקבל מתנה, ממילא אין חיוב לתת לה. \r\n\r\nלאחר כל החזיון הזה נראה שיש ללמד זכות על העולם, שכמדומה שלא מספיק מקפידים על מצווה זאת כראוי, וגם לא כל כך יודעים ממצווה זאת. \r\nניתן להסביר זאת כך: מכיוון שיש לאשה כסף להוציא תמיד והיא קונה לעצמה בגדים ובעלה מסכים לכך בשמחה, ממילא מקיימים בכך את המצווה כדברי הגרח\"ק בספר כל משאלותיך כנ\"ל. \r\nאם האשה לא קונה לעצמה בגד או משהו אחר לחג היא למעשה מוחלת לבעלה כי היא יודעת שאם היא היתה רוצה, היא היתה קונה לעצמה ובעלה היה מסכים בשמחה. \r\nלמרות לימוד הזכות הזאת, ודאי שראוי להקפיד לקיים את המצווה כפשוטו, על ידי שהבעל יקנה משהו עבור אשתו שתשמח בו, או שהבעל ייזום ויעודד את אשתו לקנות מתנה לחג. \r\n\r\nיש לציין שמצווה זאת היא מהתורה. ומסופר על כמה מגדולי ישראל שהוכיחו אנשים שהידרו מאד במצוות ארבעת המינים ולא קיימו את המצווה מהתורה של קניית מתנה לאשה שמוסיפה גם שמחה לבית.  \r\n\r\nכל טוב!       \r\n\r\n",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135549",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "ye-135551",
+   "legacy": {
+    "source_id": "135551"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135551",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135553",
+   "legacy": {
+    "source_id": "135553"
+   },
+   "source": "yeshiva",
+   "title": "הוספת עולה בפרשת האזינו",
+   "question": "האם מותר לחלק שביעי בפרשת האזינו לשתי עליות והשני יהיה \"אחרון\"?",
+   "answers": [
+    {
+     "text": "לשואל, שלום וחג שמח!\r\n\r\nניתן לחלק את הפסוקים אחרי השירה לשני עולים: הראשון מפסוק מד \"ויבוא משה\" וכו' עד \"לרשתה\" בסוף פסוק מז, שהוא הפסק פרשייה, והשני מפס' מח \"וידבר\" עד סוף הפרשה (משנה ברורה סי' תכח ס\"ק יד, ושיורי כנסת הגדולה שם, הגהות בית יוסף אות ד).",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135553",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "halacha",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135554",
+   "legacy": {
+    "source_id": "135554"
+   },
+   "source": "yeshiva",
+   "title": "למה אומרים לדוד ה אורי וישעי בימים שאינם מיוחדים לכאורה",
+   "question": "שלום וברכה\r\nא. כתב המטה אפרים (אלף למטה תקפא סק\"ו) שהטעם לאמירת המזמור לדוד ה' אורי וישעי בחודש אלול עד אחרי סוכות  הוא על פי המדרש 'שוחר טוב', (תהילים כז פיס' ד) \"אורי\" – זה ר\"ה, \"ישעי\" [\"ישעי\" מלשון ישועה, יום של סליחה וכפרה, יום של כפרת עונות, יום שאין השטן משטין ומקטרג לזה קוראים 'ישועה גדולה'] – זה יום כיפור, \"כי יצפנני בסוכה\" –  זה סוכות. לפי זה מה הסיבה לאמירת לדוד ה אורי וישעי ברצף מראש חודש אלול ועד הושענא רבה? אם מוזכרים ראש השנה יום כיפור וסוכות מדוע לא אומרים רק בימים אלו, ולמשל מפסיקים לומר בימים שבין יום כיפור לסוכות?  \r\nב. באותו ענין - האם גם בשמחת תורה בארץ ישראל אומרים לדוד ה אורי וישעי (למנהג האשכנזים נוסח ספרד)?\r\nישר כח ותזכו למצוות",
+   "answers": [
+    {
+     "text": "שלום וברכה,\r\nא. ימי התשובה והחגים אינם מנותקים אחד מהשני, אלא הם רצף אחד של קרבת ה' ותשובה שמתחילה באלול, ממשיך בראש השנה כאשר ממליכים את ה' על כל העולם. לאחר מכן מגיע יום כיפור שהוא יום סליחה וכפרה. ולאחר מכן ימי סוכות שהם ימי השמחה שבאים כהמשך לתשובה של הימים הנוראים [כך מבואר בהרבה ספרים. ראה למשל אורות התשובה (פרק ט, י) וראה עולת ראיה (עמ' שסז) בעניין המשמעות של הימים שבין יום כיפור לסוכות]. יש להוסיף שנאמרו טעמים נוספים להסביר את המנהג לומר מזמור זה בימים אלו. נזכיר טעם נוסף: במזמור זה יש י\"ג שמות הויה, שהם כנגד י\"ג מידות של רחמים, שהם מאירים בימים אלו (בפנים יפות בפרשת אחרי מות ויקרא טז כא בתוד\"ה וכתב). ראה עוד בספר מנחת אשר שיחות על המועדים (ח\"א, מאמרים ג-ד) שהאריך בזה.\r\nב. נחלקו מתי מפסיקים לומר מזמור זה. המטה אפרים (תקפא, ו) ומשנה ברורה (ס\"ק ב) ועולת ראיה (עמ' שלב) כתבו לומר עד שמיני עצרת (כולל). ולא חילקו בין ארץ ישראל לחוץ לארץ. בפירוש על מטה אפרים 'קצה המטה' (ס\"ק טו) הביא שבסידור האריז\"ל לרב שבתי כתב לומר עד אחר שמחת תורה. וכן כתב בספר שם טוב קטן. והוסיף, שהאומר מזמור זה מראש חודש אלול ואילך, מובטח לו שיוציא ימיו ושנותיו בטוב ובנעימים, ובמשפטו יצא זכאי לחיים טובים ולשלום.\r\nלעומת זאת בסידור הרב (בעל התניא) כתב שאומרים עד אחרי מנחה של הושענא רבה. בספר שער הכולל (סדר הושענות פרק מה ס\"ק ו) ביאר את הדברים בפנימיות שאין צורך לומר אחרי הושענא רבה. בשו\"ת שבט הלוי (ח\"י סי' פז), כתב שבארץ ישראל אומרים את המזמור עד ליום הושענא רבה, ורק בחוץ לארץ אומרים את המזמור גם ביום שמיני עצרת. שהרי במדרש מבואר שראש השנה יום כיפור וסוכות רמוזים במזמור (ראה לעיל). על כן בארץ ישראל שלא יושבים בסוכה בשמיני עצרת אין עניין לומר מזמור זה. עכ\"ד שבט הלוי.\r\nלמעשה, דעביד כמר עביד ודעביד כמר עביד.  \r\nכל טוב!\r\n",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135554",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "tanach",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135556",
+   "legacy": {
+    "source_id": "135556"
+   },
+   "source": "yeshiva",
+   "title": "הכנת פופקורן ביום טוב",
+   "question": "האם מותר להכין פופקורן בחג סוכות?",
+   "answers": [
+    {
+     "text": "מותר להכין בסיר על האש כאשר מדליקים את האש מנר נשמה דולק.\r\nיש דעה שכל מה שניתן להכין מלפני החג נדרש להכינו לפני החג, אך פופקורן יש לו מעלה להכינו בו בו ביום שהוא יותר טרי.",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135556",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "halacha",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135558",
+   "legacy": {
+    "source_id": "135558"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135558",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135559",
+   "legacy": {
+    "source_id": "135559"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135559",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135561",
+   "legacy": {
+    "source_id": "135561"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135561",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135562",
+   "legacy": {
+    "source_id": "135562"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135562",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135563",
+   "legacy": {
+    "source_id": "135563"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135563",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135564",
+   "legacy": {
+    "source_id": "135564"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135564",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135566",
+   "legacy": {
+    "source_id": "135566"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135566",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135568",
+   "legacy": {
+    "source_id": "135568"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135568",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135573",
+   "legacy": {
+    "source_id": "135573"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135573",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135576",
+   "legacy": {
+    "source_id": "135576"
+   },
+   "source": "yeshiva",
+   "title": "שינה בסוכה לנשים",
+   "question": "שלום כבוד הרב , וויכוח עם הבת שלי , היא טוענת שלאישה מותר לישון בסוכה לצורך סגולה לזיווג . האם הדבר זה נכון? אודה לתשובתך .",
+   "answers": [
+    {
+     "text": "שלום וברכה.\r\nסוכה היא מצות עשה שהזמן גרמא, ולכן נשים פטורות מסוכה. אולם יש לאשה שכר על קיום מצוה אף שאינה מצווה בה.מדברי הרמ\"א עולה, שלא נהגו הנשים לישון בסוכה, מלבד איש עם אשתו אם הדבר אפשרי, אולם המנהג הרווח שנשים אינן ישנות בסוכה. ויש קהילות שאף מורות לנשים להמנע מלישון בסוכה מטעמי צניעות, והבטיחו להן שכר על כך.\r\n\r\nבכל אופן בהתייחס לגוף השאלה, איני מכיר סגולה כזאת, אך כאמור לעיל, יש לאשה שכר בקיום מצווה כאשר אינה מצוה, ושכר זה גדול לאין שיעור מכל סגולה כזו או אחרת, וכמבואר בזוה\"ק שהסוכה היא \"צילא דמהימנותא\", וכ\"חדר יחוד\" של כנסת ישראל והקב\"ה. אך יש לשקול שכר מצוה כנגד הפסדה, במקום שלא נהגו הנשים במצוה זו, בפרט שיש גורמים נוספים שיש להכניס לשיקול זה, כגון צניעות וכיוצא בזה.\r\n\r\nברכת ה' עליכם,\r\n\r\nובשורות טובות בקרוב!\r\n",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135576",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "halacha",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135578",
+   "legacy": {
+    "source_id": "135578"
+   },
+   "source": "yeshiva",
+   "title": "דין ’עני מהפך בחררה’ בימינו",
+   "question": "שלום הרב, אנו לומדים בישיבה מסכת קידושין, ויש בדף נט. את סוגיית עני מהפך בחררה. ידועה היא מחלוקת תוס' ורש\"י האם דין עני מהפך בחררה חל גם כאשר יש הזדמנות נדירה לקונה (תוס' סובר שכאשר מדובר בהפקר או במציאה יוצאת דופן אזי אין דין מהפך בחררה ומותר וככה נראה בר\"ן וכן ברא\"ש וברשב\"א וכן בריטב\"א, ואילו לרש\"י ולרמב\"ן וככה ניתן להסיק בדעת הרמב\"ם מהלכות אישות פ\"ט הי\"ז אסור הדבר אפילו בהפקר ובדבר שהוא בגדר מציאה שאסור לפספס).\r\nבשו\"ע רמ\"א פסק כמו תוס' וסיעתו, אמנם מרן הבית יוסף מביא דעת יש אומרים כתוס' ודעת יש אומרים כרש\"י, ולכאורה ידוע הכלל בלימוד שו\"ע שתרי 'יש אומרים' הולכים כמו יש אומרים בתרא, ואם כן לכאורה באמת לפי שולחן ערוך, אסור לי כלל להתמודד למכרזים אם מישהו כבר הגיש לכך מועמדות? ומן הסתם ישנן עוד הרבה דוגמאות אף יותר קריטיות ומשמעותיות בכל עולם המסחר, לכאורה אם שו\"ע פוסק כמו רש\"י אין שום תחרות, אסור לחברה אחת להיכנס לתחום בו חברה אחרת כבר עוסקת, שהרי בסופו של יום שתי החרות יתחרו על אותו קהל  יעד? \r\n\r\nאשמח אם הרב יוכל קצת לבאר לי את הדברים, תודה רבה",
+   "answers": [
+    {
+     "text": "מכרז פתוח לכולם אינו היפוך בחררה",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135578",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "ye-135579",
+   "legacy": {
+    "source_id": "135579"
+   },
+   "source": "yeshiva",
+   "title": "האם נשים מזמנות בנוכחות גברים שיש רוב נשים",
+   "question": "שלום הרב, במצב של 3 נשים ו2 גברים בארוחה אחת, האם הנשים מחויבות לזמן? ואם כן, האם הגברים צריכים להיות נוכחים בזימון ולענות לזימון הנשים?\r\nתודה.",
+   "answers": [
+    {
+     "text": "אין סיבה לאסור, בפרט בחוג המשפחה ",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135579",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135580",
+   "legacy": {
+    "source_id": "135580"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135580",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135582",
+   "legacy": {
+    "source_id": "135582"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135582",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135583",
+   "legacy": {
+    "source_id": "135583"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135583",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135585",
+   "legacy": {
+    "source_id": "135585"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135585",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135586",
+   "legacy": {
+    "source_id": "135586"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135586",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135588",
+   "legacy": {
+    "source_id": "135588"
+   },
+   "source": "yeshiva",
+   "title": "השם צוריה לבת",
+   "question": "שלום רב,\r\n\r\nמה דעת הרב לגבי השם צוריה לבת (מלשון צור י-ה)?",
+   "answers": [
+    {
+     "text": "ישנו שם דומה צרוי'ה שהוא שמה של אחותו של דוד המלך, והיא זכתה לשלושה בנים שכולם היו גיבורי ישראל, על כן יש זכות גדולה בשם צרוי'ה. אבל גם השם צורי-יה ולא צור-יה הוא שם טוב המעיד על אמונה בשם והוא יביא ברכה.",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135588",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135590",
+   "legacy": {
+    "source_id": "135590"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135590",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135591",
+   "legacy": {
+    "source_id": "135591"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135591",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135593",
+   "legacy": {
+    "source_id": "135593"
+   },
+   "source": "yeshiva",
+   "title": "האם מותר ללכת לבית הקברות בחול המועד?",
+   "question": "האם מותר ללכת לבית עלמין בחול המועד?",
+   "answers": [
+    {
+     "text": "לא נוהגים ללכת לבית קברות בחול המועד.",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135593",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "halacha",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135594",
+   "legacy": {
+    "source_id": "135594"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135594",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135595",
+   "legacy": {
+    "source_id": "135595"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135595",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135597",
+   "legacy": {
+    "source_id": "135597"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135597",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135598",
+   "legacy": {
+    "source_id": "135598"
+   },
+   "source": "yeshiva",
+   "title": "סכך כשר בפרגולת אלומיניום נפתחת - עד כמה צריך להיות צמוד",
+   "question": "שלום. ביכולתנו וברצוננו לתכנן במקרה כנ\"ל בדיוק, שהסכך הכשר יהיה מתחת רפרפת האלומיניום. מה מידת הסמיכות הנדרשת? האם גם כאן אפשר להיעזר בדין לבוד, וכל עוד המרחק בין הסכך הכשר לפסול הינו קטן משלושה טפחים אזי נחשב לעירוב הכשר בפסול והסוכה תהיה כשרה?\r\nיש לציין שהנחת הסכך הכשר על האלומיניום עצמו (ואף אם יונח מתחת האלומיניום בסמיכות רבה ברמה שהסכך הכשר נוגע בפסול) לכאורה לא יאפשר לסגור את הגג במידה וירדו גשמים. כמו כן יש לדון מצד תעשה ולא מן העשוי במידה והסכך הכשר מעל האלומיניום. \r\nתודה רבה!",
+   "answers": [
+    {
+     "text": "שלום וברכה!\r\n\r\nראשית, אחזור שוב על הבהרה חשובה: האפשרות לדון על סוכה כשרה בפרגולת מתכת, היא אך ורק במצב כפי שמתואר בשאלה המקורית ובשאלתך, דהיינו פרגולה שהפסים שלה נפתחים, וכך נוצר מצב שפסי המתכת הם דקים והרווחים ביניהם הם גדולים. בפרגולת מתכת רגילה, שפסי המתכת הם רחבים והרווחים צרים יותר, אין כל אפשרות להקים סוכה.\r\n\r\nומכאן לשאלתכם:\r\n\r\nא. הסכך הכשר צריך להיות מונח בין הרפפות של האלומיניום, או צמוד אליהן ממש, מלמעלה או מלמטה. אם יש רווח בין הסכך הכשר לבין הרפפות, גם אם זה רווח קטן, הסוכה תהיה פסולה על פי הדעות שהוזכרו בתשובה הקודמת.\r\n\r\nב. השאלה על \"תעשה ולא מן העשוי\" אינה לגמרי ברורה. אם כוונתך שמניחים את הסכך הכשר על גבי הרפפות בזמן שהן סגורות ואז פותחים אותן, אכן יש בזה בעיה של \"תעשה ולא מן העשוי\". אבל כפי שאתה כותב, ממילא לא ניתן להניח את הסכך צמוד לרפפות ואז לפתוח אותן, וממילא השאלה אינה מעשית. \r\n\r\nהרחבה ומקורות:\r\n\r\nמלשונם של חלק מן הפוסקים נראה לכאורה שניתן להכשיר את הסוכה רק אם הסכך הכשר נמצא ממש בין המוטות של הסכך הפסול. כך למשל היא לשונו של המגן אברהם (תרכ\"ו, ו): \"דלא אמרינן לבוד, כיון שסכך כשר <b>ביניהם</b>\". וכן במשנה ברורה (תרכ\"ו, יז): \"אבל אם מסכך על גבי הלאטע\"ש (- קורות עץ שהן חלק מן הבית ופסולות לסיכוך), אף על פי שהן סמוכין זה לזה בפחות משלשה טפחים, הרי זו כשרה, ואין אומרים כאן לבוד... כיון שסכך כשר מונח <b>ביניהם</b> אין מצטרפין\". התיאור הוא אמנם של סכך שמונח <b>על גבי</b> המוטות הפסולים, אבל הנימוק להיתר הוא משום שהסכך נכנס <b>בין</b> המוטות. דהיינו שמדובר בסכך טבעי של ענפים ועלים, שכאשר מניחים את הענפים על גבי המוטות העלים יורדים למטה ונכנסים ביניהם. ולכאורה משמע מלשונות הפוסקים, שדוקא באופן זה הסוכה כשרה, ואם הסכך יהיה מונח רק מלמעלה אין זה מועיל.\r\nאולם כמה פוסקים (עיין פסקי תשובות תרכ\"ו, ט; שו\"ת עמק התשובה או\"ח, צו) הוכיחו שגם כאשר הסכך מונח על גבי המוטות הפסולים ואינו נכנס ביניהם, עדיין הסוכה כשרה. כך עולה מדברי הגמרא (סוכה ט\"ו ב) המתארת סוכה שיש עליה שיפודים של מתכת ומעליהם קנים של סכך, שהיא כשרה אם השיפודים נתונים שתי והקנים נתונים ערב או להפך, דהיינו שהקנים מונחים בניצב לשיפודים. ומסביר רש\"י: \"ואם היו נתונין השפודין שתי, נותנן לקנים של סכך ערב, דעל כרחך אם אינו <b>נותן ראשי הקנים על שפודין</b> הרי הן נופלין לארץ, והלכך הוה ליה כשר מרובה על הפסול\". דהיינו שהקנים מונחים על השיפודים ולא ביניהם, ובכל זאת הסוכה כשרה. וכך מפורש עוד יותר בפירוש רבנו חננאל שם: \"אם היה סכך פסול נתון שתי, נותן הסכך כשר עליהן ערב, <b>ולא נמצא מכניס ביניהם כלום</b>\".\r\nממילא, עולה שהסכך הכשר אינו חייב להיכנס ממש בין הרפפות ואפשר גם להניחו על גביהן כאשר הוא צמוד אליהן. אבל אין מקור להתיר גם כאשר הסכך מופרד מן הרפפות ברווח כלשהו.\r\nומה שהצעת שנחיל כאן את דין \"לבוד\", וממילא הסכך יהיה כשר גם אם אינו צמוד אל הרפפות, כל עוד המרחק אינו מגיע לשלושה  טפחים – הדבר אינו מסתבר. דין \"לבוד\" מועיל ליצירת מחיצות, אבל אין משמעו שכל חפץ שנמצא במרחק של פחות משלושה טפחים נחשב כאילו הוא נמצא כאן ממש. להמחשה: האם אדם יכול להחזיק את התפילין במרחק של שני טפחים מעל לראשו, ולקיים בכך הנחת תפילין מדין \"לבוד\"? ודאי שלא. וכך גם כאן, אין אנו עוסקים בהגדרת מחיצה, אלא באים לבטל את המחיצה שנוצרה על ידי הסכך הפסול. לשם כך צריך מגע פיזי ממש של הסכך הכשר עם הסכך הפסול, ולא מועיל שהוא יהיה במרחק של פחות משלושה טפחים.\r\n\r\nלגבי \"תעשה ולא מן העשוי\": אם מניחים את הסכך הכשר צמוד <b>מתחת</b> לרפפות ואז פותחים אותן, הדבר נכנס למחלוקת בין הפוסקים, בעוד שאם מניחים את הסכך הכשר צמוד <b>מעל</b> לרפפות ואז פותחים אותן, הסוכה פסולה לכל הדעות (עיין במשנה ברורה תרכ\"ו, יח). אך כאמור, ממילא השאלה הזו אינה מעשית.\r\n",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135598",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "halacha",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135601",
+   "legacy": {
+    "source_id": "135601"
+   },
+   "source": "yeshiva",
+   "title": "ERROR 404",
+   "question": "",
+   "answers": [],
+   "url": "https://www.yeshiva.org.il/ask/135601",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135602",
+   "legacy": {
+    "source_id": "135602"
+   },
+   "source": "yeshiva",
+   "title": "חלוקת החוטים בציצית עם תכלת לפי תוספות",
+   "question": "בעניין קשירת ציצית עם חוטי תכלת לפי התוספות, שישנם ד' ראשי תכלת וד' ראשי לבן - כיצד יש לקשור? יש שנוהגים שהקשר האחרון מתחלק לארבעה חוטים לבנים וארבעה חוטי תכלת, ויש שעושים שמכל צד של הקשר יוצאים שני ראשי תכלת ושני ראשי לבן. מה נכון יותר? אם אפשר מקורות כלליים.",
+   "answers": [
+    {
+     "text": "שלום וברכה!\r\n\r\nמצד ההלכה נראה שאין בזה הקפדה, אפשר לקשור כך ואפשר לקשור כך.\r\nאולם כמו בכל קשירה של ציצית, כדאי להפריד בין שמונת ראשי החוטים באופן עקבי, כך שבסופה של הקשירה החלוקה של הראשים תהיה מקבילה לחלוקה שנעשתה בקיפול הראשוני של החוטים ובקשירת הקשר הראשון. אופן זה מצמצם את הסיכוי לפסילת הציצית במקרה שחלק מן החוטים ייקרעו. אם אכן מקפידים על הפרדה כזו, ייצא כמובן שבכל צד יש שני ראשי תכלת ושני ראשי לבן.\r\n\r\nהרחבה ומקורות:\r\n\r\nראשית, איני מכיר מקורות הדנים במישרין בעניין זה. אם אכן אין בפוסקים אמירה לקשור כך או כך, הרי זה מלמד בפשטות שאין בכך דין כלשהו, ואפשר לקשור את החוטים כרצונך.\r\nאולם מעבר לראיה זו משתיקת הפוסקים, ניתן גם להביא הוכחה לכך שאין בכך הקפדה, משתי סוגיות הדנות בעניין חוטי הציצית:\r\n\r\nא. במרדכי (מנחות, רמז תתק\"מ) וברא\"ש (הלכות ציצית, סימן ט\"ו) מופיע דיון של בעלי התוספות (רבנו תם, ר\"י ועוד) לגבי צורת הקשרים של הציצית. כפי המתואר שם, רבנו תם וחכמים נוספים לא קשרו את הציצית באופן שבו אנו רגילים לקשור, דהיינו שמחלקים את החוטים לשתי קבוצות של ארבעה ראשים וקושרים את שתיהן זו על זו, אלא קשרו את הציציות באמצעות חוט אחד או שנים, שנקשרו על גבי שאר החוטים והקשר הזה החזיק את הגדיל והכריכות שלא יתפרקו. באופן זה כמובן אין כלל הפרדה של החוטים לשתי קבוצות, אלא כל החוטים עומדים בקבוצה אחת. רק לאחר שיטות קשירה אלה, מוזכר גם המנהג שלנו, והוא מופיע כמנהג ולא כדין מחייב. אם אכן בציצית עם תכלת ישנה הקפדה על חלוקה של חוטי התכלת וחוטי הלבן באופן מסוים דוקא (שכל חוטי הלבן יהיו בצד אחד וכל חוטי התכלת בצד השני, או שבכל צד יהיו שני חוטי תכלת ושני חוטי לבן), היה צריך להזכיר זאת כראיה לגבי צורת הקשר, שמכאן יש ללמוד שאופן הקשירה המקורי של הציצית צריך להיות דוקא באופן הנהוג כיום, שמחלק את החוטים לשתי קבוצות. מן הדיון עולה שלדעת בעלי התוספות אין כלל צורך להפריד את החוטים לשתי קבוצות, וממילא ברור שאין הקפדה איזה מין (לבן ותכלת) יהיה בכל צד.\r\n\r\nב. בעניין חוטי ציצית שנקרעו, סובר רבנו תם שאחד התנאים לכך שהציצית תהיה כשרה, הוא שלפחות מין אחד (התכלת או הלבן) יישאר בשלמותו. מתוך כך פוסק רבנו תם (תוס' מנחות ל\"ח ב, ד\"ה \"אלא\"; ב\"י ושו\"ע י\"ב, א) שבציצית של לבן, אם נקרעו יותר משני חוטים הרי הציצית פסולה. הנימוק לכך הוא שגם בציצית של לבן, לדעתו, ישנם \"שני מינים\", ששנים מן החוטים הלבנים הם כנגד התכלת ושנים הם כנגד הלבן. לפיכך יש להקפיד שלפחות אחד ה\"מינים\" הללו יישאר שלם, ואם נקרעו שלושה חוטים הציצית פסולה, שאז בהכרח כבר נפגמו שני ה\"מינים\". ר\"י, מבעלי התוספות, חולק על שיטת רבנו תם בעניין מספר החוטים הקרועים שפוסל את הציצית, אולם הוא אינו חולק על תפישתו העקרונית של רבנו תם, שארבעת חוטי הלבן מייצגים שני חוטי תכלת ושני חוטי לבן, אלא טוען שגם בציצית של תכלת, ייתכן מצב שנקרעו חוטים גם מן התכלת וגם מן הלבן ועדיין הציצית כשרה.\r\nהפוסקים הדנים בעניין זה (עיין מרדכי מנחות, רמז תתקל\"ט; ב\"י ושו\"ע י\"ב, א; משנ\"ב י\"ב, ט) מחלקים למעשה בין מצב שהאדם דקדק בשעת הקשירה להפריד את ראשי החוטים, כך שהחלוקה בסוף הגדיל תהיה מקבילה לחלוקה הראשונית של החוטים המקופלים, ובין מצב שהאדם לא הקפיד על כך. במצב הראשון קל יותר לזהות אם הראשים שנקרעו שייכים לחוט אחד או לחוטים שונים (שאם הם נמצאים בצד אחד הם שייכים בוודאי לחוטים שונים ולא שני קצוות של אותו החוט) ואילו במצב השני זהו ספק. מן הדברים עולה בבירור, שלדעת רבנו תם ור\"י אין דין שצריך לקשור את החוטים באופן מסוים, דוקא באופן שמפריד את ראשי החוטים או דוקא באופן שראשי החוטים מתערבבים לאחר הקשירה הראשונה. מצד הדין ניתן לקשור כך או כך, ורק יש יתרון מעשי בהקפדה על כך, שאז ניתן ביתר קלות לדעת אם החוטים שנקרעו שייכים לחוט אחד או לא.\r\nדהיינו: דינו של רבנו תם מבוסס על התפישה שגם בציצית לבנה ארבעת החוטים אמורים לייצג שני חוטי תכלת ושני חוטי לבן, ואף על פי כן, אין הוא מצריך לקשור את החוטים דוקא באופן זה או זה. דהיינו שאין דין לקשור את חוטי התכלת וחוטי הלבן באופן מסוים, אלא אפשר להפריד ביניהם ואפשר לערבב אותם.\r\nמתוך כך עולה, שמן הדין אין הקפדה בעניין זה, וניתן לקשור את החוטים כרצונך. עם זאת, עולה מכאן שאכן כדאי להקפיד בקשירת הציצית על הפרדה עקבית של הראשים, כך שהחלוקה שלהם בסוף הגדיל תהיה מקבילה לחלוקה שלהם בתלייה בבגד, וזאת כדי שאפשר יהיה לדעת ביתר ודאות איזה ראש שייך לאיזה חוט, מה שיכול לאפשר להקל במקרה שייקרעו חלק מן החוטים. (אף שלפי רבנו תם עצמו אין בזה כל כך נפק\"מ, עיין במשנ\"ב הנ\"ל, מעיקר הדין אנו פוסקים כדעת ר\"י, ולפיכך יש בכך נפק\"מ אם ייקרעו חוטים.)\r\n",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135602",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "general",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135603",
+   "legacy": {
+    "source_id": "135603"
+   },
+   "source": "yeshiva",
+   "title": "סוכה למי שגר בקומה גבוהה, טיולים בסוכות בלי סוכה",
+   "question": "שלום אני גר בבית על קומות (אין אפשרות להקים סוכה במרפסת - לפחות לא כשרה...) וכל שנה אנו והשכנים בונים סוכה למטה ברחוב.\r\nבדר\"כ בלילה הראשון אנחנו אוכלים שם את ארוחת החג עם השכנים יחדיו שזה בעצמו הינדוס רציני - לחכות למעלית שבת (בתקווה שכיוונו אותה נכון) להוריד את הכל בעגלה, לרדת, לשכוח כמה דברים, לעלות, להביא ולרדת שוב ובנוסף לאחר הסעודה להוריד תה ועוגות ועוגיות וספרים ומשחקים...\r\n\r\nמבחינת שינה אחרי כמה ניסיונות משנים קודמות אני יודע שגם זה לא כל כך קל לישון שם מבחינת רעש, אנשים שעוברים, מכוניות, בעלי חיים, המוזרות של להסתובב ברחוב עם מזרונים וכריות ובכלל עצם המחשבה והעובדה של השינה ברחוב ושאנשים עוברים ורואים אותך ישן לא מרגיש לי בנח בכלל חוץ מעניין הקור והזבובים...\r\n\r\nשאלותיי הם:\r\n1. האם אני מחויב לישון בסוכה או שמא פטור מדין מצטער?\r\n\r\n2. האם אני חייב לנסות כל שנה מחדש לישון בסוכה ואז לעלות מדין מצטער (אם אכן פטור עקב כך) או שאין צורך ועקב ניסיון של שנים כבר ישר לפטור את עצמי?\r\n\r\n3. האם אני מחויב לאכול בסוכה כל ארוחה עם לחם? בדר\"כ כל שנה אנחנו מקיימים את הארוחות שאוכלים ביחד בסוכה זה יוצא בשבת והיום טוב עצמו במהלך חול המועד אנחנו לא אוכלים שם...\r\n\r\n4. אם אני פטור זה מדין מצטער אשמח לפירוט?\r\n\r\n5. מה כל אדם שגר בבית על קומות שלא בונה סוכה ברחוב האם הוא פטור מדין מצטער (או משהו אחר)?\r\n\r\n6. האם מבחינה הלכתית יש משמעות לבניית הסוכה שלנו או שעדיף לא לבנות בכלל ואז נהיה פטורים ועצם בניית הסוכה מחייבת אותנו?\r\n(כוונתי היא לא למחלוקת השו\"ע רמ\"א אלא לשאלת החיוב שלנו)\r\nכאילו האם יש משמעות הלכתית שיש סוכה לידינו או שאין?\r\n\r\n7. אם אין לי אפשרות לישון בסוכה האם מותר להכנס לסוכה של שכנים או מישהו אחר ללא ידיעתו ולישון שם או לאכול סוכה שנמצאת ברחוב לא בבית פרטי?\r\n\r\n8. האם בשבת סוכה האם דין רשות היחיד?\r\n\r\n9. מה קורה בטיולים (בהנחה שכבר מטיילים) שאין סוכה בסביבה האם אפשר לאכול לחם לא בסוכה? ולישון לא בסוכה? ולשבת במסעדה שאין בה סוכה?\r\n\r\n10. אם אדם נמצא במדבר ויושב בסוכה, ויורד גשם. אם יצא מהסוכה זה לא יעזור לו להימלט מהגשם כי אין לו בית במדבר שיוכל להיכנס אליו. האם מחויב להישאר בסוכה?    \r\n\r\nסליחה על חפירה,\r\nפשוט החלטתי טיפה לחקור את העניין הפעם...\r\nותודה מראש!",
+   "answers": [
+    {
+     "text": "שלום וברכה,\r\n1-6. טוב שאתם בונים סוכה ואוכלים בה. כך אתם מחויבים לעשות לפי ההלכה. אשריכם ולפום צערא אגרא! מה שאמרו מצטער פטור מהסוכה זה רק במי שבנה סוכה, ומסיבה כזו או אחרת הוא מצטער לשבת בה. אולם יש חיוב לפני החג שיהיה ביד האדם סוכה שנוח לו לשבת בה, ואם הוא גר בבניין קומות ואין לו אפשרות לעשות סוכה במרפסת שלו אז יעשה סוכה למטה בחצר וכדומה.\r\nלגבי השינה, צריך לזכור שלרוב המוחלט של האנשים יותר נוח לישון בבית ואף על פי כן התורה צוותה לישון בסוכה. בארץ ישראל בדרך כלל הקור לא חזק כל כך לפטור משינה בסוכה. כמו כן אין טעם להתבייש מהבאת המצעים לסוכה לצורך מצווה של הקב\"ה, ואין זה נקרא 'מצטער' שפטור מהסוכה. לגבי רעש וזבובים זה באמת יכול להפריע מאד. למעשה אם בתנאים הקיימים אצלכם רוב בני אדם היה להם צער משמעותי לישון (או לחילופין אתה מכיר בעצמך שאתה רגיש מאד לדברים כאלו או לקור) אתם פטורים מלישון בסוכה.\r\nלגבי אכילה, בסעודות החג ושבת אתם מחויבים לאכול לחם, וממילא צריך לאכול בסוכה. בשאר הזמן ניתן לאכול אוכל שלא חייב בסוכה, כגון אורז ודגים.\r\n\r\n7. אם אין דרך לבקש רשות מחברו, ניתן להשתמש בסוכה שלו, משום שנוח לאדם שישתמשו בסוכה שלו על מנת לקיים מצווה, אלא אם כן ידוע שאותו אדם מקפיד שלא יכנסו לסוכתו.\r\n\r\n8. לא בהכרח. לשבת צריך שלש מחיצות וקצת. לסוכה צריך שתי דפנות וקצת. אגב, משפט הפוך הוא נכון. כלומר שאם הסוכה כשרה לשבת זה כשר גם לעניין סוכה (ראה סי תרל, ז).\r\n\r\n9. הולכי דרכים פטורים מסוכה. נחלקו פוסקי הדור האחרון אם היתר זה מצומצם למי שיוצא לפרנסתו או שמותר אף לצאת לטיולים. יש מקום להקל בדבר, ובפרט בטיול בארץ ישראל שיש בה קצת מצווה. אולם ראוי מאד למצוא דרך שלא להיזקק להיתר זה: אפשר לאכול ארוחה משביעה בסוכה לפני או אחרי הטיול, ובטיול לאכול אוכל שאינו חייב בסוכה. כמו כן אפשר לקחת סכך לנצח ולהעמיד בין רכבים בצורה כשרה ואכמ\"ל. יש לציין שמוכרים היום סוכה קומפקטית למטייל.\r\nבכלל, לא נכון לבלות את ימי המועד בטיולים ארוכים, משום שימי המועד נועדו ללימוד תורה והתעלות רוחנית.   \r\n\r\n10. במקרה כזה הוא מחויב להישאר בסוכה למרות הגשם. \r\n\r\n\r\nמקורות והרחבה:\r\n1-6.  בגמרא סוכה (כו.) מבואר ששומרי גינות ופרדסים פטורים מן הסוכה. אביי הסביר שהטעם הוא משום 'תשבו כעין תדורו'. ביאר רש\"י: \"כעין תדורו - כדרך שהוא דר כל השנה בביתו הזקיקתו תורה להניח דירתו ולדור כאן בסוכה עם מטותיו וכלי תשמישו ומצעותיו וזה אינו יכול להביאן שם מפני הטורח\". (ראה שם בגמרא שרבא אמר הסבר אחר אבל הוא לא חולק על דברי אביי כמבואר בריטב\"א).\r\nהרי שמי שנמצא רחוק מהסוכה לא חייב לטרוח ולהביא את מצעותיו לסוכה. לכאורה לפי זה היה מקום לומר שמי שאין לו אפשרות לבנות סוכה ליד ביתו יהיה פטור. אולם כבר ביאר המנחת אשר (מגיפת הקורונה, סי' צז) ששומרים אלו הפטורים מסוכה גרים מחוץ ליישובם של בני אדם ולעולם יש טורח גדול להביא לשם מיטות ומצעות וכלי תשמיש כראוי לקיים תשבו כעין תדורו, אבל אדם שאין לו אפשרות להקים סוכה ממש סמוך לביתו צריך להתאמץ ולהקים סוכה במרחק מה מביתו. וכך כתב המשנה ברורה בשם החתם סופר והביכורי יעקב (סי' תרמ, ס\"ק כד) שפשוט שאפילו מי שאין לו מקום בחצירו לבנות לו סוכה שצריך להמציא לו מקום לבנות לו סוכה ואז שם ביתו כדרך שגם כל השנה רגילים לפנות מבית לבית ואז שם ביתו (וראה שער הציון ס\"ק ל).\r\nיתירה מזאת פסק המנחת אשר (שם, סי צו) שחולה קורונה שלא מסוגל לשבת בסוכה עם כולם ואין לו פתרון של סוכה באזור ביתו צריך לעבור למלונית של חולי קורונה (אם לא שהדבר יגרום שיתבטל משמחת היום טוב ע\"ש).\r\nוראה בשו\"ת באהלה של תורה (ח\"ה, סי' נג) שביאר וביסס את החיוב למי שגר בקומה עשירית לאכול את ארוחות הלחם ועוגות בסוכה. והציע לאכול בבית ארוחות עם אורז ובשר וכדומה.  \r\nלגבי מצטער, הכלל כתוב בדברי הרמ\"א (תרמ, ד): \"ולא יוכל אדם לומר מצטער אני אלא בדבר שדרך בני אדם להצטער בו (טור)\". ביאר המ\"ב (ס\"ק כח-כט) שאם אין דרך בני אדם להצטער בדבר בטלה דעתו אצל כל אדם אם לא שהוא מאניני הדעת (ובשער הציון שם ביאר שכל אדם יודע בעצמו אם הוא מאניני הדעת ולא צריך שהדבר יהיה ידוע לכולם).\r\nלגבי שינה הרמ\"א (תרלט ב) כתב שאחד הטעמים שנהגו להקל שלא לישון בסוכה הוא משום הקור. אולם כבר כתב הגר\"א נבנצל (ביצחק יקרא שם) שבארץ ישראל בדרך כלל אין הצינה קשה כל כך.\r\nלגבי רעש מהרחוב: אם בגלל הרעש של המטיילים והנוסעים ברחוב אינו יכול לישון בסוכה כתב הגר\"א נבנצל (ביצחק יקרא שם) שנראה שנקרא מצטער. וכן אמר לי הגר\"א נבנצל בעל פה. וכעין זה כתב בהליכות שלמה (ט, יט) שבן שקשה לו לישון בסוכת אביו מפני האורחים פטור מהסוכה שזה דומה ליתושים שמפריעים לאדם בסוכה שפטור מהסוכה. ועיין שם בהערה 129 שבעל הבית עצמו שהזמין את האורחים לא יכול כעת לטעון שהוא מצטער מחמת האורחים ולישון בבית משום שהוא הביא את האורחים. (ולכאורה צ\"ע כי הזמנת אורחים זה חלק ממנהגו של עולם וחלק משמחת החג, ולכאורה לא צריך להימנע מלהזמין אורחים ופטור כעין הולכי דרכים. עיין לקמן לעניין טיולים בחול המועד). ומצאתי בספר כל משאלותיך (שו\"ת עם הגר\"ח קנייבסקי זצ\"ל): \"פלוני שואל מחמת שהוא בסוכה יש לו רעש ואינו יכול לישון אם מיקרי מצטער כמו שקור וחום על ידי הסוכה פוטרו? תשובה: זהו דבר צדדי ולא פטור מדין מצטער. שאלה: מאי שנא ריח מרעש? תשובה: ריח זה סוג מקום כזה שיש בו ריח מה שאין כן רעש\". עכ\"ל. ומצאתי בספר מועדי הגר\"ח וז\"ל: \"כשישן בסוכה ויש רעש עצום, ואין יכול לישון אם פטור משום מצטער. תשובה: יתכן\".             \r\nוצריך לי עיון מה שכתב הגרח\"ק שאינו מצטער, שהרי גם יתושים זה חיצוני ואם הם מציקים למישהו אזי הוא פטור מהסוכה מדין מצטער. ועוד, אפילו אם נחלק ונאמר שיתושים המציקים הם חלק מהסוכה משום שיתושים אינם ברי דעת (וגם לא ניתן לבקש מהם לעזוב) מה שאין כן בני אדם שמרעישים, לכאורה מסברא אין לחלק מאיזה סיבה האדם מצטער, בין סיבה חיצונית או לא.\r\nלגבי הבושה שמביאים מצעים לסוכה מחמת שנראה מוזר בעיני החילונים, כתב בהליכות שלמה (שם הערה 127) שאינו נקרא מצטער שאינו מצטער מהסוכה אלא מחמת קיום המצוה ואל יבוש מהמלעיגים עליו.\r\n\r\n7. כתב הרמ\"א (תרלז ג): \"הגה: מיהו לכתחלה לא ישב אדם בסוכת חבירו שלא מדעתו\". וכתב על זה במ\"ב (ס\"ק ט): \"שלא מדעתו - שמא בעל הסוכה הוא מקפיד ע\"ז שלא יראה חבירו את עסקיו ואת אכילתו בלי ידיעתו וממילא אין נכון לברך עליה אבל מותר ליכנס ולישב בסוכת חבירו בשעה שאין בעל הסוכה שם בסוכתו שבודאי לא יקפיד ע\"ז דניחא ליה לאינש דליעבד מצוה בממוניה ומ\"מ אם אפשר שיבוא בעל הסוכה בעוד שהוא שם אף דבעת הכניסה אינו שם לא יכנס שלא מדעתו כי אפשר שבעה\"ב יתבייש ליכנס ולאכול או לעשות עסק אחר בפניו\". עכ\"ל. ומסתבר שהיום יותר מקפידים על זה מפעם וצ\"ע.  \r\n\r\n8. לגבי מספר הדפנות בסוכה ראה סי' תרל ב. לגבי דפנות לשבת ראה סי' שסג, א.\r\n\r\n9. בגמרא מבואר שהולכי דרכים פטורים מסוכה (סוכה כו.). האגרות משה (או\"ח, ג, צג) חידש שרק לפרנסה התירו לאדם להפקיע עצמו מסוכה שיש בזה צורך ולא סתם לטייל. והוסיף שגם אם היה היתר לעשות כן יש להשוות זאת למובא בגמ' מנחות שהמפקיע עצמו ממצוות ציצית שאינו לובש בגד של ארבע כנפות אף שאינו עושה איסור אבל בעידן ריתחא (בזמן כעס) נענשים על זה. וכעין זה כתב בהליכות שלמה (ט, כא). והביא ראיה מדברי הרמ\"א (תרמ ג) שאין להקיז דם בסוכות, ויש להקדים או לאחר את ההקזה. ועל פי דבריו דן המגן אברהם לאסור שתיית משקה המשלשל אם יכול לעשותו בזמן אחר וכל שכן טיול. וכן כתב בספר חזון עובדיה (עמ' 166). לעומתם יש שהקילו בדבר. הגרי\"ש אלישיב (בהערותיו על סוכה כו.) כתב שגם טיול הוא בכלל דרכו של עולם. ואין זה בכלל מה שנאמר על ציצית שהמפקיע עצמו מהמצווה נענש בעידן ריתחא משום ששם זה לתקופה ממושכת מה שאין כן כאן. והוסיף שהראשונים לא פירשו כדברי האגרות משה אלא סתמו, ומשמע שלא סוברים כאגרות משה (ע\"ע בקובץ תשובות ח\"ב סי' לז). וכעין זה כתב הגר\"ד ליאור (מובא בספר מקראי קודש, הררי עמ' 889). ובספר דבר חברון מועדים (עמ' 285) הוסיף שאין זה הידור. ובצורה יותר חריפה כתב בחוט שני (פרק יב, ס\"ק ט) שמותר לצאת לטיול אך שטות היא לאבד מצוה יקרה בשביל טיול. ובשו\"ת אהלה של תורה (ח\"ב, צג) נקט עיקר כאגרות משה אלא שלימד זכות על המטיילים בארץ ישראל משום המצווה ללכת ארבע אמות בארץ ישראל. וכן משום הצורך שיש לטייל.\r\nויש לציין שסברא זאת שיש להקל יותר בטיולים בארץ ישראל יש לו שלש פנים: א. יש בו צד של ירושת הארץ וכיבוש בהבלטת נוכחות במקומות שצריכים חיזוק (הגר\"ד ליאור בתשובה במקראי קודש). ב. מצווה ללכת ארבע אמות בארץ ישראל כמבואר בשו\"ת באהלה של תורה שם (יש לציין שהגרח\"ק סבור שאין שום מעלה בהליכת ארבע אמות בארץ ישראל, אלא המצווה היא השהייה בארץ ישראל כמבואר בספר ארץ חיים). ג. חיבת הארץ – ראה באהלה של תורה (שם) שהזכיר בשם הראשונים שיש מצווה של חיבת הארץ, ובטיולים לנוער מעודדים את החיבה לארץ.\r\nהאגרות משה (אבן העזר, ח\"ד, לב, ח) הסכים שאולי יש מצווה בטיול בארץ אבל לא רצה להתיר משום זה לטייל בסוכות אלא רק התיר באופן שמזדמן לאדם בסוכות טיול שלא יזדמן לו בקלות אחר כך.\r\nסוף דבר נראה שיסוד המחלוקת היא האם הטיול היא חלק רגיל מצורכי החיים ומשגרת החיים ודומה לפרנסה ובכלל תשבו כעין תדורו, או שטיול זה עניין של מותרות ועניין מחוץ לשגרת החיים ולכן יש לדחותו כמו הקזת דם. לענ\"ד מסברא יש מקום גדול להקל בזמננו שטיולים הם צורך וחלק משגרת החיים. ובארץ ישראל מתווסף קצת מצווה בטיול. אולם נכון להחמיר משום חביבות מצוות סוכה ומשום שלא קשה למצוא פתרונות.\r\n\r\n10. כתב הרמ\"א (תרמ ד): \r\n\"ואין המצטער פטור אלא אם ינצל עצמו מן הצער, אבל בלא\"ה חייב לישב בסוכה אף על גב דמצטער\".\r\nוביאר המשנה ברורה (ס\"ק ל):\r\n\"דהטעם דמצטער פטור משום דכעין דירה בעינן ואין אדם דר במקום צער כל שיוכל להנצל מזה בביתו וה\"נ בסוכה\".\r\nובנידון שלנו כך פסק הגר\"מ פיינשטין (כמובא בספר זקניך יאמרו לך). וכן אמר לי הגר\"א נבנצל שליט\"א.    \r\n\r\nבברכה",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135603",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "tanach",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135604",
+   "legacy": {
+    "source_id": "135604"
+   },
+   "source": "yeshiva",
+   "title": "הנחת תפילין לאשה - המשך",
+   "question": "\"אמנם מבחינת ההלכה אין איסור שאשה תניח תפילין אם היא תשמור על כל דיני הנקיות הדרושים. אך בכל דור צריך לנהוג על פי הדרכת גדולי הדור וכיון וכיון שבדור שלנו זה לא מקובל אין לעשות זאת.\"\r\nממה שאני מבין מתשובת הרב בשאלה אחרת אין איסור הלכתי שאישה תניח תפילין, אבל זה לא מקובל כדי לא למרוד.\r\nאבל היום יש קהילות גדולות מאוד של יהודים רפורמים בהם נשים מניחות תפילין, ובקהילות אלו זה מתקבל. אז האם הרפורמים חוטים בזה שאישה מניחה תפילין או האם זה מקובל משום שבקהילות שלהם זה בסדר הרי אין הגבלה הלכתית.",
+   "answers": [
+    {
+     "text": "שלום וברכה\r\nמנהג \r\nמנהג קהילת הרפורמים לא משנה את התשובה של הרב. לא מפיהם אנו חיים.כיון שכל אורח חייהם הוא לא על פי הפסיקה ההלכתית המקובלת בכל הדורות האחרונים. ואנו בוחנים את המנהגים שמקובלים בקהילות האורתודוכסיות על פי מסורת ישראל.  \r\nברכה והצלחה וכל טוב",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135604",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "halacha",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135606",
+   "legacy": {
+    "source_id": "135606"
+   },
+   "source": "yeshiva",
+   "title": "אתרוג קדושת שביעית בקופסא שקופה",
+   "question": "ראיתי בכמה מקומות שמכרו אתרוגים בקופסא שקופה- מ2 צדדים, ו2 צדדים מכוסים מספוג- לאתרוגים היה מחיר קבוע לכל רמת הידור\r\nא) האם יש בעיה של סחר בפירות שביעית- כיוון שאנשים בוחרים איזה אתרוג לבחור מבין האתרוגים, למרות שהמחיר קבוע\r\nב) האם יש לחשוש שהאתרוגים ימכרו במחיר שונה מהכתוב עליהם, ואם כן- אם אני יודע שאני קניתי את האתרוג במחיר הנקוב, האם יש בעיה\r\nג) אם המוכר\\ביה\"ד סידר את האתרוג בצורה כזאת (שכמו שכתבתי לעיל, שיש ספוגים משני צדדים) שהלכלוכים באתרוג מוסתרים, האם יש בזה צד של הונאה ואולי אפילו מקח טעות\r\nמועדים לשמחה ותודה רבה!\r\nבניה גרוס, טנא עומרים",
+   "answers": [
+    {
+     "text": "בס\"ד\r\n\r\nשלום וברכה\r\n\r\nא. אין בעיית סחורה במחיר קבוע. וכשלא פותחים את הקופסא. \r\nב. אם הסתירו במיוחד פגמים יש בכך הונאה. \r\n\r\nמועדים לשמחה\r\nיהודה הלוי עמיחי\r\nמכון התורה והארץ ",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135606",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "history",
+   "category_confidence": "low",
+   "needs_review": true
+  },
+  {
+   "id": "ye-135607",
+   "legacy": {
+    "source_id": "135607"
+   },
+   "source": "yeshiva",
+   "title": "לשים תכלת רק בציצית של שבת, מספר פתילי תכלת וסוג קשירה",
+   "question": "שלום לרב יש לי כמה שאלות בנושא פתיל תכלת:\r\n1. האם ראוי ללבוש תכלת רק בשבת וביום טוב בגלל שרוב הרבנים לא שמים תכלת ורק כדי לצאת ידי המיעוט?\r\n2. אדם שימצא ציצית עם פתיל תכלת צריך לחשוש שאולי זה תכלת לא אמיתית? או שיכול לסמוך שזה החילזון המקורי ולא ראדזין וכו  ?\r\n3. אדם שאין לו מנהג מובהק איזה סוג קשירה יבחר?",
+   "answers": [
+    {
+     "text": "שלום וברכה,\r\n1. כמובן שאם אתה רוצה באמת לצאת ידי מיעוט הפוסקים שמחייבים ללבוש ציצית עם תכלת (כמו הרב דב ליאור), אז יש ללבוש ציצית עם תכלת כל השבוע. \r\nאולם מכיוון שרוב גדולי הפוסקים לא סבורים שיש חיוב לשים תכלת, ממילא יש עניין לנהוג כפי שכתבת ולשים תכלת בצורה חלקית כמידת חסידות בלבד ולשים תכלת רק בציצית של שבת ויום טוב, או רק בטלית קטן (ציצית) ולא בטלית גדול וכדומה.\r\n\r\n2. את זיהוי התכלת של הראדזינר לא קיבלו גדולי דורו, ולא בדורות שאחריו. מה שאין כן הארגמון קהה קוצים שהתקבל יותר על העוסקים בסוגיה. מכיוון שיש חוגים שעדיין מטילים את התכלת של הראדזינר, והיא קיימת בשוק, לכן מי שהשיג ציצית עם תכלת ורוצה להדר להטיל ציצית עם תכלת, ולא יודע להבחין בין סוגי התכלת, כדאי שיראה את הציצית למי שמבין בדבר שיודע לזהות אם התכלת הוא התכלת של הראדזינר או הארגמון קהה קוצים. בכל מקרה מותר ללבוש ציצית עם תכלת של הראדזינר.\r\n\r\n3. לגבי מספר חוטי תכלת ישנן שלש דעות. דעת הרמב\"ם: חוט אחד של תכלת. דעת הראב\"ד: שני חוטים של תכלת. דעת התוספות: ארבעה חוטים של תכלת. מכיוון שהלכה זאת לא נדרשה למעשה כבר הרבה דורות, לכן לא הכריעו בו השולחן ערוך והפוסקים האחרונים. למעשה יש מקום לכל הדעות. אולם בכל זאת יש לציין שגדולי הפוסקים שמורים להטיל תכלת היום, הגר\"ד ליאור (דבר חברון סי' יט) והגר\"מ מאזוז סבורים שיש לשים חוט אחד של תכלת כדעת הרמב\"ם, וכן נהג הגרז\"נ גולדברג זצ\"ל (וכן דעת הראדזינר בעל התכלת וכן כתב מרן הרב קוק בספרו מציאות קטן סימן צו). כאשר הלכה רופפת בידך יש לבדוק את מנהג העולם. \r\nאם אפשר לדבר על מנהג העולם בתכלת נראה שרבים נוהגים להטיל חוט אחד כדעת הרמב\"ם. חלק לא מבוטל נוהגים להטיל שני חוטים כדעת הראב\"ד. ומעטים מאד נוהגים להטיל ארבעה חוטים כדעת התוספות.     \r\nלגבי הכריכות ואופן הקשירה ישנן הרבה שיטות ומנהגים. כל הדרכים טובות ואין הדבר מעכב. לכל השיטות יש להתחיל בלבן ולסיים בלבן כמבואר בגמרא. לפירוט השיטות ראה ספר 'התכלת' לרב מנחם בורשטיין (עמ' 85). כמו כן ניתן לראות באתר 'פתיל תכלת' שמסבירים ומציגים אחד עשר סוגי קשירות ראה כאן:  https://www.tekhelet.com/he/tying-options/\r\n \r\n\r\nמקורות והרחבה:\r\n1. מקצת מפוסקי זמננו מורים להטיל תכלת המופק מהחילזון 'ארגמון קהה קוצים', ובראשם הגר\"ד ליאור והגר\"מ מאזוז שליט\"א (הגר\"ד ליאור סבור שיש חיוב גמור והגר\"מ מאזוז סבור שראוי לשים אבל לא חובה). וכן נהג הגרז\"נ גולדברג. אולם רוב גדולי הפוסקים בדור שלנו ובדור הקודם (שכבר בדור הקודם נודע הזיהוי של חילזון זה) לא ראו זיהוי של חילזון זה כזיהוי שמחייב להטיל תכלת (ויש שאף התנגדו לשים תכלת מסיבות שונות).   \r\nאין כאן המקום להאריך בשאלת חיוב הטלת תכלת בימינו, שזו סוגיה גדולה מאד וכבר האריכו בו רבים. רק אראה לקוראים מקום לעיין בו. בין אלה שרואים בזיהוי התכלת כזיהוי מדויק שמחייב לשים תכלת ראה דבר חברון (או\"ח, סי' יח-כג) וספר 'חותם של זהב'. בין אלה שלא רואים בו זיהוי מחייב ראה מנחת אשר (ח\"ב סי' א-ג). ובקונטרס 'תכלת' לג\"ר שלמה הירש העמיק הרחיב בסוגיה ודן באריכות בכמה וכמה ספיקות שיש בזיהוי הארגמון קהה קוצים, ובחיוב הטלת תכלת זה בזמננו, וכתב בסוף הקונטרס: \"ולמעשה נראה לענ\"ד שאין חיוב להטיל את התכלת מהארגמון ולכל היותר יש בזה מדת חסידות\".\r\nיש מקום לשים תכלת כמידת חסידות, ולהטיל תכלת רק בציצית של שבת. לחילופין אפשר להטיל תכלת רק בטלית גדול או רק בטלית קטן (ציצית). ראה בספר ליקוטי הראי\"ה (עמ' 338) שמרן הראי\"ה קוק המליץ לאחד שרצה להטיל תכלת שיטיל רק בטלית קטן בצנעא ולא בטלית גדול שרואים אותו, כדי שלא להוציא לעז על הראשונים. ראה בספר 'פסקי הראי\"ה' (עמ' 21) לידידי הרה\"ג ר' דוד ווצלר מה שכתב בזה. \r\nואציין שהגר\"ח קנייבסקי זצ\"ל כתב לי במכתב שאסור לשים תכלת (ראה מה שכתבתי על כך במקדמי ארץ יא שנת תשפ\"ג עמ' 439). \r\n\r\nלגבי ציצית מהודרת לשבת יש לציין שכתב המשנה ברורה (רסב, ס\"ק ה): \" ואם אפשר לו טוב שיהיה לו גם טלית אחר לשבת\". על זה כתב הגר\"א נבנצל שליט\"א: \"אדמור זלהה\"ה תמה על מה שנהגו להתעטף בטלית נאה בשבת, ואת הטלית הפחות נאה להשאיר לימי החול. הרי גם בחול צריך להדר במצות ציצית, בעוד שחובת כיבוד השבת טרם חלה עליו. ואולי אפשר לישב, דאם ישתמש בטלית הנאה בימי החול הרי תתבלה בתוך זמן קצר, ויתבטל ההידור. ונראה להביא ראיה שצריך לכבד את השבת במצוה נאה שהרי פי השופרות שתקעו בהן במקדש היה מצופה ביום טוב בזהב ובתעניות בכסף (עי' ר\"ה פ\"ג מ\"ג ומ\"ד)\". עכ\"ל. \r\nועיין גם בבאר היטב אבהע\"ז (סה ב), ובפתחי תשובה (שם, ס\"ק ג).\r\n2. ראה שולחן ערוך (סימן כ סעיף א) שמי שקנה ציצית מיהודי, הציצית כשרה. אלא שכאמור הפוסקים נקטו עיקר שלא כתכלת של הראדזינר. וראה בספר 'חותם של זהב' (עמ' 4 הערה 8) שכתב: \"כי הצבע של ראדזין נוצר בעיקר מתערובת הברזל שמוסיפים שם. והדם משמש בו רק כסממנים ובכה\"ג אפשר להשתמש לזה גם בדם שור, וכן נהגו לעשות בייצור צבע כחול פרוסי בעבר.(עיין בית אהרן וישראל קכא תשרי חשון תשס\"ו). ואפשר שהחזו\"א ידע מטענה זו - שנשמעה כבר בתקופתו - וכעדות הגר\"ח קנייבסקי שליט\"א שאמר החזו\"א לאדם ששאלו על צביעת ראדזין \"קח דם שור ותצבע בו\" ולכאורה הוא משום שידע שאין בזה ממש כלל ושבסממנים כאלו, יצלח לזה אף דם שור במידה שוה\".\r\n3. לגבי מספר החוטים ראה בספר התכלת לג\"ר מנחם בורשטיין (עמ' 81), ובקונטרס התכלת לג\"ר שלמה הירש (עמ' 26), חותם של זהב (עמ' 49) שכתב שאין הכרע ויש בית אב לכל שיטה. סיפר לי ידידי הרב אליהו שרון שהגרז\"נ גולדברג זצ\"ל היה שם חוט אחד תכלת כדעת הרמב\"ם, ושאל אותו על כך. הגרז\"נ ביאר את הצדדים והשיטות ואמר שהוא בצעירותו נמשך בזה אחר דעת הראדזינר. כלומר שהגרז\"נ לא קבע מסמרות בדבר אלא שהוא עצמו נהג כך על פי הראדזינר בעל התכלת. ואף שבשלב מסוים כבר לא הטיל את התכלת של הראדזינר אלא את הארגמון קהה קוצים, בכל זאת לא שינה מדעת הראדזינר בעניין מניין הפתילות).  \r\nכל טוב!",
+     "accepted": true,
+     "author": null,
+     "score": null
+    }
+   ],
+   "url": "https://www.yeshiva.org.il/ask/135607",
+   "tags": [],
+   "date": "2026-07-11",
+   "category": "halacha",
    "category_confidence": "low",
    "needs_review": true
   }
