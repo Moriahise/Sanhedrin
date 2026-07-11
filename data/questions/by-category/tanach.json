@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "tanach",
- "count": 7747,
+ "count": 7750,
  "entries": [
   {
    "id": "ye-4809",
@@ -124557,6 +124557,57 @@
    "c": "tanach",
    "y": 2026,
    "ch": 209,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2829318",
+   "t_he": "",
+   "t_en": "Questions and Answers on Kohelet (Ecclesiastes)",
+   "x": "Questions and Answers on Kohelet (Ecclesiastes)",
+   "ax": "נוהגין לומר קהלת בשבת של חול המועד או בשמיני עצרת אם איקלע בשבת (מהרי\"ל) — It is customary to read Kohelet on Shabbat of Chol Hamo’eid or Shemini Atzeret if it…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 210,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2833154",
+   "t_he": "",
+   "t_en": "Vedibarta Bam - Megillat Esther",
+   "x": "Vedibarta Bam - Megillat Esther",
+   "ax": "Vedibarta Bam - Torah Vedibarta Bam - Holidays Vedibarta Bam - Pirkei Avot Vedibarta Bam - Marriage Vedibarta Bam - For Your Table More...",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 210,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2833155",
+   "t_he": "",
+   "t_en": "Foreword to Vedibarta Bam - Megillat Esther",
+   "x": "Foreword to Vedibarta Bam - Megillat Esther",
+   "ax": "With much thanks to Hashem, I present to you, dear readers, Vedibarta Bam on Megillat Esther. Frankly, I must also thank you, for it is your favorable receptio…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 210,
    "s": "upload"
   }
  ]
