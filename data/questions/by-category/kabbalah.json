@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "kabbalah",
- "count": 652,
+ "count": 655,
  "entries": [
   {
    "id": "ye-11561",
@@ -10594,6 +10594,57 @@
    "c": "kabbalah",
    "y": 2026,
    "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4216494",
+   "t_he": "",
+   "t_en": "Do Jews Believe in Heaven or Reincarnation (or Both)?",
+   "x": "Question: If we believe in reincarnation, why do we say that souls go to heaven for their final rest after they pass away? What’s the point of praying for a so…",
+   "ax": "When I was at school, a friend failed his end-of-year exams and had to repeat a grade. We all moved on, but he was held back. Some think reincarnation is like…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4246615",
+   "t_he": "",
+   "t_en": "Why Is Tanya Called “Tanya”?",
+   "x": "Why Is Tanya Called “Tanya”?",
+   "ax": "You may be familiar with the Tanya, the fundamental text of Chabad Chassidic philosophy written by Rabbi Schneur Zalman of Liadi. Interestingly, the work was o…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4444493",
+   "t_he": "",
+   "t_en": "Why Is Moshiach called a Metzora (Leper)?",
+   "x": "Why Is Moshiach called a Metzora (Leper)?",
+   "ax": "In the Torah, the skin condition tzaraat (commonly translated as leprosy) was actually a supra-natural affliction for one who gossiped. One who was afflicted w…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 213,
    "s": "upload"
   }
  ]

@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "tanach",
- "count": 7794,
+ "count": 7801,
  "entries": [
   {
    "id": "ye-4809",
@@ -125362,6 +125362,128 @@
    "c": "tanach",
    "y": 2026,
    "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4254752",
+   "t_he": "",
+   "t_en": "Who Were the Levites?",
+   "x": "Who Were the Levites?",
+   "ax": "The Levites, descendants of Jacob’s son Levi, were selected to serve G‑d in the Holy Temple. Most served in peripheral roles, playing music, opening and closin…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4277470",
+   "t_he": "",
+   "t_en": "Why Did Moses Go Up on Mt. Sinai for Forty Days?",
+   "x": "Question: After the Giving of the Torah, Moses went up Mount Sinai for 40 days. After the Golden Calf, he went up another 40 days, and then he went up the fina…",
+   "ax": "The number 40 is actually highly symbolic in the Torah, but since you ask specifically about why Moses had to go up the mountain for 40 days and nights, I’ll a…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4305074",
+   "t_he": "",
+   "t_en": "Why Say “Chazak” After Finishing a Book of Torah?",
+   "x": "Why Say “Chazak” After Finishing a Book of Torah?",
+   "ax": "The custom in Ashkenazic communities is that at the conclusion of each of the Five Books of Moses, the congregation stands and calls out “Chazak, chazak, venit…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4372300",
+   "t_he": "",
+   "t_en": "Kohanim Visiting Museums or Hospitals",
+   "x": "Kohanim Visiting Museums or Hospitals",
+   "ax": "Generally speaking, there is no prohibition against becoming impure, as explained in Why Is Impurity Not Observed? and since nowadays we no longer have the Tem…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4423106",
+   "t_he": "",
+   "t_en": "Why Ketoret Incense in the Temple?",
+   "x": "Why Ketoret Incense in the Temple?",
+   "ax": "The ketoret (incense) offering was perhaps the most prestigious service in the Mishkan (Tabernacle) and in the Holy Temple. The ketoret consisted of a special…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4463795",
+   "t_he": "",
+   "t_en": "What Was the Manna?",
+   "x": "What Was the Manna?",
+   "ax": "The manna (in Hebrew, מן, which is more accurately transliterated as mon) was the miraculous edible substance that fell each day from heaven during the 40-year…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4532863",
+   "t_he": "",
+   "t_en": "What Happened to Noah’s Ark?",
+   "x": "What Happened to Noah’s Ark?",
+   "ax": "We read in the Bible how, at the end of the Great Flood, the Ark came to rest on the mountains of Ararat (which some identify as the Armenian Highlands). Since…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 213,
    "s": "upload"
   }
  ]

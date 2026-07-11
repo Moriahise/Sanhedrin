@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "history",
- "count": 1548,
+ "count": 1552,
  "entries": [
   {
    "id": "ye-4787",
@@ -25027,6 +25027,77 @@
    "c": "history",
    "y": 2026,
    "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4298548",
+   "t_he": "",
+   "t_en": "What Was the Mysterious Tachash?",
+   "x": "What Was the Mysterious Tachash?",
+   "ax": "Among the various items used to build the Mishkan, the verse tells us that our ancestors used something called “tachash skins” for the outer covering of the Mi…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4408397",
+   "t_he": "",
+   "t_en": "Why Is a Tallit So Often (Mostly) White?",
+   "x": "Why Is a Tallit So Often (Mostly) White?",
+   "ax": "Any four-cornered garment, of any color, is required to have tzitzit (fringes) attached to its corners. Thus, a tallit, which is essentially a four-cornered ga…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4423165",
+   "t_he": "",
+   "t_en": "Is It Unlucky to Sit at the Corner of a Table?",
+   "x": "Question: In my family, it is strictly forbidden for any unmarried person to sit at the corner of the table. We were told from a young age that if you do sit t…",
+   "ax": "This belief is widely held and has been handed down for generations in a range of cultures. If your grandmother is Polish, Russian, Hungarian, Romanian, or Ukr…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4454879",
+   "t_he": "",
+   "t_en": "Who Was the Exilarch (Reish Galuta)?",
+   "x": "Who Was the Exilarch (Reish Galuta)?",
+   "ax": "The word “exilarch” (“head of the exile”) is a Greek loan translation of the Hebrew rosh galut and Aramaic reish galuta. This title was given to the political…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 213,
    "s": "upload"
   }
  ]

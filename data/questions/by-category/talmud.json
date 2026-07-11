@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "talmud",
- "count": 3586,
+ "count": 3588,
  "entries": [
   {
    "id": "ye-2010112513418718",
@@ -57997,6 +57997,40 @@
    "c": "talmud",
    "y": 2026,
    "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4556225",
+   "t_he": "",
+   "t_en": "Why Is Eating Melaveh Malkah Important?",
+   "x": "Why Is Eating Melaveh Malkah Important?",
+   "ax": "The sages in the Talmud tell us that “a person should always set his table on Motzei Shabbat (Saturday night after Shabbat) with all the preparations for an im…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4615204",
+   "t_he": "",
+   "t_en": "Why Lift the Bride and Groom on Chairs at Jewish Weddings?",
+   "x": "Why Lift the Bride and Groom on Chairs at Jewish Weddings?",
+   "ax": "If you’ve been to a Jewish wedding, you may have witnessed the bride and groom being lifted on chairs and danced around by joyous well-wishers. Where did this…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 213,
    "s": "upload"
   }
  ]
