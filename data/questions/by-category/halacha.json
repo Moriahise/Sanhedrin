@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "halacha",
- "count": 17086,
+ "count": 17090,
  "entries": [
   {
    "id": "ye-2009121811237500",
@@ -273558,6 +273558,74 @@
    "c": "halacha",
    "y": 2026,
    "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2820869",
+   "t_he": "",
+   "t_en": "Dvar Torah Questions and Answers on Shabbat Shirah",
+   "x": "Dvar Torah Questions and Answers on Shabbat Shirah",
+   "ax": "\"ויהי ביום השביעי יצאו מן העם ללקט ולא מצאו\" “On Shabbat some people went out to pick manna and they did not find any.” (16:27) QUESTION: The word “matza’u” —…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2821547",
+   "t_he": "",
+   "t_en": "Dvar Torah Questions and Answers on Purim",
+   "x": "Dvar Torah Questions and Answers on Purim",
+   "ax": "תענית אסתר 13th of Adar — Fast of Esther QUESTION: Why is the fast on the day before Purim called “Ta’anit Esther” — “the Fast of Esther”? (The three-day fast…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2821577",
+   "t_he": "",
+   "t_en": "Purim Torah Questions and Answers",
+   "x": "Purim Torah Questions and Answers",
+   "ax": "\"המן הרע הזה\" “This wicked Haman” (7:6) QUESTION: In the Haggadah of Pesach we are told that the way to deal with a rasha is to knock out his teeth. There is n…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 209,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2821662",
+   "t_he": "",
+   "t_en": "Dvar Torah Questions and Answers on Shabbat Hagadol",
+   "x": "Dvar Torah Questions and Answers on Shabbat Hagadol",
+   "ax": "\"שבת הגדול\" “The great Shabbat” QUESTION: Why is the Shabbat before Pesach called “Shabbat Hagadol” — the great Shabbat? ANSWER: Because on it a “neis gadol” —…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 209,
    "s": "upload"
   }
  ]

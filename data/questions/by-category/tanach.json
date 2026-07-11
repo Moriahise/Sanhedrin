@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "tanach",
- "count": 7745,
+ "count": 7747,
  "entries": [
   {
    "id": "ye-4809",
@@ -124523,6 +124523,40 @@
    "c": "tanach",
    "y": 2026,
    "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2821549",
+   "t_he": "",
+   "t_en": "Dvar Torah Questions and Answers on Megillat Esther",
+   "x": "Dvar Torah Questions and Answers on Megillat Esther",
+   "ax": "\"הקורא את המגילה למפרע לא יצא\" “If one reads the Megillah backwards, he has not fulfilled his obligation.” (Gemara, Megillah 17a) QUESTION: Why would someone d…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 209,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2823373",
+   "t_he": "",
+   "t_en": "Dvar Torah Questions and Answers on Book Of Ruth",
+   "x": "Dvar Torah Questions and Answers on Book Of Ruth",
+   "ax": "\"וילך איש מבית לחם...הוא ואשתו ושני בניו...ושם שני בניו מחלון וכליון...וימת אלימלך...ותשאר היא ושני בניה...וישאו להם נשים מאביות...וימותו...מחלון וכליון ותשאר…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 209,
    "s": "upload"
   }
  ]
