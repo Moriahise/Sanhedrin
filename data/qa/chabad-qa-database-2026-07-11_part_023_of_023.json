@@ -1,0 +1,1191 @@
+{
+  "schema": 2,
+  "format": "sanhedrin-qa-upload",
+  "profile": "sanhedrin-github-upload-v2",
+  "generated_at": "2026-07-11T12:06:23+00:00",
+  "exported_at": "2026-07-11T09:58:33.920Z",
+  "source": "chabad.org",
+  "provider": "chabad",
+  "part": 23,
+  "total_parts": 23,
+  "questions_in_part": 24,
+  "total_questions": 24,
+  "original_total_questions": 2403,
+  "valid_total_questions": 2346,
+  "skipped_total_questions": 57,
+  "categories_summary": {
+    "general": 9,
+    "halacha": 14,
+    "tanach": 0,
+    "talmud": 0,
+    "kabbalah": 1,
+    "history": 0
+  },
+  "questions": [
+    {
+      "source": "upload",
+      "source_id": "chabad-7185397",
+      "id": "chabad-7185397",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "Who Is the \"Angel of Death\"?",
+      "question": "Who Is the \"Angel of Death\"?",
+      "answers": [
+        {
+          "text": "In Judaism, the Malach Hamavet (מלאך המות, “Angel of Death”) is the Divine agent tasked with ending a person’s life. In scripture, he is sometimes referred to as the mashchit (משחית), “destroyer.”\n\nA Servant of G‑d\n\nThe Malach Hamavet appears in Midrash and Talmud in several instances, sometimes depicted holding a knife. For example, the Talmud records a fascinating exchange between Rabbi Joshua ben Levi and the Angel of Death.\n\nDuring the course of their negotiation, Rabbi Joshua actually has the angel hand him his knife, to prevent him from killing him. Ultimately, a heavenly voice orders him to return the knife, because death is necessary for life to function.1\n\nThus, we see that the Angel of Death is not an evil being or an enemy of G‑d, but just one more faithful servant of the Creator.\n\nThis is consistent with the teaching regarding Satan, whose primary task is tempting people to sin. He, too, is seen in Judaism not as an independent adversary to G‑d but as a loyal servant with an unpleasant portfolio.2\n\nAnd, our sages tell us, Satan, the Yetzer Hara (our internal inclination to sin), and the Angel of Death are all one and the same.3\n\nIn Scripture\n\nIn the Torah, we read of G‑d’s angel carrying out the grim task of ending lives in several contexts.\n\nIn the Book of Exodus, when promising to bring death to the Egyptian firstborns and save the firstborns of Israel, G‑d refers to the \"Mashchit” a spiritual being who brings destruction, which the ancient Targum renders as Malacha Mechabla, “the angel of wounding” (in Aramaic).4\n\nIn Scripture, this word mashchit is clearly identified as an angel in the episode of the plague of death that broke out following King David’s census. When G‑d decides it’s time for the plague to end, he speaks to the malach hamashchit (“angel who was destroying”) and tells him to stop at the threshing floor of Aravna, the future site of the Holy Temple.5\n\nMay we merit the day when the Holy Temple be rebuilt, death be curtailed forever, and the Malach Hamavet be put out of a job.\n\nKetubot 77b.\n\nSee Zohar II 163b, where he is compared to a harlot whom a king hired to test his beloved son.\n\nBava Batra 16a.\n\nExodus 12:23.\n\nII Samuel 24:16.",
+          "accepted": true,
+          "author": "Menachem Posner",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7185397/jewish/Who-Is-the-Angel-of-Death.htm",
+      "tags": [
+        "chabad",
+        "general",
+        "inspiration-entertainment",
+        "article",
+        "needs-review"
+      ],
+      "category": "general",
+      "category_confidence": "low",
+      "needs_review": true,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:58:52.612Z",
+      "metadata": {
+        "author": "Menachem Posner",
+        "author_id": "12145",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "The Angel of Death is not an evil being or an enemy of God, but just one more faithful servant of the Creator.",
+        "source": "chabad.org",
+        "original_id": "7185397",
+        "original_source": "chabad.org",
+        "content_type": "article",
+        "original_question_empty": true,
+        "category_reason": [],
+        "source_filename": "2026-07-Who-Is-the-Angel-of-Death.7185397.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7187819",
+      "id": "chabad-7187819",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "Why Do Hasidic Jews Carry Plastic Shopping Bags?",
+      "question": "Question:\n\nI'm a flight attendant, and I've noticed that many Hasidic Jewish passengers board flights carrying plastic shopping bags. For the longest time, I didn't even notice it, but now that I’ve started seeing it, I cannot help but wonder if there is some kind of religious ritual associated with plastic bags and travel.",
+      "answers": [
+        {
+          "text": "There is no ritual associated with plastic bags, and it’s perfectly acceptable for Jewish people to keep their stuff in backpacks, wheelies, or totes. And for my part, I am not sure that Hasidic Jews are more likely to be carrying plastic bags than any other airport-goers. But assuming they are, we ask: What’s up with the plastic bags, and what’s in them?\n\nThe answer to our theoretical question varies, but I assume that they often contain food.\n\nAirline meals—if you’re on the rare flight where those are served—even those labeled as kosher, might not meet their standards of kosher (see What Is Glatt Kosher?). Depending on the airport, there may not be much (or any) kosher food available there either. So you can be looking at a long period without access to kosher food unless you bring your own along.\n\nFurthermore, if traveling to a destination without a large Jewish community, finding kosher food can be difficult or impossible, forcing the traveler to bring a stash of food with them.\n\nThe bag might also contain items like a tallit (prayer shawl) and/or tefillin (phylacteries), which are worn during morning prayers. While these are usually kept in special pouches, a plastic bag might be used as an extra layer of protection or for easy handling.",
+          "accepted": true,
+          "author": "Menachem Posner",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7187819/jewish/Why-Do-Hasidic-Jews-Carry-Plastic-Shopping-Bags.htm",
+      "tags": [
+        "chabad",
+        "halacha",
+        "inspiration-entertainment",
+        "question-answer",
+        "needs-review"
+      ],
+      "category": "halacha",
+      "category_confidence": "low",
+      "needs_review": true,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:58:47.593Z",
+      "metadata": {
+        "author": "Menachem Posner",
+        "author_id": "12145",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "",
+        "source": "chabad.org",
+        "original_id": "7187819",
+        "original_source": "chabad.org",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "category_reason": [
+          "kosher",
+          "tefillin",
+          "prayer",
+          "ritual"
+        ],
+        "source_filename": "2026-07-Why-Do-Hasidic-Jews-Carry-Plastic-Shopping-Bags.7187819.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7199340",
+      "id": "chabad-7199340",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "Is Vaping Kosher?",
+      "question": "Is Vaping Kosher?",
+      "answers": [
+        {
+          "text": "Vaping, which is marketed as a healthier alternative to smoking or as tool to stop smoking, has turned into a widespread practice, especially among teenagers and young adults. This raises halachic questions, including questions of kashrut.\n\nBefore we get into kashrut, one point needs to be clear. Discussing the kashrut of vaping is not an endorsement of the practice. Indeed, many rabbinic authorities strongly discourage vaping because of health risks, pointing to the Torah’s instruction to guard one’s health.1 But since vaping is already prevalent, we should understand the kashrut concerns.\n\nHow Vaping Works, and Why It May Be Considered “Consuming”\n\nUnlike conventional cigarettes, e-cigarettes work by heating a liquid, commonly called e-juice. When the user inhales, a battery-powered coil heats the liquid, turning it into an aerosol. That vapor enters the mouth, condenses into droplets, and reaches the throat, delivering flavor and nicotine without combustion or smoke.\n\nBecause the vapor reaches the throat, many maintain that vaping is halachically classified as a form of eating or drinking. In halachic terms, what is being taken in is considered zei’ah (vapor), and it retains the halachic status of its source, unlike odors, which can lose the status of their source.2\n\nKosher-Sensitive Ingredients\n\nIf vaping is treated as a form of consumption, then we need to look closely at the ingredients to determine whether they are kosher-sensitive.\n\nE-juice typically includes propylene glycol, nicotine, flavorings and glycerin. Nicotine and propylene glycol are bitter and generally inedible, and that can sometimes lessen certain kashrut concerns. But there is another issue. Since these substances are being intentionally taken in, the principle of achshevei applies—i.e., since they are being deliberately consumed, we cannot disregard them.3\n\nThat said, the primary ingredient of concern is usually glycerin, a sweet substance commonly used in food and medicine that can be produced from either vegetable sources or non-kosher animal fat. Some halachic authorities point out that in the United States, the vast majority of glycerin used today is vegetable-based. That might allow room, in limited situations, to rely on the halachic majority.4\n\nBut most are of the opinion that vaping products require reliable kosher certification. Why? Because the same equipment is often used for both vegetable and animal-based glycerin, because achshevei remains an issue for the other ingredients, and because we are dealing with a possible biblical prohibition of consuming non-kosher (a safek de’oraita).5\n\nEven More Careful on Passover\n\nPassover adds another layer of concern.\n\nGlycerin and propylene glycol don’t usually present chametz issues. But other components, especially flavorings and nicotine, often do. Flavorings may be produced using grain-based alcohol (ethanol) as a solvent or extractant, which creates a real chametz risk. Nicotine, whether extracted from tobacco or synthesized, may also involve ethanol at different stages of production.\n\nAnd on Passover, chametz is forbidden not only for eating, but even for deriving benefit. So inhaling vapor that contains chametz is prohibited, even if someone argues that vaping is not classic “eating.”\n\nIn fact, there is precedent. Historically, the Rabbis ruled that tobacco soaked in beer was forbidden to smoke on Passover, even though smoking was not considered drinking.6\n\nAccordingly, vaping products raise significant chametz concerns on Passover and should not be assumed permissible without explicit Kosher-for-Pesach certification.\n\nBottom Line\n\nThe ideal, of course, is to avoid vaping altogether. But for those who do vape, it is strongly preferable to use products with trusted kosher certification (and yes, they do exist on the market).\n\nDeuteronomy 4:9; see also Talmud, Berachot 32b and Shavuot 36b.\n\nSee Psakim V’teshuvot 108:12, fn. 115.\n\nSee, for example, Taz and Mishnah Berurah on Shulchan Aruch, Orach Chaim 442:8; Shulchan Aruch Harav 442:32.\n\nFor a discussion of those who permit it, see Omek Hapshat, no. 206; Shu”t Avnei Dorech 19:174; Poskim V’teshuvot 108:12, fn. 115.\n\nSee Psokim V’teshuvot 108:12, fn. 115. This is also the opinion of a number of the leading Kashrut organizations in the US.\n\nSee Magen Avraham, Shulchan Aruch Orach Chaim 467:10; Maharam Schick, Orach Chaim 242.",
+          "accepted": true,
+          "author": "Yehuda Shurpin",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7199340/jewish/Is-Vaping-Kosher.htm",
+      "tags": [
+        "chabad",
+        "halacha",
+        "inspiration-entertainment",
+        "article"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:58:44.973Z",
+      "metadata": {
+        "author": "Yehuda Shurpin",
+        "author_id": "15169",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "Marketed as a healthier alternative to smoking or as tool to stop smoking, it has turned into a widespread practice.",
+        "source": "chabad.org",
+        "original_id": "7199340",
+        "original_source": "chabad.org",
+        "content_type": "article",
+        "original_question_empty": true,
+        "category_reason": [
+          "halachic",
+          "kosher",
+          "kashrut",
+          "berach",
+          "passover"
+        ],
+        "source_filename": "2026-07-Is-Vaping-Kosher.7199340.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7206802",
+      "id": "chabad-7206802",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "Are Snails Kosher?",
+      "question": "Are Snails Kosher?",
+      "answers": [
+        {
+          "text": "The Torah specifies that creepy-crawlies are not kosher. This includes snails and other mollusks, such as slugs, clams, oysters, squid, and octopuses. So snails are not kosher.",
+          "accepted": true,
+          "author": null,
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7206802/jewish/Are-Snails-Kosher.htm",
+      "tags": [
+        "chabad",
+        "halacha",
+        "inspiration-entertainment",
+        "article"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:58:39.940Z",
+      "metadata": {
+        "author": "",
+        "author_id": "",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "The Torah specifies that creepy-crawlies are not kosher.",
+        "source": "chabad.org",
+        "original_id": "7206802",
+        "original_source": "chabad.org",
+        "content_type": "article",
+        "original_question_empty": true,
+        "category_reason": [
+          "kosher"
+        ],
+        "source_filename": "2026-07-Are-Snails-Kosher.7206802.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7206807",
+      "id": "chabad-7206807",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "Is Caviar Kosher?",
+      "question": "Is Caviar Kosher?",
+      "answers": [
+        {
+          "text": "Authentic caviar is the roe (eggs) of sturgeon, which is not a kosher fish, and is not kosher. That said, caviar from salmon (which is orange as opposed to black) or other kosher fish can very well be kosher, provided that it is certified as such by a recognized kosher agency.",
+          "accepted": true,
+          "author": null,
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7206807/jewish/Is-Caviar-Kosher.htm",
+      "tags": [
+        "chabad",
+        "halacha",
+        "inspiration-entertainment",
+        "article"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:58:42.421Z",
+      "metadata": {
+        "author": "",
+        "author_id": "",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "Authentic caviar is the roe (eggs) of sturgeon, which is not a kosher fish, and is not kosher.",
+        "source": "chabad.org",
+        "original_id": "7206807",
+        "original_source": "chabad.org",
+        "content_type": "article",
+        "original_question_empty": true,
+        "category_reason": [
+          "kosher"
+        ],
+        "source_filename": "2026-07-Is-Caviar-Kosher.7206807.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7237242",
+      "id": "chabad-7237242",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "What Is a Dybbuk?",
+      "question": "What Is a Dybbuk?",
+      "answers": [
+        {
+          "text": "The Meaning of “Dybbuk”\n\nThe word “dybbuk” often conjures images of evil spirits and horror movies. But in Jewish mysticism, the idea of a dybbuk is far more nuanced and less cinematic.\n\nThe Hebrew word dybbuk comes from the root D-V-K, meaning “to cling” or “to cleave.”\n\nRather than a demon or an external force, a dybbuk is understood in Jewish mysticism as a human soul that has not found rest. Unable to fully detach from the physical world, it clings to a living person, seeking resolution for something left unfinished.\n\nKabbalistic Origins\n\nReferences to wandering or unsettled souls appear in Kabbalistic literature, particularly in the writings of Rabbi Yitzchak Luria, known as the Arizal, who describes the soul's ongoing journey of rectification.1 According to this framework, each soul enters the world with a specific mission, and when that mission remains incomplete, the soul may return — sometimes multiple times — through various reincarnations, in a process known as gilgul. In this context, the idea of the dybbuk is not inherently frightening, rather it reflects a soul working to complete its Divine purpose. Click here for more on reincarnation.\n\nFrom Mysticism to Folklore\n\nMentions of dybbuks in early Jewish sources are rare. The concept became more widely discussed in later folkloric writings, particularly in Eastern Europe, where stories about dybbuks illustrated moral lessons.\n\nA dybbuk, similar to a soul undergoing the process of gilgul, is a spiritual phenomenon that reflects unfinished work in the soul, not a supernatural villain.\n\nShaar Hagilgulim, Introduction.",
+          "accepted": true,
+          "author": "Leibel Kahan",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7237242/jewish/What-Is-a-Dybbuk.htm",
+      "tags": [
+        "chabad",
+        "general",
+        "inspiration-entertainment",
+        "article",
+        "needs-review"
+      ],
+      "category": "general",
+      "category_confidence": "low",
+      "needs_review": true,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:58:37.511Z",
+      "metadata": {
+        "author": "Leibel Kahan",
+        "author_id": "32102",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "",
+        "source": "chabad.org",
+        "original_id": "7237242",
+        "original_source": "chabad.org",
+        "content_type": "article",
+        "original_question_empty": true,
+        "category_reason": [],
+        "source_filename": "2026-07-What-Is-a-Dybbuk.7237242.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7237243",
+      "id": "chabad-7237243",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "Why Do We Rise Up During Kedushah?",
+      "question": "Why Do We Rise Up During Kedushah?",
+      "answers": [
+        {
+          "text": "Kedushah is a Jewish prayer recited responsively during the repetition of the Amidah, as part of its third blessing. It is one of the most sacred sections of the prayer service and is classified as a davar shebikdushah (“a sacred entity”), which may be recited only in the presence of a minyan.\n\nIn Kedushah, we declare G‑d as holy, using the angels’ praise as our template. According to the Zohar,1 this fulfills the Torah commandment, “And I shall be sanctified among the children of Israel.”2 Although most authorities maintain that the obligation is rabbinic and that the verse serves only as an allusion, Kedushah is nevertheless considered very important and holy—greater even than an “ordinary” mitzvah—since it sanctifies G‑d in public.3\n\nFor this reason, we must maintain absolute concentration and focus while saying it, which invites G‑d’s presence to hover above us.4\n\nThe words of Kedushah are based on verses from the Merkavah (Divine Chariot) visions of the prophets Isaiah5 and Ezekiel,6 which describe the angels praising G‑d using the very phrases we say during the service.\n\nWhile we are mirroring the angels, they are reflecting us as well. In fact, the Talmud teaches that the angels do not proclaim “Holy, holy, holy” above until the Jewish people say it below.7\n\nAngelic Posture\n\nRegarding angels, it is written, “Their legs were a straight leg,”8 which the sages explain to mean that angels appear as though they have only one foot. To resemble the angels during the Amidah, we therefore stand with our feet together, making them appear as a single leg. For this reason, when reciting Kedushah, where we sanctify G‑d using the very words spoken by the angels, we keep our feet together.9\n\nIn addition, it is customary to rise up on one’s toes three times while saying, “Kadosh, kadosh, kadosh,” “Holy, holy, holy.”\n\nThis practice is rooted in one of the earliest mystical works, Sefer Heichalot, which describes how G‑d takes special delight at that moment, when the Jewish people lift their eyes heavenward while proclaiming His holiness:\n\nBlessed are you to G‑d, O heavens and those who descend from the celestial chariot — if you tell and relate to My children what I do when they recite Kedushah and say Kadosh, kadosh, kadosh … Teach them that their eyes should be raised heavenward, to their place of prayer, and that they should raise themselves upward. For no satisfaction of Mine in the world can match the moment at which their eyes are raised toward My eyes and My eyes [are focused] on theirs. At that time, I take hold of the image of Yaakov in My throne of glory, and embrace it and kiss it. I recall their exile and hasten their redemption.10\n\nBlessed are you to G‑d, O heavens and those who descend from the celestial chariot — if you tell and relate to My children what I do when they recite Kedushah and say Kadosh, kadosh, kadosh … Teach them that their eyes should be raised heavenward, to their place of prayer, and that they should raise themselves upward. For no satisfaction of Mine in the world can match the moment at which their eyes are raised toward My eyes and My eyes [are focused] on theirs. At that time, I take hold of the image of Yaakov in My throne of glory, and embrace it and kiss it. I recall their exile and hasten their redemption.10\n\nAdditionally, the Midrash11 further derives this custom from the verses describing the angels reciting the Kedushah:\n\nSeraphim stood above for Him, six wings, six wings to each one; with two he would cover his face, and with two he would cover his feet, and with two he would fly. And one would call to the other, “Holy, holy, holy! G‑d of Hosts—Whose presence fills all the earth!”\n\nSeraphim stood above for Him, six wings, six wings to each one; with two he would cover his face, and with two he would cover his feet, and with two he would fly. And one would call to the other, “Holy, holy, holy! G‑d of Hosts—Whose presence fills all the earth!”\n\nThe Midrash asks, “Do angels really need or use wings to fly? Rather, this teaches us that a person should ‘fly’ by raising themselves on their toes at the moment when the prayer leader says, ‘Kadosh, kadosh, kadosh, Hashem of Hosts.’”\n\nCommentaries12 explain that the angels are described as “running and returning,” like flashes of lightning. This teaches that they rise upward toward G‑d, seeking to grasp Him, but immediately draw back, realizing that He truly cannot be comprehended.\n\nSo too, when we say “Kadosh, kadosh, kadosh,” we rise upward on our toes as if reaching toward G‑d, and then settle back down, acknowledging the limits of human understanding.\n\nThis motion reflects both our desire to draw close to Him and our recognition that He remains beyond our grasp.13\n\nWe repeat this movement three times, corresponding to the three declarations of holiness. For the same reason, some have the custom to rise on their toes when saying the subsequent verses of “Baruch” and “Yimloch,” just as they do for “Kadosh.”14\n\n(It should be noted that the general custom is to “raise” oneself, but not “leap” or “jump.”15)\n\nZohar 3:93a.\n\nLeviticus 22:32.\n\nSee Piskei Teshuvot 125:1.\n\nIbid.\n\nIsaiah 6:3.\n\nEzekiel 3:12.\n\nSee Talmud, Chulin 91b, and Midrash Perek Mipirkei Heicholot (published in Otzar Hamidrashim).\n\nEzekiel 1:7.\n\nTerumat Hadeshen 28. See also Shulchan Aruch Harav, Orach Chaim 95:1. For more on this, see Why Pray With Our Feet Together?\n\nSefer Heichalot Rabbati as quoted in Shulchan Aruch Harav, Orach Chaim 125:3.\n\nMidrash Tanchuma, Tzav 13.\n\nSee, for example, Besamim Rosh, quoted in Siddur Otzar Hatefilot.\n\nIt should be noted that when the Rebbe was chazan, he did not raise himself when reciting Kedushah.\n\nSee Shalah - Inyanei Tefilah, quoted in Magen Avraham, Shulchan Aruch, Orach Chaim 125:1; Shulchan Aruch Harav, Orach Chaim 125:3. Some are of the opinion that one need not do so for “Yimloch” (see Piskei Teshuvot 125:2). Nevertheless, it appears that the widespread custom is to lift oneself by “Yimloch” as well. See, for example, Shulchan Aruch Harav 125:3, which does not differentiate. See also Ben Ish Chai, Teruma, 4; Kaf Hachaim 125:11. One who is reciting the Amidah parallel to the chazan may recite Kedushah too. (See Orach Chaim 109). Some authorities hold that this person should raise themselves when reciting Kedushah along with the chazan (Piskei Teshuvot Orach Chaim 109).\n\nSee Shulchan Aruch Harav, Orach Chaim 125:3.",
+          "accepted": true,
+          "author": "Yehuda Shurpin",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7237243/jewish/Why-Do-We-Rise-Up-During-Kedushah.htm",
+      "tags": [
+        "chabad",
+        "kabbalah",
+        "inspiration-entertainment",
+        "article",
+        "needs-review"
+      ],
+      "category": "kabbalah",
+      "category_confidence": "low",
+      "needs_review": true,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:58:35.106Z",
+      "metadata": {
+        "author": "Yehuda Shurpin",
+        "author_id": "15169",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "Kedushah reenacts the angels’ praise as we rise toward God and acknowledge His unknowable greatness.",
+        "source": "chabad.org",
+        "original_id": "7237243",
+        "original_source": "chabad.org",
+        "content_type": "article",
+        "original_question_empty": true,
+        "category_reason": [
+          "zohar",
+          "mystical",
+          "rebbe",
+          "angels"
+        ],
+        "source_filename": "2026-07-Why-Do-We-Rise-Up-During-Kedushah.7237243.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7254471",
+      "id": "chabad-7254471",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "My Seven-Year-Old Is Afraid to Be Jewish",
+      "question": "My seven-year-old son doesn’t go to a Jewish school. After hearing some pretty graphic details of the Bondi attack from his friends, he keeps telling me, “Dad, I don’t want to be Jewish anymore.” He’s had counselling and is otherwise doing fine, but he still refuses to attend Jewish events or go to Jewish venues. How do I deal with this?",
+      "answers": [
+        {
+          "text": "Your son is not rejecting Judaism. He is rejecting fear.\n\nIn his young mind, being Jewish and being a target have become linked. The brain connects identity with danger and says, “If I drop the identity, maybe I drop the danger.”\n\nYou can’t argue him out of that because, in a way, he is right. Jews are sometimes targeted. But we are not targeted because we are weak. We are targeted because we carry something precious.\n\nA child who inherits great wealth may attract envy. There may even be people who want to take that wealth from him. But no child gives up his inheritance just because someone else wants it. He learns to value it more.\n\nOur Jewish identity is that inheritance.\n\nRight now, for your son, “Jewish” equals “scary.” You need to gently widen that picture until “Jewish” also means “joy,” “music,” “friends,” “belonging,” and “fun.” He is rich; he just doesn’t know it yet.\n\nTake it slowly. No lectures about Jewish pride or heavy speeches about Jewish history. He is seven. He needs tangible experiences. What he heard was vivid and real. The positive experiences must be just as real.\n\nIt is almost Purim. Bring him along. Let him see the singing. Let him dress up. Let him eat hamantaschen and laugh with other children. When booing Haman, he won’t just hear about our heritage, he will feel it.\n\nBut this cannot be a one-off event. Over time, Jewish life needs to become a steady part of his world: Torah classes, Shabbat meals, youth programs, community moments. Children feel safest in what is familiar. When being Jewish becomes part of his weekly rhythm, it stops feeling like a target and starts feeling like a treasure.\n\nYou can’t erase what he heard. But you can give him new memories that are stronger. You can’t pretend away our enemies. But you can surround him with friends.\n\nWe will not give up our gift because someone else resents it. We hold it tighter, share it louder, and pass it on with joy.",
+          "accepted": true,
+          "author": "Aron Moss",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7254471/jewish/My-Seven-Year-Old-Is-Afraid-to-Be-Jewish.htm",
+      "tags": [
+        "chabad",
+        "general",
+        "inspiration-entertainment",
+        "question-answer",
+        "needs-review"
+      ],
+      "category": "general",
+      "category_confidence": "low",
+      "needs_review": true,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:58:32.610Z",
+      "metadata": {
+        "author": "Aron Moss",
+        "author_id": "8051",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "No child gives up his inheritance just because someone else wants it. He learns to value it more.",
+        "source": "chabad.org",
+        "original_id": "7254471",
+        "original_source": "chabad.org",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "category_reason": [],
+        "source_filename": "2026-07-My-Seven-Year-Old-Is-Afraid-to-Be-Jewish.7254471.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7254483",
+      "id": "chabad-7254483",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "What Happened to Queen Esther After the Purim Story?",
+      "question": "What Happened to Queen Esther After the Purim Story?",
+      "answers": [
+        {
+          "text": "The Book of Esther ends with Esther married to King Ahasuerus, elevated in position. The king gave her the house of her onetime nemesis, Haman, and her cousin Mordechai was in a position of power. But Scripture is silent as to what happens next. Did she remain married to the king? Did she ever get to return to the Jewish community?\n\nThis omission itself may be significant. In fact, there is a poetic poignancy to the fact that someone whose very name, Esther, means “hidden,” should have much of her personal life and fate hidden from us.\n\nThis may be due to concerns about what the powers would say if all were spelled out. Even after Haman’s downfall, the Jews remained subjects of Ahasuerus (as the Talmud puts it when explaining why Hallel is not recited on Purim: “We are still servants of Ahasuerus”1). In fact, commentators point out that certain details appear to be missing from the narrative in the Book of Esther, since they knew that the Persian government was looking over their shoulder.2\n\nBut we can glean a bit about Esther’s life after the Purim story from other sources.\n\nIn the Purim story, Esther is taken unwillingly to become the queen of King Ahasuerus. She keeps her identity hidden but ultimately reveals herself to Ahasuerus to save her nation. The Talmud points out that until the point at which she approached the king to invite him and the wicked Haman to her party, she had never been “willingly” with the king or gone to him.3 Thus, she made a tremendous personal self-sacrifice to save the Jewish nation.\n\nFor more on this, see: How Could Esther Marry a Non-Jewish King?\n\nFortuitously, it seems, she was not stuck with Ahasuerus for too long after the divine purpose of her marriage was fulfilled. Based on chronological calculations in later biblical books, as explained in the Talmudic-era work Seder Olam, Ahasuerus died (or was killed) within two years of the Purim story.4\n\nDid She Bear a Jewish King?\n\nThe Midrash opines that Darius II was the son of King Ahasuerus and Queen Esther.5 Based on the chronology, he was born sometime during the Purim story and became king while he was still a child (due to his father’s premature death).6\n\nStrikingly, the Talmud has mostly negative things to say about Darius II, despite the fact that he allowed the completion of the Second Temple. The Talmud debates whether he was always bad or only became so later on. It seems to take for granted that he was a non-Jew;7 nowhere does it refer to him as a Jew.\n\nHow do we reconcile the Midrash and the Talmud? One of the commentaries explains that even if he was the son of Esther, he would have had the legal status of an apostate Jew and would therefore have been treated as a non-Jew.8\n\nAlthough Darius II seemingly did not follow his mother's ways, a fascinating commentary posits that Queen Esther ultimately had a positive influence on him regarding the Jewish nation.\n\nNehemiah Fortifies Jerusalem\n\nThe Book of Nehemiah opens with Nehemiah hearing a report about the dire condition of Jerusalem: its walls are broken and its people are in disgrace. Deeply distressed, he fasts and prays, confessing Israel’s sins and asking G‑d for success in approaching the Persian king (who commentators identify as Darius II9). The chapter ends by noting that Nehemiah serves as the king’s cupbearer, setting the stage for his bold request.10\n\nIt then recounts Nehemiah’s audience with the king. When the king notices his sadness, he asks, “How is it that you look bad, though you are not ill? It must be bad thoughts.”\n\nNehemiah replies: “May the king live forever! How should I not look bad when the city of the graves of my ancestors lies in ruins, and its gates have been consumed by fire? … If it pleases the king, and if your servant has found favor with you, send me to Judah, to the city of my ancestors’ graves, to rebuild it.”11\n\nThe verse then says that with the “shegel” sitting at his side, the king asks how long it would take and gives his blessing for the project, which Nechemia then undertook.\n\nWhat is a shegel? The Talmud provides several options.12 In its straightforward sense, the word is possibly best translated as “consort,” and can refer to the queen. Malbim provides a novel reading in which the word refers to the queen mother, Esther. He explains that she was the one who persuaded her son to agree to Nehemiah’s request.\n\nBehind the scenes, Esther’s quiet influence helped secure royal authorization and protection for Nehemiah’s mission—to strengthen Jewish settlement in the Land of Israel and safeguard the newly rebuilt Temple.13\n\nTalmud, Megillah 14a.\n\nSee, for example, Megilat Setarim on Esther 2:17.\n\nSee Talmud, Megillah 15a; see also Rabbi Netanel ben Yishayeh, author of Midrash Maor Ha’afeilah, quoted in Torah Shleimah on Esther 4:16 no. 67.\n\nSee Seder Olam, ch. 28-30; Rashi on Meggilah 11b; see also Codex Judaica, year 3406 / -355.\n\nMidrash Vayikra Rabbah 13:5; Tosafot on Talmud, Rosh Hashanah 3b.\n\nSee Seder Olam, ch. 28-30.\n\nSee, for example, Talmud, Rosh Hashanah 3b.\n\nSee Halachot Ketanot 2:240.\n\nIt should be noted that there is much ambiguity and debate regarding some of the identities and chronology in this era, which is beyond the scope of this article. In this article, we are following the chronology of the Tannaitic era work Seder Olam.\n\nNehemiah, ch. 1-2.\n\nNehemiah 2:2-6.\n\nTalmud, Rosh Hashanah 4a.\n\nSee Malbim on Nehemiah 2:6.",
+          "accepted": true,
+          "author": "Yehuda Shurpin",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7254483/jewish/What-Happened-to-Queen-Esther-After-the-Purim-Story.htm",
+      "tags": [
+        "chabad",
+        "halacha",
+        "inspiration-entertainment",
+        "article"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T08:42:48.709Z",
+      "metadata": {
+        "author": "Yehuda Shurpin",
+        "author_id": "15169",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "Precious little is known about this period, but some details may be gleaned from rabbinic sources.",
+        "source": "chabad.org",
+        "original_id": "7254483",
+        "original_source": "chabad.org",
+        "content_type": "article",
+        "original_question_empty": true,
+        "category_reason": [
+          "blessing",
+          "purim",
+          "marriage",
+          "sacrifice",
+          "rabbi"
+        ],
+        "source_filename": "2026-07-What-Happened-to-Queen-Esther-After-the-Purim-Story.7254483.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7261377",
+      "id": "chabad-7261377",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "What Does Judaism Say About Snow?",
+      "question": "What Does Judaism Say About Snow?",
+      "answers": [
+        {
+          "text": "With much of the East Coast under blizzard warnings, the children are thrilled; the parents a little less so... In any case, this is an excellent opportunity to discuss snow in Judaism.\n\nSnow in the Bible\n\nSnow is mentioned several times in the Bible, as a metaphor or as part of a visual description.\n\nIsaiah the Prophet said: “Though your sins be [as red] as scarlet, they shall be white as snow.”1 Scarlet symbolizes sin. No matter how low we fall, our deeds will one day become as white as snow, promises G‑d.\n\nIsaiah speaks about the snow in other prophecies as well, saying, “As the rain comes down, and the snow from Heaven, and it will never return to there,” so, too, the words of the Creator “will not return to Me without having accomplished what I want them to.” 2\n\nThe famous ode “A Woman of Valor” contains the phrase, “She is not afraid of the effects of snow on her household; for all her household are clothed with scarlet.”3 The simplest way to understand the sentence is to see it as the praise of a hardworking woman who makes sure that the members of her household won’t be cold.4 The Midrash explains that the reference to snow here is a metaphor for the chilling punishment in the afterlife, something the righteous woman has no need to fear.5\n\nThe Book of Psalms mentions snow when it describes the goodness that the Creator bestows upon the world.6\n\nThe Talmudic sage Rava says that snow is five times better than water for the grass and shrubs that grow wild on the mountains, presumably because the rain runs off the mountain before it’s absorbed, while the snow piles up and soaks the ground as it melts.7\n\nThe Story of Hillel\n\nThe Talmud tells the following story:8\n\nHillel, a very poor yet pious man, earned only one coin a day. He was so devoted to Torah study that he spent half his earnings on food and half on paying for his admission to the study hall. One freezing winter day, Hillel couldn’t find work and didn’t even have half a coin for admission.\n\nHillel didn’t give up. He climbed to the roof of the study hall and found that by positioning himself above the skylight, he could hear the conversation of the sages Shmaya and Avtalyon, who were discussing Torah subjects. Snow began to fall, and it covered Hillel’s body. He fell unconscious and almost froze to death.\n\nThe next morning, the sages noticed that it was dark in the room. By the time they discovered Hillel’s body blocking the opening, it was almost too late. Three cubits (nearly five feet) of snow had piled up on top of Hillel! It was Shabbat, but saving a life takes priority; they warmed him and treated him as needed. Hillel became one of the greatest Torah scholars of all times, and his many legal decisions have been recorded in the Mishnah.\n\nSnow in Halachah\n\nOn the one hand, snow is made of water, a liquid. On the other hand, it’s a solid. This makes for interesting complications in legal literature.\n\nWashing hands with snow\n\nHands must be washed in the morning before you can say blessings and pray. There are those who are of the opinion that you can fulfill this halachic obligation by immersing your hands in snow, and indeed, the Shulchan Aruch Harav originally rules that when there is no water, one can use unmelted snow.9\n\nHowever, the Alter Rebbe ultimately rules in his siddur that even in such a situation, one cannot use unmelted snow; instead, one needs to melt the snow and then use the water to wash his or her hands.10\n\nMikvah\n\nA mikvah may only be filled with water that has never been placed in a vessel. If there is no rain available, the mikvah can be filled with snow that is transported in a specific manner, and it will be fully kosher once the snow melts.11\n\nShabbat\n\nSnow on Shabbat raises several practical halachic questions. Freshly fallen snow may involve issues of muktzah or possibly nolad (something newly created on Shabbat), though many authorities permit handling it under normal circumstances. Walking on snow is generally permitted, even though it compresses or leaves footprints. However, making snowballs or building a snowman can raise concerns of boneh (constructing) or makeh b’patish (completing an item).\n\nShoveling snow may also present issues—particularly if one is clearing it for convenience rather than safety. Melting snow intentionally (for example, bringing it inside to liquefy) can raise additional halachic questions. And, of course, in areas without an eruv, carrying snow or snow-covered objects outdoors would be prohibited like any other carrying.\n\nFor a fuller discussion of these issues see: What You Need to Know About Snow on Shabbat\n\nThe Lesson of Snow\n\nWhat is snow? Something temporary. It began as water, and will eventually become water again. Chassidic philosophy draws a parallel to Torah.\n\nAt the outset, the Torah is a heavenly and spiritual delight, like water, “from which all pleasurable things grow.” In the end, after the person learns and understands the Torah, it is also a great delight. But often during the journey, the subject matter of the Torah may seem simple and mundane, hard and cold like the snow.\n\nHowever, just like snow is essentially water and will eventually return to its original state, by grasping the Torah’s physical “snowy” form, you have grasped the essence of the Torah, and will ultimately experience its spiritual “watery” state.12\n\nIsaiah 1:18.\n\nIsaiah 55:10-11.\n\nProverbs 31:21.\n\nRashi, ibid.\n\nYalkut Shimoni on Psalms chapter 737.\n\nPsalms 68:15; 147:17.\n\nTalmud Tractate Ta’anit 3b.\n\nTalmud Tractate Yoma 35b.\n\nShulchan Aruch Harav 160:14\n\nSiddur. Hilchot Netilat Yadayim 8; see also Shulchan Aruch Harav, Mahadura Tinyana, 4:2\n\nShulchan Aruch Yoreh De’ah 201:29,.\n\nYom Tov Shel Rosh Hashana 5666, Ve’asita chag Shavuot laHashem p 316.",
+          "accepted": true,
+          "author": "Levi Mendelson",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7261377/jewish/What-Does-Judaism-Say-About-Snow.htm",
+      "tags": [
+        "chabad",
+        "general",
+        "inspiration-entertainment",
+        "article",
+        "needs-review"
+      ],
+      "category": "general",
+      "category_confidence": "low",
+      "needs_review": true,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:58:30.107Z",
+      "metadata": {
+        "author": "Levi Mendelson",
+        "author_id": "32119",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "With much of the East Coast under blizzard warnings, the children are thrilled; the parents a little less so.",
+        "source": "chabad.org",
+        "original_id": "7261377",
+        "original_source": "chabad.org",
+        "content_type": "article",
+        "original_question_empty": true,
+        "category_reason": [],
+        "source_filename": "2026-07-What-Does-Judaism-Say-About-Snow.7261377.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7275175",
+      "id": "chabad-7275175",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "Why Do Kosher Restaurants Keep Bits of Bread Near the Sink?",
+      "question": "Why Do Kosher Restaurants Keep Bits of Bread Near the Sink?",
+      "answers": [
+        {
+          "text": "You’ve just finished with the bathroom at a bustling kosher pizzeria or wedding hall. You're at the sink washing up, but your eye catches something puzzling. There, perched on the edge of the sink or resting on a small shelf nearby, is a basket filled with small pieces of bread.\n\nWhile it may look like misplaced catering, this arrangement is actually a practical solution to a specific requirement in Jewish law.\n\nThe Principle of “No Interruption”\n\nIn Jewish tradition, any meal that includes bread begins with ritually washing the hands.\n\nThe law stipulates that there should be no significant delay (known as a hefsek) between washing the hands and eating.1\n\nIdeally, once a person finishes drying their hands and recites the appropriate blessing, they should immediately take a bite of bread to link the purification ritual to the meal itself. During this brief window, speaking about unrelated topics or engaging in distracting activities should be avoided.\n\nThe Logistics of Public Spaces\n\nIn a private home, this is simple: the sink is usually steps away from the dining table. In large public venues, however, several challenges arise. The washing station may be located in a hallway or alcove far from the guest’s assigned table. Additionally, in a crowded restaurant or a catered event, it may take several minutes to wait for a server to bring the food to the table.\n\nHow to Eat Near Your Washing Station?\n\nThe basket of bread solves this problem. By providing bread immediately adjacent to the washing station, the establishment allows guests to avoid interruption by saying the blessing and eating a small piece of bread immediately after washing and drying their hands.\n\nBy eating that first bite at the sink, the requirement for continuity is satisfied instantly. The guest is then free to walk to their table, chat with friends, and wait for their main course without worrying about the timing.\n\nShulchan Aruch Harav, Orach Chaim 166. More specifically, there are two main views. The lenient opinion is not concerned about a regular interruption (hefsek) unless it constitutes a diversion of the mind (hesech hadaat), such as getting involved in a different activity. The stricter opinion is concerned with interruptions that don’t divert the mind, such as waiting or a short discussion.",
+          "accepted": true,
+          "author": "Motteleh Schusterman",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7275175/jewish/Why-Do-Kosher-Restaurants-Keep-Bits-of-Bread-Near-the-Sink.htm",
+      "tags": [
+        "chabad",
+        "halacha",
+        "inspiration-entertainment",
+        "article"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:58:27.522Z",
+      "metadata": {
+        "author": "Motteleh Schusterman",
+        "author_id": "35075",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "This arrangement is actually a practical solution to a specific requirement in Jewish law.",
+        "source": "chabad.org",
+        "original_id": "7275175",
+        "original_source": "chabad.org",
+        "content_type": "article",
+        "original_question_empty": true,
+        "category_reason": [
+          "jewish law",
+          "kosher",
+          "blessing",
+          "ritual"
+        ],
+        "source_filename": "2026-07-Why-Do-Kosher-Restaurants-Keep-Bits-of-Bread-Near-the-Sink.7275175.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7284532",
+      "id": "chabad-7284532",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "What Is Pilpul?",
+      "question": "What Is Pilpul?",
+      "answers": [
+        {
+          "text": "Used as a descriptive for a distinct style of Torah study, pilpul (פִּלְפּוּל) is a Hebrew term that literally means “sharpness” or “pepperiness.” It comes from the Hebrew word pilpel (pepper), implying something that is intellectually sharp and biting.\n\nThe term has come to denote the art of weaving complex arguments—often through creative, highly refined readings of the texts—to resolve apparent contradictions. Pilpul can refer both to a style of study and to a type of lecture or presentation. Thus, if someone “gave a pilpul,” it means they delivered a complex, tightly reasoned discourse, interweaving passages of the Talmud and its commentaries to address and resolve textual difficulties.\n\nIt is customary in many communities for a boy celebrating his bar mitzvah to prepare a pilpul to share with those present as part of the festive meal marking his entry into the age of mitzvot. In fact, the Rebbe would often ask a bar mitzvah boy to present a synopsis of his pilpul during the private audience customarily held before the bar mitzvah.\n\nSource of Pilpul\n\nWhile the first mention of the term pilpul appears in the last chapter of Pirkei Avot, it did not come to denote this unique style of Torah analysis until much later. The Mishnah states:\n\nTorah is greater than the priesthood or sovereignty, for sovereignty is acquired with thirty virtues, the priesthood with twenty-four, and Torah is acquired with forty-eight qualities. These are: study, listening, verbalizing … companionship with one's contemporaries, debating with one's students.1\n\nTorah is greater than the priesthood or sovereignty, for sovereignty is acquired with thirty virtues, the priesthood with twenty-four, and Torah is acquired with forty-eight qualities. These are: study, listening, verbalizing … companionship with one's contemporaries, debating with one's students.1\n\nThe term used to describe engaging in debate with one’s students is pilpul ha-talmidim (פלפול התלמידים). Similarly, in various places in the Talmud, pilpul is used to describe sharp argumentation or debate.2\n\nOver the centuries, however, as methods of Talmudic argumentation and analysis developed in various yeshivahs, and particularly as they were honed by the Tosafists of Ashkenaz, pilpul emerged as a distinct mode of study.\n\nThis development eventually reached a point at which some of the arguments being employed were seen by certain scholars as overly strained or artificial. As a result, criticism of taking this method too far began to surface, with notable figures—such as the Maharal of Prague3 and Rabbi Mordecai Yoffe\n\n(known as the Levush)4—cautioning against the proliferation of the use of this method to the extreme.\n\nThe fifth Chabad Rebbe, Rabbi Shalom Dov Ber Schneerson, recognized the value of genuine pilpul when it involved truly innovative yet sound arguments, but cautioned against the use of far-fetched reasoning and dubious connections to resolve textual difficulties.5\n\nPilpul Today\n\nIn contemporary Jewish learning, especially within certain segments of the yeshivah world, the term pilpul often carries a somewhat ambiguous connotation. The style of intense textual analysis and harmonization of apparent contradictions remains central to advanced Talmud study. However, many have moved away from some of the far-fetched and strained interpretations. Instead, the focus is on using refined arguments and a close reading of the Talmudic passage at hand to uncover the true intent and thus resolve apparent difficulties.\n\nWhile the historical criticisms that pilpul is excessively complex, strained, or focused on creating difficulties merely to resolve them still resonate, the core intellectual activity it represents—rigorous, sharp, and creative engagement with classical texts—is a fundamental component of the traditional scholarly approach.\n\nToday, pilpul may be used to describe any deep, dialectical lecture or paper that demonstrates intellectual acuity and profound familiarity with the breadth of Torah literature. The highest value is placed on a pilpul that is not only sharp but also reveals a genuine, novel insight (chiddush) into the meaning of the texts or their underlying legal principles (halachah), thus fulfilling the positive sense of the term as praised by earlier generations of scholars.\n\nPirkei Avot 6:6.\n\nSee for example, Bava Batra 145b and Eruvin 67a.\n\nNetivot Olam, Netiv Torah, ch. 5.\n\nIntroduction to Levush.\n\nKuntres Eitz HaChayim, Chapter 31.",
+          "accepted": true,
+          "author": "Mordechai Rubin",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7284532/jewish/What-Is-Pilpul.htm",
+      "tags": [
+        "chabad",
+        "general",
+        "inspiration-entertainment",
+        "article",
+        "needs-review"
+      ],
+      "category": "general",
+      "category_confidence": "low",
+      "needs_review": true,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:58:24.941Z",
+      "metadata": {
+        "author": "Mordechai Rubin",
+        "author_id": "21532",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "A distinct style of Torah study, pilpul (פִּלְפּוּל) is a Hebrew term that literally means “sharpness” or “pepperiness.”",
+        "source": "chabad.org",
+        "original_id": "7284532",
+        "original_source": "chabad.org",
+        "content_type": "article",
+        "original_question_empty": true,
+        "category_reason": [],
+        "source_filename": "2026-07-What-Is-Pilpul.7284532.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7284961",
+      "id": "chabad-7284961",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "Is Abracadabra a Jewish Expression?",
+      "question": "Is Abracadabra a Jewish Expression?",
+      "answers": [
+        {
+          "text": "You’ve probably heard the quintessential magical spell, abracadabra. But have you ever wondered what it actually means and where it comes from?\n\nAlthough the actual origins and meaning of the word are shrouded in mystery, the first recorded appearance of the word abracadabra is in the 2nd century CE in the Liber Medicinalis by the Roman physician Serenus Sammonicus. He prescribed an amulet involving the word as a cure for fever. In the 1800s, it came to be used as a magical spell, and has since become the classic magical words beloved by children’s entertainers everywhere.\n\nIt is not referenced in any Jewish texts before modern times.1\n\nIn the past several decades, theories have arisen that associate abracadabra with its obvious Aramaic parallel, “אברא כדברא,” meaning “I will create like the word” or “I will create as I speak.”\n\nIn Aryeh Kaplan’s translation of Sefer Yetzirah, he draws a parallel between the Talmudic story of the sage Rava (c. 280 – 352 CE) creating a golem and abracadabra:\n\n… the expression, “Rava created a man,” has mystical connotations. In the original, it is “Rava bara gavra … ” In many ways, this expression is reminiscent of the word abracadabra (אברא כאדברא), which literally means, “I will create as I speak.”2\n\n… the expression, “Rava created a man,” has mystical connotations. In the original, it is “Rava bara gavra … ” In many ways, this expression is reminiscent of the word abracadabra (אברא כאדברא), which literally means, “I will create as I speak.”2\n\nIn a footnote, Rabbi Kaplan adds a deeper layer of significance:\n\nIt is significant that, when written this way–(אברא כאדברא)–abracadabra contains the word BaRA (bara), meaning to create, while the remaining letters add up to 26, the numerical value of the Tetragrammaton.3\n\nIt is significant that, when written this way–(אברא כאדברא)–abracadabra contains the word BaRA (bara), meaning to create, while the remaining letters add up to 26, the numerical value of the Tetragrammaton.3\n\nSo is this a legitimate etymology for the term abracadabra or just a creative theory?\n\nWhatever the true etymology is, the idea of creation with words is definitely a Jewish concept. According to Kabbalah, the world was created with G‑d’s power of speech. For more information on this topic see: The Kabbalah of Speech.\n\nExcept for a similar sounding word in Etz Hadaat, a 16th-century book of amulets by Elisha of Ancona. The amulet, made up of a formula involving the word “avrakala,” is for preventing fever.\n\nSefer Yetzirah, the Book of Creation, transl. by Aryeh Kaplan, page xxi.\n\nSefer Yetzirah, the Book of Creation, transl. by Aryeh Kaplan, p. 348, fn.106.",
+          "accepted": true,
+          "author": "Motteleh Schusterman",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7284961/jewish/Is-Abracadabra-a-Jewish-Expression.htm",
+      "tags": [
+        "chabad",
+        "general",
+        "inspiration-entertainment",
+        "article",
+        "needs-review"
+      ],
+      "category": "general",
+      "category_confidence": "low",
+      "needs_review": true,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:58:22.505Z",
+      "metadata": {
+        "author": "Motteleh Schusterman",
+        "author_id": "35075",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "",
+        "source": "chabad.org",
+        "original_id": "7284961",
+        "original_source": "chabad.org",
+        "content_type": "article",
+        "original_question_empty": true,
+        "category_reason": [],
+        "source_filename": "2026-07-Is-Abracadabra-a-Jewish-Expression.7284961.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7288064",
+      "id": "chabad-7288064",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "Can I Let My AI Agent Run on Shabbat?",
+      "question": "AI “agents” are advanced software systems that can operate autonomously for extended periods. They can write and deploy code, respond to customer inquiries, process financial transactions, manage social media accounts, and handle many other tasks without human involvement.\n\nSo what if you set an AI agent in motion before Shabbat, or configure it to run continuously, and have it work throughout Shabbat on your behalf? Is that permitted?",
+      "answers": [
+        {
+          "text": "At first glance, this sounds like a new halachic issue that we’re facing.\n\nBut though the technology may be new, the underlying issues aren’t. As we’ll see, similar questions were already discussed at length in earlier generations.\n\nSo, to understand the status of AI agents on Shabbat, we first need to step back and look at those earlier discussions.\n\nThe Water-Mill Precedent\n\nIn the Code of Jewish Law, we find that a person may begin certain processes before Shabbat, even if they continue and finish on Shabbat itself. For example, you can soak dyes, set traps or send garments to a non-Jewish launderer before Shabbat, even though the work will continue once Shabbat begins. Since you’re not actively performing forbidden labor on Shabbat, this is generally permitted.1\n\nThis concept would seem to apply to AI agents as well. You’re not doing anything on Shabbat itself; you simply set the system in motion beforehand.\n\nStill, the matter is not quite so simple.\n\nThe Talmud2 discusses a case in which a person places wheat into a water mill on Friday, and the mill continues grinding on Shabbat. Rava forbids this. Since the mill makes a loud noise, it detracts from the honor of Shabbat (ziluta deShabbat), and it may also lead people to think that the owner is actively operating it on Shabbat.\n\nRav Yosef disagrees and permits it. In his view, if the action began before Shabbat, it remains permitted even if it continues into Shabbat and makes substantial noise.\n\nThe earlier rabbis debated which approach we should follow. Practically speaking, where there is no established local custom, it’s best to take the stricter approach. But in cases of financial loss, you can rely on the more lenient ruling cited in the Shulchan Aruch.3\n\nBased on these principles, contemporary rabbis have ruled that you shouldn’t leave noisy machines running in your home over Shabbat, even if they were started before Shabbat or activated by a timer. That would include items such as a radio, tape recorder, dishwasher, washing machine, dryer, or similar appliances.4\n\nBut what about AI agents that don’t just run in the background but actually complete financial transactions?\n\nFor that, we turn to another major precedent.\n\nThe Vending Machine Debate\n\nIn the early twentieth century, a question arose regarding vending machines: Can a Jew leave a vending machine operating on Shabbat, knowing that non-Jews may make purchases from it during that time?\n\nSome authorities prohibited it. In their view, if a transaction takes effect on Shabbat, then being a party to that transaction is itself a problem, even if everything was arranged beforehand.5\n\nOthers were more lenient. And they gave two main reasons.\n\nFirst, they argued that setting up an automatic process before Shabbat is generally permitted. The Talmud, for example, permits arranging an irrigation system before Shabbat so that a field continues to be watered on Shabbat.6\n\nSecond, they pointed out that the person actually initiating the purchase on Shabbat is the non-Jewish customer, not the Jewish owner. Since the owner is not doing anything on Shabbat, he is not seen as an active participant in the transaction at that moment.7\n\nIn practice, the accepted custom follows the lenient view, and vending machines are generally permitted to remain in operation on Shabbat.8\n\nFrom there, later authorities extended the discussion to online stores. Many were likewise lenient. Some added another point as well: ownership of a purchased item may not technically transfer until delivery, which means that what happens on Shabbat may not even be a fully completed sale, but rather a commitment that will only be finalized later.9\n\nAt the same time, not everyone saw online commerce as identical to a vending machine. With a vending machine, once it’s stocked, the seller is fully removed from the process. But with online sales, the seller remains involved until the order is fulfilled and shipped. Because of that, some argued that the seller is still meaningfully connected to a Shabbat transaction, even if no direct action is taken on Shabbat itself.10\n\nEven so, many rely in practice on the lenient view and permit a website to remain active over Shabbat, as long as there is no human intervention on Shabbat itself.11\n\nBut there is yet another issue to address: work that is initiated on Shabbat.\n\nThe Timer Debate\n\nWhen timers first became common, some authorities questioned whether they should be used at all on Shabbat.\n\nSome compared them to the water mill mentioned in the Talmud. If something visibly runs during Shabbat, it may lessen the honor of Shabbat and lead others to suspect that someone operated it on Shabbat.12\n\nOthers raised a different concern. In the classic Talmudic cases, the action begins before Shabbat and simply continues into Shabbat. A timer seems different because the action itself begins on Shabbat.13\n\nAnd there were other concerns, too. Some worried that a person might come to adjust the timer on Shabbat.14 Others suggested that the leniency only applies when no particular benefit is intended for Shabbat.15\n\nStill, the accepted ruling is that timers may be set before Shabbat. Since their use has become so common, people no longer assume that an automatic change on Shabbat means someone violated Shabbat. And once that concern faded, the practice became much more accepted.\n\nBecause of that, many contemporary authorities permit the use of timers not only for lights, but for other household appliances as well. This has become widespread practice among observant Jews.16\n\nThat said, some authorities say that using a timer for personal household needs is one thing, but using it to keep business or work-related activity running through Shabbat is another. In the latter case, they argue, there is more reason to worry that this weakens the atmosphere and honor of Shabbat.17\n\nAnd that concern would seem especially relevant when it comes to AI agents carrying on your work throughout Shabbat.\n\nWhere Does All This Leave Us?\n\nIt would seem that if using AI agents for a particular task is still uncommon and unusual, then allowing such an agent to operate on Shabbat would be difficult to permit.\n\nEven if it does become common, an agent whose activity creates noticeable noise would still present a problem, unless that kind of operation has become so standard that it no longer detracts from Shabbat or raises suspicion.\n\nBut even if neither of those concerns applies, one more question remains. If an AI agent is visibly conducting a person’s affairs on Shabbat, does that itself take away from the spirit and sanctity of the day?\n\nAfter all, Shabbat observance isn’t just about refraining from activities, it’s about creating an atmosphere of holiness, distinct from the rest of the week.\n\nSo while there may be cases where leniency is warranted, this is not something to treat lightly. The most appropriate path is to discuss the specific case with a competent rabbi.\n\nSee Shulchan Aruch, Orach Chaim 252.\n\nTalmud, Shabbat 18a. See also Rama, Shulchan Aruch, Orach Chaim 252:5.\n\nSee Rama, Shulchan Aruch, Orach Chaim 252:5; Shulchan Aruch Harav, Orach Chaim 252:15.\n\nSee, for example, Minchat Shlomo 2:20.\n\nSee Responsum Rabbi Akiva Eiger, Mahadura Kama 159; Givat Halevona quoted in Minchat Yitzchak 3:34.\n\nShabbat 18a.\n\nSee, for example, Maharshag 2:117; Sho'el U'Meishiv 6:7; Shu”t Torat Chesed 13.\n\nSee, for example, Shemirat Shabbat Kehilchata 25:29.\n\nSee, for example, Rabbi Y. Kushner, Commerce on Shabbos (Feldheim), ch. 4.\n\nSee, for example, Rabbi Belsky, Shulchan Halevi 2:4.\n\nSee, for example, Rabbi Y. Kushner, Commerce on Shabbos (Feldheim), ch. 4.\n\nSee for example, Igrot Moshe, Orach Chaim 4:84.\n\nSee Responsa Ben Yehuda 151.\n\nEtan Aryeh 111; Mishpetei Uziel 1:223\n\nIgrot Moshe, Orach Chaim 4:60.\n\nSee ,for example, Encyclopedia Talmudit, vol. 18, supplement about Electricity, p. 679.\n\nSee Piskei Teshuvot 252:1.",
+          "accepted": true,
+          "author": "Yehuda Shurpin",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7288064/jewish/Can-I-Let-My-AI-Agent-Run-on-Shabbat.htm",
+      "tags": [
+        "chabad",
+        "halacha",
+        "inspiration-entertainment",
+        "question-answer"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:58:19.627Z",
+      "metadata": {
+        "author": "Yehuda Shurpin",
+        "author_id": "15169",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "Can it be likened to a pre-set timer?",
+        "source": "chabad.org",
+        "original_id": "7288064",
+        "original_source": "chabad.org",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "category_reason": [
+          "halachic",
+          "jewish law",
+          "shabbat",
+          "observant",
+          "rabbi",
+          "custom"
+        ],
+        "source_filename": "2026-07-Can-I-Let-My-AI-Agent-Run-on-Shabbat.7288064.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7323263",
+      "id": "chabad-7323263",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "Why Wear Shabbat Clothes When Alone?",
+      "question": "Why Wear Shabbat Clothes When Alone?",
+      "answers": [
+        {
+          "text": "The Torah describes Shabbat as “a day to be declared sacred,”1 and the prophets say “You shall call the Shabbat a delight … and honor it.”2 The sages explain that sanctifying the day includes (1) honoring it with special, clean, dignified clothing, and (2) delighting in it through enjoyable food and drink.3\n\nAccordingly, you should set aside attractive, refined clothing for Shabbat (within your means). As our sages teach, “Your Shabbat garment should not be like your weekday garment,” but rather you should change into cleaner, more distinguished attire.4\n\nAnd since these clothes are worn in honor of Shabbat itself, not in honor of whoever may happen to see you, this applies even when you’re alone. If you’re spending Shabbat at home by yourself, you should still change out of your weekday clothes and into Shabbat-appropriate clothing.5\n\nFor women, it’s best to change into respectable Shabbat attire before lighting candles.6\n\nBasic Requirement\n\nAt minimum, your outer garments (such as a jacket or suit) should be noticeably nicer than what you wear during the week. Since these outer garments are designated for Shabbat and Yom Tov, they don’t need to be laundered every single week, only once they lose their freshness.7\n\nOther garments, such as shirts, pants and undergarments, don’t technically have to be reserved exclusively for Shabbat, but they should be clean in honor of the day. Shoes should also be polished.\n\nIf you don’t have different clothing altogether, you should still make some type of change. For example, in ancient times, people would wear their garments in a more dignified way by letting them hang longer. This was similar to the fashion of wealthier people of old who often let their garments reach lower because they didn’t have to worry about them getting dirty while working, so dressing this way reflected honor and distinction.8\n\nIf possible, it’s also proper to have a special tallit reserved for Shabbat prayers.9\n\nThe Widespread Custom\n\nMany people have the custom, according to their means, to avoid wearing anything on Shabbos that they wore during the week, even items that aren’t usually seen. Their tallit gadol, kippah, belt, pants, sweater, and shoes10 are all reserved exclusively for Shabbos. Similarly, the tallit katan (tzitzis) should be changed in honor of Shabbos, either to a garment designated for the day or to one that has been freshly laundered.\n\nThe one exception is undergarments. Since they’re laundered every week, washing them specifically in honor of Shabbat gives them that designation.11\n\nYou should wear your Shabbat clothing at least until after Havdalah,12 and preferably Melaveh Malkah.13 However, the widespread custom is not to change into weekday clothing until bedtime.14\n\nThis goes beyond the basic requirement, reflecting a deep and meaningful commitment to honoring the day.\n\nLeviticus 23:10. See also Shulchan Aruch Harav, Orach Chaim 242:1,262:3.\n\nIsaiah 58:13.\n\nMechilta, Parshat Bo, sec. 9; Sifra, Emor, sec. 12.\n\nTalmud, Shabbat 113a.\n\nMishnah Berurah 262:6.\n\nMishnah Berurah 262:11; obviously, if she is running late and it’s already time to light Shabbat candles, she should light in her weekday clothing and only change into her Shabbat clothing afterwards. Alternatively, if she foresees that she will be running late, she should change into her Shabbat clothing earlier in the day.\n\nSee Piskei Teshuvot 262:4.\n\nShulchan Aruch, Orach Chaim 262:2; Shulchan Aruch Harav, Orach Chaim 262:3.\n\nShulchan Aruch Harav, Orach Chaim 262:3.\n\nSee however Piskei Teshuvot 262:4 fn. 29 that some are of the opinion that even according to this custom polishing your shoes would suffice.\n\nSee Piskei Teshuvot 262:4.\n\nSee Shulchan Aruch Harav, Orach Chaim 262:3; Mishnah Berurah 262:8.\n\nSee Piskei Teshuvot 262:5.\n\nIbid.",
+          "accepted": true,
+          "author": "Yehuda Shurpin",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7323263/jewish/Why-Wear-Shabbat-Clothes-When-Alone.htm",
+      "tags": [
+        "chabad",
+        "halacha",
+        "inspiration-entertainment",
+        "article"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:58:17.085Z",
+      "metadata": {
+        "author": "Yehuda Shurpin",
+        "author_id": "15169",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "Since these clothes are worn in honor of Shabbat itself, not in honor of whoever may happen to see you, this applies even when you’re alone.",
+        "source": "chabad.org",
+        "original_id": "7323263",
+        "original_source": "chabad.org",
+        "content_type": "article",
+        "original_question_empty": true,
+        "category_reason": [
+          "shabbat",
+          "prayer",
+          "custom"
+        ],
+        "source_filename": "2026-07-Why-Wear-Shabbat-Clothes-When-Alone.7323263.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7324656",
+      "id": "chabad-7324656",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "What Is Cheilev?",
+      "question": "What Is Cheilev?",
+      "answers": [
+        {
+          "text": "Beef and lamb are well-known examples of meat from kosher animals which may be eaten once the correct process of slaughtering and koshering has been followed. However, not every part of a kosher animal may be eaten. Some fats are kosher, some are not.\n\nCheilev refers to specific hard fats found in domesticated kosher animals such as cattle, sheep, and goats. These fats are located around certain organs, including the kidneys, liver, and intestines, and are distinct from the softer fats and marbling found within the meat.\n\nThe Torah explicitly forbids consuming cheilev, stating, “Any cheilev of an ox, sheep, or goat you shall not eat.”1\n\nPermitted vs. Forbidden Fats\n\nBut not all animal fat is prohibited. Permitted fat, known as shuman, includes the fat within muscle tissue and is commonly found in kosher cuts of meat.2\n\nWhy is cheilev forbidden? In the Holy Temple, these fats were considered the choicest portions of an animal offering and were designated to be burnt on the Altar.3\n\nBy reserving them for G‑d, the Torah teaches that not every physical desire—even a permitted one—needs to be indulged.4 Nachmanides5 adds that holiness does not mean complete rejection of physical pleasures, but requires channeling them properly—in this case, the best part of the animal being given to G‑d.\n\nThe Rebbe explains6 that one had to wait until the cheilev was completely burned on the Altar before partaking in the meat of the rest of the sacrifice—to symbolize that the proper way to fulfill a mitzvah is with the enjoyment of serving G‑d and fulfilling His will.\n\nFor more on this, see: Schmaltz.\n\nThe Process\n\nToday, you’d never encounter cheilev directly in a kosher butcher shop or supermarket. There is a careful process known as nikkur7 (de-veining), where trained experts remove prohibited fats before kosher meat reaches the consumer. This same process also removes another forbidden part of the animal — the gid hanasheh, or sciatic nerve — which the Torah prohibits following Jacob's struggle with the angel.8\n\nWhile nikkur is halachically permitted and historically practiced, many communities, especially those outside of Israel, refrain from consuming certain hindquarter cuts due to the complexity of the process. This also allows us to mostly avoid doing the complex process of nikkur, although some nikkur is still required to permit the rest of the animal. As a result, cuts such as filet mignon and some sirloin steaks are often unavailable in kosher markets. See Why Can't I Find Kosher Filet Mignon?\n\nUnderstanding cheilev highlights a core concept behind keeping kosher: holiness is found not only in what we eat, but in the care taken to honor G‑d’s distinctions, down to the smallest details.\n\nLeviticus 7:23.\n\nShulchan Aruch, Yoreh De’ah 64:1.\n\nLeviticus 3:3-5.\n\nSefer HaChinuch, Mitzvah 147.\n\nNachmanides, Leviticus 3:16.\n\nLikkutei Sichot, vol. 3, Tzav.\n\nShulchan Aruch, Yoreh De’ah 64-65.\n\nGenesis 32:33.",
+          "accepted": true,
+          "author": "Leibel Kahan",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7324656/jewish/What-Is-Cheilev.htm",
+      "tags": [
+        "chabad",
+        "general",
+        "inspiration-entertainment",
+        "article",
+        "needs-review"
+      ],
+      "category": "general",
+      "category_confidence": "low",
+      "needs_review": true,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:58:14.563Z",
+      "metadata": {
+        "author": "Leibel Kahan",
+        "author_id": "32102",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "",
+        "source": "chabad.org",
+        "original_id": "7324656",
+        "original_source": "chabad.org",
+        "content_type": "article",
+        "original_question_empty": true,
+        "category_reason": [],
+        "source_filename": "2026-07-What-Is-Cheilev.7324656.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7331312",
+      "id": "chabad-7331312",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "Why Do We Repeat the Final Words of the Shema?",
+      "question": "Why Do We Repeat the Final Words of the Shema?",
+      "answers": [
+        {
+          "text": "The Shema contains 245 words. This is significant because it is just three words shy of 248, the number of “limbs” in the human body according to the Talmudic reckoning.1 Our sages teach that when the Shema is recited properly, each limb is “nourished” by a corresponding word.2 Accordingly, three additional words are needed to complete this number.\n\nSo where do we get those three words? When you pray in the synagogue, the chazan says the final three words (Hashem Elokeichem emet) aloud for all to hear after first saying them quietly to himself.\n\nHearing those three words from the chazan counts towards your total of 248.3\n\nThe Procedure: With a Minyan\n\nThe Shema ends with the words, “ani Hashem Elokeichem emet,” and the following paragraph begins with the words “emet veyatziv.” [The word emet is not technically part of the Shema; it is the first word of the blessing recited after the Shema: Emet veyatziv in the morning, Emet veEmuna in the evening. However, we don’t pause between G‑d's name and emet (truth).]\n\nFor the Congregants\n\nIndividuals praying with a minyan recite the Shema quietly, conclude with “Hashem Elokeichem emet,” then pause and wait for the chazan to repeat those words aloud. They then continue with the next paragraph, starting with the word Veyatziv, without repeating the word emet. Nevertheless, if one wishes to say the phrase together with the chazan, it is permitted.4\n\nNote: Even those who have not yet finished the Shema may pause and listen to the chazan, thereby completing their count without needing to repeat the words later.5\n\nFor the Chazan\n\nFor the chazan himself, there are two customs:\n\nSome recommend that the chazan should omit the word emet when concluding the Shema quietly, so that when he says it aloud, the total does not exceed 248 words.6 Others, including Chabad, include emet even in the quiet recitation, in order not to separate the words Hashem Elokeichem from emet.7\n\nAccording to this second view, the repeated emet is not counted toward the total, since it is considered part of the following blessing, Emet Veyatziv.\n\nThe Procedure: Without a Minyan\n\nThere are a number of customs for making up those three extra words when praying without a minyan.\n\nAccording to Chabad custom, one who is praying alone should conclude the Shema with “Hashem Elokeichem” (omitting emet), and then repeat the entire last phrase, “ani Hashem Elokeichem emet,” thereby completing the total of 248 words.8\n\nInstead of repeating the final words, others add the words “א-ל מלך נאמן — Kel Melech Ne’eman” (“Almighty, faithful King”) to the beginning of the Shema, which likewise adds up to a total of 248 words. These words correspond to answering “amen” to the preceding blessing, as amen is understood as an acronym for Kel Melech Ne’eman.9\n\nWhen praying with a minyan, however, Kel Melech Ne’eman is not said. Chabad custom is that the chazan concludes the preceding blessing quietly so that no one answers amen, thereby avoiding any interruption between the blessing and the Shema.\n\nWhy Doesn’t Chabad Say Kel Melech Ne’eman?\n\nFollowing the ruling of the Alter Rebbe’s Siddur, even one who is praying alone does not say Kel Melech Ne’eman. Instead, he completes the count at the end by repeating “Ani Hashem Elokeichem.” This approach reflects the concern, cited by many authorities, that answering amen—or its equivalent—would constitute an interruption between the blessing and the Shema, which should remain uninterrupted, like any blessing recited immediately before a mitzvah.10\n\nWhat If You Forget?\n\nIf you have already concluded with emet, you should repeat the words Hashem Elokeichem emet. If you have already begun the next paragraph, Veyatziv, you should not go back. Instead, you should intend that the 15 “vavs” in the paragraph Emet Veyatziv will account for the three additional words.11 Some actually suggest this, even initially, as a way for one praying alone to account for the three extra words.12\n\nHow to Complete the 248 Words of Shema\n\nSee Mishna Ohalot 1:9; Talmud Bechorot 45b, cited by Maimonides in Hilchot Tumat Met 2:5.\n\nMidrash Tanchuma, Kedoshim 6.\n\nShulchan Aruch, Orach Chaim 61:3; Shulchan Aruch Harav, Orach Chaim 61:3.\n\nRama, Shulchan Aruch, Orach Chaim 61:3. This is because the words Hashem Elokeichem separate the two instances of emet.\n\nShulchan Aruch, Orach Chaim 61:3; Shulchan Aruch Harav, Orach Chaim 61:3.\n\nRabbi Menachem Azariah of Fano, Asarah Ma’amarot, Ma’amar Im Kol Chai, r 17; cited in the Magen Avraham, 61:1.\n\nShulchan Aruch, Orach Chaim 61:3; Shulchan Aruch Harav, Orach Chaim 61:3; Siddur Admur Hazaken, (end of) Hilchot Tefilin.\n\nSiddur Admur Hazaken; Ketzos Hashulchan 19:24; Sefer Haminhagim - Chabad, pg 25.\n\nRama, Shulchan Aruch, Orach Chaim 61:3.\n\nSee Shulchan Aruch ORach Chaim 59:4; Shulchan Aruch Harav, Orach Chaim 59:4; Sefer Haminhagim - Chabad, pg 25.\n\nSome explain that 15 multiplied by the numeric value of vav (which is 6) equals 90. This corresponds to three mentions of the Divine Name, as each Name has a value of 26, and together with its four letters totals 30.Others explain differently: vav multiplied by 15 equals 90, and the act of recitation adds one more, bringing the total to ninety-one. This number represents the combined value of G‑d’s Name as it is written and as it is pronounced. In this way, it is considered as though one declared, “G‑d is true.” See Shulchan Aruch, Orach Chaim 61:3; Shulchan Aruch Harav, Orach Chaim 61:4.\n\nKetzot Hashulchan 19, fn. 62.",
+          "accepted": true,
+          "author": "Yehuda Shurpin",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7331312/jewish/Why-Do-We-Repeat-the-Final-Words-of-the-Shema.htm",
+      "tags": [
+        "chabad",
+        "general",
+        "inspiration-entertainment",
+        "article",
+        "needs-review"
+      ],
+      "category": "general",
+      "category_confidence": "low",
+      "needs_review": true,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:58:09.633Z",
+      "metadata": {
+        "author": "Yehuda Shurpin",
+        "author_id": "15169",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "",
+        "source": "chabad.org",
+        "original_id": "7331312",
+        "original_source": "chabad.org",
+        "content_type": "article",
+        "original_question_empty": true,
+        "category_reason": [],
+        "source_filename": "2026-07-Why-Do-We-Repeat-the-Final-Words-of-the-Shema.7331312.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7338705",
+      "id": "chabad-7338705",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "Does a Convert Sit Shiva for Non-Jewish Parents?",
+      "question": "I am a convert to Judaism. I understand that this means the Jewish people are my new family. But what about my biological family? If, G‑d forbid, my father passes away, do I sit shivah for him? He is not Jewish, and I am.",
+      "answers": [
+        {
+          "text": "When you converted, you didn’t just join the Jewish club; you were born as a Jewish soul. Spiritually speaking, you are now a child of Abraham and Sarah, the first Jewish couple. Your Hebrew name proudly reads “the child of Abraham and Sarah.”\n\nBut let’s be clear. Conversion may redefine your soul, but it doesn’t erase your past. You didn’t arrive by stork. There were real, flesh-and-blood parents who brought you into this world, fed you, raised you, worried about you, and probably still do.\n\nSo which family counts? Biological or spiritual?\n\nBoth.\n\nFrom a technical perspective, a convert is considered like a newborn with no legal familial ties. That means the formal obligations of mourning, like shivah and Kaddish, are not required for a non-Jewish parent.\n\nBut Jewish law is not just technical. It is sensitive to the human reality. Mourning one’s parents is a healthy expression of grief. Honoring them is an act of simple decency. The gratitude you owe them didn't get washed off in the mikvah.\n\nSo while you are not obligated to sit shivah, you may observe some shivah practices, provided that it does not cause you to miss out on any mitzvot such as Torah study. You could also say Kaddish if you wish. These practices can serve to acknowledge loss, express respect, and say thank you to the people who gave you life. Even if you are Jewish and they are not.\n\nLook at it this way: Abraham and Sarah gave you your Jewish soul. But your parents gave you the life that led to choosing that soul.\n\nSo no, you don’t have to sit shivah. But if you want to, if your heart tells you that this is how you honor your father, then not only is it permitted, it may be the right thing to do.\n\nAnd I suspect Abraham and Sarah would be very proud of that.\n\nSources:Maimonides, Hilchot Mamrim 5:11.R’ Moshe Feinstein, Igrot Moshe YD 2:130.\n\nR’ Ovadiah Yosef, Yechaveh Daat 6:60.The Rebbe, Likkutei Sichot 5, p. 154.",
+          "accepted": true,
+          "author": "Aron Moss",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7338705/jewish/Does-a-Convert-Sit-Shiva-for-Non-Jewish-Parents.htm",
+      "tags": [
+        "chabad",
+        "halacha",
+        "inspiration-entertainment",
+        "question-answer"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:58:07.041Z",
+      "metadata": {
+        "author": "Aron Moss",
+        "author_id": "8051",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "Jewish law is not just technical. It is sensitive to the human reality.",
+        "source": "chabad.org",
+        "original_id": "7338705",
+        "original_source": "chabad.org",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "category_reason": [
+          "jewish law",
+          "mikvah",
+          "conversion",
+          "mitzvot",
+          "mourning"
+        ],
+        "source_filename": "2026-07-Does-a-Convert-Sit-Shiva-for-Non-Jewish-Parents.7338705.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7339258",
+      "id": "chabad-7339258",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "Jewish Clothing FAQ",
+      "question": "Jewish Clothing FAQ",
+      "answers": [
+        {
+          "text": "Why Don’t We Dress Like the Jews of Ancient Times?\n\nThere is no mitzvah to wear the same clothes our ancestors wore. While contemporary Jewish dress reflects historical customs developed over centuries in different Jewish communities, the halachic focus is on modesty and identity rather than a precise ancient wardrobe.\n\nHowever, it’s important to note that the customs and traditions of Jewish dress are nevertheless significant. The Midrash1 explains that the Jews were redeemed from slavery in Egypt in the merit of a few practices; namely, they did not change the way they dressed to reflect the fashion of the Egyptians.\n\nWhy Do Chassidic Men Wear Hats?\n\nWearing a head covering (such as a kippah/yarmulke) expresses reverence and awareness of G‑d’s presence above. In many communities, it is customary to wear an additional hat — especially during prayer, blessings, and other sacred moments. This practice is rooted in the attire of the High Priest in the Holy Temple, who wore two head coverings,2 and is also sourced in Kabbalistic tradition, with the two coverings corresponding to the two highest levels of the soul.3\n\nRead: Why Wear Both a Kippah and a Hat?\n\nWhy Do Some Jewish Women Wear Wigs?\n\nThe Torah requires married women to cover their hair, as their natural hair is considered something private4. Wigs are one accepted way for married women to fully and consistently cover their hair, fulfilling the halachic requirement while remaining elegant. Some cover their hair in other ways, however, the purpose is not to conceal beauty — but to balance beauty with modesty and dignity.\n\nRead: Why Do Jewish Women Wear Wigs?\n\nWhat Are “Tzitzit” and Why Do Jewish Men Wear Them?\n\nTzitzit are fringes that the Torah instructs us to wear on all four-cornered garments as a constant reminder of G‑d’s commandments5 (their strings and knots symbolize the 613 commandments). Because modern clothing rarely has four complete corners, many Jewish men wear a tallit katan (small fringed garment) under their shirt, in addition to the tallit gadol — the one worn by many men during prayers, in order to fulfill the mitzvah.\n\nRead: What Is Tzitzit?\n\nCan Jews Wear Clothes of the Opposite Gender?\n\nJewish law generally prohibits wearing clothing designed specifically for the opposite gender, as the Torah explicitly prohibits cross-dressing6. This reflects concerns about identity and maintaining distinct gender roles.\n\nRead: Cross-Dressing\n\nWhat Are the Guidelines That Determine What’s Considered Modest?\n\nTzniut refers to a way of dress and behavior that reflects dignity, humility, and self-respect. While specifics can vary slightly by community, some of the core halachic guidelines include:\n\nFor women: Clothing should cover the collarbone, upper arms, and knees, and should not be overly tight. Skirts or dresses are typically worn rather than pants, as they better preserve modesty. Married women cover their hair with a wig, scarf, hat, or other covering7.\n\nFor men: Clothing should be dignified and not draw excessive attention8. Shirts should have sleeves and shorts are generally avoided.\n\nMany communities have different additional definitions of tzniut beyond the fundamental Halachic requirements, so it’s best to speak to a local rabbi if you have any questions.\n\nRead: Who Decides What Is Modest?\n\nWhat Is “Shatnez” and Do I Need to Worry About It?\n\nJust as the Torah outlines kosher laws governing food, like not mixing milk and meat, there is also a law about combining certain materials in clothing. Known as shatnez, it is the prohibition against wearing garments that combine wool and linen9. Because textile labeling isn’t always clear, many have their garments lab-tested to ensure they’re free of shatnez.\n\nRead: What is Shatnez?\n\nWhat About Clothes for Shabbat and Holidays?\n\nJewish tradition calls for wearing special, clean, respectful clothing on Shabbat and festivals to honor their sanctity. These clothes should be nicer than weekday garments and remind the wearer of the day’s holiness10.\n\nRead: Preparations for Shabbat\n\nWhy Do Some Men Wear a Belt Over Their Jacket?\n\nA gartel (belt worn during prayer) separates the upper and lower parts of the body, symbolizing spiritual focus and inner discipline. It’s a practice meant to enhance concentration during prayer.\n\nRead: Chassidic Black Belt?\n\nWhat Are Those Fur Hats That Some Chassidic Men Wear?\n\nFur hats such as the shtreimel, spodik, or kolpik are some examples of traditional headwear worn by many Chassidic men on Shabbat and holidays. Their origin traces back to Jewish communities of Eastern Europe several centuries ago, likely influenced by regional styles and the practical need for warmth in harsh winters. There is also a popular legend attributing them to a decree requiring Jews to wear animal tails on their heads. Today, the various styles are associated with different Chassidic groups.\n\nRead: Why Do Many Hasidic Jews Wear Shtreimels (Fur Hats)?\n\nWhy Do Observant Jews Wear So Much Black?\n\nWearing black isn’t a halachic requirement — rather a tradition in many Jewish communities because black is dignified and modest. European Jews in particular — and now, many communities around the world — adopted simple, dark clothing as a way of minimizing vanity and modern fashion.\n\nRead: Why the Long Black Coat?\n\nWhy Do Many Observant Men Wear Suits?\n\nA suit is dignified and respectable — qualities Jewish law emphasizes when it comes to appearance, especially during prayer, study, and Shabbat. Wearing a suit became a way to present oneself with honor. A suit reminds its wearer that he is a man on a mission, placed on earth with a sacred job to accomplish.\n\nIs Dressing This Way a Mitzvah?\n\nThere is no mitzvah to wear a suit, black clothing, a hat, or any particular style. Jewish law only gives general guidelines, including modesty, dressing with dignity, avoiding clothing of the opposite gender, shatnez, and honoring Shabbat and holidays with nice clothing. Everything beyond that — hats, coats, suits, colors — comes from custom and tradition.\n\nRead: Laws Relating to Clothing\n\nMidrash Lekach Tov, 16a.\n\nSee Likkutei Sichot, vol. 9, p. 276.\n\nSee Torat Menachem 5748, vol. 4, p. 164.\n\nKetubot 72a, Berachot 24a.\n\nNumbers 15:37-41.\n\nDeuteronomy 22:5.\n\nKetubot 72a, Berachot 24a. See Rambam, Hilchot Ishut ch. 24.\n\nShabbat 113a. See Code of Jewish Law, Orach Chaim, ch. 2.\n\nLeviticus 19:19.\n\nCode of Jewish Law, Orach Chaim, ch. 262.",
+          "accepted": true,
+          "author": "Leibel Kahan",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7339258/jewish/Jewish-Clothing-FAQ.htm",
+      "tags": [
+        "chabad",
+        "general",
+        "inspiration-entertainment",
+        "article",
+        "needs-review"
+      ],
+      "category": "general",
+      "category_confidence": "low",
+      "needs_review": true,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:58:12.095Z",
+      "metadata": {
+        "author": "Leibel Kahan",
+        "author_id": "32102",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "",
+        "source": "chabad.org",
+        "original_id": "7339258",
+        "original_source": "chabad.org",
+        "content_type": "article",
+        "original_question_empty": true,
+        "category_reason": [],
+        "source_filename": "2026-07-Jewish-Clothing-FAQ.7339258.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7361621",
+      "id": "chabad-7361621",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "Amen vs Brich Hu in Kaddish: Why the Different Customs?",
+      "question": "There is a point in the Kaddish prayer where I am used to replying “amen,” but I’ve noticed that some other congregations instead reply “brich Hu.” Can you shed some light on this difference?",
+      "answers": [
+        {
+          "text": "Throughout Kaddish, the congregation responds with “amen” at various points. When the chazan recites the phrase veyit'halal shmei dekudsha brich hu, “and praised be the name of the Holy One, blessed be He,” at those last two words—brich hu—there are varying customs as to how the congregation responds.\n\nThe phrase shmei dekudsha brich hu can actually be read two different ways, and the way you read it determines everything.1\n\nReading #1: Brich Hu Concludes the Phrase\n\nDeKudsha Brich Hu is read as a single noun phrase — the Aramaic translation of the Hebrew HaKadosh Baruch Hu, “the Holy One, blessed be He.” The chazzan recites the entire statement, “May the name of the Holy One, blessed be He, be glorified,” and only once he finishes does the congregation respond. What follows, le'eila min kol birchata, “Beyond all the blessings,” then begins an entirely new and separate idea.\n\nWith this reading, the Kaddish breaks into two distinct statements:\n\n“... lauded be the name of the Holy One, blessed be He.” “Blessed be He beyond all blessings …” (beginning with le'eila)\n\nTo demarcate the separate ideas, the congregation responds with “amen” after the conclusion of brich hu.\n\nWho follows this custom? Sephardic and Yemenite communities, those who follow Nusach Sepharad (including Chabad),2 as well as a few Ashkenazic communities.\n\nReading #2: Brich Hu Opens the Next Phrase\n\nThe chazan’s first statement ends at dekudsha, “May the name of the Holy One be glorified.” What follows — Brich Hu le'eila min kol birchata, “Blessed is He beyond all blessing” — is a separate declaration that runs continuously without interruption. With this reading, there is no natural pause after brich hu at all; the entire phrase brich hu le'eila min kol birchata flows as one unbroken unit.\n\nAccordingly, no interruption or response is made after the chazan says the words brich hu.\n\nThe congregation answering with the words brich hu is a relatively newer custom, as we will explain.\n\nWho follows this custom? Some Ashkenazic communities.\n\nEarly Sources: Amen vs No Response\n\nIn early sources, including the earliest siddurim, such as the siddur of Rav Amram Gaon, as well as later in the prayers as outlined by Maimonides, the standard congregational response for these words is “amen.” And while the Talmud discusses the power of answering “Amen, yehei shmei rabba,” it makes no mention of any separate congregational response at brich hu.\n\nRabbi Yosef Caro, in the Code of Jewish Law, ruled similarly.3\n\nThis follows the Arizal's view that there are five “amens” strategically placed within the Kaddish to properly separate the different spiritual components of the prayer.4 Interestingly, in his work Maggid Meisharim (where he records Kabbalistic teachings he learned from an angel), Rabbi Yosef Caro also writes that one should recite five amens, including amen after brich hu.5\n\nRabbi Moses Isserlis, known as the Rama, however, writes in his gloss on the Code of Jewish Law, that one should not interrupt at all between brich hu and the next words leila min kol, since in his view it is one long continuation.6\n\nThe Start of the Custom of Brich Hu\n\nThis brings us to the custom of responding with the words brich hu.\n\nApproximately four hundred years ago, a different custom began appearing in some Ashkenazic communities.\n\nRabbi David HaLevi Segal, known as the Taz (1586-1667), describes the emerging custom of his time: people were responding at this point in Kaddish with the words brich hu le'eila — “blessed is He above” (perhaps done to hint to the chazan not to pause in between).7\n\nHe very strongly objected to this custom. The phrase brich hu le'eila taken in isolation implies that G‑d is blessed Above, but not below. As if His greatness were somehow limited to the Heavenly realm. This is obviously not the intent, but the truncated phrase creates that deeply unfortunate impression, which, in the Taz's words, borders on blasphemy.\n\nIf you are going to respond at this point, he writes, you must continue through to min kol birchata — “beyond all blessing.” Only the full phrase brich hu le'eila min kol birchata makes clear that G‑d's greatness transcends all categories entirely, Above and below alike. And indeed, some communities respond this way.\n\nSlightly later, Rabbi Eliyahu Spira, known as the Elya Rabah (1660–1712), writes that he found written in the margins of a Shulchan Aruch the custom of responding with just the words brich hu. This sidesteps the Taz's concern entirely, since those two words alone carry no misleading implication.8 It would seem that from here emerged the common custom that many, if not most Ashkenazic communities have adopted: answering with just the two words, brich hu.\n\nInterrupting Prayers to Answer: Brich Hu vs Amen\n\nThere is another practical consequence of this history of amen vs brich hu.\n\nSince replying with brich hu is a later development—not part of the original formulation nor found in the Talmud, but a custom that emerged organically centuries later—many halachic authorities give it the same status as Baruch Hu u'varuch shemo, the response we instinctively call out when hearing G‑d's name at the beginning of a blessing. And just as Baruch Hu u'varuch shemo may not be said during Pesukei D'Zimra or Birchat Kriat Shema — sections of prayer where even well-intentioned interruptions are restricted — the same applies to brich hu.\n\nSo, if your custom is to say “amen,” you may say it during that point of prayer. But if your custom is to say brich hu, and you hear Kaddish during Pesukei D'Zimra, you only answer Yehei shmei rabba and the amen at the end, but you leave out brich hu.9\n\nSee Shulchan Aruch, Orach Chaim 56:2; Shulchan Aruch Harav, Orach Chaim 56:6.\n\nSee Siddur Rabeinu Hazaken im Tzunim Mekorot Vehaorot (ed. 5785) vol. 1 pg. 244 fn, 382 for a discussion about this.\n\nShulchan Aruch, Orach Chaim 56:2.\n\nPri Etz Chaim, end of Sha'ar HaKaddishim; Sha'ar HaKavvanot, p. 100; S see also Mishnath Chassidim, Tractate Beriah of Maariv, 5:11.\n\nMaggid Meisharim, Parshat Toldot. Interestingly, although from the writings of the Arizal the implication seems to be that reciting amen is, arguably, an optional practice, meaning it is based on the custom that the congregation recites Yehei Shmei Rabba through de'amiran be'alma (which is after brich hu) and If the individual finished his own recitation before the chazzan reaches brich hu, he would then answer amen as well. However, in the Maggid Meisharim he makes no such condition and seems to be unequivocal that one should always respond with Amen.\n\nRama, Shulchan Aruch, Orach Chaim 56:2.\n\nTaz, Shuchan Aruch, Orach Chaim 56:3.\n\nElyah Raba, Orach Chaim 56:7.\n\nSee Igrot Moshe, Orach Chaim 2:16, Tzitz Eliezer 11:3",
+          "accepted": true,
+          "author": "Yehuda Shurpin",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7361621/jewish/Amen-vs-Brich-Hu-in-Kaddish-Why-the-Different-Customs.htm",
+      "tags": [
+        "chabad",
+        "halacha",
+        "inspiration-entertainment",
+        "question-answer"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:58:04.539Z",
+      "metadata": {
+        "author": "Yehuda Shurpin",
+        "author_id": "15169",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "Tracing the origins of a subtle liturgical divide.",
+        "source": "chabad.org",
+        "original_id": "7361621",
+        "original_source": "chabad.org",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "category_reason": [
+          "halachic",
+          "jewish law",
+          "blessing",
+          "prayer",
+          "kaddish",
+          "rabbi",
+          "custom"
+        ],
+        "source_filename": "2026-07-Amen-vs-Brich-Hu-in-Kaddish-Why-the-Different-Customs.7361621.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7377450",
+      "id": "chabad-7377450",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "Am I Living a Double Life?",
+      "question": "Dear Rabbi,\n\nI feel like a hypocrite living a double life. On weekends, I’m in shul, I do Shabbos, I’m connected to the Torah-observant community, trying to do the right thing. But during the week, my friends and family aren’t involved at all, and I fit right in with them too. I feel like I have two faces, and I don’t fully belong in either world. Why am I stuck in the middle?",
+      "answers": [
+        {
+          "text": "You’re not stuck in the middle. You’re strategically placed, exactly where you’re needed.\n\nWe assume that being in between means we’re confused or not fully committed. We think we have to be either here or there, in or out, but not both.\n\nBut sometimes that’s exactly where you’re meant to be. Because you’re a bridge.\n\nA bridge, by definition, stands on both sides. A bit here, a bit there. If it only stood on one side, it wouldn’t be a bridge. A bridge is a connector. And that is your role.\n\nEvery one of us is living a double life. On the one hand, we have a soul—pure, elevated, a little piece of heaven within us. On the other hand, we have a body—hungry, tired, and easily distracted. That tension is not accidental. It’s where life happens. G‑d placed something infinite into something finite so the two worlds would meet, so the spiritual wouldn’t stay abstract and the physical wouldn’t stay empty.\n\nThat’s why you’re here: to be the bridge.\n\nYour situation reflects that role. You understand both worlds, you speak both languages, and that gives you the rare ability to connect the two. When you share your Jewish journey with those who haven’t yet begun theirs, it carries more weight. When you live Jewishly in a world that isn’t used to it, you prove that anyone can do it.\n\nA bridge doesn’t go one way. You can remind those on the inside that Judaism isn’t their exclusive gift, it belongs to us all. And you can help those on the outside feel that Judaism isn’t foreign, it’s theirs. You don’t have to choose a side, you just have to help people cross.\n\nYes, it’s uncomfortable. Bridges carry weight. They hold tension. They stand where two sides wouldn’t meet without them. You may feel like stepping away from that tension, but that tension is your strength. Embrace it.\n\nDon’t try to fix everything at once. Start small. Invite one person, start one conversation, bring one moment of meaning into an ordinary day. The Sydney Harbour Bridge wasn’t built in one day.\n\nYou don’t have two faces. You have one role: to take the light of the soul and bring it into everyday life, and to help people who feel distant come a little closer.\n\nDon’t pick a side. Be the bridge.",
+          "accepted": true,
+          "author": "Aron Moss",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7377450/jewish/Am-I-Living-a-Double-Life.htm",
+      "tags": [
+        "chabad",
+        "halacha",
+        "inspiration-entertainment",
+        "question-answer"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:58:01.934Z",
+      "metadata": {
+        "author": "Aron Moss",
+        "author_id": "8051",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "",
+        "source": "chabad.org",
+        "original_id": "7377450",
+        "original_source": "chabad.org",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "category_reason": [
+          "observant",
+          "rabbi",
+          "ritual"
+        ],
+        "source_filename": "2026-07-Am-I-Living-a-Double-Life.7377450.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7386936",
+      "id": "chabad-7386936",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "Why No Blessing Before Giving Charity?",
+      "question": "Why No Blessing Before Giving Charity?",
+      "answers": [
+        {
+          "text": "Most mitzvah acts we do are preceded by a blessing. Before putting on tefillin, lighting Shabbat candles, or eating matzah, we thank G‑d “Who has sanctified us with His commandments and commanded us” to perform the mitzvah. Yet one of Judaism’s most fundamental mitzvahs—giving tzedakah—has no blessing at all.\n\nAt first glance, this seems surprising. Tzedakah is not merely an act of kindness; it is a Divine commandment and a cornerstone of Jewish life. Why, then, did the Sages not institute a blessing before its performance?\n\nSome earlier sources do note a custom of making a blessing before giving tzedakah,1 but since the halachah remains that we don’t make a blessing, the question of “Why not?” still needs to be addressed.\n\nLost in Preparation\n\nThe Rebbe sometimes shared a humorous explanation from the Chassidic Masters: Were a blessing required before giving charity, then one might get overly caught up in the preparations—immersing in the mikvah, meditating upon the proper intentions, etc.—to the extent that by the time they finish, who knows what will have happened to the poor person who needed the food or money!2\n\nThere are, of course, a number of other explanations that have been offered over the centuries which help us understand in general why some mitzvahs have a blessing beforehand while others don’t.\n\nIt Requires Another’s Involvement\n\nOne of the classic explanations given is that tzedakah is a mitzvah whose fulfillment depends on another person. A blessing is generally recited only when the mitzvah is entirely within the control of the one performing it. In the case of tzedakah, however, the mitzvah is not complete until the recipient accepts the gift. If the donor were to recite a blessing and the poor person ultimately declined the charity (perhaps because they feel they don’t need it3), the blessing would have been recited in vain.4\n\nThe Other Person Experiences Pain\n\nOthers explain that it would be inappropriate to recite a blessing over a situation that may cause another Jew pain.5 Although giving tzedakah is a great kindness, the receiver may experience feelings of embarrassment or shame.\n\nOthers Do it Too\n\nOne of the purposes of reciting a blessing before performing a mitzvah is to acknowledge that G‑d has sanctified us through His commandments, as can be seen in the standard formula for these blessings: “Who has sanctified us with His commandments and commanded us . . .”. Tzedakah, however, is an act that people of all cultures recognize as a moral obligation. Since the uniquely Jewish element of sanctification is not as readily apparent in this mitzvah, the Sages did not establish a blessing before its performance.6\n\nYou Are Never Exempt\n\nWe only say a blessing before a mitzvah that you aren’t obligated to do all the time. A mitzvah like tzedakah, however, applies at all times. As such, we don’t say a blessing before doing it.7\n\nIt’s Not Really Your Money\n\nOn a deeper level, some explain that the money we give to charity was never truly ours in the first place. G‑d entrusts us with resources so that we can distribute them where they are needed. When a poor person comes to us, we are simply carrying out G‑d's will with funds that ultimately belong to Him. As the verse states, “For everything comes from You, and from Your own hand we have given to You.”8 Since we are merely G‑d's agents in this process, no blessing is recited before giving tzedakah.9\n\nSee, for example, the commentary of Rabbi Elazar ben Moshe Azikri (author of Sefer Chareidim) on Jerusalem Talmud Brochot 6:1.\n\nSee, for example, Torat Menachem, vol. 3, pg 325; Da’at Zekeinim (Ettinga), ch. 7:7, citing the Bnei Yissaschar of Dinov; Siach Sarfei Kodesh, vol. 1, sec. 657, citing Rabbi Bunim of Peshischa.\n\nSee Shu”t Chatam Sofer, Orach Chaim 1:54 where he adds this to explain the reasoning of the Rashba and why a blessing is recited for marriage, even though it is dependant on another. The Chatam Sofer explains that the Rashba’s concern is only in cases where the mitzvah is being performed for another person's benefit, since that person may ultimately decide that he or she does not want to receive the benefit. If that happens, the mitzvah may not be fulfilled, raising concerns about reciting a blessing beforehand.Marriage, however, is different. The halachic obligation of marriage rests upon the groom. Therefore, the possibility that the bride may refuse does not factor into whether he recites the blessing. He makes the blessing on the mitzvah he is about to perform, and if circumstances beyond his control later prevent its fulfillment, that is considered an ones (an involuntary circumstance). Such possibilities do not affect the obligation to recite the blessing, for in truth there is always a chance that unforeseen events may arise after a blessing has been made that would prevent any given mitzvah from being completed.\n\nResponsum of the Rashba 1:18; See also Encyclopedia Talmudis vol.4 p.519 ff.\n\nAbudraham, Hilchot Berochot.\n\nSefer Rokeach, ch. 366.\n\nOhr Zerua, Hilchot Birchas Hamotzi, 140.\n\nI Chronicles 29:13.\n\nMaharsha”m, Da’at Torah, Yoreh Deiah 61.",
+          "accepted": true,
+          "author": "Yehuda Shurpin",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7386936/jewish/Why-No-Blessing-Before-Giving-Charity.htm",
+      "tags": [
+        "chabad",
+        "halacha",
+        "inspiration-entertainment",
+        "article"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:57:59.382Z",
+      "metadata": {
+        "author": "Yehuda Shurpin",
+        "author_id": "15169",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "Tzedakah is not merely an act of kindness; it is a Divine commandment and a cornerstone of Jewish life. Why, then, did the Sages not institute a blessing before its performance?",
+        "source": "chabad.org",
+        "original_id": "7386936",
+        "original_source": "chabad.org",
+        "content_type": "article",
+        "original_question_empty": true,
+        "category_reason": [
+          "halacha",
+          "halachic",
+          "shabbat",
+          "tefillin",
+          "blessing",
+          "commandment"
+        ],
+        "source_filename": "2026-07-Why-No-Blessing-Before-Giving-Charity.7386936.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7408696",
+      "id": "chabad-7408696",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "What Blessing Do I Make on Hydroponically Grown Produce?",
+      "question": "What Blessing Do I Make on Hydroponically Grown Produce?",
+      "answers": [
+        {
+          "text": "Hydroponics is a method of growing crops without soil, using water-based mineral nutrient solutions in an artificial environment. With certain protocols in place to minimize the presence of bugs, this can be a huge boon to Torah-observant Jews, greatly minimizing the need to check produce for insects, which we are strictly forbidden to eat. (If proper care is not taken, however, hydroponic produce can, in theory, be just as infested as traditionally grown produce.)\n\nDespite its modern popularity, hydroponics is not a new innovation. Growing plants in nutrient-rich water rather than soil has ancient roots and is mentioned in the Talmud.1\n\nWhat is not clear, however, is which blessing should be recited on produce grown without direct connection to the earth. Can it still be called pri ha’adamah—“fruit of the ground”?\n\nWhile the Babylonian Talmud mentions hydroponically grown produce, it does not discuss the blessing recited over it. The Jerusalem Talmud, however, discusses bread made from wheat grown in a flowerpot that is not perforated to the ground, and whether one may recite hamotzi lechem min ha’aretz, “Who brings forth bread from the earth.”2\n\nThe question, however, is left unresolved.\n\nBased on the discussion in the Jerusalem Talmud, some rule that the blessing over such bread would be mezonot, “Who creates various kinds of sustenance,” since one cannot accurately recite hamotzi lechem min ha’aretz over bread that did not actually grow from the ground. Following this logic, they further rule that the blessing for vegetables grown in this manner would be shehakol, “by Whose word all came to be,” since the blessing of ha’adamah presents the same issue—it did not actually grow from the ground.3\n\nMost, however, disagree and maintain that since such produce was grown in the normal fashion in soil, and is not recognizably different from ordinary produce, the regular blessings of hamotzi, ha’eitz, or ha’adamah should be recited.4 This is the consensus that we follow.5\n\nHydroponically grown produce, however, is different, as there is no earth in the growing container, and the produce does not grow from the ground. As such, there is significant debate regarding the proper blessing.\n\nSome contend that one should recite ha’adamah over hydroponically grown produce, offering a variety of reasons:\n\nSince the species is by nature ground produce, it retains that classification regardless of how this particular item grew.6 Since the produce originates from a seed that grew in the ground, the blessing remains appropriate.7 Since ordinary people refer to it as ground produce, the blessing fits by common usage.8\n\nOthers, however, contend that we do not follow the species, but rather the plain meaning of the blessing borei pri ha’adamah, which literally refers to produce that grew from the ground. Since this piece of produce did not in fact grow from the ground, one should recite shehakol.9\n\nAlthough shehakol is admittedly also not the most precise blessing one could recite, it has the distinct advantage of being valid after the fact for virtually any food, making it the safest choice when the correct blessing is in doubt.\n\nSince this is a matter of debate, and no single blessing can be recited with full certainty, many advise that one should either first recite ha’adamah and shehakol on other foods before eating the hydroponically grown produce, thereby avoiding the uncertainty altogether, or simply recite shehakol, since at the very least it is valid after the fact.10\n\nAt the same time, if one has already recited ha’adamah, one has fulfilled one's obligation after the fact, since there are significant halachic authorities who consider this the correct blessing. 11\n\nAdditionally, even those who maintain that one should recite shehakol on hydroponically grown produce generally apply this only when one knows that the produce was, in fact, grown hydroponically. If one does not know how it was grown, one may follow the presumption that it was grown in the ground and recite ha’adamah.12\n\nAvoda Zarah 38b.\n\nKilayim 7:6.\n\nSee Chayei Adam 51:17.\n\nEglei Tal, Dosh, 8; Sdei Chemed marechet chof, klal 100 (vol. 2 pg 610 in Kehot ed.).\n\nSee Halichot Shlomo, ch. 7, sec. 20; Shevet HaLevi, vol. 1, sec. 205 (in the notes to that siman); Tzitz Eliezer, vol. 9, sec. 12; Piskei Teshuvot 204:2.\n\nShut Shevet HaLevi 1:205.\n\nOhr Letziyon 2:14:13.\n\nTeshuvot ve-Hanhagot 2:149.\n\nYechaveh Da’at 6:12; Machzeh Eliyahu 1:28.\n\nSee Piskei Teshuvot 204:2.\n\nSee Kaf Hachaim 204:2; Yechaveh Da’at 6:12\n\nYechaveh Da’at 6:12.",
+          "accepted": true,
+          "author": "Yehuda Shurpin",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7408696/jewish/What-Blessing-Do-I-Make-on-Hydroponically-Grown-Produce.htm",
+      "tags": [
+        "chabad",
+        "halacha",
+        "inspiration-entertainment",
+        "article"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:57:56.943Z",
+      "metadata": {
+        "author": "Yehuda Shurpin",
+        "author_id": "15169",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "Can produce grown without direct connection to the earth still be called pri ha’adamah—“fruit of the ground”?",
+        "source": "chabad.org",
+        "original_id": "7408696",
+        "original_source": "chabad.org",
+        "content_type": "article",
+        "original_question_empty": true,
+        "category_reason": [
+          "halachic",
+          "blessing",
+          "observant"
+        ],
+        "source_filename": "2026-07-What-Blessing-Do-I-Make-on-Hydroponically-Grown-Produce.7408696.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "chabad-7414137",
+      "id": "chabad-7414137",
+      "provider": "chabad",
+      "provider_domain": "chabad.org",
+      "title": "Am I a Failed Jewish Mother?",
+      "question": "I feel like I’m failing as a parent. I want my child to be inspired and spiritually connected, but the more I push it, the more I’m pushing him away. My friends say, “Lay off! Let him be!” But that seems irresponsible. Isn’t my role as a parent to guide my kids? But how do I do that if they don’t want to listen?",
+      "answers": [
+        {
+          "text": "Sounds like you love your child to death. That may be the problem.\n\nParenting is compared to lighting a candle; when one candle lights another, the flame has to come close enough to transfer its fire, but not too close. If you press one wick hard against the other, it doesn’t work. Not only will you not light the new flame, you might extinguish the old one.\n\nThe lit candle must come close, but allow space. It gives its warmth without taking over. Only then does the second candle catch fire and begin to burn on its own.\n\nThat’s parenting. Our role is not to become our children's flame. It is to help ignite theirs by providing a positive example for them to emulate.\n\nChildren need warmth, guidance, values, support, and inspiration. They need parents who care deeply and invest themselves wholeheartedly. But as they grow, they need room to discover their own strengths, make their own choices, and develop their own connection to what is good and true.\n\nSometimes, parental expectations are so intense that they stop motivating and instead become suffocating. The child no longer feels inspired by our light. They feel pressured by it. No one is switched on by someone breathing down their neck. It all comes from love, but loving someone to death may not be such a good thing.\n\nAnd there’s another cost. When we become obsessed with controlling our kids, we often extinguish some of our own joy as well. Parenting becomes exhausting. Every setback feels personal, every disappointment feels like failure.\n\nA flame cannot force another flame to burn. It can only offer its fire. The Torah describes the soul as a candle. Every child carries a spark placed there by G‑d. Our task is not to manufacture that spark. It is already there. Our task is to reveal it.\n\nGiving space does not mean abandoning standards. Children still need guidance, boundaries and expectations. But they need them delivered with enough room to make those values their own.\n\nThat means less lecturing, more listening. Share your values rather than imposing them. Ask questions instead of giving answers. When they stumble, don't rush to fix everything. Create a warm and loving environment so they feel invited into the light, rather than dragged towards it.",
+          "accepted": true,
+          "author": "Aron Moss",
+          "score": null
+        }
+      ],
+      "url": "https://www.chabad.org/library/article_cdo/aid/7414137/jewish/Am-I-a-Failed-Jewish-Mother.htm",
+      "tags": [
+        "chabad",
+        "halacha",
+        "inspiration-entertainment",
+        "question-answer",
+        "needs-review"
+      ],
+      "category": "halacha",
+      "category_confidence": "low",
+      "needs_review": true,
+      "date": "2026-07-11",
+      "saved_at": "2026-07-11T07:57:54.515Z",
+      "metadata": {
+        "author": "Aron Moss",
+        "author_id": "8051",
+        "series": "Inspiration & Entertainment",
+        "section": "Learning & Values » Inspiration & Entertainment",
+        "subtitle": "",
+        "date": "",
+        "description": "Our role is not to become our children's flame. It is to help ignite theirs by providing a positive example for them to emulate.",
+        "source": "chabad.org",
+        "original_id": "7414137",
+        "original_source": "chabad.org",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "category_reason": [
+          "ritual"
+        ],
+        "source_filename": "2026-07-Am-I-a-Failed-Jewish-Mother.7414137.html"
+      }
+    }
+  ]
+}
