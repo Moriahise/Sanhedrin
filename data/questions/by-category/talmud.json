@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "talmud",
- "count": 3555,
+ "count": 3556,
  "entries": [
   {
    "id": "ye-2010112513418718",
@@ -57461,6 +57461,24 @@
    "y": 2026,
    "ch": 204,
    "s": "yeshiva"
+  },
+  {
+   "id": "up-chabad-45132",
+   "t_he": "",
+   "t_en": "What Is a Jew?",
+   "x": "Question: Is Judaism a \"religion\"? Is the term \"non-religious Jew\" an oxymoron? Can one still be Jewish without observing the edicts and ethos of Torah in one'…",
+   "ax": "Jews defy all conventional definitions of a \"people\" or \"nation.\" We lack a common race, culture or historical experience. While we all share our eternal right…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
   }
  ]
 }

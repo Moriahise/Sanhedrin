@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "history",
- "count": 1500,
+ "count": 1506,
  "entries": [
   {
    "id": "ye-4787",
@@ -24197,6 +24197,108 @@
    "ch": 204,
    "s": "yeshiva",
    "r": 1
+  },
+  {
+   "id": "up-chabad-2902",
+   "t_he": "",
+   "t_en": "Why Is There Antisemitism?",
+   "x": "It seems like anti-Semitism is everywhere these days, and almost becoming acceptable again. Why do so many people hate Jews? Why is anti-Semitism still flouris…",
+   "ax": "The deepest analysis of anti-Semitism can be found in a deceptively simple Talmudic passage discussing the Purim story, and its wisdom still rings true today.…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-39606",
+   "t_he": "",
+   "t_en": "Why Do Jews Exclude Other People?",
+   "x": "Question: I've been asking this from everybody and I can't get an answer: Why do Jews exclude other people? My fiance's parents told me that for a Jew to marry…",
+   "ax": "I'm glad you were persistent in asking your question, and I'm glad you've given us a chance to answer. First, please keep in mind that I didn't make any of the…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-64639",
+   "t_he": "",
+   "t_en": "Why Couldn't the Jews and Greeks Just Get Along?",
+   "x": "Why Couldn't the Jews and Greeks Just Get Along?",
+   "ax": "Question: It's hard for me to get into Chanukah. As far as I can see, the whole thing was a major disaster. Here we have a meeting of two rich cultures, with s…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-64737",
+   "t_he": "",
+   "t_en": "My Mother Is Ruining My Life!",
+   "x": "Dear Rabbi: I have tried doctors, hypnosis, medication, meditation, yoga, extreme sports . . . you name it—but nothing has worked. And it’s ruining my life. I’…",
+   "ax": "I wish I had advice. But most of us are in the same boat—some more, some less. If it’s not the mother, it’s the mother-in-law, father, father-in-law, brother,…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-108393",
+   "t_he": "",
+   "t_en": "What is the Secret of Jewish Survival?",
+   "x": "What is the Secret of Jewish Survival?",
+   "ax": "The story of Purim, as related in the Book of Esther, gives us a clear analysis of the “Jewish problem”. Being dispersed over 127 provinces and lands, their ow…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-108398",
+   "t_he": "",
+   "t_en": "Belief After the Holocaust",
+   "x": "Belief After the Holocaust",
+   "ax": "Sixty years on, people still ask the same questions – Where was G–d during the Holocaust? How can you believe in G–d after the Holocaust? If G–d is just and ri…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
   }
  ]
 }

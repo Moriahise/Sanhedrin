@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "tanach",
- "count": 7622,
+ "count": 7636,
  "entries": [
   {
    "id": "ye-4809",
@@ -122395,6 +122395,250 @@
    "ch": 204,
    "s": "yeshiva",
    "r": 1
+  },
+  {
+   "id": "up-chabad-2153",
+   "t_he": "",
+   "t_en": "What Is the Torah?",
+   "x": "What Is the Torah?",
+   "ax": "The Torah is composed of two parts: the Written Law and the Oral Law. The written Torah contains the Five Books of Moses, the Prophets and the Writings. Togeth…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2901",
+   "t_he": "",
+   "t_en": "How Old is the Universe According to Judaism?",
+   "x": "How Old is the Universe According to Judaism?",
+   "ax": "The Short Answer We can't tell how old the universe is by examining it, because we don't understand how it got here in the first place. A Longer Answer If you…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2936",
+   "t_he": "",
+   "t_en": "There’s so much hypocrisy!",
+   "x": "Question: I've been getting into Torah lately. But the more I learn, the more I see how everyone around me is doing it all wrong. I don't mean the people that…",
+   "ax": "Don't get so excited. It's just a personality thing. You're probably one of those School of Shammai souls. Remember the story with the Talmudic sage Shammai? A…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3007",
+   "t_he": "",
+   "t_en": "How Do We Know That We Heard G‑d at Sinai?",
+   "x": "How Do We Know That We Heard G‑d at Sinai?",
+   "ax": "Note: This is one of Tzvi's earliest articles on Chabad.org. We have not changed anything to bring it up to the times. Enjoy a visit back to the dawn of the 21…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3012",
+   "t_he": "",
+   "t_en": "Is There Life on Other Planets?",
+   "x": "Question: Someone told me that according to Judaism, human beings are the only conscious beings in the universe. Is there any basis to this?",
+   "ax": "Certainly not! First of all, the sages discuss the fact that animals also feel pain, based on the biblical prohibition against causing them undue suffering.1 S…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3201",
+   "t_he": "",
+   "t_en": "What's So Terrible About Idolatry?",
+   "x": "Question: Why is Judaism so intolerant of idolatry? I don't mean massive temples with human sacrifices. What about a civilized idolater, in the privacy of his…",
+   "ax": "There are many ways to answer this, but let's take a historical perspective. Historians agree that our current standard of ethics stems from the Jewish ethic.…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3232",
+   "t_he": "",
+   "t_en": "Was Moses Ever Wrong?",
+   "x": "Was Moses Ever Wrong?",
+   "ax": "More than three billion people — half the human race — base their ethos and belief system on his teachings. The people he founded have endured, under impossibl…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3236",
+   "t_he": "",
+   "t_en": "Do Our Deeds Matter To G-d?",
+   "x": "Do Our Deeds Matter To G-d?",
+   "ax": "Like all good philosophical questions, the answer is, \"Yes and no.\" Or, in this case, \"No and yes.\" On the one hand, G‑d Himself testifies in the Torah: \"I am…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-75574",
+   "t_he": "",
+   "t_en": "Do (Normal) Jews Believe in Prophecy?",
+   "x": "Question: I've just visited ProphetsOnline.hvn and linked from there to hundreds of other prophecy sites on the web. I have to tell you, it's pretty bizarre. I…",
+   "ax": "Children of the Mcluhanesque world, overdosed on TV hard sell and duly vaccinated against religious doomsayers, we've grown up with healthy red flags that trip…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-76265",
+   "t_he": "",
+   "t_en": "Does G-d Really Need to Punish the Wicked? Isn’t There a Better Way?",
+   "x": "Question: I don’t understand. If we are all G‑d’s children, and G‑d’s mercy extends to all His creations, why did G‑d need to bring on such great harm as bligh…",
+   "ax": "The entirety of history is a process in which the world is slowly purified and becomes a receptive channel for G‑d’s light. When it is still coarse, G‑dliness…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-84902",
+   "t_he": "",
+   "t_en": "What Is Prophecy?",
+   "x": "What Is Prophecy?",
+   "ax": "What is a prophet? A prophet is an individual who receives a message from G‑d to transmit to the people. Maimonides counts it as one of the 13 foundations of t…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-99693",
+   "t_he": "",
+   "t_en": "How Do We Know that G‑d Exists?",
+   "x": "Question: I'd like to ask you a question that has really bothered me now for a while. You see, I have become aware through much deep thought that we certainly…",
+   "ax": "Dear Adam You pose some very good questions. Allow me, then, to counter with some questions of my own. Did you eat breakfast this morning? Did you drive to wor…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-110124",
+   "t_he": "",
+   "t_en": "How Did the Torah Exist Before it Happened?",
+   "x": "Question: Could you explain to me how Jacob could study Torah \"in the tents\" if Torah was given to Moses centuries later? And could you explain how Jacob could…",
+   "ax": "This is discussed in many places in Talmud and Midrash. Not only Abraham, Isaac and Jacob, but also Noah and even Adam knew the Torah. Concerning Noah, the Tor…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-160960",
+   "t_he": "",
+   "t_en": "Is There a Logical Proof That There’s Only One G-d?",
+   "x": "Question: I accept that some sort of “Higher Being” created the universe. But why couldn’t there be many such beings? Is there any logical reason to say that t…",
+   "ax": "The definition of G‑d is: “a Being without definition.” G‑d cannot be defined, because if I define Him then I limit Him. And something limited is not G‑d. By d…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
   }
  ]
 }

@@ -924544,6 +924544,670 @@
   "153200": {
    "id": "ye-153200",
    "ch": 204
+  },
+  "up-chabad-2153": {
+   "id": "up-chabad-2153",
+   "ch": 204
+  },
+  "chabad-2153": {
+   "id": "up-chabad-2153",
+   "ch": 204
+  },
+  "up-chabad-2184": {
+   "id": "up-chabad-2184",
+   "ch": 204
+  },
+  "chabad-2184": {
+   "id": "up-chabad-2184",
+   "ch": 204
+  },
+  "up-chabad-2606": {
+   "id": "up-chabad-2606",
+   "ch": 204
+  },
+  "chabad-2606": {
+   "id": "up-chabad-2606",
+   "ch": 204
+  },
+  "up-chabad-2782": {
+   "id": "up-chabad-2782",
+   "ch": 204
+  },
+  "chabad-2782": {
+   "id": "up-chabad-2782",
+   "ch": 204
+  },
+  "up-chabad-2811": {
+   "id": "up-chabad-2811",
+   "ch": 204
+  },
+  "chabad-2811": {
+   "id": "up-chabad-2811",
+   "ch": 204
+  },
+  "up-chabad-2826": {
+   "id": "up-chabad-2826",
+   "ch": 204
+  },
+  "chabad-2826": {
+   "id": "up-chabad-2826",
+   "ch": 204
+  },
+  "up-chabad-2891": {
+   "id": "up-chabad-2891",
+   "ch": 204
+  },
+  "chabad-2891": {
+   "id": "up-chabad-2891",
+   "ch": 204
+  },
+  "up-chabad-2901": {
+   "id": "up-chabad-2901",
+   "ch": 204
+  },
+  "chabad-2901": {
+   "id": "up-chabad-2901",
+   "ch": 204
+  },
+  "up-chabad-2902": {
+   "id": "up-chabad-2902",
+   "ch": 204
+  },
+  "chabad-2902": {
+   "id": "up-chabad-2902",
+   "ch": 204
+  },
+  "up-chabad-2918": {
+   "id": "up-chabad-2918",
+   "ch": 204
+  },
+  "chabad-2918": {
+   "id": "up-chabad-2918",
+   "ch": 204
+  },
+  "up-chabad-2936": {
+   "id": "up-chabad-2936",
+   "ch": 204
+  },
+  "chabad-2936": {
+   "id": "up-chabad-2936",
+   "ch": 204
+  },
+  "up-chabad-2942": {
+   "id": "up-chabad-2942",
+   "ch": 204
+  },
+  "chabad-2942": {
+   "id": "up-chabad-2942",
+   "ch": 204
+  },
+  "up-chabad-2970": {
+   "id": "up-chabad-2970",
+   "ch": 204
+  },
+  "chabad-2970": {
+   "id": "up-chabad-2970",
+   "ch": 204
+  },
+  "up-chabad-3002": {
+   "id": "up-chabad-3002",
+   "ch": 204
+  },
+  "chabad-3002": {
+   "id": "up-chabad-3002",
+   "ch": 204
+  },
+  "up-chabad-3007": {
+   "id": "up-chabad-3007",
+   "ch": 204
+  },
+  "chabad-3007": {
+   "id": "up-chabad-3007",
+   "ch": 204
+  },
+  "up-chabad-3012": {
+   "id": "up-chabad-3012",
+   "ch": 204
+  },
+  "chabad-3012": {
+   "id": "up-chabad-3012",
+   "ch": 204
+  },
+  "up-chabad-3035": {
+   "id": "up-chabad-3035",
+   "ch": 204
+  },
+  "chabad-3035": {
+   "id": "up-chabad-3035",
+   "ch": 204
+  },
+  "up-chabad-3186": {
+   "id": "up-chabad-3186",
+   "ch": 204
+  },
+  "chabad-3186": {
+   "id": "up-chabad-3186",
+   "ch": 204
+  },
+  "up-chabad-3194": {
+   "id": "up-chabad-3194",
+   "ch": 204
+  },
+  "chabad-3194": {
+   "id": "up-chabad-3194",
+   "ch": 204
+  },
+  "up-chabad-3201": {
+   "id": "up-chabad-3201",
+   "ch": 204
+  },
+  "chabad-3201": {
+   "id": "up-chabad-3201",
+   "ch": 204
+  },
+  "up-chabad-3217": {
+   "id": "up-chabad-3217",
+   "ch": 204
+  },
+  "chabad-3217": {
+   "id": "up-chabad-3217",
+   "ch": 204
+  },
+  "up-chabad-3232": {
+   "id": "up-chabad-3232",
+   "ch": 204
+  },
+  "chabad-3232": {
+   "id": "up-chabad-3232",
+   "ch": 204
+  },
+  "up-chabad-3236": {
+   "id": "up-chabad-3236",
+   "ch": 204
+  },
+  "chabad-3236": {
+   "id": "up-chabad-3236",
+   "ch": 204
+  },
+  "up-chabad-3244": {
+   "id": "up-chabad-3244",
+   "ch": 204
+  },
+  "chabad-3244": {
+   "id": "up-chabad-3244",
+   "ch": 204
+  },
+  "up-chabad-3246": {
+   "id": "up-chabad-3246",
+   "ch": 204
+  },
+  "chabad-3246": {
+   "id": "up-chabad-3246",
+   "ch": 204
+  },
+  "up-chabad-4484": {
+   "id": "up-chabad-4484",
+   "ch": 204
+  },
+  "chabad-4484": {
+   "id": "up-chabad-4484",
+   "ch": 204
+  },
+  "up-chabad-4805": {
+   "id": "up-chabad-4805",
+   "ch": 204
+  },
+  "chabad-4805": {
+   "id": "up-chabad-4805",
+   "ch": 204
+  },
+  "up-chabad-4829": {
+   "id": "up-chabad-4829",
+   "ch": 204
+  },
+  "chabad-4829": {
+   "id": "up-chabad-4829",
+   "ch": 204
+  },
+  "up-chabad-36423": {
+   "id": "up-chabad-36423",
+   "ch": 204
+  },
+  "chabad-36423": {
+   "id": "up-chabad-36423",
+   "ch": 204
+  },
+  "up-chabad-36441": {
+   "id": "up-chabad-36441",
+   "ch": 204
+  },
+  "chabad-36441": {
+   "id": "up-chabad-36441",
+   "ch": 204
+  },
+  "up-chabad-39528": {
+   "id": "up-chabad-39528",
+   "ch": 204
+  },
+  "chabad-39528": {
+   "id": "up-chabad-39528",
+   "ch": 204
+  },
+  "up-chabad-39606": {
+   "id": "up-chabad-39606",
+   "ch": 204
+  },
+  "chabad-39606": {
+   "id": "up-chabad-39606",
+   "ch": 204
+  },
+  "up-chabad-42971": {
+   "id": "up-chabad-42971",
+   "ch": 204
+  },
+  "chabad-42971": {
+   "id": "up-chabad-42971",
+   "ch": 204
+  },
+  "up-chabad-43149": {
+   "id": "up-chabad-43149",
+   "ch": 204
+  },
+  "chabad-43149": {
+   "id": "up-chabad-43149",
+   "ch": 204
+  },
+  "up-chabad-45132": {
+   "id": "up-chabad-45132",
+   "ch": 204
+  },
+  "chabad-45132": {
+   "id": "up-chabad-45132",
+   "ch": 204
+  },
+  "up-chabad-53102": {
+   "id": "up-chabad-53102",
+   "ch": 204
+  },
+  "chabad-53102": {
+   "id": "up-chabad-53102",
+   "ch": 204
+  },
+  "up-chabad-54413": {
+   "id": "up-chabad-54413",
+   "ch": 204
+  },
+  "chabad-54413": {
+   "id": "up-chabad-54413",
+   "ch": 204
+  },
+  "up-chabad-60122": {
+   "id": "up-chabad-60122",
+   "ch": 204
+  },
+  "chabad-60122": {
+   "id": "up-chabad-60122",
+   "ch": 204
+  },
+  "up-chabad-60319": {
+   "id": "up-chabad-60319",
+   "ch": 204
+  },
+  "chabad-60319": {
+   "id": "up-chabad-60319",
+   "ch": 204
+  },
+  "up-chabad-60990": {
+   "id": "up-chabad-60990",
+   "ch": 204
+  },
+  "chabad-60990": {
+   "id": "up-chabad-60990",
+   "ch": 204
+  },
+  "up-chabad-61374": {
+   "id": "up-chabad-61374",
+   "ch": 204
+  },
+  "chabad-61374": {
+   "id": "up-chabad-61374",
+   "ch": 204
+  },
+  "up-chabad-62120": {
+   "id": "up-chabad-62120",
+   "ch": 204
+  },
+  "chabad-62120": {
+   "id": "up-chabad-62120",
+   "ch": 204
+  },
+  "up-chabad-64639": {
+   "id": "up-chabad-64639",
+   "ch": 204
+  },
+  "chabad-64639": {
+   "id": "up-chabad-64639",
+   "ch": 204
+  },
+  "up-chabad-64737": {
+   "id": "up-chabad-64737",
+   "ch": 204
+  },
+  "chabad-64737": {
+   "id": "up-chabad-64737",
+   "ch": 204
+  },
+  "up-chabad-66168": {
+   "id": "up-chabad-66168",
+   "ch": 204
+  },
+  "chabad-66168": {
+   "id": "up-chabad-66168",
+   "ch": 204
+  },
+  "up-chabad-67899": {
+   "id": "up-chabad-67899",
+   "ch": 204
+  },
+  "chabad-67899": {
+   "id": "up-chabad-67899",
+   "ch": 204
+  },
+  "up-chabad-68827": {
+   "id": "up-chabad-68827",
+   "ch": 204
+  },
+  "chabad-68827": {
+   "id": "up-chabad-68827",
+   "ch": 204
+  },
+  "up-chabad-68831": {
+   "id": "up-chabad-68831",
+   "ch": 204
+  },
+  "chabad-68831": {
+   "id": "up-chabad-68831",
+   "ch": 204
+  },
+  "up-chabad-69429": {
+   "id": "up-chabad-69429",
+   "ch": 204
+  },
+  "chabad-69429": {
+   "id": "up-chabad-69429",
+   "ch": 204
+  },
+  "up-chabad-71692": {
+   "id": "up-chabad-71692",
+   "ch": 204
+  },
+  "chabad-71692": {
+   "id": "up-chabad-71692",
+   "ch": 204
+  },
+  "up-chabad-74339": {
+   "id": "up-chabad-74339",
+   "ch": 204
+  },
+  "chabad-74339": {
+   "id": "up-chabad-74339",
+   "ch": 204
+  },
+  "up-chabad-75574": {
+   "id": "up-chabad-75574",
+   "ch": 204
+  },
+  "chabad-75574": {
+   "id": "up-chabad-75574",
+   "ch": 204
+  },
+  "up-chabad-76265": {
+   "id": "up-chabad-76265",
+   "ch": 204
+  },
+  "chabad-76265": {
+   "id": "up-chabad-76265",
+   "ch": 204
+  },
+  "up-chabad-76730": {
+   "id": "up-chabad-76730",
+   "ch": 204
+  },
+  "chabad-76730": {
+   "id": "up-chabad-76730",
+   "ch": 204
+  },
+  "up-chabad-77318": {
+   "id": "up-chabad-77318",
+   "ch": 204
+  },
+  "chabad-77318": {
+   "id": "up-chabad-77318",
+   "ch": 204
+  },
+  "up-chabad-78268": {
+   "id": "up-chabad-78268",
+   "ch": 204
+  },
+  "chabad-78268": {
+   "id": "up-chabad-78268",
+   "ch": 204
+  },
+  "up-chabad-80495": {
+   "id": "up-chabad-80495",
+   "ch": 204
+  },
+  "chabad-80495": {
+   "id": "up-chabad-80495",
+   "ch": 204
+  },
+  "up-chabad-84902": {
+   "id": "up-chabad-84902",
+   "ch": 204
+  },
+  "chabad-84902": {
+   "id": "up-chabad-84902",
+   "ch": 204
+  },
+  "up-chabad-96399": {
+   "id": "up-chabad-96399",
+   "ch": 204
+  },
+  "chabad-96399": {
+   "id": "up-chabad-96399",
+   "ch": 204
+  },
+  "up-chabad-99693": {
+   "id": "up-chabad-99693",
+   "ch": 204
+  },
+  "chabad-99693": {
+   "id": "up-chabad-99693",
+   "ch": 204
+  },
+  "up-chabad-108385": {
+   "id": "up-chabad-108385",
+   "ch": 204
+  },
+  "chabad-108385": {
+   "id": "up-chabad-108385",
+   "ch": 204
+  },
+  "up-chabad-108386": {
+   "id": "up-chabad-108386",
+   "ch": 204
+  },
+  "chabad-108386": {
+   "id": "up-chabad-108386",
+   "ch": 204
+  },
+  "up-chabad-108390": {
+   "id": "up-chabad-108390",
+   "ch": 204
+  },
+  "chabad-108390": {
+   "id": "up-chabad-108390",
+   "ch": 204
+  },
+  "up-chabad-108391": {
+   "id": "up-chabad-108391",
+   "ch": 204
+  },
+  "chabad-108391": {
+   "id": "up-chabad-108391",
+   "ch": 204
+  },
+  "up-chabad-108392": {
+   "id": "up-chabad-108392",
+   "ch": 204
+  },
+  "chabad-108392": {
+   "id": "up-chabad-108392",
+   "ch": 204
+  },
+  "up-chabad-108393": {
+   "id": "up-chabad-108393",
+   "ch": 204
+  },
+  "chabad-108393": {
+   "id": "up-chabad-108393",
+   "ch": 204
+  },
+  "up-chabad-108394": {
+   "id": "up-chabad-108394",
+   "ch": 204
+  },
+  "chabad-108394": {
+   "id": "up-chabad-108394",
+   "ch": 204
+  },
+  "up-chabad-108395": {
+   "id": "up-chabad-108395",
+   "ch": 204
+  },
+  "chabad-108395": {
+   "id": "up-chabad-108395",
+   "ch": 204
+  },
+  "up-chabad-108396": {
+   "id": "up-chabad-108396",
+   "ch": 204
+  },
+  "chabad-108396": {
+   "id": "up-chabad-108396",
+   "ch": 204
+  },
+  "up-chabad-108398": {
+   "id": "up-chabad-108398",
+   "ch": 204
+  },
+  "chabad-108398": {
+   "id": "up-chabad-108398",
+   "ch": 204
+  },
+  "up-chabad-108399": {
+   "id": "up-chabad-108399",
+   "ch": 204
+  },
+  "chabad-108399": {
+   "id": "up-chabad-108399",
+   "ch": 204
+  },
+  "up-chabad-108400": {
+   "id": "up-chabad-108400",
+   "ch": 204
+  },
+  "chabad-108400": {
+   "id": "up-chabad-108400",
+   "ch": 204
+  },
+  "up-chabad-108401": {
+   "id": "up-chabad-108401",
+   "ch": 204
+  },
+  "chabad-108401": {
+   "id": "up-chabad-108401",
+   "ch": 204
+  },
+  "up-chabad-108410": {
+   "id": "up-chabad-108410",
+   "ch": 204
+  },
+  "chabad-108410": {
+   "id": "up-chabad-108410",
+   "ch": 204
+  },
+  "up-chabad-108411": {
+   "id": "up-chabad-108411",
+   "ch": 204
+  },
+  "chabad-108411": {
+   "id": "up-chabad-108411",
+   "ch": 204
+  },
+  "up-chabad-110124": {
+   "id": "up-chabad-110124",
+   "ch": 204
+  },
+  "chabad-110124": {
+   "id": "up-chabad-110124",
+   "ch": 204
+  },
+  "up-chabad-137878": {
+   "id": "up-chabad-137878",
+   "ch": 204
+  },
+  "chabad-137878": {
+   "id": "up-chabad-137878",
+   "ch": 204
+  },
+  "up-chabad-144345": {
+   "id": "up-chabad-144345",
+   "ch": 204
+  },
+  "chabad-144345": {
+   "id": "up-chabad-144345",
+   "ch": 204
+  },
+  "up-chabad-145407": {
+   "id": "up-chabad-145407",
+   "ch": 204
+  },
+  "chabad-145407": {
+   "id": "up-chabad-145407",
+   "ch": 204
+  },
+  "up-chabad-157089": {
+   "id": "up-chabad-157089",
+   "ch": 204
+  },
+  "chabad-157089": {
+   "id": "up-chabad-157089",
+   "ch": 204
+  },
+  "up-chabad-160959": {
+   "id": "up-chabad-160959",
+   "ch": 204
+  },
+  "chabad-160959": {
+   "id": "up-chabad-160959",
+   "ch": 204
+  },
+  "up-chabad-160960": {
+   "id": "up-chabad-160960",
+   "ch": 204
+  },
+  "chabad-160960": {
+   "id": "up-chabad-160960",
+   "ch": 204
+  },
+  "up-chabad-160961": {
+   "id": "up-chabad-160961",
+   "ch": 204
+  },
+  "chabad-160961": {
+   "id": "up-chabad-160961",
+   "ch": 204
   }
  }
 }

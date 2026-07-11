@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "halacha",
- "count": 16504,
+ "count": 16533,
  "entries": [
   {
    "id": "ye-2009121811237500",
@@ -263558,6 +263558,505 @@
    "y": 2026,
    "ch": 204,
    "s": "yeshiva"
+  },
+  {
+   "id": "up-chabad-2606",
+   "t_he": "",
+   "t_en": "Are Religious Jews Narrow-Minded?",
+   "x": "Are Religious Jews Narrow-Minded?",
+   "ax": "Question: \"I try to be open-minded spiritually. Why is it that religious Jews are so closed to the wisdom of other religions?\" Answer: First, allow me to point…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2891",
+   "t_he": "",
+   "t_en": "Why aren't women and men treated the same in Judaism?",
+   "x": "Why aren't women and men treated the same in Judaism?",
+   "ax": "Question: Why aren't women and men treated the same in Judaism? Answer: In Torah, a woman has every obligation of a man, and a man every obligation of a woman.…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2918",
+   "t_he": "",
+   "t_en": "Do Orthodox Jews still say a blessing every morning thanking G-d for not making them a woman?",
+   "x": "Do Orthodox Jews still say a blessing every morning thanking G-d for not making them a woman?",
+   "ax": "Along with you, I yearn for a time to come when this blessing will no longer be said. A woman of valor is the crown of her husband, wrote King Solomon, and the…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2942",
+   "t_he": "",
+   "t_en": "Are You Really Planning to Bring Back Those Animal Sacrifices?",
+   "x": "Are You Really Planning to Bring Back Those Animal Sacrifices?",
+   "ax": "Question: Please explain all this business about animal sacrifices in the Temple. Are you really planning to re-initiate this at some point? Answer: Cain and A…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3002",
+   "t_he": "",
+   "t_en": "Why Is Conversion to Judaism So Hard?",
+   "x": "Question: There are many Jews who don’t keep anything Jewish, yet the rabbis demand full observance to convert to Judaism. Is that fair?",
+   "ax": "You have a very good point. Religion, after all, is all about belief. If you believe, you’re in; if not, you’re out. So why can’t anyone who believes in the Je…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3035",
+   "t_he": "",
+   "t_en": "Is Psychoanalysis Kosher?",
+   "x": "Question: What is the traditional Jewish view on psychoanalysis? I’m particularly interested in the purported parallels between Freudian and Chabad philosophy.",
+   "ax": "There have been many views expressed, ranging from enthusiastic embrace to unconditional condemnation. What follows is based on the Lubavitcher Rebbe’s letters…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3246",
+   "t_he": "",
+   "t_en": "Why Is Torah Law So Restrictive of Contact Between the Genders?",
+   "x": "Question: I understand that Torah law prohibits physical contact between a man and a woman—or even for them to be alone in a room together—unless they are firs…",
+   "ax": "When a man and woman are together in a room, and the door closes, that is a sexual event. Not because of what is going to happen, but what has already happened…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4805",
+   "t_he": "",
+   "t_en": "Can a Sinner Pray to G-d?",
+   "x": "Question: I don’t feel that that I have any right to pray to G‑d. I’m not religious at all. Over the years, I’ve committed many sins. Since I’ve turned against…",
+   "ax": "Each morning, when we wake up, we say in our prayers, “My G‑d, the soul You gave me is pure . . .” No matter what you do with your life, your soul remains pure…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4829",
+   "t_he": "",
+   "t_en": "Kittel: The White Yom Kippur Robe",
+   "x": "Kittel: The White Yom Kippur Robe",
+   "ax": "There is a custom to wear white clothing, or more specifically, a white robe-like garment called a kittel, on Yom Kippur. In many communities, the kittel is wo…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-39528",
+   "t_he": "",
+   "t_en": "Do We Have All the Answers?",
+   "x": "Question: I read your column, \"How Does G-D Decide What's Right and What's Wrong?\" with some interest. The question, for me, has proven (thus far) to be an ins…",
+   "ax": "Your assumption is that for everything there is an answer, until, eventually, everything can be answered. I don't know that this is necessarily true. The Baal…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-42971",
+   "t_he": "",
+   "t_en": "If G-d Knows Best, What's the Point of Prayer?",
+   "x": "Question: I'm a bit confused about the idea of praying to G‑d to help us in a certain situation or provide us with something. If G‑d has made a person's situat…",
+   "ax": "Yes, the whole concept of praying is confusing. We trust in G‑d that He is good and does everything for the good. We believe that He has perfect knowledge of e…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-53102",
+   "t_he": "",
+   "t_en": "Is G-d Punishing Us?",
+   "x": "Question: I get the feeling G‑d is real angry with us, don't you? How else can you explain all that's happening in Israel? One rabbi told me that G‑d stores al…",
+   "ax": "I think if that's what G‑d is all about — angry, counting up sins, punishing His children — I'm signing out. But it's not. In all the words of the prophets and…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "insight-commentary",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-60122",
+   "t_he": "",
+   "t_en": "Is Buddhism Kosher?",
+   "x": "Question: I would be interested in your view regarding Buddhism. For example, do you believe that all Buddhists are nothing more than idol worshippers and that…",
+   "ax": "You will find throughout our people's history a process by which some elements of alien cultures are adopted while others are rejected. Not a very formalized p…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-60319",
+   "t_he": "",
+   "t_en": "Why Do We Keep Kosher?",
+   "x": "Question: I have two questions regarding kashrut (the Torah's dietary laws). I understand that the sages explain that non-kosher animals have negative characte…",
+   "ax": "Before I deal with your questions specifically, it is important to understand that we didn't make up the kashrut laws. Just like we didn't create the fish. We…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-61374",
+   "t_he": "",
+   "t_en": "What Do I Do with all these People Knocking on my Door Asking for Money?",
+   "x": "Question: The mezuzah on the doorpost of our home seems to act as a \"beacon\" that signals and draws charity-seeking individuals to our door at all hours of the…",
+   "ax": "C'mon, doc, it can't be all that terrible! Of course, I can sympathize with the sense of harassment you're experiencing. We have recently moved to a densely Je…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-62120",
+   "t_he": "",
+   "t_en": "The Glory of Not Sinning",
+   "x": "Question: I have several addictions. I don't want to go through all of them here, but the point is, I've been struggling, getting off and then back on, going f…",
+   "ax": "A story says it all. I heard this one from Aryeh Prager of Crown Heights. I have no recollection where he says he heard it. But the story tells it all: He was…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-68827",
+   "t_he": "",
+   "t_en": "A Woman's Voice",
+   "x": "I have always loved to sing, especially Jewish prayers, and I'd love to lead the singing of the Friday night prayers at my synagogue. I know that this is not t…",
+   "ax": "As human nature stands today, the reasoning of the sages of the Talmud is still very apparent: Men listening to a woman's voice — especially a woman that they…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-68831",
+   "t_he": "",
+   "t_en": "What do Agnostics Believe?",
+   "x": "Question: I started questioning G‑d around the time of my Bar Mitzvah. I identified as an agnostic shortly after, an ideology that I still hold today. But I st…",
+   "ax": "Let's start with this idea that you are an agnostic. This is a term coined by Thomas Huxley in the middle of the 19th century. It is the \"doctrine that humans…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-69429",
+   "t_he": "",
+   "t_en": "Arranged Marriages?",
+   "x": "Question: Is it true that traditionally, Jewish marriages were arranged marriages? I’ve also heard that this is still the practice amongst the more religious J…",
+   "ax": "If arranged means coerced—no. It is true that in most ancient cultures—and many still-existing ones—marriages were and are arranged, and the young lady (and so…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-74339",
+   "t_he": "",
+   "t_en": "Who Invented the Synagogue?",
+   "x": "Question: I’ve heard it said that there’s no mention of the synagogue in the Torah. So where and when did it originate? It’s hard to imagine “Judaism” (at leas…",
+   "ax": "Indeed, there is no mention of the Synagogue in the “Written Torah” (i.e., the Five Books of Moses). The institution of the synagogue is of later, Rabbinic ori…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-77318",
+   "t_he": "",
+   "t_en": "What Gives Us the Right to Kill Animals?",
+   "x": "What Gives Us the Right to Kill Animals?",
+   "ax": "Dear Rabbi Freeman: There is a quote from Henry Beston that lives in my heart. But so does G‑d, yet G‑d and Henry Beston seem to be at odds. The quote is: \"We…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-80495",
+   "t_he": "",
+   "t_en": "Why Do I Need a “Hebrew Name”?",
+   "x": "Why Do I Need a “Hebrew Name”?",
+   "ax": "On the most basic level, a Jewish name is a keystone of Jewish identity. Our sages tell us that although more than two centuries of exile and slavery had all b…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-108385",
+   "t_he": "",
+   "t_en": "Key Jewish FAQ's",
+   "x": "Key Jewish FAQ's",
+   "ax": "Questions and answers exploring the very core of Judaism. With such questions as life's purpose, the existence of G‑d, the purpose of the Chosen People, the ho…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-108394",
+   "t_he": "",
+   "t_en": "Can One Be a Good Jew Without Being Religious?",
+   "x": "Can One Be a Good Jew Without Being Religious?",
+   "ax": "Many people feel that life in accordance with Torah and mitzvot is restrictive, limiting the individual in personal creativity, particularly in the area of thi…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-108396",
+   "t_he": "",
+   "t_en": "What Is Wrong with Intermarriage?",
+   "x": "What Is Wrong with Intermarriage?",
+   "ax": "We live today in a multi-cultural and multi-religious society. We mix freely with, and respect, people of all faiths. Many Jews today grow up fully assimilated…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-108410",
+   "t_he": "",
+   "t_en": "Epilogue - The Ten Mitzvah Campaigns",
+   "x": "Epilogue - The Ten Mitzvah Campaigns",
+   "ax": "In the light of all we have said it is clear that “the deed is the main thing”. Doing must come before understanding. To this aim we have included here a brief…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-137878",
+   "t_he": "",
+   "t_en": "How do the Shabbat candles bring \"peace\" into the home?",
+   "x": "How do the Shabbat candles bring \"peace\" into the home?",
+   "ax": "The Talmud explains that people may stumble or fall in a darkened room — an environment that can lead to bickering; the Shabbat candles bring light, and thus f…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-160959",
+   "t_he": "",
+   "t_en": "Day of Rest",
+   "x": "Question: I like the idea of a day of rest. But why should I start my day of rest at a prayer service? Aren't there better ways to start my weekend?",
+   "ax": "We each have our own way of spending the weekend. Some play sports, others watch television, paint, write or just vegetate. But often we find that even though…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-160961",
+   "t_he": "",
+   "t_en": "Why do Jewish holidays begin at nightfall?",
+   "x": "Question: Why do Jewish holidays begin at nightfall? For example, Purim starts this Monday night, and is over Tuesday night, and that is considered one day.",
+   "ax": "Your question touches upon a fascinating concept - the passage of time. According to the Jewish calendar, not only Jewish holidays begin at nightfall, but ever…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
   }
  ]
 }

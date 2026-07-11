@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "kabbalah",
- "count": 559,
+ "count": 569,
  "entries": [
   {
    "id": "ye-11561",
@@ -8978,6 +8978,180 @@
    "ch": 204,
    "s": "yeshiva",
    "r": 1
+  },
+  {
+   "id": "up-chabad-2782",
+   "t_he": "",
+   "t_en": "Can We Speak Intelligibly About G‑d?",
+   "x": "Question: A basic axiom of the Jewish faith is that G‑d transcends all description and definition. This axiom is closely related to another fundamental idea in…",
+   "ax": "This question mirrors (and ultimately answers) another question, one posed by many great Jewish thinkers: One of the basic principles of the Jewish faith is th…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2811",
+   "t_he": "",
+   "t_en": "Sighting Moshiach",
+   "x": "Question: Is it true that the Moshiach shall suddenly appear on a main street in Jerusalem, a poor old man with a wild but angelic look, spewing forth wisdom a…",
+   "ax": "Yes, definitely a case for pity. No (aside from the media announcements)--it's not anything like what you describe. The arrival of Moshiach and the accompanyin…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2826",
+   "t_he": "",
+   "t_en": "Kabbalah Defined",
+   "x": "Kabbalah Defined",
+   "ax": "Kabbalah: That which is received. That which cannot be known through science or intellectual pursuit alone. An inner knowledge that has been passed down from s…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2970",
+   "t_he": "",
+   "t_en": "Do Jews Believe in an Afterlife?",
+   "x": "Do Jews Believe in an Afterlife?",
+   "ax": "The Soul and Heaven in Judaism One of the fundamental beliefs of Judaism is that life does not begin with birth, nor does it end with death. This is articulate…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3194",
+   "t_he": "",
+   "t_en": "What Is a Soul (Neshamah)?",
+   "x": "What Is a Soul (Neshamah)?",
+   "ax": "The soul, or neshamah in Jewish thought, is the self, the \"I\" that inhabits the body and acts through it. There are many words for the soul in Hebrew, but the…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4484",
+   "t_he": "",
+   "t_en": "How Do I Know that I have a Soul?",
+   "x": "How Do I Know that I have a Soul?",
+   "ax": "Question: How do I know that I have a soul? Answer: Do you have a body? Did you say yes? So now tell me: Who is this \"me\" that has this body? Couldn't be the b…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-36441",
+   "t_he": "",
+   "t_en": "How Does G-d Decide What's Right and What's Wrong?",
+   "x": "Question: I would be most interested in hearing your views regarding that dialogue of Plato's where Socrates argues (with Euthyphro, I think) that moral acts a…",
+   "ax": "The crux of it is that to Plato and Socrates, things are the way they are because they must be that way. Time and matter are necessary entities. The principles…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-60990",
+   "t_he": "",
+   "t_en": "Is the World Really Getting Better?",
+   "x": "Question: You are always talking about how the world is ready and prepared for the Age of Moshiach. I don't see it. It looks like a pretty awful world to me. L…",
+   "ax": "That's because you don't see where it's coming from, what it used to be and how much it changed. Let me illustrate: Nowadays you can call anywhere from anywher…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-67899",
+   "t_he": "",
+   "t_en": "Orthodox Judaism and Unorthodox Jews",
+   "x": "Orthodox Judaism and Unorthodox Jews",
+   "ax": "Dear Orthodox Rabbi I'm in a bind. I like Shabbat. I like Torah—especially the Kabbalah stuff and Chassidic stories. I feel a strong attachment to the Jewish p…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-108400",
+   "t_he": "",
+   "t_en": "What Is the Jewish Belief About Moshiach (Messiah)?",
+   "x": "What Is the Jewish Belief About Moshiach (Messiah)?",
+   "ax": "What does the word Moshiach mean? Moshiach is the Hebrew word for “messiah.” The word messiah in English means a savior or a “hoped-for deliverer.” The word mo…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 204,
+   "s": "upload"
   }
  ]
 }
