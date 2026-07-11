@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "talmud",
- "count": 3588,
+ "count": 3590,
  "entries": [
   {
    "id": "ye-2010112513418718",
@@ -58026,6 +58026,41 @@
     "chabad",
     "talmud",
     "inspiration-entertainment",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5043964",
+   "t_he": "",
+   "t_en": "Why Does the Jewish Calendar Follow the Moon?",
+   "x": "Why Does the Jewish Calendar Follow the Moon?",
+   "ax": "The very first commandment given to Jews while they were still in Egypt was to create a calendar based on the cycle of the moon: \"And G‑d said to Moses … in th…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5163575",
+   "t_he": "",
+   "t_en": "Who Was Apostomus, Who Burned a Torah Scroll?",
+   "x": "Who Was Apostomus, Who Burned a Torah Scroll?",
+   "ax": "The Mishnah enumerates five tragic events that occurred on the 17th of Tammuz, which was instituted by the prophets and sages as a fast day: On the 17th of Tam…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "tisha-b-av-and-the-3-weeks-2026",
     "article"
    ],
    "c": "talmud",

@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "tanach",
- "count": 7801,
+ "count": 7805,
  "entries": [
   {
    "id": "ye-4809",
@@ -125475,6 +125475,75 @@
    "t_en": "What Happened to Noah’s Ark?",
    "x": "What Happened to Noah’s Ark?",
    "ax": "We read in the Bible how, at the end of the Great Flood, the Ark came to rest on the mountains of Ararat (which some identify as the Armenian Highlands). Since…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4779124",
+   "t_he": "",
+   "t_en": "Saying Psalms According to Your (Loved One's) Age",
+   "x": "Saying Psalms According to Your (Loved One's) Age",
+   "ax": "There is a custom dating at least as far back to the Baal Shem Tov1 that each day you should recite the chapter of Psalms that corresponds to you age. For exam…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4813755",
+   "t_he": "",
+   "t_en": "Why Was Jerusalem Chosen?",
+   "x": "Why Was Jerusalem Chosen?",
+   "ax": "Deuteronomy foretells of a fixed location where the Jewish people would come to serve G‑d in the Holy Temple: “But only to the place which the L‑rd your G‑d sh…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4943198",
+   "t_he": "",
+   "t_en": "Did Abraham Really Invent Monotheism?",
+   "x": "Did Abraham Really Invent Monotheism?",
+   "ax": "The short answer is no. The longer answer is . . . it depends on what you mean by “invent.” One doesn’t have to look too far in the Torah to find individuals w…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5175330",
+   "t_he": "",
+   "t_en": "What Is the Significance of King David’s Harp?",
+   "x": "What Is the Significance of King David’s Harp?",
+   "ax": "The first time that we’re introduced to King David’s musical talent, he is a young lad and has just been anointed in a private ceremony by the prophet Samuel.…",
    "tg": [
     "chabad",
     "tanach",

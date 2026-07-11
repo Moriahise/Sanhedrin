@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "kabbalah",
- "count": 655,
+ "count": 658,
  "entries": [
   {
    "id": "ye-11561",
@@ -10641,6 +10641,60 @@
     "kabbalah",
     "inspiration-entertainment",
     "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4849553",
+   "t_he": "",
+   "t_en": "Do Jews Believe in Heaven?",
+   "x": "Do Jews Believe in Heaven?",
+   "ax": "Yes, Jews believe in an afterlife in a world beyond the one you’re currently living in—sometimes referred to as “heaven.” A rich tradition informs us that ther…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4861043",
+   "t_he": "",
+   "t_en": "Why Are Chassidim Called Chassidim?",
+   "x": "Why Are Chassidim Called Chassidim?",
+   "ax": "In the 18th century, the Baal Shem Tov (lit. “Master of the Good Name”) founded the Chassidic movement, which was characterized by a mystical, joyful approach…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5059659",
+   "t_he": "",
+   "t_en": "Why Do Some Put Earth From Israel in the Coffin?",
+   "x": "Why Do Some Put Earth From Israel in the Coffin?",
+   "ax": "The laws and customs of Jewish burial are designed to help the soul in its passage and transition to the next world and find forgiveness. They reflect the fund…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
    ],
    "c": "kabbalah",
    "y": 2026,

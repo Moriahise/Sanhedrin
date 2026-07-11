@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "general",
- "count": 19347,
+ "count": 19390,
  "entries": [
   {
    "id": "ye-200912288164429",
@@ -316150,6 +316150,780 @@
    "t_en": "Make a Shehecheyanu on Fruits Available Year-Round?",
    "x": "Make a Shehecheyanu on Fruits Available Year-Round?",
    "ax": "There are a number of times during the year, such as the second day of Rosh Hashanah (and, for some, the 15th of Shevat), when it is customary to eat a fruit t…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4677840",
+   "t_he": "",
+   "t_en": "I've Lost My Sense of Certainty...",
+   "x": "This coronavirus thing has really thrown me. I feel like I've lost all sense of certainty. No one knows what will happen next. How do we stay sane when we don'…",
+   "ax": "It is not that we have lost our sense of certainty. We have lost our illusion of certainty. We never had it to begin with. This could be majorly unsettling, or…",
+   "tg": [
+    "chabad",
+    "general",
+    "insight-commentary",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4677970",
+   "t_he": "",
+   "t_en": "10 Classic Jewish Teachings About the Moon",
+   "x": "10 Classic Jewish Teachings About the Moon",
+   "ax": "1. The Hebrew Calendar Is Based on the Moon At the cusp of the Exodus, G‑d commanded Moses regarding the Hebrew calendar. Each time witnesses spotted the slive…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4714280",
+   "t_he": "",
+   "t_en": "Is Tzaraat Leprosy?",
+   "x": "Is Tzaraat Leprosy?",
+   "ax": "Tzaraat was an affliction of the skin (or clothing or house) discussed extensively in the Bible (notably the Torah portions of Tazria and Metzora) that would c…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4800049",
+   "t_he": "",
+   "t_en": "When Were the Walls of Jerusalem Breached?",
+   "x": "I am a bit confused. I read that during the destruction of the First Holy Temple, the walls of Jerusalem were breached on the 9th of Tammuz. Elsewhere I read t…",
+   "ax": "You're not the only one who’s confused. In fact, according to some opinions, this confusion goes back to the time when the walls were breached and the Temple w…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4803769",
+   "t_he": "",
+   "t_en": "What Does Abba Mean?",
+   "x": "What Does Abba Mean?",
+   "ax": "Written in Hebrew: אבא Gender: Male Language: Hebrew Meaning: \"Father\" It usually comes in conjunction with the name Abraham and secondary to it: \"Avrohom Abba…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4803784",
+   "t_he": "",
+   "t_en": "What Does the Jewish Name Alter Mean?",
+   "x": "What Does the Jewish Name Alter Mean?",
+   "ax": "Written in Hebrew: אלטר Gender: Male Language: Yiddish Meaning: \"Old one\" Variations: Altir, Altmann In Yiddish, an \"old man.\" This is one of the amuletic name…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4803796",
+   "t_he": "",
+   "t_en": "What Does the Name Asher Mean?",
+   "x": "What Does the Name Asher Mean?",
+   "ax": "Written in Hebrew: אשר Gender: Male Language: Hebrew Meaning: \"Happy one\" Variations: Osher, Osherel, Osher'l, Asherel, Anshel (Anschel), Anshil (Anschil), Ans…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4803814",
+   "t_he": "",
+   "t_en": "What Does the Name Baruch Mean?",
+   "x": "What Does the Name Baruch Mean?",
+   "ax": "Written in Hebrew: ברוך Gender: Male Language: Hebrew Meaning: \"Blessed one\" Variations: Boruch, Bendet, Bendet'l, Bendit, Benedikt Often paired with its Yiddi…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4803819",
+   "t_he": "",
+   "t_en": "What Does the Name Benjamin Mean?",
+   "x": "What Does the Name Benjamin Mean?",
+   "ax": "Written in Hebrew: בנימין Gender: Male Language: Hebrew Meaning: \"Son of the right (hand); Son of old age\" Variations: Benyamin, Benyomin, Beinush, Beinis, Bni…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4803832",
+   "t_he": "",
+   "t_en": "What Does the Name Chaim (Chayim) Mean?",
+   "x": "What Does the Name Chaim (Chayim) Mean?",
+   "ax": "Written in Hebrew: חיים Gender: Male Language: Hebrew Meaning: \"Life, \"Living\" Variations: Chai, Hai, Heiman, Cheyman, Chayyimel, Chayyimka, Cheikel, Vital, Vi…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4803838",
+   "t_he": "",
+   "t_en": "What Does the Name Dan Mean?",
+   "x": "What Does the Name Dan Mean?",
+   "ax": "Written in Hebrew: דן Gender: Male Language: Hebrew Meaning: \"To judge\" The son of Jacob. Of Biblical origin, Genesis 30:6. It is said of his descendants that…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4803852",
+   "t_he": "",
+   "t_en": "What Does the Name Daniel Mean?",
+   "x": "What Does the Name Daniel Mean?",
+   "ax": "Written in Hebrew: דניאל Gender: Male Language: Hebrew Meaning: \"G‑d is my Judge\" Variations: Dan'l, Denel, Dan, Dani, Dany, Danny, Doniel, Donny Biblical, Dan…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4803862",
+   "t_he": "",
+   "t_en": "What Does the Name David Mean?",
+   "x": "What Does the Name David Mean?",
+   "ax": "David is a popular Jewish boy’s name. Many note that it is written דוד, which is identical to the Hebrew word for “uncle” or “beloved.” Indeed, the first David…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4803867",
+   "t_he": "",
+   "t_en": "What Does the Name Elchanan Mean?",
+   "x": "What Does the Name Elchanan Mean?",
+   "ax": "Written in Hebrew: אלחנן Gender: Male Language: Hebrew Meaning: \"G‑d has graced\" Variations: Elhonon, Elchonon, Hanan, Chanan, Honon, Choni, Chone, Chona Bibli…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4825058",
+   "t_he": "",
+   "t_en": "Why Is the Ketubah Written in Aramaic?",
+   "x": "Why Is the Ketubah Written in Aramaic?",
+   "ax": "The Ketubah is the marriage contract that outlines the obligations of the husband to his wife, as well as the financial compensation due to the wife in the eve…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4904570",
+   "t_he": "",
+   "t_en": "Why Do Some Letters in the Torah Have ‘Crowns’?",
+   "x": "Why Do Some Letters in the Torah Have ‘Crowns’?",
+   "ax": "If you look closely at the letters of a sefer Torah (Torah scroll), you will see that many of the letters are topped by small spikes, called tagin or ketarim,…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4921038",
+   "t_he": "",
+   "t_en": "Can I Secretly Monitor My Child’s Social Media?",
+   "x": "Question: My son is a budding adolescent who just got a phone and is discovering the world of social media. He is very protective of his privacy and his indepe…",
+   "ax": "From your question it seems that you are aware of the pitfalls of social media, and are simply asking about the ethical aspect—whether it is wrong to read the…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4921063",
+   "t_he": "",
+   "t_en": "Can I Secretly Monitor My Child’s Social Media?",
+   "x": "Question: My son is a budding adolescent who just got a phone and is discovering the world of social media. He is very protective of his privacy and his indepe…",
+   "ax": "From your question it seems that you are aware of the pitfalls of social media, and are simply asking about the ethical aspect—whether it is wrong to read the…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4932765",
+   "t_he": "",
+   "t_en": "Why the Simple Pine Casket?",
+   "x": "Why the Simple Pine Casket?",
+   "ax": "That’s a great question, one that makes perfect sense to an American Jew, since burial in a simple casket is de rigueur among those who follow Jewish tradition…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4963990",
+   "t_he": "",
+   "t_en": "What Does the Jewish Last Name Rapoport Mean?",
+   "x": "What Does the Jewish Last Name Rapoport Mean?",
+   "ax": "Today, Rappaport, Rappoport, Rapoport and Rapaport are all common Jewish family names, found both among Ashkenazi and Sephardi Jews. The name was borne with pr…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4964027",
+   "t_he": "",
+   "t_en": "What Does the Jewish Last Name Epstein Mean?",
+   "x": "What Does the Jewish Last Name Epstein Mean?",
+   "ax": "At first glance, Epstein would seem to be related to the many Yiddish-German “stein” names that have little historical significance other than their pretty sou…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4964066",
+   "t_he": "",
+   "t_en": "What Does the Jewish Last Name Jaffe Mean?",
+   "x": "What Does the Jewish Last Name Jaffe Mean?",
+   "ax": "Regardless of whether you spell your name, Jaffe, Joffe, Yaffe, Yaffee or any iteration of the above, the fact is that the Hebrew original was written יָפֶה an…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4970983",
+   "t_he": "",
+   "t_en": "Is the Temple Menorah Hidden in the Vatican?",
+   "x": "Is the Temple Menorah Hidden in the Vatican?",
+   "ax": "There is much controversy and misinformation surrounding this question, so let’s begin by clarifying the facts of the story. After laying siege to Jerusalem, t…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4983061",
+   "t_he": "",
+   "t_en": "Can a Serial Shoplifter Make Amends?",
+   "x": "When I was a young teenager, I shoplifted small items from a number of stores. I’m trying to make amends now by returning the stolen items or paying for them.…",
+   "ax": "It takes courage to decide to turn your life around and make amends for your past wrongdoings. In this case, there are a number of components involved. Let’s b…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4983165",
+   "t_he": "",
+   "t_en": "Can a Serial Shoplifter Make Amends?",
+   "x": "When I was a young teenager, I shoplifted small items from a number of stores. I’m trying to make amends now by returning the stolen items or paying for them.…",
+   "ax": "It takes courage to decide to turn your life around and make amends for your past wrongdoings. In this case, there are a number of components involved. Let’s b…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4992830",
+   "t_he": "",
+   "t_en": "Why Is Alexander a Jewish Name?",
+   "x": "Why Is Alexander a Jewish Name?",
+   "ax": "Throughout history, Jews have been careful to retain their distinctly Jewish names. In fact, our sages tell us that although more than two centuries of exile a…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5002237",
+   "t_he": "",
+   "t_en": "Why Is the Firstborn Donkey Holy?",
+   "x": "Why Is the Firstborn Donkey Holy?",
+   "ax": "Many are familiar with the mitzvah of pidyon haben, redeeming the firstborn son on the thirtieth day of his life.1 Additionally, there is the related mitzvah t…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5002344",
+   "t_he": "",
+   "t_en": "What Does the Jewish Last Name Horowitz Mean?",
+   "x": "What Does the Jewish Last Name Horowitz Mean?",
+   "ax": "Horowitz, Hurwitz, Horovitz, Gurwicz, Gurevitch—the many contemporary iterations of this name abound. But they all trace their way back to a single town, Hořov…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5009524",
+   "t_he": "",
+   "t_en": "Who “Invented” the Holiday on 15 Shevat?",
+   "x": "Who “Invented” the Holiday on 15 Shevat?",
+   "ax": "Unlike what some may believe, the 15th of Shevat (or Tu BiShvat, as it’s commonly called) isn’t some Jewish version of Arbor Day. In fact, the 15th of Shevat d…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5024740",
+   "t_he": "",
+   "t_en": "A Fresh Perspective on “Chosenness”",
+   "x": "A Fresh Perspective on “Chosenness”",
+   "ax": "The American election is not just about electing a President but is also to choose an executive team that will run the government for the next four years. In a…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5028251",
+   "t_he": "",
+   "t_en": "Why Is Gordon a Jewish Last Name?",
+   "x": "Why Is Gordon a Jewish Last Name?",
+   "ax": "To our English-speaking ears, it seems that Gordon would be Scottish, as it is indeed a common family name—as well as given name—among Scots and Brits. Yet Gor…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5030093",
+   "t_he": "",
+   "t_en": "Did Maimonides Accept Contemporary Converts as Jewish?",
+   "x": "Did Maimonides Accept Contemporary Converts as Jewish?",
+   "ax": "At face value, this seems like a simple enough question. While not a proselytizing faith, we have long accepted converts to the religion and treated them as fu…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5036729",
+   "t_he": "",
+   "t_en": "What Does Kaplan Mean?",
+   "x": "What Does Kaplan Mean?",
+   "ax": "Kaplan is a fairly common name among Ashkenazi Jews. And until last week I had no idea what it meant, although I had noticed that it is particularly common amo…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5043958",
+   "t_he": "",
+   "t_en": "What Does the Jewish Last Name Bitton Mean?",
+   "x": "What Does the Jewish Last Name Bitton Mean?",
+   "ax": "Bitton or Biton (spelled ביטון in Hebrew) is a fairly common family name among Jews of North African descent (known as Mughrabi). What does it mean? According…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5052512",
+   "t_he": "",
+   "t_en": "What Does the Jewish Last Name Azoulay Mean?",
+   "x": "What Does the Jewish Last Name Azoulay Mean?",
+   "ax": "The surname Azoulay (often taking on many other forms, including Azulai and Assoulin) is common among Jews of Mughrabi (North African) descent, many of whom ha…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5061756",
+   "t_he": "",
+   "t_en": "What Does the Jewish Last Name Cohen Mean?",
+   "x": "What Does the Jewish Last Name Cohen Mean?",
+   "ax": "The name Cohen is common among both Sephardim and Ashkenazim, making it one of the most widespread Jewish names of all time. In fact, it is the most common fam…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5068732",
+   "t_he": "",
+   "t_en": "What Does the Last Name Levy Mean?",
+   "x": "What Does the Last Name Levy Mean?",
+   "ax": "The name Levy (לוי) generally (but not always) indicates that its bearer is a member of the Tribe of Levi, descendants of Levi, son of Jacob. This name is the…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5145030",
+   "t_he": "",
+   "t_en": "Must One Honor Abusive Parents?",
+   "x": "Must One Honor Abusive Parents?",
+   "ax": "When discussing this sensitive and often painful topic, we need to bear in mind that every situation is different. There are many kinds and levels of abuse, an…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5163574",
+   "t_he": "",
+   "t_en": "How to Explain Death to Small Children",
+   "x": "My seven-year-old has been asking a lot of questions ever since her grandfather died. What happens when you die? Where do you go? Is it scary? Can you help me…",
+   "ax": "Remember when your little brother was born? After being in your mother’s tummy for such a long time, he finally came out to be with you and the family. How exc…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5193398",
+   "t_he": "",
+   "t_en": "Ketiv Vs. Keri: Why Is the Torah Not Always Pronounced as Written?",
+   "x": "Ketiv Vs. Keri: Why Is the Torah Not Always Pronounced as Written?",
+   "ax": "Reading Jewish Scripture is generally a straightforward affair. One can read it exactly as it is written (with the help of vowels and cantillation marks that a…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5198012",
+   "t_he": "",
+   "t_en": "What Does the Last Name Landau Mean?",
+   "x": "What Does the Last Name Landau Mean?",
+   "ax": "The Jewish family name Landau can be traced to the town of Landau in der Pfalz, in the heart of Germany’s wine country, not far from the French border. The cit…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5205490",
+   "t_he": "",
+   "t_en": "Is G-d a 'Helicopter Parent'?",
+   "x": "I feel uncomfortable with the idea that G‑d is always watching me. It seems stifling to think that I am under constant surveillance. I had enough helicopter pa…",
+   "ax": "I agree, the last thing we need is for G‑d to be a helicopter parent. But I don't think that’s what He is. There are three models of parenting: the helicopter,…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5219161",
+   "t_he": "",
+   "t_en": "How Did Brisket Become a Rosh Hashanah Tradition?",
+   "x": "How Did Brisket Become a Rosh Hashanah Tradition?",
+   "ax": "In many families, Bubby’s brisket is up there with round raisin challah, apples and honey, pomegranates, fish heads and the other traditional foods that invari…",
    "tg": [
     "chabad",
     "general",

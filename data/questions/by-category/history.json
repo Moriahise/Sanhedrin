@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "history",
- "count": 1552,
+ "count": 1557,
  "entries": [
   {
    "id": "ye-4787",
@@ -25093,6 +25093,93 @@
     "chabad",
     "history",
     "inspiration-entertainment",
+    "article"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4937129",
+   "t_he": "",
+   "t_en": "Why Are the Jews Called “People of the Book”?",
+   "x": "Why Are the Jews Called “People of the Book”?",
+   "ax": "Throughout history, Jews have been called the “People of the Book” (or “Am HaSefer”) by both Jews and non-Jews. The simple and most obvious reason for this is…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4963911",
+   "t_he": "",
+   "t_en": "What Does the Jewish Last Name Shapiro mean?",
+   "x": "What Does the Jewish Last Name Shapiro mean?",
+   "ax": "Often spelled Shapiro, Schapiro and Spiro, the version of this name that is actually most accurate is probably Shapira. They are all iterations of Shpira (שפיר…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4996160",
+   "t_he": "",
+   "t_en": "My Dad's Jewish, Why Should I Convert?",
+   "x": "Question: I have to admit, I’m angry. I was brought up Jewish, attended a Jewish school, and have only known Judaism as my religion. Now I’ve been told I have…",
+   "ax": "I completely understand your frustration. It can’t be easy to hear that you need to convert to your own religion. But please don't take it personally. This is…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5020463",
+   "t_he": "",
+   "t_en": "Would Judaism Condone Smashing Ancient Figurines?",
+   "x": "The Torah tells the people of Israel to destroy the idols they find when they enter the Land of Canaan. Presumably, the Torah’s laws have no expiration date. W…",
+   "ax": "Before you get your hammer and start smashing things, let’s take a step back and look at the big picture. Generally speaking, there are two kinds of figurines,…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5109562",
+   "t_he": "",
+   "t_en": "What Happened to the Bar Kochba-Lag BaOmer Connection?",
+   "x": "What Happened to the Bar Kochba-Lag BaOmer Connection?",
+   "ax": "I was reading up on your site about the reasons for celebrating Lag BaOmer, and I noticed that there is no mention of the wars Bar Kochba waged against the Rom…",
+   "tg": [
+    "chabad",
+    "history",
+    "lag-baomer-2026",
     "article"
    ],
    "c": "history",
