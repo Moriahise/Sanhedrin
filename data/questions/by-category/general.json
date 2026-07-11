@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "general",
- "count": 19043,
+ "count": 19092,
  "entries": [
   {
    "id": "ye-200912288164429",
@@ -310688,6 +310688,888 @@
    "c": "general",
    "y": 2026,
    "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1780155",
+   "t_he": "",
+   "t_en": "Is There Proof That G-d Exists?",
+   "x": "Is There Proof That G-d Exists?",
+   "ax": "I could of course start off by listing the many Jewish philosophers, both historical and contemporary, who philosophize about G‑d’s existence1. But, considerin…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1791865",
+   "t_he": "",
+   "t_en": "My Son’s Basketball is his Primary Focus; Judaism is only Secondary",
+   "x": "Hi, My teenage son plays basketball very well. He plans join the team at an excellent college and hopefully go professional. I am finding it difficult that my…",
+   "ax": "By the time a child is in his high teens, no one can tell him what he should or shouldn’t do for religious reasons. That's something every individual needs to…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1792123",
+   "t_he": "",
+   "t_en": "How Do You Rectify a Wrongdoing?",
+   "x": "Hi, I have been doing some introspection and realize that I have done things in my life that were wrong, and I have harmed other people. How can I face myself…",
+   "ax": "The essence of teshuvah, which literally means “return” to G‑d, is that we are given the ability to actually change what was and to return to our natural state…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1793213",
+   "t_he": "",
+   "t_en": "How Do I Deal With the Death of My Child?",
+   "x": "How Do I Deal With the Death of My Child?",
+   "ax": "I am sorry to hear the heart-wrenching news of the passing of your child. May you and your family be comforted by G‑d along with all mourners, and may you know…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1798542",
+   "t_he": "",
+   "t_en": "Do Our Children Belong to Us?",
+   "x": "Do Our Children Belong to Us?",
+   "ax": "It’s important to remember that we don’t own our kids. They’re not ours, and they don’t exist as reflections of us, or to serve us in any way. Nor, I would add…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1802936",
+   "t_he": "",
+   "t_en": "What is the Role of the Woman in Judaism?",
+   "x": "What is the Role of the Woman in Judaism?",
+   "ax": "In a Jewish household, the wife and mother is called in Hebrew akeret habayit. This means literally the “mainstay” of the home. It is she who largely determine…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1817073",
+   "t_he": "",
+   "t_en": "Does G-d Ever Make Mistakes?",
+   "x": "Does G-d Ever Make Mistakes?",
+   "ax": "We know that G‑d is the most perfect Being, and that everything exists solely because of Him. Furthermore, He knows everything through His knowledge of Himself…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1828918",
+   "t_he": "",
+   "t_en": "I Have No Time to Help Others",
+   "x": "Hi, I am 18 years old. Between school, homework, and a little time for myself, I barely have time to breath. How can I help other people when I'm soooooo busy…",
+   "ax": "I can see from your question that you have a deep desire to help others. Our Sages stress that we are not here in this world for ourselves. In the words of Rab…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1842551",
+   "t_he": "",
+   "t_en": "What Does Judaism Say About Taking Revenge?",
+   "x": "What Does Judaism Say About Taking Revenge?",
+   "ax": "You shall not take revenge… — Leviticus 19:18 What is taking revenge? Taking revenge is when you ask someone, “Lend me your sickle,” and he says no. The next d…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2042991",
+   "t_he": "",
+   "t_en": "Operation Pillar of Cloud or Pillar of Defense?",
+   "x": "Question: I've been following the situation in Israel this week, and I've got a question for you. I've heard Israel's operation called both \"Pillar of Cloud\" a…",
+   "ax": "This name takes us back to the Exodus from Egypt over 3,000 years ago. In their journeys through the desert, the Jewish people were guided by a pillar of cloud…",
+   "tg": [
+    "chabad",
+    "general",
+    "israel",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2129277",
+   "t_he": "",
+   "t_en": "Freebies: Ethical Business Practice?",
+   "x": "Question: As an agent of a large real-estate development company, I am often offered freebies and gifts by competing contractors in an attempt to attract me to…",
+   "ax": "That’s a great question, and it’s inspirational to know that there are people out there as ethically conscious and sensitive as you are. Let’s address your sec…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2257010",
+   "t_he": "",
+   "t_en": "How Can Someone Be so Stingy?",
+   "x": "Question: The other day I met a man who never contributes to any charitable causes. How is it possible for someone to be so stingy?",
+   "ax": "The following Mishnah may shed some light on your question: There are four types of contributors to charity: One who wishes to give but that others should not—…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2335168",
+   "t_he": "",
+   "t_en": "Can My Neighbor Prevent Me From Building My Dream Home?",
+   "x": "Question: After many years of living in an apartment building, we finally moved into our first house. I love my new home, my space and my privacy. I especially…",
+   "ax": "There are two key issues here: a) your privacy; b) blocking your neighbor’s view and sunshine. The importance of respecting another person’s privacy cannot be…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2365840",
+   "t_he": "",
+   "t_en": "Do I Need to Pay for Dance Lessons I Cannot Attend?",
+   "x": "Question: I signed my daughter up for 16 dance classes. The classes are given to a small group of girls, and provide a lot of individualized attention. The tot…",
+   "ax": "In order to answer your question, there are two aspects of Jewish law that we need to consider. The first is what you are actually obligated to do, and the sec…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2402678",
+   "t_he": "",
+   "t_en": "Death by Secrets",
+   "x": "Death by Secrets",
+   "ax": "We’ve explained why midrash and aggadah are so vital to our Torah diet. We’ve explained that these stories speak to us from a higher plane of reality. And we’v…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2494730",
+   "t_he": "",
+   "t_en": "Torah and Genocide FAQ",
+   "x": "Torah and Genocide FAQ",
+   "ax": "Q: Does the Torah promote Genocide? A: No. Q: Did G‑d once not just promote, but command genocide, including women and children, even infants? A: Yes. Not geno…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2504346",
+   "t_he": "",
+   "t_en": "Why Is It Taking So Long to Find the Right One?",
+   "x": "Question: I have friends who got engaged to the first person they ever dated, and are now married with kids. Yet here I am, many years and many, many dates lat…",
+   "ax": "There are many possible reasons why you haven’t found the right one yet. But the mere fact that you are still waiting doesn’t mean there is something wrong wit…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2515643",
+   "t_he": "",
+   "t_en": "Pregnant and Visiting Cemetery",
+   "x": "Question: The tombstone consecration for a good friend of mine is coming up next week. I am currently seven months pregnant, and I have been told it is general…",
+   "ax": "This is the most common question I am asked. Fascinatingly, though it is a widespread custom for a pregnant woman to avoid going to the cemetery, there is no w…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2575069",
+   "t_he": "",
+   "t_en": "My Husband Watches Too Much Sports",
+   "x": "Question: My husband is quickly losing his faith in G‑d because his favorite sports team is not winning. Every time his team loses, he loses more of his faith.…",
+   "ax": "How about telling him this: It is not a rational reaction to lose faith because your team is losing. Rather than switch beliefs, it would make more sense to sw…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2592560",
+   "t_he": "",
+   "t_en": "Can I Use My Neighbor’s Wi-Fi Without Permission?",
+   "x": "Question: I work during the day, and because I mostly use the Web at work, I don’t have an Internet connection of my own at home. Sometimes at night I like to…",
+   "ax": "Before beginning a discussion about using unsecured Internet connections according to Jewish law, it must be noted that many countries and states have specific…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2699548",
+   "t_he": "",
+   "t_en": "What to Expect at a Jewish Funeral (Levaya)",
+   "x": "What to Expect at a Jewish Funeral (Levaya)",
+   "ax": "Chances are that you are reading this because you just got the news. Someone has passed away, and you are going to attend a Jewish funeral. First, I would like…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2718046",
+   "t_he": "",
+   "t_en": "I’ve Got a Problem with Organized Religion",
+   "x": "Question: I have a problem with organized religion. It tells us to light candles, go to shul, eat this, don’t eat that, etc., etc. What sort of G‑d demands the…",
+   "ax": "I recently addressed a group of women on the topic of relationships. I told them that they should not be ashamed to tell their husbands exactly what makes them…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2737248",
+   "t_he": "",
+   "t_en": "How Can I Pray to a G-d I Can’t See?",
+   "x": "How Can I Pray to a G-d I Can’t See?",
+   "ax": "Hello Rabbi, Here I am facing a wall, or the back of some other congregant, or just a row of empty chairs, and I’m talking to someone. Who? An Infinite Being I…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2738056",
+   "t_he": "",
+   "t_en": "Is Flipping Burgers Charity?",
+   "x": "Question: I know we are meant to give a tenth of our income to charity. What if I volunteer my time for a charity? Can I deduct that from the required ten perc…",
+   "ax": "There are two distinct types of charitable acts: tzedakah and chesed. Tzedakah means justice, doing that which is just and fair. Chesed means kindness, doing m…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2739319",
+   "t_he": "",
+   "t_en": "Can a Change of Name Create a Change of Destiny?",
+   "x": "Can a Change of Name Create a Change of Destiny?",
+   "ax": "What’s in a name? Have you ever thought about what influence your name has on you—on your personality, behavior patterns and life choices? A growing body of re…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2745313",
+   "t_he": "",
+   "t_en": "Why Can’t I Be Vengeful Like G-d?",
+   "x": "Question: I have been seriously hurt by my ex. It has now been seven months of abuse, put-downs, bad-mouthing and humiliation, and I have remained silent. But…",
+   "ax": "The desire for revenge is natural and understandable. We have an innate expectation that justice should be done, and when we see evil go unpunished, we want to…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2746803",
+   "t_he": "",
+   "t_en": "Water Leaked into My Apartment. Who Pays for Paint?",
+   "x": "Question: Our upstairs neighbor had a major leak in her bathroom and, since we live in an apartment building, as a consequence two walls in our apartment got d…",
+   "ax": "Before discussing whether your neighbor is obligated to pay for painting all the walls or just two, we first need to find out exactly what happened and ascerta…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2769417",
+   "t_he": "",
+   "t_en": "Will the War on Terror Ever End?",
+   "x": "The terrorist massacre in Jerusalem has hit all of us hard. There are now five more widows and many more orphans. It just seems to reinforce the hopelessness o…",
+   "ax": "The Jewish nation stands together in mourning yet again. Those holy brothers, who returned their souls to their Maker while in the midst of prayer, will join t…",
+   "tg": [
+    "chabad",
+    "general",
+    "insight-commentary",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2800983",
+   "t_he": "",
+   "t_en": "Why Is there No Evidence of G-d?",
+   "x": "Question: How can a rational, thinking person believe in G‑d, when there is absolutely no evidence for His existence? Today we have X-ray, radar, satellites, i…",
+   "ax": "Being everywhere doesn't make you easy to find. On the contrary, logic says that if you are everywhere, it's as if you're nowhere. A bit like our fridge. As ou…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2818919",
+   "t_he": "",
+   "t_en": "Questions and Answers on Bereishit",
+   "x": "Questions and Answers on Bereishit",
+   "ax": "Vedibarta Bam - Torah Vedibarta Bam - Holidays Vedibarta Bam - Pirkei Avot Vedibarta Bam - Marriage Vedibarta Bam - For Your Table More...",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2818920",
+   "t_he": "",
+   "t_en": "Foreword to Vedibarta Bam - Bereishit",
+   "x": "Foreword to Vedibarta Bam - Bereishit",
+   "ax": "Vedibarta Bam is not a book of sermons. It is a compilation of selected Torah insights, thought-provoking ideas, homilies and explanations of Torah passages. A…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2818923",
+   "t_he": "",
+   "t_en": "Introduction to the Vedibarta Bam Series",
+   "x": "Introduction to the Vedibarta Bam Series",
+   "ax": "For more than three decades I have had the zechut to be involved with Torah education and the Rabbinate. I started my career teaching a mesivta class at the Lu…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2818932",
+   "t_he": "",
+   "t_en": "Dvar Torah Questions and Answers on Bereishit",
+   "x": "Dvar Torah Questions and Answers on Bereishit",
+   "ax": "\"בראשית...\"“In the beginning...” (1:1) QUESTION: Why does the Torah start with the letter beit, the second letter of the Hebrew alef-beit, rather than with the…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2819441",
+   "t_he": "",
+   "t_en": "Must I Learn Hebrew?",
+   "x": "Question: Thank you for your kind invitation to join one of your Torah classes. I have a strong desire to broaden my knowledge of my heritage, but I currently…",
+   "ax": "Many people mistakenly think it necessary to first learn the language of the Torah and only then to consider studying our beautiful heritage. Although Hebrew c…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2819532",
+   "t_he": "",
+   "t_en": "Dvar Torah Questions and Answers on Noach",
+   "x": "Dvar Torah Questions and Answers on Noach",
+   "ax": "\"אלה תולדות נח נח איש צדיק תמים היה בדרתיו את האלקים התהלך נח\" “These are the offspring of Noach: Noach was a righteous man, perfect in his generation; with G‑…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2819668",
+   "t_he": "",
+   "t_en": "Dvar Torah Questions and Answers on Lech Lecha",
+   "x": "Dvar Torah Questions and Answers on Lech Lecha",
+   "ax": "\"ואגדלה שמך\" “I will enlarge your name.” (12:2) QUESTION: Rashi explains that “I will enlarge your name” is a reference to that which they say in Shemoneh Esre…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2819697",
+   "t_he": "",
+   "t_en": "Dvar Torah Questions and Answers on Vayeira",
+   "x": "Dvar Torah Questions and Answers on Vayeira",
+   "ax": "\"'וירא אליו ה'\" “And G‑d -revealed Himself to him.” (18:1) When the Rebbe RaSHaB (Rabbi Sholom DovBer Schneerson, the fifth Lubavitcher Rebbe) was a little boy…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2819729",
+   "t_he": "",
+   "t_en": "Dvar Torah Questions and Answers on Chayei Sarah",
+   "x": "Dvar Torah Questions and Answers on Chayei Sarah",
+   "ax": "\"ויהיו חיי שרה מאה שנה ועשרים שנה ושבע שנים שני חיי שרה\" “And Sarah lived one hundred years, twenty years and seven years, the years of Sarah’s life.” (23:1) Q…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2819784",
+   "t_he": "",
+   "t_en": "Dvar Torah Questions and Answers on Toldot",
+   "x": "Dvar Torah Questions and Answers on Toldot",
+   "ax": "\"ואלה תולדת יצחק בן אברהם אברהם הוליד את יצחק\" “And these are the offspring of Yitzchak son of Avraham; Avraham gave birth to Yitzchak.” (25:19) QUESTION: Why…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2819870",
+   "t_he": "",
+   "t_en": "Dvar Torah Questions and Answers on Vayeitzei",
+   "x": "Dvar Torah Questions and Answers on Vayeitzei",
+   "ax": "\"ויקח מאבני המקום וישם מראשתיו\" “He took from the stones of the place and he placed them around (under) his head.” (28:11) QUESTION: Rashi says that he wanted…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2819893",
+   "t_he": "",
+   "t_en": "Dvar Torah Questions and Answers on Vayishlach",
+   "x": "Dvar Torah Questions and Answers on Vayishlach",
+   "ax": "\"וישלח יעקב מלאכים\" “And Yaakov sent messengers.” (32:4) QUESTION: Rashi comments: “Malachim mamash” — “Actual angels.” What right did Yaakov have to use Hashe…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2820482",
+   "t_he": "",
+   "t_en": "Dvar Torah Questions and Answers on Vayeishev",
+   "x": "Dvar Torah Questions and Answers on Vayeishev",
+   "ax": "\"וישב יעקב בארץ מגורי אביו בארץ כנען\" “And Yaakov dwelt in the land of his father’s sojournings in the land of Canaan.” (37:1) QUESTION: “Yaakov desired to dwe…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2820488",
+   "t_he": "",
+   "t_en": "Dvar Torah Questions and Answers on Mikeitz",
+   "x": "Dvar Torah Questions and Answers on Mikeitz",
+   "ax": "\"והנה שבע שבלים עלות בקנה אחד בריאות וטבות והנה שבע שבלים דקות ושדופת קדים צמחות אחריהן\" “Behold, seven ears of grain came up upon one stalk healthy and good,…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2820517",
+   "t_he": "",
+   "t_en": "Dvar Torah Questions and Answers on Vayigash",
+   "x": "Dvar Torah Questions and Answers on Vayigash",
+   "ax": "\"ויגש אליו יהודה ויאמר בי אדני ידבר נא עבדך דבר... כי כמוך כפרעה\" “And Yehudah came near him, and said: ‘Oh my lord, please let your servant speak a word... fo…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2820535",
+   "t_he": "",
+   "t_en": "Dvar Torah Questions and Answers on Vayechi",
+   "x": "Dvar Torah Questions and Answers on Vayechi",
+   "ax": "\"ויחי יעקב\" “And Yaakov lived.” (47:28) QUESTION: Why does the parshah which discusses the death of Yaakov start with the words \"ויחי יעקב\" — “And Yaakov lived…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2820553",
+   "t_he": "",
+   "t_en": "Questions and Answers on Shemot",
+   "x": "Questions and Answers on Shemot",
+   "ax": "Vedibarta Bam - Torah Vedibarta Bam - Holidays Vedibarta Bam - Pirkei Avot Vedibarta Bam - Marriage Vedibarta Bam - For Your Table More...",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2820554",
+   "t_he": "",
+   "t_en": "Foreword to Vedibarta Bam - Shemot",
+   "x": "Foreword to Vedibarta Bam - Shemot",
+   "ax": "With much thanks to Hashem, I present to you dear readers, the second volume of Vedibarta Bam. This volume discusses Chumash Shemot, and follows the same forma…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2820558",
+   "t_he": "",
+   "t_en": "Dvar Torah Questions and Answers on Shemot",
+   "x": "Dvar Torah Questions and Answers on Shemot",
+   "ax": "\"ואלה שמות בני ישראל הבאים מצרימה\" “And these are the names of the children of Israel who were coming to Egypt.” (1:1) QUESTION: It should have said “asher ba’…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2820604",
+   "t_he": "",
+   "t_en": "Dvar Torah Questions and Answers on Va’eira",
+   "x": "Dvar Torah Questions and Answers on Va’eira",
+   "ax": "\"וידבר אלקים אל משה ויאמר אליו אני ה'\" “G‑d spoke to Moshe and said to him, ‘I am G‑d.’” (6:2) QUESTION: This is the second pasuk of the sixth chapter, and it…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 208,
    "s": "upload"
   }
  ]

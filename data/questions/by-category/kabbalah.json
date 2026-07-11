@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "kabbalah",
- "count": 636,
+ "count": 640,
  "entries": [
   {
    "id": "ye-11561",
@@ -10315,6 +10315,76 @@
    "c": "kabbalah",
    "y": 2026,
    "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2628200",
+   "t_he": "",
+   "t_en": "Can a Soulmate Be Stolen?",
+   "x": "Question: A friend of mine says she is in no rush to get married, but feels pressured to “get out there” lest she miss out on her soulmate. I say that if it is…",
+   "ax": "It is most certainly possible to miss out on your soulmate. The Talmud discusses certain times of the year when Jewish law does not allow weddings to take plac…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2705100",
+   "t_he": "",
+   "t_en": "Can I Calculate the Date of Moshiach’s Arrival?",
+   "x": "Can I Calculate the Date of Moshiach’s Arrival?",
+   "ax": "Jacob called his sons, and he said: \"Come together that I may tell you what is to befall you in the end of days. Assemble and listen, O sons of Jacob, and list…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2718066",
+   "t_he": "",
+   "t_en": "What Does L'chatchila Ariber Mean?",
+   "x": "Question: I was at a chassidic gathering where the Chabad rabbi was discussing overcoming adversity. He used the Yiddish saying of the fourth Chabad rebbe, the…",
+   "ax": "I'm happy you asked the question. The saying is indeed used often in Chabad circles, and it holds an idea that is important to articulate. This saying originat…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2759448",
+   "t_he": "",
+   "t_en": "Where Can I Apply to Become a Chabad Emissary?",
+   "x": "Where Can I Apply to Become a Chabad Emissary?",
+   "ax": "Of the hundreds of e-mails we receive every day at Chabad.org, many are from adventuresome, idealistic young men and women seeking to work at a Chabad house in…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 208,
    "s": "upload"
   }
  ]

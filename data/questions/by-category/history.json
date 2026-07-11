@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "history",
- "count": 1538,
+ "count": 1539,
  "entries": [
   {
    "id": "ye-4787",
@@ -24854,6 +24854,23 @@
    "c": "history",
    "y": 2026,
    "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2613870",
+   "t_he": "",
+   "t_en": "Jewish Soul in a Non-Jewish Body?",
+   "x": "Question Sometimes I feel like I am a Jewish soul born into a non-Jewish body. I have always been surrounded by Jewish friends and loved the Jewish religion, a…",
+   "ax": "Many people from different walks of life have reported feeling an affinity towards Jews and Judaism. Most people leave it at that. For those who make the choic…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 208,
    "s": "upload"
   }
  ]

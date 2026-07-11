@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "talmud",
- "count": 3568,
+ "count": 3574,
  "entries": [
   {
    "id": "ye-2010112513418718",
@@ -57688,6 +57688,109 @@
    "c": "talmud",
    "y": 2026,
    "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1791975",
+   "t_he": "",
+   "t_en": "Is Turning the Other Cheek a Jewish Value?",
+   "x": "Dear Rabbi, I have been under the impression that “turning the other cheek” to your enemies is not a Jewish approach. But recently a friend pointed out the ver…",
+   "ax": "Don’t Turn The Cheek! It is clear that “turning the other cheek” to a violent aggressor is not the Jewish way. King Solomon, wisest of all men, proclaimed: The…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2398444",
+   "t_he": "",
+   "t_en": "Midrash",
+   "x": "Midrash",
+   "ax": "The midrash is a repository of rabbinic wisdom, storytelling, and tradition—often couched within the verses of scripture, which the rabbis mine for layer upon…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2398445",
+   "t_he": "",
+   "t_en": "Is Midrash for Real?",
+   "x": "Is Midrash for Real?",
+   "ax": "Once again, Rabbi Schneur Zalman rested his head on his arms. Finally he lifted his head, opened his eyes and asked me, “How do you explain to your students th…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2400891",
+   "t_he": "",
+   "t_en": "Midrash Is for Lovers",
+   "x": "Midrash Is for Lovers",
+   "ax": "A Jewish soul does not live on literalisms alone. All of us need a healthy serving of allusions, parables and mysteries in our lives. That pretty much sums up…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2401095",
+   "t_he": "",
+   "t_en": "Midrash and Reality",
+   "x": "Midrash and Reality",
+   "ax": "In the last installment we heard from R. Saadia Gaon in the Department of Simple Meanings (peshat) and from Maimonides in the Department of Deeper Meanings (de…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2818918",
+   "t_he": "",
+   "t_en": "Vedibarta Bam",
+   "x": "Vedibarta Bam",
+   "ax": "Vedibarta Bam - Torah Vedibarta Bam - Holidays Vedibarta Bam - Pirkei Avot Vedibarta Bam - Marriage Vedibarta Bam - For Your Table More...",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 208,
    "s": "upload"
   }
  ]

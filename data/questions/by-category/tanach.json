@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "tanach",
- "count": 7736,
+ "count": 7745,
  "entries": [
   {
    "id": "ye-4809",
@@ -124368,6 +124368,161 @@
    "c": "tanach",
    "y": 2026,
    "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1769366",
+   "t_he": "",
+   "t_en": "What Does the Name Hadassah Mean?",
+   "x": "What Does the Name Hadassah Mean?",
+   "ax": "The name Hadassah (Heb. הדסה) was one of the names of Queen Esther, the heroine of the Purim story, and is now given to Jewish girls. The name is of biblical o…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1806565",
+   "t_he": "",
+   "t_en": "Why Toil in My Torah Studies?",
+   "x": "Hi, On the verse in Leviticus (26:3), “If you follow My statutes and observe My commandments and perform them,” the commentator Rashi explains that “if you fol…",
+   "ax": "Yes, the study of Torah, Jewish teachings, can be very uplifting, enjoyable, and intellectually stimulating. But what if it isn’t? What if you hit an area of s…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1883118",
+   "t_he": "",
+   "t_en": "What Is the Midpoint of the Torah?",
+   "x": "Dear Rabbi, What is the middle letter of the Torah? I read that it was the letter vav of the word gachon (גחון) in Leviticus (11:42). My friend says that that…",
+   "ax": "Actually, you and your friend are both correct and incorrect. The Talmud discusses various halfway points in the Torah, and lists the vav in the word gachon as…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2013020",
+   "t_he": "",
+   "t_en": "Was Abraham Jewish?",
+   "x": "Was Abraham Jewish?",
+   "ax": "Did the Chosen Nation Start with Abraham? Abraham is widely known as the first Jew1—including in some excellent articles on our site.2 But Abraham (and all the…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2295081",
+   "t_he": "",
+   "t_en": "My Kid Thinks Moses Was Ten Feet Tall!",
+   "x": "My Kid Thinks Moses Was Ten Feet Tall!",
+   "ax": "Dear Rabbi, My Chabad rebbetzin nudged me so much—and she was so nice about it—until I put my little boy in their Hebrew School. It’s wonderful to see the enth…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2401222",
+   "t_he": "",
+   "t_en": "Limitless Truth for the Limited Mind",
+   "x": "Limitless Truth for the Limited Mind",
+   "ax": "The very first day I came to cheder1 as a small child, I was brought by my father and my uncle. As is the custom, they threw candies at me, and they told me th…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2451435",
+   "t_he": "",
+   "t_en": "Names, Verses, and Flaming Hot Rods",
+   "x": "Names, Verses, and Flaming Hot Rods",
+   "ax": "Dear Rabbi, While reciting the prayers today, I noticed a footnote at the end of the Amidah (standing prayer), instructing me to recite a verse corresponding t…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2496166",
+   "t_he": "",
+   "t_en": "Progressive Ancient Jewish Education",
+   "x": "Hello Chabad, You rabbis seem to take it as a given that wisdom flows from the vast amount of writings (biblical and more recent), history, interpretations, op…",
+   "ax": "Thank you for sending this. I found your critique very helpful. I’m especially concerned about your feeling shut out of the dialogue because before I came to y…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2590040",
+   "t_he": "",
+   "t_en": "Should the Torah be Rated PG?",
+   "x": "Question: I have a three-year-old who is quite bright. I try to read to her and teach her as much as I can about stories from the Torah, but recently it’s beco…",
+   "ax": "It’s funny: all these stories you mention, kids have absolutely no problem with them. It’s we adults who have the issues. We have become morally queasy. But ou…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 208,
    "s": "upload"
   }
  ]
