@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "talmud",
- "count": 3590,
+ "count": 3594,
  "entries": [
   {
    "id": "ye-2010112513418718",
@@ -58061,6 +58061,75 @@
     "chabad",
     "talmud",
     "tisha-b-av-and-the-3-weeks-2026",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5258600",
+   "t_he": "",
+   "t_en": "Where Did the 70 Nations Come From?",
+   "x": "Where Did the 70 Nations Come From?",
+   "ax": "The concept of there being “70 languages” is found in various passages of the Talmud and Midrash. For example, the Talmud tells us that when G‑d gave the Torah…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5489250",
+   "t_he": "",
+   "t_en": "Why Count the Omer Standing Up?",
+   "x": "Why Count the Omer Standing Up?",
+   "ax": "Starting from the second night of Passover (the 16th day of the Hebrew month of Nissan), we count 49 days, culminating with the 50th day, the holiday of Shavuo…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "sefirat-haomer",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5576451",
+   "t_he": "",
+   "t_en": "Who Was Ravshakeh, Who Insulted King Hezekiah?",
+   "x": "Who Was Ravshakeh, Who Insulted King Hezekiah?",
+   "ax": "Around 2,600 years ago, the Kingdom of Judea was under grave threat. The neighboring Kingdom of Israel had been conquered by the mighty Assyrian Empire, and mo…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5738546",
+   "t_he": "",
+   "t_en": "What Is Talmudic?",
+   "x": "What Is Talmudic?",
+   "ax": "Talmudic is defined as “relating to Talmud,” the central repository of rabbinic tradition, law, and teaching. Read: What Is Talmud? Talmudic Scholarship The Ta…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
     "article"
    ],
    "c": "talmud",

@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "tanach",
- "count": 7805,
+ "count": 7812,
  "entries": [
   {
    "id": "ye-4809",
@@ -125549,6 +125549,128 @@
     "tanach",
     "inspiration-entertainment",
     "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5337988",
+   "t_he": "",
+   "t_en": "How Was Jacob Embalmed? Is It Against Torah?",
+   "x": "How Was Jacob Embalmed? Is It Against Torah?",
+   "ax": "Joseph commanded his servants, the physicians, to embalm his father, and the physicians embalmed Israel. And forty days were completed for him for so are the d…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5358336",
+   "t_he": "",
+   "t_en": "Why Did G-d Smite the Firstborn?",
+   "x": "Why Did G-d Smite the Firstborn?",
+   "ax": "Even before Moses arrived in Egypt, G‑d told him to warn Pharaoh about a plague. Not the plague of blood, which came first, but a warning about the last and ha…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5553944",
+   "t_he": "",
+   "t_en": "Can Gun Sellers Be Held Responsible?",
+   "x": "Can Gun Sellers Be Held Responsible?",
+   "ax": "It seems like a never-ending cycle. After every tragic instance of mass shooting, the issue of gun control is once again discussed. What does Jewish law say ab…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5567539",
+   "t_he": "",
+   "t_en": "14 Facts About the Book of Psalms",
+   "x": "14 Facts About the Book of Psalms",
+   "ax": "1. Tehillim Is Also Known as Psalms Tehillim, a book slim in size but towering in importance, has a special place in the Jewish library. Its Hebrew name, Tehil…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5753263",
+   "t_he": "",
+   "t_en": "Is Moses a Jewish or Egyptian Name?",
+   "x": "Is Moses a Jewish or Egyptian Name?",
+   "ax": "The Torah recounts how, three months after Moses was born, his mother tucked him into a basket, which she placed in the marsh at the river’s edge. Later, Phara…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5805258",
+   "t_he": "",
+   "t_en": "What Happened at Marah?",
+   "x": "What Happened at Marah?",
+   "ax": "Immediately following the Splitting of the Sea, the Torah recounts how our ancestors came to a place they would ultimately call Marah, which means “bitter.” In…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5926722",
+   "t_he": "",
+   "t_en": "What Is the Septuagint?",
+   "x": "What Is the Septuagint?",
+   "ax": "The Septuagint (derived from the Latin word for “seventy”) refers to the (Koine) Greek translation of Scripture that has become the basis for most non-Jewish t…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
    ],
    "c": "tanach",
    "y": 2026,

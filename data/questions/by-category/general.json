@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "general",
- "count": 19390,
+ "count": 19424,
  "entries": [
   {
    "id": "ye-200912288164429",
@@ -316934,6 +316934,618 @@
    "c": "general",
    "y": 2026,
    "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5254206",
+   "t_he": "",
+   "t_en": "What Does “G’Mar Chatima Tova” Mean?",
+   "x": "What Does “G’Mar Chatima Tova” Mean?",
+   "ax": "G’mar chatima tova is the traditional Hebrew greeting said before (and on) Yom Kippur, the holiest day of the Jewish year and the culmination of the High Holid…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5282848",
+   "t_he": "",
+   "t_en": "Why Are Jews Buried in White Linen Shrouds?",
+   "x": "Why Are Jews Buried in White Linen Shrouds?",
+   "ax": "The time-honored Jewish custom is to bury our departed in (inexpensive) linen shrouds. This dates back two millennia to the times of Rabban Gamliel the Elder i…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5310840",
+   "t_he": "",
+   "t_en": "What Is a Gemach?",
+   "x": "What Is a Gemach?",
+   "ax": "My neighbor, Chava, puts the dislocated arms of children back in place. A parent comes with their child in tow. They knock on the door, Chava opens it, looks d…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5329600",
+   "t_he": "",
+   "t_en": "On the Order of Stacking Seforim (Sacred Books)",
+   "x": "On the Order of Stacking Seforim (Sacred Books)",
+   "ax": "“The Torah and the Holy One, blessed be He, are one.”1 In Judaism, a sefer (pl. seforim) is not just a book containing knowledge, nor is it simply a book that…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5416751",
+   "t_he": "",
+   "t_en": "Did Achashverosh Rule the World?",
+   "x": "Did Achashverosh Rule the World?",
+   "ax": "The Talmud1 states that King Achashverosh (also spelled Ahasuerus) of the Purim saga “ruled the globe (kippah).” Some interpret this to mean that his empire ex…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5504927",
+   "t_he": "",
+   "t_en": "Why No Touching Food Before Morning Handwashing?",
+   "x": "Why No Touching Food Before Morning Handwashing?",
+   "ax": "Upon waking in the morning, we recite the Modeh Ani and then wash our hands (AKA netilat yadayim, or negel vasser in Yiddish). The procedure for washing the ha…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5505561",
+   "t_he": "",
+   "t_en": "Do Dates Coincide Every 19 Years?",
+   "x": "A friend told me that due to how the Jewish and Gregorian calendars are set, one’s Jewish and secular birthdays coincide every 19 years. But I just checked you…",
+   "ax": "This is indeed conventional wisdom, and the 19th birthdays indeed coincide for many people, but not for most. To understand this, a general understanding of th…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5529330",
+   "t_he": "",
+   "t_en": "Why Tikkun Over Deep Learning?",
+   "x": "Why Tikkun Over Deep Learning?",
+   "ax": "There is a widespread custom to stay up the entire night of Shavuot learning Torah. While some spend the night learning whatever Torah topic they fancy, many h…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5548614",
+   "t_he": "",
+   "t_en": "Why the Fast on 20 Sivan?",
+   "x": "Why the Fast on 20 Sivan?",
+   "ax": "The 20th of Sivan commemorates a number of tragedies that befell the Jewish people over the centuries. Some of them were so horrifying that a Jewish scholar wr…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5557360",
+   "t_he": "",
+   "t_en": "Why the Notes at the Kotel (and Gravesites)?",
+   "x": "Why the Notes at the Kotel (and Gravesites)?",
+   "ax": "Jews pray virtually in every place and at every time. Yet we often make the special effort to do so at holy places, where G‑d’s Presence is felt even more stro…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5571735",
+   "t_he": "",
+   "t_en": "Can Animals Sense the Paranormal?",
+   "x": "Can Animals Sense the Paranormal?",
+   "ax": "From being able to detect certain illnesses to exhibiting strange behaviors days before an earthquake, animals exhibit extraordinary senses. Some have even des…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5577274",
+   "t_he": "",
+   "t_en": "The Levite Choir and Orchestra: What, Who and How?",
+   "x": "The Levite Choir and Orchestra: What, Who and How?",
+   "ax": "During the time of year that we mourn the destruction of the Holy Temple, it is customary to learn the laws of the Holy Temple as a means to hasten its rebuild…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5585099",
+   "t_he": "",
+   "t_en": "How Were the Priests Divided?",
+   "x": "How Were the Priests Divided?",
+   "ax": "The Torah dictates that the descendants of Aaron (the Kohanim) be separated from within the tribe of Levi and be prepared to serve in the Holy Temple (or Taber…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5587721",
+   "t_he": "",
+   "t_en": "Who Authored the Kinot Said on Tisha B'Av?",
+   "x": "Who Authored the Kinot Said on Tisha B'Av?",
+   "ax": "On Tisha B’Av, the day of the destruction of our Holy Temples in Jerusalem, we recite kinot, poetic dirges and elegies mourning the destruction of Jerusalem an…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5587729",
+   "t_he": "",
+   "t_en": "When Is a Jew No Longer Jewish?",
+   "x": "When Is a Jew No Longer Jewish?",
+   "ax": "The internet is a place where, for better or worse, everyone is essentially free to claim whatever they want about anyone else. Some have thus claimed that peo…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5611611",
+   "t_he": "",
+   "t_en": "The Mysterious Eglah Arufah (‘Decapitated Calf’)",
+   "x": "The Mysterious Eglah Arufah (‘Decapitated Calf’)",
+   "ax": "One of the more intriguing mitzvahs in the Torah is the ceremony of the eglah arufah (“decapitated calf”), performed when a murdered stranger was found out in…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5614920",
+   "t_he": "",
+   "t_en": "Killing Spotted Lantern Flies and Other Invasive Species",
+   "x": "Killing Spotted Lantern Flies and Other Invasive Species",
+   "ax": "Government officials in Eastern United States have warned that the newest invasive species, the spotted lantern fly, has the potential to inflict millions of d…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5691891",
+   "t_he": "",
+   "t_en": "Does Inflation Affect How Maaser Is Calculated?",
+   "x": "Does Inflation Affect How Maaser Is Calculated?",
+   "ax": "As I grapple with the effects of high inflation on our budget, I was wondering, can we take inflation into consideration when calculating how much we should gi…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5694247",
+   "t_he": "",
+   "t_en": "What Does Baruch Hashem Mean?",
+   "x": "What Does Baruch Hashem Mean?",
+   "ax": "Baruch Hashem (ברוך השם) is Hebrew for “Blessed be G‑d,” and is used by Jewish people in everyday conversation as a way of expressing gratitude to G‑d for what…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5706950",
+   "t_he": "",
+   "t_en": "Why Are Torahs Written With Black Ink Only?",
+   "x": "Why Are Torahs Written With Black Ink Only?",
+   "ax": "Although the Torah does not clearly state that its letters must be written in black, this law is known as halachah leMoshe miSinai, an oral tradition going bac…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5711546",
+   "t_he": "",
+   "t_en": "Is It OK to Tell Kids About the Tooth Fairy?",
+   "x": "My wife and I disagree about the tooth fairy. We both know it doesn't exist; that's not the debate. The debate is whether it is a dangerous thing to teach our…",
+   "ax": "I don't think the tooth fairy is all that dangerous, but why spark a child’s imagination with made-up characters when we can do so with real imaginary characte…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5752241",
+   "t_he": "",
+   "t_en": "What Is the Meaning of Israel?",
+   "x": "The homeland of the Jews (also called the Israelites) is the Land of Israel. Excuse my ignorance, but what does the word “Israel” actually mean?",
+   "ax": "That’s an important question. Names are significant; your name is your essence, your true self, your mission. And the name of a nation describes its collective…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5786135",
+   "t_he": "",
+   "t_en": "What Is a Kollel?",
+   "x": "What Is a Kollel?",
+   "ax": "Kollel (literally “collective” or “group”) most commonly refers to an institute of (advanced) Torah scholarship, particularly one whose students are married me…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5817711",
+   "t_he": "",
+   "t_en": "Who Is Responsible When Children Break Things?",
+   "x": "Who Is Responsible When Children Break Things?",
+   "ax": "One of my neighbors’ kids was playing near my home and damaged my property. Are the parents supposed to pay for it? The Letter of the Law Before we get to the…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5824659",
+   "t_he": "",
+   "t_en": "Can a Telemarketer Use a Fake Name?",
+   "x": "Can a Telemarketer Use a Fake Name?",
+   "ax": "At first glance, this seems to be a simple question of whether one is permitted to lie. Generally speaking, using a fake name when making cold calls seems to b…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5995642",
+   "t_he": "",
+   "t_en": "Can My Neighbor Make Me Move My BBQ or Bonfire?",
+   "x": "Can My Neighbor Make Me Move My BBQ or Bonfire?",
+   "ax": "The adage “Where there’s smoke, there’s fire” is more than just a metaphor. According to halachah, the liability for the damages caused by a fire usually inclu…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5999333",
+   "t_he": "",
+   "t_en": "Why Don’t Chassidim Wear Sunglasses?",
+   "x": "Why Don’t Chassidim Wear Sunglasses?",
+   "ax": "Question: I live near a Chassidic neighborhood and I never seem to see Chassidim wearing sunglasses. Is there a reason? The Quick Answer: Look Again The simple…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6001982",
+   "t_he": "",
+   "t_en": "Why Does the Shomer “Watch” the Dead?",
+   "x": "Why Does the Shomer “Watch” the Dead?",
+   "ax": "When a Jew passes away, it is a mitzvah for another Jew to watch over the body from the time of death until burial. This duty is known as being a shomer, a “gu…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6012340",
+   "t_he": "",
+   "t_en": "What Is a Shomer?",
+   "x": "What Is a Shomer?",
+   "ax": "Shomer (plural shomrim) is Hebrew for “guard” or “keeper,” and it is used in a variety of ways and contexts. Guarding the Deceased After a Jewish person passes…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6067396",
+   "t_he": "",
+   "t_en": "Is Human Composting Permitted in Judaism?",
+   "x": "Is Human Composting Permitted in Judaism?",
+   "ax": "I have read that due to environmental concerns about cremation, some have started opting for “human composting” (also referred to as natural organic reduction…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6133772",
+   "t_he": "",
+   "t_en": "Why Are Israeli Soldiers Snapping up Tzitzit?",
+   "x": "Why Are Israeli Soldiers Snapping up Tzitzit?",
+   "ax": "I’m reading reports from Israel that soldiers are snapping up tzitzit and their commanders are requesting hundreds more. They’ve even had to mobilize people to…",
+   "tg": [
+    "chabad",
+    "general",
+    "israel",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6133831",
+   "t_he": "",
+   "t_en": "What You Need to Know About Giving a Jewish Name",
+   "x": "What You Need to Know About Giving a Jewish Name",
+   "ax": "Naming a baby seems pretty basic—I mean, all parents do it, right? But if you think about it, it’s an awesome responsibility, since the name you choose will be…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6164143",
+   "t_he": "",
+   "t_en": "Are Social Media Platforms Responsible for Fake News and Hate Speech?",
+   "x": "Are Social Media Platforms Responsible for Fake News and Hate Speech?",
+   "ax": "Question: I was reading that the Supreme Court of the United States is going to hear a case about whether social media companies are allowed to censor users’ p…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6194737",
+   "t_he": "",
+   "t_en": "What Does HYD Stand For?",
+   "x": "What Does HYD Stand For?",
+   "ax": "When writing the name of a Jew who was murdered, G‑d forbid, it is common to append the honorific, “may G‑d exact retribution for his/her/their blood.” The Heb…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 214,
    "s": "upload"
   }
  ]

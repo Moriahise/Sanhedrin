@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "history",
- "count": 1557,
+ "count": 1560,
  "entries": [
   {
    "id": "ye-4787",
@@ -25180,6 +25180,58 @@
     "chabad",
     "history",
     "lag-baomer-2026",
+    "article"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5589569",
+   "t_he": "",
+   "t_en": "The Nearly Extinct Friday-Afternoon Jewish Wedding",
+   "x": "The Nearly Extinct Friday-Afternoon Jewish Wedding",
+   "ax": "The custom of celebrating Jewish weddings on Friday afternoon has a fascinating history. At one point it was quite common, and it has since become quite rare.…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5776631",
+   "t_he": "",
+   "t_en": "The Fascinating History of Coffee and the Jews",
+   "x": "The Fascinating History of Coffee and the Jews",
+   "ax": "Coffee originated in the Ethiopian highlands and then spread east to the Arabian peninsula. But it was not until around the 15th century that roasted coffee be…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5804884",
+   "t_he": "",
+   "t_en": "Who Were the Khazars?",
+   "x": "Who Were the Khazars?",
+   "ax": "The Khazars were a semi-nomadic people who, in the late 6th century CE, established an empire covering the southeastern section of modern European Russia, sout…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
     "article"
    ],
    "c": "history",

@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "kabbalah",
- "count": 658,
+ "count": 664,
  "entries": [
   {
    "id": "ye-11561",
@@ -10699,6 +10699,110 @@
    "c": "kabbalah",
    "y": 2026,
    "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5390117",
+   "t_he": "",
+   "t_en": "Why Are Stillborns' Graves Unmarked?",
+   "x": "Why Are Stillborns' Graves Unmarked?",
+   "ax": "Losing a child of any age is heart-wrenching, and I would encourage anyone who unfortunately is experiencing this to explore some of our articles on the topic.…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5673629",
+   "t_he": "",
+   "t_en": "Why Not Read Tehillim and Other Mikra at Night?",
+   "x": "Why Not Read Tehillim and Other Mikra at Night?",
+   "ax": "The Midrash relates that when Moses was on the mountain for 40 days and nights, he did not actually experience day and night. Yet he knew it was day when he wa…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5678558",
+   "t_he": "",
+   "t_en": "When Does the Soul Enter the Body?",
+   "x": "When Does the Soul Enter the Body?",
+   "ax": "This question has been debated for thousands of years. The Torah establishes that the embryo begins to take form 40 days after conception, but there are varyin…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-5962467",
+   "t_he": "",
+   "t_en": "Why the Torah Was Given to a Nation of Trauma Survivors",
+   "x": "Why the Torah Was Given to a Nation of Trauma Survivors",
+   "ax": "The Jews who stood at the foot of Mount Sinai and witnessed heaven coming down to earth were survivors, people who had suffered lives marked by trauma, yanked…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6031317",
+   "t_he": "",
+   "t_en": "What Is Chitas? The Daily Study Program",
+   "x": "What Is Chitas? The Daily Study Program",
+   "ax": "Chitas (or Chitat חת”ת) refers to a daily practice of studying three Jewish texts: Chumash, Tehillim, and Tanya. These texts are considered to be basic and ess…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6037869",
+   "t_he": "",
+   "t_en": "Why the Five Hebrew “Final Letters”?",
+   "x": "Why the Five Hebrew “Final Letters”?",
+   "ax": "One of the unique characteristics of the Hebrew alphabet is that there are five letters that take a different form when they appear at the end of words. They a…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 214,
    "s": "upload"
   }
  ]
