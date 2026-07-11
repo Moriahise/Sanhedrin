@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "talmud",
- "count": 3562,
+ "count": 3564,
  "entries": [
   {
    "id": "ye-2010112513418718",
@@ -57584,6 +57584,40 @@
    "c": "talmud",
    "y": 2026,
    "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-680360",
+   "t_he": "",
+   "t_en": "What Is “Ethics of Our Fathers”?",
+   "x": "What Is “Ethics of Our Fathers”?",
+   "ax": "\"He who wishes to become a chassid should fulfill the words of Avot\" Talmud, Bava Kamma 30a \"He who wishes to become a chassid should fulfill the words of Avot…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-718279",
+   "t_he": "",
+   "t_en": "The Two Talmuds",
+   "x": "Question: Why are there two Talmuds? And why is the \"Babylonian Talmud\" considered more authoritative than the \"Jerusalem Talmud\"?",
+   "ax": "You are correct that the Babylonian Talmud is much more widely studied than the Jerusalem Talmud. Furthermore, if there is a disagreement between the two talmu…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 206,
    "s": "upload"
   }
  ]

@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "tanach",
- "count": 7681,
+ "count": 7694,
  "entries": [
   {
    "id": "ye-4809",
@@ -123412,6 +123412,233 @@
     "tanach",
     "inspiration-entertainment",
     "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-673063",
+   "t_he": "",
+   "t_en": "What's the Value of the Biblical Half Shekel?",
+   "x": "What's the Value of the Biblical Half Shekel?",
+   "ax": "In terms of today's money, what would be the value of the biblical half shekel? Maimonides writes (Laws of Shekalim 1:5) that the half shekel mentioned in the…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-677136",
+   "t_he": "",
+   "t_en": "Parental Paradox",
+   "x": "Parental Paradox",
+   "ax": "One of the reasons that parenting is so difficult is because parents are caught in a paradoxical situation. What every child wants most is to be loved as he is…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-679474",
+   "t_he": "",
+   "t_en": "I Had an Abortion and Regret It",
+   "x": "Question: I had an abortion many years ago. I did it to avoid shame, but instead I am riddled with guilt. I know that I can't reverse what I have done, but is…",
+   "ax": "Guilt is to the soul what pain is to the body. Pain itself is not a good thing, but it does serve a purpose. It alerts you that there is something amiss that r…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-680928",
+   "t_he": "",
+   "t_en": "How did Naomi's sons marry non-Jewish Moabite women?",
+   "x": "Question: How was it that Naomi's two sons married non-Jewish Moabite women? From what I've read, it seems that Ruth only converted to Judaism after her husban…",
+   "ax": "The biblical commentaries discuss the question that you ask, and they suggest different answers. Some are of the opinion that Ruth and her Moabite sister-in-la…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-692875",
+   "t_he": "",
+   "t_en": "What Are Angels?",
+   "x": "What Are Angels?",
+   "ax": "The Jewish belief in angels goes as far back as the Book of Genesis, where we read about angels calling out to Abraham at the binding of Isaac, angels appearin…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-698144",
+   "t_he": "",
+   "t_en": "What Happened to Abraham's Other Descendants?",
+   "x": "Question: The average person, like myself, has been taught that Abraham had two sons: Isaac and Ishmael. The book of Genesis, however, mentions that Abraham ha…",
+   "ax": "In Genesis 25:1-6, the Torah recounts that after Sarah's death Abraham married a woman named Keturah,1 and fathered six children. According to the account in G…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-704984",
+   "t_he": "",
+   "t_en": "What Is the Jewish Take on Charity?",
+   "x": "Question: Growing up, I had always been inspired by big-name philanthropists—Rockefeller, Carnegie, Cooper, Bill Gates, etc. Now that I am coming closer to Jud…",
+   "ax": "Giving “what and when I feel like it” stems from a mindset that the money I earn is the product of my own efforts, and when I choose to give charity, I am goin…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-706947",
+   "t_he": "",
+   "t_en": "Insomnia in Children",
+   "x": "Question: My son has gotten into this pattern of tossing and turning in bed. This has been going on for five or six weeks already. He's so stressed by this tha…",
+   "ax": "Getting a good night's sleep can be much easier for your child after he's been physically active during the day. Have him ride his bike, play basket ball, jog…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-737019",
+   "t_he": "",
+   "t_en": "What if my job interferes with my spirituality?",
+   "x": "Question: Should I quit my job that is a source of bitterness, materialism and is taking away my spirituality, but also is a source of income that provides for…",
+   "ax": "You sound like a sensitive, kind person really trying to do what's best for you and your family. And you're doing an incredible Mitzvah in helping your grandmo…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-743998",
+   "t_he": "",
+   "t_en": "How do you get a Jewish soul?",
+   "x": "Question: My question has to do with the concept of the Jewish soul. I am Jewish but was raised as a devout, strict atheist. We were told by my father, a colle…",
+   "ax": "Your summary of your father's message made me laugh. It reminds me of the story of the Jewish family who sent their son to an upper class private school that h…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-748106",
+   "t_he": "",
+   "t_en": "Is There a Flawless Proof That Torah Is True?",
+   "x": "Question: Years ago I attended a seminar where we were presented with logical proofs that the Torah was delivered to us by Moses at Sinai. I was convinced and…",
+   "ax": "I have to agree with you that there is no scientifically flawless proof that the Torah we have today is exactly what Moses wrote. It’s obviously so, since ther…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-762533",
+   "t_he": "",
+   "t_en": "How to Be a Father",
+   "x": "How to Be a Father",
+   "ax": "Dear Rabbi, I’m a father, and I have no idea how to bring up a Jewish boy. All I know is not to do as my father did. Although that’s generally exactly what I e…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-774864",
+   "t_he": "",
+   "t_en": "Why weren't they protected?",
+   "x": "Question: Dear Rabbi - I know this has been answered a thousand times but I still cannot get to grips with this type of event. If hundreds of thousands of Jews…",
+   "ax": "When Chabad was an underground movement in Communist Russia, activists were being sent to Siberia every second day. Many were tortured in interrogation and lef…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
    ],
    "c": "tanach",
    "y": 2026,

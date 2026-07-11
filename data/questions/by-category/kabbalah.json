@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "kabbalah",
- "count": 609,
+ "count": 613,
  "entries": [
   {
    "id": "ye-11561",
@@ -9837,6 +9837,77 @@
    "t_en": "What Is a Jewish Birthday?",
    "x": "What Is a Jewish Birthday?",
    "ax": "Establishing a \"Jewish calendar\" was the first mitzvah (commandment) the Jewish nation received from G‑d. This unique calendar is based on the lunar month, but…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-678751",
+   "t_he": "",
+   "t_en": "Do Jews Believe in Guardian Angels?",
+   "x": "Question: Do Jews believe that each person has a guardian angel watching over him or her?",
+   "ax": "Jews certainly believe in angels – spiritual entities who exist to perform the will of G‑d (the Hebrew word for angel, \"malach,\" also means \"messenger\") – the…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-701558",
+   "t_he": "",
+   "t_en": "I feel closer to my wife at her gravesite; am I just imagining this?",
+   "x": "Question: My wife, best friend and soulmate for decades, passed away a few weeks ago. I have been going to the cemetery almost daily to visit her. Recently, ho…",
+   "ax": "The Zohar teaches that the soul has many layers. The layer called nefesh enlivens the body. The layer called ruach provides emotion. It surrounds the person, n…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-712477",
+   "t_he": "",
+   "t_en": "Is There Mystical Meaning in Klezmer?",
+   "x": "Question: It seems that Hebrew music is always in minor. Is that correct, and if so, is there a spiritual significance?",
+   "ax": "I also found this intriguing. Even more intriguing is the explanation I found in Shaarei Teshuva, a mystical work written by Rabbi Dov Ber of Lubavitch in the…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-770067",
+   "t_he": "",
+   "t_en": "Why Did G‑d Make It So Hard for Me to Be a Good Jew?",
+   "x": "Why Did G‑d Make It So Hard for Me to Be a Good Jew?",
+   "ax": "Let’s say you fell in love with a magnificent painting of a scenic landscape. So you ran off 100 photocopies to sell. Easy, right? But how much could they sell…",
    "tg": [
     "chabad",
     "kabbalah",

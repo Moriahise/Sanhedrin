@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "halacha",
- "count": 16760,
+ "count": 16814,
  "entries": [
   {
    "id": "ye-2009121811237500",
@@ -267950,6 +267950,935 @@
     "halacha",
     "inspiration-entertainment",
     "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-673052",
+   "t_he": "",
+   "t_en": "Do I Say a Blessing on Non-Kosher Food?",
+   "x": "Question: Is it improper and hypocritical to recite a blessing on non-kosher food? I'm starting to become more observant of the Torah laws, but I'm not yet at…",
+   "ax": "First of all, may I commend you for your desire to keep growing in your Judaism and spirituality. Our sages tell us (Ethics of the Fathers 4:2) \"A mitzvah brin…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-674406",
+   "t_he": "",
+   "t_en": "Why Do Women Wave Their Hands over the Shabbat Candles?",
+   "x": "Question: When lighting Shabbat candles, why do we wave our hands three times inwards before making the blessing? I saw my mother and grandmother do it, but no…",
+   "ax": "Resting takes a lot of work. Many people are great at achieving, but find it hard to stop achieving. They know how to do, but don’t know how to just be. Shabba…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-675075",
+   "t_he": "",
+   "t_en": "Kosher Q&A",
+   "x": "Kosher Q&A",
+   "ax": "Don't see the answer to your question? Click here to submit it to our Ask the Rabbi team.",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-675082",
+   "t_he": "",
+   "t_en": "Can a Granite Countertop Be Koshered?",
+   "x": "Can a Granite Countertop Be Koshered?",
+   "ax": "A completely smooth, uncoated, single slab of granite can indeed be koshered1. Here is what you would need to do: a) Scrub it completely clean. b) Do not place…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-675087",
+   "t_he": "",
+   "t_en": "Is the Internet Evil?",
+   "x": "Question: I've heard that internet is \"banned\" by the rabbis in various Jewish religious communities—it is considered one of \"Satan's tools.\" Obviously, howeve…",
+   "ax": "Based on the teachings of the Tanya1 and the Rebbe's statements regarding modern media,2 one can say that the internet in and of itself is neutral. Other than…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-680369",
+   "t_he": "",
+   "t_en": "What Is the Source for the Custom of Making a Thanksgiving Feast?",
+   "x": "Question: My friend is planning a seudat hoda'ah (thanksgiving feast) because his daughter recovered from a serious illness. What is the source for this custom…",
+   "ax": "The first documented instance of a \"thanksgiving feast\" is in Genesis 21:8, \"And the child grew and was weaned, and Abraham made a great feast on the day that…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-681584",
+   "t_he": "",
+   "t_en": "Why Aren't Customs Reversible?",
+   "x": "Question: Can you explain why laws never seem to revert back to their original form? For example, some holidays are two days outside of Israel because of the d…",
+   "ax": "Simply put, customs have the import of law since the Torah itself recognizes them as law. That makes sense, because the basis of Torah is not the book, but the…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-682641",
+   "t_he": "",
+   "t_en": "Is a Medium-Rare Steak Kosher?",
+   "x": "Question: Would it be kosher to eat a steak that is cooked medium-rare? I ask because it seems that there is still blood that comes out of the meat when cooked…",
+   "ax": "The laws of kashrut require the extraction and drainage of all blood from beef or fowl within 72 hours of slaughtering. This is accomplished through a unique s…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-684638",
+   "t_he": "",
+   "t_en": "What Blessing Do I Say on Cantaloupe?",
+   "x": "What Blessing Do I Say on Cantaloupe?",
+   "ax": "The correct blessing on cantaloupe is Ha'adamah—the blessing recited on \"vegetables,\" or \"produce from the ground.\" When determining the proper blessing to say…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-684725",
+   "t_he": "",
+   "t_en": "Do I Need to Feed My Cat Kosher Pet Food?",
+   "x": "Do I Need to Feed My Cat Kosher Pet Food?",
+   "ax": "In general, the laws of kosher are for (Jewish) humans, not for animals. There are, however, two sorts of non-kosher food that we are not only forbidden to eat…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-695069",
+   "t_he": "",
+   "t_en": "Are Brown Eggs Kosher?",
+   "x": "Are Brown Eggs Kosher?",
+   "ax": "Brown chicken eggs are kosher. Nevertheless, you do need to examine them carefully for non-kosher blood spots as brown eggs tend to have more blood spots than…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-695965",
+   "t_he": "",
+   "t_en": "How Can I Get My Kids to Pray?",
+   "x": "Question: How can I get my young children excited about saying their prayers every morning? How do I get them to stop making those awful faces when I ask them…",
+   "ax": "Did you ever talk with the children about why we pray? I don't mean sitting them down for another lecture. I mean, for example when you read them a book or tal…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-696223",
+   "t_he": "",
+   "t_en": "What Is the Correct Blessing to Say on Brandy or Cognac?",
+   "x": "What Is the Correct Blessing to Say on Brandy or Cognac?",
+   "ax": "Although Cognac and some brandies are wine based, the taste of the wine is completely lost in the final product. As such, the proper blessing is the standard o…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-697846",
+   "t_he": "",
+   "t_en": "Why is my mother irked that I am becoming more observant?",
+   "x": "Question: I'm a 34 year old Jewish woman who has just started keeping Shabbat. My non-observant but proudly Jewish mother constantly complains about that fact.…",
+   "ax": "Since I do not personally know your mother, it is impossible for me to give a definite explanation for her behavior. I can try, however, to offer some perspect…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-699206",
+   "t_he": "",
+   "t_en": "Is there a prayer for infertility?",
+   "x": "Question: My wife and have been trying to have children from a while, but we have been unsuccessful. Currently, my wife is undergoing a certain treatment and t…",
+   "ax": "Very often, the Rebbe would advise people in your situation to be meticulous in the observance of the laws of Family Purity. If you have not yet committed to o…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-702209",
+   "t_he": "",
+   "t_en": "Shuckling: Why Do Jews Rock While Praying?",
+   "x": "Shuckling: Why Do Jews Rock While Praying?",
+   "ax": "When Jews study Torah or pray, they often rock back and forth. This swaying, or shuckling, as it is known, is so widespread that the classic Jewish work on phi…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-702285",
+   "t_he": "",
+   "t_en": "Are Mushrooms Kosher?",
+   "x": "Are Mushrooms Kosher?",
+   "ax": "Yes, mushrooms are kosher. A mushroom is a fungus, and in general, natural fungi are kosher. Since bugs are not kosher, you should make sure that your mushroom…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-703168",
+   "t_he": "",
+   "t_en": "Help! I Don't Want to Turn Into My Father!",
+   "x": "Question: My father was a hypocrite. He pretended to take on a religious lifestyle, but it was all fake. He never spent time with any of us and didn't seem to…",
+   "ax": "You go where you want to go. But to do that, you need to rewrite your story. I'll explain: When you were a little kid, did anyone ever read you Crockett Johnso…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-703211",
+   "t_he": "",
+   "t_en": "My Fiancé Has the Same Name As My Parent!",
+   "x": "My Fiancé Has the Same Name As My Parent!",
+   "ax": "The practice of not marrying someone with the same name as one’s own parent—whether a bride with the same name as the groom’s mother, or a groom who has the sa…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-705365",
+   "t_he": "",
+   "t_en": "I want to convert to Judaism but I have a non-Jewish boyfriend...",
+   "x": "Question: I have been studying Judaism for a number of years and have spoken to my rabbi about my choice to convert. Everything was going well until my rabbi f…",
+   "ax": "Yes, there most certainly is a way for you, and everyone around you, to be happy. But you need to make a choice. And, you needn't make that choice right now. Y…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-709013",
+   "t_he": "",
+   "t_en": "Can We Throw a Homeless Person Out of Our Synagogue?",
+   "x": "Question: Dear Rabbi, Recently, at our shul, a homeless man named Joe,1 who has been attending every week, was asked by the rabbi not to enter the building any…",
+   "ax": "Dear Rep, The solution is quite simple: Provide Joe a place, either in the shul or elsewhere, to store his things. Find other ways that he can be helped withou…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-709029",
+   "t_he": "",
+   "t_en": "Help! I Ate Something That Wasn’t Kosher!",
+   "x": "Help! I Ate Something That Wasn’t Kosher!",
+   "ax": "Dear Rabbi, It was an accident, but I feel so guilty and awfully depressed about it. I feel like my soul and body are contaminated forever. How can I make up f…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-709030",
+   "t_he": "",
+   "t_en": "Is it Okay to be a Hypocrite?",
+   "x": "Question: I feel funny wearing tzitzit when I drive to the synagogue on Shabbat. My rabbi says I shouldn't take them off, but it seems so hypocritical.",
+   "ax": "We humans are full of paradox and contradiction - starting from the fact that our very existence is a marriage of opposites: a composite of body and soul, spir…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-712032",
+   "t_he": "",
+   "t_en": "Why Is Honey Kosher?",
+   "x": "Why Is Honey Kosher?",
+   "ax": "The rabbis of the Talmud discuss this question.1 The Mishnah states \"that which comes from something which is not kosher is not kosher, and that which comes fr…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-712087",
+   "t_he": "",
+   "t_en": "Are Peacocks and Peacock Eggs Kosher?",
+   "x": "Are Peacocks and Peacock Eggs Kosher?",
+   "ax": "Unlike mammals, the Torah does not specify signs to differentiate between kosher and non-kosher birds. The Torah (Deuteronomy 14:11-21) lists twenty-four types…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-713537",
+   "t_he": "",
+   "t_en": "Do you have to give up music to do teshuvah?",
+   "x": "Question: I feel quite sad for a dearly loved friend I've got back in touch. Years ago, he once was a professional solo composer and lyricist at the time of hi…",
+   "ax": "It's not right, it's not good, but I wouldn't worry so much—he'll get past it. The proper path is to serve G_d with all the talents He has given you. He gave y…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-715505",
+   "t_he": "",
+   "t_en": "Is It a Mitzvah for a Couple to Remarry?",
+   "x": "Question: Is it a mitzvah for a divorced couple to remarry one another?",
+   "ax": "Yes. The Jerusalem Talmud1 see this in Isaiah 58:7, where the prophet exhorts the Jew not to \"hide from your flesh,\" i.e. to look out for our relatives. Rabbi…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-715506",
+   "t_he": "",
+   "t_en": "Why Do the Cohanim Hide for the Blessing?",
+   "x": "Question: Why do the Cohanim cover themselves and their hands when they do the priestly blessing? Why do the people cover themselves in their talitot?",
+   "ax": "The Cohanim are meant to concentrate on blessing the congregation, and the congregation should concentrate on receiving the blessing. So that the Cohanim shoul…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-719677",
+   "t_he": "",
+   "t_en": "When is a Jew not a Jew?",
+   "x": "Question: Our daughter is dating a young man age 27 who professes to be a Christian. My daughter is a committed Christian. We met his parents last night and fo…",
+   "ax": "Judaism is really quite unique – can you imagine a person who does not believe in Christ calling himself a Christian? Or someone who does not follow the teachi…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-741125",
+   "t_he": "",
+   "t_en": "Why is bidding allowed on Shabbat?",
+   "x": "Question: Recently, I learned that we do not handle money or buy and sell on Shabbat. How does this square with the practice of making appeals and bidding for…",
+   "ax": "Yes, there is a time-honored custom of bidding for the merit of opening and closing the ark and carrying and reciting the blessings over the Torah. While some…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-743800",
+   "t_he": "",
+   "t_en": "What Blessings Should I Say on Rice?",
+   "x": "Question: What blessings should I say before and after eating rice?",
+   "ax": "There are different opinions as to which is the blessing to be recited before eating rice: Some halachic authorities say it is mezonot; others say it is ha'ada…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-743952",
+   "t_he": "",
+   "t_en": "What to do with a disturbing member?",
+   "x": "Question: We are a small Jewish community, about 30 people, outside the U.S. in a 3rd world country. We have no rabbi. One of the Jews here disturbs other memb…",
+   "ax": "You are right that every Jew is valuable, especially when there are so few of you. Unless a Jew is a real danger to the rest of the community s/he must not be…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-743976",
+   "t_he": "",
+   "t_en": "Loss of a child",
+   "x": "Question: G‑d chose to take away my dear son from me. Can I have my son back as a newly born son with G‑d's blessings?",
+   "ax": "The Midrash1 tells the story of Bruriah, the wife of Rabbi Meir. The couple was blessed with two boys. Lively and bright, the boys brought their parents much j…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-745995",
+   "t_he": "",
+   "t_en": "Why Do We Cover the Challah Bread on the Shabbat Table?",
+   "x": "Why Do We Cover the Challah Bread on the Shabbat Table?",
+   "ax": "There are a number of reasons for this tradition. 1. When our ancestors traveled in the desert for forty years, they subsisted on the manna that miraculously f…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-746604",
+   "t_he": "",
+   "t_en": "Why No Nuts on Rosh Hashanah?",
+   "x": "Why No Nuts on Rosh Hashanah?",
+   "ax": "There is a custom, mainly among Ashkenazic Jewry, to refrain from eating nuts on Rosh Hashanah. There are different reasons given for this custom, each impacti…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-746659",
+   "t_he": "",
+   "t_en": "Why Do We Blow One Hundred Shofar Blasts on Rosh Hashanah?",
+   "x": "Question: Why do we blow the shofar so many times on Rosh Hashanah?",
+   "ax": "There are different customs as to how many times the shofar is blown on Rosh Hashanah. In most communities, the shofar is blown one hundred times. Here’s how w…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-749330",
+   "t_he": "",
+   "t_en": "Why all the rabbinic safeguards?",
+   "x": "Question: I don't understand why the rabbis created so many laws to ensure that we do not transgress any of the Torah's laws; don't they trust us to do things…",
+   "ax": "Here is an analogy: You insure your house, health, and the things which are important to you. You don't say that I trust myself not to fall down the steps, and…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-749894",
+   "t_he": "",
+   "t_en": "Do I have to sleep in the sukkah?",
+   "x": "Do I have to sleep in the sukkah?",
+   "ax": "The Talmud tells us that during sukkot a man is obligated to sleep in the sukkah.1 This is quoted as binding in the latter Halachic works as well.2 However, it…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "sukkot-simchat-torah-2026",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-750053",
+   "t_he": "",
+   "t_en": "Can We Get Married Between Yom Kippur and Sukkot?",
+   "x": "Can We Get Married Between Yom Kippur and Sukkot?",
+   "ax": "A couple can get married on the three days in between Yom Kippur and Sukkot. Holding a wedding on the day immediately before Sukkot is technically permitted, h…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-755717",
+   "t_he": "",
+   "t_en": "How do I return hatred with respect?",
+   "x": "Question: Coming from the midwest, I have always been told that I'm going to hell, that I'm wrong and evil and over all, I feel hated. Naturally I don't believ…",
+   "ax": "Dear A--- There were two brothers, a short older brother and a tall younger brother. Now if you were a child and had a younger brother who was taller than you,…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-756080",
+   "t_he": "",
+   "t_en": "Observance interfering with marriage",
+   "x": "Question: My wife claims that when I do the morning prayers along with the mitzvot of talit and tefillin, I seem to get lost in myself and become careless abou…",
+   "ax": "You say that one of your goals this year is to be more observant. So, obviously, that doesn't only include talit, tefillin and prayers—it includes just as much…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-756432",
+   "t_he": "",
+   "t_en": "What are the 613 Mitzvot?",
+   "x": "What are the 613 Mitzvot?",
+   "ax": "The Talmud tells us (Tractate Makkot 23b) that there are 613 commandments (mitzvot) in the Torah; 248 Positive Commandments (do's) and 365 Negative Commandment…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-757573",
+   "t_he": "",
+   "t_en": "Can I read library books on Shabbat?",
+   "x": "Question: Many libraries stamp their names on the edges of the pages of their books. Is opening or closing such a book considered erasing or writing, and there…",
+   "ax": "Writing and erasing are two of the 39 creative acts which are forbidden on Shabbat. The question is whether closing such a book is considered writing—since tha…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-759699",
+   "t_he": "",
+   "t_en": "How Can the Rabbis Add to Torah?",
+   "x": "Question: Why do the rabbis add so many laws to the Torah? Isn't that what caused Adam and Eve to sin—the fact that Eve made unwarranted additions to G‑d's law?",
+   "ax": "Good point. Actually, Moses himself warns the people not to add on to the rules of the Torah. He says, \"Don't add on to the thing I am commanding you and don't…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-760760",
+   "t_he": "",
+   "t_en": "What is so special about the aliyahs?",
+   "x": "Question: At a synagogue I recently attended, I noticed people bidding for the right to be called to the Torah, or as they called it, getting an aliyah. What i…",
+   "ax": "Let's divide your question into two parts: What is so special about an aliyah? In all Jewish communities, it is considered a great merit and honor to be called…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-761128",
+   "t_he": "",
+   "t_en": "Why Use the Mother’s Name When Praying for Someone?",
+   "x": "Why Use the Mother’s Name When Praying for Someone?",
+   "ax": "When praying for a person in a dire predicament, such as an ill individual, his or her Hebrew name is mentioned along with his/her mother's name. For example,…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-764344",
+   "t_he": "",
+   "t_en": "Which Psalms Should I Read Daily?",
+   "x": "Question: In addition to the daily prayers, I find that reading Psalms helps me feel close to G‑d, and I want to start saying them every day. Is there a custom…",
+   "ax": "Psalms is certainly a powerful book. The Midrash tells us that when King David compiled the Psalms, he had in mind himself, every Jew, and every circumstance.1…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-767153",
+   "t_he": "",
+   "t_en": "Where Does the Torah Say to Light Shabbat Candles?",
+   "x": "Question: I think this is a beautiful tradition, and I want to learn all I can about it. However, is it actually written in Torah to light a candle, or does it…",
+   "ax": "The most precious things in life are said silently. Those who need to understand—those who are not strangers, those who hear the words from the inside—understa…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-768535",
+   "t_he": "",
+   "t_en": "How do I ensure my kids will be observant?",
+   "x": "Question: Someone has to know the answer to this question: What's the secret to raising children that will stick to Jewish observance? Why is it that young men…",
+   "ax": "Dear S_____, I appreciate your concern, and your desire to make sure that your children will follow a life dedicated to Torah. I want to point out to you, howe…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-770990",
+   "t_he": "",
+   "t_en": "Why Does Torah Law Allow Polygamy?",
+   "x": "Why Does Torah Law Allow Polygamy?",
+   "ax": "Just to magnify your question somewhat, you’ll note that Torah presents the original paradigm of marriage—that of Adam and Eve—as monogamous. Furthermore, virt…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-774806",
+   "t_he": "",
+   "t_en": "Where did all our prayers go?",
+   "x": "Question: I was praying for Rabbi and Mrs. Holtzberg and all the other Jewish people in Mumbai asking for G‑d to help them. But I wonder now—why didn't He list…",
+   "ax": "Some people say that G‑d answers all prayers and sometimes the answer is \"no.\" I cannot believe such a thing. If G‑d's children pray to Him from their hearts,…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-777627",
+   "t_he": "",
+   "t_en": "Why can't you make peace?",
+   "x": "Question: I am writing to your organization to express my thoughts and feelings about the recent attacks that took place in Mumbai. I am not a Jewish person, I…",
+   "ax": "Thank you, _____, for your comments. Gaby and Rivkah Holtzberg had no problems making peace. They were there to assist the Jewish community of Mumbai of some 4…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-780465",
+   "t_he": "",
+   "t_en": "Fighting Terrorism With Mitzvot? Get Real!",
+   "x": "Question: Rabbi, you're telling us that what we need is to light symbolic candles and do a mitzvah. We're talking about a very real threat to our people! We're…",
+   "ax": "We Jews sure do mess up the \"The survival of the fittest\" theory. I mean, what are we doing here? The Egyptians, Persians, Babylonians, and Romans.... each of…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-784896",
+   "t_he": "",
+   "t_en": "Why don’t we eat the sciatic nerve?",
+   "x": "Jacob was left alone, and a man wrestled with him until the break of dawn. When he saw that he could not prevail against him, he touched the socket of his hip,…",
+   "ax": "Thank you for asking this question; it led me to a very interesting discovery: The “man” with whom Jacob battled was actually the angel of his brother Esau. Th…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
    ],
    "c": "halacha",
    "y": 2026,
