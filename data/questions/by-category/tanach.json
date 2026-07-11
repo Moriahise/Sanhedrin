@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "tanach",
- "count": 7643,
+ "count": 7655,
  "entries": [
   {
    "id": "ye-4809",
@@ -122757,6 +122757,216 @@
    "c": "tanach",
    "y": 2026,
    "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-361767",
+   "t_he": "",
+   "t_en": "What's With the Wig?",
+   "x": "Question I heard an anthropologist talking about shaitels (wigs). He said how ironic it is that observant Jewish women wear wigs. In biblical Judaism, the rule…",
+   "ax": "That anthropologist has not only mistaken a wig for real hair, but has also confused true modesty for his own version. He equates modesty with unattractiveness…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-404608",
+   "t_he": "",
+   "t_en": "Was the Holocaust a Punishment from G‑d?",
+   "x": "Question: There seems to be a tendency these days to shy away from describing the suffering of individuals and peoples as Divine punishment for their sins. I s…",
+   "ax": "You’re right, this is an important question—because it brings us face to face with the profound realism of Torah and our concept of a compassionate G‑d. Let’s…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-471020",
+   "t_he": "",
+   "t_en": "Answer #2 - Michael Katzenelson",
+   "x": "Answer #2 - Michael Katzenelson",
+   "ax": "The Kabbala describes Beauty as the synthesis of opposites, and associates it with Truth. Our human faculties for beauty and truth map nicely to this. The perc…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-471155",
+   "t_he": "",
+   "t_en": "Answer #7 - Arnie Gotfryd",
+   "x": "Answer #7 - Arnie Gotfryd",
+   "ax": "I am not a Kabbalist. Nor a philosopher. If I were, I could speak about such sublime realities like beauty and truth in something approaching an authoritative…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-476253",
+   "t_he": "",
+   "t_en": "How old was Moses when the Torah was given at Mount Sinai?",
+   "x": "How old was Moses when the Torah was given at Mount Sinai?",
+   "ax": "Moses was eighty years old at the time, the year 2448 after creation. Moses passed on in 2488 on the seventh of Adar at the age of 120, 40 years later. Now scr…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-481962",
+   "t_he": "",
+   "t_en": "What is the Torah's view on birth control?",
+   "x": "What is the Torah's view on birth control?",
+   "ax": "Like many areas of Jewish Law, the answer would be: it depends on the circumstances. As a general rule, Torah advocates having children and having as many chil…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-481979",
+   "t_he": "",
+   "t_en": "Say the truth, or keep the peace?",
+   "x": "Question: My wife recently mentioned that for the sake of maintaining marital peace and harmony its okay to \"modify\" the truth, just to avoid arguments and fig…",
+   "ax": "Tough question. Because, in principle, your wife has a point, if modifying the truth means not relating every sordid detail, especially when such details may b…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-483802",
+   "t_he": "",
+   "t_en": "When do we read the Song of Songs?",
+   "x": "When do we read the Song of Songs?",
+   "ax": "There are a number of customs; here are a few: Many have the custom to read the Song of Songs on the Shabbat of the intermediate days of Passover before the mo…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484231",
+   "t_he": "",
+   "t_en": "What constitutes \"creation?\"",
+   "x": "What constitutes \"creation?\"",
+   "ax": "Our sages have synthesized the paradigms of creation into 39 categories. There are 39 categories of activities considered to be creative. These 39 categories o…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-487778",
+   "t_he": "",
+   "t_en": "Were Moses' parents alive at the time of the Exodus?",
+   "x": "Were Moses' parents alive at the time of the Exodus?",
+   "ax": "Here is some info you might find interesting. Jocheved had the rare distinction of both entering and leaving Egypt,1 and according to tradition she actually ou…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-489751",
+   "t_he": "",
+   "t_en": "Is the Book of Daniel authentic?",
+   "x": "Question: I was recently reading a commentary on the Book of Daniel. Its introduction contended that Daniel's apocalyptic Messianic prophesies are all most eas…",
+   "ax": "The fact that all this bothers you to such a degree is the greatest proof of how much faith you do have. There's a story of a chassid who went to see his rebbe…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-496140",
+   "t_he": "",
+   "t_en": "When Did G‑d Create Light?",
+   "x": "Question: If you look at Genesis, you will see that G‑d created light on Day One. However, Scripture also says that G‑d created the sun, moon, stars, etc. on D…",
+   "ax": "The Talmud1 cites two views. One is that the light created on Day One was extremely brilliant, but G‑d foresaw that the world was undeserving of it, so He conc…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
    "s": "upload"
   }
  ]

@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "history",
- "count": 1510,
+ "count": 1518,
  "entries": [
   {
    "id": "ye-4787",
@@ -24366,6 +24366,148 @@
    "c": "history",
    "y": 2026,
    "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-329429",
+   "t_he": "",
+   "t_en": "Why Be Jewish?",
+   "x": "Question: I am teaching a high school class about threats to Judaism in the modern world. What do you see as the biggest threat to Jewish survival—assimilation…",
+   "ax": "The biggest threat to Jewish survival is confused Jewish identity. Sadly, today in many Jewish schools and families, Jewish identity is built through teaching…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-335571",
+   "t_he": "",
+   "t_en": "Proof of G-d's Existence",
+   "x": "Question: I feel that I cannot observe a religion if I am not certain that it is true. Is there a proof that could give me a 100% certainty that G‑d exists and…",
+   "ax": "Imagine you could do a blood test to determine who your soulmate is. You would go to a laboratory with a prospective partner and give blood samples, and half a…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-351781",
+   "t_he": "",
+   "t_en": "Who Needs Religion, If It's the Cause of So Much Violence?",
+   "x": "Question: I am Jewish, but cannot embrace Judaism as a religion. Religion is the cause of all wars, and I believe we would be closer to world peace without it.…",
+   "ax": "Rejecting Judaism because you believe in world peace is like refusing to enter a Japanese restaurant because you like sushi. It just doesn't make sense. War co…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-356494",
+   "t_he": "",
+   "t_en": "What Is the “Supernatural”?",
+   "x": "Question: The supernatural seems irrational, superstitious, archaic and primitive. So far, the natural world has provided explanations for the previously myste…",
+   "ax": "You distinguish between the natural and the supernatural. By “nature,” I suppose you mean a closed, logical system that can be observed, measured and explained…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-459861",
+   "t_he": "",
+   "t_en": "Are Matchmakers Honest?",
+   "x": "Are Matchmakers Honest?",
+   "ax": "First we need to hear a story from the Midrash: A Roman matron was discussing Jewish belief with Rabbi Yossi ben Halafta. \"Okay,\" she says, \"I get the part abo…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-470887",
+   "t_he": "",
+   "t_en": "Answer #1 - Chana Silberstein",
+   "x": "Answer #1 - Chana Silberstein",
+   "ax": "\"Charm is false and beauty is vanity.\" (Proverbs) Human history is littered with examples of ideas that were thought beautiful in their time, and continued to…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-482067",
+   "t_he": "",
+   "t_en": "Are Matchmakers Honest?",
+   "x": "Are Matchmakers Honest?",
+   "ax": "First we need to hear a story from the Midrash: A Roman matron was discussing Jewish belief with Rabbi Yossi ben Halafta. \"Okay,\" she says, \"I get the part abo…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-494846",
+   "t_he": "",
+   "t_en": "Why do the chassidim dress in the manner of 18th century Russian non-Jewish gentry?",
+   "x": "Why do the chassidim dress in the manner of 18th century Russian non-Jewish gentry?",
+   "ax": "The dress thing is just a classic social psychology issue. For a community to stick together they need some distinct dress. It's actually written into the Code…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 205,
    "s": "upload"
   }
  ]

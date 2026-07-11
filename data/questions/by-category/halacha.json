@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "halacha",
- "count": 16574,
+ "count": 16632,
  "entries": [
   {
    "id": "ye-2009121811237500",
@@ -264767,6 +264767,997 @@
    "c": "halacha",
    "y": 2026,
    "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-361650",
+   "t_he": "",
+   "t_en": "Why Get Married?",
+   "x": "Why Get Married?",
+   "ax": "Is Marriage Good For You? Marriage has been getting a bad rap lately, and it’s entirely unjustified. Decades of studies on human wellbeing, especially the land…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-387113",
+   "t_he": "",
+   "t_en": "Honor My Mother?!",
+   "x": "Question: I know that the Ten Commandments require us to respect our parents. But not all parents are worthy of respect. I am disgusted by the things my mother…",
+   "ax": "Respecting your mother doesn't mean that you think she is all good. But surely she can't be all bad. Surely you can think of some redeeming feature, something…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-398987",
+   "t_he": "",
+   "t_en": "Shoelaces",
+   "x": "Question: I saw the craziest thing in the Code of Jewish Law. It tells you how to tie your shoes! You are supposed to put your right shoe on before the left sh…",
+   "ax": "The shape of the human body reflects the contours of the human soul. Our body has two sides, right and left, because the soul has two distinct powers. On the o…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-431589",
+   "t_he": "",
+   "t_en": "The Joy of Sin?",
+   "x": "Question: I find Yom Kippur depressing. Why spend a day focusing on our sins and failures? Do we need to be reminded how far we are from being perfect?",
+   "ax": "Yom Kippur is a celebration of being human. And being human means being imperfect. Human failure is so predictable, G‑d has placed on the calendar an annual da…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-451444",
+   "t_he": "",
+   "t_en": "Why Get Married?",
+   "x": "Why Get Married?",
+   "ax": "Is Marriage Good For You? Marriage has been getting a bad rap lately, and it’s entirely unjustified. Decades of studies on human wellbeing, especially the land…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-461021",
+   "t_he": "",
+   "t_en": "Who Wants a Religion of No's?",
+   "x": "Who Wants a Religion of No's?",
+   "ax": "Don't drink and drive. Don't speed. Don't go through a red light. Don't drive the wrong direction on a one-way street. Don't talk on a hand-held electronic dev…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-466058",
+   "t_he": "",
+   "t_en": "Answer #1 - Michael Katzenelson",
+   "x": "Answer #1 - Michael Katzenelson",
+   "ax": "This is a very difficult question; it doesn’t seem to make sense. Let’s try to make to sense of it: \"Everything\" probably means everything physical, rather tha…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-475199",
+   "t_he": "",
+   "t_en": "Does Intermarriage Work?",
+   "x": "Question: I am Baptist and my boyfriend is Jewish. Can we still make it work? I am trying to learn about Judaism.",
+   "ax": "I've had a lot of experience with these kinds of relationships. Real short, I'll try to describe what's involved: There are two stages in a long term relations…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-475304",
+   "t_he": "",
+   "t_en": "Proper Disposal of Holy Objects",
+   "x": "Question: Rabbi, 1. Sometimes I print out pages from the web that contain G‑d's name. If I need to discard them, should I give them any proper care? Is it nece…",
+   "ax": "Great questions! Here are some guidelines on this subject prepared and distributed by the Association of Chabad Rabbis of Illinois: Objects which are used for…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-476233",
+   "t_he": "",
+   "t_en": "Is a convert who is a hemophiliac required to have a circumcision?",
+   "x": "Question: Is a convert who is a hemophiliac required to have a circumcision, if it could result in his bleeding to death?",
+   "ax": "I will answer this question in a theoretical sense. Before making any real-life decisions on the matter, you would need to present the details of the particula…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-476549",
+   "t_he": "",
+   "t_en": "When are the Ten Commandments read?",
+   "x": "When are the Ten Commandments read?",
+   "ax": "The Ten Commandments are read from the Torah during the morning service of the first day of Shavuot - the holiday which commemorates the date on which G‑d spok…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-476551",
+   "t_he": "",
+   "t_en": "What is the blessing fathers give their children on Shabbat?",
+   "x": "What is the blessing fathers give their children on Shabbat?",
+   "ax": "In many communities it is customary to bless one's children on Friday night before the Shabbat meal. Traditionally, the priestly blessing is recited, followed…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-477319",
+   "t_he": "",
+   "t_en": "Is a \"Double Ring\" Wedding Ceremony Kosher?",
+   "x": "Is a \"Double Ring\" Wedding Ceremony Kosher?",
+   "ax": "A wedding ring is symbolic of many spiritual concepts and truths, and there are many laws and customs pertaining to it. It is interesting to note that although…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-477727",
+   "t_he": "",
+   "t_en": "Is there a blessing recited when moving in to a new home?",
+   "x": "Is there a blessing recited when moving in to a new home?",
+   "ax": "When dedicating a new home, the shehecheyanu blessing is recited. The words are: Baruch Ata A-do-nai Elo-heinu Melech Haolam she-hech-e-ya-nu v'ki-ma-nu v'hi-g…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-477756",
+   "t_he": "",
+   "t_en": "Can a bar/bat mitzvah be postponed or advanced?",
+   "x": "Question: My son is turning thirteen in January of next year. My daughter will become twelve two months later. We would like to have a joint celebration for th…",
+   "ax": "Mazel tov to your family! The day of a person’s Jewish 12th or 13th birthday is very significant and should be marked appropriately. This, however, does not me…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-479541",
+   "t_he": "",
+   "t_en": "Staying Pure While Caring for the Dead",
+   "x": "Question: Positive Mitzvah 107 states: Impurity of coming in contact with a dead body — Numbers 19:11: \"He that touches the dead body of any man shall be uncle…",
+   "ax": "You are correct! Caring for the dead is a very special mitzvah and is referred to as Chesed Shel Emet (true kindness) because the recipients cannot reciprocate…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-479863",
+   "t_he": "",
+   "t_en": "Why Do We Wrap the Tefillin Straps 7 Times Around the Arm?",
+   "x": "Why Do We Wrap the Tefillin Straps 7 Times Around the Arm?",
+   "ax": "The Talmud makes no mention of how many times one should wrap the straps of tefillin around the arm, but the widespread custom is to do so seven times (in addi…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-480254",
+   "t_he": "",
+   "t_en": "Why Are Bar and Bat Mitzvah so Different?",
+   "x": "Question: I have been very moved after attending services at my local Chabad. I would consider sending my children to their Hebrew school program, but have sev…",
+   "ax": "Thank you very much for sharing. In Judaism, the roles for men and women are quite clear-cut, there are some things that a man can't do but a woman can, and vi…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-480266",
+   "t_he": "",
+   "t_en": "Why Is Challah Braided?",
+   "x": "Why Is Challah Braided?",
+   "ax": "This article is part of Ask Rabbi Y, a weekly column with fascinating question and answer that will enrich your knowledge. Sign up here to receive Rabbi Y's we…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-481191",
+   "t_he": "",
+   "t_en": "What is the blessing recited on tempeh?",
+   "x": "What is the blessing recited on tempeh?",
+   "ax": "As far as I know, tempeh is made primarily of soybeans, which grow from the ground. The blessing is therefore Haadamah. Needless to say, as tempeh is a cooked…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-481502",
+   "t_he": "",
+   "t_en": "Are Deceased Donor Transplants Allowed?",
+   "x": "Question: Our dentist has advised us that our daughter needs a dental implant — a small titanium rod screwed into her jawbone upon which a fabricated tooth wil…",
+   "ax": "The issue of an implant from a deceased donor is extensively discussed by contemporary halachic authorities. There are many opinions, many sorts of implants, a…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-482405",
+   "t_he": "",
+   "t_en": "Why is Shabbat 25 hours long instead of 24?",
+   "x": "Why is Shabbat 25 hours long instead of 24?",
+   "ax": "Shabbat lasts from nightfall to nightfall—as does every Jewish calendar date. But when exactly is nightfall? When the sun sets or when darkness sets in? Well,…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-482419",
+   "t_he": "",
+   "t_en": "Why are Jewish schools so sheltering?",
+   "x": "Question: Hi! I'm 11 years old, and until this year I was in public school. This year I am in a Chabad school in xxxx and I have a lot of questions. I was hopi…",
+   "ax": "Then there are going to be lots and lots of questions. But that's good, because it means you're learning. Learning about a very different way of life than the…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-482478",
+   "t_he": "",
+   "t_en": "Can a Rabbi Get Married?",
+   "x": "Question: I was wondering whether rabbis are allowed to get married. In my religion, the priests do not marry; is it the same in Judaism?",
+   "ax": "I once had this exact conversation with a taxi driver. He was Catholic, and asked me if rabbis marry. I told him that not only are rabbis allowed to marry, the…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-482526",
+   "t_he": "",
+   "t_en": "Why Is Torah Law So Restrictive of Contact Between the Genders?",
+   "x": "Question: I understand that Torah law prohibits physical contact between a man and a woman—or even for them to be alone in a room together—unless they are firs…",
+   "ax": "When a man and woman are together in a room, and the door closes, that is a sexual event. Not because of what is going to happen, but what has already happened…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484171",
+   "t_he": "",
+   "t_en": "Candle Lighting Questions and Answers",
+   "x": "Candle Lighting Questions and Answers",
+   "ax": "Candle-Lighting Info Insights First Person & Stories Videos Reflections Accurate Shabbat Candle-Lighting Times",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484173",
+   "t_he": "",
+   "t_en": "Why is it the woman's role to light the Shabbat candles?",
+   "x": "Why is it the woman's role to light the Shabbat candles?",
+   "ax": "Our sages have declared that the privilege of lighting the Shabbat candles belongs to the woman because: She is usually more involved in the running of the hou…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484175",
+   "t_he": "",
+   "t_en": "Why do we cover our eyes when reciting the blessing on the Shabbat candles?",
+   "x": "Why do we cover our eyes when reciting the blessing on the Shabbat candles?",
+   "ax": "Normally, the blessing is recited before the performance of a mitzvah, but here we light the candle and only afterwards recite the blessing. This is because on…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484176",
+   "t_he": "",
+   "t_en": "Why Light Two (or More) Shabbat Candles?",
+   "x": "Question: I’m wondering why we have a custom to light at least two Shabbat candles. And why do some people light more than that? How do I know how many candles…",
+   "ax": "Before getting into the explanation behind the custom, it should be noted that although the prevalent custom is to light at least two candles, strictly speakin…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484177",
+   "t_he": "",
+   "t_en": "Is any candle kosher for Shabbat candle-lighting?",
+   "x": "Is any candle kosher for Shabbat candle-lighting?",
+   "ax": "Jewish law discusses different kinds of fuels and wicks which are invalid for use on the Shabbat, because the flame that they produce is jumpy and unstable. Th…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484178",
+   "t_he": "",
+   "t_en": "Does a single man light Shabbat candles?",
+   "x": "Does a single man light Shabbat candles?",
+   "ax": "It is your obligation to light a candle, and say the blessing, every Friday evening. The mitzvah of Shabbat candles applies to men and women equally.1 However,…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484179",
+   "t_he": "",
+   "t_en": "Are lighting candles the only way one can fulfill the mitzvah of Shabbat light?",
+   "x": "Are lighting candles the only way one can fulfill the mitzvah of Shabbat light?",
+   "ax": "The Shabbat lights do not have to be candles, but they certainly should be whenever possible. Using an electric light as shabbat candles should only be done wh…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484180",
+   "t_he": "",
+   "t_en": "If I came home late and it is after sunset, should I light the Shabbat candles then?",
+   "x": "If I came home late and it is after sunset, should I light the Shabbat candles then?",
+   "ax": "No. One of the major mitzvot that characterize the Shabbat is the prohibition of all types of work. Lighting a fire is in this category and is strictly forbidd…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484185",
+   "t_he": "",
+   "t_en": "Why is it necessary to have two challahs at every Shabbat meal?",
+   "x": "Why is it necessary to have two challahs at every Shabbat meal?",
+   "ax": "It is to commemorate the fact that the Jews in the desert received a double portion of mannah every Friday in honor of Shabbat.",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484186",
+   "t_he": "",
+   "t_en": "Why is it customary to lightly run the knife over the Challah before reciting the Hamotzi blessing?",
+   "x": "Why is it customary to lightly run the knife over the Challah before reciting the Hamotzi blessing?",
+   "ax": "The common custom is to make a slight indentation in the challah with the knife before saying the hamotzi blessing. The reason for this custom is because norma…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484194",
+   "t_he": "",
+   "t_en": "Why Do We Dip the Challah Bread in Salt?",
+   "x": "Every time I’m invited for a Shabbat meal, I notice that the host dips the bread into salt before serving it. At first I thought it was just a flavor thing, bu…",
+   "ax": "Your initial assumption was actually (partially) right. Bread can be bland. We want to make a blessing over the tastiest bread, so we add salt before partaking…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484213",
+   "t_he": "",
+   "t_en": "What Is the Origin of the Bar Mitzvah Celebration?",
+   "x": "What Is the Origin of the Bar Mitzvah Celebration?",
+   "ax": "According to some, the first documented Bar Mitzvah celebration is referred to in the Torah: \"And the child [Isaac] grew and was weaned, and Abraham made a gre…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "bar-mitzvah",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484230",
+   "t_he": "",
+   "t_en": "What sense does it make not to drive or turn on the light on Shabbat?",
+   "x": "What sense does it make not to drive or turn on the light on Shabbat?",
+   "ax": "In order to understand the laws pertaining to Shabbat, we must first understand the basis and underlying nature of the Day of Rest. The reason we rest on Shabb…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484232",
+   "t_he": "",
+   "t_en": "Under what category of work prohibited on Shabbat does turning on electric lights fall, and why?",
+   "x": "Under what category of work prohibited on Shabbat does turning on electric lights fall, and why?",
+   "ax": "Here’s the short answer: By turning the lights on you are causing a fire right there in your home—there are sparks of fire created by the electricity. Another…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484233",
+   "t_he": "",
+   "t_en": "Am I allowed to rip something on Shabbat?",
+   "x": "Am I allowed to rip something on Shabbat?",
+   "ax": "Tearing is allowed as long as you are not: 1. Tearing to an exact size or measurement. 2. Tearing any words or letters. 3. Creating a viable utensil through te…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484234",
+   "t_he": "",
+   "t_en": "Why is it forbidden to turn on the hot water faucet on Shabbat?",
+   "x": "Why is it forbidden to turn on the hot water faucet on Shabbat?",
+   "ax": "When turning on the hot water you are automatically letting new water flow into the water boiler, where they are cooked. Cooking is one of the thirty-nine crea…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484235",
+   "t_he": "",
+   "t_en": "How far am I allowed to walk on Shabbat?",
+   "x": "How far am I allowed to walk on Shabbat?",
+   "ax": "Because driving, biking, blading, skateboarding or other device-driven means of transportation are prohibited on Shabbat, we walk rather than commute to synago…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484236",
+   "t_he": "",
+   "t_en": "Can I apply make-up on Shabbat?",
+   "x": "Can I apply make-up on Shabbat?",
+   "ax": "It is forbidden to apply cosmetics on Shabbat. All cosmetics fall into the forbidden categories of dyeing and/or smoothing. The only thing that is permitted is…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484237",
+   "t_he": "",
+   "t_en": "Why am I not permitted to apply body or hand creams or moisturizers on Shabbat?",
+   "x": "Why am I not permitted to apply body or hand creams or moisturizers on Shabbat?",
+   "ax": "It is forbidden to smooth out a solid (or semi-solid) object on Shabbat. One of the 39 forbidden acts on Shabbat is \"memachek\" which means smoothing out a hide…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484238",
+   "t_he": "",
+   "t_en": "May I watch TV on Shabbat if it was left on since before Shabbat?",
+   "x": "Question: I know that I am not allowed to switch on (or off) any electrical appliances on Shabbat. But may I watch TV on Shabbat if it was left on since before…",
+   "ax": "On Shabbat there are 39 forms of creative activity which are forbidden. Aside from these 39 categories of labor, it is forbidden to be involved in any activity…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484239",
+   "t_he": "",
+   "t_en": "Can I go on a cruise that extends over Shabbat?",
+   "x": "Can I go on a cruise that extends over Shabbat?",
+   "ax": "Being a passenger on a seafaring vessel on Shabbat per se does not present a problem, provided that the ship is owned1 and maintained by non-Jews, and the majo…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484240",
+   "t_he": "",
+   "t_en": "Call from Israel to US during Shabbat in the US?",
+   "x": "Call from Israel to US during Shabbat in the US?",
+   "ax": "Is it permitted for a Jew in Israel to phone a gentile in the USA when it is no longer Shabbat in Israel but it is still Shabbat in the USA? The majority of th…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484251",
+   "t_he": "",
+   "t_en": "Why do we eat Cholent on Shabbat?",
+   "x": "Why do we eat Cholent on Shabbat?",
+   "ax": "In the 2nd Temple Era, there existed a sect of Jews known as the Sadducees (named after their leader, Saddok). This misguided sect denied the Divine origin of…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484252",
+   "t_he": "",
+   "t_en": "Why is the stove covered with a sheet of hard aluminum on Shabbat?",
+   "x": "Why is the stove covered with a sheet of hard aluminum on Shabbat?",
+   "ax": "There are two reasons why the stove-top is covered on Shabbat. Obviously, this covering is only necessary if the stove is ignited in order to keep food warm fo…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484253",
+   "t_he": "",
+   "t_en": "Is it permitted to warm up a fully-cooked item on Shabbat?",
+   "x": "Is it permitted to warm up a fully-cooked item on Shabbat?",
+   "ax": "Since it is forbidden to ignite a fire on Shabbat, this question only applies if the flame on your stove is on since before the Shabbat. It is also forbidden t…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484256",
+   "t_he": "",
+   "t_en": "Why Brush Havdalah Wine Over the Eyes (and Pockets)?",
+   "x": "Why Brush Havdalah Wine Over the Eyes (and Pockets)?",
+   "ax": "Have you ever wondered why people dip their fingers into the leftover Havdalah wine? This custom, rich in meaning and tradition, follows the Havdalah ceremony…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484894",
+   "t_he": "",
+   "t_en": "What is the reason for the custom to give money gifts in multiples of 18 -- 18, 36, 54, etc.?",
+   "x": "What is the reason for the custom to give money gifts in multiples of 18 -- 18, 36, 54, etc.?",
+   "ax": "Eighteen is the numerical value of the Hebrew word \"chai\" which means \"life.\" It is a Jewish custom to give monetary gifts in increments of 18, thus symbolical…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-484902",
+   "t_he": "",
+   "t_en": "Is there a Spiritual role for a Childless, Single Middle-Aged Woman?",
+   "x": "Question: As a childless, single, middle-aged, totally non-observant woman, am I considered a failure as a Jew? Is there any other spiritual role for a woman o…",
+   "ax": "Someone once said that birth is G‑d's way of showing you that you matter. Of course you are not a failure! Every person has his or her own mission and role of…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-485596",
+   "t_he": "",
+   "t_en": "Is it permitted to use a can opener on Shabbat?",
+   "x": "Is it permitted to use a can opener on Shabbat?",
+   "ax": "There are different opinions regarding this matter. Ideally, therefore, all cans which will be needed on Shabbat should be opened prior to Shabbat — thus avoid…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-489222",
+   "t_he": "",
+   "t_en": "Are Women Second-Class Citizens in Traditional Judaism?",
+   "x": "Question: How can you seriously, honestly claim that Orthodox Judaism has any respect for women, and that they have the right view of them and seek true justic…",
+   "ax": "You sound upset and angry. You feel strongly that you want a connection to G‑d, but don’t see it in “religion” due to the supposed mistreatment of women. I hav…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-490669",
+   "t_he": "",
+   "t_en": "Is G-d Really Running the World?",
+   "x": "Question: How do we reconcile our religious belief in Divine Providence with the mechanistic world we seem to live in? For example: In the present day we enjoy…",
+   "ax": "As far as the difference between us and previous generations is concerned, we can look at this in two ways: a) Technology follows social change. When slavery f…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-491175",
+   "t_he": "",
+   "t_en": "Is Genetically Grafted Produce Kosher?",
+   "x": "Question: In recent years, genetic engineers have been splicing genes from one species to another species for the benefits of producing hardier crops. The Tora…",
+   "ax": "You've brought up a great point. First the basics: The prohibition against sowing together seeds of different plants only applies to crops planted in the Land…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-498464",
+   "t_he": "",
+   "t_en": "Do I Put On Tefillin During Chol Hamoed?",
+   "x": "Do I Put On Tefillin During Chol Hamoed?",
+   "ax": "Background Tefillin are a \"sign\" of our special relationship with G‑d: \"And it shall be to you as a sign upon your hand and as a remembrance between your eyes.…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 205,
    "s": "upload"
   }
  ]

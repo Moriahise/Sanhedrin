@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "talmud",
- "count": 3557,
+ "count": 3558,
  "entries": [
   {
    "id": "ye-2010112513418718",
@@ -57496,6 +57496,23 @@
    "c": "talmud",
    "y": 2026,
    "ch": 204,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-486810",
+   "t_he": "",
+   "t_en": "Dealing With Difficulty",
+   "x": "Question: Things are getting way too hard. I can’t see how I’m going to get through this—there’s just no way. Why is G‑d throwing all this at me when He knows…",
+   "ax": "You haven’t told me what the troubles are, and I respect your wish to keep that to yourself. Working in the dark, then, all I can give you is the counsel that…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 205,
    "s": "upload"
   }
  ]
