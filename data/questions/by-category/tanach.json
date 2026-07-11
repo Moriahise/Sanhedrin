@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "tanach",
- "count": 7715,
+ "count": 7724,
  "entries": [
   {
    "id": "ye-4809",
@@ -124006,6 +124006,160 @@
     "inspiration-entertainment",
     "question-answer",
     "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1206280",
+   "t_he": "",
+   "t_en": "Who Named Jerusalem?",
+   "x": "Question: As the name Jerusalem rolls off my tongue, my mind conjures images of stone cobbled streets, upon which ancient prophets and kings once trod, and mor…",
+   "ax": "The word Jerusalem, or Yerushalayim in Hebrew, is not mentioned in the Five Books of Moses and first appears in the Book of Joshua.1 At least, it's not mention…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "israel",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1252255",
+   "t_he": "",
+   "t_en": "Why Are There No Female Judges in Torah?",
+   "x": "Question: I am interested to understand why women cannot judge disputes in Torah law. How is the case of Devorah, the judge, handled? Is wisdom limited to the…",
+   "ax": "The Torah does not provide a reason why women cannot be judges on any cases, whether civil or criminal, leaving us only to speculate. The Jerusalem Talmud1 sta…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1358074",
+   "t_he": "",
+   "t_en": "The Bible Reads Like a Soap Opera!",
+   "x": "Question: I've always had a hard time reading the stories in Bible because the whole thing sounds like a soap opera. It seems like everyone is always going thr…",
+   "ax": "Let me tell you a story about a girl named Sarah. On Monday morning Sarah woke up just before her alarm clock was set to go off. She peered out the window and…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1426382",
+   "t_he": "",
+   "t_en": "What Is the Torah?",
+   "x": "What Is the Torah?",
+   "ax": "Torah in Five Books The definition of the word Torah is literally “instruction,” and when Jews say “Torah,” they’re most likely speaking of the Five Books of M…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1430599",
+   "t_he": "",
+   "t_en": "May A Doctor Treat His Own Parents?",
+   "x": "Question: In our study group, we reviewed the verse prohibiting a person from wounding his father and mother.1 A member of our study group was wondering how th…",
+   "ax": "Although the actual Biblical prohibition would apply to one who wounds his parent with vicious intent, and not a doctor who is doing something good, we are non…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1443443",
+   "t_he": "",
+   "t_en": "What Does Hashem Mean?",
+   "x": "What Does Hashem Mean?",
+   "ax": "“Hashem” is Hebrew for “the name.” Jews use the word to refer to G‑d since they are averse to referring to Him by His real names. (Notice that we don’t even sp…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1452602",
+   "t_he": "",
+   "t_en": "How Old Was Jehoiachin?",
+   "x": "Question: How old was Jehoiachin at the time of his coronation? In II Kings 24:8 it is written, “Jehoiachin was eighteen years old when he began to reign.” But…",
+   "ax": "Excellent question! Commentators on these verses explain that Jehoiachin was, in fact, crowned twice. Shortly after Jehoiachin’s father, Jehoiakim, began his r…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1480521",
+   "t_he": "",
+   "t_en": "Who is the “Conductor” in the Psalms?",
+   "x": "Question: Many psalms start with the phrase “For the Conductor.” Is that a reference to G‑d? If not, what does it refer to?",
+   "ax": "The two basic explanations are: Rabbi David Kimchi, known as the Radak, writes in his commentary to Psalms1 that the minatzeach (מנצח) was the conductor who di…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1522956",
+   "t_he": "",
+   "t_en": "How Do You Treat Animals?",
+   "x": "Question: I have been researching the Seven Noahide Laws. I understand these are the biblical commands to all humanity—the children of Noah—and they provide th…",
+   "ax": "What is the true test of a moral person? How do you know that someone is truly a good person, and not just preaching? One test is to observe the way they treat…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
    ],
    "c": "tanach",
    "y": 2026,

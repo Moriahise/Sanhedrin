@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "talmud",
- "count": 3567,
+ "count": 3568,
  "entries": [
   {
    "id": "ye-2010112513418718",
@@ -57662,6 +57662,23 @@
    "t_en": "Is It Torah If It’s Not In Hebrew?",
    "x": "Question: After attending a lecture on the holiness of the Hebrew language, a question comes to mind: Why is it that so many of the great books in Torah—includ…",
    "ax": "You’ve stumbled upon one of the secrets to Jewish survival. As holy as Hebrew is, and as central as it is to our prayer and study, it is not what defines us as…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1324268",
+   "t_he": "",
+   "t_en": "What Were Abraham’s 10 Tests?",
+   "x": "Question: I learned in Ethics of Our Fathers1 that G‑d tested Abraham with 10 tests and he withstood all of them. But the Mishnah does not tell us what those t…",
+   "ax": "You are correct; Ethics does not tell us what the tests actually were. There are actually a number of schools of thought about this. Here are some. Maimonides2…",
    "tg": [
     "chabad",
     "talmud",
