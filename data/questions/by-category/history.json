@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "history",
- "count": 1527,
+ "count": 1530,
  "entries": [
   {
    "id": "ye-4787",
@@ -24665,6 +24665,58 @@
    "c": "history",
    "y": 2026,
    "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-982338",
+   "t_he": "",
+   "t_en": "Abort Down Syndrome Baby?",
+   "x": "Question: I just found out my unborn baby will have Down syndrome. We already have our hands full our other kids. What will happen to the baby's soul if we abo…",
+   "ax": "You ask whether it's wrong to want only a perfect child. As much as I love them all, I can't say that any child of mine is perfect. We have been blessed, thank…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-987524",
+   "t_he": "",
+   "t_en": "Why Babylonian Names for Jewish Months?",
+   "x": "Why Babylonian Names for Jewish Months?",
+   "ax": "In the pre-Babylonian era, we find in the Scriptures only four months on the calendar that are identified by name: The first month (Nissan): Aviv1 The second m…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1125703",
+   "t_he": "",
+   "t_en": "Did Human Rights Begin With Torah?",
+   "x": "Question: My son came home from school with papers from a unit on the origins of democracy and human rights. Everything is traced to thinkers such as John Lock…",
+   "ax": "The Torah is the birthplace of modern ideas of equality. In fact, in its time, the Torah was a revolutionary book of political thought. Throughout the ancient…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 207,
    "s": "upload"
   }
  ]

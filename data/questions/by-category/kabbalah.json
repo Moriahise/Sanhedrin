@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "kabbalah",
- "count": 620,
+ "count": 628,
  "entries": [
   {
    "id": "ye-11561",
@@ -10038,6 +10038,145 @@
    "c": "kabbalah",
    "y": 2026,
    "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-970311",
+   "t_he": "",
+   "t_en": "Will Moshiach Make Me Wear a Burka?",
+   "x": "Question: I am very concerned about certain aspects of the messianic age or those times right before it. I am concerned that during this time when Moshiach com…",
+   "ax": "I've yet to see any plans for burkas. I could ask around, but it doesn't seem to be on the agenda. A woman represents the Shechina—the Divine Presence—and in t…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1007500",
+   "t_he": "",
+   "t_en": "Where Is It Written That We Must Yearn for Moshiach?",
+   "x": "Question: I would like to know where it is written in the Torah that we should await and yearn for the arrival of a leader who will be the Moshiach.",
+   "ax": "There are many verses in the Torah (you can see some of them in this list of source texts) which predict the coming of Moshiach. None of them state explicitly,…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1055341",
+   "t_he": "",
+   "t_en": "Can Angels Sin?",
+   "x": "Can Angels Sin?",
+   "ax": "At first glance the answer seems simple enough. After all, did we not receive the Torah precisely because angels cannot sin? As Moses retorted in his winning a…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1093498",
+   "t_he": "",
+   "t_en": "Can You Sell Your Soul to the Devil?",
+   "x": "Can You Sell Your Soul to the Devil?",
+   "ax": "The idea of \"selling one's soul to the devil\"—meaning, becoming a slave of the devil in exchange for favors provided—does not exist in Torah. Jewish ethical wo…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1107527",
+   "t_he": "",
+   "t_en": "Discussing an Invisible G-d",
+   "x": "Question: How can I explain to my young child that it makes sense to believe in an invisible G‑d?",
+   "ax": "You can explain this concept to your child the same way you explain it to anybody (including yourself)… only children can probably grasp it quicker and better!…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1127415",
+   "t_he": "",
+   "t_en": "Will There Be Miracles When Moshiach Comes?",
+   "x": "Will There Be Miracles When Moshiach Comes?",
+   "ax": "The prophet Isaiah depicts the messianic era as a miraculous time. “A wolf shall live with a lamb, a leopard shall lie with a kid, a calf and a lion cub and a…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "moshiach-101",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1127537",
+   "t_he": "",
+   "t_en": "Who Will Be Resurrected?",
+   "x": "Who Will Be Resurrected?",
+   "ax": "\"All of Israel have a portion in the World to Come, as it is stated (Isaiah 60:21), 'And your people are all righteous; they shall inherit the land forever...'…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "moshiach-101",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 207,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1128675",
+   "t_he": "",
+   "t_en": "Is the Resurrection Era the Ultimate Reward?",
+   "x": "Is the Resurrection Era the Ultimate Reward?",
+   "ax": "There is a fundamental difference of opinion between two of the greatest medieval scholars, Maimonides (Rambam, Rabbi Moshe ben Maimon) and Nachmanides (Ramban…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "moshiach-101",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 207,
    "s": "upload"
   }
  ]

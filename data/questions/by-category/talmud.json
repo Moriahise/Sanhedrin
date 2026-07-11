@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "talmud",
- "count": 3566,
+ "count": 3567,
  "entries": [
   {
    "id": "ye-2010112513418718",
@@ -57654,6 +57654,23 @@
    "c": "talmud",
    "y": 2026,
    "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-1073767",
+   "t_he": "",
+   "t_en": "Is It Torah If It’s Not In Hebrew?",
+   "x": "Question: After attending a lecture on the holiness of the Hebrew language, a question comes to mind: Why is it that so many of the great books in Torah—includ…",
+   "ax": "You’ve stumbled upon one of the secrets to Jewish survival. As holy as Hebrew is, and as central as it is to our prayer and study, it is not what defines us as…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 207,
    "s": "upload"
   }
  ]
