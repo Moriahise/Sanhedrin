@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "history",
- "count": 1520,
+ "count": 1523,
  "entries": [
   {
    "id": "ye-4787",
@@ -24542,6 +24542,58 @@
    "c": "history",
    "y": 2026,
    "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-588334",
+   "t_he": "",
+   "t_en": "Why thank G-d for rescuing us from predicaments He created?",
+   "x": "Question: We thank G‑d for taking us out of Egypt, for rescuing us from the Holocaust, and for healing the sick. Isn't He the one who put us in Egypt, the one…",
+   "ax": "You're asking a good question. I've thought about this one many times. Here is one way I like to look at this: When G‑d created the world, He gave it a natural…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-631046",
+   "t_he": "",
+   "t_en": "Can Jewish People Get Tattoos?",
+   "x": "Can Jewish People Get Tattoos?",
+   "ax": "According to Torah law, Jewish people are prohibited from getting tattoos. The source of this prohibition is Leviticus 19:28, which states: “You shall not etch…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-666799",
+   "t_he": "",
+   "t_en": "Naming a Child After One Who Died Young",
+   "x": "Question: I've heard that one should not name a baby after an individual who passed away young. Is this accurate or is this just a rumor? And what if that pers…",
+   "ax": "It is indeed true that traditionally we do not name a child after someone who died young. In an instance where one wishes to name a child after such an individ…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 206,
    "s": "upload"
   }
  ]

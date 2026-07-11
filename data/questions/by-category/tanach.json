@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "tanach",
- "count": 7667,
+ "count": 7681,
  "entries": [
   {
    "id": "ye-4809",
@@ -123174,6 +123174,248 @@
    "c": "tanach",
    "y": 2026,
    "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-586401",
+   "t_he": "",
+   "t_en": "What Was Abraham's Mom's Name?",
+   "x": "What Was Abraham's Mom's Name?",
+   "ax": "According to the Talmud (Baba Batra 91a1), our father Abraham's mother's name was Amtilai the daughter of Karnevo. Best wishes, Chani Benjaminson, Chabad.org T…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-595494",
+   "t_he": "",
+   "t_en": "What's the Deal with \"Miriam's Cup\"?",
+   "x": "Question: The women at my Seder would like a representation of the importance of Miriam during the Exodus. Is a Miriam's Cup allowed?",
+   "ax": "As with any \"new\" custom, there is always the fear of what is behind the custom; who began it and what was their agenda. Judaism is a religion that is G‑d-give…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-598058",
+   "t_he": "",
+   "t_en": "Response to an Agnostic",
+   "x": "Question: I recently watched an interview with Sir David Attenborough, who considers himself an agnostic. When asked whether his observation of the natural wor…",
+   "ax": "Why are there creatures in the world that cause harm? Why are there tsunamis that wash away entire towns; earthquakes that destroy entire populations; disease,…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-602506",
+   "t_he": "",
+   "t_en": "Dealing with the Psychological Scars of Childhood",
+   "x": "Question: I have a fundamental question about anger. What if someone has deep issues, scars, feelings of abandonment, anger, sadness, anxiety, etc., that are f…",
+   "ax": "Took me some time to think about this one. The issue of repression vs. expression is not an easy one. On issues such as this, I always go back to a classic wor…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-606154",
+   "t_he": "",
+   "t_en": "Who Was the Greatest Prophet?",
+   "x": "Who Was the Greatest Prophet?",
+   "ax": "Although only 48 prophets and seven prophetesses are mentioned in the Bible,1 throughout our history our nation has been blessed with tens of thousands of indi…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-606644",
+   "t_he": "",
+   "t_en": "Why Write B”H or BS”D at Head of a Letter, and What Does It Mean?",
+   "x": "Why Write B”H or BS”D at Head of a Letter, and What Does It Mean?",
+   "ax": "Although not a requirement, there is indeed an old Jewish custom to write B”H or BS”D, or to be more accurate, their Hebrew equivalents ב״ה or בס״ד, at the beg…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-612209",
+   "t_he": "",
+   "t_en": "How Do We Know When Moses Died?",
+   "x": "How Do We Know When Moses Died?",
+   "ax": "Moses died on the seventh of Adar. The Talmud proves this as follows: In Deuteronomy 34:8 we read that the Jews mourned for thirty days following Moses' death…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-624196",
+   "t_he": "",
+   "t_en": "Is It Really the Torah, Or Is It Just the Rabbis?",
+   "x": "Is It Really the Torah, Or Is It Just the Rabbis?",
+   "ax": "I believe in my heart that the Five Books of Moses and the Prophets are from G‑d. When it comes to the Talmud, however, I am beginning to believe it was made u…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-628399",
+   "t_he": "",
+   "t_en": "Who Divided the Torah Into Weekly Readings, Chapters, and Verses?",
+   "x": "Who Divided the Torah Into Weekly Readings, Chapters, and Verses?",
+   "ax": "Verses: When G‑d taught Moses the Torah, He also taught him the proper pronunciation and punctuation of its words: vowels, grammar, and sentence set-up—i.e. ve…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-638395",
+   "t_he": "",
+   "t_en": "Is Judaism an elitist religion?",
+   "x": "Question: A common element in Judaism is societal abstraction from the surrounding society. For example: \"Like the practice of the land of Egypt, in which you…",
+   "ax": "Judaism has a very strict set of laws and rules and a very strong moral/ethical code. Is it elitist to have such a code? Is it elitist to resist assimilating w…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-640221",
+   "t_he": "",
+   "t_en": "What is the Meaning of the Name \"Jew\"?",
+   "x": "What is the Meaning of the Name \"Jew\"?",
+   "ax": "The term \"Jew\" is derived from the name of Jacob's fourth son, Judah--Yehudah, in the Hebrew—and may have originally applied only to Judah's descendents, who c…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-642503",
+   "t_he": "",
+   "t_en": "Why aren't the weekly Torah readings synchronized with the festivals?",
+   "x": "Question: Why do we read the Torah reading that discusses the Exodus some three months before Passover? Why doesn't the reading coincide with the festival that…",
+   "ax": "If we would try to synchronize the reading of the parshiot (weekly Torah readings) with the times of the year when the events they describe occurred, we would…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-655450",
+   "t_he": "",
+   "t_en": "What Is a “Song of Ascents”?",
+   "x": "Question: Why do certain psalms begin with the words, \"A song of ascents\"? What sort of ascent is this referring to?",
+   "ax": "Fifteen psalms, chapters 120-134 of the Book of Psalms, begin with the words, \"A song of ascents.\" Many interpretations have been given for these ambiguous wor…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-660717",
+   "t_he": "",
+   "t_en": "How does one start thinking with his soul?",
+   "x": "Question: How can a person who has been overloaded and disillusioned by earthly experience, and who feels \"separated\" from his/her native truth, return to it?…",
+   "ax": "You ask a very compelling question. How to access that inner core of G‑dliness and bring it to the forefront of consciousness. There are two directions of expe…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
    "s": "upload"
   }
  ]
