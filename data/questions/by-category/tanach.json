@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "tanach",
- "count": 7762,
+ "count": 7772,
  "entries": [
   {
    "id": "ye-4809",
@@ -124803,6 +124803,178 @@
    "t_en": "Vedibarta Bam - Shavuot — Megillat Ruth",
    "x": "Vedibarta Bam - Shavuot — Megillat Ruth",
    "ax": "Vedibarta Bam - Torah Vedibarta Bam - Holidays Vedibarta Bam - Pirkei Avot Vedibarta Bam - Marriage Vedibarta Bam - For Your Table More...",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2836571",
+   "t_he": "",
+   "t_en": "Fire — Water — Wilderness",
+   "x": "בג' דברים ניתנה התורה, באש, ובמים, ובמדבר. באש מנין שנאמר והר סיני עשן כולו וגו', ובמים מנין שנאמר גם שמים נטפו גם עבים נטפו מים, ובמדבר מנין וידבר ה' אל משה ב…",
+   "ax": "1) Proper Priorities Water fulfills a physical need and it enables all delights to grow and flourish. However, unlike other physical needs, people have little…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2836839",
+   "t_he": "",
+   "t_en": "The Giving of the Torah and Jewish Marriage Practices",
+   "x": "ביום חתונתו – יום מתן תורה שעטרוהו להם למלך לקבלו עולו On His wedding day. (Song of Songs 3:11) The day the Torah was given, when they crowned Him as King and…",
+   "ax": "1) Tenaim — Stipulations The Midrash Rabbah (Vayikra 36:4) interprets the first word of the Torah, Bereishit, to mean that for two (ב) things that are called “…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2836850",
+   "t_he": "",
+   "t_en": "Questions and Answers on Reading Megillat Ruth on Shavuot",
+   "x": "Questions and Answers on Reading Megillat Ruth on Shavuot",
+   "ax": "נוהגין לקרות רות בשבועות It is customary to read Ruth on Shavuot. (Orach Chaim, Rama490:9, Shulchan Aruch HaRav 494:13) QUESTION: What is the reason for this c…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2836852",
+   "t_he": "",
+   "t_en": "Questions and Answers on Megillat Ruth: Chapter One",
+   "x": "Questions and Answers on Megillat Ruth: Chapter One",
+   "ax": "ויהי בימי ... And it came to pass in the days ... (1:1) QUESTION: Why does Megillat Ruth start with a “vav” — “And”? A sefer — book — starts with a “vav” only…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2837186",
+   "t_he": "",
+   "t_en": "Questions and Answers on Megillat Ruth: Chapter Two",
+   "x": "Questions and Answers on Megillat Ruth: Chapter Two",
+   "ax": "ולנעמי מידע ... לאישה ממשפחת אלימלך ושמו בעז Naomi had a relative through her husband ... from the family of Elimelech, his name was Boaz. (2:1) QUESTION: The…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2837233",
+   "t_he": "",
+   "t_en": "Questions and Answers on Megillat Ruth: Chapter Three",
+   "x": "Questions and Answers on Megillat Ruth: Chapter Three",
+   "ax": "ותאמר לה נעמי חמותה בתי אבקש לך מנוח Naomi, her mother-in-law, said to her: ‘My daughter, I must seek security [‘rest’ — a marriage] for you. (3:1) QUESTION: N…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2837253",
+   "t_he": "",
+   "t_en": "Questions and Answers on Megillat Ruth: Chapter Four",
+   "x": "Questions and Answers on Megillat Ruth: Chapter Four",
+   "ax": "ויקח עשרה אנשים מזקני העיר He took ten men of the elders of the city. (4:2) QUESTION: What was Boaz’s purpose in gathering these ten people? ANSWER: According…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2837276",
+   "t_he": "",
+   "t_en": "Ruth Was Not The Only One",
+   "x": "Ruth Was Not The Only One",
+   "ax": "by: Brachah Bogomilsky* On the eve of the holiday of Shavuot, our thoughts turn to the Book of Ruth, which has become closely associated with the festival comm…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862595",
+   "t_he": "",
+   "t_en": "Concluding with Abraham",
+   "x": "Concluding with Abraham",
+   "ax": "\"ברוך אתה ... אלקי אברהם אלקי יצחק ואלקי יעקב ... ברוך אתה ה' מגן אברהם\" “Blessed are You, G‑d of Avraham, G‑d of Yitzchak, and G‑d of Yaakov. Blessed are You,…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862755",
+   "t_he": "",
+   "t_en": "To Swear the Truth",
+   "x": "To Swear the Truth",
+   "ax": "\"מי יעלה בהר ה' ומי יקום במקום קדשו נקי כפים ובר לבב אשר לא נשא לשוא נפשי ולא נשבע למרמה\" “Who may ascend the mountain of Hashem, and who may stand in His holy…",
    "tg": [
     "chabad",
     "tanach",

@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "kabbalah",
- "count": 641,
+ "count": 643,
  "entries": [
   {
    "id": "ye-11561",
@@ -10403,6 +10403,42 @@
    "c": "kabbalah",
    "y": 2026,
    "ch": 210,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2836562",
+   "t_he": "",
+   "t_en": "Questions and Answers on Moshe and the Angels",
+   "x": "Questions and Answers on Moshe and the Angels",
+   "ax": "\"ומשה עלה אל האלקים\" “And Moshe went up to G‑d.” (Shemot 19:3) QUESTION: According to the Gemara (Shabbat 88b), when Moshe came up to Heaven to take the Torah,…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2836689",
+   "t_he": "",
+   "t_en": "Meat and Milk, Angels and Torah",
+   "x": "Meat and Milk, Angels and Torah",
+   "ax": "ויקח חמאה וחלב ובן הבקר אשר עשה ויתן לפניהם ... ויאכלו He took cream and milk and the calf which he made and placed it before them ... and they ate (Bereishit…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 211,
    "s": "upload"
   }
  ]

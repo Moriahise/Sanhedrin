@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "halacha",
- "count": 17119,
+ "count": 17130,
  "entries": [
   {
    "id": "ye-2009121811237500",
@@ -274120,6 +274120,194 @@
    "c": "halacha",
    "y": 2026,
    "ch": 210,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2836021",
+   "t_he": "",
+   "t_en": "Questions and Answers on The Suspended Mountain",
+   "x": "\"ויתיצבו בתחתית ההר\" “They stood at the foot of [lit. under] the mountain.” (Shemot 19:17) QUESTION: The Gemara (Shabbat 88a) says that by stating “betachtit h…",
+   "ax": "1) Written Torah and Oral Torah The Torah consists of two parts, the Written and the Oral. The Jewish people were ready to accept the Written Torah, but not th…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2836594",
+   "t_he": "",
+   "t_en": "Questions and Answers on the Ten Commandments",
+   "x": "Questions and Answers on the Ten Commandments",
+   "ax": "\"וידבר אלקים את כל הדברים האלה\" “And G‑d spoke all these words.” (Shemot 20:1) QUESTION: The Midrash Rabbah (Shemot 28:5) states that the voice was unique in t…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2836683",
+   "t_he": "",
+   "t_en": "Questions and Answers on the Custom of Eating Dairy on Shavuot",
+   "x": "Questions and Answers on the Custom of Eating Dairy on Shavuot",
+   "ax": "נוהגין בכמה מקומות לאכול מאכלי חלב ביום ראשון של שבועות It is customary in some places to eat dairy foods on the first day of Shavuot. (Rama, 494:3) נוהגין בכל…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2836707",
+   "t_he": "",
+   "t_en": "Dairy on Shavuot and Chanukah — Common Denominator",
+   "x": "Dairy on Shavuot and Chanukah — Common Denominator",
+   "ax": "\"יש אומרים שיש לאכול גבינה בחנוכה לפי שהנס נעשה בחלב שהאכילה יהודית את האויב\" The oppressors had decreed that a maiden before her marriage must first cohabit w…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2840748",
+   "t_he": "",
+   "t_en": "Questions and Answers on Kiddush for the Shabbat Day",
+   "x": "Questions and Answers on Kiddush for the Shabbat Day",
+   "ax": "\"לעשות את השבת לדרתם\" “To make the Shabbat for their generations.” QUESTION: Why is the word “ledorotam” (לדרתם) — “for their generations” — written without a…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2840760",
+   "t_he": "",
+   "t_en": "Questions and Answers on Blessing After a Meal (Birkat Hamazon)",
+   "x": "Questions and Answers on Blessing After a Meal (Birkat Hamazon)",
+   "ax": "\"על נהרות בבל שם ישבנו גם בכינו בזכרנו את ציון\" “By the rivers of Babylon, there we sat and also wept as we remembered Zion.” QUESTION: The word “gam” — “also”…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2840770",
+   "t_he": "",
+   "t_en": "Questions and Answers on Sheva Berachot",
+   "x": "Questions and Answers on Sheva Berachot",
+   "ax": "\"שהכל ברא לכבודו... יוצר האדם... משמח ציון בבניה\" “Who has created all things for His glory... Who formed man... Who gladdens Zion with her children.” QUESTION…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2840774",
+   "t_he": "",
+   "t_en": "Questions and Answers on the Additions to the Blessing After a Meal Following a Circumcision",
+   "x": "Questions and Answers on the Additions to the Blessing After a Meal Following a Circumcision",
+   "ax": "\"ברית מילה\" “Circumcision” QUESTION: Why is the circumcision ceremony called britmilah? ANSWER: In the Torah there are 613 mitzvot and one of them is circumcis…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2856377",
+   "t_he": "",
+   "t_en": "Do I Need an Alarm System if I have a Mezuzah?",
+   "x": "Question: With all the terror around the world, my husband and I were discussing ways to keep our home safe. I lean more toward spirituality than he does, so I…",
+   "ax": "You’re right. And so is your husband. Installing an alarm system is as much an act of faith as installing mezuzahs. I can think of no better example of a man o…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862657",
+   "t_he": "",
+   "t_en": "Repentance, Prayer and Charity",
+   "x": "Repentance, Prayer and Charity",
+   "ax": "\"ותשובה ותפלה וצדקה מעבירין את רועה הגזירה\" “Repentance, Prayer and Charity avert the severity of the decree” QUESTION: In all Machzorim, above these three wor…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862688",
+   "t_he": "",
+   "t_en": "Silent Prayers",
+   "x": "Silent Prayers",
+   "ax": "\"וכל מאמינים שהוא עונה לחש\" “And all believe that He answers silent prayer.” QUESTION: Hashem can read what is in the mind and heart of a person, so what prais…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 211,
    "s": "upload"
   }
  ]
