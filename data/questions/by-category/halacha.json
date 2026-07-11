@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "halacha",
- "count": 17515,
+ "count": 17529,
  "entries": [
   {
    "id": "ye-2009121811237500",
@@ -280901,6 +280901,246 @@
     "halacha",
     "inspiration-entertainment",
     "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7187819",
+   "t_he": "",
+   "t_en": "Why Do Hasidic Jews Carry Plastic Shopping Bags?",
+   "x": "Question: I'm a flight attendant, and I've noticed that many Hasidic Jewish passengers board flights carrying plastic shopping bags. For the longest time, I di…",
+   "ax": "There is no ritual associated with plastic bags, and it’s perfectly acceptable for Jewish people to keep their stuff in backpacks, wheelies, or totes. And for…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7199340",
+   "t_he": "",
+   "t_en": "Is Vaping Kosher?",
+   "x": "Is Vaping Kosher?",
+   "ax": "Vaping, which is marketed as a healthier alternative to smoking or as tool to stop smoking, has turned into a widespread practice, especially among teenagers a…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7206802",
+   "t_he": "",
+   "t_en": "Are Snails Kosher?",
+   "x": "Are Snails Kosher?",
+   "ax": "The Torah specifies that creepy-crawlies are not kosher. This includes snails and other mollusks, such as slugs, clams, oysters, squid, and octopuses. So snail…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7206807",
+   "t_he": "",
+   "t_en": "Is Caviar Kosher?",
+   "x": "Is Caviar Kosher?",
+   "ax": "Authentic caviar is the roe (eggs) of sturgeon, which is not a kosher fish, and is not kosher. That said, caviar from salmon (which is orange as opposed to bla…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7254483",
+   "t_he": "",
+   "t_en": "What Happened to Queen Esther After the Purim Story?",
+   "x": "What Happened to Queen Esther After the Purim Story?",
+   "ax": "The Book of Esther ends with Esther married to King Ahasuerus, elevated in position. The king gave her the house of her onetime nemesis, Haman, and her cousin…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7275175",
+   "t_he": "",
+   "t_en": "Why Do Kosher Restaurants Keep Bits of Bread Near the Sink?",
+   "x": "Why Do Kosher Restaurants Keep Bits of Bread Near the Sink?",
+   "ax": "You’ve just finished with the bathroom at a bustling kosher pizzeria or wedding hall. You're at the sink washing up, but your eye catches something puzzling. T…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7288064",
+   "t_he": "",
+   "t_en": "Can I Let My AI Agent Run on Shabbat?",
+   "x": "AI “agents” are advanced software systems that can operate autonomously for extended periods. They can write and deploy code, respond to customer inquiries, pr…",
+   "ax": "At first glance, this sounds like a new halachic issue that we’re facing. But though the technology may be new, the underlying issues aren’t. As we’ll see, sim…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7323263",
+   "t_he": "",
+   "t_en": "Why Wear Shabbat Clothes When Alone?",
+   "x": "Why Wear Shabbat Clothes When Alone?",
+   "ax": "The Torah describes Shabbat as “a day to be declared sacred,”1 and the prophets say “You shall call the Shabbat a delight … and honor it.”2 The sages explain t…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7338705",
+   "t_he": "",
+   "t_en": "Does a Convert Sit Shiva for Non-Jewish Parents?",
+   "x": "I am a convert to Judaism. I understand that this means the Jewish people are my new family. But what about my biological family? If, G‑d forbid, my father pas…",
+   "ax": "When you converted, you didn’t just join the Jewish club; you were born as a Jewish soul. Spiritually speaking, you are now a child of Abraham and Sarah, the f…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7361621",
+   "t_he": "",
+   "t_en": "Amen vs Brich Hu in Kaddish: Why the Different Customs?",
+   "x": "There is a point in the Kaddish prayer where I am used to replying “amen,” but I’ve noticed that some other congregations instead reply “brich Hu.” Can you she…",
+   "ax": "Throughout Kaddish, the congregation responds with “amen” at various points. When the chazan recites the phrase veyit'halal shmei dekudsha brich hu, “and prais…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7377450",
+   "t_he": "",
+   "t_en": "Am I Living a Double Life?",
+   "x": "Dear Rabbi, I feel like a hypocrite living a double life. On weekends, I’m in shul, I do Shabbos, I’m connected to the Torah-observant community, trying to do…",
+   "ax": "You’re not stuck in the middle. You’re strategically placed, exactly where you’re needed. We assume that being in between means we’re confused or not fully com…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7386936",
+   "t_he": "",
+   "t_en": "Why No Blessing Before Giving Charity?",
+   "x": "Why No Blessing Before Giving Charity?",
+   "ax": "Most mitzvah acts we do are preceded by a blessing. Before putting on tefillin, lighting Shabbat candles, or eating matzah, we thank G‑d “Who has sanctified us…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7408696",
+   "t_he": "",
+   "t_en": "What Blessing Do I Make on Hydroponically Grown Produce?",
+   "x": "What Blessing Do I Make on Hydroponically Grown Produce?",
+   "ax": "Hydroponics is a method of growing crops without soil, using water-based mineral nutrient solutions in an artificial environment. With certain protocols in pla…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7414137",
+   "t_he": "",
+   "t_en": "Am I a Failed Jewish Mother?",
+   "x": "I feel like I’m failing as a parent. I want my child to be inspired and spiritually connected, but the more I push it, the more I’m pushing him away. My friend…",
+   "ax": "Sounds like you love your child to death. That may be the problem. Parenting is compared to lighting a candle; when one candle lights another, the flame has to…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
    ],
    "c": "halacha",
    "y": 2026,
