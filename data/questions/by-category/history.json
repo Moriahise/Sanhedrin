@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "history",
- "count": 1518,
+ "count": 1520,
  "entries": [
   {
    "id": "ye-4787",
@@ -24504,6 +24504,40 @@
     "inspiration-entertainment",
     "article",
     "needs-review"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-542288",
+   "t_he": "",
+   "t_en": "Why Break a Glass at a Jewish Wedding?",
+   "x": "Question: I understand that the reason I will be breaking a glass with my foot at the end of the wedding ceremony is to commemorate the destruction of the Temp…",
+   "ax": "The destruction of the Holy Temple has extreme personal relevance. It happened to you. It is true that shattering the glass primarily commemorates the fall of…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-544970",
+   "t_he": "",
+   "t_en": "How did the Jews keep their faith despite the Holocaust?",
+   "x": "How did the Jews keep their faith despite the Holocaust?",
+   "ax": "The Holocaust was a tragedy of the greatest proportion. Our minds can't even begin to relate to the number 6,000,000... And your question is right on target; l…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "article"
    ],
    "c": "history",
    "y": 2026,

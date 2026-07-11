@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "kabbalah",
- "count": 586,
+ "count": 598,
  "entries": [
   {
    "id": "ye-11561",
@@ -9439,6 +9439,216 @@
     "kabbalah",
     "inspiration-entertainment",
     "question-answer",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-504534",
+   "t_he": "",
+   "t_en": "Why are men and women separated at Chassidic weddings?",
+   "x": "Question: Recently I attended a Chassidic wedding in Crown Heights, Brooklyn. My question is, why are men and women separated by a partition?",
+   "ax": "It must have been quite an experience for you to attend a Chassidic wedding! The reason for the partition between men and women is the issue of modesty. You mu…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-510228",
+   "t_he": "",
+   "t_en": "World Peace - How Will It Be Achieved?",
+   "x": "Question: How will the Messiah bring peace to such a strife-filled world?",
+   "ax": "All the fighting and unrest in the world is a product of the fact that every entity feels itself to be a distinct identity, and therefore at odds with everythi…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-512437",
+   "t_he": "",
+   "t_en": "How Is Chassidic Thought Distinct from Pantheism?",
+   "x": "Question: Rabbi Tzvi Freeman, I have read many of your articles about soul matters. You often explain that G‑d is somehow “divided” into “sparks,” and those “s…",
+   "ax": "To answer this, it’s first very important that we distinguish between “G‑d” and “that which is G‑dly” (G‑dliness). Everything that exists is sustained by G‑d a…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-523335",
+   "t_he": "",
+   "t_en": "Do families remain connected in the next world?",
+   "x": "Question: I am married with four children and would like to know — upon passing from this world will our souls remain as a family for eternity? Will we know ea…",
+   "ax": "We all consist of both body and soul. Upon passing, it is only our bodies that we leave. Our soul lives on. Families are bonded through both body and soul. Hen…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-528417",
+   "t_he": "",
+   "t_en": "What Are the Seven Types of Souls?",
+   "x": "Question: I've heard it said that the seven branches of the Menorah (candelabra) in the Holy Temple represent the seven types of souls. Can you please tell me…",
+   "ax": "Man was created \"in the image of G‑d\" (Genesis 1:26). Among the many meanings inherent in this statement is that our souls' composition is in the likeness G‑d'…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-530145",
+   "t_he": "",
+   "t_en": "The Kabbalah of the Tallit",
+   "x": "Question: What is the deeper significance of the Tallit?",
+   "ax": "The main idea of Jewish prayer is to connect to G‑d. But how can a finite, limited human being connect to an infinite, unlimited G‑d? Really, it should be impo…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-536787",
+   "t_he": "",
+   "t_en": "What is the significance of the number of coils on the tzitzit?",
+   "x": "What is the significance of the number of coils on the tzitzit?",
+   "ax": "There are five (double) knots on each of the tzitzit tassels. In the spaces between these knots, one of the fringes – which is longer than the others – is coil…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-536810",
+   "t_he": "",
+   "t_en": "Why the Tallit Barcode?",
+   "x": "Why the Tallit Barcode?",
+   "ax": "It is common for people to have stripes on their tallits. Among Ashkenazi and Yemenite Jews, black (or dark blue) stripes are typical. Today, many Sephardic Je…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-546925",
+   "t_he": "",
+   "t_en": "How Can I Make Amends to a Deceased Person?",
+   "x": "Question: My father-in-law passed away recently. I knew him for many years, during which time I disliked him and was critical and unhelpful to him. Now I under…",
+   "ax": "How often do we wish that we could turn the clock back and change our behavior, because in retrospect we understand things so differently? We cannot turn the c…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-547307",
+   "t_he": "",
+   "t_en": "Do You Want to Become a Diamond?",
+   "x": "Question: This is going to sound weird, but it’s serious. I have a friend who is a very intelligent, beautiful and articulate young woman. She is also a concep…",
+   "ax": "I have respect for your friend. She seeks immortality. She wants to transcend the limitations of a finite worldly existence and leave a lasting impression on t…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-559460",
+   "t_he": "",
+   "t_en": "The Kabbalah of Sleep",
+   "x": "Question: I would like to know how sleep is understood from a Chassidic view. What happens with the soul and consciousness during sleep?",
+   "ax": "This is indeed a fascinating topic! Here are a few concepts regarding sleep from Chasidic sources: When discussing sleep, there are always two sides of the coi…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-584901",
+   "t_he": "",
+   "t_en": "Kol Nidrei Meaning",
+   "x": "Kol Nidrei Meaning",
+   "ax": "While Kol Nidre—a prayer wherein we release vows—is certainly traditionally seen as one of the most important prayers of the year, there is little in Jewish li…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article",
     "needs-review"
    ],
    "c": "kabbalah",

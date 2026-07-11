@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "talmud",
- "count": 3558,
+ "count": 3562,
  "entries": [
   {
    "id": "ye-2010112513418718",
@@ -57509,6 +57509,77 @@
     "talmud",
     "inspiration-entertainment",
     "question-answer"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-513218",
+   "t_he": "",
+   "t_en": "How Do I Know What is my Mission in Life? (II)",
+   "x": "Question: I've seen it written in the name of the Sages of Israel that since the beginning of time a \"piece of the world\" has been waiting for a particular sou…",
+   "ax": "We never know exactly what our mission in this world is. Sometimes something seemingly inconsequential can have very important and far yielding results. So our…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-517534",
+   "t_he": "",
+   "t_en": "Why is the Tractate Named \"Fathers\"?",
+   "x": "Why is the Tractate Named \"Fathers\"?",
+   "ax": "It would seem that the appropriate name for this tractate would be one along the lines of its common English name, \"Ethics.\" What is the connection between Avo…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-526942",
+   "t_he": "",
+   "t_en": "Why is Rosh Chodesh sometimes one day and sometimes two?",
+   "x": "Why is Rosh Chodesh sometimes one day and sometimes two?",
+   "ax": "The Jewish calendar is based on the lunar cycle. Since a lunar month is approximately 29 days and twelve hours, we alternate months — one month is twenty-nine…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-558598",
+   "t_he": "",
+   "t_en": "Polygamy in Judaism",
+   "x": "Polygamy in Judaism",
+   "ax": "In the Bible The Torah does not forbid a man from having multiple wives. Abraham, Jacob, David and Solomon are notable examples of biblical figures who wedded…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
    ],
    "c": "talmud",
    "y": 2026,

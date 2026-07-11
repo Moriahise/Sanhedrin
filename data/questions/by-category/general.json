@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "general",
- "count": 18664,
+ "count": 18713,
  "entries": [
   {
    "id": "ye-200912288164429",
@@ -303861,6 +303861,888 @@
     "general",
     "inspiration-entertainment",
     "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-508007",
+   "t_he": "",
+   "t_en": "What Name Should We Choose?",
+   "x": "Question: My wife has entered the seventh month of pregnancy, and we have started discussing names for our baby. She wants something traditional, but I want my…",
+   "ax": "Choosing a name is a big deal. A person’s name is not a mere label; it expresses the essence of its bearer. The letters that make up your name, its sound and i…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-510874",
+   "t_he": "",
+   "t_en": "Why Does Judaism Forbid Cremation?",
+   "x": "Question: I'm in the process of making arrangements for my final resting place. In my family, some of my relatives have opted for a traditional Jewish burial,…",
+   "ax": "Before I respond to your question regarding the background of the Jewish prohibition against cremation, allow me to make some prefatory remarks: In order to he…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-512017",
+   "t_he": "",
+   "t_en": "Is there any sort of Purgatory or Satan in Jewish teachings?",
+   "x": "Is there any sort of Purgatory or Satan in Jewish teachings?",
+   "ax": "a) Various sources suggest that Gehinom, Purgatory, is a physical place, somewhere deep beneath the earth's surface, where the souls of the wicked are punished…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-515373",
+   "t_he": "",
+   "t_en": "What Is the Symbolism Behind the Dove in Jewish Literature?",
+   "x": "Question: My mother passed away recently. During her burial, two doves flew by, stopped, and watched the service without making any noises. What is said about…",
+   "ax": "In Song of Songs, the moving love depicting the loving relationship between G‑d and His nation, the \"dove\" is an adjective often used to describe the bride, th…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-515378",
+   "t_he": "",
+   "t_en": "Does G‑d matter?",
+   "x": "Question: Does \"G‑d\" matter in the present world, especially since He has been associated with oppressive ideas such as racism, sexual repression, and androcen…",
+   "ax": "Let's take the first scourge you mention, racism, as an example. The term itself is an invention of science. From the 18th century all the way up to recent tim…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-516993",
+   "t_he": "",
+   "t_en": "How Does Hell Work?",
+   "x": "How Does Hell Work?",
+   "ax": "Why Does Torah Talk About Punishment? A Jew, the Torah says again and again, must connect to G‑d from the heart. When you serve G‑d out of fear of retribution,…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-518736",
+   "t_he": "",
+   "t_en": "How to Eat Carob (and Why We Eat it on Lag BaOmer)",
+   "x": "How to Eat Carob (and Why We Eat it on Lag BaOmer)",
+   "ax": "What Is Carob? You might have seen or heard of carob powder or carob chips (like chocolate chips, but not). It’s often used as an alternative to cocoa because…",
+   "tg": [
+    "chabad",
+    "general",
+    "lag-baomer-2026",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-518805",
+   "t_he": "",
+   "t_en": "Am I Cursed Because I Don't have Children?",
+   "x": "Question: I do not have children. It is too late, as I am going into my 60's. I am brokenhearted because of this, I would have loved more than anything to pass…",
+   "ax": "No, of course you are not cursed for not having children! Many of the greatest and most righteous personalities were in your situation. Your life has meaning a…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-519882",
+   "t_he": "",
+   "t_en": "Is there such a thing as \"curse removal\"?",
+   "x": "Question: Is there such a thing as \"taharat klalot\" (\"curse removal\")? Recently, everything that could — and some things which we thought couldn't — go wrong,…",
+   "ax": "The Lubavitcher Rebbe, of blessed memory, has stated on many occasions that nowadays there is no reason to be concerned about baseless curses and the like (whe…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-520294",
+   "t_he": "",
+   "t_en": "Isn't It Racist To Believe That Jews Are Special?",
+   "x": "Question: Isn't it racist to believe you're special because you're Jewish? How is that any different from the Nazi belief in the \"superiority\" of the Aryan rac…",
+   "ax": "I think that everyone would agree that there is nothing wrong with feeling proud of who you are. There is nothing wrong with diversity. G‑d created a magnifice…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-521401",
+   "t_he": "",
+   "t_en": "If G-d knows the future, how can we have Freedom of Choice?",
+   "x": "Question: I have a problem understanding the concept of G‑d knowing the future. If He knows that someone is going to choose good over evil or vice versa, then…",
+   "ax": "You are in good company. Many of the greatest Jewish philosophers had the same problem and discuss this issue at length. You start by writing that you have a p…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-521502",
+   "t_he": "",
+   "t_en": "How do I react to my daughter dating a non-Jew?",
+   "x": "Question: I have a daughter who was dating a non-Jewish guy. In order to be with him and out of our disapproving sight she moved far away. Now she wants to com…",
+   "ax": "You walk a tightrope with your child. On the one hand you must keep the doors of your relationship open, while on the other hand you cannot approve of her doin…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-522378",
+   "t_he": "",
+   "t_en": "When a younger sister becomes engaged before an older sister...",
+   "x": "Question: I have a daughter who just got engaged. My older but not yet married daughter has been looking for some time already to get married, but with no succ…",
+   "ax": "In the book Eternal Joy,1 there is a translation of a number of letters from Rabbi Menachem Schneerson, the Lubavitcher Rebbe, dealing with this emotionally ch…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-522665",
+   "t_he": "",
+   "t_en": "How does one debate G‑d's existence with an atheist?",
+   "x": "How does one debate G‑d's existence with an atheist?",
+   "ax": "Why would you want to debate with an atheist? What would you gain? Nobody ever convinced anyone of the existence of G‑d through debate. The atheist believes th…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-523263",
+   "t_he": "",
+   "t_en": "Jewish Bachelor Party?",
+   "x": "Question: My friends want to organize a bachelor party for me before my wedding. We have no idea what they are planning, which makes my fiancée all nervous abo…",
+   "ax": "The bachelor party is your friends' way of telling you, \"You're getting married, the fun is over.\" Guys get together to drink, have a few cheap thrills, and ma…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-523425",
+   "t_he": "",
+   "t_en": "Why Are the Fingertips Washed Before the Grace After Meals?",
+   "x": "Why Are the Fingertips Washed Before the Grace After Meals?",
+   "ax": "At the conclusion of a meal in which we ate bread, we say the Grace after Meals, thanking G‑d for giving us sustenance. Before reciting the Grace after Meals,…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-524072",
+   "t_he": "",
+   "t_en": "Why Pray If Everything G‑d Does Is Good?",
+   "x": "Question: We trust that G‑d knows what’s best for us and does only good for us. Why, then, do we pray? Even if we don’t see the good, it’s good, right? So why…",
+   "ax": "This is a question with which philosophers have struggled since time immemorial. Many answers have been given to this question, and I will attempt to give you…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-525437",
+   "t_he": "",
+   "t_en": "The Death of a Friend",
+   "x": "Question: An old friend of the family just passed away as a result of a tragic accident. What is the Jewish way to help make sense of all of this?",
+   "ax": "As the years pass, we witness death many times, but the passing of a close friend is different than any other passing. In a way, a part of us dies as well. The…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-526925",
+   "t_he": "",
+   "t_en": "What Was Miriam's Husband's Name?",
+   "x": "What Was Miriam's Husband's Name?",
+   "ax": "Miriam's husband was Caleb son of Yefuneh of the tribe of Judah.1 Caleb was one of the twelve spies sent to reconnoiter the Land of Canaan, in preparation for…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-527080",
+   "t_he": "",
+   "t_en": "What Is the Jewish Approach to Conservation and the Environment?",
+   "x": "What Is the Jewish Approach to Conservation and the Environment?",
+   "ax": "Concerning sustainability of natural environments: this is an issue addressed by the Torah—but it is not just a Jewish issue, but an issue for all of humanity.…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-527621",
+   "t_he": "",
+   "t_en": "Am I Allowed to Listen to Recorded Music During the Three Weeks?",
+   "x": "Am I Allowed to Listen to Recorded Music During the Three Weeks?",
+   "ax": "The general consensus of most contemporary Halachic authorities is that like live music, listening to recorded music is prohibited during the Three Weeks mourn…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-527627",
+   "t_he": "",
+   "t_en": "How can we get stronger from pain?",
+   "x": "Question: How can we get stronger from pain? Certainly everything G‑d does is for the good, but when we don't see the good, our natural reaction is to be sad o…",
+   "ax": "You ask a very good question, one that is difficult to answer, especially in our times of exile, when we really cannot fully fathom the power or point of pain,…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-529077",
+   "t_he": "",
+   "t_en": "Judaism and Abortion",
+   "x": "Judaism and Abortion",
+   "ax": "Note: This short essay is meant purely as an educational overview. Jewish law approaches each case according to its particular circumstances. In any actual cas…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-530088",
+   "t_he": "",
+   "t_en": "Do I Need to Check a Rented Tuxedo for Shatnez?",
+   "x": "Do I Need to Check a Rented Tuxedo for Shatnez?",
+   "ax": "It is biblically forbidden1 to wear shatnez (mixture of wool and linen) even temporarily, and even if the garment does not belong to you. You should have your…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-530158",
+   "t_he": "",
+   "t_en": "Morality: A Catch-22?",
+   "x": "Morality: A Catch-22?",
+   "ax": "\"Ninety percent of my students,\" the president of a local university told me, \"are moral relativists.\" Moral Relativism, which is practically the state religio…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-537367",
+   "t_he": "",
+   "t_en": "The Secret of a Good Matchmaker",
+   "x": "Question: I've tried my hand at matchmaking, but so far I've been a dismal failure. I set up five couples, and none of them worked out. Most of them said I was…",
+   "ax": "The human soul is like the flame of a candle. Every soul has a presence, a light that fills the room. Each one of us has our own flame, with a hue that is uniq…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-538797",
+   "t_he": "",
+   "t_en": "When is the next Sabbatical year?",
+   "x": "When is the next Sabbatical year?",
+   "ax": "The year 5789 on the Jewish calendar (Sept. 20, 2028–Sept. 9, 2029) will be the next Sabbatical year. The year following the destruction of the second Holy Tem…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-541123",
+   "t_he": "",
+   "t_en": "Are we to blame for our son's brain dysfunction?",
+   "x": "Question: My son was diagnosed with a form of brain dysfunction. Please let me know if his parents or grandparents did something to deserve this punishment. Sh…",
+   "ax": "I am sorry about your son's diagnosis. It can be a difficult time for parents to reach an acceptance of why things happened this way. Often, they will incorrec…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-543104",
+   "t_he": "",
+   "t_en": "Why Are Ten Men Needed for a Minyan?",
+   "x": "Why Are Ten Men Needed for a Minyan?",
+   "ax": "The biblical source for the requirement of ten men to complete a minyan (lit., “count” or “number”) is Numbers 14:27. Moses sent spies to scout the land of Can…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-543128",
+   "t_he": "",
+   "t_en": "Is a Kohen Allowed to Attend the Funeral of a Loved One?",
+   "x": "Question: I heard that Kohanim (priests) are not permitted to attend the internment of a loved one. Is this true and why?",
+   "ax": "I hope your question is only an academic exercise. If not, please accept my condolences on your loss. May G‑d comfort you amongst all the mourners of Zion and…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-546077",
+   "t_he": "",
+   "t_en": "How Do I Know That I Really Believe?",
+   "x": "Question: Lately I've been struggling with the concept of G‑d, existence, and my own death one day. I realize that I don't like this idea of one day not being…",
+   "ax": "I have two conflicting things to say. But then, truth is generally very conflicting. One is that there is nothing more real than the emotions inside of us. You…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-547592",
+   "t_he": "",
+   "t_en": "How can one be reborn and rid of previously committed sins?",
+   "x": "Question: I am not Jewish but I would like to know what the Torah has to say on the topic of repentance. How can one be reborn and rid of previously committed…",
+   "ax": "Your desire to set things right is very commendable. But first a word of caution. The Jewish idea of both sin and repentance is very different than the same co…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-557651",
+   "t_he": "",
+   "t_en": "Do Jews Believe in Miracles?",
+   "x": "Question: What is the Jewish standpoint on miracles? How important or unimportant is miraculous phenomena to the Jewish believer?",
+   "ax": "Allow me to rephrase your question in the opposite manner: \"What is the Jewish standpoint on nature? How important or unimportant is natural phenomena to the J…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-557659",
+   "t_he": "",
+   "t_en": "Is a Man Allowed to Dye His Hair?",
+   "x": "Is a Man Allowed to Dye His Hair?",
+   "ax": "The Code of Jewish Law1 enumerates several activities that fall under the prohibition of \"a man shall not wear women's clothes\" (Deuteronomy 22:5); among them…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-558794",
+   "t_he": "",
+   "t_en": "Are we allowed to wish ill on someone or some organization that is doing harm to others?",
+   "x": "Are we allowed to wish ill on someone or some organization that is doing harm to others?",
+   "ax": "The Talmud tells1 how Rabbi Meir had wicked neighbors who caused him harm and much anguish. He prayed to G‑d to wipe them out. When his wife, Bruria, heard him…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-559491",
+   "t_he": "",
+   "t_en": "Why Cover the Blood of a Slaughtered Animal?",
+   "x": "Question: Why are we commanded to cover the blood of slaughtered animals and fowl? I know that G‑d has a reason for everything, and I just would like to unders…",
+   "ax": "Although the Torah does not explicitly state any reason for this mitzvah (as is the case with so many mitzvot), the following are a few of the explanations bro…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-560634",
+   "t_he": "",
+   "t_en": "How can I keep myself inspired for more than a day?",
+   "x": "How can I keep myself inspired for more than a day?",
+   "ax": "The way to keep inspiration is to bring it down into practice. Inspiration means that you get excited and inspired about something. You feel spiritual and conn…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-562052",
+   "t_he": "",
+   "t_en": "Why is Rosh Hashanah considered the Jewish New Year?",
+   "x": "Why is Rosh Hashanah considered the Jewish New Year?",
+   "ax": "You ask a very interesting question. What actually occurred on the first Rosh Hashanah, more than 5700 years ago? What are we commemorating? G‑d created the wo…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-563725",
+   "t_he": "",
+   "t_en": "What Does \"Kol Sason\" Mean?",
+   "x": "What Does \"Kol Sason\" Mean?",
+   "ax": "I recently purchased an art print titled \"Kol Sason.\" I am curious. What is the meaning of these words? In Hebrew, \"kol sason\" means \"sounds of joy.\" These wor…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-568482",
+   "t_he": "",
+   "t_en": "Is there any issue with listening to non-Jewish music?",
+   "x": "Is there any issue with listening to non-Jewish music?",
+   "ax": "Music has far more power than most of us realize. I'm sure you've noticed how profound an effect music can have on your mood. In truth, its effects reach even…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-571210",
+   "t_he": "",
+   "t_en": "In What Arm Does One Carry a Torah Scroll?",
+   "x": "In What Arm Does One Carry a Torah Scroll?",
+   "ax": "In the Code of Jewish Law1 it is written that a Torah scroll should be held in one's right arm (and rested on the right shoulder). This applies even if the one…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-576560",
+   "t_he": "",
+   "t_en": "Is There a Cure for Jealousy?",
+   "x": "Question: I am struggling with jealousy in many areas in my life and in my relationships. Any words of advice for me?",
+   "ax": "Let's analyze jealousy for a moment. You're jealous of your friend's car. Why? Hers is nicer than yours. You're jealous of a colleague's intelligence. Why? It'…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-579208",
+   "t_he": "",
+   "t_en": "Are Songs Sung at Jewish Funerals?",
+   "x": "Are Songs Sung at Jewish Funerals?",
+   "ax": "At traditional Jewish funerals, songs are not sung. As far as I know, there is no prohibition against singing songs at funerals; it’s just that, in fact, singi…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-581105",
+   "t_he": "",
+   "t_en": "Is it appropriate to give charity at night?",
+   "x": "Question: I read somewhere that it is inappropriate to give tzedakah (charity) during the night. Can you explain why?",
+   "ax": "In the Jerusalem Talmud there is a story told of Rabbi Chiya bar Pappa who gave tzedakah at night, and the leader of the evil spirits came to him and said \"Isn…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-581109",
+   "t_he": "",
+   "t_en": "Can There Be Morality Without G‑d?",
+   "x": "Can There Be Morality Without G‑d?",
+   "ax": "Is it possible to achieve a moral and ethical society while leaving G‑d out of the equation? Many today maintain that not only is this eminently possible, but…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-581438",
+   "t_he": "",
+   "t_en": "Is a Jew required to die rather than disobey a Torah command?",
+   "x": "Is a Jew required to die rather than disobey a Torah command?",
+   "ax": "The Torah tells us,1 “You shall observe My statutes and My ordinances, which a man shall do and live by them . . .” From this it was deduced that the mitzvot w…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-581489",
+   "t_he": "",
+   "t_en": "What Are the Hebrew Letters on a Jewish Headstone?",
+   "x": "Question: I was told that there is supposed to be some Hebrew letters on a memorial grave marker/headstone. We are planning a headstone for my deceased mother;…",
+   "ax": "I am sorry to hear about your loss. I offer you the traditional condolences given to mourners: \"May G‑d console you, together with all mourners of Zion and Jer…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-583778",
+   "t_he": "",
+   "t_en": "What is \"Rabbeinu Tam's Sunset\"?",
+   "x": "What is \"Rabbeinu Tam's Sunset\"?",
+   "ax": "You've touched on a subject which is discussed at great length in various sources in Jewish literature. There are differing opinions on the halachic definition…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 205,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-583803",
+   "t_he": "",
+   "t_en": "How does one clean a soiled tallit?",
+   "x": "Question: How does one clean a soiled tallit? It is made of wool and is quite old, and has never been cleaned.",
+   "ax": "A wool tallit needs to be hand-washed with a delicate soap, like Woolite, which is especially designed for delicate, wool garments. Soak it for several hours o…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
     "needs-review"
    ],
    "c": "general",
