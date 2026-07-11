@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "kabbalah",
- "count": 613,
+ "count": 620,
  "entries": [
   {
    "id": "ye-11561",
@@ -9914,6 +9914,126 @@
     "inspiration-entertainment",
     "article",
     "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-817362",
+   "t_he": "",
+   "t_en": "The Kabbalah of Divine Names",
+   "x": "Question: In my Kabbalah classes, we are discussing the names of G‑d and I have some questions: How many names does G‑d have? Why would G‑d have any name - let…",
+   "ax": "You're right. In essence, G‑d has no name. He is infinite and cannot be given any titles or description. You could say that, by definition, He has no definitio…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-818084",
+   "t_he": "",
+   "t_en": "Who Am I to Bring Moshiach?",
+   "x": "Question: If all the great sages, mystics, and holy people of the past generations were unable to bring Moshiach in their lifetimes, how can we imagine we will…",
+   "ax": "The thing to realize about redemption is that it is not an all-or-nothing proposition. Bringing Moshiach is not the sole responsibility of any one generation;…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-832728",
+   "t_he": "",
+   "t_en": "Will We Still Have Free Choice When Moshiach Comes?",
+   "x": "Question: Will we still have freedom of choice when Moshiach comes? From what I've read, it seems like we will automatically do the right thing. And without an…",
+   "ax": "I like this question. When Moshiach comes, there won't be the many layers of confusion that make life so difficult. Priorities will change. We will sense the i…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-836862",
+   "t_he": "",
+   "t_en": "How Many Sefirot are Involved in Creation?",
+   "x": "Question: I'm a beginner at chassidic studies; I especially enjoy perusing the spirituality articles on your site. I've noticed something that looks like an in…",
+   "ax": "Indeed, there are altogether ten sefirot: Chochmoh (Wisdom) Binah (Understanding) Da'at (Knowledge) Chesed (Kindness) Gevurah (Severity) Tiferet (Beauty) Netza…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-855853",
+   "t_he": "",
+   "t_en": "Where Are All the “Worlds”?",
+   "x": "Question: The writings of Kabbalah and Chassidism speak of four worlds—Atzilut, Beriah, Yetzirah and Asiyah. Where are these “worlds”? Why haven’t any of them…",
+   "ax": "If you’re picturing galaxies many light-years away, think again. These are not worlds to be reached through space travel or observed with a Hubble telescope. T…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-856670",
+   "t_he": "",
+   "t_en": "Can You Give Me a Jewish Mantra?",
+   "x": "Question: I am Jewish and was introduced to Siddha Yoga in 1975. i was very involved with Siddha Yoga, even after I was introduced to Chabad. I was married to…",
+   "ax": "Shalom ___, I would not replace the mantra with Shema Yisrael or any Hebrew phrase, since these are meant for contemplation and the focus of Siddha Yoga medita…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-892581",
+   "t_he": "",
+   "t_en": "Do Autistic Children Have Special Souls?",
+   "x": "Question: This may sound like a silly question. I am the mother of two autistic children. I love them both dearly, but as any parent of children with disabilit…",
+   "ax": "Every time I encounter a parent or guardian taking care of someone with special needs, I am in awe of their dedication and love. Reading your email with the pr…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
    ],
    "c": "kabbalah",
    "y": 2026,

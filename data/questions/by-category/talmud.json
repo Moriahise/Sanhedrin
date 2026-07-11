@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "talmud",
- "count": 3564,
+ "count": 3566,
  "entries": [
   {
    "id": "ye-2010112513418718",
@@ -57614,6 +57614,42 @@
     "talmud",
     "inspiration-entertainment",
     "question-answer"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-819698",
+   "t_he": "",
+   "t_en": "How Is the Torah Interpreted?",
+   "x": "How Is the Torah Interpreted?",
+   "ax": "Torah is G‑d's wisdom. Intellect, by its very nature, allows for – and indeed demands – different avenues of understanding; how much more so when dealing with…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-940485",
+   "t_he": "",
+   "t_en": "On what date was Joseph released from prison?",
+   "x": "On what date was Joseph released from prison?",
+   "ax": "According to the Talmud, Pharaoh's dreams and the release of Joseph from prison (see Genesis 41) occurred on Rosh Hashanah, the first day of the year. On that…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
    ],
    "c": "talmud",
    "y": 2026,

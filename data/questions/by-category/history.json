@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "history",
- "count": 1523,
+ "count": 1527,
  "entries": [
   {
    "id": "ye-4787",
@@ -24590,6 +24590,77 @@
     "history",
     "inspiration-entertainment",
     "question-answer"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-880152",
+   "t_he": "",
+   "t_en": "Shoes of a Dead Person",
+   "x": "Question: What's the deal with wearing the shoes of a deceased person? I have heard that Jewish people do not wear them. Why?",
+   "ax": "The Sefer Chassidim1 says that one shouldn't wear the shoes of one who has passed away. However, this rule has been interpreted in different ways: a) Some say…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-895602",
+   "t_he": "",
+   "t_en": "What About the Children Murdered in the Holocaust?",
+   "x": "Question: What is the Jewish answer to all our children who were murdered in the Holocaust?",
+   "ax": "There are many, many answers. I have eight precious ones. How many have you had?",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-927435",
+   "t_he": "",
+   "t_en": "Why Israel and the Diaspora Read Different Parshahs",
+   "x": "Question: I enjoy your website and regularly visit the section on the weekly Torah portion. Recently I discovered, to my great surprise, that on the top right-…",
+   "ax": "Once in several years, for a few weeks, different Torah portions are read in Israel and in the Diaspora. This year (2026-5786) happens to be one of those years…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-936148",
+   "t_he": "",
+   "t_en": "Why Do They Want to Kill Us?",
+   "x": "Question: Why has there arisen in every generation those who wanted to annihilate the Jewish population? Every year, I read this in the Hagadah, but now I am w…",
+   "ax": "There are many explanations given, but they seem to overlook an obvious fact of history: Conquerors generally work towards creating a homogenous society where…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
    ],
    "c": "history",
    "y": 2026,

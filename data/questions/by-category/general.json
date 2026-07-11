@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "general",
- "count": 18859,
+ "count": 18911,
  "entries": [
   {
    "id": "ye-200912288164429",
@@ -307366,6 +307366,942 @@
    "t_en": "Why the focus on Jewish victims?",
    "x": "Question: When I see the obituaries on the website, all are of the Jewish victims. I value our sense of responsibility for our fellow Jews and internal cohesio…",
    "ax": "You ask a thoughtful question that deserves a thoughtful answer. Nevertheless, in true Jewish style, before I address it directly, let me ask you back a questi…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-792528",
+   "t_he": "",
+   "t_en": "How Do You Get Faith?",
+   "x": "Question: I guess this is called a crisis of faith. With all the tragedy and suffering in the world, how am I supposed to have faith? Look what's happening aro…",
+   "ax": "Faith - what a laden word! I am envious when I encounter someone with faith so strong and simple that nothing can shake it. For the rest of us, however, faith…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-796947",
+   "t_he": "",
+   "t_en": "Teasing and Name Calling",
+   "x": "Teasing and Name Calling",
+   "ax": "Q. My daughter was diagnosed with Type 1 Juvenile Diabetes. She takes her insulin injections and pricks her fingers to test her blood sugar after meals and han…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-800868",
+   "t_he": "",
+   "t_en": "Who Are the Hebrews?",
+   "x": "Who Are the Hebrews?",
+   "ax": "The first person to be called a Hebrew was Abraham,1 and the name commonly refers to his descendants, known as the Jewish people. The word for Hebrew used in t…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-804034",
+   "t_he": "",
+   "t_en": "How Do I Explain Israel's Actions in Gaza?",
+   "x": "Question: I am the only Jew in my office, so I face a daily barrage of questions about Israel's actions in Gaza. I don't know who appointed me as Israel's spok…",
+   "ax": "At times like this, each one of us becomes an ambassador for Israel. Even if you don't agree with everything Israel does, any decent person must stand up for I…",
+   "tg": [
+    "chabad",
+    "general",
+    "israel",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-811193",
+   "t_he": "",
+   "t_en": "Helping Children Overcome a Trauma",
+   "x": "Helping Children Overcome a Trauma",
+   "ax": "As a local trauma therapist, I am often called upon to lend a helping ear after a traumatic event. Often children have been exposed to things none of us should…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-814084",
+   "t_he": "",
+   "t_en": "Praying for the people of Gaza",
+   "x": "Praying for the people of Gaza",
+   "ax": "Received: You seriously want me to pray for \"our beleaguered brothers and sisters in the Holy Land\"? They have created the mess they now deplore and have subju…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-815345",
+   "t_he": "",
+   "t_en": "Strangers Under One Roof",
+   "x": "Dear Bracha, I have a few teenage children and I wonder how I can open up the lines of communication with them. I like to give them their own space, but I stil…",
+   "ax": "You ask a very important question, the answer to which is different for each family as a fingerprint. There are two primary times of the day that are easiest f…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-815625",
+   "t_he": "",
+   "t_en": "May Fish be Consumed with Dairy?",
+   "x": "May Fish be Consumed with Dairy?",
+   "ax": "Believe it or not, there is indeed discussion whether this innocuous-seeming staple of Sunday morning post-prayer brunches is ok for consumption under the kosh…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-817346",
+   "t_he": "",
+   "t_en": "Who Made Up the Way We Sing the Torah?",
+   "x": "Question: Is it important that the Torah be read in the traditional melody? Who made up these melodies anyway?",
+   "ax": "The actual Torah scroll contains only letters. The printed editions, known as Chumashim, commonly contain not only the vowel markings, but also cantillation ma…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-820540",
+   "t_he": "",
+   "t_en": "Can a Child Be Named After a Living Person?",
+   "x": "Can a Child Be Named After a Living Person?",
+   "ax": "Ashkenazi Jews do not name their children after someone who is alive at the time. Moreover, they won’t name after a deceased individual if a close living relat…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-823695",
+   "t_he": "",
+   "t_en": "Why is the Torah read on Mondays and Thursdays?",
+   "x": "Why is the Torah read on Mondays and Thursdays?",
+   "ax": "On a typical week, the Torah is read publicly on Monday, Thursday, and twice on Shabbat. On holidays, fast days, and Rosh Chodesh, the Torah is read regardless…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-836582",
+   "t_he": "",
+   "t_en": "My Child Has No Friends",
+   "x": "Question: My 11 year old son is very bright—he's been assessed as gifted. I don't know if this makes it hard for him to identify with his classmates, but he ca…",
+   "ax": "There are a number of things you can do. A lot of kids don't have natural social skills. Being intellectually bright is not the same thing as being emotionally…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-836670",
+   "t_he": "",
+   "t_en": "Boosting Self-Esteem",
+   "x": "Question: My twelve year old daughter often tells me that no one likes her, that she feels like she's not worth anything and that nobody cares about her. She's…",
+   "ax": "It's very painful for anyone to feel unloved. Sometimes, when children have a hard time respecting and appreciating themselves, they will, perhaps wrongly, sur…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-837560",
+   "t_he": "",
+   "t_en": "Is a Convert Surrendering His True Self?",
+   "x": "Question: I saw in the Daily Dose: But when you make your goal in life to be someone you are not, or to be part of a people that are not your own, that is the…",
+   "ax": "If I can divert just a bit, that will help to answer your question: The Talmud never talks about a \"gentile that comes to convert\" but \"a convert that comes to…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-837699",
+   "t_he": "",
+   "t_en": "Who Are the 36 Hidden Tzadikim?",
+   "x": "Who Are the 36 Hidden Tzadikim?",
+   "ax": "A widely held belief, often found in Jewish stories, is that there are 36 hidden tzaddikim—righteous individuals whose quiet, unrecognized merit sustains the w…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-845611",
+   "t_he": "",
+   "t_en": "What If a Charity Turns Out to Be Fake?",
+   "x": "Question: What happens if a charity organization to which you donated money turns out to be fake? Does it still count as charity? How can one ever be sure that…",
+   "ax": "Dear N___: Until the times of Moshiach, there are going to be immoral people who will even play on people’s charitable conscience to their own advantage. Scam…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-847023",
+   "t_he": "",
+   "t_en": "Why Do We Mourn a Full Year for Parents?",
+   "x": "Question: Why do we mourn our parents for a full year and just one month for all other relatives?",
+   "ax": "Jewish law mandates the one-month mourning period (called sheloshim), after which a person is not obligated to continue any official mourning practices (althou…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-850548",
+   "t_he": "",
+   "t_en": "Embarrassed by My Children's Behavior",
+   "x": "Embarrassed by My Children's Behavior",
+   "ax": "Dear Tzippora, My children embarrass me in public. They get very wild and rowdy, and there is nothing I can do to calm them down. I get so humiliated. People m…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-850639",
+   "t_he": "",
+   "t_en": "When Trauma Adds Up--Ten Steps to Helping",
+   "x": "When Trauma Adds Up--Ten Steps to Helping",
+   "ax": "How do we help children who are impacted by so much trauma around them? While situations should always be dealt with on an individualized basis, it's important…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-855603",
+   "t_he": "",
+   "t_en": "The Magic of the Four Questions",
+   "x": "The Magic of the Four Questions",
+   "ax": "One of the more famous aspects of the Passover holidays is the asking of the \"Four Questions\" on the Seder night. These questions are formulated to spark inter…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-855624",
+   "t_he": "",
+   "t_en": "Raising a Difficult Child",
+   "x": "Raising a Difficult Child",
+   "ax": "Some kids are easier to raise than others. They are cooperative, happy, flexible and a joy to be with; they make their parents look like parenting geniuses. Ot…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-855633",
+   "t_he": "",
+   "t_en": "Son Acts Up with Guests",
+   "x": "Son Acts Up with Guests",
+   "ax": "Dear Tzippora, Sometimes when we have company over, my son becomes very rude and cheeky to our guests. We recognize that he values the time our family spends t…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-855638",
+   "t_he": "",
+   "t_en": "Worried All the Time",
+   "x": "Worried All the Time",
+   "ax": "Having kids is wonderful, but also scary. From the moment when a parent brings a tiny infant into this world, the parent can begin to worry. \"Does he have all…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-855871",
+   "t_he": "",
+   "t_en": "Dealing with Anger and Children",
+   "x": "Dealing with Anger and Children",
+   "ax": "Lots of things can make children angry. From the time they are babies, they get \"angry\" if they are not held enough, if they are wet or hungry and if they don'…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-856391",
+   "t_he": "",
+   "t_en": "Older Daughter Sucking Thumb Again",
+   "x": "Older Daughter Sucking Thumb Again",
+   "ax": "Dear Tzippora, We had a new baby, and my older daughter, who is almost seven, has just started sucking her thumb. She is way too old for this kind of behavior.…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-857823",
+   "t_he": "",
+   "t_en": "Should I Convert to Judaism?",
+   "x": "Question: I came across your site and wow—I really want to become Jewish. My mother was a fairly devout Italian Catholic and my father an Anglican skeptic who…",
+   "ax": "Your next step is to become a better person. Develop greater faith in your soul, in your destiny, and in your Maker. Do more good, reach out to more people. Le…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-862485",
+   "t_he": "",
+   "t_en": "Why Pray If Everything G‑d Does Is Good?",
+   "x": "Question: We trust that G‑d knows what’s best for us and does only good for us. Why, then, do we pray? Even if we don’t see the good, it’s good, right? So why…",
+   "ax": "This is a question with which philosophers have struggled since time immemorial. Many answers have been given to this question, and I will attempt to give you…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-877986",
+   "t_he": "",
+   "t_en": "Why are you always asking for money?",
+   "x": "Question: Again you're sending me a nice holiday greeting and again I see at the end that you're asking for money. Why is it that every Jewish organization is…",
+   "ax": "Yes, it certainly is lamentable and I couldn't agree with you more. It's enough that we have to pay lawyers, accountants, realtors, doctors, dentists and careg…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-880142",
+   "t_he": "",
+   "t_en": "Responding to Child Predators in the Jewish Community",
+   "x": "Responding to Child Predators in the Jewish Community",
+   "ax": "The children and families in the close-knit neighborhood used to help their friendly neighbor in his garden. The middle aged Jewish man was an athletic coach i…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-888912",
+   "t_he": "",
+   "t_en": "Nail Clippings and Pregnant Women",
+   "x": "Question: I have been told that one must never let his nail clipping lying around as they pose danger to fetuses. How does that work?",
+   "ax": "The Talmud1 tells us that \"the righteous bury their nails, the pious burn them, and the wicked carelessly discard them.\" The Talmud explains that nail clipping…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-890704",
+   "t_he": "",
+   "t_en": "Getting Kids Organized",
+   "x": "Question: Can I teach my child to be more organized? She's just a total mess! She's very bright and capable, but procrastinates with all her responsibilities,…",
+   "ax": "To make a long story short, the answer is no. Organization is largely a function of innate predisposition or, in other words, a person's nature. The other fact…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-890709",
+   "t_he": "",
+   "t_en": "Moody Teen",
+   "x": "Question: Like most teenagers, my seventeen year old can be very moody. There are time when he is wonderfully helpful and accommodating but other times the sli…",
+   "ax": "You are bringing up a very common problem of teenage-hood: moodiness. Our focus here is not the cause but the cure. Though truly nothing can cure this \"conditi…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-890720",
+   "t_he": "",
+   "t_en": "My Child Has A Difficult Teacher This Year",
+   "x": "Question: My child is having a very difficult start to the school year. There seems to be a personality conflict between him and his teacher. My child is gener…",
+   "ax": "As we have discussed in a previous edition of this column, often our main problem in getting a positive outcome is that other people are needed to effect chang…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-897014",
+   "t_he": "",
+   "t_en": "Burned Out On Judaism",
+   "x": "Question: I have no problem believing that everything in the Torah is true. I just have a problem doing it. The temptations are too great and I'm tired of figh…",
+   "ax": "Perhaps you've heard the story in the Talmud1 of G‑d lifting the mountain over our heads and forcing us to accept the Torah. It indeed raises many questions, s…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-904813",
+   "t_he": "",
+   "t_en": "One of a Kind",
+   "x": "One of a Kind",
+   "ax": "Q. I would like to know how to handle a situation where a child complains a lot about her homework, and doesn't want to do it. A. There are many different reas…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-913053",
+   "t_he": "",
+   "t_en": "Are Birthday Candles Jewish?",
+   "x": "Question: Do Jews place candles on birthday cakes and blow them out?",
+   "ax": "Candles are nice. But some trace the custom of placing candles on a birthday cake to the ancient Greek practice of celebrating the birthday of one of the pagan…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-913069",
+   "t_he": "",
+   "t_en": "Can I Keep Judaism If My Wife is Not Jewish?",
+   "x": "Question: I'm a Jewish man and my wife is not. While my wife is very friendly to the Jewish religion, she fully believes in Christianity. I have not been relig…",
+   "ax": "You are a Jew. As Jewish as any other Jew. The Torah and mitzvot are your heritage as much as they are mine. I understand your hesitancy to pursue this part of…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-923869",
+   "t_he": "",
+   "t_en": "Did Solomon Marry Out?",
+   "x": "Question: Solomon married a whole slew of pagan women. How was this allowed?",
+   "ax": "A cursory reading of those actions of King Solomon's does seem pretty incriminating. The verse states clearly that these women were of the gentile nations, fro…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-924953",
+   "t_he": "",
+   "t_en": "Does A High Arab Birthrate Threaten Israel?",
+   "x": "Question: I'm living in Israel, which is supposed to be a Jewish state, and I'm surrounded by Arabs, Russian gentiles and other assorted non-Jews. They tell me…",
+   "ax": "Just so happens that a fellow editor recently emailed me a dialogue between the Lubavitcher Rebbe and the Rebbe of Sadigura, Rabbi Avraham Yaakov Friedman.1 Th…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-925364",
+   "t_he": "",
+   "t_en": "How Do I Know What G-d Wants From Me?",
+   "x": "How Do I Know What G-d Wants From Me?",
+   "ax": "As life passes, we are usually happy just to have survived another day. But from time to time we pause to listen to that nagging question in the back of our mi…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-931170",
+   "t_he": "",
+   "t_en": "What’s the Jewish Take on Lust?",
+   "x": "Question: How do Jews feel about lust? I was raised Christian, and know how the church feels about it. I’m just wondering where Judaism stands on the issue.",
+   "ax": "Judaism views lust as follows: We acknowledge the fact that G‑d created us with such feelings, and it’s certainly not an aberration to feel lustful. However, o…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-931173",
+   "t_he": "",
+   "t_en": "How Do I Know I’m Forgiven?",
+   "x": "How Do I Know I’m Forgiven?",
+   "ax": "Hi Rabbi, The Torah teaches about the forgiveness of G‑d, but I don’t feel forgiven and I certainly can’t forgive myself. How do I get victory once and for all…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-931721",
+   "t_he": "",
+   "t_en": "Why Say \"Gezuntheit\" After a Sneeze?",
+   "x": "Question: What is the origin of saying \"gezuntheit\" or \"G‑d bless you\" after someone sneezes?",
+   "ax": "Although not technically part of Jewish Law (halachah), saying gezuntheit, tzu gezunt, labreeyut, or G‑d bless you is considered a mannerly custom. It is writt…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-931755",
+   "t_he": "",
+   "t_en": "Can I Pray for the Termination of My Pregnancy?",
+   "x": "Question: I became pregnant a few weeks ago. I already have several small children, and I cannot take care of another baby . . . Can I pray to G‑d to terminate…",
+   "ax": "I understand your predicament very well. Thank G‑d, I am a mother of five children, and I know what it takes to raise children. It is not easy. Still, to bring…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-936980",
+   "t_he": "",
+   "t_en": "How to Have a Conversation with Your Children",
+   "x": "How to Have a Conversation with Your Children",
+   "ax": "Question: How can I initiate and maintain a conversation with my child? Answer: Conversations are the glue that holds people together. It's the connection. One…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-940472",
+   "t_he": "",
+   "t_en": "Naming After One Who Died After the Child’s Conception",
+   "x": "Question: My daughter was pregnant when her father-in-law passed away. As Ashkenazi Jews, is it okay for them to name the baby after his grandfather? Some peop…",
+   "ax": "This question actually hits very close to home. A few years ago, my daughter gave birth to a baby on a Monday night. My mother-in-law (my daughter's grandmothe…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-942706",
+   "t_he": "",
+   "t_en": "Are We Supposed to be Afraid of G‑d? (II)",
+   "x": "Question: I was brought up with a perception of G‑d as an intimidating figure to be afraid of. I embraced Judaism, which I understood as seeing G‑d as more lov…",
+   "ax": "I think this is a translation issue. The word “fear” conjures an image of something scary, like a haunted house, or a dark alley, or a parking cop. I understan…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-943915",
+   "t_he": "",
+   "t_en": "Is It Logical to Have Faith?",
+   "x": "Is It Logical to Have Faith?",
+   "ax": "Yes, it is. In the first half of the 20th century, Bertrand Russell and Alfred North Whitehead attempted to compile a comprehensive system of logic and mathema…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-944759",
+   "t_he": "",
+   "t_en": "Family Meals Full of Frustration",
+   "x": "Family Meals Full of Frustration",
+   "ax": "Dear Tzippora, My wife is obsessed with the idea of family meals. At her insistence, I leave work early each day so that we can all eat dinner together as a fa…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-944765",
+   "t_he": "",
+   "t_en": "Is Motherhood Non-Stop Monotony?",
+   "x": "Dear Bracha, I love my children. But every once in a while, I just feel that motherhood is an endless string of tedious, monotonous and un-intellectual activit…",
+   "ax": "I am amazed that you feel this tedium, monotony and lack of intellectual stimulation only \"now and again.\" Well done! Your statement provides as many answers a…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-945694",
+   "t_he": "",
+   "t_en": "How to Deal with a Bitter Child",
+   "x": "How to Deal with a Bitter Child",
+   "ax": "In a paper greeted enthusiastically at the May conference of the American Psychiatric Association, in San Francisco, a new name was given to a common problem:…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-945796",
+   "t_he": "",
+   "t_en": "Why am I so sad?",
+   "x": "Question: This may sound like a strange question but as I incorporate more and more Jewish observance and ideas into my life, I find myself falling into occasi…",
+   "ax": "Your question is not strange at all. Odd as it may seem, it is quite common for people who are actively trying to infuse their lives with G‑dly meaning to have…",
    "tg": [
     "chabad",
     "general",

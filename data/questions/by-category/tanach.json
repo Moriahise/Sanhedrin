@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "tanach",
- "count": 7694,
+ "count": 7703,
  "entries": [
   {
    "id": "ye-4809",
@@ -123638,6 +123638,163 @@
     "tanach",
     "inspiration-entertainment",
     "question-answer",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-801055",
+   "t_he": "",
+   "t_en": "Faith or Reason?",
+   "x": "Question: As long as human beings have thought and questioned, the principal of doubt has been central to progress in reason. All the more so in the modern era…",
+   "ax": "I agree with your statement about doubt, it is certainly very much married to reason. And that is why I am hard put to place my faith in reason. You see, doubt…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-812102",
+   "t_he": "",
+   "t_en": "What is the \"Oral Torah\"?",
+   "x": "What is the \"Oral Torah\"?",
+   "ax": "The Torah has two parts: The \"Torah Shebichtav\" (Written Law), which is composed of the twenty-four books of the Tanach, and the \"Torah Sheba'al Peh\" (Oral Law…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-815316",
+   "t_he": "",
+   "t_en": "Getting Kids to Help More",
+   "x": "Question: How can I get my kids to help out more around the house? The usual pattern in our home is I ask them to do something and they ignore me the first few…",
+   "ax": "Have I been waiting for a question like this! You have just hit my specialty. As you can imagine, as a mother of triplets and twins I was inundated with housew…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-844884",
+   "t_he": "",
+   "t_en": "Why Get So Caught Up in Torah's Details?",
+   "x": "Question: I've always enjoyed studying the Torah. I deeply appreciate its value system and its moral code. After all, it's authored by G‑d Himself and our crea…",
+   "ax": "Imagine for a moment Albert Einstein walking down the street and dropping a pen. As he bends down to pick it up, the unfortunate occurs. His pants split. He ma…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-877184",
+   "t_he": "",
+   "t_en": "Finding Recreation for the Whole Family",
+   "x": "Dear Bracha, We have a family with teenage children as well as really young ones. I am finding it challenging to go on recreational trips or vacations that wou…",
+   "ax": "Yes there is, but it takes more juggling and a lot of hard work from the parents. I assume from your question that you are like me and Club Med is out. Trying…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-892352",
+   "t_he": "",
+   "t_en": "When Did We Start Naming After Ancestors?",
+   "x": "Question: Why do many Jews today name children after deceased relatives, recycling the same names over and over again? This does not seem to have been our way…",
+   "ax": "You are correct; very few people—if any—seem to have been named after relatives in biblical times. Instead, children were named after the circumstances of thei…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-892375",
+   "t_he": "",
+   "t_en": "Questions from a Feminist",
+   "x": "Question: I enjoy your writings, and look forward to reading your many responses to meaty questions. Recently a student wrote to me a long list of questions co…",
+   "ax": "Dear Rabbi ——, When people ask us questions, the kneejerk response is to answer the question. But kneecaps aren’t too bright. Intelligence is proactive, not re…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-939400",
+   "t_he": "",
+   "t_en": "Difficult Children",
+   "x": "Difficult Children",
+   "ax": "Dear Tzippora, Why are some kids so hard to love, and some just so easy? I wish I could say that as a mother I love all of my kids equally, but no matter how m…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 206,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-940857",
+   "t_he": "",
+   "t_en": "Why Is 70 Special?",
+   "x": "Why Is 70 Special?",
+   "ax": "In honor of of 10 Shevat 5780, which marks 70 years since the Lubavitcher Rebbe, Rabbi Menachem Mendel Schneerson, assumed leadership, we present this article…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
     "needs-review"
    ],
    "c": "tanach",
