@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "kabbalah",
- "count": 640,
+ "count": 641,
  "entries": [
   {
    "id": "ye-11561",
@@ -10385,6 +10385,24 @@
    "c": "kabbalah",
    "y": 2026,
    "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2835294",
+   "t_he": "",
+   "t_en": "All Israel have a share in the World to Come",
+   "x": "All Israel have a share in the World to Come",
+   "ax": "It is customary to recite one chapter of Pirkei Avot [in sequence] on each Shabbat between Pesach and Shavuot at Minchah time. One is to say the Mishnah כל ישר…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 210,
    "s": "upload"
   }
  ]

@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "talmud",
- "count": 3574,
+ "count": 3582,
  "entries": [
   {
    "id": "ye-2010112513418718",
@@ -57791,6 +57791,142 @@
    "c": "talmud",
    "y": 2026,
    "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2835280",
+   "t_he": "",
+   "t_en": "Vedibarta Bam - Questions and Answers on Pirkei Avot",
+   "x": "Vedibarta Bam - Questions and Answers on Pirkei Avot",
+   "ax": "Vedibarta Bam - Torah Vedibarta Bam - Holidays Vedibarta Bam - Pirkei Avot Vedibarta Bam - Marriage Vedibarta Bam - For Your Table More...",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 210,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2835281",
+   "t_he": "",
+   "t_en": "Foreword to Vedibarta Bam - Pirkei Avot",
+   "x": "Foreword to Vedibarta Bam - Pirkei Avot",
+   "ax": "Much has already been written about the reason for the name “Avot.” Nevertheless, I take this opportunity to add the following. “Avot” means “fathers,” or bett…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 210,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2835298",
+   "t_he": "",
+   "t_en": "Questions and Answers on Chapter One of Pirkei Avot",
+   "x": "Questions and Answers on Chapter One of Pirkei Avot",
+   "ax": "\"משה קבל תורה מסיני\" “Moshe received the Torah from Sinai.” (1:1) QUESTION: Sinai did not give the Torah; It was the mountain upon which Hashem gave the Torah.…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 210,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2835414",
+   "t_he": "",
+   "t_en": "Questions and Answers on Chapter Two of Pirkei Avot",
+   "x": "Questions and Answers on Chapter Two of Pirkei Avot",
+   "ax": "שאין אתה יודע מתן שכרן של מצות\" “Rebbe [Yehudah haNasi] says...Be as careful [in the performance of a seemingly] minor mitzvah as of a major one, for you do no…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2835470",
+   "t_he": "",
+   "t_en": "Questions and Answers on Chapter Three of Pirkei Avot",
+   "x": "Questions and Answers on Chapter Three of Pirkei Avot",
+   "ax": "\"עקביא בן מהללאל אומר: הסתכל בשלשה דברים, ואין אתה בא לידי עברה. דע מאין באת ולאן אתה הולך ולפני מי אתה עתיד לתן דין וחשבון. מאין באת: מטפה סרוחה, ולאן אתה הול…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2835748",
+   "t_he": "",
+   "t_en": "Questions and Answers on Chapter Four of Pirkei Avot",
+   "x": "Questions and Answers on Chapter Four of Pirkei Avot",
+   "ax": "\"בן זומא אומר: איזהו חכם הלומד מכל אדם... איזהו גבור הכובש את יצרו... איזהו עשיר השמח בחלקו... איזהו מכבד, המכבד את הבריות\" “Ben Zoma says: Who is wise? He who…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2835829",
+   "t_he": "",
+   "t_en": "Questions and Answers on Chapter Five of Pirkei Avot",
+   "x": "Questions and Answers on Chapter Five of Pirkei Avot",
+   "ax": "\"בעשרה מאמרות נברא העולם\" “The world was created by means of ten [Divine] utterances.” (5:1) QUESTION: The Gemara (Rosh Hashanah 32b) asks that in the Torah di…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2835914",
+   "t_he": "",
+   "t_en": "Questions and Answers on Chapter Six of Pirkei Avot",
+   "x": "Questions and Answers on Chapter Six of Pirkei Avot",
+   "ax": "\"שנו חכמים בלשון המשנה\" “The Sages taught [this chapter] in the language of the Mishnah.” (6:1) QUESTION: What is “leshon haMishnah” — “the language of the Mis…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 211,
    "s": "upload"
   }
  ]
