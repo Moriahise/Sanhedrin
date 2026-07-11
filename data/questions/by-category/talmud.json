@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "talmud",
- "count": 3582,
+ "count": 3585,
  "entries": [
   {
    "id": "ye-2010112513418718",
@@ -57927,6 +57927,58 @@
    "c": "talmud",
    "y": 2026,
    "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3162979",
+   "t_he": "",
+   "t_en": "Why Is the Talmud in Aramaic?",
+   "x": "Question: Since the Talmud is such a fundamental work in Judaism, why wasn’t it written in Hebrew, like the Bible and the Mishnah? Isn’t Hebrew considered “the…",
+   "ax": "Before we get into why the Talmud was written in Aramaic, a brief overview of the history of the language is in order. Aramaic is an ancient language that has…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3469552",
+   "t_he": "",
+   "t_en": "What Is Derech Eretz?",
+   "x": "What Is Derech Eretz?",
+   "ax": "derech eretz noun. 1. literally, “the way of the land” 2. being a respectful mentch 3. an ethical and responsible way to live 4. the common way to behave or sp…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3530453",
+   "t_he": "",
+   "t_en": "Why Is Hallel Sometimes “Whole” and Sometimes “Half”?",
+   "x": "Why Is Hallel Sometimes “Whole” and Sometimes “Half”?",
+   "ax": "Let’s begin by laying out what we say, and when we say it. Hallel, which literally means “praise,” is composed of Psalms 113-118 and is recited in praise of G‑…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 212,
    "s": "upload"
   }
  ]

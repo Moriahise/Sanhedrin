@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "general",
- "count": 19272,
+ "count": 19304,
  "entries": [
   {
    "id": "ye-200912288164429",
@@ -314805,6 +314805,582 @@
     "general",
     "inspiration-entertainment",
     "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3168943",
+   "t_he": "",
+   "t_en": "Does Hell Exist?",
+   "x": "Does Hell Exist?",
+   "ax": "First, let's ask, does an afterlife exist? I personally know it does because the guy who fills up my gas told me so. One night filling up gas, I looked tired.…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3206259",
+   "t_he": "",
+   "t_en": "Why Is Tu BiShvat in the Winter?",
+   "x": "Question: I just got an e‑mail about celebrating the New Year for Trees in January. I don’t know about where you live, but where I live, it’s freezing, with pl…",
+   "ax": "The 15th day of the Jewish month of Shevat—or Tu BiShvat, as it is commonly called—is not the Jewish version of Arbor Day, but is considered the “New Year for…",
+   "tg": [
+    "chabad",
+    "general",
+    "15-shevat-2026",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3216875",
+   "t_he": "",
+   "t_en": "What's Up With Fear of G‑d?",
+   "x": "What's Up With Fear of G‑d?",
+   "ax": "Dear Ask-The-Rabbi Rabbi, When my grandfather passed away, someone described him as a “G‑d-fearing man.” I’m still trying to digest that one. Is that good or b…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3218995",
+   "t_he": "",
+   "t_en": "Why Don’t Jews Have Open-Casket Funerals?",
+   "x": "Question: Unfortunately, I recently had occasion to attend a traditional Jewish funeral. I was told that Jews don’t do open-casket funerals or hold viewings. W…",
+   "ax": "Although some may find it therapeutic, in Judaism the funeral is for the most part devoted to the respect and honor of the deceased, while the period of mourni…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3227508",
+   "t_he": "",
+   "t_en": "May I Shop in a Store and Then Purchase for Cheaper Online?",
+   "x": "Question: Here’s the scenario. I walk into an electronics store and ask the sales staff for advice on which digital camera is best for my needs. The guy spends…",
+   "ax": "“Thou shalt not steal” does not only apply to outright thievery. The Torah warns against “stealing people’s minds,” which means misleading them through words o…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3247707",
+   "t_he": "",
+   "t_en": "My Mom Has Lost Her Will to Live",
+   "x": "Question: My mother told me that she has lost her will to live, that she sees no sense in it anymore. I know she would not kill herself, but she hasn’t been ta…",
+   "ax": "While I don’t know your mother and I don’t know the circumstances that have led to her despair, here are some thoughts. We all need a reason to live. We all ne…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3250289",
+   "t_he": "",
+   "t_en": "Is Judaism Socialist or Capitalist?",
+   "x": "Is Judaism Socialist or Capitalist?",
+   "ax": "Dear Ask-the-Rabbi Rabbi, With the current presidential elections in the U.S., there’s been a lot of debate about Judaism, socialism and capitalism, since one…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3326188",
+   "t_he": "",
+   "t_en": "Why the Big Deal About the Kotel (Western Wall)?",
+   "x": "Question: The Western Wall is one of the four walls that supported the Temple Mount. Why is it considered more special than the other three, all of which are c…",
+   "ax": "Believe it or not, the Western Wall (sometimes called the Wailing Wall1 or Kotel), is actually the only surviving wall of the Temple Mount. Much of the structu…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3340700",
+   "t_he": "",
+   "t_en": "Why Is Kiddush Said Over Wine?",
+   "x": "Why Is Kiddush Said Over Wine?",
+   "ax": "First let’s talk a bit about kiddush. In the Ten Commandments, the Torah commands us to “remember (zachor) the Sabbath day to sanctify it.”1 This teaches us th…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3342629",
+   "t_he": "",
+   "t_en": "Can We Add to the Torah?",
+   "x": "Can We Add to the Torah?",
+   "ax": "Some people imagine the event at Sinai as a transmission from heaven, recorded on two tablets and in five books, frozen in time, never to occur again. Others s…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3346935",
+   "t_he": "",
+   "t_en": "Is It Ethical to Regift?",
+   "x": "Question: Is it wrong to regift? My uncle just came back from Hong Kong and brought me a very expensive green tie with red zigzags. I would not be caught dead…",
+   "ax": "You need to think this through. A gift is given to be yours. That means you can do with it whatever you wish. If you want to use the tie as a dishrag, sell it…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3364776",
+   "t_he": "",
+   "t_en": "How to Stop Snapping at Your Kids",
+   "x": "Question: I have a dark secret. I have an anger problem. And I never knew it until I became a parent. Because the only people I take my anger out on are my own…",
+   "ax": "Your dark secret is the dark secret of every parent. We all have our weak moments, when a combination of lack of sleep, pressures of life and our imperfect hea…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3390021",
+   "t_he": "",
+   "t_en": "Why Sing Eishet Chayil on Friday Night?",
+   "x": "Why Sing Eishet Chayil on Friday Night?",
+   "ax": "The beautiful 22-verse hymn Eshet Chayil, “Woman of Valor,” is an alphabetic acrostic found in the closing verses of the book of Proverbs.1 It is traditionally…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3392260",
+   "t_he": "",
+   "t_en": "Why Say “Bli Neder,” and Does It Help?",
+   "x": "Question: I have a friend who, whenever he says that he will or will not do something, always adds the disclaimer bli neder (lit. “without an oath”). What’s up…",
+   "ax": "Swearing or making an oath is considered a very serious undertaking. In fact, the prohibition of making a needless oath (never mind a false oath) is considered…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3407931",
+   "t_he": "",
+   "t_en": "Why Does G-d Not Feed the Poor?",
+   "x": "Question: G‑d is surely not a hypocrite. If He tells us to do something, He should do it Himself as well. So shouldn't G‑d be obligated to feed the poor? Why d…",
+   "ax": "Imagine you know a family that can’t put food on the table. You want to help them. So you send a nice check in the mail. But it never gets there, as the mailma…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3407970",
+   "t_he": "",
+   "t_en": "Why Does G-d Not Feed the Poor?",
+   "x": "Question: G‑d is surely not a hypocrite. If He tells us to do something, He should do it Himself as well. So shouldn't G‑d be obligated to feed the poor? Why d…",
+   "ax": "Imagine you know a family that can’t put food on the table. You want to help them. So you send a nice check in the mail. But it never gets there, as the mailma…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3408865",
+   "t_he": "",
+   "t_en": "How Do I Know If I Am a Jew?",
+   "x": "How Do I Know If I Am a Jew?",
+   "ax": "Lots of folks wonder if they are Jewish. It may be that they feel an inner pull toward Judaism and Jewish people. Perhaps they took a DNA test. It may be that…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3421153",
+   "t_he": "",
+   "t_en": "Why Do Jews Cut Their Fingernails Out of Order?",
+   "x": "Why Do Jews Cut Their Fingernails Out of Order?",
+   "ax": "There is indeed an ancient custom of not cutting nails sequentially. The earliest mention seems to be in a version of Masechet Kallah quoted by the Machzor Vit…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3426499",
+   "t_he": "",
+   "t_en": "Is It Normal to Have Pre-Wedding Doubts",
+   "x": "Question: Is it normal to have doubts during an engagement? My friends tell me I should be 100% certain that I have made the right decision, but I would be lyi…",
+   "ax": "There are two types of doubting. One is an alarm bell that should not be ignored. The other is a sign that you have made the right choice. In a letter1 to his…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3432688",
+   "t_he": "",
+   "t_en": "How to Choose a Shofar",
+   "x": "How to Choose a Shofar",
+   "ax": "Throughout the Jewish month of Elul, the sound of the shofar can be heard every morning coming from synagogues and homes in Jewish neighborhoods around the wor…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3444115",
+   "t_he": "",
+   "t_en": "Rosh Hashanah Is on the Wrong Day!",
+   "x": "Rosh Hashanah Is on the Wrong Day!",
+   "ax": "Hello Ask-The-Rabbi Rabbi, Rosh Hashanah is on the wrong day. And that means there’s a serious mistake in the prayer book. Every Rosh Hashanah, we say, “Today…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3469546",
+   "t_he": "",
+   "t_en": "My Wife Won't Speak to Me!",
+   "x": "Question: This is a totally hypothetical situation that would never really happen. My wife is angry at me. She thinks she told me to pick her up from the train…",
+   "ax": "I don't usually answer such far-fetched, made-up scenarios. But this time I will make an exception. When we say, \"I am sorry,\" we are making a statement about…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3495213",
+   "t_he": "",
+   "t_en": "Is This Month Cheshvan or Marcheshvan?",
+   "x": "I’m confused about the name of this Jewish month. Some call it “Cheshvan” and others say “Marcheshvan.” To complicate matters, on your own site, you have it bo…",
+   "ax": "The Jerusalem Talmud informs us that “the names of the months came up with us from Babylonia.”1 Until the Babylonian exile, the months were either known by the…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3502321",
+   "t_he": "",
+   "t_en": "Why Do We Face East When Praying? Or Do We?",
+   "x": "Why Do We Face East When Praying? Or Do We?",
+   "ax": "The first thing we need to make clear is that we don’t necessarily face east; we face Jerusalem. And even when our compass or map shows that Jerusalem is to th…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3506817",
+   "t_he": "",
+   "t_en": "Should I Pray in Hebrew if I Don’t Understand?",
+   "x": "Should I Pray in Hebrew if I Don’t Understand?",
+   "ax": "As you can read in Why Is Hebrew Called the “Holy Tongue”? one cannot minimize the importance and sanctity of the Hebrew language. It is the language of creati…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3534307",
+   "t_he": "",
+   "t_en": "7 Jewish Classics Originally Written in Arabic",
+   "x": "7 Jewish Classics Originally Written in Arabic",
+   "ax": "Although current relations between Jews and some Arabic-speaking countries are a bit strained, to say the least, it was not always so. In fact, there was a tim…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3555157",
+   "t_he": "",
+   "t_en": "Do Jews Believe in Magic or Witchcraft?",
+   "x": "Do Jews Believe in Magic or Witchcraft?",
+   "ax": "The answer seems simple enough: The Torah itself references witchcraft during the story of the Exodus, when Pharaoh’s magicians mimicked Moses’ supernatural si…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3562825",
+   "t_he": "",
+   "t_en": "How to Craft an Amazing Dvar Torah",
+   "x": "How to Craft an Amazing Dvar Torah",
+   "ax": "Dvar Torah (n.) (plural: Divrei Torah): Literally “word(s) of Torah,” this refers to a (sometimes original) Torah thought that is shared with others. Dvar Tora…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3570273",
+   "t_he": "",
+   "t_en": "What Is Kilayim?",
+   "x": "What Is Kilayim?",
+   "ax": "What do clothes, animals and plants have in common? They are all subject to a prohibition the Torah calls kilayim. So what is this prohibition all about? The T…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3582435",
+   "t_he": "",
+   "t_en": "What Is the Authentic Ancient Hebrew Alphabet?",
+   "x": "What Is the Authentic Ancient Hebrew Alphabet?",
+   "ax": "There are two ancient Hebrew scripts. One is ketav Ivri (“Hebrew script”), also called Phoenician or Proto/Paleo-Hebrew. This script was still widely in use du…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3592996",
+   "t_he": "",
+   "t_en": "Can I Use Grandma's Parking Permit?",
+   "x": "My grandmother no longer drives, so I use her car. It has a disability parking permit, which allows me to park anywhere I want without paying. I feel a little…",
+   "ax": "I can come up with several arguments in favor of keeping the permit, and only one argument in favor of giving it up. Let's look at the arguments in favor of ke…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3613245",
+   "t_he": "",
+   "t_en": "For Real, How Rare Is a Red Heifer?",
+   "x": "For Real, How Rare Is a Red Heifer?",
+   "ax": "I recently came across an article on the Internet about the “amazing discovery” of a red heifer. The article made it sound like this was a portent of the messi…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
     "needs-review"
    ],
    "c": "general",

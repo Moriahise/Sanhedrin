@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "tanach",
- "count": 7775,
+ "count": 7780,
  "entries": [
   {
    "id": "ye-4809",
@@ -125031,6 +125031,93 @@
     "tanach",
     "inspiration-entertainment",
     "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3354288",
+   "t_he": "",
+   "t_en": "Why Is Hebrew Called the Holy Tongue (Lashon Hakodesh)?",
+   "x": "Why Is Hebrew Called the Holy Tongue (Lashon Hakodesh)?",
+   "ax": "The Hebrew language is extremely potent. The Torah tells us that until the incident of the Tower of Babel, all of mankind spoke the same language:1 Biblical He…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3475405",
+   "t_he": "",
+   "t_en": "Why Doesn't G-d Flood Away the Yucky People?",
+   "x": "Question: (from Zac, age 4) Why doesn't G‑d make a flood to take away all the yucky people, like He did for Noah?",
+   "ax": "Zac, I know you are a very good boy, but have you ever been naughty? Did you ever hurt your little brother, or say something rude to your mommy? G‑d wants us t…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3480094",
+   "t_he": "",
+   "t_en": "What Is the Torah Perspective on Safe Spaces, Trigger Words and Political Correctness?",
+   "x": "Question: I currently attend a college in the U.S., and lately there has been much controversy surrounding “safe spaces,” where students can retreat to avoid t…",
+   "ax": "I’m well aware that this controversy is nuanced and politically charged, so without getting into the particulars of safe spaces, let me give you a Jewish persp…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3483889",
+   "t_he": "",
+   "t_en": "What Is the Torah Perspective on Safe Spaces, Trigger Words and Political Correctness?",
+   "x": "Question: I currently attend a college in the U.S., and lately there has been much controversy surrounding “safe spaces,” where students can retreat to avoid t…",
+   "ax": "I’m well aware that this controversy is nuanced and politically charged, so without getting into the particulars of safe spaces, let me give you a Jewish persp…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3576890",
+   "t_he": "",
+   "t_en": "What Is So Special About the 7 Species of Fruit With Which Israel Was Blessed?",
+   "x": "What Is So Special About the 7 Species of Fruit With Which Israel Was Blessed?",
+   "ax": "In describing the extraordinary beauty and uniqueness of the Land of Israel, Scripture tells us, “For the L‑rd your G‑d is bringing you to a good land, a land…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
    ],
    "c": "tanach",
    "y": 2026,

@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "halacha",
- "count": 17169,
+ "count": 17213,
  "entries": [
   {
    "id": "ye-2009121811237500",
@@ -274976,6 +274976,764 @@
     "inspiration-entertainment",
     "question-answer",
     "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3169553",
+   "t_he": "",
+   "t_en": "Why Do Jews Pray Three Times a Day?",
+   "x": "Question: Everyone who has been to synagogue knows that we Jews recite the Amidah (silent prayer) three times every day. Why do we all say the same thing, and…",
+   "ax": "The Talmud offers two (apparently divergent) origins of the thrice-daily prayer regimen:1 a) The three prayers were actually instituted by our forefathers. Abr…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3176913",
+   "t_he": "",
+   "t_en": "Why Do People Shout “Mazal Tov” When Dishes Drop?",
+   "x": "Question: The other day I was invited to my friends’ house for dinner. During dinner, someone dropped a glass and it broke. At that moment, everyone shouted, “…",
+   "ax": "It is quite possible that the sound of shattering glass reminds people of the breaking of the glass at a wedding, and it therefore evokes the accompanying maza…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3177778",
+   "t_he": "",
+   "t_en": "Is My Teacher Responsible for My Confiscated Smartphone?",
+   "x": "Question: Rabbi, I admit, I probably had it coming when my teacher finally confiscated my phone, which I was playing a tad too loudly in the middle of class. S…",
+   "ax": "Leaving the lectures about proper behavior to others, I’ll just address the issue at hand. Is Confiscation Permissible? Limited Confiscation According to Jewis…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3177787",
+   "t_he": "",
+   "t_en": "Is My Teacher Responsible for My Confiscated Smartphone?",
+   "x": "Question: Rabbi, I admit, I probably had it coming when my teacher finally confiscated my phone, which I was playing a tad too loudly in the middle of class. S…",
+   "ax": "Leaving the lectures about proper behavior to others, I’ll just address the issue at hand. Is Confiscation Permissible? Limited Confiscation According to Jewis…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3184201",
+   "t_he": "",
+   "t_en": "Why Do Jews Carry in an Eruv on Shabbat?",
+   "x": "Question: I recently read an article about how a Jewish community wants to create an eruv, a network of strings that will allow them to carry on Shabbat in an…",
+   "ax": "Your question is a good one—and an old one. Almost 900 years ago, the great medieval philosopher and poet Rabbi Judah ha-Levi (1080–1141) wrote about an exchan…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3189821",
+   "t_he": "",
+   "t_en": "Is Marijuana Kosher?",
+   "x": "Question: I recently read that a number of U.S. kosher certifying agencies are mulling putting their seal of approval on legal medical marijuana. Rabbi, mariju…",
+   "ax": "Since you only asked whether it is kosher—and not whether marijuana should be legal—I will focus solely on that issue. And the answer really depends on how you…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3202053",
+   "t_he": "",
+   "t_en": "To the Mother of a Child with Autism",
+   "x": "Question: After our daughter was born, my husband and I didn’t have children for 10 long years. Then we were finally blessed with a beautiful boy. I had big pl…",
+   "ax": "I read your words and I can hear the anguish in your voice. Even if I can find some wisdom to share, it may not be able to counter that anguish. Intellect does…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3225640",
+   "t_he": "",
+   "t_en": "Why Can’t the Rabbis Agree on Anything?",
+   "x": "Why Can’t the Rabbis Agree on Anything?",
+   "ax": "Dear Ask-the-Rabbi Rabbi, How is it that every rabbi I ask any question on anything Jewish gives me a different answer? And I’m talking just about the Orthodox…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3227501",
+   "t_he": "",
+   "t_en": "Why Do Jews Eat Lox and Bagels?",
+   "x": "Question: I didn’t really grow up what you would call religious, but we always had a family tradition of eating bagels with lox and cream cheese on Sundays. Ev…",
+   "ax": "I always thought that lox and bagels on Sunday mornings is as “Jewish” as apple pie is “American.” Except for crabapples, apples aren’t native to the United St…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3234466",
+   "t_he": "",
+   "t_en": "What Is Glatt Kosher?",
+   "x": "What Is Glatt Kosher?",
+   "ax": "Lots of supermarkets and caterers advertise themselves as being “glatt kosher,” which has come to mean “super-kosher” in common parlance. What does the term re…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3240769",
+   "t_he": "",
+   "t_en": "Why Are Shabbat Candles Lit 18 Minutes Before Sunset?",
+   "x": "Question: I understand that Shabbat begins at sunset on Friday, but I noticed that the candle-lighting time on the calendar is about 18 minutes before sunset.…",
+   "ax": "Strictly speaking, Shabbat begins at sundown, and from that time on it is forbidden to perform certain activities (including lighting Shabbat candles). However…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3248625",
+   "t_he": "",
+   "t_en": "Why Is Tachanun Longer on Mondays and Thursdays?",
+   "x": "Question: Why is Tachanun (penitential prayers) longer on Mondays and Thursdays? I always assumed that it had something to do with the fact that the Torah is r…",
+   "ax": "The Midrash relates that it was on a Thursday that G‑d told Moses to ascend Mount Sinai to receive the second set of tablets after the sin of the golden calf.…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3290198",
+   "t_he": "",
+   "t_en": "Why Must the Wedding Reception Be Kosher?",
+   "x": "Question: Why do rabbis insist that the food at a wedding be kosher? Frankly, I don’t see why it should matter who the caterer is, and if I don’t usually keep…",
+   "ax": "Good question. But let me take it one step further: Why do we need to serve food at a wedding in the first place? Can’t you get married without eating? And ind…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3295870",
+   "t_he": "",
+   "t_en": "Why the Egg (Beitza) on the Passover Seder Plate?",
+   "x": "Question: As I brush up on the details of the Seder, one thing keeps bothering me. We always have an egg on the Seder plate, and we eat it without any pomp and…",
+   "ax": "You’re actually asking about two separate, albeit related, customs regarding the egg: a) having it on the Seder plate; and b) eating it. Let’s start with the S…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3312277",
+   "t_he": "",
+   "t_en": "What’s the Big Deal About the Death of Rabbi Akiva’s Students?",
+   "x": "Question: I read on your site about the 24,000 disciples of Rabbi Akiva who, due to their lack of respect for each other, died between the holidays of Passover…",
+   "ax": "Unfortunately, you’re right. We’ve had many tragedies throughout our long and torrid history. Some of these tragedies even took place during the very same mour…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "sefirat-haomer",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3319017",
+   "t_he": "",
+   "t_en": "Why Does the Chazzan Repeat the Amidah?",
+   "x": "Question: I recently started attending synagogue services on a regular basis. After we pray the Amidah silently, the chazzan (cantor) repeats it word for word.…",
+   "ax": "To answer your question, let’s go back in history close to 2,500 years. It was the end of the Babylonian exile, and the Jews began returning to the Holy Land.…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3338140",
+   "t_he": "",
+   "t_en": "Why So Many Customs of When to Mourn During the Omer?",
+   "x": "Some people don’t make weddings or listen to music between Passover and Lag BaOmer, while others don’t do so between Rosh Chodesh Iyar and Shavuot. Some get ha…",
+   "ax": "Let’s begin with the original quote from the Talmud that is the source of this mourning period: It was said that Rabbi Akiva had 12,000 pairs of disciples from…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "sefirat-haomer",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3360233",
+   "t_he": "",
+   "t_en": "Why Do We Wash Differently in the Morning Than Before a Meal?",
+   "x": "Question: When ritually washing our hands in the morning, we alternate three times between the right and left hands. But when it comes to ritually washing for…",
+   "ax": "I should start off by acknowledging that there are various customs with regard to how one should ritually wash his hands. Chabad follows the common custom to w…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3361520",
+   "t_he": "",
+   "t_en": "If Judaism Is Spiritual, Why All the Rules?",
+   "x": "If Judaism Is Spiritual, Why All the Rules?",
+   "ax": "Dear Ask-the-Rabbi Rabbi, I was a social activist for many years, and then began dabbling in Buddhism. Now I feel drawn back to my Jewish roots. I’m excited by…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3365002",
+   "t_he": "",
+   "t_en": "Why Do Jews Fly Their Dead to Israel for Burial?",
+   "x": "Question: I was recently at a “funeral” at the airport of someone who was to be flown to Israel for burial. This isn’t the first time I’ve heard of this happen…",
+   "ax": "The custom of burying our loved ones specifically in Israel is an ancient one—as old as the Jewish nation itself. The Torah describes how, before their deaths,…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3370213",
+   "t_he": "",
+   "t_en": "Why Candles at the Chupah?",
+   "x": "Question: I was recently at a wedding where the bride and groom were walked to the chupah by their parents, each of whom was carrying a candle. It was spiritua…",
+   "ax": "There is indeed a deeper significance to the candles. Let’s shed some light on the reasons for these candles, as well as why the bride and groom are each escor…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3370226",
+   "t_he": "",
+   "t_en": "I Can’t Afford Another Kid!",
+   "x": "Question: My wife wants another child. We’re financially strained as it is, and I think it’s irresponsible to add another mouth to feed when you can’t afford i…",
+   "ax": "You are suggesting that finances should determine how many children we have. If you can’t afford it, don’t have babies. The stork should accept only cash on de…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3370378",
+   "t_he": "",
+   "t_en": "Why Do People Take Off Their Shoes When Visiting the Ohel?",
+   "x": "Question: What’s the source of the custom not to wear shoes at the Ohel? Is it just a Chabad thing?",
+   "ax": "Precedent for this concept is found in G‑d’s command to Moses at the burning bush, “Take off your sandals, for the place where you are standing is holy ground.…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3375874",
+   "t_he": "",
+   "t_en": "Why (and How) Does the Firstborn Get a Double Inheritance?",
+   "x": "Question: I recently had a conversation with a close friend of mine who just lost his father, and his siblings were working on dividing the inheritance. He men…",
+   "ax": "You’ve touched on quite a sensitive topic, so I would advise you to tread lightly with your friend when discussing inheritance. The directive to give the first…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3383977",
+   "t_he": "",
+   "t_en": "Why Hold Tzitzit for Baruch She’amar?",
+   "x": "Question: I was wondering why we hold our tzitzit when we say the Baruch She’amar prayer during Shacharit. I understand why we hold the fringes during the Shem…",
+   "ax": "The Baruch She’amar prayer serves as an opening for the “Verses of Praise” (Pesukei d’Zimra), which tell of G‑d’s greatness and how He manifests Himself within…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3393162",
+   "t_he": "",
+   "t_en": "Does Judaism Consider Bitcoin to Be Money?",
+   "x": "Does Judaism Consider Bitcoin to Be Money?",
+   "ax": "Borrowing and Lending Merchandise in Jewish Law Before getting into the question of whether something is considered currency, we first need to explain what pra…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3409790",
+   "t_he": "",
+   "t_en": "Why (and When to) Give Charity Before Prayer?",
+   "x": "Why (and When to) Give Charity Before Prayer?",
+   "ax": "Giving to charity before prayer is rooted in the Talmud, which notes that “the ways of G‑d are not like the ways of mortals. How is it among humans? If a man b…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3428420",
+   "t_he": "",
+   "t_en": "Is It Right to Be Upbeat on Rosh Hashanah?",
+   "x": "Question: I always associated going to synagogue on Rosh Hashanah and Yom Kippur with heaviness, guilt and a somber atmosphere. I guess that's what I grew up w…",
+   "ax": "There is a curious discussion in Jewish law about bees’ legs: What happens if a bee's leg falls off and gets stuck in a vat of honey? Bees are not kosher, and…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3434811",
+   "t_he": "",
+   "t_en": "I Cannot Stop on Shabbat",
+   "x": "Question: By far the most difficult commandment for me to keep is Shabbat. I never seem to get everything done in time on Friday, and can't just leave it alone…",
+   "ax": "I think this is really a challenge for us 21st century Americans, accustomed as we are to thinking that we need to hold the reins, taking control of every aspe…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3440243",
+   "t_he": "",
+   "t_en": "Why Do We Say L’Dovid Hashem Ori (Psalm 27) During the Month of Elul?",
+   "x": "Why Do We Say L’Dovid Hashem Ori (Psalm 27) During the Month of Elul?",
+   "ax": "Psalm 27 begins with the words “To David: The L‑rd is my light and my salvation.” (Read the entire text in English and Hebrew here) The Midrash tells us that “…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3474474",
+   "t_he": "",
+   "t_en": "Why No Mention of Rosh Chodesh in Rosh Hashanah Prayers?",
+   "x": "Why No Mention of Rosh Chodesh in Rosh Hashanah Prayers?",
+   "ax": "a. The verse states (Psalms 81:4), “Blow the shofar at the moon's renewal, at the time appointed (bakeseh) for our festive day.” The word bakeseh also means “h…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3514795",
+   "t_he": "",
+   "t_en": "Is It OK to Wear a Mezuzah Necklace?",
+   "x": "I’d like to wear a necklace with a mezuzah pendant. I know mezuzot are meant for doorways, but are there any issues with wearing one?",
+   "ax": "If your question is simply about a piece of metal shaped like a mezuzah case, then the answer is simple: There is no problem wearing one, but neither does it h…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3520419",
+   "t_he": "",
+   "t_en": "Is It OK to Wear a Mezuzah Necklace?",
+   "x": "I’d like to wear a necklace with a mezuzah pendant. I know mezuzot are meant for doorways, but are there any issues with wearing one?",
+   "ax": "If your question is simply about a piece of metal shaped like a mezuzah case, then the answer is simple: There is no problem wearing one, but neither does it h…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3523185",
+   "t_he": "",
+   "t_en": "Why the Straight-Branched Menorah?",
+   "x": "The Arch of Titus famously depicts the Temple Menorah as having rounded branches. Yet many Jews design their Chanukah menorahs to have straight, diagonal branc…",
+   "ax": "Let’s start at the beginning. Although Torah describes the design of the menorah in great detail, the text does not give any indication as to whether the shape…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3549013",
+   "t_he": "",
+   "t_en": "The Difference Between Sepharadic and Ashkenazic Pronunciation",
+   "x": "My Sepharadi friends celebrate Shabbat, and my Ashkenazi friends call it Shabbos. The Sepharadim call a groom a chatan, and the Ashkenazim refer to him as a ch…",
+   "ax": "Language and the way we speak is constantly evolving. For example, it has only been several hundred years since the British began colonizing, and Americans, So…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3559575",
+   "t_he": "",
+   "t_en": "Eminent Domain in Jewish Law",
+   "x": "Eminent Domain in Jewish Law",
+   "ax": "Eminent domain traditionally refers to the power of a state or a national government to take private property for public use. However, in the controversial 200…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3567732",
+   "t_he": "",
+   "t_en": "Why Get an Aliyah (or Maftir) Before a Yahrtzeit?",
+   "x": "Why Get an Aliyah (or Maftir) Before a Yahrtzeit?",
+   "ax": "Before addressing this question, let’s recount a story that underscores the importance of a mourner reciting Kaddish and reading the haftarah throughout the ye…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3582308",
+   "t_he": "",
+   "t_en": "What Is a Beth Din?",
+   "x": "What Is a Beth Din?",
+   "ax": "Literally a “house of law,” the beth din (בֵֵּית דִין in Hebrew. Also pronounced beis din or beit din) is a Jewish court of law. The obligation to establish co…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3582743",
+   "t_he": "",
+   "t_en": "Are Early Bird Specials Kosher?",
+   "x": "I have a small swimming pool construction business. Since almost no one thinks about swimming in the winter, and I could really use the extra cash, I was plann…",
+   "ax": "The Torah forbids ribbit, usually translated as “usury”—lending money with interest. Essentially, one is charging for the right to hold (and use) the borrowed…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3582750",
+   "t_he": "",
+   "t_en": "Cell Phone Privacy in Marriage",
+   "x": "Question: Are text messages private? My husband and I have a major disagreement over this. He gets furious when I look at his phone, saying I have no business…",
+   "ax": "The answer to your quandary is right there in front of you—on your finger. Just look at your wedding ring. A ring represents the ideal relationship. It wraps i…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3591533",
+   "t_he": "",
+   "t_en": "Why Was Non-Kosher Dye Used to Build the Mishkan?",
+   "x": "I was reading how some non-kosher dyes were used in the building of the Mishkan (Tabernacle). How could they use impure animals for the holiest of places?",
+   "ax": "It would be awfully tempting to answer this simply by saying that while non-kosher foods may not be eaten, we can use them for other purposes. However, that an…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3605182",
+   "t_he": "",
+   "t_en": "Can I Disinvite My Brother From Shabbat Dinner?",
+   "x": "Question: My mother insists on inviting my brother for Shabbat dinner every week. This brother opposes everything Jewish, makes a point of not participating in…",
+   "ax": "You say he does nothing more than eat. But he does eat? That may be enough. There is a precedent for this in the Purim story. Back in ancient Persia, a plot to…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3605194",
+   "t_he": "",
+   "t_en": "Can I Disinvite My Brother From Shabbat Dinner?",
+   "x": "Question: My mother insists on inviting my brother for Shabbat dinner every week. This brother opposes everything Jewish, makes a point of not participating in…",
+   "ax": "You say he does nothing more than eat. But he does eat? That may be enough. There is a precedent for this in the Purim story. Back in ancient Persia, a plot to…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3649755",
+   "t_he": "",
+   "t_en": "What Are the Signs of a Kosher Bird?",
+   "x": "What Are the Signs of a Kosher Bird?",
+   "ax": "The Torah tells us that a kosher land animal must chew its cud and have split hooves, and fish must have fins and scales. But the Torah doesn’t give any signs…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
    ],
    "c": "halacha",
    "y": 2026,
