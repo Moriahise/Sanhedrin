@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "history",
- "count": 1560,
+ "count": 1561,
  "entries": [
   {
    "id": "ye-4787",
@@ -25237,6 +25237,24 @@
    "c": "history",
    "y": 2026,
    "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6917668",
+   "t_he": "",
+   "t_en": "Why No Entry for 26th of Sivan?",
+   "x": "I noticed that in the “Today in Jewish History” section on your site, there is no mention of the 26th of Sivan as the yahrzeit of the great Talmudic sage Yonat…",
+   "ax": "Since this question comes up frequently, I will address it in some detail. Who Was Yonatan ben Uziel? The Talmud relates that the great sage Hillel had 80 exce…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 214,
    "s": "upload"
   }
  ]

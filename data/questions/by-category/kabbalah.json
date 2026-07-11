@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "kabbalah",
- "count": 664,
+ "count": 669,
  "entries": [
   {
    "id": "ye-11561",
@@ -10799,6 +10799,93 @@
     "kabbalah",
     "inspiration-entertainment",
     "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6783246",
+   "t_he": "",
+   "t_en": "Why Wash (Two or) Three Times For Bread?",
+   "x": "Why Wash (Two or) Three Times For Bread?",
+   "ax": "It’s a universal practice among Jewish people to wash their hands before eating bread. But if you’ve ever paid close attention, you might have noticed that som…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6885715",
+   "t_he": "",
+   "t_en": "What Does the Name Zohar Mean?",
+   "x": "What Does the Name Zohar Mean?",
+   "ax": "Zohar is a Hebrew name meaning “radiance.” Most famously, it is associated with the foundational work of Jewish mysticism, the Zohar, which is the central text…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6917667",
+   "t_he": "",
+   "t_en": "Do Animals Have Souls?",
+   "x": "Do Animals Have Souls?",
+   "ax": "The question of whether or not animals have souls—and what the nature of those nonhuman souls would be—has long been discussed. Few know, however, that this is…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6934571",
+   "t_he": "",
+   "t_en": "Soul Space: Visiting the Graves of the Righteous Throughout the Ages",
+   "x": "Soul Space: Visiting the Graves of the Righteous Throughout the Ages",
+   "ax": "The custom of visiting the graves of the righteous—particularly in times of hardship—is deeply embedded in Jewish tradition, dating back to our earliest ancest…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7017314",
+   "t_he": "",
+   "t_en": "The Rebbe's Tips for a Safe (and Holy) Car",
+   "x": "The Rebbe's Tips for a Safe (and Holy) Car",
+   "ax": "Jews remain connected to Torah, even while on the road. In fact, the Torah famously tells us in the Shema to study Torah “when you go on the way.”1 Of course,…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
    ],
    "c": "kabbalah",
    "y": 2026,

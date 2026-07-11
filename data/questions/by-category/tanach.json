@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "tanach",
- "count": 7812,
+ "count": 7822,
  "entries": [
   {
    "id": "ye-4809",
@@ -125675,6 +125675,181 @@
    "c": "tanach",
    "y": 2026,
    "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6339364",
+   "t_he": "",
+   "t_en": "Are There Age Limits for Jewish Leaders?",
+   "x": "Question: With the ongoing conversations regarding the age of people running for public office, as well as kings ascending the throne, I’m curious if Judaism h…",
+   "ax": "Thanks for that! You made my life easier. There are, of course, many different types of leadership positions. There are officials and judges, as well as kings…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6437442",
+   "t_he": "",
+   "t_en": "Why No “Nun” in Ashrei?",
+   "x": "Why No “Nun” in Ashrei?",
+   "ax": "The Ashrei prayer, primarily derived from Psalm 145, is recited by Jews three times daily. The sages of the Talmud declared that anyone who says Ashrei thrice…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6547955",
+   "t_he": "",
+   "t_en": "17 Facts You Should Know About the Five Books of Moses",
+   "x": "17 Facts You Should Know About the Five Books of Moses",
+   "ax": "The Five Books of Moses, also known as the Pentateuch, are the foundational work of Judaism. Dictated by G‑d and transcribed by Moses, these books chronicle th…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6711565",
+   "t_he": "",
+   "t_en": "11 Facts You Should Know About Mixing Milk and Meat",
+   "x": "11 Facts You Should Know About Mixing Milk and Meat",
+   "ax": "Refraining from mixing milk and meat is a biblical instruction with far-reaching ramifications in Jewish law and practice. As with every mitzvah, it carries le…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6774050",
+   "t_he": "",
+   "t_en": "What Does Judaism Say About Tariffs?",
+   "x": "What Does Judaism Say About Tariffs?",
+   "ax": "Tariffs are in the news these days, but taxes have always been a big deal. In fact, as we explain in our article What Does the Torah Say About Jews and Taxes?,…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6818600",
+   "t_he": "",
+   "t_en": "What Does the Name Esther Mean?",
+   "x": "What Does the Name Esther Mean?",
+   "ax": "Esther is a popular Jewish name, most closely associated with Queen Esther, the heroine of the Purim story. As documented in the Book of Esther, she put her ow…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6951264",
+   "t_he": "",
+   "t_en": "What Does the Name Yoni Mean?",
+   "x": "What Does the Name Yoni Mean?",
+   "ax": "Yoni (יוני) is a popular Jewish boy’s name, typically used a nickname for Yonah (יונה), Yonatan (יונתן), or Yehonatan (יהונתן). Yonah (Jonah) means “dove.” The…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6955902",
+   "t_he": "",
+   "t_en": "What Does the Name Yael Mean?",
+   "x": "What Does the Name Yael Mean?",
+   "ax": "Yael is a popular Jewish girl’s name meaning “ibex” or “mountain goat,” a graceful creature native to the arid cliffs of the Land of Israel. Who was Yael in th…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7034565",
+   "t_he": "",
+   "t_en": "Where Is the Day of Atonement Mentioned in the Bible?",
+   "x": "Where Is the Day of Atonement Mentioned in the Bible?",
+   "ax": "As outlined in the Book of Leviticus, the 10th day of the 7th month (Tishrei) is Yom Hakippurim (יום הכיפורים), the Day of Atonement, as the verse states, “For…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7181075",
+   "t_he": "",
+   "t_en": "Where Did Moses Get His Staff & What Happened to It?",
+   "x": "Where Did Moses Get His Staff & What Happened to It?",
+   "ax": "Moses’ staff figures prominently throughout the story of the Exodus from Egypt and our ancestors’ subsequent sojourn in the desert. We first encounter the staf…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 214,
    "s": "upload"
   }
  ]

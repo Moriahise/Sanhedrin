@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "halacha",
- "count": 17461,
+ "count": 17515,
  "entries": [
   {
    "id": "ye-2009121811237500",
@@ -279978,6 +279978,929 @@
     "inspiration-entertainment",
     "question-answer",
     "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6259574",
+   "t_he": "",
+   "t_en": "Is Mahi Mahi (Dorado) Kosher?",
+   "x": "Is Mahi Mahi (Dorado) Kosher?",
+   "ax": "Mahi mahi is a fish that has fins and scales, which means that it is a kosher species. (This is despite the fact that it is also known as “dolphinfish,” and do…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6259576",
+   "t_he": "",
+   "t_en": "Is Rockfish Kosher?",
+   "x": "Is Rockfish Kosher?",
+   "ax": "The term “rockfish” refers to several species of fish, which are thus named because they live among the rocks on the bottom of the water. The good news is that…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6259577",
+   "t_he": "",
+   "t_en": "Is Grouper Kosher?",
+   "x": "Is Grouper Kosher?",
+   "ax": "The term “grouper” refers to several species of large-mouthed heavy-bodied fish, some of which are indeed kosher, including two known as “sea basses”: The Epin…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6259578",
+   "t_he": "",
+   "t_en": "Is Turbot Kosher?",
+   "x": "Is Turbot Kosher?",
+   "ax": "In general, fish naming is a mess, and fish are often mislabeled. But the term turbot is particularly misleading as there are several kinds of fish that go by…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6259579",
+   "t_he": "",
+   "t_en": "Are Crickets Kosher?",
+   "x": "Are Crickets Kosher?",
+   "ax": "With the exception of certain locusts, insects are not kosher. And this includes crickets, which are not kosher. Now, certain non-Jewish translations of the To…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6270225",
+   "t_he": "",
+   "t_en": "May a Non-Jew Display a Mezuzah?",
+   "x": "I have a neighbor, a wonderful person, who is not Jewish. With all the antisemitism going around, he approached me and asked if it would be okay for him to pla…",
+   "ax": "What a thoughtful neighbor you have! It is beautiful to see this gesture of true care and support for the Jewish people. Tell your neighbor that I am also touc…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6282910",
+   "t_he": "",
+   "t_en": "Take a Deep Dive into Mikvah Construction",
+   "x": "Take a Deep Dive into Mikvah Construction",
+   "ax": "A mikvah is a pool of water in which Jewish people immerse to affect purity. It is most commonly used by women when they conclude their period of niddah and by…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6318051",
+   "t_he": "",
+   "t_en": "Why Is Kaddish Said for 11 Months?",
+   "x": "Question: I recently lost my mom and started saying Kaddish for her. I joined a local Chabad, which embraced me with open arms, and I’m so thankful for that. I…",
+   "ax": "First, I’m so sorry to hear about your loss. Surely your mom is very proud of your saying Kaddish in her memory. To respond to your question: Yes, Ashkenazi Je…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6324210",
+   "t_he": "",
+   "t_en": "Hamsa in Judaism",
+   "x": "Hamsa in Judaism",
+   "ax": "What Is a Hamsa? A Hamsa is an amulet that depicts a symmetrical open hand, typically used decoratively in the home or worn on jewelry. Its name—Arabic for “fi…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6337090",
+   "t_he": "",
+   "t_en": "How to Keep Halachah and Keep Your Friends Too",
+   "x": "How to Keep Halachah and Keep Your Friends Too",
+   "ax": "A Torah life should bring people closer, not tear them apart. But a lot of times, you’re going to find keeping kosher, Shabbat, and other Jewish practices plac…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6379285",
+   "t_he": "",
+   "t_en": "Which “Scales” Make a Fish Kosher?",
+   "x": "Which “Scales” Make a Fish Kosher?",
+   "ax": "The only criterion for fish to be kosher is that it has both fins and scales. This means that anyone who knows the kosher signs can catch their own fish. And,…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6584291",
+   "t_he": "",
+   "t_en": "What Does Jewish Astronaut Jared Isaacman Need to Know?",
+   "x": "What Does Jewish Astronaut Jared Isaacman Need to Know?",
+   "ax": "This week, humanity achieved a milestone: the first-ever commercial spacewalk. The commander of the Polaris Dawn SpaceX craft is Jared Isaacman, who is Jewish.…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6609659",
+   "t_he": "",
+   "t_en": "Why Smell Fragrances on Yom Kippur?",
+   "x": "Why Smell Fragrances on Yom Kippur?",
+   "ax": "In the synagogue on Yom Kippur, it is not uncommon for people to pass around sweet or strong-smelling spices. You may think that the reason is to get a jolt of…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6613268",
+   "t_he": "",
+   "t_en": "Guidelines for Blessings Over Fragrances",
+   "x": "Guidelines for Blessings Over Fragrances",
+   "ax": "Once you’ve made a blessing over a spice, you can only say another blessing on that same spice if you’ve decided to stop smelling it and then changed your mind…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6650159",
+   "t_he": "",
+   "t_en": "Are AR Headsets Considered “Seeing”?",
+   "x": "Are AR Headsets Considered “Seeing”?",
+   "ax": "With the proliferation of augmented reality (AR) headsets, which overlay digital information, like images or text, displayed in real-time on a screen (sometime…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6664612",
+   "t_he": "",
+   "t_en": "Synagogue FAQ",
+   "x": "Synagogue FAQ",
+   "ax": "What does “synagogue” mean? A synagogue is where Jews pray. The term “synagogue” is the Greek equivalent of the Hebrew beit knesset, which means “house of gath…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6670652",
+   "t_he": "",
+   "t_en": "Is There a Concept of Clemency and Pardons in Jewish Law?",
+   "x": "Is There a Concept of Clemency and Pardons in Jewish Law?",
+   "ax": "In many countries, rulers have the power to grant pardons or show clemency, allowing them to override the legal system in special cases. In fact, according to…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6690572",
+   "t_he": "",
+   "t_en": "Are Alexa and Siri OK for Shabbat?",
+   "x": "Are Alexa and Siri OK for Shabbat?",
+   "ax": "Great question! Voice-activated virtual assistants like Alexa and Siri are electronic devices powered by artificial intelligence (AI) and natural language proc…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6731082",
+   "t_he": "",
+   "t_en": "What Should You Do if You Miss Lighting Shabbat Candles?",
+   "x": "What Should You Do if You Miss Lighting Shabbat Candles?",
+   "ax": "There is something almost counterintuitive about lighting Shabbat candles. On the one hand, it’s super important for Jewish women to light candles before every…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6735256",
+   "t_he": "",
+   "t_en": "Kosher FAQ",
+   "x": "Kosher FAQ",
+   "ax": "What are the basics of kosher? Only some animals are kosher, such as cows, sheep, chicken, and certain fish Animals and birds must be slaughtered in a specific…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6747072",
+   "t_he": "",
+   "t_en": "Why Do Husbands Open the Ark During Pregnancy?",
+   "x": "Why Do Husbands Open the Ark During Pregnancy?",
+   "ax": "Some have a custom that during the ninth month of his wife’s pregnancy, the husband seeks the honor of opening the ark (pesichah) and removing the Torah scroll…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6783290",
+   "t_he": "",
+   "t_en": "Can I Put Out a Yahrzeit Candle at Night?",
+   "x": "Every week, our “Ask the Rabbi” inbox is full of questions. We never know what to expect; the questions are as diverse as the Jewish people! Here is a sampling…",
+   "ax": "Technically, you can wear any headcovering; the idea is to cover your head. Yarmulkes are designed to stay on, but a cap or anything you’re comfortable with wo…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6797608",
+   "t_he": "",
+   "t_en": "Can I Read Megillah to Myself?",
+   "x": "Every week, our “Ask the Rabbi” inbox is full of questions. We never know what to expect; the questions are as diverse as the Jewish people! Here is a sampling…",
+   "ax": "The way to do this mitzvah is to hear it read from a scroll, and I encourage you to make every effort to be present at a Megillah reading on Purim. If you are…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6819654",
+   "t_he": "",
+   "t_en": "Q&A From Our Chabad.org Inbox (Installment #3)",
+   "x": "How Do I Explain G‑d to My Grandchildren? Your grandchildren are lucky to have you! One great way is to tell them authentic Jewish stories—from the Talmud, fro…",
+   "ax": "If the person you are calling is Jewish, you may not make the phone call, regardless of his or her level of observance, as you’d be causing them to desecrate S…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6829529",
+   "t_he": "",
+   "t_en": "What You Need to Know About Warming Food on Shabbat",
+   "x": "What You Need to Know About Warming Food on Shabbat",
+   "ax": "So, you know you can’t cook or adjust a flame on Shabbat. But does that mean you’re stuck eating only cold food? Not necessarily! Of course, with certain restr…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6837443",
+   "t_he": "",
+   "t_en": "Q&A From Our Chabad.org Inbox—Passover Edition",
+   "x": "This year, with Passover beginning on Saturday night, when do we burn the chametz? Good question. Normally, we search for chametz the night before Passover and…",
+   "ax": "The only precedent we have in halachah is in a situation where there is no actual zeroa available. In that case, one may use another cooked item, such as a veg…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6843065",
+   "t_he": "",
+   "t_en": "What Does the Name Pesach Mean?",
+   "x": "What Does the Name Pesach Mean?",
+   "ax": "Pesach is a Jewish boy’s name and is the Hebrew name for the festival of Passover. Pesach celebrates our freedom from our oppression and the first step towards…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6867593",
+   "t_he": "",
+   "t_en": "Why Learn Pirkei Avot From Passover and On?",
+   "x": "Why Learn Pirkei Avot From Passover and On?",
+   "ax": "There’s a custom to study one chapter of Pirkei Avot (Ethics of the Fathers) every Shabbat afternoon between Passover and Shavuot. Many communities, including…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6885710",
+   "t_he": "",
+   "t_en": "Is a Hot Dog a Sandwich?",
+   "x": "Hi Rabbi, I know this may sound strange, but the internet has been locked in a fiery debate for years over one of the most pressing culinary questions of our t…",
+   "ax": "I must admit, at first I wasn’t quite sure where this was going. But as much as I’m hesitant to wade into such a heated debate, the question offers an opportun…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6901423",
+   "t_he": "",
+   "t_en": "What Blessing Do You Make on Pizza?",
+   "x": "What Blessing Do You Make on Pizza?",
+   "ax": "One of the more common—and surprisingly complex—questions people ask is: What brachah do you make on pizza? Is it Mezonot, like cake or crackers, or Hamotzi, l…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6954818",
+   "t_he": "",
+   "t_en": "Does Judaism Support Work Requirements for Benefits?",
+   "x": "Does Judaism Support Work Requirements for Benefits?",
+   "ax": "The recently passed legislation tying programs like SNAP and Medicaid to work requirements has sparked debate about the ethical responsibilities of both societ…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6955335",
+   "t_he": "",
+   "t_en": "6 Tips For Keeping Kosher When You Live Far From Kosher Shops",
+   "x": "6 Tips For Keeping Kosher When You Live Far From Kosher Shops",
+   "ax": "Keeping kosher is a cornerstone of Jewish life, but what if you live in an area without a kosher grocery store? Don’t worry—with some knowledge and planning, y…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6955349",
+   "t_he": "",
+   "t_en": "Does G-d Really Care If I Don't Keep Kosher?",
+   "x": "I love being Jewish and believe in G‑d, but find it hard to believe that He really cares if I eat non-kosher food, watch TV on Friday night, or pray every day.…",
+   "ax": "You don’t have to believe, you just have to listen. G‑d expressly told us what He wants in the Torah. And if they are things you would least expect, that is a…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7006599",
+   "t_he": "",
+   "t_en": "Can I Knock Down a Drone That’s Invading My Privacy?",
+   "x": "Question: I love spending time in my backyard, but someone keeps flying their drone overhead, and it's really starting to bother me. I’ve asked them to stop, b…",
+   "ax": "Before we talk about taking aim at a drone, we have to start with an important concept: dina d’malchuta dina, “the law of the land is the law.”1 That means we’…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7007161",
+   "t_he": "",
+   "t_en": "Is Seltzer Yiddish?",
+   "x": "Is Seltzer Yiddish?",
+   "ax": "While it may sound Yiddish, and you’d be hard pressed to find a Jewish event without bottles and bottles of the stuff, the word seltzer actually gets its name…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7028749",
+   "t_he": "",
+   "t_en": "What Is a Shabbaton?",
+   "x": "What Is a Shabbaton?",
+   "ax": "Since the mid-20th century, a Shabbaton has come to refer to a weekend retreat that extends over Shabbat (the Jewish day of rest). With prayers and meals punct…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7028768",
+   "t_he": "",
+   "t_en": "What Are the Yamim Noraim (Days of Awe)?",
+   "x": "What Are the Yamim Noraim (Days of Awe)?",
+   "ax": "Yamim Norai’m (ימים נוראים) is a Hebrew term meaning “Days of Awe.” It refers to the High Holidays: Rosh Hashanah and Yom Kippur. The name is most appropriate,…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7081070",
+   "t_he": "",
+   "t_en": "Is Flounder Kosher?",
+   "x": "Is Flounder Kosher?",
+   "ax": "Flounder is a fish that has fins and scales, which means that it is a kosher species. Seems simple enough. But it’s not that simple, because fish are often mis…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7082927",
+   "t_he": "",
+   "t_en": "Rabbi: What If I Just Bought the Jewels Stolen from the Louvre?",
+   "x": "Let’s say—purely theoretically, of course—that I purchased some jewels in Paris at what seemed like a once-in-a-lifetime bargain. Later, I discovered that thes…",
+   "ax": "I’m going to reply under the assumption that this is indeed a “purely theoretical” question. But first, note that knowingly buying stolen goods is described by…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7091102",
+   "t_he": "",
+   "t_en": "Is Pollock Kosher?",
+   "x": "Is Pollock Kosher?",
+   "ax": "Pollock is a fish that has fins and scales, which means that it is a kosher species. Seems simple enough. But it’s not that simple, because fish are often misl…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7091133",
+   "t_he": "",
+   "t_en": "Is Trout Kosher?",
+   "x": "Is Trout Kosher?",
+   "ax": "Trout is a fish that has fins and scales, which means that it is a kosher species. Seems simple enough. But it’s not that simple, because fish are often mislab…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7091150",
+   "t_he": "",
+   "t_en": "Is Haddock Kosher?",
+   "x": "Is Haddock Kosher?",
+   "ax": "Haddock is a fish that has fins and scales, which means that it is a kosher species. Seems simple enough. But it’s not that simple, because fish are often misl…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7091160",
+   "t_he": "",
+   "t_en": "Is Mackerel Kosher?",
+   "x": "Is Mackerel Kosher?",
+   "ax": "Mackerel is a fish that has fins and scales, which means that it is a kosher species. Seems simple enough. But it’s not that simple, because fish are often mis…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7092722",
+   "t_he": "",
+   "t_en": "Is Bream Kosher?",
+   "x": "Is Bream Kosher?",
+   "ax": "Bream is a fish that has fins and scales, which means that it is a kosher species. Seems simple enough. But it’s not that simple, because fish are often mislab…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7092726",
+   "t_he": "",
+   "t_en": "Is Branzino (European Seabass) Kosher?",
+   "x": "Is Branzino (European Seabass) Kosher?",
+   "ax": "Branzino is a fish that has fins and scales, which means that it is a kosher species. Seems simple enough. But it’s not that simple, because fish are often mis…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7092734",
+   "t_he": "",
+   "t_en": "Is Wahoo (Ono Fish) Kosher?",
+   "x": "Is Wahoo (Ono Fish) Kosher?",
+   "ax": "Wahoo is a fish that has fins and scales, which means that it is a kosher species. Seems simple enough. But it’s not that simple, because fish are often mislab…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7092763",
+   "t_he": "",
+   "t_en": "Is Sablefish Kosher?",
+   "x": "Is Sablefish Kosher?",
+   "ax": "Sablefish is a fish that has fins and scales, which means that it is a kosher species. Seems simple enough. But it’s not that simple, because fish are often mi…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7092950",
+   "t_he": "",
+   "t_en": "Is Shark Kosher?",
+   "x": "Is Shark Kosher?",
+   "ax": "Sharks are not kosher, because in order for a fish to be classed as kosher it must have both fins and scales (see Leviticus 11:9). Sharks do not have normal fi…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7092967",
+   "t_he": "",
+   "t_en": "Is Basa Fish Kosher?",
+   "x": "Is Basa Fish Kosher?",
+   "ax": "Basa fish are not kosher, because they do not have scales. In order for a fish to be classed as kosher it must have both fins and scales (see Leviticus 11:9).…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7111881",
+   "t_he": "",
+   "t_en": "What!? I Need to Sit Shivah for My Ex?",
+   "x": "Question: I recently attended the funeral of my ex-husband. I wouldn’t have gone for his sake; I’m still angry at him. I went for my kids. I was surprised to b…",
+   "ax": "In Judaism, we don’t have ceremonies. We have surgeries. A ceremony is a symbolic act that marks something that has already happened, but nothing really change…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7121062",
+   "t_he": "",
+   "t_en": "Is the New “Alt-Milk” Kosher Parve?",
+   "x": "I recently heard about a new technology developed in Israel that produces milk proteins using plant- and fungus-based sources. The resulting proteins are said…",
+   "ax": "To understand the halachic status of this new milk alternative, it helps to first understand how it is produced. Unlike plant-based milks, which only simulate…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7144142",
+   "t_he": "",
+   "t_en": "How Long Should Shabbat Candles Burn?",
+   "x": "How Long Should Shabbat Candles Burn?",
+   "ax": "It’s a common question, especially if you’re going out for the meal or using small tea lights: How long do my Shabbat candles actually need to burn? The Torah…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7171140",
+   "t_he": "",
+   "t_en": "Non-Jews and Shabbat",
+   "x": "Non-Jews and Shabbat",
+   "ax": "In the era of the 5-day workweek, taking the weekend off is often celebrated as one of the Jewish people’s gifts to the world. This would lead many people to a…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7180093",
+   "t_he": "",
+   "t_en": "What Is Oneg Shabbat?",
+   "x": "What Is Oneg Shabbat?",
+   "ax": "Oneg Shabbat (עונג שבת, pronounced OH-neg shah-BAHT or OY-neg SHA-boss) is a Hebrew term that literally means “delight of the Sabbath.” The prophet Isaiah inst…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
    ],
    "c": "halacha",
    "y": 2026,

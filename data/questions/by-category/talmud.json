@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "talmud",
- "count": 3594,
+ "count": 3597,
  "entries": [
   {
    "id": "ye-2010112513418718",
@@ -58135,6 +58135,59 @@
    "c": "talmud",
    "y": 2026,
    "ch": 213,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6464321",
+   "t_he": "",
+   "t_en": "What Is Midrash?",
+   "x": "What Is Midrash?",
+   "ax": "A form of the word darash, meaning “inquire” or “expound,” midrash is the rabbinic endeavor of mining the text of Tanach (the Hebrew Bible) to extract nuggets…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-6911962",
+   "t_he": "",
+   "t_en": "What Does the Name Tzipporah Mean?",
+   "x": "What Does the Name Tzipporah Mean?",
+   "ax": "Tzipporah, sometimes spelled Zipporah, is a popular Jewish girl’s name related to the root word tzipor, which means “bird.” Tzipporah was the daughter of Jethr…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-7181058",
+   "t_he": "",
+   "t_en": "What Is a Beit Midrash?",
+   "x": "What Is a Beit Midrash?",
+   "ax": "A beit midrash (בֵּית מִדְרָשׁ), literally “house of study,” or “study hall,” is the traditional Jewish space devoted to Torah study. Its name comes from the H…",
+   "tg": [
+    "chabad",
+    "talmud",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 214,
    "s": "upload"
   }
  ]
