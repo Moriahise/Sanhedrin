@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "kabbalah",
- "count": 643,
+ "count": 646,
  "entries": [
   {
    "id": "ye-11561",
@@ -10439,6 +10439,58 @@
    "c": "kabbalah",
    "y": 2026,
    "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2920308",
+   "t_he": "",
+   "t_en": "Why Do We Write Hebrew from Right to Left?",
+   "x": "Why Do We Write Hebrew from Right to Left?",
+   "ax": "One popular theory is that Hebrew is written from right to left because, in ancient times, when chiseling out words on a stone tablet, the engraver would hold…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2963669",
+   "t_he": "",
+   "t_en": "Why Do Some Chassidic Jews Have Long Sidelocks (Peyot)?",
+   "x": "Why Do Some Chassidic Jews Have Long Sidelocks (Peyot)?",
+   "ax": "It should first be pointed out that, contrary to the common misconception, leaving sidelocks (peyot) is not just a “chassidic” thing; it’s a Jewish thing. The…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2982567",
+   "t_he": "",
+   "t_en": "Does Global Warming Mean the End Is Near?",
+   "x": "Question: Could global warming be a sign that the Messiah is about to arrive? I learned that the Torah predicts that in the future the “covering of the sun” wi…",
+   "ax": "The Jewish view of the end of days differs greatly from other apocalyptic visions. It will not need to be violent, and there will be no need for more wars. Eve…",
+   "tg": [
+    "chabad",
+    "kabbalah",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 212,
    "s": "upload"
   }
  ]

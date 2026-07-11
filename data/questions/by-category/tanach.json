@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "tanach",
- "count": 7772,
+ "count": 7775,
  "entries": [
   {
    "id": "ye-4809",
@@ -124984,6 +124984,57 @@
    "c": "tanach",
    "y": 2026,
    "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2918691",
+   "t_he": "",
+   "t_en": "Why Do Jews Always Get Noticed?",
+   "x": "Question Why do the Jewish people seem to loom so large on the world stage? The numbers don't add up. Here's a nation that comprises less than 0.2% of the worl…",
+   "ax": "Jews do strange things sometimes. One example is the widespread practice of \"credit combing.\" Many Jews have a habit of combing through the credits at the end…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2943077",
+   "t_he": "",
+   "t_en": "Do Jews Cross Fingers?",
+   "x": "Question: Is it wrong for a Jew to say “I’m keeping my fingers crossed” for good luck? And if so, is there a Jewish equivalent to crossing fingers? I’m waiting…",
+   "ax": "Crossing fingers is a Christian practice. It originated in medieval England, when Christians believed that the cross symbol had the power to ward off evil and…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2981847",
+   "t_he": "",
+   "t_en": "Who Wrote the Book of Psalms?",
+   "x": "Question: I was always under the impression that King David was the author of the book of Psalms (Tehillim). But as I read through the psalms, I saw that many…",
+   "ax": "A quick perusal through the Book of Psalms will reveal numerous chapters attributed to various great personalities. The Talmud enumerates ten authors other tha…",
+   "tg": [
+    "chabad",
+    "tanach",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 212,
    "s": "upload"
   }
  ]

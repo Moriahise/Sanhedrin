@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "history",
- "count": 1539,
+ "count": 1540,
  "entries": [
   {
    "id": "ye-4787",
@@ -24871,6 +24871,23 @@
    "c": "history",
    "y": 2026,
    "ch": 208,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2938947",
+   "t_he": "",
+   "t_en": "Why Do Jews Still Insist on Speaking Yiddish?",
+   "x": "Question: Recently I heard Jewish people speaking Yiddish, which I know is a form of German. Why are Jewish people living in the United States speaking German?…",
+   "ax": "While you ask about Yiddish, it should be noted that Jews speaking their own special, non-Hebrew language extends far beyond Yiddish. There is Ladino, Judeo-Ar…",
+   "tg": [
+    "chabad",
+    "history",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 211,
    "s": "upload"
   }
  ]

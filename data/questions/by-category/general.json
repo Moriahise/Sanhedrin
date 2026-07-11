@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "general",
- "count": 19235,
+ "count": 19272,
  "entries": [
   {
    "id": "ye-200912288164429",
@@ -314144,6 +314144,672 @@
    "c": "general",
    "y": 2026,
    "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862781",
+   "t_he": "",
+   "t_en": "Why Balaam?",
+   "x": "Why Balaam?",
+   "ax": "\"מה טבו אהליך יעקב משכנתיך ישראל\" “How goodly are your tents, O Yaakov, your dwelling places, O Israel.” QUESTION: Why do we open our daily prayers with words…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862783",
+   "t_he": "",
+   "t_en": "Tent Doors",
+   "x": "Tent Doors",
+   "ax": "\"מה טבו אהליך יעקב משכנתיך ישראל\" “How goodly are your tents, O Yaakov, your dwelling places, O Israel.” QUESTION: Rashi (Bamidbar 24:5) comments that Bilaam u…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862785",
+   "t_he": "",
+   "t_en": "Yitzchak and Rivkah",
+   "x": "Yitzchak and Rivkah",
+   "ax": "בפי ישרים תתרומם ובשפתי צדיקים תתברך ובלשון חסידים תתקדש ובקרב קדושים תתהלל “By the mouth of the upright shall You be exalted, and by the lips of the righteous…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862788",
+   "t_he": "",
+   "t_en": "Shema in the Amida",
+   "x": "Shema in the Amida",
+   "ax": "\"כתר...שמע ישראל ה' אלקינו ה' אחד\" “A crown given to you... Hear O Israel, G‑d our G‑d, G‑d is the One and Only.” (6:4) QUESTION: Why is the Shema recited in t…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862794",
+   "t_he": "",
+   "t_en": "A Lot of Charity",
+   "x": "A Lot of Charity",
+   "ax": "ותשובה ותפלה וצדקה “Repentance, Prayer, and Charity.” QUESTION: In all Machzorim the word “tzom” — “fasting” — is printed over the word “teshuvah,” the word “k…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862795",
+   "t_he": "",
+   "t_en": "The Name",
+   "x": "The Name",
+   "ax": "אנא השם...אנא בשם כפר... “I beg You Hashem…I beg You, with The Name forgive….” QUESTION: Why does the Kohen Gadol first say “Hashem” and later says “Besheim”?…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862796",
+   "t_he": "",
+   "t_en": "Why Sing Along?",
+   "x": "Why Sing Along?",
+   "ax": "והכהנים והעם העומדים בעזרה “And when the Kohanim and the people standing in the Temple court” QUESTION: Why is it customary that the congregation sing along wh…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862800",
+   "t_he": "",
+   "t_en": "Coming Out",
+   "x": "Coming Out",
+   "ax": "והכהנים והעם...כשהיו שומעים את השם... יוצא מפי כהן גדול “When the Kohanim and the people…heard the glorious and awesome Name…emanating from the mouth of the Ko…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862802",
+   "t_he": "",
+   "t_en": "A Ladle of Incense",
+   "x": "A Ladle of Incense",
+   "ax": "נכנס לבית קדש הקדשים להוציא את הכף ואת המחתה שהכניס בשחרית “He entered to the Holy of Holies to bring out the ladle and the fire-pan which he had taken in duri…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862804",
+   "t_he": "",
+   "t_en": "Walking Upright",
+   "x": "Walking Upright",
+   "ax": "\"שנה שתוליכנו בה קוממיות לארצנו\" “A year in which you will lead us upright to our land.” QUESTION: How can this be reconciled with the Gemara (Kedushin 31a) th…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862806",
+   "t_he": "",
+   "t_en": "When To Feast?",
+   "x": "When To Feast?",
+   "ax": "ויום טוב היה עושה בצאתו בשלום מן הקדש “He would celebrate a festive-day for his coming out from the Holy of Holies in piece.” QUESTION: Some say the Kohen Gado…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862808",
+   "t_he": "",
+   "t_en": "The House of the Kohen Gadol",
+   "x": "The House of the Kohen Gadol",
+   "ax": "ומלוין אותו עד ביתו “All the people accompanied him to his house.” QUESTION: Why, upon the completion of the services did he go specifically to his house? ANSW…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862811",
+   "t_he": "",
+   "t_en": "The 10 Martyrs in the Torah",
+   "x": "The 10 Martyrs in the Torah",
+   "ax": "\"לעשרה הרוגי מלוכה\" “The ten martyrs who were put to death by the government.” QUESTION: Where is there a remez — hint — in the Torah for the martyred Sages? A…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862819",
+   "t_he": "",
+   "t_en": "The Destruction of Jerusalem",
+   "x": "The Destruction of Jerusalem",
+   "ax": "\"אזכרה אלקים ואהמיה בראותי כל עיר על תלה בנויה ועיר האלקים משפלת עד שאול תחתיה\" G‑d, I remember, and I lament when I see every city built on its site while the…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862824",
+   "t_he": "",
+   "t_en": "Why You?",
+   "x": "Why You?",
+   "ax": "\"אתה נותן יד לפושעים וימינך פשוטה לקבל שבים\" “You extend a hand to transgressors, and Your right hand is stretched forth to receive penitent.” QUESTION: By emp…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862831",
+   "t_he": "",
+   "t_en": "Good Treasure",
+   "x": "Good Treasure",
+   "ax": "\"שערי שמים פתח ואוצרך הטוב לנו תפתח\" “Open the gates of heaven, open for us Your good treasure.” QUESTION: The previous Lubavitcher Rebbe, Rabbi Yosef Yitzchak…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2862832",
+   "t_he": "",
+   "t_en": "Next Year in Jerusalem",
+   "x": "Next Year in Jerusalem",
+   "ax": "לשנה הבאה בירושלים “Next year in Jerusalem” QUESTION: Why is this prayer recited twice a year; at the conclusion of the Pesach Seder and at the conclusion of t…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2865154",
+   "t_he": "",
+   "t_en": "Vedibarta Bam - Questions and Answers on the Torah",
+   "x": "Vedibarta Bam - Questions and Answers on the Torah",
+   "ax": "Vedibarta Bam - Torah Vedibarta Bam - Holidays Vedibarta Bam - Pirkei Avot Vedibarta Bam - Marriage Vedibarta Bam - For Your Table More...",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2865159",
+   "t_he": "",
+   "t_en": "Vedibarta Bam - Holidays",
+   "x": "Vedibarta Bam - Holidays",
+   "ax": "Vedibarta Bam - Torah Vedibarta Bam - Holidays Vedibarta Bam - Pirkei Avot Vedibarta Bam - Marriage Vedibarta Bam - For Your Table More...",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2869559",
+   "t_he": "",
+   "t_en": "Questions and Answers on Lag BaOmer",
+   "x": "Questions and Answers on Lag BaOmer",
+   "ax": "\"שנים עשר אלף זוגים תלמידים היו לו לרבי עקיבא וכולם מתו בפרק אחד מפני שלא נהגו כבוד זה לזה\" “Rabbi Akiva had 24,000 students and they all died in one season be…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2869712",
+   "t_he": "",
+   "t_en": "Questions and Answers on the Hymns (Zemirot) for Friday Evening",
+   "x": "Questions and Answers on the Hymns (Zemirot) for Friday Evening",
+   "ax": "\"שלום עליכם מלאכי השרת\" “Peace unto you, ministering angels.” QUESTION: Why do we greet angels when we come home from shul? ANSWER: According to the Gemara (Sh…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2869713",
+   "t_he": "",
+   "t_en": "Questions and Answers on Kiddush for Friday Evening",
+   "x": "Questions and Answers on Kiddush for Friday Evening",
+   "ax": "\"יום הששי. ויכלו השמים\" “The sixth day. And the heavens were completed.” QUESTION: Why does Kiddush start with the words “Yom hashishi” — “the sixth day” — whi…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2869716",
+   "t_he": "",
+   "t_en": "Questions and Answers on Seudah Shelishit",
+   "x": "Questions and Answers on Seudah Shelishit",
+   "ax": "\"שלש סעודות\" “The third meal” QUESTION: Why are Chabad Chassidim not stringent about eating a full meal with challah for the third meal, and suffice with just…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2869720",
+   "t_he": "",
+   "t_en": "Questions and Answers on Havdalah",
+   "x": "Questions and Answers on Havdalah",
+   "ax": "\"בורא מאורי האש\" “Who created the lights of fire” QUESTION: What is the reason for looking at the fingernails? ANSWER: When Hashem created Adam, his whole body…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2944949",
+   "t_he": "",
+   "t_en": "I Just Discovered I’m Jewish!",
+   "x": "I Just Discovered I’m Jewish!",
+   "ax": "Dear Rabbi, Sometimes life hits you in the face with a cold, wet towel. Last week, I visited my mother in the hospital, and she told me that she’s Jewish. I as…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2962595",
+   "t_he": "",
+   "t_en": "I’m Sick of Blind Dates",
+   "x": "Question: I am starting to lose faith in ever finding love. After swearing I would never go on another blind date again, I succumbed after a friend said, “You’…",
+   "ax": "The saintly Rabbi Yisroel of Ruzhin had an unusual custom when it came to matchmaking. He would give a sizable monetary gift to anyone who suggested a match fo…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 211,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-2995144",
+   "t_he": "",
+   "t_en": "Why Wait Between Eating Meat and Milk?",
+   "x": "Why Wait Between Eating Meat and Milk?",
+   "ax": "I understand that the Torah tells us that you are not supposed to eat meat and dairy together, but why can’t I have a dairy dessert after I already finished ea…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3016125",
+   "t_he": "",
+   "t_en": "Do Dogs Go to Heaven?",
+   "x": "Do Dogs Go to Heaven?",
+   "ax": "My dog recently died. He was my loyal companion for many years, even more loyal than some of my friends. I was wondering: what happens to animals after they di…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3022867",
+   "t_he": "",
+   "t_en": "Why Are Jewish Weddings Under a Chupah Canopy?",
+   "x": "Why Are Jewish Weddings Under a Chupah Canopy?",
+   "ax": "Everyone knows that Jewish weddings take place under a chupah, often under the open skies. But no one I ask seems to know why. Is there a reason for this? How…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3027942",
+   "t_he": "",
+   "t_en": "Is Déjà Vu Real?",
+   "x": "Question: I often get déjà vu, the sensation that I have already lived this moment before. It has happened when I travel to new destinations with people I have…",
+   "ax": "Some suggest that déjà vu is a sign of reincarnation. You feel you were here before because you were, in a previous life. Others explain that you had a predict…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3039808",
+   "t_he": "",
+   "t_en": "Can G‑d Create a Rock That's Too Heavy for Him to Lift? (Short Version)",
+   "x": "Can G‑d Create a Rock That's Too Heavy for Him to Lift? (Short Version)",
+   "ax": "Despite this being an oft-asked question, it is really not a question at all. Allow me to explain. The reason G‑d can make or create anything is because He is…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3053586",
+   "t_he": "",
+   "t_en": "Why All the Symbolic Rosh Hashanah Foods?",
+   "x": "Question: I get the idea of eating traditional foods on the holidays. But Rosh Hashanah seems to be over the top. I was at a home where they had half a dozen d…",
+   "ax": "Since the days of the Talmud, we’ve been eating foods with symbolic import on Rosh Hashanah. In fact, the Talmud’s1 list of things to eat was even codified in…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3062040",
+   "t_he": "",
+   "t_en": "Can I Shame a Person to Obtain Forgiveness?",
+   "x": "Question: As Rosh Hashanah approaches, something is weighing on my conscience. I happen to know that a friend of mine, who is now a wonderful person, has a ver…",
+   "ax": "When we have wronged another human being, even if he or she does not know about it, the only way we can make amends is by apologizing to that person. G‑d will…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3076220",
+   "t_he": "",
+   "t_en": "Why Eat Stuffed Cabbage on Simchat Torah?",
+   "x": "Question: I fondly remember my mother making stuffed cabbage every year for Simchat Torah. I was wondering, what’s the connection between stuffed cabbage and S…",
+   "ax": "There actually is a custom to eat stuffed cabbage, although it’s not an established communal custom and it varies from family to family. Some (like your family…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3114193",
+   "t_he": "",
+   "t_en": "Why Are Some People Deaf?",
+   "x": "Question: My four-year-old asked me some hard questions that I wasn’t sure how to answer, like “Why did G‑d make people deaf? Did they do something bad?” I tri…",
+   "ax": "No human being is complete on his own. Each of us are lacking in some areas and have strengths in others. A blind person may have an especially keen intellect,…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3120794",
+   "t_he": "",
+   "t_en": "Explain My Wife to Me",
+   "x": "Question: I’m wondering if you can explain my wife to me. She complained last night that I’m not helpful around the house. She claims that yesterday I came hom…",
+   "ax": "You think you’re being sincere. And you probably are. But sometimes what you say and what your wife hears are miles apart. You need to appreciate how your word…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3120810",
+   "t_he": "",
+   "t_en": "Explain My Wife to Me",
+   "x": "Question: I’m wondering if you can explain my wife to me. She complained last night that I’m not helpful around the house. She claims that yesterday I came hom…",
+   "ax": "You think you’re being sincere. And you probably are. But sometimes what you say and what your wife hears are miles apart. You need to appreciate how your word…",
+   "tg": [
+    "chabad",
+    "general",
+    "inspiration-entertainment",
+    "question-answer",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 212,
    "s": "upload"
   }
  ]
