@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "halacha",
- "count": 17213,
+ "count": 17256,
  "entries": [
   {
    "id": "ye-2009121811237500",
@@ -275729,6 +275729,741 @@
    "t_en": "What Are the Signs of a Kosher Bird?",
    "x": "What Are the Signs of a Kosher Bird?",
    "ax": "The Torah tells us that a kosher land animal must chew its cud and have split hooves, and fish must have fins and scales. But the Torah doesn’t give any signs…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3655253",
+   "t_he": "",
+   "t_en": "Why Wait Eight Days for the Circumcision?",
+   "x": "Why Wait Eight Days for the Circumcision?",
+   "ax": "On a fundamental level, we circumcise a Jewish baby boy at eight days because that is what G‑d instructs us to do: “And on the eighth day, the flesh of his for…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3666442",
+   "t_he": "",
+   "t_en": "Matzah on Pesach Sheini: When and Why?",
+   "x": "Matzah on Pesach Sheini: When and Why?",
+   "ax": "There is a widespread custom to eat matzah on the 14th of Iyar, known as Pesach Sheni (the “second Passover”), the day when those who were impure and/or unable…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3694185",
+   "t_he": "",
+   "t_en": "What Is Parve (Pareve)?",
+   "x": "What Is Parve (Pareve)?",
+   "ax": "Pronounced PAH-riv or pahr-veh, “parve” (פרווה) is a Yiddish (and by extension, Hebrew) term for something that is neither meat nor dairy. This is significant…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3700205",
+   "t_he": "",
+   "t_en": "Why Sleep With Tzitzit?",
+   "x": "Question: I was under the impression that the mitzvah of wearing tzitzit only applies to the daytime. But then I heard that many have the custom to wear tzitzi…",
+   "ax": "Before getting into the reasons behind this custom, let’s clarify the basic halachah regarding tzitzit at night. The verse states regarding tzitzit, “This shal…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3703448",
+   "t_he": "",
+   "t_en": "Does Judaism Allow Jaywalking or Speeding?",
+   "x": "I admit, not only do I sometimes drive slightly over the speed limit, I also jaywalk in the streets of my quiet neighborhood. Recently a friend told me that wh…",
+   "ax": "Both laws you mentioned were put in place to keep people safe, so it goes without saying that driving at a reckless speed or crossing in a place where an accid…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3727131",
+   "t_he": "",
+   "t_en": "Do We Say a Blessing for the Solar Eclipse?",
+   "x": "Question I have been reading articles about the upcoming solar eclipse. Some claim that eclipses are a bad omen of things to come. What is the Jewish perspecti…",
+   "ax": "The sages of the Talmud state: When the luminaries are stricken, it is an ill omen for the world. To what can we compare this? To a king of flesh and blood who…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3753326",
+   "t_he": "",
+   "t_en": "Four Reasons Shabbat Is Compared to Bride and a Queen",
+   "x": "Four Reasons Shabbat Is Compared to Bride and a Queen",
+   "ax": "In the 16th-century Shabbat hymn “Lecha Dodi” [“Come, my beloved . . .”], we welcome the Shabbat as both a bride and queen. This concept goes all the way back…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3753331",
+   "t_he": "",
+   "t_en": "The Difference Between a Rabbi and a Rav",
+   "x": "Hi Rabbi, I am a frequent user of the Ask the Rabbi service on your site. Often you answer my query with no problem. But sometimes I’m told that this question…",
+   "ax": "First, to clarify some terms. In common parlance, “rabbi” is the catch-all term for anyone who has semichah, rabbinical ordination (read more about that here).…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3786536",
+   "t_he": "",
+   "t_en": "Why Is Rosh Hashanah Challah Round?",
+   "x": "Why Is Rosh Hashanah Challah Round?",
+   "ax": "Many have the custom to begin the Rosh Hashanah meals with round challahs. Some extend this custom and continue using round challahs for all Shabbat and holida…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3793398",
+   "t_he": "",
+   "t_en": "Yom Kippur Without Guilt",
+   "x": "Hi Rabbi Freeman: I want to know, what does the process of examining one's past deeds undertake for someone who abandoned a religious lifestyle because she was…",
+   "ax": "You’ve latched onto a common fundamental error concerning Yom Kippur: That it’s about the past. Get this straight: The past is done with. What happened happene…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3801746",
+   "t_he": "",
+   "t_en": "What's the Meaning of the Sukkah?",
+   "x": "What's the Meaning of the Sukkah?",
+   "ax": "The word sukkah (pl: sukkot) literally means a “shaded1 booth.” In a rather cryptic verse, the Torah tells us to dwell in a sukkah for seven days so that comin…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "sukkot-simchat-torah-2026",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3819109",
+   "t_he": "",
+   "t_en": "Why Is There a Chair for Elijah at a Brit Milah (Circumcision)?",
+   "x": "Why Is There a Chair for Elijah at a Brit Milah (Circumcision)?",
+   "ax": "At the circumcision ceremony (brit milah), it is customary to have a seat designated for Elijah the prophet. According to tradition, Elijah, who is referred to…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3827328",
+   "t_he": "",
+   "t_en": "Halal vs. Kosher",
+   "x": "Halal vs. Kosher",
+   "ax": "Many meats are labeled halal, which makes them okay for Muslims to consume, and many Muslims rely on kosher certification to inform them that meat is halal, bu…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3845800",
+   "t_he": "",
+   "t_en": "Why Is Tefillin Worn on the Left Arm?",
+   "x": "Why Is Tefillin Worn on the Left Arm?",
+   "ax": "The sages of the Talmud take it as a given that tefillin are put on the left arm (or the right arm of a lefty) and offer several reasons: 1. “Hand”=Left Hand A…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3851553",
+   "t_he": "",
+   "t_en": "What Is a Mashgiach?",
+   "x": "What Is a Mashgiach?",
+   "ax": "Mashgiach (Mahsh-GEE-ahkh) is Hebrew for “supervisor.” A mashgiach can refer to either a) the agent of a kosher supervising organization, who ensures that food…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3851562",
+   "t_he": "",
+   "t_en": "Aufruf: Why Is the Groom Called to the Torah Before His Wedding?",
+   "x": "Aufruf: Why Is the Groom Called to the Torah Before His Wedding?",
+   "ax": "Traditionally, the chatan (groom) is honored with an aliyah at the Torah on the Shabbat before his wedding. This is known as an aufruf, Yiddish for “calling up…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3881293",
+   "t_he": "",
+   "t_en": "Why Don’t Jews Write ‘This Book Belongs to…’?",
+   "x": "Why Don’t Jews Write ‘This Book Belongs to…’?",
+   "ax": "There is a common custom not to inscribe Torah books with “From the Library of John Doe,” “This Book Belongs to . . .” or similar Hebrew equivalents. Instead,…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3892956",
+   "t_he": "",
+   "t_en": "What Is a Jew?",
+   "x": "What Is a Jew?",
+   "ax": "Who Is a Jew? Simple: A Jew is anyone who was born of a Jewish mother, or has undergone conversion to Judaism according to halachah (Jewish law). That’s the wa…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3907289",
+   "t_he": "",
+   "t_en": "7 Questions Everyone Asks About Jewish Prayer",
+   "x": "7 Questions Everyone Asks About Jewish Prayer",
+   "ax": "To learn why we pray, and how to make prayer a meaningful time to connect with G‑d, join “The Heart of Prayer,” a four-part series sure to deepen your apprecia…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3907949",
+   "t_he": "",
+   "t_en": "Are Imitation Crab, Pork and Cheeseburgers Kosher?",
+   "x": "Are Imitation Crab, Pork and Cheeseburgers Kosher?",
+   "ax": "As a general rule, even if the Torah forbids a certain food, one is still permitted to eat kosher food that has been artificially flavored to taste like that f…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3968236",
+   "t_he": "",
+   "t_en": "What Is the Meaning of the Charoset on the Passover Seder Plate?",
+   "x": "What Is the Meaning of the Charoset on the Passover Seder Plate?",
+   "ax": "Charoset (pronounced kha-ROE-set, or kha-ROE-ses), one of the symbolic foods at the Passover Seder, is a sweet paste of fruits, nuts and wine. Its place is on…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3974040",
+   "t_he": "",
+   "t_en": "Why Is Passover Seven (or Eight) Days Long?",
+   "x": "Why Is Passover Seven (or Eight) Days Long?",
+   "ax": "Quite simply, the Torah itself tells us on numerous occasions that we are to celebrate Passover for seven days.1 (Outside of Israel, we celebrate for eight day…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-3997062",
+   "t_he": "",
+   "t_en": "Why Men Immerse in the Mikvah Every Day",
+   "x": "Why Men Immerse in the Mikvah Every Day",
+   "ax": "A mikvah generally serves to restore a person to a state of ritual purity. For the most part, this is not relevant in post-Temple times when (a) we cannot beco…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4007896",
+   "t_he": "",
+   "t_en": "What Is a \"Mamzer\"?",
+   "x": "What Is a \"Mamzer\"?",
+   "ax": "Mamzer is Hebrew (and Yiddish) for “bastard.” In common parlance, mamzer is a very derogatory reference to a difficult or unpleasant individual. But in Torah,…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4036876",
+   "t_he": "",
+   "t_en": "Why Is the Priestly Blessing Only on Yom Tov?",
+   "x": "Why Is the Priestly Blessing Only on Yom Tov?",
+   "ax": "Good question. There is a mitzvah in the Torah for a kohen to bless the Jewish people every day with upraised hands. This is called Birkat Kohanim (“Blessing o…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4042384",
+   "t_he": "",
+   "t_en": "May I Join a Protest on Shabbat?",
+   "x": "I live in a state where there are many white supremacists and even some neo-Nazis. They are planning to march in my town this coming Saturday, and I want to jo…",
+   "ax": "Before addressing your question, it is important to note that Shabbat observance follows both the “letter of the law” and the “spirit of the law.” While an act…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4046288",
+   "t_he": "",
+   "t_en": "What (and Who) Is Rabbi Meir Baal Haness?",
+   "x": "Why is it that in a time of need, some have the custom to give charity for Israel (called tzedakah of Rabbi Meir Baal Haness) and pray, “G‑d of Rabbi Meir, ans…",
+   "ax": "As you describe, when people are faced with a challenging situation and are in need of personal salvation, there is a custom to donate to charity and say, “I p…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4059877",
+   "t_he": "",
+   "t_en": "What Makes Kosher Pickles “Kosher”?",
+   "x": "What Makes Kosher Pickles “Kosher”?",
+   "ax": "Let me start by saying that even if a pickle jar is marked as containing “kosher pickles,” it does not necessarily mean that the pickles are actually kosher to…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4076104",
+   "t_he": "",
+   "t_en": "How to Observe Judaism Near the Arctic Circle",
+   "x": "How to Observe Judaism Near the Arctic Circle",
+   "ax": "For the first time in history, a Chabad couple has settled in Reykjavik, Iceland. Living so far north, the nights are very short in the summer, and it never re…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4108763",
+   "t_he": "",
+   "t_en": "Moneylending and Jewish Law",
+   "x": "Moneylending and Jewish Law",
+   "ax": "In numerous places the Torah (Hebrew Bible) prohibits a Jew from borrowing, lending or being a party to a transaction that involves charging another Jew intere…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4111653",
+   "t_he": "",
+   "t_en": "Mikvah on Shabbat",
+   "x": "Mikvah on Shabbat",
+   "ax": "Many Chassidic men are accustomed to go to mikvah on Shabbat morning. Keeping up this practice on vacation may present some challenges: 1) Immersing oneself on…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4114669",
+   "t_he": "",
+   "t_en": "What Is a \"Machzor\"?",
+   "x": "What Is a \"Machzor\"?",
+   "ax": "The prayerbook used for the High Holidays is known as a Machzor, and it contains all the prayers said on Rosh Hashanah and Yom Kippur. Some unique elements of…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4128662",
+   "t_he": "",
+   "t_en": "Where to Light Shabbat Candles?",
+   "x": "We are visiting friends, sleeping at one location but eating the Friday night meal elsewhere. Where do I light my candles, where we’re sleeping or where we’re…",
+   "ax": "Your primary mitzvah is to ensure there be light for Shabbat where needed. If you were to light your candles at your hosts for the Shabbat meal, they would mer…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4128674",
+   "t_he": "",
+   "t_en": "Saying Shehecheyanu on Yom Tov Candles",
+   "x": "Saying Shehecheyanu on Yom Tov Candles",
+   "ax": "The prevailing custom is that, when lighting the candles for Yom Tov, women recite the blessing of Shehecheyanu in addition to the blessing for kindling the li…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4128745",
+   "t_he": "",
+   "t_en": "Shabbat Candles in the Sukkah",
+   "x": "Shabbat Candles in the Sukkah",
+   "ax": "For Sukkot, it is customary for the candles to be lit in the Sukkah. For Shabbat during Sukkot, I have seen mention of a practice where the women lights the ca…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "sukkot-simchat-torah-2026",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4128759",
+   "t_he": "",
+   "t_en": "Extinguishing the Match After Lighting Shabbat Candles",
+   "x": "Extinguishing the Match After Lighting Shabbat Candles",
+   "ax": "The sefer Halachah Gedolot1 writes that women of his time were accustomed to accept Shabbat the moment they finish kindling their Shabbat lights. Because of th…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4128852",
+   "t_he": "",
+   "t_en": "Why Stay in the Sukkah When It is Raining?",
+   "x": "If it rains during Sukkot, we don't have to sit in the sukkah, correct? So why have I seen people who continue to sit in the sukkah even when it is pouring?",
+   "ax": "Sitting in the sukkah is the only mitzvah that, if you're bothered by it, you're exempt. Usually, even when a mitzvah is hard, you have to do it. Like fasting…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "sukkot-simchat-torah-2026",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4129263",
+   "t_he": "",
+   "t_en": "Why an Italian Etrog?",
+   "x": "Why an Italian Etrog?",
+   "ax": "Of the four species of plants that we have a mitzvah to take together on the holiday of Sukkot—the lulav (palm frond), etrog (citron), hadas (myrtle) and arava…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "sukkot-simchat-torah-2026",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4136949",
+   "t_he": "",
+   "t_en": "Missing Kaddish and Yahrzeit",
+   "x": "Question I own furniture stores, and every year my business partners and I travel to Italy to partake in a trade show. To my dismay, this year the show falls o…",
+   "ax": "You are absolutely right. The observance of a parent’s yahrzeit is very significant. Reciting Kaddish and commemorating the day will greatly assist your father…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4136962",
+   "t_he": "",
+   "t_en": "Missing Kaddish and Yahrzeit",
+   "x": "Question I own furniture stores, and every year my business partners and I travel to Italy to partake in a trade show. To my dismay, this year the show falls o…",
+   "ax": "You are absolutely right. The observance of a parent’s yahrzeit is very significant. Reciting Kaddish and commemorating the day will greatly assist your father…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4161209",
+   "t_he": "",
+   "t_en": "Why Can Mere Humans “Bless” G‑d?",
+   "x": "Every blessing we recite throughout the day, whether before we eat, during prayers or when we do a mitzvah, starts off with the words Baruch Atah . . . , “Bles…",
+   "ax": "Your question is a fascinating one. It is also completely understandable, given the imprecise translation of the word baruch. “Blessed” does not fully capture…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "question-answer"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4168250",
+   "t_he": "",
+   "t_en": "How to Observe Judaism in Outer Space?",
+   "x": "How to Observe Judaism in Outer Space?",
+   "ax": "Space travel presents its own unique challenges to the Jewish astronaut: How can one procure kosher space food, as well as all the other necessities of Jewish…",
+   "tg": [
+    "chabad",
+    "halacha",
+    "inspiration-entertainment",
+    "article"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 212,
+   "s": "upload"
+  },
+  {
+   "id": "up-chabad-4183858",
+   "t_he": "",
+   "t_en": "Why Don’t We Invite People to a Brit Milah?",
+   "x": "Why Don’t We Invite People to a Brit Milah?",
+   "ax": "Many have the custom not to formally invite people to a brit milah (circumcision). Instead, they simply make the time and place known, without inviting anyone…",
    "tg": [
     "chabad",
     "halacha",
