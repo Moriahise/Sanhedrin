@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "tanach",
- "count": 7823,
+ "count": 7825,
  "entries": [
   {
    "id": "ye-4809",
@@ -125868,6 +125868,42 @@
    "c": "tanach",
    "y": 2026,
    "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90295",
+   "t_he": "",
+   "t_en": "Remarrying One’s Divorcee",
+   "x": "I have been studying the Bible much more seriously in recent months to try to understand Moses’s words in their original context. Can you explain to me the bas…",
+   "ax": "Much success in your studies first of all! The Torah does not forbid remarrying one’s divorcee per se. It only forbids it if she married someone else in the in…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2016"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90398",
+   "t_he": "",
+   "t_en": "Uncleanness and Pure Blood After Childbirth",
+   "x": "I was studying Leviticus 12 and came across the notion of a woman’s impurity after childbirth. What is the notion of her observing days of “pure blood?” Also,…",
+   "ax": "Thank you for your good questions. When a woman gives birth to a son, she is impure for 7 days and then observes 33 days of “pure blood.” For a daughter she is…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 215,
    "s": "upload"
   }
  ]

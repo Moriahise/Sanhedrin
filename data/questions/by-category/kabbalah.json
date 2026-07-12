@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "kabbalah",
- "count": 670,
+ "count": 674,
  "entries": [
   {
    "id": "ye-11561",
@@ -10908,6 +10908,78 @@
    "c": "kabbalah",
    "y": 2026,
    "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-183605",
+   "t_he": "",
+   "t_en": "Inducing Labor; Segulah’s for Childbirth",
+   "x": "I am currently a few days beyond my due date. My doctor says all is well but I’m very anxious at this point. Would I be allowed to have myself induced? Also, c…",
+   "ax": "Before all, we wish you a quick and easy labor and a healthy birth in the right time! In general, however, labor should not be induced without significant need…",
+   "tg": [
+    "aish",
+    "kabbalah",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2023"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90331",
+   "t_he": "",
+   "t_en": "World to Come not Mentioned in the Torah",
+   "x": "If the belief in the World to Come is so central to Judaism, why does the Torah never mention it?",
+   "ax": "Thank you for your important question. You are right that it at first strikes us as strange that so fundamental a Jewish belief is not found in the Torah. In f…",
+   "tg": [
+    "aish",
+    "kabbalah",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90393",
+   "t_he": "",
+   "t_en": "What Happens Right After We Die?",
+   "x": "I am very curious to know what happens to the soul after a person dies. Does it remain with the body, or does it go up to Heaven? When my parents died, I was i…",
+   "ax": "Thank you for raising your interesting issue. The very brief answer is that after a person dies, his soul rises to Heaven for judgment before the Divine Tribun…",
+   "tg": [
+    "aish",
+    "kabbalah",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90461",
+   "t_he": "",
+   "t_en": "Special Places to Pray for Children, Zera Shimshon",
+   "x": "My husband and I have been struggling to conceive for a few years now. We will be visiting Israel this summer. I know there are some places considered the “bes…",
+   "ax": "Before all, my wishes that your prayers are answered for the good very soon. One place which is considered especially fitting for such a need is Kever Rochel –…",
+   "tg": [
+    "aish",
+    "kabbalah",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2020"
+   ],
+   "c": "kabbalah",
+   "y": 2026,
+   "ch": 215,
    "s": "upload"
   }
  ]

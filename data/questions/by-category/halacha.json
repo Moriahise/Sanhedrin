@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "halacha",
- "count": 18125,
+ "count": 18183,
  "entries": [
   {
    "id": "ye-2009121811237500",
@@ -291932,6 +291932,1053 @@
     "halacha",
     "question-answer",
     "רבני-בית-הדין"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-157231",
+   "t_he": "",
+   "t_en": "Pidyon HaBen After Miscarriage",
+   "x": "I am a firstborn son, but my mother had a miscarriage before me. My family wasn’t aware of the mitzvah of redeeming the firstborn when I grew up. Should I have…",
+   "ax": "It’s commendable that you want to fulfill this mitzvah so many years later. The basic rule is that if the miscarried fetus already had the basic shape of a hum…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2022"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-157242",
+   "t_he": "",
+   "t_en": "Funeral of Non-Jew",
+   "x": "Can one go to a funeral of a non-Jew?",
+   "ax": "Yes, of course. So long as the funeral services are not held in a church, it is fine to attend. (If they are, you may still attend the burial itself and any ot…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2022"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-157247",
+   "t_he": "",
+   "t_en": "Start of Shiva – Not Attending Funeral",
+   "x": "If one of the deceased’s children will not be attending her parent’s funeral (due to travel difficulties), when does shiva begin? Does she wait until the buria…",
+   "ax": "I’m sorry to hear of the difficult situation. The rules are actually a bit complicated so it’s better to discuss this in person with a rabbi. The general rule…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2022"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-158984",
+   "t_he": "",
+   "t_en": "Orphan Visiting Cemetery Before Wedding",
+   "x": "Should my fiancé visit her grandfather’s grave in the week before her wedding? I have heard there is such a custom.",
+   "ax": "There is a custom that an orphaned bride or groom visits his parent's grave the week before the wedding. Some do this for grandparents as well, and some Hassid…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2022"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-168194",
+   "t_he": "",
+   "t_en": "Three Weeks – Background Music",
+   "x": "According to the custom not to listen to music in the Three Weeks, are you allowed to watch a documentary which has some music in the background?",
+   "ax": "Yes, it would be fine. The main issue with music is that it can bring a person to excessive enjoyment, especially if it is a type of music which could lead to…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2022"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-168198",
+   "t_he": "",
+   "t_en": "Not Seeing Each Other Before Wedding",
+   "x": "How significant is the custom that the bride and groom not see each other seven days before their wedding? Does it apply to a second marriage?",
+   "ax": "The custom of Ashkenazi Jews is that the bride and groom not see each other for the final seven days before the wedding – for both a first and a second marriag…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2022"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-168199",
+   "t_he": "",
+   "t_en": "Mikvah Before Wedding – Older Couple",
+   "x": "I am over 70 and am engaged to God-willing marry a woman of similar age. This is a third marriage for both of us. Is there an obligation for her to go the mikv…",
+   "ax": "Yes, she must go to the mikvah once before the wedding even if she has reached menopause. (The reason for this is a concern in Jewish law that the excitement o…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2022"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-168204",
+   "t_he": "",
+   "t_en": "Mikvah When Husband Away",
+   "x": "The date I’m scheduled to go the mikvah my husband will be out of town. Do I have to wait until he returns first?",
+   "ax": "It’s fine to go the mikvah on time. The general custom is that women do not immerse when their husbands are away (some explain that it is for Kabbalistic reaso…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2022"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-172558",
+   "t_he": "",
+   "t_en": "Ashkenazi-Sephardic Marriage & Children",
+   "x": "If my father is Sephardic and my mother is Ashkenazi, am I Sephardic? Also, if I am considered Sephardic and I marry an Ashkenazi man, am I still Sephardic?",
+   "ax": "If your father is Sephardic, then you are considered Sephardic as well. (The same is true if a person’s father is a Kohen and mother is not. Other than Jewishn…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2023"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-177554",
+   "t_he": "",
+   "t_en": "Yahrtzeit – Unknown Date of Death",
+   "x": "Due to some unfortunate circumstances, my father, who was in a different country from me, was unaccounted for for a full week before his body was found in his…",
+   "ax": "I’m sorry to hear of the upsetting situation. You should observe the last date that he might have died – which would be the day that they found him. The reason…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2023"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-183549",
+   "t_he": "",
+   "t_en": "Mother and Baby Named After Same Person",
+   "x": "A mother who is expecting a boy would like to name him after the same grandfather she is named after. Is there an issue with that?",
+   "ax": "Typically when a woman is named after a man, the name is changed slightly – to a girl’s version of the name (such as Nechama instead of Nechemiah). If so, the…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2023"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-203680",
+   "t_he": "",
+   "t_en": "When Does a Convert Celebrate His Birthday?",
+   "x": "When does a convert celebrate his birthday – on his biological birthdate, or on the day he converts?",
+   "ax": "Even after conversion, a convert's actual birthday is the Hebrew date of his physical birth. In fact, a person’s mazal – matters controlled by his astrological…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2025"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-209800",
+   "t_he": "",
+   "t_en": "Grandson Sitting Shiva, Saying Kaddish",
+   "x": "I had a painful, turbulent childhood and have had a much closer relationship with my grandparents, who provided some much-needed security in my life and help r…",
+   "ax": "I’m sorry to hear of your situation. Customarily, we do not sit shiva for a grandparent, only for an immediate relative. In your case in particular, doing so w…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2025"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-210109",
+   "t_he": "",
+   "t_en": "Concept of Tumah (Uncleanness), Niddah",
+   "x": "What is the idea that women become tamei when they menstruate? Does the Torah view a woman as lowly or filthy just because of a natural process beyond her abil…",
+   "ax": "No, not at all. The notion of tumah – spiritual uncleanness – has nothing to do with physical hygiene and certainly not Jewish misogyny. It is a much more gene…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2025"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-215286",
+   "t_he": "",
+   "t_en": "Shiva – After Shabbat",
+   "x": "Unfortunately, I’m sitting shiva for my mother right now. I know shiva is not observed on Shabbos. What happens after Shabbos?",
+   "ax": "First of all, I’m very sorry for your loss. In terms of Jewish law, it is as you wrote – that as soon as Shabbat ends, assuming the seven days of shiva continu…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2026"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-218056",
+   "t_he": "",
+   "t_en": "Mourner Going on Vacation",
+   "x": "I am in mourning for my mother. Am I allowed to go on vacation?",
+   "ax": "I’m sorry for the loss of your mother. You may not go on a festive outing – such as a cruise or group trip. But you may go on an ordinary vacation in order to…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2026"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-218486",
+   "t_he": "",
+   "t_en": "Marriage – Compatible Names",
+   "x": "I am God willing about to get engaged. My Hebrew name is ____ bat ____ and my fiancé’s is ____ ben _____. According to Kabbalah, is that considered a suitable…",
+   "ax": "So long as you feel you are suitable for each other, you may surely marry. An engaged couple may request a blessing from a rabbi, but there is no reason to inq…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2026"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-219263",
+   "t_he": "",
+   "t_en": "Marrying a Convert",
+   "x": "I have been dating a Jewish convert and some of my family and friends are hassling me about this. They say it is written that marrying a Jew by birth is prefer…",
+   "ax": "I am not aware of any source to this effect. Our forefathers – Abraham, Isaac and Jacob – all married converts. Unless you are a Kohen and assuming the convers…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2026"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-33855",
+   "t_he": "",
+   "t_en": "What Are Tisha B'Av & the Three Weeks?",
+   "x": "What Are Tisha B'Av & the Three Weeks?",
+   "ax": "A comprehensive overview of the customs and meaning of the Jewish national period of mourning. The \"Three Weeks\" between the 17th of Tammuz and the Tisha B'Av…",
+   "tg": [
+    "aish",
+    "halacha",
+    "article",
+    "rabbi-shraga-simmons",
+    "published-2014"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90230",
+   "t_he": "",
+   "t_en": "Early Bar Mitzvah",
+   "x": "My son will be turning 13 God willing this winter in mid-December. Having spoken to several of our relatives, it will be much better for everyone if we would s…",
+   "ax": "Before all, Mazal Tov on the upcoming event! May you son grow to be a source of joy and pride for you, his entire family, and all Israel. There are generally t…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2016"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90231",
+   "t_he": "",
+   "t_en": "Pidyon HaBen – No Father, Non-Jewish Father",
+   "x": "I have a firstborn four-year-old son who would seem to qualify for the mitzvah of pidyon haben. He unfortunately was not redeemed as a baby since neither I nor…",
+   "ax": "It’s certainly not too late to fulfill the obligation – which can be done a person’s entire life if need be. If a boy does not have a father or his father is n…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2016"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90232",
+   "t_he": "",
+   "t_en": "Prayer at Graves of Righteous",
+   "x": "I often receive emails from different organizations offering that a rabbi will pray for me at this or that great rabbi’s grave. Does it really make a differenc…",
+   "ax": "It’s a very important question. The notion of praying at the graves of the righteous is well-established. The Talmud tells us that Caleb, one of the spies sent…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2016"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90252",
+   "t_he": "",
+   "t_en": "Determining Relative’s Hebrew Name",
+   "x": "Our father passed away recently and we want to determine his Hebrew name for his tombstone. He was entirely secular and none of us know if he even had a Hebrew…",
+   "ax": "I’m sorry firstly for the loss of your father. May the entire family be consoled over the terrible loss. In terms of his Hebrew name, here are some of the best…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2020"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90268",
+   "t_he": "",
+   "t_en": "Completion of Kaddish",
+   "x": "My father passed away on June 14, which was 24 Sivan, but was not buried until the Sunday after, 27 Sivan. Until when should I recite the kaddish?",
+   "ax": "Following the passing of a parent, Kaddish is recited for 11 months as a merit for his/her soul. Although the Talmud (Rosh Hashanah 17a) writes that for the mo…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2013"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90289",
+   "t_he": "",
+   "t_en": "Naming Baby After Relative Who Died Young",
+   "x": "My uncle passed away from cancer at 59. A grandchild was just born in the family and the parents would very much like to name him after our dear uncle. He was…",
+   "ax": "It is certainly appropriate to name a baby after a righteous relative. However, some have the custom not to give the baby the precise name of a person who died…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2014"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90290",
+   "t_he": "",
+   "t_en": "Marriage – Older Couple",
+   "x": "I’m happy to write that I recently met the woman of my life. After the failed marriage of my younger years, I feel I have at last met my true soulmate! We look…",
+   "ax": "Mazal tov on your upcoming wedding first of all! May your marriage be truly fulfilling and may you and your future wife enjoy many happy and healthy years toge…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2014"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90293",
+   "t_he": "",
+   "t_en": "Pregnant Woman Visiting Cemetery",
+   "x": "I am currently 21 weeks pregnant (thank you Hashem!). My best friend's mother passed away recently, and the family will be having an unveiling sometime next mo…",
+   "ax": "There is a common custom that pregnant women do not visit cemeteries – although there is little clear source for it. It may be based on the general notion that…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2014"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90296",
+   "t_he": "",
+   "t_en": "Kohen Higher Status",
+   "x": "My mother is Jewish and my father is not. I have been told that I am 100% Jewish, yet at the same time I may not marry a Kohen. It bothers me that I am penaliz…",
+   "ax": "I’m very sorry to hear of your upset. We discuss some of the general rules of Kohen marriages elsewhere. I would like to address the more specific issue which…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2016"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90303",
+   "t_he": "",
+   "t_en": "Convert – Mourning & Kaddish for Non-Jewish Parent",
+   "x": "I am a convert but I still have a good relationship with my parents, who are very decent people and who were very supportive of my religious transformation. Un…",
+   "ax": "Mazal tov on your conversion! I’m also sorry to hear of your father’s health. May he have a complete and speedy recovery. The obligations of mourning and Kaddi…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2017"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90304",
+   "t_he": "",
+   "t_en": "Attending Wedding on Yahrtzeit",
+   "x": "I am invited to a wedding in a few weeks and I realized it falls out on my father’s yahrtzeit (the anniversary of his date of death). Am I allowed to attend?",
+   "ax": "I’m sorry for the bad timing, but the custom is not to accept a wedding invitation on the yahrtzeit of a close relative’s passing. If it’s a close friend, you…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2017"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90322",
+   "t_he": "",
+   "t_en": "Kaddish for Abusive Parent",
+   "x": "My father was violent and abusive. He suffered from depression and other psychological disorders, and growing up was very difficult for me and my sister. He di…",
+   "ax": "I’m sorry you suffered so much in your childhood and wish you a complete recovery. Assuming your father was not a heretic or wicked through and through, there…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2017"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90333",
+   "t_he": "",
+   "t_en": "Grandson Saying Kaddish",
+   "x": "My grandmother recently passed away. She only had one son, my father a”h, who passed away a few years ago. She also had two daughters. I am the oldest grandson…",
+   "ax": "I’m very sorry for your family’s loss. You and yours should only know happy occasions. In terms of kaddish, you are the better choice. Since you are an actual…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2019"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90346",
+   "t_he": "",
+   "t_en": "Why Do Jewish Women Wear Wigs?",
+   "x": "Why do Jewish women cover their hair? What deeper meaning lies behind this practice? Is it about modesty, signaling marital status, or perhaps a symbol of a wo…",
+   "ax": "The source of why Jewish women cover hair The simplest answer, of course, is that it is a Torah commandment, and we are obligated to observe all of God’s mitzv…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90371",
+   "t_he": "",
+   "t_en": "Men Pre-Wedding: Mikvah",
+   "x": "I was told that a man must go to the mikvah before his wedding. What is the reason for this?",
+   "ax": "The rationale is most likely based on the following statement of the Sages: Three people have their sins forgiven – one who converts to Judaism, one who achiev…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2014"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90373",
+   "t_he": "",
+   "t_en": "Changing One’s Name",
+   "x": "We named our daughter (now four months) Linor. She is happy and healthy, but her name has always been a source of upset for me. I suffered from terrible post-p…",
+   "ax": "Technically, a person is allowed to change or to add to his name for any reason. Customarily, it is not done unless the person is very sick or was given a non-…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2015"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90385",
+   "t_he": "",
+   "t_en": "Delaying Funeral for Relatives to Arrive",
+   "x": "This may but hopefully will not be relevant to my family situation. If an older person dies, how long can the funeral be delayed to give the relatives time to…",
+   "ax": "As you wrote, I hope your question is only theoretical for quite some time. It is much better to do the burial right away, on the day the person died. The Tora…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2018"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90399",
+   "t_he": "",
+   "t_en": "Number of Sheva Brachot for Second Wedding",
+   "x": "I am God willing to be married in a few months. My fiancé and I are very looking forward to building a proper Jewish home together. Unfortunately, neither of u…",
+   "ax": "Mazal tov first of all on your upcoming marriage! May you and your future wife fulfill your dreams of building a true Jewish home! In terms of Sheva Brachot, i…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2018"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90403",
+   "t_he": "",
+   "t_en": "Adopted Children – Parents’ Names",
+   "x": "I was not raised by my biological parents and was adopted as a baby. For my Jewish name, am I considered the son of (“ben”) my biological parents or my adoptiv…",
+   "ax": "It’s an interesting dilemma. Technically, your true parents are your biological ones. In fact, as the commentators explains, the Torah obligation to honor your…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2018",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90408",
+   "t_he": "",
+   "t_en": "Asking Forgiveness from the Deceased",
+   "x": "In my past I wronged someone who is unfortunately no longer alive today. Is there any way I can make amends?",
+   "ax": "As a matter of fact, the Talmud (Yoma 87a) discusses your exact situation. The proper way to make amends it to go to his grave accompanied by ten people and to…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90412",
+   "t_he": "",
+   "t_en": "Engagement Party on Nine Days",
+   "x": "I have a friend who is getting married shortly after Tisha B’Av. My friends wanted to celebrate a bachelor party for him next week, during the Nine Days. I did…",
+   "ax": "Your suspicion is correct that we should not celebrate parties during the Nine Days, even without music. It is a period of mourning, and not a time to celebrat…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2018"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90414",
+   "t_he": "",
+   "t_en": "Seventieth Birthday, Significance of 70",
+   "x": "I am about to celebrate my 70th birthday God willing. Does Jewish law prescribe any practices or customs for such an event?",
+   "ax": "Mazal tov on reaching such a milestone first of all! I wish you many more happy, healthy productive years. There are no specific customs relating to the celebr…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90419",
+   "t_he": "",
+   "t_en": "Aufruf Before Wedding",
+   "x": "My wedding is God willing in a few weeks, and I know that on the Shabbat beforehand I am called to the Torah for my “aufruf”. Why is a celebration held in hono…",
+   "ax": "Mazal tov on your upcoming wedding first of all! May you and your fiancé merit to build a wonderful Jewish home. The Shabbat before a man marries, a celebratio…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90432",
+   "t_he": "",
+   "t_en": "Mice and Uncleanness",
+   "x": "I’m very uncomfortable. Our house is infested with mice and I know the Torah says that mice are unclean. Does this mean I shouldn’t be living in my house? Am I…",
+   "ax": "Actually, what you’re writing is based on a common misconception. It is true that the Torah includes the mouse in its list of unclean animals, but before all,…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2017"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90437",
+   "t_he": "",
+   "t_en": "Covering Mirrors in House of Mourning",
+   "x": "I recently visited the shiva house (house of mourning) for a coworker. One of the more striking things I noticed was that all mirrors were covered. It felt a l…",
+   "ax": "You are right that covering the mirrors is one of the more unnerving customs we see in a house of mourning. Some also cover paintings and pictures of people. T…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2017"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90448",
+   "t_he": "",
+   "t_en": "Kaddish in Aramaic",
+   "x": "Unfortunately I am saying Kaddish this year for my mother of blessed memory. I noticed that the text of it is especially difficult to pronounce and understand,…",
+   "ax": "I’m sorry first of all to hear of your loss. And, yes, many people are quite challenged reciting the Kaddish in its unfamiliar tongue. There are three reasons…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2015"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90459",
+   "t_he": "",
+   "t_en": "Divorcee – Husband’s Customs",
+   "x": "I am divorced now. Do I still have to follow the customs of my ex-husband – such as not eating out on Passover?",
+   "ax": "Your question is an interesting issue. I would say that by the letter of the law you are not bound by your ex’s customs at all. They were never your customs, j…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2020"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90462",
+   "t_he": "",
+   "t_en": "Hebrew Name – Non-Jewish Father",
+   "x": "A new member in our synagogue has a Jewish mother and non-Jewish father. I know he is legally considered Jewish. My question is how to call him to the Torah wh…",
+   "ax": "There are different customs in such a situation. We don’t use the non-Jewish father’s name because legally speaking, a Jewish son is not considered related to…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2020"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90492",
+   "t_he": "",
+   "t_en": "No Hebrew Name – Writing Ketubah",
+   "x": "I grew up in an entirely secular family and was never given a Hebrew name. My son will be married God willing in about two weeks, and his future mother-in-law…",
+   "ax": "Mazal tov on the upcoming wedding first of all! If a person only has a secular name, then that is his name for Jewish purposes as well. Thus, they should simpl…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2019"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90504",
+   "t_he": "",
+   "t_en": "Mourner Attending Child's Wedding",
+   "x": "My mother passed away about two months ago while on a more positive note, my son recently became engaged. Unless we delay the wedding inordinately long, it wil…",
+   "ax": "I’m very sorry about your mother’s passing, may her soul be granted an elevation in heaven. You can definitely attend your son’s wedding – which is considered…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2014"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90507",
+   "t_he": "",
+   "t_en": "A Cappella",
+   "x": "I know we don’t listen to music during the Three Weeks and Sefirah, as well as mourners. What about a cappella? Some groups even use their voices to mimic inst…",
+   "ax": "I’ll begin by writing that the classical sources on Jewish law never mention a custom not to listen to music per se during the Three Weeks. What is actually me…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2014"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90513",
+   "t_he": "",
+   "t_en": "Announcing a Pregnancy",
+   "x": "I just found out recently that I am expecting. As an only child, I am anxious to tell my parents of the upcoming good news. However, I know people often wait a…",
+   "ax": "There are no specific laws and customs in Jewish law for not announcing a pregnancy. Many have a practice not to tell anyone till the end of the first trimeste…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2014"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90516",
+   "t_he": "",
+   "t_en": "Withholding / Delaying Notification of Death",
+   "x": "My father passed away about 3 weeks ago. We decided at the time not to notify his brother whose health is precarious and whose mental acuity is not 100%. On th…",
+   "ax": "I’m very sorry about your father’s passing, first of all. May his soul find peace in heaven and may he be a worthy advocate for the entire family. In terms of…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2014"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90517",
+   "t_he": "",
+   "t_en": "Yahrtzeit Candle – First Wife",
+   "x": "My husband and I married 6 years ago. My husband's first wife passed away from an illness 2 years before we married. Should he continue to lighting a yahrtzeit…",
+   "ax": "In such a case, if the second wife does not mind, the candle may be lit (\"Gesher HaChaim\" by R' Y.M. Tuketchinsky, I 29:8). May you and your husband enjoy many…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2014"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90525",
+   "t_he": "",
+   "t_en": "Child Attending Parent’s Second Marriage",
+   "x": "My parents are divorced and my father is remarrying in the near future. It will be a very small ceremony, and I was told that the children of the first marriag…",
+   "ax": "There is no source I am familiar with which states children may not attend the second marriage of one of their parents. It is, however, a widespread custom. Pe…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2015"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90529",
+   "t_he": "",
+   "t_en": "Missed Bar Mitzvah",
+   "x": "I am an adult who unfortunately never had a Bar Mitzvah. I’ve been told that having one requires studying for a year and chanting in front of a congregation. B…",
+   "ax": "Actually, I'm happy to tell you that there is no real need for a ceremony at all. A Bar Mitzvah is not a one-time event. It is really a state of being. When a…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2015"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90533",
+   "t_he": "",
+   "t_en": "Bar Mitzvah Speech",
+   "x": "I have to speak at my nephew’s Bar Mitzvah in a few weeks. Can you give me some suggestions what I should talk about?",
+   "ax": "Mazal tov on the event first of all and may your speech go well! I’ll share with you what I feel is the most significant message of a Bar- and Bat-Mitzvah. Fee…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90536",
+   "t_he": "",
+   "t_en": "Praying for the Terminally Ill",
+   "x": "I have a friend who is dying from cancer. His condition is terminal and he realizes he only has a few months to live. Is it appropriate to add a request in my…",
+   "ax": "I’m sorry to hear of the difficult situation. Although we virtually never pray that a person die, you are right that if such a person is suffering we should no…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2018",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90537",
+   "t_he": "",
+   "t_en": "Niddah – Monthly Loss of Life",
+   "x": "I was learning with a friend, and we were bothered why God created women in such a way that every month her potential to create life is lost. A man may not was…",
+   "ax": "Thank you for raising the important issue. In fact, this is not the way God originally created women. The entire concept that women have and lose the potential…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
    ],
    "c": "halacha",
    "y": 2026,

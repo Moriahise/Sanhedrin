@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "general",
- "count": 19466,
+ "count": 19469,
  "entries": [
   {
    "id": "ye-200912288164429",
@@ -318302,6 +318302,61 @@
    "c": "general",
    "y": 2026,
    "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-221411",
+   "t_he": "",
+   "t_en": "The 6 Communication Rules Every Couple Should Keep on the Fridge",
+   "x": "The 6 Communication Rules Every Couple Should Keep on the Fridge",
+   "ax": "Simple important rules for the moments you forget them most. There are moments in your marriage when you suddenly hear yourself speaking and think, Wait... whe…",
+   "tg": [
+    "aish",
+    "general",
+    "article",
+    "devora-levy",
+    "published-2026"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-221431",
+   "t_he": "",
+   "t_en": "Why Fame, Money & Followers Won't Make You Successful",
+   "x": "Why Fame, Money & Followers Won't Make You Successful",
+   "ax": "Why society's version of success is broken, why hustle culture can be a trap, and why comparing yourself to others is destroying your happiness. Love you my a…",
+   "tg": [
+    "aish",
+    "general",
+    "article",
+    "rabbi-dov-ber-cohen",
+    "published-2026"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90375",
+   "t_he": "",
+   "t_en": "Cousin Marriages",
+   "x": "Does the Torah permit cousin marriages? Is the topic discussed at all? I’m concerned in particular because the inbreeding is likely to cause genetic disorders,…",
+   "ax": "It is permitted under Torah law for cousins to marry. In fact, the Sages seem to view marriages between relatives as desirable. The Talmud recommends that a pe…",
+   "tg": [
+    "aish",
+    "general",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2015",
+    "needs-review"
+   ],
+   "c": "general",
+   "y": 2026,
+   "ch": 215,
    "s": "upload"
   }
  ]

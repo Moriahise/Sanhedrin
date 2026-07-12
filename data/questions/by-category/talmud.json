@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "talmud",
- "count": 3597,
+ "count": 3598,
  "entries": [
   {
    "id": "ye-2010112513418718",
@@ -58188,6 +58188,24 @@
    "c": "talmud",
    "y": 2026,
    "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-204417",
+   "t_he": "",
+   "t_en": "Torah Study in Utero; Cleft on Upper Lip",
+   "x": "The Sages teach us that an angel teaches the entire Torah to an embryo in utero. Then just before he is born, the angel taps him on his upper lip and he forget…",
+   "ax": "Thank you for raising the interesting issue. The source of the statement you cited is Talmud Niddah 30b. The Talmud there actually does not say anything about…",
+   "tg": [
+    "aish",
+    "talmud",
+    "question-answer",
+    "aish.com-staff",
+    "published-2025"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 215,
    "s": "upload"
   }
  ]

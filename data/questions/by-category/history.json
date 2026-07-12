@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "history",
- "count": 1561,
+ "count": 1564,
  "entries": [
   {
    "id": "ye-4787",
@@ -25255,6 +25255,60 @@
    "c": "history",
    "y": 2026,
    "ch": 214,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-189698",
+   "t_he": "",
+   "t_en": "The Surprising History of Jewish Spaghetti",
+   "x": "The Surprising History of Jewish Spaghetti",
+   "ax": "In the pantheon of Jewish comfort foods, matzo ball soup, cholent, and kugel hold prestigious positions. Even borscht, gefilte fish, and chopped liver have the…",
+   "tg": [
+    "aish",
+    "history",
+    "article",
+    "aryeh-genger",
+    "published-2024"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-221364",
+   "t_he": "",
+   "t_en": "The Jewish History Behind Cabo Verde's Cinderella Run",
+   "x": "The Jewish History Behind Cabo Verde's Cinderella Run",
+   "ax": "Cabo Verde stunned the world at the World Cup. Few know their small island nation was shaped by Sephardic Jewish immigrants who arrived generations ago. New to…",
+   "tg": [
+    "aish",
+    "history",
+    "article",
+    "yehudis-litvak",
+    "published-2026"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-221388",
+   "t_he": "",
+   "t_en": "Unsafe at MIT",
+   "x": "Unsafe at MIT",
+   "ax": "MIT never investigated its antisemitism crisis. Professor Yossi Sheffi wrote the book the university wouldn't, showing how his own campus turned on its Jews. D…",
+   "tg": [
+    "aish",
+    "history",
+    "article",
+    "eliyahu-freedman",
+    "published-2026"
+   ],
+   "c": "history",
+   "y": 2026,
+   "ch": 215,
    "s": "upload"
   }
  ]
