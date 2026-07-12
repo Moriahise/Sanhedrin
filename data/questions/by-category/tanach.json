@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "tanach",
- "count": 7825,
+ "count": 7828,
  "entries": [
   {
    "id": "ye-4809",
@@ -125900,6 +125900,60 @@
     "question-answer",
     "rabbi-dovid-rosenfeld",
     "published-2018"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90561",
+   "t_he": "",
+   "t_en": "Firstborn (Bechor) Privileges",
+   "x": "I’ve been studying Deuteronomy with my children and was at a loss to explain why the firstborn receives a double portion of the inheritance (21:17). What is th…",
+   "ax": "It’s a very good question. The Torah accords a higher status to the firstborn son (bechor) – giving him a double portion of his father’s inheritance, and initi…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2016"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90572",
+   "t_he": "",
+   "t_en": "120 Year Lifespan",
+   "x": "I was curious about the blessing we give people to live till 120 years. What is the origin of the expression? Is that just a nice, very high number, or is that…",
+   "ax": "Thank you for your interesting question. There are two possible sources for that expression. One relates to the Flood. Before the Flood, when God first saw man…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2017"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90677",
+   "t_he": "",
+   "t_en": "Polygamy",
+   "x": "Is it true that the Bible permits a man to have multiple wives? Is this really the type of family arrangement that God views as ideal?",
+   "ax": "Biblical law allows a man to be married to more than one wife simultaneously, provided his wives are not sisters and that he can support them. Nevertheless, th…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
    ],
    "c": "tanach",
    "y": 2026,

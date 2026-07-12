@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "halacha",
- "count": 18183,
+ "count": 18242,
  "entries": [
   {
    "id": "ye-2009121811237500",
@@ -292979,6 +292979,1076 @@
     "question-answer",
     "rabbi-dovid-rosenfeld",
     "published-2018"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90552",
+   "t_he": "",
+   "t_en": "Who Should Attend an Unveiling?",
+   "x": "We are planning the unveiling for my father in about a month. Is it important that the entire family be there? I would have to fly several of my grown children…",
+   "ax": "I’m sorry for the loss of your father. May his soul be granted an aliyah (ascension) in Heaven and may he be a meilitz yosher (worthy advocate) for the entire…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2018"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90560",
+   "t_he": "",
+   "t_en": "Largest Jewish Funeral?",
+   "x": "I saw on the news that the funeral of Rabbi Ovadia Yosef was attended by 850,000 people. What amazed me even more is that funeral was held just 4 hours after h…",
+   "ax": "Certainly this is the largest recorded Jewish funeral in modern times – i.e. since the founding of the State of Israel in 1948. To find a larger funeral, belie…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2013"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90565",
+   "t_he": "",
+   "t_en": "Jacob’s Embalmment",
+   "x": "How was Joseph allowed to embalm his father Jacob? Is that permitted according to Jewish law?",
+   "ax": "It’s a good question. Embalming seems quite contrary to the Jewish way in burial. The body is buried very simply, allowing it to decay and return to the earth…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2016"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90568",
+   "t_he": "",
+   "t_en": "Shoes of Deceased",
+   "x": "We are in the process of disposing of the belonging of our late father, of blessed memory. I have heard that some people throw out the deceased’s shoes. Is the…",
+   "ax": "I’m sorry first of all to hear of your father’s passing. The practice of disposing the deceased’s shoes appears in a work called “The Testaments (tzava’ot) of…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2017",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90574",
+   "t_he": "",
+   "t_en": "Have Her Convert?",
+   "x": "I’ve been dating a young woman for the past two years and we are starting to think about marriage. The problem is that she is not Jewish. I would want her to c…",
+   "ax": "I appreciate your desire to do the right thing and proceed in an authentic way. The process of conversion is challenging and may easily take 1-2 years. This se…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2017"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90592",
+   "t_he": "",
+   "t_en": "Abortion - Yes Or No?",
+   "x": "I never thought this would happen to me. I'm pregnant. And now I don't know what to do. I realize this is an important decision – not only for my own emotional…",
+   "ax": "First let me commend you for struggling with this. Nobody disputes a woman's \"free choice\" over her body – to cut her hair, or to undergo liposuction if she ch…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90593",
+   "t_he": "",
+   "t_en": "Adoption",
+   "x": "We are looking to adopt a Jewish child, preferably a baby (as yet unborn). Can you help us find one in Israel, possibly an out-of-wedlock situation. It would b…",
+   "ax": "The official Israeli adoption agency, Sherut L'Ma'an Hayeled, requires adopters to live in Israel (at least at the outset of adoption). And even for Israelis,…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90594",
+   "t_he": "",
+   "t_en": "Is Adult Circumcision Necessary?",
+   "x": "I am a Russian immigrant living in New York. I never had a circumcision, because back in those days the Soviets made it illegal. Now at age 40, I am wondering…",
+   "ax": "It is absolutely necessary for a male Jew to be circumcised. It is the singular identifying mark of a Jewish boy. Circumcision is one of only two positive mitz…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90596",
+   "t_he": "",
+   "t_en": "Adultery - Jewish Perspective",
+   "x": "What is so bad about adultery that it is prohibited in the 10 commandments?",
+   "ax": "To paraphrase Dennis Prager, Judaism has a sexual ideal: marital sex. Judaism placed controls on sexual activity, demanding that it be channeled into marriage.…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90603",
+   "t_he": "",
+   "t_en": "Extra-Marital Affair",
+   "x": "I was recently assigned to a long-term project where I had to work long hours with a colleague who is a married man. We slowly grew closer and now we are in a…",
+   "ax": "You should let the relationship go. Pursuing this relationship (even platonic) will only cause harm to you, to him, and to his spouse. Infatuation is a romanti…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90606",
+   "t_he": "",
+   "t_en": "Bar Mitzvah Gift",
+   "x": "My nephew is having his bar mitzvah and I am thinking of a gift. In the old days, the gift of choice was a fountain pen, then a Walkman, and today an iPod. But…",
+   "ax": "Since this event celebrates the young person becoming obligated in the commandments, the most appropriate gift is, naturally, one that gives a deeper understan…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90607",
+   "t_he": "",
+   "t_en": "Bar Mitzvah Jitters",
+   "x": "My Bar Mitzvah is coming up and I’m freaking out. I know how to read my Haftorah, but I’m afraid I’ll freeze up and forget it all on the big day. It will reall…",
+   "ax": "Since the Jewish people began, countless numbers of boys have been nervous before their Bar Mitzvah. And do you know what? Somehow they all managed to survive!…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90608",
+   "t_he": "",
+   "t_en": "Bar Mitzvah",
+   "x": "Would you please tell me the true definition of bar mitzvah and the requirements, not just by custom, but necessity. My wife is questioning whether I was bar m…",
+   "ax": "First, let's understand what the words \"Bar Mitzvah\" actually mean. The phrase literally translates to being \"son of obligation\" – i.e. the person is now oblig…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90609",
+   "t_he": "",
+   "t_en": "Bat Mitzvah",
+   "x": "My Bat Mitzvah is coming up and I want to do something special. My brother’s Bar Mitzvah was a big event with magicians, jugglers and a replica of the Titanic.…",
+   "ax": "Although we commonly refer to having a \"Bat Mitzvah,\" technically speaking, this is impossible. \"Bat Mitzvah\" literally translates as \"daughter of obligation\"…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90610",
+   "t_he": "",
+   "t_en": "Birth Control",
+   "x": "I see that religious Jews have large families. Is it true that they don’t practice birth control?",
+   "ax": "Generally speaking, the use of contraceptives is forbidden in Judaism. The basic idea is that the one who does the family planning is God. However, there are c…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90612",
+   "t_he": "",
+   "t_en": "Blessing on Sex",
+   "x": "I know about many of the blessings recited for various events and daily occurrences, but in all my studies, I have yet to find mention of a blessing for marita…",
+   "ax": "This is an interesting question. Here are four answers, none of which are found in the classical rabbinic writings. So take your pick: 1) There are no blessing…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90620",
+   "t_he": "",
+   "t_en": "Burial in Israel",
+   "x": "I see that many people fly a body to be buried in Israel. Is there a special merit to be buried there? I heard someone suggest that my deceased father, who is…",
+   "ax": "It is considered a great merit to be buried in Israel. In fact, when burying outside of Israel, the custom is to sprinkle some dirt from Israel into the grave.…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90621",
+   "t_he": "",
+   "t_en": "Burying a Limb",
+   "x": "My elderly father is very sick. Gangrene has set into his leg, and it now needs to be amputated. My question is: What is the proper way of disposing of the leg…",
+   "ax": "A limb that is amputated should be buried in the grave where the person will eventually be buried. If the gravesite has not yet been decided, it should be temp…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90624",
+   "t_he": "",
+   "t_en": "Comforting Mourners",
+   "x": "How do I speak to my brother who just lost his 12-year-old son in an accident? He and his wife are devastated and I want to make sure I choose the right words.",
+   "ax": "The Bible tells about Job who suffered terrible afflictions – he lost his home, his family died, and he was stricken with disease. When Job's friends came to c…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90625",
+   "t_he": "",
+   "t_en": "Cremation",
+   "x": "A friend of mine was buried by a landslide while his wife was just a few feet away. People pitched in to dig him out and had two-thirds of his body out, blue b…",
+   "ax": "This is a terrible tragedy and I can understand the torment of the widow. But Judaism permits only burial. The source for this comes from the Torah, where God…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90627",
+   "t_he": "",
+   "t_en": "Married at Different Levels of Observance",
+   "x": "My husband and I have been married for two years, happily. I am Orthodox and he is not. He has learned how to make Kiddush and say Grace After Meals (with tran…",
+   "ax": "I think the answer is to expose your husband to role models. Rabbis are good, but I think even more important are successful, intelligent, worldly orthodox men…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90630",
+   "t_he": "",
+   "t_en": "Children & Divorce",
+   "x": "Back in the old days many couples stayed together “for the sake of the children.” Am I correct that this reason has no validity in our 21st century lives?",
+   "ax": "In the 1970s, Judith Wallerstein’s best-seller The Unexpected Legacy of Divorce contended that children really aren't as “resilient\" as once thought, and that…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90632",
+   "t_he": "",
+   "t_en": "Elderly",
+   "x": "Back in my day, society accorded honor to the elderly. But it seems that today, with all the 25-year-old billionaires running the show, the elderly have been t…",
+   "ax": "Judaism emphasizes the tradition that is handed down from one generation to the next. The Talmudic tractate \"Pirkei Avot\" begins by telling us that Moses – aft…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90633",
+   "t_he": "",
+   "t_en": "Eirusin and Nesuin",
+   "x": "I recently became engaged, and in preparing for our wedding I wanted to become more familiar with the traditional Jewish ceremony. I understand that the giving…",
+   "ax": "First of all, mazel tov on your upcoming marriage! A Jewish marriage actually takes place in two stages: EIRUSIN: When a couple decides to get married, they fo…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90634",
+   "t_he": "",
+   "t_en": "Film Portrayal of Infertility",
+   "x": "I recently saw the Israeli film \"Kadosh.\" The story is set today in Mea Shearim, the Orthodox quarter of Jerusalem, and is concerned with the constraints that…",
+   "ax": "The basic premise of the film – that a childless couple will be forced to divorce – is a simple misrepresentation of the facts. While such a law is indeed foun…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90636",
+   "t_he": "",
+   "t_en": "Get Document - Importance of",
+   "x": "I am in the process of divorcing my husband, and my rabbi tells me that it is sufficient to go through the civil divorce proceedings. But other of my friends h…",
+   "ax": "Although divorce is common in today’s social landscape – over half of all marriages will end in divorce – it is still a heartbreaking way to end a marriage. Un…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90637",
+   "t_he": "",
+   "t_en": "Get Document - Technical Requirements",
+   "x": "I am getting divorced and need to order a Get document. Is there something online available for download?",
+   "ax": "A Get must be written in a very specific way, and only under the supervision of an expert rabbi who is well-versed in these laws. For example, the Get must be…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90638",
+   "t_he": "",
+   "t_en": "Grandpa's Bar Mitzvah",
+   "x": "Many years ago, my grandfather turned 83 and decided to have a second Bar Mitzvah. This was held in conjunction with our oldest son's Bar Mitzvah. My grandfath…",
+   "ax": "Firstly, your grandfather's interest in reaffirming his commitment to Judaism at the age of 83 is quite commendable. Although we commonly use the phrase \"I am…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90640",
+   "t_he": "",
+   "t_en": "Homewrecker",
+   "x": "I have been seeing a married man for over a year now. He has been separated from his wife for four months and we see each other as much as possible. I have bee…",
+   "ax": "You are making two very big mistakes. One is moral the other is practical. First of all, you are dating someone who has made a commitment of marriage to anothe…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90653",
+   "t_he": "",
+   "t_en": "Assisted Suicide",
+   "x": "I am a university student in Alberta, Canada and I am doing a research paper on euthanasia from the Jewish perspective. Can you direct me to more information?…",
+   "ax": "The amazing strides in medical technology has given humanity the ability to extend or save a life which was impossible just a decade or two ago. This has broug…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90655",
+   "t_he": "",
+   "t_en": "Becoming a 'Giver'",
+   "x": "I’ve been married now for almost a year and my wife is starting to get impatient. He says that I’m selfish and don’t know how to give. I see that in many ways…",
+   "ax": "The \"need to give\" is a basic part of human nature. Imagine being born into great wealth and given a monthly allowance of $10,000. You'd never have to work a d…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90659",
+   "t_he": "",
+   "t_en": "Honors Extended at Bris Milah",
+   "x": "Wow, I am reeling. My wife just gave birth to a baby boy. Bris next week! We want to invite all our family and friends, and distribute honors so they can parti…",
+   "ax": "Mazel tov! May you bring him to the covenant of Abraham at the right time! It is deemed a great honor to take part in the Bris. Here are the various \"tasks\" gi…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90660",
+   "t_he": "",
+   "t_en": "In Vitro Fertilization",
+   "x": "I’ve been married for three years and have yet to get pregnant. I’m getting on in age and don’t want motherhood to pass me by. We are considering IVF but thoug…",
+   "ax": "I commend you for consulting with a rabbi before moving forward. IVF is not a problem of circumventing God's will, because it was God Himself who gave mankind…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90661",
+   "t_he": "",
+   "t_en": "Jumping from the Tower",
+   "x": "In the terrible 9-11 terror attack on New York, some people jumped from the burning tower. On one side was a raging fire with no escape, and on the other side…",
+   "ax": "We are always obligated to do whatever possible to preserve human life, regardless of how slim the chances may be. Therefore, when there is certain death from…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90662",
+   "t_he": "",
+   "t_en": "Ketubah: 200 Zuz",
+   "x": "I see that my marriage ketubah says it is worth 200 zuz. What is the equivalent of 200 zuz in American dollars?",
+   "ax": "Let's see: In the Passover Haggadah we sing about \"the goat my father bought for two zuzim.\" So I guess your ketubah is worth the equivalent of 100 baby goats.…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90663",
+   "t_he": "",
+   "t_en": "Kosher Chuppah",
+   "x": "I will be getting married in a few months and we want to make sure that the ceremony is \"religiously correct.\" What do we need to know?",
+   "ax": "In Jewish law, a marriage becomes official when the groom (chatan) gives an object of value to the bride (kallah). This is traditionally done with a ring. The…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90664",
+   "t_he": "",
+   "t_en": "Last Names",
+   "x": "When my grandparents came to America in the early 20th century, they changed their last name from Yosselovitch to Kerry. Now that I’ve become more interested i…",
+   "ax": "Actually, all the last names we have are all \"made up.\" In days of old, and still in synagogues and Jewish communities today, last names were not used. Rather,…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90665",
+   "t_he": "",
+   "t_en": "Leather Shoes",
+   "x": "I am used to the idea of not wearing leather shoes on Yom Kippur. But recently my mother died and the rabbi said that I shouldn’t wear leather shoes for a whol…",
+   "ax": "Leather shoes are considered a comfortable attire. Therefore for a mourner, such \"comfort\" is considered inappropriate. (Talmud – Moed Katan 15; based on Ezeki…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90666",
+   "t_he": "",
+   "t_en": "Living Together",
+   "x": "My boyfriend just got a new job and will be moving to my city. He says that it’s time we start living together. The idea seems to have advantages – shared expe…",
+   "ax": "Living together is a bad idea. It is a convenient way for a man to have all the “benefits” with none of the responsibilities. Then when he gets tired of you, h…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90668",
+   "t_he": "",
+   "t_en": "Mikveh - Why?",
+   "x": "Why are a man and woman prohibited from marital relations during her menstruation? Does Judaism consider women somehow “unclean”? And if a woman always has to…",
+   "ax": "The Torah speaks of a spiritual concept called \"Tuma.\" Often mistranslated as \"dirty,\" Tuma is not a description of spiritual inferiority, impurity or uncleanl…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90670",
+   "t_he": "",
+   "t_en": "No Touching!",
+   "x": "I was raised in an Orthodox home and the idea of being physical with guys was discouraged until after marriage. Now I met a guy at school and I figure that som…",
+   "ax": "On a practical level, many young people who thought they were \"only hugging\" wound up getting much more involved than that. That is the reality of hormones. So…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90678",
+   "t_he": "",
+   "t_en": "Premarital Relations",
+   "x": "I’ve been dating a man for the past six months and he says “it is time to get serious.” I agree, except that we differ in how we define that. In my mind, “gett…",
+   "ax": "Unlike other religions, Jewish religious leaders are not celibate. Judaism believes that intimacy is one of the highest forms of spiritual expression, and acce…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90679",
+   "t_he": "",
+   "t_en": "Prenatal Testing",
+   "x": "I am 19 weeks pregnant and just received results from an amniocentesis test that the fetus has Downs Syndrome and is mentally retarded. I would like to abort t…",
+   "ax": "In almost all cases, abortion is forbidden in Judaism (Talmud – Sanhedrin 59a). As a general guideline, if the fetus poses a real danger to the mother – e.g. t…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90683",
+   "t_he": "",
+   "t_en": "Defining the Moment of Death",
+   "x": "It is my understanding that in order for someone to be a candidate to donate their organs, they need to be declared \"brain dead\" by two to three physicians, on…",
+   "ax": "Thank you for sharing your powerful personal story. I understand that in cases such as heart transplants, the organ has to be so fresh that doctors will remove…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90687",
+   "t_he": "",
+   "t_en": "The Ethics of Cloning",
+   "x": "My experience is that scientific breakthroughs (e.g. man on the moon, invitro fertilization, etc.) are greeted by the general public with accolades and enthusi…",
+   "ax": "People perceive cloning as an affront to their humanity and sense of individuality. Beyond this, there is great potential for abuse. We could imagine certain s…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90690",
+   "t_he": "",
+   "t_en": "Fingernails",
+   "x": "I know that Judaism has something to say about every aspect of existence and our lives. But I never imagined there was something to know about fingernails, unt…",
+   "ax": "There are many mystical practices associated with clipping nails. One of these involves the order in which the fingernails are cut: If you hold out your hands…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90701",
+   "t_he": "",
+   "t_en": "Infertility",
+   "x": "My wife and I have been married for 14 years. We are very happy except that we have not been blessed with children. We have gone through various fertility trea…",
+   "ax": "I sympathize with your pain and frustration, and I commend you for doing all you can to find the best solution to a very challenging situation. However, I don’…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90705",
+   "t_he": "",
+   "t_en": "Niddah: Why",
+   "x": "Why is a couple prohibited from marital relations during the wife's menstruation? Doesn't this reduce the ability of a man and woman to connect through the dee…",
+   "ax": "Actually, the laws of family purity help increase intimacy between husband and wife, and it has nothing to do with \"double standards,\" as we shall explain. The…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90769",
+   "t_he": "",
+   "t_en": "Organ Donation",
+   "x": "What is the Jewish position on organ donation? I have been told, albeit by someone relatively uneducated, that a Jewish body must be \"whole and intact\" for Jew…",
+   "ax": "This is a complex question, and you have articulated the issues well. The Jewish position on organ donation is as complex as the issue of life and death, becau…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90773",
+   "t_he": "",
+   "t_en": "Redeeming First Born",
+   "x": "We have a new baby boy and I heard something about having to \"buy him back from a kohen.\" What do I have to do – and how much is this going to cost?",
+   "ax": "Mazal Tov! You heard right. Pidyon Haben refers to the \"redemption of the first born son,\" and is commanded in the Torah (Numbers 18:15). The reason we perform…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90774",
+   "t_he": "",
+   "t_en": "Shiva Shortened by Yom Tov",
+   "x": "My father passed away two days before Rosh Hashana, and we only sat in mourning for two days rather than the customary seven. I never did get the straight stor…",
+   "ax": "I am sorry to hear of the loss of your father. All me to offer a few answers to your interesting question. 1) The great sage Chatam Sofer (YD 348) writes that…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90776",
+   "t_he": "",
+   "t_en": "Stones on Graves",
+   "x": "At the end of the movie Schindler's List, I saw people placing stones on the top of the headstone. What is the reason for this?",
+   "ax": "One idea is discussed in the Talmud (Eidiot 5:6): \"Elazar Ben Hanoch was excommunicated. When he died, the court laid a stone on his coffin. From here we learn…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90777",
+   "t_he": "",
+   "t_en": "Suicide",
+   "x": "A guy who works at the same company just committed suicide. Some people are saying that this is a terrible crime, while others say it's okay because he didn't…",
+   "ax": "This is a great tragedy and we bemoan the apparent lack of support and intervention that perhaps could have helped this man from suffering this fate. Much is b…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90779",
+   "t_he": "",
+   "t_en": "Tombstone Unveiling",
+   "x": "In a few weeks we are having the unveiling of the tombstone for my mother-in-law. She was not a member of a synagogue and did not have a rabbi who knew her. I…",
+   "ax": "An unveiling is a way to commemorate the first year since the passing of a loved one. Some do it as soon as possible after the shiva, while others wait till af…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90781",
+   "t_he": "",
+   "t_en": "3-year-old Haircut",
+   "x": "I send my 2-year-old daughter to day care at the local JCC. One of the boys there has never had a haircut. I am very curious about this, but I don’t have the n…",
+   "ax": "Traditional Jews often wait until a boy's third birthday before giving his first haircut. This is called \"Upsherin\" – a Yiddish word that means \"cutting off.\"…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90782",
+   "t_he": "",
+   "t_en": "Vasectomy",
+   "x": "I’m getting to that stage in life where I don’t want to have any more children. I’m considering getting a vasectomy. My wife thinks it's better to leave the bo…",
+   "ax": "According to Jewish law, a vasectomy is absolutely forbidden. Further, Jewish law states that one who undergoes a vasectomy is classified as a \"kroos shafcha\"…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90783",
+   "t_he": "",
+   "t_en": "Wedding Dates",
+   "x": "I am planning my wedding for next year and I want to make sure that we don't schedule it in conflict with any Jewish holidays, etc. What days on the calendar a…",
+   "ax": "The general rule is that we do not have weddings on Shabbat (Friday evening or all day Saturday) nor on the Jewish holidays -- which includes Rosh Hashana, Yom…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90786",
+   "t_he": "",
+   "t_en": "Why Bris?",
+   "x": "Recently, I was at a website for expectant mothers when I happened upon a forum entitled \"To circumcise or not.\" One Jewish woman posted a message asking for o…",
+   "ax": "The truth is, there is no \"logical\" argument for such an elective procedure. Yet circumcision has been practiced on Jewish males for close to 4,000 years, ever…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 215,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90857",
+   "t_he": "",
+   "t_en": "Tattoo: Burial in Jewish Cemetery?",
+   "x": "I have a tattoo from my younger days, which I now very much regret. I am debating whether to undergo laser removal surgery, and one of my considerations is whe…",
+   "ax": "Although it is forbidden for a Jew to get a tattoo (see Leviticus 19:28), there is no truth to the idea that he is then unable to be buried in a Jewish cemeter…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
    ],
    "c": "halacha",
    "y": 2026,
