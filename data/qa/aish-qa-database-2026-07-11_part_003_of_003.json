@@ -1,0 +1,1255 @@
+{
+  "schema": 2,
+  "format": "sanhedrin-qa-upload",
+  "profile": "sanhedrin-github-upload-aish-v3",
+  "generated_at": "2026-07-12T06:58:30+00:00",
+  "exported_at": "2026-07-11T22:20:46.507Z",
+  "source": "aish.com",
+  "provider": "aish",
+  "part": 3,
+  "total_parts": 3,
+  "questions_in_part": 24,
+  "total_questions": 24,
+  "original_total_questions": 166,
+  "valid_total_questions": 166,
+  "skipped_total_questions": 0,
+  "categories_summary": {
+    "general": 8,
+    "halacha": 16,
+    "tanach": 0,
+    "talmud": 0,
+    "kabbalah": 0,
+    "history": 0
+  },
+  "content_summary": {
+    "question_answer": 24,
+    "articles": 0,
+    "unanswered": 0,
+    "needs_review": 3
+  },
+  "questions": [
+    {
+      "source": "upload",
+      "source_id": "aish-90893",
+      "id": "aish-90893",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Marital Relations – Mitzvah",
+      "question": "What is the Jewish view of intimacy? Is sex just for procreative purposes, or is it all right to have relations with one's spouse for recreation and intimacy?",
+      "answers": [
+        {
+          "text": "Intimacy is permitted only within the context of marriage, and only during the times when the woman is ritually pure (she separates during and after menstruation, followed by immersing in a mikveh). As long as these guidelines are observed, then Judaism endorses intimacy for recreational purposes, even if there is no chance of the woman becoming pregnant.\nIn fact, Judaism views sex as a triple mitzvah:\n1) It is a mitzvah for a husband and wife to love each other and share intimacy. (Genesis 2:24)\n2) It is a mitzvah for a man to fulfill his wife's sexual needs. (Exodus 21:10)\n3) Additionally, if there is a chance of procreation, it is a mitzvah to \"be fruitful and multiply.\" (Genesis 1:28)\nFor more on the Jewish view of sexuality, see \"Marriage Power.\"",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/marital-relations-mitzvah/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2011-08-21",
+      "saved_at": "2026-07-11T14:41:51.192Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-08-21T02:47:23+00:00",
+        "upvotes": 0,
+        "original_id": "90893",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-08-21",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "permitted",
+          "marriage",
+          "mikveh",
+          "marital relations",
+          "mitzvah",
+          "spouse"
+        ],
+        "source_filename": "2011-08-21-Marital-Relations-Mitzvah.90893.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-90905",
+      "id": "aish-90905",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Life on Track",
+      "question": "I am turning 40 in a few months and I am terribly frustrated seeing my life go by, without really fulfilling my potential. I cannot imagine being 20 years down the road and these same feelings of emptiness and regret, Can you suggest a plan for getting my life on track?",
+      "answers": [
+        {
+          "text": "Kudos for writing and taking this all so seriously.\nThe first step is to get to the core of your life. You want to be rich. You want to be famous. You want to accomplish, to have an impact, to help others, to change the world.\nBut why do you want all this? What's driving you? When all is said and done, what do you want to end up with? For what do you want to be remembered?\nEvery day you have to re-ask these questions.\nDream your loftiest dreams and make a plan to achieve them. Imagine what you could accomplish if you were clearly focused on the goal.\nI would like to share with you a quote; think how it applies to yourself.\n\"Our deepest fear is not that we are inadequate. Our deepest fear is that we are powerful beyond measure. It is our light, not our darkness that most frightens us. We ask ourselves, 'Who am I to be brilliant, gorgeous, talented, fabulous?'\n\"Actually, who are you not to be? You are a child of God.\"\nMy friend, you have the power. To start this process of self-discovery, ask yourself intimate questions, then wait for answers.\n• What is the purpose of existence? • What is my goal in life? • Why did I choose my career? • How do I spend my spare time? • In what ways am I wasting time? • What is my motivation for doing what I do? • What really makes me happy? • What are my future plans? Why? • What are my secret dreams and ambitions?\nOnce you have some answers, make a plan to implement positive change into your daily life. Start slowly, taking one small step at a time, so not to be overwhelmed. Keep your eye on the goal and gauge your progress every day.\nThe key to success in this is to take a spiritual accounting. Imagine if a corporation conducted business without keeping track of its accounts and made no effort to chart profits and losses. The whole endeavor would be destined to fail!\nThe Sages note that this is exactly the approach many people take in their personal lives ― and regularly do \"Cheshbon Hanefesh,\" a spiritual accounting. For example, if someone is trying to refrain from speaking Loshon Hara (gossip), he should keep track of the number of times he speaks Loshon Hara during the day. The power of this exercise is so great, that if a person performs a cheshbon for 80 consecutive days, they will assuredly become a new person.\nThere is an excellent book, written a few hundred years ago, called \"Cheshbon ha-Nefesh\" by Rabbi Menachem Mendel of Satanov. Find it at feldheim.com.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/life-on-track/",
+      "tags": [
+        "aish",
+        "general",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "general",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2011-08-21",
+      "saved_at": "2026-07-11T14:30:52.902Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-08-21T03:14:25+00:00",
+        "upvotes": 0,
+        "original_id": "90905",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-08-21",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "life on track",
+          "success"
+        ],
+        "source_filename": "2011-08-21-Life-on-Track.90905.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-90907",
+      "id": "aish-90907",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Martyrdom & Sanctifying God's Name",
+      "question": "In the Yizkor memorial prayer which we say on the holidays, we commemorate the souls of the martyrs who were \"killed, murdered, slaughtered, burned, drowned and strangled\" for the sanctification of the Name. This raises two questions: Why is it considered sanctifying God's name if the victims went involuntary? And in general how is God's name sanctified through the slaughter of his people?",
+      "answers": [
+        {
+          "text": "The mitzvah of Kiddush Hashem -- sanctification of God's Name -- is based on the verse, \"I will be sanctified amongst the Children of Israel\" (Leviticus 22:32). A Jew is obligated to act in a manner which causes others to regard God's name with reverence. The ultimate expression of this is when a Jew gives up his most valued possession -- his life -- for God, His Torah, and His values. (Maimonides - Yesoday Hatorah 5:1,11; Sefer Hachinuch #296)\nThis assumes that a Jew realizes that he's fulfilling this great mitzvah. This begs the question, what if he went involuntarily -- i.e. he specifically did not want to sanctify God's name? Furthermore, what about a 2-year old child that had no inkling of why he's dying?\nExcept for the known, inspiring stories of those such as Rabbi Elchanon Wasserman, who encouraged the victims as they were about to be killed, to purify their thoughts so as to be \"unblemished sacrifices,\" we don't know what anyone was thinking when they were about to be shot, gassed or eliminated by the evil Nazis. The killers, however did know that they were killing Jews. And so did the nations of the world.\nWhen a Jew is killed or suffers simply because he is Jewish, the uniqueness of the nation is thus underscored, and as it is deemed that he is dying for a Godly cause, God's Name is sanctified. Even if one did not do the will of his Master during his lifetime, when killed for just being Jewish, he is classified as a \"servant\" and his entire life is sanctified. (\"Shoah\" - ArtScroll, pg. 206-7)\nThere is another aspect of Kiddush Hashem. In Numbers 20:12,13 we read of the incident of Moses hitting the rock. Rashi there explains: \"God's name is sanctified when judgment is done against His beloved, as He becomes feared and sanctified by the people.\" God is revered as an effective power that can carry out His word when justice in Godly terms is carried out.\nRashi mentions this idea in Leviticus 10:3: \"When God executes judgment on the righteous, He is feared, awed and praised, and surely when He judges the wicked.\"\nFrom this perspective, we can already begin to understand that even if the victim dies unwillingly, his death may still ultimately result in a Kiddush Hashem.\nI have heard it explained that while many of the Holocaust victims did not have intention for Kiddush Hashem, there are an equal number of Jews who are ready to do such an act of sanctification, if ever called upon. We say this every day in the Shema prayer -- \"to serve God with all your heart, with all your LIFE, and with all your resources...\" We recall the Talmudic story of Rebbe Akiva experiencing an aspect of joy at being killed by the Romans, saying that all his life he was prepared to give up everything for God, and now that potential is being actualized. So as the Jewish people are one singular unit, the Almighty takes the intentions of those willing to sanctify, and unites those thoughts with the deeds of those who actually did sanctify.\nFor a powerful presentation of this idea, read \"The Six Million Kedoshim\" by Rabbi Ahron Lopiansky, and \"Understanding the Holocaust\" by Rabbi Yitzchak Berkovits.\nOne final thought: When contemplating the self-sacrifice of the Jewish martyrs, Rabbi Noach Weinberg's question constantly rings in my ear: \"You may be willing to die for God, are you willing to live for God?\"",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/martyrdom-sanctifying-gods-name/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2011-08-21",
+      "saved_at": "2026-07-11T14:58:09.048Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-08-21T03:16:40+00:00",
+        "upvotes": 0,
+        "original_id": "90907",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-08-21",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "obligated",
+          "yizkor",
+          "prayer",
+          "martyrdom",
+          "mitzvah",
+          "rabbi"
+        ],
+        "source_filename": "2011-08-21-Martyrdom-Sanctifying-God-s-Name.90907.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-90940",
+      "id": "aish-90940",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Rape",
+      "question": "I was reading in an online forum that Judaism advocates that a rapist marry his victim. This sounds so backward and oppressive, and difficult to reconcile with the compassionate Judaism that I know and love. Is what I read accurate?",
+      "answers": [
+        {
+          "text": "Highly inaccurate. (Are you surprised?)\nJudaism takes a strong position against rape, with the Talmud comparing it to murder. As such, Judaism permits one to kill a rapist who is in pursuit of a woman, in order to save her from attack.\nRape of a married woman is a capital crime. (Deuteronomy 22:25)\nRape of a single woman carries a heavy monetary fine (depending on the age of the victim), plus the rapist has to pay reparation for damages, as well as for her suffering, embarrassment and emotional anguish. The rapist also incurs lashes. This is all intended as both a deterrent and a punishment (Deuteronomy 22:28-29, see also Rambam Rotzai'ach 2:4-5).\nAs regards to what you read, it is true that the Torah states that the rapist must marry (and may never divorce) his victim (actually only if she is at a certain young age at the time), but both she and her father can refuse the \"match\" – which they are extremely likely to do. I believe the message of the Torah is not that the rapist can have whom he wants, but quite the opposite. If he wants to take advantage of another human being, he cannot just do so and split. He becomes responsible for her – for the rest of his life.\nFeel free to post this response on that online forum.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/rape/",
+      "tags": [
+        "aish",
+        "general",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011",
+        "needs-review"
+      ],
+      "category": "general",
+      "category_confidence": "low",
+      "needs_review": true,
+      "date": "2026-07-11",
+      "published_at": "2011-08-21",
+      "saved_at": "2026-07-11T14:43:36.345Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-08-21T16:44:45+00:00",
+        "upvotes": 0,
+        "original_id": "90940",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-08-21",
+        "import_date": "2026-07-11",
+        "category_reason": [],
+        "source_filename": "2011-08-21-Rape.90940.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-90943",
+      "id": "aish-90943",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Sexual Immorality – Giving Up One's Life",
+      "question": "I read that all the Torah's commandments \"can be broken to save a life\" except for three. I think I understand two of the three: 1) Idolatry - this would threaten the very fabric of Judaism and therefore cannot be allowed. 2) Murder - you cannot take one life to save another, because every human being is infinitely valuable. In the words of the Talmud, \"who knows whose blood is redder?\" (Though it is permitted to take a life in self-defense.) The one that is really puzzling me is #3: Sexual immorality like incest and adultery. Why is this so serious? I'm not suggesting it is a \"good\" thing, but if sleeping with your brother or another man's wife would save a life... why not?",
+      "answers": [
+        {
+          "text": "Let's start with the premise that a stable family structure is the primary foundation of healthy society. Societies in which the family unit is falling apart are societies in trouble.\nWhat is the prime cause of the breakdown of the family unit? Sexual promiscuity -- e.g. adultery causes divorce, teen pregnancy produces unwed mothers, etc.\nGiven that the sex drive is the strongest human drive (second only to survival itself), human nature, left undisciplined, will allow sex to dominate personal and societal life. One look at Hollywood tells us this is true.\nPerhaps an even starker example is in antiquity, where society was highly sex-centered. Almost all the polytheistic religions begin with the gods engaging in sexual activity in order to create the world. Temple prostitutes, temple orgies, and fertility rites were regular features of almost all religions. In classical Greek civilization, pederasty (man-boy) was viewed as the highest form of love. As a result, Greece was a misogynist society where women were relegated to the very bottom of the social ladder and birthrates plummeted.\nSuch a society could not sustain itself – and ultimately decayed and crumbled.\nThe Torah believes that only when sexuality is channeled within the committed bond of marriage, can society hope to escape this destructive obsession with sex. Jewish law requires a person to control himself physically and focus his sexual and emotional energy on his spouse exclusively. Judaism was therefore unique in the world when it came out and forbade homosexuality, pederasty, bestiality - and held marriage as the ideal state.\nIt is not overstating to say that the Torah's laws changed the world and made the creation of Western civilization possible.\nAs a way to guard this ideal, the Torah prescribes strict deterrents, and the obligation to sacrifice one's life rather than transgress. It is only this \"absolute\" prohibition which can convey the absolute importance of sexual morality. And that is why there are no exceptions, for any reason at all.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/sexual_immorality_giving_up_ones_life/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2011-08-21",
+      "saved_at": "2026-07-11T14:37:49.678Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-08-21T16:53:24+00:00",
+        "upvotes": 0,
+        "original_id": "90943",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-08-21",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "jewish law",
+          "permitted",
+          "obligation",
+          "marriage",
+          "adultery",
+          "sexual immorality",
+          "wife"
+        ],
+        "source_filename": "2011-08-21-Sexual-Immorality-Giving-Up-One-s-Life.90943.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-90944",
+      "id": "aish-90944",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Sexual Morality",
+      "question": "On an intuitive level, I believe that intimacy should be reserved for a husband and wife. But on a philosophical level, I have no good reason to explain why to friends (or my children!) who insist on a more liberal view of these issues. Can you help me articulate what I am feeling?",
+      "answers": [
+        {
+          "text": "Judaism understands that the family unit is the key to the psychological health of children, and the stability of society as a whole. To ensure the preservation of that family unit, Jewish law places boundaries on human sexuality. Historically, those societies that did not adhere to such sexual boundaries eventually broke down and failed.\nPhilosophers explain that when human nature is undisciplined by values, physical drives will dominate his life and the life of society. When Judaism demanded that all sexual activity be channeled into marriage, it changed the world. It is not overstated to say that the Torah's prohibition of non-marital relations made the creation of Western civilization possible.\nIn contrast to other societies, where sexuality is a function of pleasure (secular) or procreation (Christianity), Judaism considers sexuality a mechanism to bond with one's spouse. This powerful tool aids a couple in their life goal of self-perfection. A human being can only achieve perfection through a marriage with the opposite gender, because only by the joining of opposites – male and female – can this bonding occur.\nA proper marital context directs one to grow and adapt to each other's differences and become one. Through that bonding, perfection can be achieved, and by extension – through bringing children into the world – the perfection of society is likewise attainable. It is the Jewish sexual revolution, and it has proved a pillar of civilization throughout history.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/sexual-morality/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2011-08-21",
+      "saved_at": "2026-07-11T14:43:49.738Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-08-21T16:55:32+00:00",
+        "upvotes": 0,
+        "original_id": "90944",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-08-21",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "jewish law",
+          "marriage",
+          "marital relations",
+          "sexual morality",
+          "husband",
+          "wife"
+        ],
+        "source_filename": "2011-08-21-Sexual-Morality.90944.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91009",
+      "id": "aish-91009",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Rice and Beans on Passover",
+      "question": "I just got married and have an important question: Can we eat rice on Passover? My wife grew up eating it, and I did not. Is this just a matter of family tradition?",
+      "answers": [
+        {
+          "text": "The Torah instructs a Jew not to eat (or even possess) chametz all seven days of Passover (Exodus 13:3). \"Chametz\" is defined as any of the five grains (wheat, spelt, barley, oats, and rye) that came into contact with water for more than 18 minutes. Chametz is a serious Torah prohibition, and for that reason we take extra protective measures on Passover to prevent any mistakes.\nHence the category of food called \"kitniyot\" (sometimes referred to generically as \"legumes\"). This includes rice, corn, soy beans, string beans, peas, lentils, peanuts, mustard, sesame seeds and poppy seeds. Even though kitniyot cannot technically become chametz, Ashkenazi Jews do not eat them on Passover. Why?\nProducts of kitniyot often appear like chametz products. For example, it can be hard to distinguish between rice flour (kitniyot) and wheat flour (chametz). Also, chametz grains may become inadvertently mixed together with kitniyot. Therefore, to prevent confusion, all kitniyot were prohibited.\nIn Jewish law, there is one important distinction between chametz and kitniyot. During Passover, it is forbidden to even have chametz in one's possession (hence the custom of \"selling chametz\"). Whereas it is permitted to own kitniyot during Passover and even to use it - not for eating - but for things like baby powder which contains cornstarch. Similarly, someone who is sick is allowed to take medicine containing kitniyot.\nWhat about derivatives of kitniyot - e.g. corn oil, peanut oil, etc? This is a difference of opinion. Many will use kitniyot-based oils on Passover, while others are strict and use only olive, walnut, or other non-kitniyot oils.\nFinally, there is one product called \"quinoa\" (pronounced \"ken-wah\" or \"kin-o-ah\") that many permit on Passover even for Ashkenazim. Although it resembles a grain, it is technically a grass, and was never included in the prohibition against kitniyot. It is prepared like rice and has a very high protein content. (It's also excellent in \"cholent\" stew!) Although not universal, in the United States and elsewhere, mainstream kosher supervision agencies certify it as \"Kosher for Passover\" -- look for the label.\nInterestingly, the Sefardi Jewish community does not have a prohibition against kitniyot. This creates the strange situation, for example, where one family could be eating rice on Passover - when their neighbors will not. So am I going to guess here that you are Ashkenazi and your wife is Sefardi. Am I right?\nOn that assumption, the general practice is for the wife to adopt her husband's customs upon marriage, since she is considered to be entering his home.\n(sources: Maimonides - Laws of Chametz and Matzah 5:1; Code of Jewish Law - O.C. 453; Tashbetz 3:179; Igrot Moshe O.C. 1:158.)",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/rice-and-beans-on-passover/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2011-08-22",
+      "saved_at": "2026-07-11T14:37:35.268Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-08-22T01:54:11+00:00",
+        "upvotes": 0,
+        "original_id": "91009",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-08-22",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "jewish law",
+          "igrot moshe",
+          "permitted",
+          "passover",
+          "rice and beans",
+          "wife"
+        ],
+        "source_filename": "2011-08-22-Rice-and-Beans-on-Passover.91009.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91014",
+      "id": "aish-91014",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Aging and Youth",
+      "question": "I've seen and heard lots of talk recently about attempts of the increasingly aging population to \"stay young.\" To me, as a baby boomer, some of it seems enticing but some of it feels inappropriate. Does Judaism have anything to say about aging and attempting to prevent it?",
+      "answers": [
+        {
+          "text": "I think there are two parts to your question: exercising and attempting to remain in a state of optimal health as one’s age, and the attempt, by many in today's world to \"remain young\" in every way, no matter what it takes. The second aspect often includes hormone treatments and medical procedures, coupled with youthful dressing and lifestyle, to remain youthful and, as much as possible, to never age.\nTo invest time and effort into one’s health, with exercise, careful eating and living a healthy lifestyle is Jewishly considered a great virtue and the fulfillment of the mitzvah to \"guard one's soul.\" Maimonides codifies this into law, with an entire chapter devoted to proper eating habits, exercise and healthy living. I know of many leading rabbis, who are in their 80’s, who keep a strict regimen of daily walking, jogging, swimming and careful eating habits.\nSome of today's leading Torah sages, despite their rigorous schedule of study and teaching which allows only a few hours a night of sleep, maintain a schedule of walking and healthy diet. Many have passed the age of 100, still going strong, meeting with world leaders and delivering lectures to hundreds of students.\nThe other aspect of attempting to prolong youth has its foundation in today's culture which glorifies youth and disdains aging and the elderly. Time magazine recently ran an article called \"Amortality: Why Acting Your Age is a Thing of the Past.\" The article mentions a bumper sticker which reads \"I refuse to get old.\" This statement, which in the past would have been ironic, has become the mission statement of the \"amortals,\" those who \"refuse to contemplate aging and death.\"\nThis philosophy runs contrary to Jewish thought and philosophy, where age is a thing to be respected and aging gracefully and with pride is a virtue. The Torah says that \"In the presence of an elderly person you should rise…\" (Leviticus 19:32). The Talmud says this applies even if the elderly individual is not righteous; the virtue of years alone and the life experience which accompanies it demands the respect of those younger than them. (One speaker pointed out that in today's culture we could not even contemplate a successful TV show called \"Father Knows Best\"!)\nIn contemporary culture, youth is considered the \"spring of life\" and old age its winter. It is very interesting that in rabbinical literature it is the opposite: elderly sages will often refer to thoughts they had in their youth as concepts they realized \"in their days of winter.\" Winter is the time the seeds germinate and take root, blossoming in the spring. Old age in Judaism is considered the spring of life, when all of life's lessons and experiences coalesce and blossom into the wisdom of age. King David writes, \"They will still blossom and be fruitful in old age, vigorous and fresh they will be…\" (Psalms 92)\nAll attempts of science cannot override God's decree that, due to the sin of eating the forbidden fruit, death became a fact of creation (Genesis Ch. 3). Aging, however, is a later innovation. A fascinating Midrash reveals the source of aging. Until the days of Abraham nobody aged. In their youthfulness, when the time came for them to leave the world they would sneeze and, with no prior warning, the soul would exit the nostrils the same way it entered and the person would die. Abraham asked for God's compassion that one should age and realize that his or her time is coming near and life is not forever, to allow the opportunity to introspect on the actions of life and repent any misdeeds before leaving the world. It also allowed the opportunity to have they physicality of life take a backseat to the main point of life, its spiritual underpinnings. God, out of compassion to man and in deference to Abraham's request, granted this change in the human experience.\nTime magazine quotes Woody Allen: \"When you're worried about this joke, and this costume, and this wig, and that location and the dailies, you're not worried about death and the brevity of life.\" This is diametrically opposed to the weltanschauung of Judaism; although we're not worried about death and the brevity of life, it needs to be on our minds as a reminder to improve ourselves and accomplish meaningful things with our families and the world.\nAging is a good thing, and our place is to approach it gracefully, with respect and to do all we can, within the opportunities of healthy living, to hold on to the gift of life with as good of health as we can with our efforts and the blessings of God.",
+          "accepted": true,
+          "author": "Yerachmiel Fried",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/aging-and-youth/",
+      "tags": [
+        "aish",
+        "general",
+        "question-answer",
+        "yerachmiel-fried",
+        "published-2012"
+      ],
+      "category": "general",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2012-08-27",
+      "saved_at": "2026-07-11T14:30:16.466Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Yerachmiel Fried",
+        "date": "2012-08-27T15:44:36+00:00",
+        "upvotes": 0,
+        "original_id": "91014",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2012-08-27",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "aging and youth"
+        ],
+        "source_filename": "2012-08-27-Aging-and-Youth.91014.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91028",
+      "id": "aish-91028",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Saving Your Life over Another’s",
+      "question": "One of the most beloved ideals that Jews uphold is the utmost value on human life. What do we do when we have to choose between two innocent lives? Here’s an example: Someone is driving along a narrow cliff road. That person is coming around a bend at a reasonable speed. At the same moment a cyclist is rounding the same bend on his bicycle from the opposite direction. Then, at the worst possible time, the cyclist loses control and heads straight into the path of the car. Due to sheer physics the driver has only two options: 1) attempt to brake (but will still hit the cyclist with deadly force), or 2) navigate the car off the cliff (which will cause certain death). Although there is fault on both sides (the driver should have slowed down and the cyclist not lost control), neither party meant to harm the other. Whose life should the driver choose?",
+      "answers": [
+        {
+          "text": "Murder is one of the three cardinal sins for which one must forfeit his own life before taking the life of another. If someone holds a gun to your head and says, “Kill this other person or I'll kill you,” you must choose your own death over killing another. The Talmud explains the reason for this is: \"Who says your own 'blood is thicker' than the other person's blood? Perhaps his 'blood is thicker' than yours.\" This means that you have no way of knowing who is more important in the eyes of God and therefore do not have the right to take another's life for the sake of your own. (Sanhedrin 74a)\nThe commentators explain that this Talmudic ruling applies only if you are told to perform an action to kill the other person. If, however, the thug wants to throw you onto another person in a way which will kill the other, you need not forfeit your life to prevent that occurrence. Since you will be doing no action, you are like the axe in the hand of the chopper; it is the chopper doing the chopping and the axe is regarded as an extension of his hand. In that case, since you are doing no action, you may apply the opposite reasoning: Who says the other's blood is thicker; maybe your blood is thicker! (Tosefos and Ra'n loc cit; Shulchan Aruch YD 157:1)\nA similar ruling is found in reference to the question of two Jews walking in the desert, one with a flask of water and one with nothing. There's only enough water for one of them to make it to the village; if they both drink they both will die before they make it. One opinion is that he should let his friend drink and they will both die. The final ruling is like the opinion of Rabbi Akiva who learns from the verse \"your brother should live with you\" (Leviticus 25), which teaches that your own life precedes the life of another. You have the right to drink your own water and live even though the other person will die. This also is because you are not performing an act to kill the other; you are only passively doing so by saving yourself. (Talmud, Bava Metzia 62a)\nFascinating, heart wrenching questions arose on these lines in the concentration camps: Was one permitted to get himself excused from a list of people doomed to the crematoria if to do so would necessarily mean his place would be filled by another; is that considered an active or passive taking of another's life? This question is discussed at length by Holocaust-era authorities, recording the answers they gave when this question was actually posed to them.\nIn your theoretical case, the driver of the car is performing no action to hurt the cyclist in order to save himself; even braking would not stop the car in time to save him. He therefore would not be obligated to drive off the cliff to save the cyclist who put himself in the path of danger.",
+          "accepted": true,
+          "author": "Yerachmiel Fried",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/saving-your-life-over-anothers/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "yerachmiel-fried",
+        "published-2012"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2012-08-29",
+      "saved_at": "2026-07-11T14:58:47.158Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Yerachmiel Fried",
+        "date": "2012-08-29T16:26:54+00:00",
+        "upvotes": 0,
+        "original_id": "91028",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2012-08-29",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "shulchan aruch",
+          "permitted",
+          "obligated",
+          "saving your life"
+        ],
+        "source_filename": "2012-08-29-Saving-Your-Life-over-Another-s.91028.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91038",
+      "id": "aish-91038",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Risky Surgery",
+      "question": "My uncle, who is 72, was in excellent health until recently diagnosed with a rare form of cancer. The doctors feel that with his condition, he only has 6-9 months to live. There is, however, an experimental surgery which could cure him completely, allowing him to live many more years. The problem is that this surgery is so risky, that there's a 70% chance he could die on the operating table. He's inclined to take the risk to live for years, but is concerned that perhaps it isn't the right thing to do, as it may lose him the months that he knows he has left. He's concerned it's like committing suicide. What is the right thing to do in this situation?",
+      "answers": [
+        {
+          "text": "The Talmud discusses a case which is in some ways similar to your query: There was once a Babylonian medical center where the doctors were known to be very proficient and cutting-edge in their field. There was, however, one small problem: they were known to kill most of their Jewish patients. The Talmud rules, of course, that one should not use these doctors, even if one had a sickness which could be life-threatening. If, however, one suffered from a terminal illness that would surely cause his demise within a year, he would be permitted to seek medical assistance even from these doctors, since there is a chance of being healed – and not killed – by them.\nThe Talmud asks: what about the months of life that he would have lived that may be forfeited if they would kill him? The answer given is a profound principle: \"L'chaye Sha'ah Lo Chayshinan\". This loosely means that we are not concerned about short-term life in the face of potential, long-term life (Avodah Zarah 27b).\nMany authorities of Jewish law over the last 250 years have applied this Talmudic principle to myriad medical questions that have arisen. Since the flourishing of the medical field and its many procedures which have been developed during this time, your question has been asked in numerous forms. The core principle, however, is the same. Even when the likelihood of success is relatively small, your uncle is morally within the bounds of Jewish medical ethics to elect to undergo this procedure. This is predicated upon the prognosis that without the procedure he is terminal with no hope for recovery. This is also based on the life expectancy of less than one year, which is the time considered by Jewish law to be terminal, or \"short-term life.\" If he were diagnosed to have over a year to live, the ruling may be different.\nThis is one of the exceptional examples in Jewish law when the decision actually lies in the hands of the patient, since either decision – to operate or not to operate – would be morally acceptable. At times a patient may opt out of surgery, to not risk missing the wedding or bar-mitzvah of a family member or dear friend which will take place a couple months away and may be all-important to the patient. Another may prefer the risk, to have a chance of enjoying additional years of life, as your uncle is inclined to. In this type of scenario there is no obligation either way, and to choose the experimental surgery would not be tantamount to suicide even if, God forbid, the surgery would turn out to not be successful.\nI would like to clarify that this ruling is not meant to minimize the tremendous importance the Torah puts upon every moment of life. The concept of \"short-term life\" is one of complete life in the eyes of Judaism. We are commanded to desecrate the Sabbath to save the life of a Jew who we know will not live long enough to see another Sabbath. Conversely, to kill a person who only has moments to live is considered murder according to Jewish law.\nThe point of the above ruling is for the same person to put upon the scales the terminal aspect of his life on one side to weigh against the possibility of prolonged life on the other side – with the risk of losing even the \"short-term life\" that is relatively sure he will have if no action is taken. This is the painstakingly difficult, soul-searching decision the patient, and only the patient (assuming full faculties are present in that patient) can and must make.\nMay your uncle enjoy a complete and speedy recovery, and may you spend many more happy and healthy years together.",
+          "accepted": true,
+          "author": "Yerachmiel Fried",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/risky-surgery/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "yerachmiel-fried",
+        "published-2012"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2012-09-06",
+      "saved_at": "2026-07-11T14:31:03.101Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Yerachmiel Fried",
+        "date": "2012-09-06T14:51:08+00:00",
+        "upvotes": 0,
+        "original_id": "91038",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2012-09-06",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "jewish law",
+          "permitted",
+          "obligation",
+          "risky surgery"
+        ],
+        "source_filename": "2012-09-06-Risky-Surgery.91038.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91040",
+      "id": "aish-91040",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Sanctity of Human Body",
+      "question": "You recently referred to the “Bodies” exhibit in which you elucidated your opinion that it flies in the face of the sanctity of the human body. I have trouble fathoming what sanctity there is to the human body any more than any other animal body. I assume you would not take such issue with an exhibit of animal bodies showing their anatomy, and would like to understand why your perspective is so different for humans, necessitating burial and nothing else.",
+      "answers": [
+        {
+          "text": "The holiness of the human body can be understood on a few levels. One area the Torah reveals this is in the prohibition to maim or inflict any wound upon the body unnecessarily. Even if one wants to do so, we were not given that license as our bodies were not given to us to do as we want, rather entrusted to us as a sacred trust from the Almighty to use this body owned by Him. This is much as we do not own our children to do with them as we please, but were entrusted with them to help nurture them to grow in their own paths and lives.\nThe body is said to be a partner with the soul in its struggle to serve God in this world. There isn’t a single mitzvah that the soul can perform without its cohort the body. God purposely set up the world in that way, with animals that are all body, angels that are all soul, and man who is the combination of the two. This is the underlying foundation for the Jewish belief in the eventual Revival of the Dead. That period, also known as “Olam Haba” or the Next World, the final world of the ultimate reward, must first be ushered in by the reunification of the bodies with their souls. Why is this so? Why cannot the souls themselves, which are eternal, receive that reward?\nMy late mentor, Rabbi Shlomo Wolbe explained that it is only fair that both partners, the body and the soul, should together share in the final, ultimate bliss which could only come about as the result of their partnership. Since all the mitzvot were performed with the body, the soul could not possible receive that reward alone. This speaks volumes about the way we look at the human body.\nThe Kabbalistic writings closely connect every limb, muscle and sinew of the human body to a specific mitzvah of the Torah. There are said to be a count of 248 limbs and 365 main sinews of the body, corresponding the 248 positive mitzvot (the “do’s”) and the 365 negative mitzvot (the “don’ts”). Every time a mitzvah is performed, the part of that body which parallels that mitzvah becomes elevated and sanctified.\nThroughout the Torah we find God described in human terms: He took us out of Egypt with an “outstretched arm,” His “eyes” are upon us, He “hears” our affliction, etc. This is difficult to understand as it is a core belief of Judaism that God has no physicality.\nOne answer given by the commentators is that this are anthropomorphisms, meaning just a way for us to have an inkling of what is happened using human experiences we can appreciate and fathom.\nThe deeper answer given by the Kabbalists is that all that God performs in this world is parallel to similar attributes in the human body. There is a type of “spiritual human body” which is the sum total of all the upper, spiritual worlds. God created the physical human body in sync with all that He wishes to relate and express through His divine providence throughout all of human history. This is an entirely new insight on the loftiness and holiness of the human body; its very essence is nothing less than an expression of Godliness in the world. This is implicit in the verse that man was created “in the image of God” (Gen. 1:27).\nThis explains the tremendous responsibility we hold to be the proper stewards of the gift of the body we have received, and our obligation to treat it with the proper respect and sanctity it deserves.",
+          "accepted": true,
+          "author": "Yerachmiel Fried",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/sanctity-of-human-body/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "yerachmiel-fried",
+        "published-2012"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2012-09-06",
+      "saved_at": "2026-07-11T14:47:45.451Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Yerachmiel Fried",
+        "date": "2012-09-06T15:03:32+00:00",
+        "upvotes": 0,
+        "original_id": "91040",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2012-09-06",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "obligation",
+          "burial",
+          "sanctity of human body",
+          "mitzvah",
+          "mitzvot"
+        ],
+        "source_filename": "2012-09-06-Sanctity-of-Human-Body.91040.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91046",
+      "id": "aish-91046",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Why Marry?",
+      "question": "I’m a happy single Jewish guy, and don’t personally see a reason to get married. I’ve been in very meaningful relationships, some of them long-lasting, which I feel gives me all I would want to get out of life and marriage. I don’t feel the need to go through all the hassle of raising children. As you can imagine, my mother has me on a serious guilt trip, but I’m not planning to get married out of guilt. Am I wrong?",
+      "answers": [
+        {
+          "text": "I am going to take the liberty of offering you some light rebuke. It’s not really about marriage you’re asking, but about the way you view life in general, and marriage is just one specific question which emanates from your worldview.\nBetween the lines of your question, it is apparent that your motivation in life is to “get” as much as you can out of life and others, not what you can give. You perceive raising children as a hassle which, in comparing investment versus reward, is not be worth it. You “get” all you need out of your temporary relationships without the investment implicit in an eternally committed relationship.\nThis weltanschauung is antithetical to the Jewish worldview. We Jews are enjoined to “Walk in God’s ways,” to emulate Him in all aspects of our lives. The Talmud explains that just as He is merciful, we, too, should be merciful, forgiving, and above all, giving. To give to others is to emulate God. Life is not about what one can get, but what one can give. When one is receiving, they’re not expressing their own lives in the fullest, since to receive doesn’t cause growth. Every time you give, you grow, and growth is life.\nFurthermore, the more you take and receive without giving in return, the more you become selfish and self-centered, the opposite of Godliness and Judaism.\nThe Talmud says that “one only becomes complete with marriage.” One of the main reasons for getting married is to help each other grow through a lifelong process of emotional, intellectual and spiritual sharing and challenge. Marriage is also the ultimate framework for giving and receiving in a way which emulates God, and at the same time builds the world into a stable, joyous environment. All this is implicit in the verse, “It is not good for man to be ‘alone’; I will make a helpmate opposite to him” (Genesis 2:18). As long as a person remains single, it is not “good” – i.e. not only is the person incomplete, but the entire creation also lacks perfection. (Rabbi S. R. Hirsch)\nThe Torah says that through marriage, man and woman “become one flesh” (Genesis 2:24). One meaning of this is the fusion of two halves into a unified whole, as the Kabbalah teaches that every soul is divided into male and female components before being sent to the world, and the match is the re-fusion of the halves into one.\nAnother meaning is through together having children they become one flesh. This fulfills the mitzvah to “be fruitful and multiply” (Genesis 1:28). Being fruitful doesn’t just literally having children. It encompasses realizing and actualizing one’s potential through sharing and challenge in marriage, in a way that one’s productive traits and talents ripen and produce pleasant fruits, multiplying an asset to the world.\nMay you become truly satisfied with your future true fulfillment through marriage.",
+          "accepted": true,
+          "author": "Yerachmiel Fried",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/why-marry/",
+      "tags": [
+        "aish",
+        "general",
+        "question-answer",
+        "yerachmiel-fried",
+        "published-2012"
+      ],
+      "category": "general",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2012-09-06",
+      "saved_at": "2026-07-11T14:38:30.979Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Yerachmiel Fried",
+        "date": "2012-09-06T16:40:49+00:00",
+        "upvotes": 0,
+        "original_id": "91046",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2012-09-06",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "why marry",
+          "relationship",
+          "relationships",
+          "emotional"
+        ],
+        "source_filename": "2012-09-06-Why-Marry.91046.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91076",
+      "id": "aish-91076",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Shooting Down the Plane",
+      "question": "Shortly after the September 11 terror attacks, I read that if U.S. intelligence had known that a commercial plane was on a mission to crash into the White House, they would have shot down the plane, thereby killing the passengers, but saving countless other lives. Yet how can anyone know for certain that the hijacked airplane is going to crash? Maybe the passengers will take control at the last minute, or the hijackers might have a moment of \"sanity\" and decide not to kill themselves. Therefore how can it ever be permitted to shoot down a plane? What does Jewish law say about such a scenario?",
+      "answers": [
+        {
+          "text": "When the intelligence information establishes with certainty that the plane will crash, then we must try to save additional people that are liable to be killed, and the authorities are obligated to down the plane.\nA comparable case is discussed by Maimonides: Government officers approached a group of people and demanded that one person be handed over for death. The officers declare that unless someone is given over, they will kill the entire group. If the officers do not request a specific person, but rather ask for \"any one person\" from the group, we are not permitted to hand anyone over (although someone would be permitted to volunteer, to save the rest of the group).\nHowever, if the officers designate a particular person, then Jewish law says he should be handed over.\nApplying this to the terrorist scenario: Once other planes have crashed, the evidence is sufficient to say that the people on the plane have already been \"designated for death,\" and therefore we can down the plane in order to save others.\nAs for the possibility of a last-minute reversal:\nThe Talmud speaks of the \"Rodef,\" the pursuer. For example, if person-A is running after person-B with a gun, with an obvious intention to kill an innocent person, the Talmud instructs us to save the life of \"B\" by injuring (or if necessary, killing) person-A.\nHere we could ask the same question: Perhaps \"A\" will change his mind before killing \"B.\" The answer is that since it is beyond reasonable doubt that \"B\" will be killed, that is sufficient to put \"A\" out of commission.\nOf course, a miracle can always happen. But we do not rely on miracles and therefore the authorities only need to make a reasonable assessment of the most likely inevitability.\nAll of this gives credence to the heroic actions of the men on Flight 93 who fought with the terrorists, causing the fourth plane to crash in Pennsylvania.\n(sources: Talmud – Sanhedrin 73a; Maimonides – Fundamentals of Torah 5:5)",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/shooting-down-the-plane/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2011-08-24",
+      "saved_at": "2026-07-11T14:59:01.364Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-08-24T16:24:54+00:00",
+        "upvotes": 0,
+        "original_id": "91076",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-08-24",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "jewish law",
+          "permitted",
+          "obligated",
+          "shooting down the plane"
+        ],
+        "source_filename": "2011-08-24-Shooting-Down-the-Plane.91076.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91080",
+      "id": "aish-91080",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Sneeze - \"Bless You!\"",
+      "question": "Sneezing seems to carry with it many superstitions. In Ancient Greece, sneezes were believed to be prophetic signs from the gods. In Chinese culture, a sneeze is perceived as a sign that someone was talking about the sneezer at that very moment. What does Judaism have to say?",
+      "answers": [
+        {
+          "text": "Genesis 48:1 says that Jacob became ill. Why does the Torah need to teach this? Because until that time, no person had ever experienced illness as a sign of pending death. Rather someone would be walking along one day, they'd sneeze, and die instantly. Jacob, however, prayed to God for a period of infirmity prior to death, as a warning sign that it is time to make final preparations.\nWhy did the \"sneeze\" cause death? Because in creating humanity, \"God blew into Adam's nostrils the soul of life\" (Genesis 2:7). Therefore when a person sneezed, the soul would exit from the same place it had originally entered - hence death. (see Radal)\nWe find an application of this in the Bible, where the prophet Elisha was able to revive a child who had died. \"The boy sneezed seven times, and the boy opened his eyes.\" (2-Kings 4:32-35)\nInterestingly, in even more recent times - before the advent of antibiotics - a sneeze was a sign of grave danger. Sneezing was a sign that the person had a cold. If the cold should turn into pneumonia (which it often did), then for all intents and purposes the person had just a few more days to live.\nToday, when a person sneezes, we have the custom of saying, \"God bless you\" (or something similar; in Hebrew we say \"labriut\" - to your health) since sneezing was once a sign of mortal danger.\nBy the way, the Code of Jewish Law (OC 103:3) says that sneezing during the middle of the Amidah prayer is a good omen. To learn more, see Pirkei d'Rebbe Eliezer 52; Talmud - Baba Metzia 87a, Sanhedrin 107b, Brachot 53a.\nAnd God bless you!",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/sneeze-bless-you/",
+      "tags": [
+        "aish",
+        "general",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011",
+        "needs-review"
+      ],
+      "category": "general",
+      "category_confidence": "low",
+      "needs_review": true,
+      "date": "2026-07-11",
+      "published_at": "2011-08-24",
+      "saved_at": "2026-07-11T14:59:15.209Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-08-24T16:38:49+00:00",
+        "upvotes": 0,
+        "original_id": "91080",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-08-24",
+        "import_date": "2026-07-11",
+        "category_reason": [],
+        "source_filename": "2011-08-24-Sneeze-Bless-You.91080.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91084",
+      "id": "aish-91084",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Surrogate Motherhood",
+      "question": "The issue of surrogate motherhood came up in discussion last night. Does Judaism have a position on this?",
+      "answers": [
+        {
+          "text": "There is a fascinating Talmudic passage (Brachot 60a) which relates to this. While in her seventh pregnancy, Leah said: \"Jacob is destined to beget 12 tribes. I have already borne six, and each of the handmaids have borne two, making a total of 10. If the child I'm carrying turns out to be male, then my sister Rachel will not even be equivalent to one of the handmaids.\" Leah therefore prayed, and the fetus was changed to a female.\nIn Genesis 30:21, the commentator Yonatan Ben Uziel (circa first century) explains that Rachel was also pregnant at that time, and the two fetuses were switched – with Rachel getting the male (born as Joseph) and Leah getting the female (born as Dinah).\n[Interestingly, some say this \"switching\" helps explain why Joseph is described in Genesis 39:6 as being so beautiful (i.e. more feminine characteristics), while Dinah \"went out on the town\" (Genesis 34:1) more in the manner of boys.]\nWe apparently see from here that the birth-mother is regarded as the mother. Rabbi Yisrael Meir Lau (former Chief Rabbi of Israel, in \"Yachel Yisrael\" 29) concludes that the mother who gives birth is the halachic mother. The egg donor is also regarded as the mother in issues where we should be stringent -- e.g. if she is not Jewish, the child would need conversion.\nInterestingly, the process of motherhood is defined at birth, whereas fatherhood is defined at conception.\nBecause of the complex issues involved, however, surrogate motherhood is not allowed in all situations.\nFor further study:\n• \"Artificial Insemination,\" in The Comprehensive Guide to Medical Halachah, by Abraham S. Abraham, MD, FRCP (Feldheim)\n• \"Artificial Insemination,\" in Facing Current Challenges: Essays on Judaism, by Rabbi Dr. Yehudah Levi (Hemed Books)\n• “The Use of Cryopreserved Sperm and Pre-embryos in Contemporary Jewish Law and Ethics” – www.jlaw.com/Articles/semen.html",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/surrogate-motherhood/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2011-08-25",
+      "saved_at": "2026-07-11T14:22:50.605Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-08-25T19:08:35+00:00",
+        "upvotes": 0,
+        "original_id": "91084",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-08-25",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "halachic",
+          "jewish law",
+          "conversion",
+          "surrogate motherhood"
+        ],
+        "source_filename": "2011-08-25-Surrogate-Motherhood.91084.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91126",
+      "id": "aish-91126",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Concerned Parents",
+      "question": "Our son is planning to intermarry. We are very upset, and feel strongly that he is making a mistake. In the meantime, he has given us an ultimatum: Either accept her, or I don’t want to have anything to do with you. We want to protest, but we don’t want to alienate either of them. What should we do?",
+      "answers": [
+        {
+          "text": "This is indeed heart-breaking for you and your family.\nIt used to be that when a child intermarried, the family would sit shiva, as if the child had died. This is not the custom today; since intermarriage has become so common, the \"shiva\" is not a deterrent and we must find other approaches.\nYou need to be careful not make things worse. Your goal is to bring your son close. Being confrontational will only drive him further away. It gives him an \"excuse\" to ignore you. So you need to act with warmth, understanding and love.\nI suggest that you communicate two things:\n1) We are totally opposed to your being in this relationship. We believe you are doing something damaging and harmful to yourself, and as parents who care deeply about you we cannot condone this. Not because Judaism is racist (clearly not, since any human can convert to Judaism), but because we believe that the Jewish people are a precious – and endangered – species. When a Jew marries a non-Jew, it is a step that weakens the Jewish people, who have a mission to bring morality and monotheism to the world. Non-Jews are fine people, but intermarriage pulls the Jewish partner away from the mission.\n2) We love you and care for you totally, and nothing that you do can ever change that.\nThis is a tricky balance, but both these must be communicated clearly and effectively.\nRemember that he is not doing this to hurt you. He is confused.\nThe most important thing is to not get into fights, but to remain calm and always emphasize that you love him and will always love him.\nIn practical terms, what can you do about it?\n1) Get him to realize how important his Judaism is, and how this woman does not share that. For example, why is it that when Israel is under attack, your son is extremely concerned – but she cannot relate. Why is it that through the centuries, our ancestors have endured the torments of exile, torture and ovens – yet continued to remain loyal to the Jewish people?\nOf course, there is no way to understand the deep riches of Judaism, with a 13-year-old's Hebrew School view. Before making this most important decision of life, urge him to find out what's been driving the Jewish people to greatness for the past 3,000 years. Suggest that he attend a Discovery seminar, an excellent presentation of Jewish history and philosophy which is given in hundreds of cities throughout the world. For a current schedule, visit www.aish.com/dis/\nAlso, you could send him the book, \"Why Marry Jewish?\"\n2) Raise serious doubts that this will work long-term. If she is Christian, get them to discuss the topic of Jesus. It is the most deeply-engrained cultural difference between Jews and non-Jews. Will she want their children to be baptized? It is a documented fact that intermarried couples have a 3-times higher divorce rate (USA Today – Dec. 4, 2002). Would your son ever consider going into a business with a partner who carries such a greater risk of failure?\nOnce you've raised sufficient doubt, you can advise them to try a separation, while pondering this question: \"Do I need to be married to this person to find happiness in life, and is it worth all the trouble? Or would I be better off looking for someone else to marry?\"\n3) Remind your son that he may experience a spiritual awakening. People who do not profess a belief in any particular religion often turn back to religion later in life. A Gallup Poll showed that religious commitment is lowest from age 18-39 – precisely the time when people are making decision about who to marry. I have a folder of emails from intermarried people whose lives turned to horror when they (or their spouses) turned back to religion. The issues become insurmountable.\nBy marrying Jewish, his children will be Jewish and his married life will be free of these liabilities. I guarantee that his Jewish soul has a Jewish soul mate. He deserves it all and can have it all.\nAs far as his ultimatum to \"accept her,\" that is a decision that you and your husband will have to make. If you feel you are strong enough, you should just tell him: “A relationship between a Jew and non-Jew is not recognized by the Torah as having validity. So you are not married to her. It's not a question of us accepting or not. We accept you fully as our son; we do not accept your relationship with this woman.”\nAlso you can explain to him that it is he who is closing the door, not you. Even before he was born you established your family guidelines, and if he voluntarily wants to continue this relationship and cut himself off from that, that is his decision, not yours.\nThe main thing is to keep the relationship with your son strong and positive. Keep the door open, so that when he starts having doubts about this woman, he feels he has a Jewish home to go back to.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/concerned-parents/",
+      "tags": [
+        "aish",
+        "general",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "general",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2011-09-04",
+      "saved_at": "2026-07-11T14:44:41.310Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-09-04T12:13:42+00:00",
+        "upvotes": 0,
+        "original_id": "91126",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-09-04",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "concerned parents",
+          "why marry",
+          "happiness",
+          "relationship"
+        ],
+        "source_filename": "2011-09-04-Concerned-Parents.91126.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91127",
+      "id": "aish-91127",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Convert's Mother-in-Law",
+      "question": "My husband is a convert and I'm studying for conversion, too. When I told my parents I was converting my mother's response was joyful – she feels that the one thing she regrets in her life was that she did not find a community of faith that she could feel comfortable in. My parents know very little about Judaism, but their general impression is good and welcoming. The most difficult concept in Judaism for my mother is Shabbat. She loves her work and has said she can't imagine a day without it. My parents try to respect our need to keep Shabbat even when we visit them, but it has proved challenging. Twice we have tried to solve the problem of trying to keep them entertained during Shabbat by driving to the beach where at least there's no money exchanged. My husband has felt bad about driving on Shabbat and has decided not to do it again. Our problem is this: My mother has decided that for her 70th birthday she would like to fly the entire family (children, spouses and grandchildren) to New York for a Broadway show. We asked her to get tickets on Saturday night or Sunday afternoon. She tried but was unable. She managed to get tickets for all 10 of us on Saturday afternoon. She is very excited and this is a big event for her. She cannot understand how going to a show can be a violation of Shabbat, if she is paying for the tickets, cabs, etc. When I told her we might not be able to go, she almost started crying. My husband feels he cannot go on Shabbat afternoon and that the children should not go either, although he says that I should go because I need to honor my mother. I think it would be an empty gesture for me to go alone and it would ruin the weekend for her, cause a fissure between us and cause her to back away from her support of my conversion. What do you say?",
+      "answers": [
+        {
+          "text": "You sound like a caring, sincere woman, and I am sure you will have success in handling this situation.\nIt appears clear that your husband should not go on Saturday. As you describe it, he is serious about observing the Torah, which instructs a Jew not to drive on Shabbat (see Exodus 35:3). There are other problems even with just being a passenger, handling tickets, etc.\nI believe one of the foundations of marriage is that a husband and wife should always encourage each other in a direction of spiritual growth.\nAs for yourself, since you are not Jewish, you and your children can attend on Saturday, and have your husband join in for the rest of the weekend activities.\nIn terms of honoring your mother, here's what I suggest: I think your husband should think of a very special way to honor your mother on her birthday – for example organizing a tribute video, memory book, etc. Or buying her some especially meaningful gift that he gives her from himself, separate from whatever gift you all give her together. And he should write a note praising her and thanking her for being so wonderful and raising his beautiful wife.\nThe card can express how heart-broken he is not to be able to attend the show on Saturday, but how much he is looking forward to Sunday. And he hopes that she will understand and forgive him for any inconvenience he has caused to her celebration weekend, due to circumstances beyond his control.\nAnd he should give her this a week or so beforehand, so she has time to absorb the message.\nThat's my suggestion. Please let me know how things turn out.\nREADER REPLY:\nYour suggestion was a beautiful one and my husband has begun to collect photographs and other mementos for a tribute book for my mother. This whole problem has caused some friction between them and I think the book will bring them closer and, in the long run, will be something she treasures. Thank you again.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/converts-mother-in-law/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2011-09-04",
+      "saved_at": "2026-07-11T14:45:42.750Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-09-04T13:13:32+00:00",
+        "upvotes": 0,
+        "original_id": "91127",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-09-04",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "marriage",
+          "convert",
+          "conversion",
+          "shabbat",
+          "husband",
+          "wife"
+        ],
+        "source_filename": "2011-09-04-Convert-s-Mother-in-Law.91127.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91141",
+      "id": "aish-91141",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Inferior Class of Jews?",
+      "question": "My wife and I were married by a rabbi who also performed our son's Bris. Our son is now six years old – and I believe he meets all the criteria for Pidyon Ha’Ben. When I contacted our rabbi regarding a Pidyon Ha’Ben, he informed me that his movement of Judaism does not do this anymore. The rabbi said it's ludicrous to redeem your son simply because his last name is not Levi. He explained that most rabbis are not from the tribe of Levi, and that a child with the last name Smith is no less important in God's eyes. After speaking with the rabbi, I got the sense that performing a Pidyon Ha’Ben would be acknowledging that my son is an inferior class of Jew. Is this correct? I want to do right by God and my son.",
+      "answers": [
+        {
+          "text": "It is very impressive that you are pursuing clarity on this issue, particularly with all the dissuasion you've had until now.\nLet's start from square one: Pidyon Ha’Ben refers to the \"redemption of the first born son,\" and is commanded in the Torah (Numbers 18:15-16).\nThe reason behind this mitzvah is to remind us how during the Exodus from Egypt, God killed the first-born Egyptians, yet miraculously spared the first-born Jews. And since one's first child brings so much happiness, it's a fitting time to acknowledge that everything we have belongs to God. (Numbers 3:13)\nBut what does the tribe of Levi have to do with all this? The background is a bit complex, so here goes:\nOriginally, God intended that the first-born of each Jewish family would be a Kohen – i.e. would serve as that family's representative to the Holy Temple. (Exodus 13:2, Exodus 24:5)\nThen came the incident of the Golden Calf. When Moses came down from Mount Sinai and smashed the tablets, he issued everyone an ultimatum: \"Make your choice – either God or the idol.\" Only the tribe of Levi came to the side of God. (Exodus 32:26)\nAt that point, God decreed that each family's first-born had forfeited their \"Kohen\" status – and henceforth all the Kohanim would come from the tribe of Levi. (More specifically, the descendants of Aaron became the Kohanim, with the rest of the tribe of Levi taking on other responsibilities in the Temple.)\nThis created a situation where all Jewish first-borns are \"potential\" Kohanim, while the descendents of Aaron are the \"actual\" Kohanim.\nTherefore, God gave us the commandment to redeem the first-born from a Kohen, who essentially is serving in place of the first-born.\nNow for your question: Isn't all this discriminatory? Just by virtue of birth is a Kohen inherently \"better\" than a non-Kohen?\nThe answer is yes and no.\nWe all accept the idea that \"status\" can be passed down genealogically. Imagine someone born into the family of Rockefeller. He would automatically have vast financial resources and social status. Is this fair? After all, his only claim to fame is that some distant ancestor excelled!\nSo, too, a Kohen is a Kohen today by virtue of an exceedingly great act that his ancestor did in refusing to worship the Golden Calf.\nWhether fair or not, it's a genealogical reality that applies to many aspects of life. Some people are born smarter, some prettier, and some more athletic. However this does not make one human being better than another. It just means that we all have different limitations, and a different potential to be fulfilled. (In fact, the tribe of Levi \"lost out\" in one regard, in that they were not assigned a tribal portion in the Land of Israel.)\nActually, the greater a person's potential, the greater degree of responsibility. One of the reasons why Esav (Esau) sold the birthright to Jacob is because Esav thought he would suffer grave consequences as a result of performing the Temple service improperly. Indeed, if a Rockefeller would squander his wealth and abuse his social status, he would be held culpable – much more than if a non-Rockefeller did so!\nBut in truth, we've missed a basic point. In Judaism there is a much higher value than one's status as a Kohen – the \"Crown of Torah.\"\nTorah learning is regarded as the most important of all mitzvot, because it opens the door for observance of the other mitzvot. As the Talmud says (Shabbat 127a): \"The study of Torah is equal to the sum total of all other mitzvot.\"\nThe Talmud asks who deserves more honor: A non-learned Kohen Gadol (High Priest), or a Torah scholar with badly-tainted lineage (for example the product of an incestuous relationship)? The answer is that Torah scholarship supersedes simple Kohanic lineage.\nSo when we speak about fulfilling one's Jewish potential, there are no restrictions, no special classes of Jews. Torah is not the exclusive domain of some priestly class. Rather, it is open and available to all. And we are required at all times to involve ourselves personally in its study and practice.\nFurthermore, while everyone may not be cut out to be a scholar, everyone can share in that merit by supporting Torah scholarship. The classic example of this is a partnership made between the two Jewish tribes of Yissachar and Zevulun. The people of Yissachar were professional scholars, while the people of Zevulun excelled in business and trade. The two group made a 50-50 partnership: Zevulun supplied Yissachar with funds, and in return Yissachar agreed to split the merit of their Torah learning. Indeed, this provision is used even today as the model for many similar, private arrangements.\nYet when all is said and done, aren't Kohanim still regarded as \"special?\"\nThe definition of peace is not that everyone is equal or that everyone has exactly the same needs as everyone else, but rather that everyone knows their place, knows what they're capable of, knows what their contribution is, and is accepting of themselves and that others' contributions as equally important and valuable. Everyone has a vital role to play, regardless of occupation or skill, and we are only expected to excel with the tools we have.\nThe story is told of the great Rabbi Shlomo Zalman Auerbach (20th century Jerusalem), who asked his congregation to delay beginning the evening prayers until the street sweeper arrived. Said Rabbi Auerbach: \"This man is devoted and committed to his work, and takes pride in the contribution he makes to Jewish life. I wish that I would have such pure intentions in my own work!\"\nIt is interesting that the Priestly Blessing set forth in the Torah (Numbers 6:22-27) is essentially a blessing for peace. The Kohanim are the prime example in Jewish life where we could be setting ourselves up for jealousy – \"my position versus your position.\" Yet the Torah assigns them the specific role as messengers of peace!\nAnd who was the quintessential master of peace? Moses' brother – Aaron the High Priest – who occupied the second-highest position in Jewish communal life. Yet Aaron was known as the master of peace. Despite his \"special\" status, Aaron brought harmony by teaching that no one's \"package\" is inherently better than another’s. And that's the key to true peace – never treating others as less important.\nOne last point mentioned in your question: A person's last name does not determine whether or not they come from the tribe of Levi. While it is true that many families named Levi are Levites, this is far from an absolute rule. Imagine an Eskimo who converts to Judaism and legally changes his last name to Levi. That doesn't make him a Levite!\nNor are all Kohen's named Kohen. Many Kohanim are named Katz, which is an acronym for Kohen-Tzedek – \"righteous Kohen.\" And the family today with the most verified lineage of Kohanic ancestry is named \"Rappaport!\"\nThe only valid method of being a Levite (or Kohen) is to have an unbroken tradition, passed from generation to generation, stretching back to the time of Moses. In many Jewish communities, meticulous records were kept throughout the generations to ensure that ancestral lines remain clear.\nFinally, while a Pidyon Ha’Ben is usually done one month after birth, even if the opportunity was missed, the obligation still remains. My best advice is to contact a local rabbi with solid knowledge of the Talmud and Code of Jewish Law. There are many technical details regarding Pidyon Ha’Ben, and not all first-borns are obligated in the mitzvah.\nI wish you the best success in raising your son in the Jewish tradition. With your honest approach in your relationship to God, he's got an excellent role model already.\nRead more about Pidyon Ha’Ben at www.aish.com/jl/l/b/48964996.html",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/inferior-class-of-jews/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2011-09-13",
+      "saved_at": "2026-07-11T14:28:41.871Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-09-13T19:37:20+00:00",
+        "upvotes": 0,
+        "original_id": "91141",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-09-13",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "jewish law",
+          "obligation",
+          "obligated",
+          "wife",
+          "rabbi"
+        ],
+        "source_filename": "2011-09-13-Inferior-Class-of-Jews.91141.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91143",
+      "id": "aish-91143",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Intermarriage & Dual Religion",
+      "question": "I met a great guy and we are on the way to getting engaged soon I hope! We share lots of interests (hiking, movies) and I find him very funny, intelligent and attractive. So what could be wrong? Well, he’s not Jewish. I think I can live with that (most of my friends married non-Jews). We discussed this briefly and thought it best to have a dual-religion home, and let our children make the choice themselves. But I’m wondering what obstacles I should be aware of. Thank you.",
+      "answers": [
+        {
+          "text": "Honestly, I don’t think this can work. On many levels, you cannot have both a christening and a Bris. Because as nice as it would be for intermarried parents to be able to \"cover both bases,\" not have to make any big decisions just yet, and provide something for all of the grandparents, having a child brought into the Church of Jesus as well made part of the covenant of the Jewish people is not being honest to either tradition.\nAs \"exclusionary\" as this sounds, this position is based on common sense, respect for the integrity of both Judaism and Christianity as religions with particular and distinct messages as well as what has been found through years of experience as being in the ultimate best interest of the child.\nReligiously speaking, children need to know who they are. They need to have a solid, unambiguous faith identity which gives them a place in the world, a spiritual tradition through which to experience the important times of life and a community of meaning, not just to know about, but to be a part of and to feel at home in. This means that, when it comes to religion, one is better than none and better than two.\nThere's a video put out by the Reform Movement of America. It's a real-life documentary depicting a series of group therapy sessions for intermarried couples, designed to help them deal with the unique issues of intermarriage.\nIn this video, a Jewish woman says: \"Our marriage was going smoothly until the birth of our baby boy. I was thrilled and wanted to arrange for a Mohel to do the circumcision. My husband thought I was crazy! He said, 'I won't allow that bloody, barbaric cult ritual!' We're supposed to be celebrating the birth of our child – and instead we we're having a terrible fight! He finally agreed to the Bris, but said, 'I'm sure you'll understand when I take the baby to be baptized.' I was shocked. Now I'm not sure our marriage is going to survive.\"\nThen, the video shows these couples – none of them religious – describe how the major obstacle in their marriage is the issue of Jesus. We don't always realize it, but belief in God is an essential part of our identity. Do you find the idea of praying to Jesus repulsive? Do you know that in the mind of your future spouse, Jesus is the ultimate image of yearning for spiritual transcendence? It's engrained from Day One – the same way that your Jewish imagery is engrained.\nEgon Mayer, a professor at Brooklyn College who studies interfaith issues and published a study linking intermarriage with higher divorce rates, said in USA Today: \"When you bury something that is really important to you, all you're doing is building up a kind of pressure within the family relationship, which becomes a source of tension, which ultimately becomes a time bomb. If there's any reason why intermarriages break up, it's because of that time bomb.\"\nAnd it goes beyond this. Often the in-laws exacerbate these problems by putting pressure on the intermarried couple. Esther Perel, a therapist who counsels inter-faith couples, says in New York Magazine: \"The difference isn't just between Moses and Christ. You're dealing with issues of money, sex, education, child-rearing practices, food, family relationships, styles of emotional expressiveness, issues of autonomy – all of these are culturally embedded.\"\nAnd what about having children? Many intermarried couples say: \"We're going to let our children choose their own religion. When they grow up they can choose what want. That way they'll get the best of both worlds.\"\nBut the reality is that children of intermarried couples suffer an identity crisis. One set of grandparents has a Christmas Tree, the other a Chanukah menorah. It's very confusing for a young person trying to forge an identity in an already-complex world. Children need to know who they are. They need to have a solid, unambiguous identity which gives them a place in the world. They need a spiritual tradition through which to experience lifecycle events, and to have a community where they feel at home.\nPsychologists report that many \"dual-religion\" children express a great deal of anger at their parents for putting them in the middle of an issue that the parents themselves could not resolve. When a person has to choose one religion over the other, there is always the unconscious sense of choosing one parent over another. (The fact is that 92 percent of children of intermarriage marry non-Jews, effectively detaching themselves forever from the Jewish people. That's simply the default choice in our predominantly non-Jewish society.)\nBut can you imagine if your son or daughter becomes a committed Jew or Christian? What will this child think of you, the Jewish parent? If he becomes a believing Christian, he'll think you're going to hell for denying the faith! And if he turns to Judaism, he'll regard you as a traitor for having intermarried!\nAnd what about your own spiritual awakening? People who do not profess a belief in any particular religion often turn back to religion later in life. A Gallup Poll showed that religious commitment is lowest from age 18-39 – precisely the time when people are making decision about who to marry. I have a folder of emails from intermarried people whose lives turned to horror when they (or their spouses) turned back to religion. The issues become insurmountable.\nThis is not a guilt-trip. This is an issue of practical reality. It is a documented fact that intermarried couples have a higher divorce rate. Would you ever consider going into a business with a partner who carries a greater risk of failure?\nAnd finally, I of course must mention that all “logic” aside, according the Bible, Deuteronomy 7:3, it is forbidden for a Jew to marry a non-Jew.\nThese comments are written with love and concern. Please write back and share your thoughts.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/intermarriage-dual-religion/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2011-09-15",
+      "saved_at": "2026-07-11T14:45:08.359Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-09-15T19:32:15+00:00",
+        "upvotes": 0,
+        "original_id": "91143",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-09-15",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "forbidden",
+          "marriage",
+          "divorce",
+          "intermarriage"
+        ],
+        "source_filename": "2011-09-15-Intermarriage-Dual-Religion.91143.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91155",
+      "id": "aish-91155",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Kohen Marriages",
+      "question": "I am a Reform Jew and am now looking to get married. I went to a few Jewish dating sites, and I saw some profiles which say \"permitted to a Kohen.\" I am a Kohen, and therefore this caught my attention. What exactly are they talking about?",
+      "answers": [
+        {
+          "text": "A Kohen is not allowed to marry a divorcee, a convert, or someone classified as a \"zonah.\" (see Leviticus 21:14; Talmud – Kiddushin 78a; Maimonides – Forbidden Relations 18:3)\nA \"zonah\" is defined as a woman who had intimate relations with a man whom she was forbidden to marry according to Jewish law – e.g. adultery, incest, or relations with a non-Jew.\nA Kohen is forbidden to marry these women, not because she is a bad person, but because there is metaphysical reality that is created which prevents a Kohen from being able to create the proper bond. Consider that H2O is water, and H2O2 is Hydrogen Peroxide. The difference may seem negligible, but is actually the difference is between life and death.\nThis is a very serious issue, and if a Kohen goes ahead and marries someone that he is not allowed to be married to, he is transgressing a Torah commandment every minute he remains married to her.\nOn a practical level, the kohanim, who are charged with being the spiritual leaders and role models for all of Jewry, must preserve a more scrutinizing level of holiness. The fact that a particular Kohen today may not see himself in such a lofty role does not diminish his obligation to live up to that.\nThere is another issue, however. It is important to check if the \"Kohen\" is a real \"Kohen.\" How reliable is the Kohanic tradition in the family? Just because someone's last name is \"Cohen\" does not mean that he necessarily has the status of a Kohen. To be considered a Kohen, one must have an unbroken tradition, as well as other factors too numerous to mention here. (Nevertheless, most people who have the name Cohen also have the status as Kohen.)\nAlso, it may be that the Kohen is really a \"chalal.” If his mother, paternal grandmother, etc., was forbidden to marry a Kohen, in that case the resulting son would be a chalal, not a Kohen – thereby disqualifying the \"Kohen\" (and his subsequent descendents) from the regular Kohanic rights and obligations.\nBottom line: If you have any questions about your status, or about that of any particular young woman, you need to speak with a reliable authority in Jewish law. If you tell me what city you're located in, I'll be happy to recommend someone you could contact.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/kohen-marriages/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2011-09-20",
+      "saved_at": "2026-07-11T14:36:06.699Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-09-20T18:04:49+00:00",
+        "upvotes": 0,
+        "original_id": "91155",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-09-20",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "jewish law",
+          "permitted",
+          "forbidden",
+          "obligation",
+          "kohen"
+        ],
+        "source_filename": "2011-09-20-Kohen-Marriages.91155.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91157",
+      "id": "aish-91157",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Who is a Mamzer?",
+      "question": "My mother has, unfortunately, been through a number of marriages and other living-together arrangements. This has produced a hodge-podge of children from different fathers. I actually was conceived through an affair that my mother had, and she has never revealed the identity of my biological father. To make a long story short, I was speaking with my friend (who wears a kippah) and he said that I should check out that I may be a mamzer. I remember that my grandma would call someone a \"mamzer\" as a kind of curse. The Internet didn't help much, because I don't know what information is reliable. Can you please help set things straight?",
+      "answers": [
+        {
+          "text": "A child is a mamzer if he is the result of relations with a Jewish man, that a Jewish woman is forbidden to marry – e.g. the result of incest, or an adulterous affair.\nA child that was born to an unmarried woman, is simply considered a child born out of wedlock, and is not a mamzer. However, if the woman was married at the time of conception, then that is adultery and the child is a mamzer (provided it can be concluded that the paramour rather than the husband is the child's father).\nA woman must be sure to receive a proper Get if she is being divorced, otherwise she is still considered married and subsequent children are considered as mamzers. It should be stressed that a civil divorce does not sever the marriage from the Jewish point of view. Only a Get can create a proper divorce. (see: www.aish.com/jl/l/m/103423494.html)\nA Jew who is a mamzer must keep all the commandments just like any other Jew, but he does have severe limitations regarding whom he can marry.\nThat's the legal aspect. The philosophical aspect raises the question: Why is the mamzer punished for the parents' mistake? The answer is that adultery (or incest, which also produces a mamzer) is one of the most terrible crimes, and the reality is that while people will sometimes hurt themselves, they will think much more carefully about hurting their children. So this is a deterrent factor.\nThe soul of a mamzer, for reasons unbeknownst to us mortals, must undergo the limitations of being a mamzer for the purpose of fulfilling his mission in the world. The circumstances that each individual finds himself in are directly related to his unique mission. For some it may be a physical handicap; for others, a metaphysical one. The mamzer is not paying for his parents' iniquities, he is being given a specific challenge for his own growth.\nI think the key for you at this point is to try to find out what really happened. The question of whether you are a mamzer depends on a number of things:\n1) Was your mother born of a Jewish mother?\n2) Was she married to a Jew at the time she had relations with your father?\n4) If she was married to a Jew, was the original wedding ceremony \"kosher\" in Jewish law?\n5) If yes, was she divorced from her first husband according to Jewish law with a \"get,\" or was it a civil divorce?\n6) Was your mother still living with her husband at the same time as her affair? Is it possible the husband is the actual father?\nAs you can see, there are many, many details of Jewish law pertaining to this, and anything said in this email cannot be used to determine a practical application in any specific case. A potentially wrong answer could have serious long-term consequences for the people involved.\nBottom line: If you have any questions about your status, or about that of any particular young woman, you need to speak with a reliable authority in Jewish law. If you tell me what city you're located in, I'll be happy to recommend someone you could contact.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/who_is_a_mamzer/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2011-09-20",
+      "saved_at": "2026-07-11T14:38:04.076Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-09-20T18:08:25+00:00",
+        "upvotes": 0,
+        "original_id": "91157",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-09-20",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "jewish law",
+          "forbidden",
+          "wedding",
+          "mamzer",
+          "living together"
+        ],
+        "source_filename": "2011-09-20-Who-is-a-Mamzer.91157.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91161",
+      "id": "aish-91161",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Mixed Identity",
+      "question": "My father is Jewish and my mother is not. I live in a Jewish community and have Jewish friends. I attend Jewish lessons every Monday, and dinners with rabbis on the Jewish holidays. If I date a Jewish girl, will her family not want her to marry me because my mother is not Jewish? I have half-brothers and a sister who are totally not Jewish. I'm a bit confused.",
+      "answers": [
+        {
+          "text": "Thank you for writing and sharing your thoughts.\nIt appears that your confused identity is a tragic result of intermarriage.\nAccording to Jewish law, you are not Jewish.\nJewishness is passed on via the mother. If the mother is Jewish, the child is 100% Jewish. This is true regardless of who the father is, and whether he is Jewish or not.\nSo now you are in a terrible quandary. You identify as a Jew, but you are not Jewish. Who should you marry? An Episcopalian? I think not.\nIt appears there are two options for you right now.\nJudaism presents seven mitzvot for non-Jews to observe. These are the pillars of human civilization, and are named the \"Seven Laws of Noah,\" since all humans are descended from Noah. As explained in the Talmud (Sanhedrin 58b), they include the prohibition against theft, murder, and sexual immorality.\nMaimonides explains that anyone who faithfully observes these laws earns a proper place in heaven. Today, there are many active groups of non-Jews called \"Bnei Noach\" who faithfully observe the Seven Laws of Noah. The Bnei Noach are people who have a very \"Jewish\" feeling, but are not Jewish. For example, see this article: www.aish.com/jw/s/80405497.html\nTo learn more about the origins and ideals of Bnei Noach, see an excellent book on the topic, called \"The Path of the Righteous Gentile,\" by Chaim Clorfene and Yakov Rogalsky.\nThe other alternative is to pursue conversion to Judaism. This is not simple, given that you will want to make sure it is \"kosher\" from a Jewish legal perspective. According to the Code of Jewish Law, there are three requirements for a valid conversion:\n1) Mikveh – All converts must immerse in the Mikveh – a ritual bath linked to a reservoir of rain water.\n2) Milah – Male converts must undergo circumcision by a qualified \"Mohel.\" If he was previously circumcised by a doctor, he then undergoes a ritual called \"hatafas dam.\"\n3) Mitzvot – This is the clincher. The convert must believe in God and the divinity of the Torah, as well as accept upon himself to observe all 613 mitzvot (commandments) of the Torah. This includes observance of Shabbat, Kashrut, etc. – as detailed in the Code of Jewish Law, the authoritative source for Jewish observance. This means that a motor vehicle is not used on Shabbat, that cheese is eaten only with kosher supervision, that a woman uses the mikveh every month, and much much more.\nThe conversion process must be done before a court of three Jewish men who themselves believe in God, accept the divinity of the Torah, and observe the mitzvot. In the case of someone who denies fundamental principles of Jewish belief (such as, the word-for-word divinity of the Torah), or offers to perform the conversion without requiring full mitzvah observance, the conversion would be invalid according to the Code of Jewish Law. As you could imagine, this would create a variety of confusions regarding the person's religious identity, and that of their children. And in your case, this would only further complicate things.\nThere are two excellent books which are helpful for conversion:\n- \"To Be A Jew\" by Chaim Halevi Donin – www.amazon.com/dp/0465086322\n- \"Becoming a Jew\" by Maurice Lamm – www.amazon.com/dp/0824603508/\nAlso recommended are two real-life accounts of non-Jews who converted to Judaism:\n- \"Migrant Soul\" by Avi Shafran – www.amazon.com/dp/0944070450/\n- \"The Bamboo Cradle\" by Avraham Schwartzbaum – www.amazon.com/dp/0873064593/\nYou have a special soul which is yearning to find truth. For the sake of your spiritual health, I suggest you start immediately!",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/mixed-identity/",
+      "tags": [
+        "aish",
+        "general",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "general",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2011-09-20",
+      "saved_at": "2026-07-11T14:45:16.890Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-09-20T18:16:35+00:00",
+        "upvotes": 0,
+        "original_id": "91161",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-09-20",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "mixed identity"
+        ],
+        "source_filename": "2011-09-20-Mixed-Identity.91161.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91180",
+      "id": "aish-91180",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Son is Dating a Non-Jew",
+      "question": "We raised our children in a home that observed all the major Jewish holidays. I made our children aware of their culture and heritage. Our son was bar mitzvahed and attended Hebrew school for five years. His friends were all Jewish as he grew up, and he attended March of the Living. He is the last Jewish male in our family, since my one and only cousin is a female and I am an only child. If he has no Jewish sons, then our family line will die. Now he has a non-Jewish girlfriend and they are getting serious. He has the support of all her friends who are not Jewish. I have made my feelings of opposition known. My wife says that if we are not careful we will lose him as a son, and that I should go easy on my remarks and actions. I am heartbroken. What should I do?",
+      "answers": [
+        {
+          "text": "The best solution is to raise serious doubts that this will work long-term. Some ideas:\n1) Get them to discuss the topic of Jesus. It is the most deeply-engrained cultural difference between Jews and non-Jews. There's a video put out by the Reform Movement of America, a real-life documentary depicting a series of group therapy sessions for intermarried couples, designed to help them deal with the unique issues of intermarriage.\nIn this video, a Jewish woman says: \"Our marriage was going smoothly until the birth of our baby boy. I was thrilled and wanted to arrange for a Mohel to do the circumcision. My husband thought I was crazy! He said, 'I won't allow that bloody, barbaric cult ritual!' We're supposed to be celebrating the birth of our child – and instead we we're having a terrible fight! He finally agreed to the Bris, but said, 'I'm sure you'll understand when I take the baby to be baptized.' I was shocked. Now I'm not sure our marriage is going to survive.\"\nThe video shows these couples – none of them religious – describing how the major obstacle in their marriage is the issue of Jesus. We don't always realize it, but belief in God is an essential part of our identity. Ask your son: Do you find the idea of praying to Jesus repulsive? Do you know that in the mind of your future spouse, Jesus is the ultimate image of yearning for spiritual transcendence? It's engrained from day one – the same way that your Jewish imagery is engrained.\nA film like \"The Passion\" provides an opportunity to raise these issues. They will probably have highly diverse reactions to the film, and the anti-Semitism elements will be very difficult for them to reconcile. On the flip side, having them visit a Holocaust museum will also likely engender very different emotional reactions.\n2) The problem of future children. Many intermarried couples say: \"We're going to let our children choose their own religion. When they grow up they can choose what want. That way they'll get the best of both worlds.\"\nBut the reality is that children of intermarried couples suffer an identity crisis. One set of grandparents has a Christmas Tree, the other a Chanukah menorah. It's very confusing for a young person trying to forge an identity in an already-complex world. Children need to know who they are. They need to have a solid, unambiguous identity which gives them a place in the world. They need a spiritual tradition through which to experience lifecycle events, and to have a community where they feel at home.\nAnd if the spouse has agreed to \"raise your children Jewish,\" think again. Brandeis University researcher Sylvia Barack Fishman discovered that fully half of the intermarried couples that are “raising their children as Jews” hold Christmas and Easter celebrations in their homes!\nPsychologists report that many \"dual-religion\" children express a great deal of anger at their parents for putting them in the middle of an issue that the parents themselves could not resolve. When a person has to choose one religion over the other, there is always the unconscious sense of choosing one parent over another. (The fact is that 92 percent of children of intermarriage marry non-Jews, effectively detaching themselves forever from the Jewish people. That's simply the default choice in our predominantly non-Jewish society.)\nBut imagine if the child becomes a committed Jew or Christian. What will this child think of the Jewish parent? If he becomes a believing Christian, he'll think the Jewish parent is going to hell for denying the faith! And if he turns to Judaism, he'll regard him as a traitor for having intermarried!\nAnd what of his own spiritual awakening? People who do not profess a belief in any particular religion often turn back to religion later in life. A Gallup Poll showed that religious commitment is lowest from age 18-39 – precisely the time when people are making decision about who to marry. I have a folder of emails from intermarried people whose lives turned to horror when they (or their spouses) turned back to religion. The issues become insurmountable.\nFinally, you will need to provide a positive reason in the addition to all these negatives. Ask: When there is a terrorist attack in Israel, all Jews care. Are you willing to fight for the Jewish people? Then go find a Jewish spouse you can share this with! Your children will be Jewish and your married life will be free of liabilities. You deserve it all and you can have it all!\nOnce you've raised sufficient doubt, you can advise to try a separation and ask: Do you need to be married to this person to find happiness in life, or would you be better off looking for someone else to marry? Until that trial separation, he does not have clarity about the right thing to do.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/son-is-dating-a-non-jew/",
+      "tags": [
+        "aish",
+        "general",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011",
+        "needs-review"
+      ],
+      "category": "general",
+      "category_confidence": "low",
+      "needs_review": true,
+      "date": "2026-07-11",
+      "published_at": "2011-09-20",
+      "saved_at": "2026-07-11T14:45:31.615Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-09-20T19:22:19+00:00",
+        "upvotes": 0,
+        "original_id": "91180",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-09-20",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "happiness",
+          "dating",
+          "emotional"
+        ],
+        "source_filename": "2011-09-20-Son-is-Dating-a-Non-Jew.91180.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91193",
+      "id": "aish-91193",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Yizkor at Home",
+      "question": "Our local synagogue is closed because of the coronavirus. How can I say yizkor this year in memory of my father?",
+      "answers": [
+        {
+          "text": "I’m sorry for the upsetting situation. But in truth, technically Yizkor can be said privately. Whenever it is difficult to attend a synagogue, it is fine to say it at home. In a year like this, when we pray with proper concentration at home, it is considered as if we have prayed with a congregation.\nMay your father’s soul have an elevation and may this entire situation pass quickly.",
+          "accepted": true,
+          "author": "Rabbi Pinchas Waldman",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/yizkor-at-home/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "rabbi-pinchas-waldman",
+        "published-2020"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-07-11",
+      "published_at": "2020-05-22",
+      "saved_at": "2026-07-11T14:54:40.120Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Rabbi Pinchas Waldman",
+        "date": "2020-05-22T11:45:34+00:00",
+        "upvotes": 0,
+        "original_id": "91193",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2020-05-22",
+        "import_date": "2026-07-11",
+        "category_reason": [
+          "yizkor",
+          "synagogue"
+        ],
+        "source_filename": "2020-05-22-Yizkor-at-Home.91193.html"
+      }
+    }
+  ]
+}
