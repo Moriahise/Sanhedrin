@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "chunk": 215,
- "count": 498,
+ "count": 500,
  "questions": [
   {
    "id": "up-din-265955",
@@ -13539,6 +13539,55 @@
    "category": "general",
    "category_confidence": "low",
    "needs_review": true
+  },
+  {
+   "id": "up-din-200912288974253",
+   "legacy": {
+    "source_id": "din-200912288974253"
+   },
+   "source": "upload",
+   "title": "חיוב לאשה לאכול סעודת פורים",
+   "question": "האם יש חיוב לאשה לאכול סעודת פורים",
+   "answers": [],
+   "url": "https://din.org.il/2009/12/28/%d7%97%d7%99%d7%95%d7%91-%d7%9c%d7%90%d7%a9%d7%94-%d7%9c%d7%90%d7%9b%d7%95%d7%9c-%d7%a1%d7%a2%d7%95%d7%93%d7%aa-%d7%a4%d7%95%d7%a8%d7%99%d7%9d/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "unanswered",
+    "needs-review"
+   ],
+   "date": "2026-01-03",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-20100226318558",
+   "legacy": {
+    "source_id": "din-20100226318558"
+   },
+   "source": "upload",
+   "title": "שטיפת פה וצום נשים בתענית אסתר",
+   "question": "כבוד הרב. יש לי שני שאלות בענין צום תענית אסתר,א. האם כשיבש בפה מותר לישטוף את הפה. ב. האם יש מקור לכך שאשה אינה צריכם לצום צום כגון זה עד שנתים מאז שילדה אף שבפעל אינה מניקה. ישר כח",
+   "answers": [
+    {
+     "text": "א. בתענית אסתר מותר לשטוף את הפה, עדיף לעשות זאת עם מי פה שאינם ראויים …",
+     "accepted": true,
+     "author": "רבני בית ההוראה",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2010/02/26/%d7%a9%d7%90%d7%9c%d7%94-%d7%97%d7%93%d7%a9%d7%94-%d7%9e%d7%94%d7%90%d7%aa%d7%a8-%d7%a2%d7%91%d7%a8%d7%99%d7%aa-3/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "רבני-בית-ההוראה"
+   ],
+   "date": "2026-01-03",
+   "category": "halacha",
+   "category_confidence": "high"
   }
  ]
 }
