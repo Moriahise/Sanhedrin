@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "chunk": 228,
- "count": 414,
+ "count": 500,
  "questions": [
   {
    "id": "up-din-201107295382561",
@@ -10533,6 +10533,2323 @@
     "din-org-il",
     "halacha",
     "question-answer",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2015072111790260",
+   "legacy": {
+    "source_id": "din-2015072111790260"
+   },
+   "source": "upload",
+   "title": "ישיבה על הרצפה בתשעה באב נדחה",
+   "question": "האם השנה, כשתשעה באב נדחה, יש חיוב גם לשבת על מקום נמוך עד חצות ? ובכלל- יש הקלות במצב כזה?",
+   "answers": [
+    {
+     "text": "שלום רב, בודאי שיושבים על הרצפה או על כסא נמוך עד חצות. לשאר דיני תשעה באב נדחה ראה כאן",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/21/%d7%99%d7%a9%d7%99%d7%91%d7%94-%d7%a2%d7%9c-%d7%94%d7%a8%d7%a6%d7%a4%d7%94-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-%d7%a0%d7%93%d7%97%d7%94/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2015072112700618",
+   "legacy": {
+    "source_id": "din-2015072112700618"
+   },
+   "source": "upload",
+   "title": "האם מותר לבלוע כדור בתשעה באב",
+   "question": "שאלה: שלום רב, אני לוקחת כדורים בקביעות האם מותר לבלוע כדור בתשעה באב",
+   "answers": [
+    {
+     "text": "שלום רב, כדור שחייבים לקחת אותו בצום, ניתן לקחת אותו בצום ללא מים כמובן ואין זה נחשב לאכילה.",
+     "accepted": true,
+     "author": "רבני בית ההוראה",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/21/%d7%94%d7%90%d7%9d-%d7%9e%d7%95%d7%aa%d7%a8-%d7%9c%d7%91%d7%9c%d7%95%d7%a2-%d7%9b%d7%93%d7%95%d7%a8-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "רבני-בית-ההוראה"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2015072113186647",
+   "legacy": {
+    "source_id": "din-2015072113186647"
+   },
+   "source": "upload",
+   "title": "לנקות כתם מחליפה יחידה",
+   "question": "שלום וברכה כבוד הרב שוב גיהצתי את החליפה שלי, ומאחורה נעשו לי סימנים לבנים, האם אני יכול להעביר ניגוב עם מגבון/מים ולשפשף את זה? תודה רבה ויום טוב בעזרת ה'",
+   "answers": [
+    {
+     "text": "שלום רב כיון שזו חליפתך היחידה תוכל לעשות זאת. מה גם שדעת הגרי\"ש אלישיב שמותר לנקות כתם נקודתי [ראה שבט הקהתי ח\"א סי' קעב], …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/21/%d7%9c%d7%a0%d7%a7%d7%95%d7%aa-%d7%9b%d7%aa%d7%9d-%d7%9e%d7%97%d7%9c%d7%99%d7%a4%d7%94-%d7%99%d7%97%d7%99%d7%93%d7%94/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2015072114052982",
+   "legacy": {
+    "source_id": "din-2015072114052982"
+   },
+   "source": "upload",
+   "title": "בשר עוף בתשעת הימים / תבשיל שהתבשל בו עוף",
+   "question": "בס\"ד השנה ט' באב דחוי. א. מדוע נותר איסור אכילת בשר עוף בשבוע זה ( גם לאור העובדה שאינו מוזכר כאיסור בתלמודים גם בשבוע שחל בו ) ב. האם ניתן להקל השנה באכילת בשר עוף או בתבשיל שבושל בו העוף? ג. האם יש איסור באכילת נקניק ? ד. מה לגבי שתיית בירה לבנה בסעודת חול …",
+   "answers": [],
+   "url": "https://din.org.il/2015/07/21/%d7%91%d7%a9%d7%a8-%d7%a2%d7%95%d7%a3-%d7%91%d7%aa%d7%a9%d7%a2%d7%aa-%d7%94%d7%99%d7%9e%d7%99%d7%9d-%d7%aa%d7%91%d7%a9%d7%99%d7%9c-%d7%a9%d7%94%d7%aa%d7%91%d7%a9%d7%9c-%d7%91%d7%95-%d7%a2%d7%95/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "unanswered",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2015072114200925",
+   "legacy": {
+    "source_id": "din-2015072114200925"
+   },
+   "source": "upload",
+   "title": "הסרת שיער בתשעת הימים",
+   "question": "ערב טוב, ברצוני לשאול האם מותר לאישה הטובלת במוצאי ט' באב לבצע טיפול הסרת שיער אצל קוסמטיקאית (שגרתי, נוהגת לעשותו מדי חודש לפני הטבילה) בתשעת הימים? אשכנזיה.",
+   "answers": [
+    {
+     "text": "שלום רב כיון ומדובר בצורך מצוה – מותר. בהצלחה",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/21/%d7%94%d7%a1%d7%a8%d7%aa-%d7%a9%d7%99%d7%a2%d7%a8-%d7%91%d7%aa%d7%a9%d7%a2%d7%aa-%d7%94%d7%99%d7%9e%d7%99%d7%9d-3/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507211515526",
+   "legacy": {
+    "source_id": "din-201507211515526"
+   },
+   "source": "upload",
+   "title": "מוזיקה בברית מילה בתשעת הימים",
+   "question": "ביתי ילדה בשבוע שעבר בראש חודש אב והברית יוצאת ביום שישי השבוע.אביו של החתן רוצה להביא תקליטן שתהיה מוסיקה.מה לעשות",
+   "answers": [
+    {
+     "text": "שלום רב ראשית מזל טוב ורוב נחת! יש להסביר לו בנועם שאסור לערוך את השמחה עם מוזיקה בימים אלו, ודאי יעמוד הדבר לזכות הקטן לגדול לתורה ולמצוות אם יקפידו בזמן ברית המילה שלו על …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/21/%d7%9e%d7%95%d7%96%d7%99%d7%a7%d7%94-%d7%91%d7%91%d7%a8%d7%99%d7%aa-%d7%9e%d7%99%d7%9c%d7%94-%d7%91%d7%aa%d7%a9%d7%a2%d7%aa-%d7%94%d7%99%d7%9e%d7%99%d7%9d/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507212331459",
+   "legacy": {
+    "source_id": "din-201507212331459"
+   },
+   "source": "upload",
+   "title": "טיסה בי' באב השנה",
+   "question": "שלום רב, ברצוני לדעת אם יש מניעה או חשש לטוס ביום ראשון י' באב יום הצום (נדחה) שהרי זה אחרי תשעה באב. תודה רבה על תשובתך",
+   "answers": [
+    {
+     "text": "שלום רב ברור הדבר, שבשנה זו שאנו אבלים על חורבן הבית בי' באב כל דיני תשעה באב קיימים בו, ומן הראוי שלא לטוס ביום זה, בודאי לא קודם …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/21/%d7%98%d7%99%d7%a1%d7%94-%d7%91%d7%99-%d7%91%d7%90%d7%91-%d7%94%d7%a9%d7%a0%d7%94/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507214588195",
+   "legacy": {
+    "source_id": "din-201507214588195"
+   },
+   "source": "upload",
+   "title": "נתינת מתנה בתשעת הימים",
+   "question": "נתינת מתנה בתשעת הימים",
+   "answers": [],
+   "url": "https://din.org.il/2015/07/21/%d7%a0%d7%aa%d7%99%d7%a0%d7%aa-%d7%9e%d7%aa%d7%a0%d7%94-%d7%91%d7%aa%d7%a9%d7%a2%d7%aa-%d7%94%d7%99%d7%9e%d7%99%d7%9d/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "unanswered",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507216698456",
+   "legacy": {
+    "source_id": "din-201507216698456"
+   },
+   "source": "upload",
+   "title": "קניות באינטרנט בתשעת הימים",
+   "question": "האם מותר להזמין דברים מ ebay?",
+   "answers": [
+    {
+     "text": "שלום רב לכתחילה נמנעים מקניות כאלו בימי תשעת הימים, אולם אם יש לך צורך מיוחד בענין, מבצע מיוחד או צורך שהדברים יבואו מהר – מותר, כיון שגמר הקנייה יהיה בעת הגעת המוצרים לאחר תשעה באב. אם לא מדובר בבגדים אלא בכלים שאינם חשובים במיוחד, מותר בכל מקרה לקנות …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/21/%d7%a7%d7%a0%d7%99%d7%95%d7%aa-%d7%91%d7%90%d7%99%d7%a0%d7%98%d7%a8%d7%a0%d7%98-%d7%91%d7%aa%d7%a9%d7%a2%d7%aa-%d7%94%d7%99%d7%9e%d7%99%d7%9d/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507216750214",
+   "legacy": {
+    "source_id": "din-201507216750214"
+   },
+   "source": "upload",
+   "title": "מי שאין לו גרביים בתשעת הימים מה עדיף לקנות או לכבס",
+   "question": "שלום רב. ברצוני לשאול, לגבי כיבוס בתשעת הימים. האם מותר לכבס במכונת כביסה בגדים תחתונים מכיון שנעשה שימוש ולא נותר ביגוד נוסף ללבישה , או שעדיף לקנות_(מדובר בגרביים, גופיות, ציצית וכיו\"ב) וכן האם מותר לקנות גרביים ולגרוב בתשעת הימים(כי אין) תודה",
+   "answers": [
+    {
+     "text": "שלום רב, יש דעות לכאן ולכאן, מה עדיף, האם לקנות או לכבס. משום …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/21/%d7%9e%d7%99-%d7%a9%d7%90%d7%99%d7%9f-%d7%9c%d7%95-%d7%92%d7%a8%d7%91%d7%99%d7%99%d7%9d-%d7%91%d7%aa%d7%a9%d7%a2%d7%aa-%d7%94%d7%99%d7%9e%d7%99%d7%9d-%d7%9e%d7%94-%d7%a2%d7%93%d7%99%d7%a3-%d7%9c%d7%a7/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-20150721691626",
+   "legacy": {
+    "source_id": "din-20150721691626"
+   },
+   "source": "upload",
+   "title": "האם שמים טלית בתשעה באב",
+   "question": "שלום רב, האם שמים טלית בתשעה באב",
+   "answers": [
+    {
+     "text": "שלום רב, טלית דינו כמו תפילין. וכשם שתפילין מניחים בתשעה באב רק במנחה ולא בשחרית. כך גם טלית מתעטפים בו רק במנחה ולא בשחרית. מקורות: ראה שו\"ע או\"ח סי' תקנה",
+     "accepted": true,
+     "author": "רבני בית ההוראה",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/21/%d7%94%d7%90%d7%9d-%d7%a9%d7%9e%d7%99%d7%9d-%d7%98%d7%9c%d7%99%d7%aa-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "רבני-בית-ההוראה"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507217700750",
+   "legacy": {
+    "source_id": "din-201507217700750"
+   },
+   "source": "upload",
+   "title": "האם מותר לשמוע שירים בתשעה באב",
+   "question": "שאלה: אני מאוד אוהבת לשמוע שירים בפרט מתי שמשעמם לי, האם מותר לשמוע שירים בתשעה באב",
+   "answers": [
+    {
+     "text": "שלום רב, ממש לא. אסור לשמוע שירים בתשעה באב. תיקנו את הצום כדי שישרה באבלות על בית המקדש וירושלים שחרבו. ולא כדי שנסיח דעתנו בנושאים אחרים",
+     "accepted": true,
+     "author": "רבני בית ההוראה",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/21/%d7%94%d7%90%d7%9d-%d7%9e%d7%95%d7%aa%d7%a8-%d7%9c%d7%a9%d7%9e%d7%95%d7%a2-%d7%a9%d7%99%d7%a8%d7%99%d7%9d-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "רבני-בית-ההוראה"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-20150721794904",
+   "legacy": {
+    "source_id": "din-20150721794904"
+   },
+   "source": "upload",
+   "title": "ברית מילה בתשעה באב",
+   "question": "ברית מילה בתשעה באב",
+   "answers": [
+    {
+     "text": "שלום רב מה קורה עם ברית מילה בתשעה באב ? תשובה: ברית מילה בתשעה באב השנה שונה מכל שנה. כי למעשה הוא נדחה ליום ראשון לכן, מותר לאחר חצות היום לבעל הברית ואמו והסנדק והמוהל להתפלל מנחה גדולה ולאחר מכן להבדיל ולאכול ולהתרחץ ויעשו את הברית, אך את הסעודה יעשו רק בערב [ומותר לכל …",
+     "accepted": true,
+     "author": "רבני בית ההוראה",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/21/%d7%91%d7%a8%d7%99%d7%aa-%d7%9e%d7%99%d7%9c%d7%94-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "answer-only",
+    "רבני-בית-ההוראה"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507218073865",
+   "legacy": {
+    "source_id": "din-201507218073865"
+   },
+   "source": "upload",
+   "title": "הבדלה לחולה בתשעה באב שחל במוצאי שבת",
+   "question": "הבדלה לחולה בתשעה באב שחל במוצאי שבת",
+   "answers": [],
+   "url": "https://din.org.il/2015/07/21/%d7%94%d7%91%d7%93%d7%9c%d7%94-%d7%9c%d7%97%d7%95%d7%9c%d7%94-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-%d7%a9%d7%97%d7%9c-%d7%91%d7%9e%d7%95%d7%a6%d7%90%d7%99-%d7%a9%d7%91%d7%aa/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "unanswered",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507218238935",
+   "legacy": {
+    "source_id": "din-201507218238935"
+   },
+   "source": "upload",
+   "title": "האם מניחים תפילין בתשעה באב",
+   "question": "שאלה: היי כבוד הרב, האם מניחים תפילין בתשעה באב ?",
+   "answers": [
+    {
+     "text": "שלום רב, גם בתשעה באב מניחים תפילין. אלא שמאחר שכתוב בפסוק במגילת איכא \"השליך משמים ארץ תפארת ישראל\" ואמרו במדרש שהכוונה היא על התפילין. לכן לא מניחים את התפילין בבוקר בתפילת שחרית, אלא רק אחה\"צ בתפילת המנחה. מקורות: שו\"ע או\"ח סי' תקנה",
+     "accepted": true,
+     "author": "רבני בית ההוראה",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/21/%d7%94%d7%90%d7%9d-%d7%9e%d7%a0%d7%99%d7%97%d7%99%d7%9d-%d7%aa%d7%a4%d7%99%d7%9c%d7%99%d7%9f-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-2/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "רבני-בית-ההוראה"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-20150721863613",
+   "legacy": {
+    "source_id": "din-20150721863613"
+   },
+   "source": "upload",
+   "title": "צום תשעה באב לחולה",
+   "question": "שלום אני כבת 20 נוטלת כדורים נוגדי דכאון ואני 5 חודשים לאחר לידת בני ועדיין מרגישה בלי כוחות למרות שהבדיקות דם בסדר ב\"ה. רציתי לשאול האם אני חייבת לצום את צום תשעה באב. תודה רבה!",
+   "answers": [
+    {
+     "text": "שלום רב אם את מרגישה שזה עלול להקשות על מצב רוחך וכדומה, את פטורה לגמרי מהצום. רפואה שלמה ורוב …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/21/%d7%a6%d7%95%d7%9d-%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-%d7%9c%d7%97%d7%95%d7%9c%d7%94-2/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507218981451",
+   "legacy": {
+    "source_id": "din-201507218981451"
+   },
+   "source": "upload",
+   "title": "האם אפשר לקחת את הילדים לים בתשעת הימים",
+   "question": "האם אפשר לקחת את הילדים הקטנים לים בתקופת בין המצרים ?",
+   "answers": [
+    {
+     "text": "שלום רב, היום כידוע אנו כבר לאחר ראש חודש אב, שזה נקרא \"תשעת הימים\". לדעת האשכנזים אסור. ולדעת הספרדים מעיקר הדין מותר. אולם ראוי שלא לעשות זאת משום שהים הוא מעט מקום סכנה ולא ראוי להכניס את הילדים למקום סכנה בימים אלו.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/21/%d7%94%d7%90%d7%9d-%d7%90%d7%a4%d7%a9%d7%a8-%d7%9c%d7%a7%d7%97%d7%aa-%d7%90%d7%aa-%d7%94%d7%99%d7%9c%d7%93%d7%99%d7%9d-%d7%9c%d7%99%d7%9d-%d7%91%d7%aa%d7%a9%d7%a2%d7%aa-%d7%94%d7%99%d7%9e%d7%99%d7%9d/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2015072214208149",
+   "legacy": {
+    "source_id": "din-2015072214208149"
+   },
+   "source": "upload",
+   "title": "טיולים ובילויים בתשעה באב",
+   "question": "טיולים ובילויים בתשעה באב",
+   "answers": [],
+   "url": "https://din.org.il/2015/07/22/%d7%98%d7%99%d7%95%d7%9c%d7%99%d7%9d-%d7%95%d7%91%d7%99%d7%9c%d7%95%d7%99%d7%99%d7%9d-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "unanswered",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507222416427",
+   "legacy": {
+    "source_id": "din-201507222416427"
+   },
+   "source": "upload",
+   "title": "האם מותר לצחוק ולספר בדיחות בחודש אב",
+   "question": "שלום וברכה, מראש חודש אב במהלך תשעת הימים האם מותר לספר בדיחות או לצחוק ולשמוח עם חברים או המשפחה?",
+   "answers": [
+    {
+     "text": "שלום רב, כתוב שמשנכנס אב ממעטים בשמחה. אז אם אתה ממלא פיך בצחוק בבדיחות משך השנה – אז בימים אלו יש למעט… אבל ככלל, מיום שחרב בית המקדש עעלינו לצמצם קצת בצחוק ובבדיחות גם לא …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/22/%d7%94%d7%90%d7%9d-%d7%9e%d7%95%d7%aa%d7%a8-%d7%9c%d7%a6%d7%97%d7%95%d7%a7-%d7%95%d7%9c%d7%a1%d7%a4%d7%a8-%d7%91%d7%93%d7%99%d7%97%d7%95%d7%aa-%d7%91%d7%97%d7%95%d7%93%d7%a9-%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507222627711",
+   "legacy": {
+    "source_id": "din-201507222627711"
+   },
+   "source": "upload",
+   "title": "לבישת בגדים תחתונים בתשעת הימים / החלפת הבגדים במוצאי שבת – ט' באב",
+   "question": "בגדים תחתונים בתשעת הימים",
+   "answers": [],
+   "url": "https://din.org.il/2015/07/22/%d7%9c%d7%91%d7%99%d7%a9%d7%aa-%d7%91%d7%92%d7%93%d7%99%d7%9d-%d7%aa%d7%97%d7%aa%d7%95%d7%a0%d7%99%d7%9d-%d7%91%d7%aa%d7%a9%d7%a2%d7%aa-%d7%94%d7%99%d7%9e%d7%99%d7%9d-%d7%94%d7%97%d7%9c%d7%a4%d7%aa/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "unanswered",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507229810955",
+   "legacy": {
+    "source_id": "din-201507229810955"
+   },
+   "source": "upload",
+   "title": "עד איזה גיל מותר לכבס לילד בתשעת הימים",
+   "question": "כיבוס לקטנים בתשעת הימים",
+   "answers": [],
+   "url": "https://din.org.il/2015/07/22/%d7%a2%d7%93-%d7%90%d7%99%d7%96%d7%94-%d7%92%d7%99%d7%9c-%d7%9e%d7%95%d7%aa%d7%a8-%d7%9c%d7%9b%d7%91%d7%a1-%d7%9c%d7%99%d7%9c%d7%93-%d7%91%d7%aa%d7%a9%d7%a2%d7%aa-%d7%94%d7%99%d7%9e%d7%99%d7%9d/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "unanswered",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2015072316259127",
+   "legacy": {
+    "source_id": "din-2015072316259127"
+   },
+   "source": "upload",
+   "title": "קטן שהגדיל בתשעה באב נדחה",
+   "question": "מה דין קטן שהגדיל בי' אב צום נדחה .האם חייב בתענית מכח חכמים או מדאוריתא?",
+   "answers": [
+    {
+     "text": "שלום רב צום תשעה באב כולו מדרבנן… על עצם הענין ראה בהרחבה מה שכתבנו היום כאן.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/23/%d7%a7%d7%98%d7%9f-%d7%a9%d7%94%d7%92%d7%93%d7%99%d7%9c-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-%d7%a0%d7%93%d7%97%d7%94/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2015072316558821",
+   "legacy": {
+    "source_id": "din-2015072316558821"
+   },
+   "source": "upload",
+   "title": "התקנת תנור אפייה בתשעת הימים",
+   "question": "שלום, רכשתי תנור אפייה חדש לפני כ-שבועיים והטכנאי להתקנה נדחה מספר פעמים, האם אפשר בכל זאת להתקינו בימים אלה של תשעה באב ? בתשעת ימים אלה ?",
+   "answers": [
+    {
+     "text": "שלום רב מותר להתקין את התנור. מקורות: ראשית, האיסור נאמר לגבי קנייה לא לגבי התקנה, ומלבד זאת תנור הוא צורך בבית, ערב שבת ויש צורך בתנור. בהצלחה …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/23/%d7%94%d7%aa%d7%a7%d7%a0%d7%aa-%d7%aa%d7%a0%d7%95%d7%a8-%d7%90%d7%a4%d7%99%d7%99%d7%94-%d7%91%d7%aa%d7%a9%d7%a2%d7%aa-%d7%94%d7%99%d7%9e%d7%99%d7%9d/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507231808483",
+   "legacy": {
+    "source_id": "din-201507231808483"
+   },
+   "source": "upload",
+   "title": "לימודי חול בתשעה באב",
+   "question": "לימודי חול בתשעה באב",
+   "answers": [],
+   "url": "https://din.org.il/2015/07/23/%d7%9c%d7%99%d7%9e%d7%95%d7%93%d7%99-%d7%97%d7%95%d7%9c-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "unanswered",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507232000242",
+   "legacy": {
+    "source_id": "din-201507232000242"
+   },
+   "source": "upload",
+   "title": "כיבוס בשבוע שחל בו תשעה באב לאשכנזים",
+   "question": "שלום וברכה, לאשכנזים : האם הדין הוא ש : שדעת רוב הפוסקים, שדיני שבוע שחל בו תשעה באב אינם חלים באותה שנה, הואיל ובפועל הצום נדחה ליום ראשון (רא\"ש, ר\"ן), וכן נוהגים רוב הספרדים, שמכבסים בכל השבוע שלפני שבת חזון או שנוהגים להחמיר (אני מניח כדעת המגן אברהם וכו') והאם יש מקום להקל למי שממש …",
+   "answers": [],
+   "url": "https://din.org.il/2015/07/23/%d7%9b%d7%99%d7%91%d7%95%d7%a1-%d7%91%d7%a9%d7%91%d7%95%d7%a2-%d7%a9%d7%97%d7%9c-%d7%91%d7%95-%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-%d7%9c%d7%90%d7%a9%d7%9b%d7%a0%d7%96%d7%99%d7%9d/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "unanswered",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507232004285",
+   "legacy": {
+    "source_id": "din-201507232004285"
+   },
+   "source": "upload",
+   "title": "צום תשעה באב לילדה צעירה",
+   "question": "בס\"ד שלום כבוד הרב הבת שלי בת 12 ושלושה חודשים.bmi15.77 גובה 167ס\"מ משקל 44ק\"גאיך אני אמורה להתנהל איתי בצום באם תתלונן על קושי? תודה רבה",
+   "answers": [
+    {
+     "text": "שלום רב נשמע שהיא בריאה אם כי קצת רזה לגובהה. אני מקווה שתופתעי והיא תצום בסדר גמור, חשובה מאוד הכנה טובה, כבר מהיום לשתות הרבה ולאכול חלבונים ופחמימות מורכבות …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/23/%d7%a6%d7%95%d7%9d-%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-%d7%9c%d7%99%d7%9c%d7%93%d7%94-%d7%a6%d7%a2%d7%99%d7%a8%d7%94/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507233786866",
+   "legacy": {
+    "source_id": "din-201507233786866"
+   },
+   "source": "upload",
+   "title": "קטן שהגדיל בצום תשעה באב נדחה",
+   "question": "קטן שהגדיל בצום תשעה באב נדחה",
+   "answers": [],
+   "url": "https://din.org.il/2015/07/23/%d7%a7%d7%98%d7%9f-%d7%a9%d7%94%d7%92%d7%93%d7%99%d7%9c-%d7%91%d7%a6%d7%95%d7%9d-%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-%d7%a0%d7%93%d7%97%d7%94/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "unanswered",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507234075055",
+   "legacy": {
+    "source_id": "din-201507234075055"
+   },
+   "source": "upload",
+   "title": "האם מותר לסגור חופשה בתשעת הימים ?",
+   "question": "האם מותר בתשעת הימים לסגור חופשה לאחר תשעת הימים?",
+   "answers": [
+    {
+     "text": "שלום רב, כן מותר לסגור חופשה בימים אלו (בפרט אם יש סיכוי שתאחר את המועד..)",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/23/%d7%94%d7%90%d7%9d-%d7%9e%d7%95%d7%aa%d7%a8-%d7%9c%d7%a1%d7%92%d7%95%d7%a8-%d7%97%d7%95%d7%a4%d7%a9%d7%94-%d7%91%d7%aa%d7%a9%d7%a2%d7%aa-%d7%94%d7%99%d7%9e%d7%99%d7%9d/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507237059928",
+   "legacy": {
+    "source_id": "din-201507237059928"
+   },
+   "source": "upload",
+   "title": "הקאות בחילות ומיגרנה בסוף הצום",
+   "question": "שלום בשנים האחרונות הצומות קשים עלי מאוד ,במהלך הצום אני מתחיל להרגיש ממש רע הדבר בא ליידי ביטוי בכאבי ראש חזקים ובבחילות . עם סוף הצום אני מגיע למצב של הקאות וחולשה עד שאיני מסוגל לטעום דבר . אינני יודע מה הגורם לכך אולם אני ממש חושש מההשלכות של הצום . איך עלי לנהוג בצום …",
+   "answers": [],
+   "url": "https://din.org.il/2015/07/23/%d7%94%d7%a7%d7%90%d7%95%d7%aa-%d7%91%d7%97%d7%99%d7%9c%d7%95%d7%aa-%d7%95%d7%9e%d7%99%d7%92%d7%a8%d7%a0%d7%94-%d7%91%d7%a1%d7%95%d7%a3-%d7%94%d7%a6%d7%95%d7%9d/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "unanswered",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2015072411906124",
+   "legacy": {
+    "source_id": "din-2015072411906124"
+   },
+   "source": "upload",
+   "title": "להחליף מצעים בשבת חזון מותר?",
+   "question": "שלום וברכה כבוד הרב אפשר להחליף למצעים נקיים לגמרי? תודה רבה שוב ושבת שלום ומבורך בעזרת ה'",
+   "answers": [
+    {
+     "text": "שלום רב אין להחליף מצעים עד מוצאי הצום. אלא אם כן התלכלכו. שבת שלום.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/24/%d7%9c%d7%94%d7%97%d7%9c%d7%99%d7%a3-%d7%9e%d7%a6%d7%a2%d7%99%d7%9d-%d7%91%d7%a9%d7%91%d7%aa-%d7%97%d7%96%d7%95%d7%9f-%d7%9e%d7%95%d7%aa%d7%a8/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2015072412063819",
+   "legacy": {
+    "source_id": "din-2015072412063819"
+   },
+   "source": "upload",
+   "title": "רחיצה בערב שבת חזון",
+   "question": "שלום מותר להתרחץ לכבוד שבת בתשעת הימים ביום שישי לפני חצות תודה",
+   "answers": [
+    {
+     "text": "שלום רב מותר. ויש נוהגים בקולות של יום שישי רק שעה לפני חצות ואילך. ביום שישי מותר לרחוץ את הראש בחמין למי שנוהג לרחוץ כל ערב שבת, ושאר הגוף בפושרים אבר אבר. ואדרבה, יש אומרים שהשנה עדיף לרחוץ לפני חצות היום כיון …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/24/%d7%a8%d7%97%d7%99%d7%a6%d7%94-%d7%91%d7%a2%d7%a8%d7%91-%d7%a9%d7%91%d7%aa-%d7%97%d7%96%d7%95%d7%9f/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2015072414684263",
+   "legacy": {
+    "source_id": "din-2015072414684263"
+   },
+   "source": "upload",
+   "title": "שינה על כרית בתשעה באב",
+   "question": "שלום לכבוד הרב שליט\"א, למדתי מספר שאדם ששם אבן תחת הכרית וכסתות סגולה לשמירה מאשת השטן. אם אני ישן על הקרקע בשבת ואני שם את האבן כנ\"ל האם אני יכול לקחת את האבן ולשים אותו בצד בבוקר או שזה מוקצה. תודה רבה ושבת שלום",
+   "answers": [
+    {
+     "text": "שלום רב, אני לא יודע על איזה ספר אתה מדבר …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/24/%d7%a9%d7%99%d7%a0%d7%94-%d7%a2%d7%9c-%d7%9b%d7%a8%d7%99%d7%aa-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2015072415324064",
+   "legacy": {
+    "source_id": "din-2015072415324064"
+   },
+   "source": "upload",
+   "title": "אבינו מלכנו במנחה של תשעה באב",
+   "question": "האם מותר לומר אבינו מלכנו במנחה של תשעה באב על מנת למלאות את חלל הזמן עד תפילת ערבית. נוהגים בבית הכנסת שלנו לומר א\"מ בכל תע\"צ. תודה.",
+   "answers": [
+    {
+     "text": "שלום רב למעשה המנהג הוא שלא אומרים אבינו מלכנו במנחה בתשעה באב ואין לשנות. מקורות: ראה לוח ארץ ישראל.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/24/%d7%90%d7%91%d7%99%d7%a0%d7%95-%d7%9e%d7%9c%d7%9b%d7%a0%d7%95-%d7%91%d7%9e%d7%a0%d7%97%d7%94-%d7%a9%d7%9c-%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2015072415604448",
+   "legacy": {
+    "source_id": "din-2015072415604448"
+   },
+   "source": "upload",
+   "title": "האם מותר להתקין מזגן בתשעה באב נדחה",
+   "question": "שלום רב לכב' הרב צריכים להתקין לי מזגן ביום ראשון (י' באב) . האם הדבר מותר בגלל החום המתיש ? תודה רבה מיכאל",
+   "answers": [
+    {
+     "text": "שלום רב אמנם בתשעת הימים יש להתיר התקנת מזגן במקומות החמים שיש בכך צורך של ממש, אולפם בתשעה באב עצמו זה ממש בעייתי, הרי עד חצות היום אסור לעשות מלאכה ואסור …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/24/%d7%94%d7%90%d7%9d-%d7%9e%d7%95%d7%aa%d7%a8-%d7%9c%d7%94%d7%aa%d7%a7%d7%99%d7%9f-%d7%9e%d7%96%d7%92%d7%9f-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-%d7%a0%d7%93%d7%97%d7%94/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2015072416394462",
+   "legacy": {
+    "source_id": "din-2015072416394462"
+   },
+   "source": "upload",
+   "title": "החלפת מצעים בתשעהת הימים לאחר הפסק טהרה",
+   "question": "אל הרב המשיב שלום רב .מתי מחלייפים את הסדינים למצב של נידה האם צריך לפני שבת או להחליף בליל תשעה באב ואז אנו נישן על מצעים מכובסיים .ראוי לציין שאשתי כיבסה את הסדינים הלבנים לפני תשעת הימים אנו אשנזים.בתודה מראש ושבת שלום",
+   "answers": [
+    {
+     "text": "במציאות החיים היום סדינים לבנים אינם חובה של ממש, כיון שיש הלבשה …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/24/%d7%94%d7%97%d7%9c%d7%a4%d7%aa-%d7%9e%d7%a6%d7%a2%d7%99%d7%9d-%d7%91%d7%aa%d7%a9%d7%a2%d7%94%d7%aa-%d7%94%d7%99%d7%9e%d7%99%d7%9d-%d7%9c%d7%90%d7%97%d7%a8-%d7%94%d7%a4%d7%a1%d7%a7-%d7%98%d7%94%d7%a8/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507241733388",
+   "legacy": {
+    "source_id": "din-201507241733388"
+   },
+   "source": "upload",
+   "title": "אנטיביוטיקה בתשעה באב",
+   "question": "לרב שלום בעלי נוטל 3 אנטיביטיקות שונות 8 פעמיים ביום אחרי אוכל ולוקח נרות. הוא סובל מחיידק בקיבה ובעיות במעיים. האם מותר לו לצום בתשעה באב?",
+   "answers": [
+    {
+     "text": "שלום רב, אסור לצום. שיהיה רפואה שלמה, ושבת שלום",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/24/%d7%90%d7%a0%d7%98%d7%99%d7%91%d7%99%d7%95%d7%98%d7%99%d7%a7%d7%94-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-2/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507242204702",
+   "legacy": {
+    "source_id": "din-201507242204702"
+   },
+   "source": "upload",
+   "title": "צום בהנקה סמוך ללידה",
+   "question": "שלום וברכה, השנה בגלל שתשעה באב נדחה, מה הדין לאשה פחות מחודשיים אחרי לידה (מניקה מלא)? האם אנו דנים כשאר צומות שלא צמה, או שכיון שבכל זאת זה תשעה באב היא צריכה לצום רגיל?",
+   "answers": [
+    {
+     "text": "שלום רב כדאי לשאוב היום קצת חלב ליום תשעה באב [עדיף היה להתארגן כמה ימים קודם ולהקפיא…], ניתן גם לנסות …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/24/%d7%a6%d7%95%d7%9d-%d7%91%d7%94%d7%a0%d7%a7%d7%94-%d7%a1%d7%9e%d7%95%d7%9a-%d7%9c%d7%9c%d7%99%d7%93%d7%94/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507242596564",
+   "legacy": {
+    "source_id": "din-201507242596564"
+   },
+   "source": "upload",
+   "title": "צום תשעה באב – אנטיביוטיקה / חוסר ברזל",
+   "question": "דחוף, אני בת 45 יש לי ברזל 10 אבל מחסני הברזל שלי הם 2 האם אני צריכה לצום או רק לשתות את הברזל,? בנותי התחילו היום אנטיביוטיקה לסטרפ בגרון, מה עליהם לעשות בצום?",
+   "answers": [
+    {
+     "text": "שלום רב, א. אם יש לך אפשרות לשתות את הברזל עשי זאת. אני מניח שזה לא ראוי לאכילה (שתיה), ואין זה …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/24/%d7%a6%d7%95%d7%9d-%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-%d7%90%d7%a0%d7%98%d7%99%d7%91%d7%99%d7%95%d7%98%d7%99%d7%a7%d7%94-%d7%97%d7%95%d7%a1%d7%a8-%d7%91%d7%a8%d7%96%d7%9c/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507243340096",
+   "legacy": {
+    "source_id": "din-201507243340096"
+   },
+   "source": "upload",
+   "title": "זמני כניסת צום תשעה באב",
+   "question": "שלום כבוד הרב, באיזו שעה, ביום ראשון נכנס צום תשעה באב? (דחוי)",
+   "answers": [
+    {
+     "text": "שלום רב, צום תשעה באב מתחיל עם מוצאי שבת. אולם מאחר שבכל יום זמן שהוא ספק אם הוא שייך עדיין ליום (לשבת) או למוצאי שבת (זמן הצום). לכן מהשיקעה כבר אסור לאכול. השקיעה בכל מקום, הוא בשעה אחרת. תכתוב שוב היכן אתה …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/24/%d7%96%d7%9e%d7%a0%d7%99-%d7%9b%d7%a0%d7%99%d7%a1%d7%aa-%d7%a6%d7%95%d7%9d-%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507243504268",
+   "legacy": {
+    "source_id": "din-201507243504268"
+   },
+   "source": "upload",
+   "title": "שירי עצב בערב תשעה באב",
+   "question": "שלום כבוד הרב, אסור לשמוע שירים בספירת העומר ובין המצרים אני יודעת כי שירים עושים שמחה ואסור להיות בשמחה אבל אם אני שומעת שחר שלא עושה לי שמחה שיר עצוב? אני צריכה לשמוע מוזיקה ומאוד קשה לי לתפקד בלי האם מותר לי לשמוע שירים עצובים? תודה, אדל.",
+   "answers": [
+    {
+     "text": "שלום רב, שירי עצב מותר לשמוע. אבל …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/24/%d7%a9%d7%99%d7%a8%d7%99-%d7%a2%d7%a6%d7%91-%d7%91%d7%a2%d7%a8%d7%91-%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507243913093",
+   "legacy": {
+    "source_id": "din-201507243913093"
+   },
+   "source": "upload",
+   "title": "הפסק טהרה בתשעה באב",
+   "question": "אם יוצא בתשעה באב לעשות הפסק בטהרה. מה הדין.",
+   "answers": [
+    {
+     "text": "שלום רב, אםשר תעשות הפסק טהרה גם בתשעה באב. אולם אין לרחוץ אלא את אותו מקום. מקורות: ראה שו\"ע ורמ\"א סי' תקנא ובשער הציון שם ס\"ק לה",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/24/%d7%94%d7%a4%d7%a1%d7%a7-%d7%98%d7%94%d7%a8%d7%94-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-2/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-20150724829125",
+   "legacy": {
+    "source_id": "din-20150724829125"
+   },
+   "source": "upload",
+   "title": "צום ט׳ באב בהריון",
+   "question": "האם אישה בשבוע החמישי להריונה צריכה לצום בט׳ באב? והאם יש מקום להקל כאשר חשה ברע? בנוסף, מה עליה לשמור מבחינת עונות הוסת בשלושה חודשים הראשונים? תודה רבה",
+   "answers": [
+    {
+     "text": "שלום רב באופן כללי מעוברות צמות בתשעה באב. אלא שאם יש הרגשה חריגה מעבר לתחושה רגילה של צום, כאב ראש חזק כאבי בטן בחילות וכדומה, יש …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/24/%d7%a6%d7%95%d7%9d-%d7%98%d7%b3-%d7%91%d7%90%d7%91-%d7%91%d7%94%d7%a8%d7%99%d7%95%d7%9f/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-20150724887396",
+   "legacy": {
+    "source_id": "din-20150724887396"
+   },
+   "source": "upload",
+   "title": "ויתן לך – בתשעה באב שחל במוצאי שבת",
+   "question": "בס\"ד השנה מוצ\"ש הוא ליל ט באב ( דחוי): מתי יש לומר את כל פסוקי הברכה של \"ויתן לך\" הנאמרים במוצ\"ש רגיל ? האם במוצאי הצום או שעבר זמנם?",
+   "answers": [
+    {
+     "text": "שלום רב, לא אומרים השנה במוצאי שבת ויתן לך. משום שאין זה זמן של ברכה. כמו כן גם לא אומרים ויהיה נעם. ראה בסידור יעב\"ץ.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/24/%d7%95%d7%99%d7%aa%d7%9f-%d7%9c%d7%9a-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-%d7%a9%d7%97%d7%9c-%d7%91%d7%9e%d7%95%d7%a6%d7%90%d7%99-%d7%a9%d7%91%d7%aa/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507249432964",
+   "legacy": {
+    "source_id": "din-201507249432964"
+   },
+   "source": "upload",
+   "title": "איך עושים הבדלה השבוע ?",
+   "question": "שלום וברכה, השנה שחל ערב תשעה באב במוצאי שבת מתי עושים את ההבדלה?",
+   "answers": [
+    {
+     "text": "שלום רב, נר עושים במוצאי שבת. הבדלה על הכוס עושים במוצאי הצום. בשמים לא עושים השבוע.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/24/%d7%90%d7%99%d7%9a-%d7%a2%d7%95%d7%a9%d7%99%d7%9d-%d7%94%d7%91%d7%93%d7%9c%d7%94-%d7%94%d7%a9%d7%91%d7%95%d7%a2/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2015072510017116",
+   "legacy": {
+    "source_id": "din-2015072510017116"
+   },
+   "source": "upload",
+   "title": "כדור למניעת הריון בתשעה באב",
+   "question": "אני רגילה כל לילה ליטול כדור למניעת הריון, האם מותר לי ליטול גם בתשעה באב (ללא מים) ?? תודה רבה",
+   "answers": [
+    {
+     "text": "שלום רב, כן. ללא מים את יכולה ליטול את הגלולה.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/25/%d7%9b%d7%93%d7%95%d7%a8-%d7%9c%d7%9e%d7%a0%d7%99%d7%a2%d7%aa-%d7%94%d7%a8%d7%99%d7%95%d7%9f-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2015072510066914",
+   "legacy": {
+    "source_id": "din-2015072510066914"
+   },
+   "source": "upload",
+   "title": "סעודה רביעית לאישה הרה שלא צמה",
+   "question": "אישה הרה שלא צמה האם צריכה לעשות סעודה רביעית?",
+   "answers": [
+    {
+     "text": "שלום רב, לא. גם אם היא לא צמה, בנתיים עליה לצום ולא לאכול מלווה מלכה",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/25/%d7%a1%d7%a2%d7%95%d7%93%d7%94-%d7%a8%d7%91%d7%99%d7%a2%d7%99%d7%aa-%d7%9c%d7%90%d7%99%d7%a9%d7%94-%d7%94%d7%a8%d7%94-%d7%a9%d7%9c%d7%90-%d7%a6%d7%9e%d7%94/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507251373769",
+   "legacy": {
+    "source_id": "din-201507251373769"
+   },
+   "source": "upload",
+   "title": "רחיצה בתשעה באב",
+   "question": "שבוע טוב האם מותר להתרחץ הערב במוצאי שבת שכבר צום תשעה באב.",
+   "answers": [
+    {
+     "text": "שלום רב, אסור להתרחץ בתשעה באב כלל. עלייך להמתין עד מחר בלילה בצאת הצום.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/25/%d7%a8%d7%97%d7%99%d7%a6%d7%94-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2015072515177658",
+   "legacy": {
+    "source_id": "din-2015072515177658"
+   },
+   "source": "upload",
+   "title": "זמני כניסת צום תשעה באב במרכז",
+   "question": "שלום כבוד הרב, מהו זמן כניסת צום תשעה באב במרכז? והצום לא נכנס איך שיוצאת השבת?",
+   "answers": [
+    {
+     "text": "הצום נכנס בדיוק במוצאי שבת. אלא שמאחר שכבר מהשקיעה יש ספק האם זה יום או לילה לכן אסור לאכול משעה זו (במרכז שעת השקיעה היתה היום ב 7.43).",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/25/%d7%96%d7%9e%d7%a0%d7%99-%d7%9b%d7%a0%d7%99%d7%a1%d7%aa-%d7%a6%d7%95%d7%9d-%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-%d7%91%d7%9e%d7%a8%d7%9b%d7%96/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507252122886",
+   "legacy": {
+    "source_id": "din-201507252122886"
+   },
+   "source": "upload",
+   "title": "איכה לנשים / ציחצוח שיניים בצום למי שיש פלטה (יישור שיניים)",
+   "question": "שלום כבוד הרב! איזה תפילה אני צריכה להיתפלל בערב תשעה באב..? (לא בבית כנסת) ויש לי פלטה שאני צריכה לשים אותה בלילה ואני מצחצחת אותה עם משחת שיניים מה לעשות בתשעה באב?",
+   "answers": [
+    {
+     "text": "שלום רב א. עדיף שתקראי מגילת איכה, גם כשאת בבית. ב. בתשעה באב אסור לצחצח שיניים. תאלצי להמתין לאחר סיום הצום.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/25/%d7%90%d7%99%d7%9b%d7%94-%d7%9c%d7%a0%d7%a9%d7%99%d7%9d-%d7%a6%d7%99%d7%97%d7%a6%d7%95%d7%97-%d7%a9%d7%99%d7%a0%d7%99%d7%99%d7%9d-%d7%91%d7%a6%d7%95%d7%9d-%d7%9c%d7%9e%d7%99-%d7%a9%d7%99%d7%a9/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507254493395",
+   "legacy": {
+    "source_id": "din-201507254493395"
+   },
+   "source": "upload",
+   "title": "האם אישה צריכה לומר קינות ?",
+   "question": "שבוע טוב כבוד הרב יש לי שאלה 1. מה אשה צריכה לנהוג 2. האם היא צריכה לקרוא תפילת איכה או קינות 3. אם כן איזה פסוקים או פרקים קוראים תודה וצום מועיל",
+   "answers": [
+    {
+     "text": "שלום רב, אישה גם צריכה לומר קינות ומגילת איכה. אבל אין חובה לומר את כל הקינות, וגם אין קינות שיש חובה לאומרם, …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/25/%d7%94%d7%90%d7%9d-%d7%90%d7%99%d7%a9%d7%94-%d7%a6%d7%a8%d7%99%d7%9b%d7%94-%d7%9c%d7%95%d7%9e%d7%a8-%d7%a7%d7%99%d7%a0%d7%95%d7%aa/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507255461917",
+   "legacy": {
+    "source_id": "din-201507255461917"
+   },
+   "source": "upload",
+   "title": "שטיפת כלים בתשעה באב",
+   "question": "האם מותר לשטוף כלים ולנקות את הבית אחרי שבת בתשעה באב",
+   "answers": [
+    {
+     "text": "שלום רב, יש להמתין עד מחר בחצות משום שאסור להסיח דעת מהאבלות.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/25/%d7%a9%d7%98%d7%99%d7%a4%d7%aa-%d7%9b%d7%9c%d7%99%d7%9d-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507256236015",
+   "legacy": {
+    "source_id": "din-201507256236015"
+   },
+   "source": "upload",
+   "title": "צום לבת ששוקלת רק 25קילו",
+   "question": "ביתי שובל בת 12 וחצי שוקלת 25 קילו הרופא אמר לי לפני חודשיים שאסור לה לצום רציתי לשאול האם לפי ההלכה השנה היא צריכה לצום בתשעה באב נדחה אודה לכם על תשובתכם בהקדם.",
+   "answers": [
+    {
+     "text": "שלום רב, נראה שלא כדאי לה לצום.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/25/%d7%a6%d7%95%d7%9d-%d7%9c%d7%91%d7%aa-%d7%a9%d7%a9%d7%95%d7%a7%d7%9c%d7%aa-%d7%a8%d7%a7-25%d7%a7%d7%99%d7%9c%d7%95/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2015072616598162",
+   "legacy": {
+    "source_id": "din-2015072616598162"
+   },
+   "source": "upload",
+   "title": "צביעת שיער בתשעה באב",
+   "question": "האם ניתן לצבוע שיער היום בצום תשעה באב (יוצאי ספרד ) ?",
+   "answers": [
+    {
+     "text": "שלום רב, אסור לצבוע שיער בתשעה באב, אין הבדל בין ספרדים לאשכנזים.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/26/%d7%a6%d7%91%d7%99%d7%a2%d7%aa-%d7%a9%d7%99%d7%a2%d7%a8-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507261962551",
+   "legacy": {
+    "source_id": "din-201507261962551"
+   },
+   "source": "upload",
+   "title": "שמיעת מוזיקה במוצאי תשעה באב נדחה",
+   "question": "האם מותר לשמוע מוזיקה במוצאי תשעה באב שנדחה ליום ראשון?",
+   "answers": [
+    {
+     "text": "שלום רב, נוהגים (אשכנזים) להחמיר גם בשמיעת מוזיקה עד מחר בבוקר. מקורות: ראה בספר הלכות חג בחג – בית המצרים עמוד ריז שהביא ששמע מהגרי\"ש אלישיב שאסור לשמוע מוזיקה עד מחר.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/26/%d7%a9%d7%9e%d7%99%d7%a2%d7%aa-%d7%9e%d7%95%d7%96%d7%99%d7%a7%d7%94-%d7%91%d7%9e%d7%95%d7%a6%d7%90%d7%99-%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-%d7%a0%d7%93%d7%97%d7%94/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507262417103",
+   "legacy": {
+    "source_id": "din-201507262417103"
+   },
+   "source": "upload",
+   "title": "דאודורנט בתשעה באב",
+   "question": "האם מותר לשים ספריי דאודורנט ב ט׳ באב ? והאם יש הבדל בין לשים ישירות על הגוף או על הבגד מעל ?",
+   "answers": [
+    {
+     "text": "מי שיש ממנו ריח רע רשאי לשים דאודורנט, באופן כזה זה אינו נחשב סיכה של תענוג.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/26/%d7%93%d7%90%d7%95%d7%93%d7%95%d7%a8%d7%a0%d7%98-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507263222705",
+   "legacy": {
+    "source_id": "din-201507263222705"
+   },
+   "source": "upload",
+   "title": "בילוי וים לאחר סיום צום תשעה באב",
+   "question": "שלום כבוד הרב, אחרי שייצא צום תשעה באב, יהיה מותר ללכת לים ולבלות? כאילו לאחר תשעה באב מסתיים ימי בין המצרים? לא הבנתי איך זה עובד",
+   "answers": [
+    {
+     "text": "מנהגי האבלות נמשכים עד י' באב בחצות היום, השנה שהתענית נדחית, החל מהערב בטלים כל מנהגי האבילות, למעט בשר ויין שמותר רק ממחר בבוקר מחמת אבלות שנהגה ביום.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/26/%d7%91%d7%99%d7%9c%d7%95%d7%99-%d7%95%d7%99%d7%9d-%d7%9c%d7%90%d7%97%d7%a8-%d7%a1%d7%99%d7%95%d7%9d-%d7%a6%d7%95%d7%9d-%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507263679309",
+   "legacy": {
+    "source_id": "din-201507263679309"
+   },
+   "source": "upload",
+   "title": "חולה וצום ט באב",
+   "question": "המקום ינחם אתכם רציתי לשאול את הרבנים הקדושים , בעלי חולה במחלה הידועה וסובל בנוסף מבעיה נוירולוגית קשה שגורמת לעילפון, נפיחות קשה ברכות במצח (שיכול להביא לשבץ חו\"ח ) הוא חייב לאכול ולשתות כל כמה שעות וליטול כדורים שמיטבים את המצב ומשככים כאבים (כמו מורפיום וכו') אחרי שניסינו שכמה דרכים להוריד את הנפיחות (שקיות של …",
+   "answers": [],
+   "url": "https://din.org.il/2015/07/26/%d7%97%d7%95%d7%9c%d7%94-%d7%95%d7%a6%d7%95%d7%9d-%d7%98-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "unanswered",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507263878652",
+   "legacy": {
+    "source_id": "din-201507263878652"
+   },
+   "source": "upload",
+   "title": "אדם שאכל בתחילת הצום אם הוא מחוייב להמשיך לצום",
+   "question": "שלום רב. תחילה היה לי קשה עם הצום, ולכן החלטתי לא לצום. לאחר שעתיים החלטתי שאני צמה. כרגע אני מתכוונת לצום עד מחר בערב. זה בסדר? אני ממש מפחדת שזה פשוט לא קביל.",
+   "answers": [
+    {
+     "text": "שלום רב, גם אם בתחילה לא צמת. את מחוייבת להמשיך לצום ואסור לך לאכול במהלך הצום.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/26/%d7%90%d7%93%d7%9d-%d7%a9%d7%90%d7%9b%d7%9c-%d7%91%d7%aa%d7%97%d7%99%d7%9c%d7%aa-%d7%94%d7%a6%d7%95%d7%9d-%d7%90%d7%9d-%d7%94%d7%95%d7%90-%d7%9e%d7%97%d7%95%d7%99%d7%99%d7%91-%d7%9c%d7%94%d7%9e%d7%a9/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-20150726426907",
+   "legacy": {
+    "source_id": "din-20150726426907"
+   },
+   "source": "upload",
+   "title": "סרטים בתשעה באב",
+   "question": "שלום הרב! האם בצום תשעה באב מותר לראות סרטים? ( כדי להעביר את הצום..)",
+   "answers": [
+    {
+     "text": "שלום רב, עד חצות אסור לעשות כלום, אפילו לא לסדר את הבית – רק כדי שלא להסיח דעת מהאבלות. לאחר חצות מותר לסדר את הבית אבל נראה לי שסרטים זה פשוט לא ראוי ליום כזה…",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/26/%d7%a1%d7%a8%d7%98%d7%99%d7%9d-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-2/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201507267367544",
+   "legacy": {
+    "source_id": "din-201507267367544"
+   },
+   "source": "upload",
+   "title": "כדור שינה בתשעה באב",
+   "question": "מותר לי לקחת כדור שינה בתשעה באב?",
+   "answers": [
+    {
+     "text": "שלום רב, כן. בלי מים מותר.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2015/07/26/%d7%9b%d7%93%d7%95%d7%a8-%d7%a9%d7%99%d7%a0%d7%94-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2015100714248594",
+   "legacy": {
+    "source_id": "din-2015100714248594"
+   },
+   "source": "upload",
+   "title": "תפירה בתשעת הימים",
+   "question": "תפירה בתשעת הימים",
+   "answers": [],
+   "url": "https://din.org.il/2015/10/07/%d7%aa%d7%a4%d7%99%d7%a8%d7%94-%d7%91%d7%aa%d7%a9%d7%a2%d7%aa-%d7%94%d7%99%d7%9e%d7%99%d7%9d-2/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "unanswered",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201605039157907",
+   "legacy": {
+    "source_id": "din-201605039157907"
+   },
+   "source": "upload",
+   "title": "טיסה לחו\"ל בתשעה באב",
+   "question": "שלום רב, סגרנו טיסה לחו\"ל לחופשה ובדיעבד שמנו לב שהיא נופלת ביום תשעה באב. עלות הביטול וההפרש שנצטרך לשלם אם הטיסה תהיה ביום אחר היא גבוהה. האם מותר לנסוע או לבטל ולדחות את הטיסה ? שלום רב מעיקר הדין נראה שיש להקל לטוס בתשעה באב אחרי חצות היום כשמניעת הטיסה כרוכה בהפסד מרובה, בפרט בתענית …",
+   "answers": [],
+   "url": "https://din.org.il/2016/05/03/%d7%98%d7%99%d7%a1%d7%94-%d7%9c%d7%97%d7%95%d7%9c-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "unanswered",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2016063013734063",
+   "legacy": {
+    "source_id": "din-2016063013734063"
+   },
+   "source": "upload",
+   "title": "בית מלון בתשעת הימים",
+   "question": "האם מותר לצאת לבית מלון בתשעת הימים בתשעה באב ולהיכנס לבריכה ?",
+   "answers": [
+    {
+     "text": "שלום רב, לדעת הספרדים זה יותר קל ואפשר שגם מותר אם כי ראוי להמנע מבילויים בימים אלו, וכפי שכתב בשו\"ע סי' תקנא סעי' א' ב' שממעטים במשא ומתן של שמחה. ולדעת האשכנזים זה בעיה. כלומר, בריכה אסור, כי רחיצה אסורה. בילוי בבית …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2016/06/30/%d7%91%d7%99%d7%aa-%d7%9e%d7%9c%d7%95%d7%9f-%d7%91%d7%aa%d7%a9%d7%a2%d7%aa-%d7%94%d7%99%d7%9e%d7%99%d7%9d/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201607078335181",
+   "legacy": {
+    "source_id": "din-201607078335181"
+   },
+   "source": "upload",
+   "title": "טיסה בתשעה באב – עד מתי צמים?",
+   "question": "לכבוד הרבנים שלום רב. מי שטס ביום ראשון השנה (צום תשעה באב דחוי) למדינה בצפון אירופה שבא השקיעה היא בשעה 11 בלילה לפי שעון ישראל מתי יוכל לפתוח הצום לפי זמן צאת הצום בישראל או במקום שנמצא שם?",
+   "answers": [
+    {
+     "text": "שלום רב. אם יוצא מישראל לאחר שקיעת החמה עליו להתחיל את הצום בשקיעת החמה בישראל ולסיים …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2016/07/07/%d7%98%d7%99%d7%a1%d7%94-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-%d7%a2%d7%93-%d7%9e%d7%aa%d7%99-%d7%a6%d7%9e%d7%99%d7%9d/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-20160707901573",
+   "legacy": {
+    "source_id": "din-20160707901573"
+   },
+   "source": "upload",
+   "title": "מעבר דירה וחנוכת הבית בשלושת השבועות",
+   "question": "בס\"ד שלום רב. האם מותר לעבור לדירה שכורה בשלושת השבועות? תודה,",
+   "answers": [
+    {
+     "text": "שלום רב, מותר לעבור דירה בשלשת השבועות. ואין כל בעיה. ניתן גם לעשות חנוכת הבית (למי שעושה חנוכת הבית בדיר שכורה) ראה מגן אברהם סי' תקסח סק\"ה שזה סעודת מצווה.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2016/07/07/%d7%9e%d7%a2%d7%91%d7%a8-%d7%93%d7%99%d7%a8%d7%94-%d7%95%d7%97%d7%a0%d7%95%d7%9b%d7%aa-%d7%94%d7%91%d7%99%d7%aa-%d7%91%d7%a9%d7%9c%d7%95%d7%a9%d7%aa-%d7%94%d7%a9%d7%91%d7%95%d7%a2%d7%95%d7%aa/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201607103637813",
+   "legacy": {
+    "source_id": "din-201607103637813"
+   },
+   "source": "upload",
+   "title": "לימוד שחיה בשלושת השבועות",
+   "question": "האם מותר לשחות לצורך בריאות הגוף או לחלופין ללמוד שחיה בשלושת השבועות. אודה מאד על מראה מקומות בהלכה.",
+   "answers": [
+    {
+     "text": "שלום רב, אין איסור לשחות או ללמוד שחיה בשלשת השבועות. האיסור הוא רק מר\"ח אב שאז אסור להתרחץ (לפחות לדעת האשנכזים).",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2016/07/10/%d7%9c%d7%99%d7%9e%d7%95%d7%93-%d7%a9%d7%97%d7%99%d7%94-%d7%91%d7%a9%d7%9c%d7%95%d7%a9%d7%aa-%d7%94%d7%a9%d7%91%d7%95%d7%a2%d7%95%d7%aa/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201607191481352",
+   "legacy": {
+    "source_id": "din-201607191481352"
+   },
+   "source": "upload",
+   "title": "מעוברת בצום תשעה באב",
+   "question": "שלום כבוד הרב . ב\"ה אני בתחילת הריון , שאלתי את הרופאה לגבי צום ט באב היא אמרה לי שאני חייבת לשתות . אם אני שותה בצום זה אומר שניתן גם לאכול או ששתיה בלבד גם נחשב לצום ? בתודה מראש",
+   "answers": [
+    {
+     "text": "שלום רב באופן עקרוני, אשה שאין לה שום סיבוך או קושי מיוחד יכולה …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2016/07/19/%d7%9e%d7%a2%d7%95%d7%91%d7%a8%d7%aa-%d7%91%d7%a6%d7%95%d7%9d-%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-20160720564520",
+   "legacy": {
+    "source_id": "din-20160720564520"
+   },
+   "source": "upload",
+   "title": "נסיעה לנופש בתשעה באב",
+   "question": "האם אפשר בתאריך י באב השנה , בשעות אחהצ (6 או 7) לצאת לכיוון בית מלון לצורך חופשה?",
+   "answers": [
+    {
+     "text": "שלום רב מעיקר הדין בתשעה באב לאחר חצות היום יש מקום להקל לבצע את הנסיעה עצמה, אבל ברור הדבר שכיון שמהות היום אבלות על חורבן הבית, לא מתאים ביום זה לעסוק בשמחה באריזת המזוודות ובנסיעה לחופשה …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2016/07/20/%d7%a0%d7%a1%d7%99%d7%a2%d7%94-%d7%9c%d7%a0%d7%95%d7%a4%d7%a9-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2016072213372763",
+   "legacy": {
+    "source_id": "din-2016072213372763"
+   },
+   "source": "upload",
+   "title": "כיבוס משחקים בתשעת הימים",
+   "question": "כבוד הרב שלום! אני גננת ובחודש אב יש לי חופש, בתשעת הימים הילדים שלי עוד בקיטנות וזה זמן בשבילי לארגן את הגן לשנה הבאה האם מותר לי לכבס את המשחקים של הגן?(אני מעדות אשכנז) תודה רבה, רבה!",
+   "answers": [
+    {
+     "text": "שלום רב פעולת הכיבוס שאסרו בתשעת הימים מתייחסת לבגדים. משחקי פלסטיק, כשם שמותר לרחוץ אותם אחד אחד …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2016/07/22/%d7%9b%d7%99%d7%91%d7%95%d7%a1-%d7%9e%d7%a9%d7%97%d7%a7%d7%99%d7%9d-%d7%91%d7%aa%d7%a9%d7%a2%d7%aa-%d7%94%d7%99%d7%9e%d7%99%d7%9d/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2016072412098796",
+   "legacy": {
+    "source_id": "din-2016072412098796"
+   },
+   "source": "upload",
+   "title": "צום נדחה בתשעה באב",
+   "question": "שלום: השנה תשעה באב נדחה ליום ראשון ויוצא שצמים ב י' באב. כידוע ההיכל בער מתשעה באב לפנות ערב עד י' באב בצהריים האם מותר השנה לצום רק עד הצהריים ואחרי הצהריים להפסיק לצום?",
+   "answers": [
+    {
+     "text": "שלום רב חלילה. כשחכמים תיקנו תענית התקנה היתה להתענות 24 שעות, ולא משנה כלל מה היתה השעה המדוייקת בה בער …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2016/07/24/%d7%a6%d7%95%d7%9d-%d7%a0%d7%93%d7%97%d7%94-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201607242416487",
+   "legacy": {
+    "source_id": "din-201607242416487"
+   },
+   "source": "upload",
+   "title": "בריכה ובית מלון בשלשת השבועות",
+   "question": "שלום לרבנים! האם מותר מיז בתמוז עד ראש חודש אב ללכת לבריכה? ובית מלון?",
+   "answers": [
+    {
+     "text": "שלום רב, כן. עד ראש חודש אב אפשר ללכת לבריכה ולבית מלון. לאחר מכן לבריכה אסור, וכלל לא ראוי ללכת לבית מלון. ימים אלו הם ימי אבל לעם ישראל ויש למעט בהם בבילויים והנאות.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2016/07/24/%d7%91%d7%a8%d7%99%d7%9b%d7%94-%d7%95%d7%91%d7%99%d7%aa-%d7%9e%d7%9c%d7%95%d7%9f-%d7%91%d7%a9%d7%9c%d7%a9%d7%aa-%d7%94%d7%a9%d7%91%d7%95%d7%a2%d7%95%d7%aa/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201607243236854",
+   "legacy": {
+    "source_id": "din-201607243236854"
+   },
+   "source": "upload",
+   "title": "חנוכת בית בימי בין המצרים",
+   "question": "בסד שלום לכבוד הרב רציתי לשאול האם בשלושת השבועות מותצר לעשות חנוכת בית עם סעודה ללא מוזיקה ? האם יש מניעה הלכתית בגלל שצריך לברך שהחינו על בגד חדש או פרי אשמח ל",
+   "answers": [
+    {
+     "text": "בעניין תשובה: שלום רב, אפשר לערוך חנוכת הבית בשלשת השבועות – עד ר\"ח אב. אולם בלי לברך שהחינו. ראה עוד כאן.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2016/07/24/%d7%97%d7%a0%d7%95%d7%9b%d7%aa-%d7%91%d7%99%d7%aa-%d7%91%d7%99%d7%9e%d7%99-%d7%91%d7%99%d7%9f-%d7%94%d7%9e%d7%a6%d7%a8%d7%99%d7%9d/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201607245328300",
+   "legacy": {
+    "source_id": "din-201607245328300"
+   },
+   "source": "upload",
+   "title": "כיבוס בשלשת השבועות",
+   "question": "שלום לרבנים! האם יש איסור ב3 השבועות לכבס?",
+   "answers": [
+    {
+     "text": "שלום רב, לא. איסור כיבוס הוא רק מראש חודש אב, ורק לאשכנזים. ספרדים יכולים לכבס עד שבוע שחל בו.",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2016/07/24/%d7%9b%d7%99%d7%91%d7%95%d7%a1-%d7%91%d7%a9%d7%9c%d7%a9%d7%aa-%d7%94%d7%a9%d7%91%d7%95%d7%a2%d7%95%d7%aa/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201607246215096",
+   "legacy": {
+    "source_id": "din-201607246215096"
+   },
+   "source": "upload",
+   "title": "חתימת חוזה בשלשת השבועות",
+   "question": "בסד שלום לכבוד הרב האם מותר בשלושת השבועות לחתום חוזה לדירה להשכרה או לקנייה ??",
+   "answers": [
+    {
+     "text": "שלום רב, עד ר\"ח אב אין כל בעיה. מר\"ח אב מה שאפשר להמנע דוחים לאחר תשעה באב. ראה שו\"ע סי' תקנא משנכנס אב ממעטין במשא ומתן",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2016/07/24/%d7%97%d7%aa%d7%99%d7%9e%d7%aa-%d7%97%d7%95%d7%96%d7%94-%d7%91%d7%a9%d7%9c%d7%a9%d7%aa-%d7%94%d7%a9%d7%91%d7%95%d7%a2%d7%95%d7%aa/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2016072514601940",
+   "legacy": {
+    "source_id": "din-2016072514601940"
+   },
+   "source": "upload",
+   "title": "לימוד שחיה בשלושת השבועת",
+   "question": "כבוד הרבנים שליט\"א שלום וברכה האם מותר ללמוד שחיה בשלושת השבועות? בברכת כל טוב",
+   "answers": [
+    {
+     "text": "שלום רב, מותר ללמוד שחיה בשלשת השבועות. עד ראש חודש, אז אסור גם להתרחץ. לדעת האשכנזים. ולדעת הספרדים רק משבוע שחל בו אסור. השנה שהצום נדחה ליום ראשון, לדעת הרבה מהספרדים אין דין שבוע שחל בו לגבי דיני שבוע שחל בו. …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2016/07/25/%d7%9c%d7%99%d7%9e%d7%95%d7%93-%d7%a9%d7%97%d7%99%d7%94-%d7%91%d7%a9%d7%9c%d7%95%d7%a9%d7%aa-%d7%94%d7%a9%d7%91%d7%95%d7%a2%d7%aa/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201607259870637",
+   "legacy": {
+    "source_id": "din-201607259870637"
+   },
+   "source": "upload",
+   "title": "שבוע שחל בו תשעה באב נדחה",
+   "question": "הבן שלי נקבר ב -ד' תמוז השלושים ב -ד'-אב האם רשאי להסתפר ולהתגלח? אנחנו ספרדים שנוהגים -איסור גילוח ותספורת רק בשבוע שחל בו תשעה באב(השנה אין דין זה?)",
+   "answers": [
+    {
+     "text": "שלום רב לגבי דיני שבוע שחל בו תשעה באב השנה שיום תשעה באב חל בשבת והתענית נדחית ליום ראשון, נחלקו הדעות כמובא בשו\"ע בסי' תקנא, ומנהג …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2016/07/25/%d7%a9%d7%91%d7%95%d7%a2-%d7%a9%d7%97%d7%9c-%d7%91%d7%95-%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-%d7%a0%d7%93%d7%97%d7%94/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2016072613671274",
+   "legacy": {
+    "source_id": "din-2016072613671274"
+   },
+   "source": "upload",
+   "title": "טיסה בצום תשעה באב",
+   "question": "שלום רב, רציתי לברר אם ניתו לטוס ב צום 9 באב ? נוסעים משפחה ומוזיל מאוד את העלויות בתאריך זה, ותאריכים אחרים לא עולים על הפרק שלום רב מעיקר הדין נראה שיש להקל לטוס בתשעה באב אחרי חצות היום כשמניעת הטיסה כרוכה בהפסד מרובה, בפרט בתענית נדחית כמו השנה, אולם מאחר וימים אלו [כל ימי בין …",
+   "answers": [],
+   "url": "https://din.org.il/2016/07/26/%d7%98%d7%99%d7%a1%d7%94-%d7%91%d7%a6%d7%95%d7%9d-%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "unanswered",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201607279921654",
+   "legacy": {
+    "source_id": "din-201607279921654"
+   },
+   "source": "upload",
+   "title": "בגדים חדשים בשבתות של ימי בין המצרים",
+   "question": "בוקר טוב כבוד הרב אני מבקשת לברר לגבי בגדים חדשים בתקופת בין המייצרים. בגדים חדשים שקניתי לפני תקופת בין המייצרים ולא לבשתי בכלל, אני יודעת שאסור ללבוש אותם בתקופה זו אבל מה לגבי שבת? האם בשבת מותר לי לחדש וללבוש אותם ולברך ברוך שהחיינו ואם כן, האם אחרי שבת, כשעדיין בין המייצרים האם אוכל להמשיך …",
+   "answers": [],
+   "url": "https://din.org.il/2016/07/27/%d7%91%d7%92%d7%93%d7%99%d7%9d-%d7%97%d7%93%d7%a9%d7%99%d7%9d-%d7%91%d7%a9%d7%91%d7%aa%d7%95%d7%aa-%d7%a9%d7%9c-%d7%99%d7%9e%d7%99-%d7%91%d7%99%d7%9f-%d7%94%d7%9e%d7%a6%d7%a8%d7%99%d7%9d/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "unanswered",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2016072911801654",
+   "legacy": {
+    "source_id": "din-2016072911801654"
+   },
+   "source": "upload",
+   "title": "להתגלח לכבוד שבת בימי בין המצרים",
+   "question": "שאלה: האם מותר גילוח בבין המצרים ביום שישי ליכבוד שבת (יש בר מצוה לאח) ?",
+   "answers": [
+    {
+     "text": "שלום רב, למנהג האשכנזים יש בזה מחלוקת. הפרי מגדים (סי' תקנא א\"א ס\"ק יד) כתב שלדעת הרמ\"א שאין מסתפרים מי\"ז בתמוז מותר להסתפר לכבוד שבת. ובכף החיים שם הביא שלדעת הרמ\"א אסור. ומנהג היום שאסור להסתפר מי\"ז בתמוז כולל …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2016/07/29/%d7%9c%d7%94%d7%aa%d7%92%d7%9c%d7%97-%d7%9c%d7%9b%d7%91%d7%95%d7%93-%d7%a9%d7%91%d7%aa-%d7%91%d7%99%d7%9e%d7%99-%d7%91%d7%99%d7%9f-%d7%94%d7%9e%d7%a6%d7%a8%d7%99%d7%9d/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2016073111101339",
+   "legacy": {
+    "source_id": "din-2016073111101339"
+   },
+   "source": "upload",
+   "title": "צום תשעה באב נדחה לאישה בהריון",
+   "question": "האם אישה בחודש שמיני להריון צריכה לצום בט' באב הקרוב?",
+   "answers": [
+    {
+     "text": "שלום רב. אם אינה מרגישה צורך כלל לאכול, תצום עד חצות ואז תבדיל ותאכל, אך אם יש לה איזה חולשה או שקשה לה לצום יכולה לכתחילה להבדיל ולאכול כשתרגיש צורך בכך, אפילו בלילה. מקורות: בשבות יעקב חלק ג’ סי’ ל”ז שהוא מקור דברי הביאור …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2016/07/31/%d7%a6%d7%95%d7%9d-%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-%d7%a0%d7%93%d7%97%d7%94-%d7%9c%d7%90%d7%99%d7%a9%d7%94-%d7%91%d7%94%d7%a8%d7%99%d7%95%d7%9f/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2016073113078530",
+   "legacy": {
+    "source_id": "din-2016073113078530"
+   },
+   "source": "upload",
+   "title": "חלוקת מתנה קטנה \\ממתק בתשעת הימים",
+   "question": "האם מותר לילד קטן לחלק ממתק או מתנה קטנה לחבריו ביום האחרון ללימודים (בז' אב) לפרידה, משום שעובר ת\"ת? או שעדיף שיחלק ביום ה' בקרוב, לפני תשעת הימים?",
+   "answers": [
+    {
+     "text": "שלום רב מתנה קטנה כזו אין לה חשיבות ומותר לתת בתשעת הימים, בפרט ילד קטן שמן הסתם לא הגיע עדיין לכלל חינוך לאבלות [גיל חינוך לאבלות …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2016/07/31/%d7%97%d7%9c%d7%95%d7%a7%d7%aa-%d7%9e%d7%aa%d7%a0%d7%94-%d7%a7%d7%98%d7%a0%d7%94-%d7%9e%d7%9e%d7%aa%d7%a7-%d7%91%d7%aa%d7%a9%d7%a2%d7%aa-%d7%94%d7%99%d7%9e%d7%99%d7%9d/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201607317395870",
+   "legacy": {
+    "source_id": "din-201607317395870"
+   },
+   "source": "upload",
+   "title": "האם מותר ללכת לים בשלשת השבועות",
+   "question": "האם מותר ללכת לים בבין המצרים",
+   "answers": [
+    {
+     "text": "שלום רב, מעיקר הדין מותר ללכת בשלשת השבועות לים. וכך כתב גם בשו\"ת יחווה דעת ח\"ו, אולם יש שנזהרו משום שזה מקום סכנה (עפ\"י מה שכתב בשו\"ע סוף סי' תקנא).",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2016/07/31/%d7%94%d7%90%d7%9d-%d7%9e%d7%95%d7%aa%d7%a8-%d7%9c%d7%9c%d7%9b%d7%aa-%d7%9c%d7%99%d7%9d-%d7%91%d7%a9%d7%9c%d7%a9%d7%aa-%d7%94%d7%a9%d7%91%d7%95%d7%a2%d7%95%d7%aa/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2016080112494832",
+   "legacy": {
+    "source_id": "din-2016080112494832"
+   },
+   "source": "upload",
+   "title": "בית מלון בתשעת הימים",
+   "question": "השנה אין שבוע שחל בו תשעה באב..האם יש להקל בענין נופש בבית מלון? האם למנהגי תימן מותר ?",
+   "answers": [
+    {
+     "text": "שלום רב, לדעת השו\"ע והספרדים השנה שתשעה באב נדחה אין שבוע שחל בו, אולם יש חולקים והמחמיר תבוא עליו ברכה (ראה כאן בהרחבה). לכן מעיקר הדין מותר ללכת לבית מלון, בריכה וכו'. אולם ודאי שיש מקום …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2016/08/01/%d7%91%d7%99%d7%aa-%d7%9e%d7%9c%d7%95%d7%9f-%d7%91%d7%aa%d7%a9%d7%a2%d7%aa-%d7%94%d7%99%d7%9e%d7%99%d7%9d-2/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201608015477201",
+   "legacy": {
+    "source_id": "din-201608015477201"
+   },
+   "source": "upload",
+   "title": "הבדלה בתשעת הימים / הבדלה כשתשעה באב חל במוצאי שבת",
+   "question": "בס\"ד שלום רב האם במוצאי שבת קודש שאחרי ראש חודש אב יש להבדיל על כוס יין ולשתות מהיין ? לפי מה שידוע לי אסור לשתות יין אלא רק בשבת מראש חודש אב. בנוסף , כיצד מבדילים במוצאי שבת ט' באב ? האם מותר לאכול בשר עוף /הודו בראש חודש אב ? והאם מותר לאכול בשר …",
+   "answers": [],
+   "url": "https://din.org.il/2016/08/01/%d7%94%d7%91%d7%93%d7%9c%d7%94-%d7%91%d7%aa%d7%a9%d7%a2%d7%aa-%d7%94%d7%99%d7%9e%d7%99%d7%9d-%d7%94%d7%91%d7%93%d7%9c%d7%94-%d7%9b%d7%a9%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-%d7%97%d7%9c/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "unanswered",
+    "needs-review",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-201608017963248",
+   "legacy": {
+    "source_id": "din-201608017963248"
+   },
+   "source": "upload",
+   "title": "אכילת בשר בתשעת הימים למנהג הספרדים",
+   "question": "שלום, 1.השנה, באב הוזז ליום א במקום יום שבת. ממתי אסור לאכול בשר? יצוין כי אנו ספרדים 2. האם ניתן לעזור לאדם נכה בהנחת תפילין של ראש? תודה רבה,אלי",
+   "answers": [
+    {
+     "text": "שלום רב, אכילת בשר לדעת גם הספרדים אסור מראש חודש אב כפי שפסק בשו\"ע סי' תקנא סעי' ט'. (לגבי ראש חודש עצמו יש מחלוקת). ברור …",
+     "accepted": true,
+     "author": "Din Online",
+     "score": 0
+    }
+   ],
+   "url": "https://din.org.il/2016/08/01/%d7%90%d7%9b%d7%99%d7%9c%d7%aa-%d7%91%d7%a9%d7%a8-%d7%91%d7%aa%d7%a9%d7%a2%d7%aa-%d7%94%d7%99%d7%9e%d7%99%d7%9d-%d7%9c%d7%9e%d7%a0%d7%94%d7%92-%d7%94%d7%a1%d7%a4%d7%a8%d7%93%d7%99%d7%9d/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "question-answer",
+    "din-online"
+   ],
+   "date": "2026-01-29",
+   "category": "halacha",
+   "category_confidence": "high"
+  },
+  {
+   "id": "up-din-2016080211177247",
+   "legacy": {
+    "source_id": "din-2016080211177247"
+   },
+   "source": "upload",
+   "title": "חולה בתשעה באב",
+   "question": "שלום יש לי מזה כמה חודשים עליה בכדוריות האדומות בבדיקות הדם, וההמוגלובין גבוה. באופן כללי במצב כזה מומלץ לשתות הרבה על מנת לדלל את הדם. רציתי לשאול האם מוכרת לכם התופעה הזו, ומה עושים לגבי צום תשעה באב במקרה כזה? אציין גם שבאופן כללי אני סובל מכאבי ראש וחולשה בצומות, וכן שלחץ הדם שלי בחלק …",
+   "answers": [],
+   "url": "https://din.org.il/2016/08/02/%d7%97%d7%95%d7%9c%d7%94-%d7%91%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-2/",
+   "tags": [
+    "din",
+    "din-org-il",
+    "halacha",
+    "unanswered",
     "needs-review",
     "din-online"
    ],
