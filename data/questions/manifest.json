@@ -1,9 +1,9 @@
 {
  "schema": 2,
- "generated": "2026-07-15T09:50:41+00:00",
- "total": 59377,
- "chunks": 231,
- "open_chunk": 231,
+ "generated": "2026-07-15T12:35:07+00:00",
+ "total": 59500,
+ "chunks": 232,
+ "open_chunk": 232,
  "max_per_chunk": 500,
  "max_chunk_bytes": 1500000,
  "index_files": [
