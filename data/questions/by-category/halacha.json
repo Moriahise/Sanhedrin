@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "halacha",
- "count": 29268,
+ "count": 29372,
  "entries": [
   {
    "id": "ye-2009121811237500",
@@ -496084,6 +496084,1931 @@
    "c": "halacha",
    "y": 2026,
    "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-158976",
+   "t_he": "",
+   "t_en": "Guilt Over Past Sins",
+   "x": "I committed some sins when I was young and not yet religious which were very serious, and carry the punishment of karet (excision). Although I fully regret my…",
+   "ax": "I’m sorry this is such an upset for you. But I’m happy to write you that your fears and worries are really not warranted. Although it is important that we repe…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2022",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-168202",
+   "t_he": "",
+   "t_en": "How Can There be a Mitzvah to Believe in God?",
+   "x": "We have been studying the Ten Commandments in school, and something really struck me. The first commandment is to believe in God. This got me thinking. How can…",
+   "ax": "It’s a very astute question. This very issue appears to have engendered a famous disagreement among the medieval authorities, which I’ll summarize below. The T…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2022"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-204534",
+   "t_he": "",
+   "t_en": "Using Technology to Improve Human Beings",
+   "x": "I have to write an essay on the topic of it’s ethical to enhance or augment human beings beyond what is considered normal – through microchip implants, gene sp…",
+   "ax": "It’s certainly a fascinating issue. Of course, there are no classical sources which address such recent technological advances, but a few relevant sources do c…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2025",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-206654",
+   "t_he": "",
+   "t_en": "Punishment of 40 (39) Lashes; 39 Forbidden Type of Shabbat Labor",
+   "x": "Why does the Torah decree that a sinner is punished with forty lashes (Deut. 25:3)? Why that number in particular?",
+   "ax": "The verse you referenced appears to decree forty lashes for certain types of sinners: “Forty shall he strike him, he shall not add.” It is not that clear from…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2025"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-216897",
+   "t_he": "",
+   "t_en": "Sleeping Alone at Night",
+   "x": "Is there any problem with sleeping in an empty house?",
+   "ax": "Potentially. The Talmud (Shabbat 151a) writes that one should not sleep alone for Kabbalistic reasons. This applies if you live alone. Even if there are other…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2026",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-216938",
+   "t_he": "",
+   "t_en": "Prayer Versus Accepting God’s Will",
+   "x": "If everything God does is for the best, why do we pray to God – asking Him to change our fate? Shouldn’t we accept that whatever God grants us is right for us…",
+   "ax": "Thank you for your profound question. Even though we do accept that God gives us what is right for us, there are three primary reasons why we still pray: (1) M…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2026"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-218275",
+   "t_he": "",
+   "t_en": "Looking at Nails During Havdalah",
+   "x": "How come during Havdalah some people cover their thumb when the blessing is recited on the flame? I’ve also been told by others to hold the Havdalah candle as…",
+   "ax": "The custom you’re referring to is not primarily to cover your thumb but to look at your fingernails – by folding down your right hand over your thumb and looki…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2026"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-218954",
+   "t_he": "",
+   "t_en": "Why Does God Allow Animals to Suffer?",
+   "x": "Why do so many animals suffer in such terrible ways? A lot of this is caused by man – through such actions as destroying or contaminating natural environments,…",
+   "ax": "Thank you for your important question. Unfortunately, there is no really satisfying answer to this. The basic response is that there is a fundamental differenc…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2026",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-223220",
+   "t_he": "",
+   "t_en": "I Told My Husband I’d Never Move to Israel, Here’s What Happened Next",
+   "x": "I Told My Husband I’d Never Move to Israel, Here’s What Happened Next",
+   "ax": "The unfiltered story of how our family of seven (now eight) left a half-acre in New York, a couch in our master bedroom, and everything comfortable behind — an…",
+   "tg": [
+    "aish",
+    "halacha",
+    "article",
+    "jamie-geller",
+    "published-2026",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-223251",
+   "t_he": "",
+   "t_en": "The Prayer That Was Answered in Auschwitz",
+   "x": "The Prayer That Was Answered in Auschwitz",
+   "ax": "Doctors said Genna might never have children. Standing in Auschwitz, her body proved them wrong, in a way she never saw coming. In July 2018, my husband and I…",
+   "tg": [
+    "aish",
+    "halacha",
+    "article",
+    "sofya-tamarkin",
+    "published-2026"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-223292",
+   "t_he": "",
+   "t_en": "How to Become More Emotionally Connected to Yourself, Your Spouse, and God",
+   "x": "How to Become More Emotionally Connected to Yourself, Your Spouse, and God",
+   "ax": "Simple ways to feel closer to your spouse, yourself, and God this Elul, no big gestures required. Have you ever been in a room full of people yet felt alone? O…",
+   "tg": [
+    "aish",
+    "halacha",
+    "article",
+    "sarah-pachter",
+    "published-2026",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90308",
+   "t_he": "",
+   "t_en": "Praying in English – God’s Name",
+   "x": "I say the prayers in English because I’m too unfamiliar with Hebrew. Can I use the terms “God” and “Lord” for God’s name – as my prayer-book shows? Or are they…",
+   "ax": "English terms like God and Lord are not true names of God and do not truly and accurately translate the Hebrew words for His name. Thus, it’s proper that even…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2017"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90341",
+   "t_he": "",
+   "t_en": "The Shabbos Queen",
+   "x": "My Bible class went to visit a synagogue Friday night. At a point during the services, we all turned to face the back of the synagogue while singing. I was tol…",
+   "ax": "There is a notion that Shabbat is not merely a holy time but it is a personified entity, a queen, which the Children of Israel are wedded to every week. The Mi…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90406",
+   "t_he": "",
+   "t_en": "Is There an Obligation to be Happy?",
+   "x": "Please explain how God can command us to be happy? Let’s say a person is not happy? What should he do about it? He can’t just turn it on!",
+   "ax": "Thank you for your very important question. The truth is, technically speaking there is no obligation in the Torah that we be happy. There is a verse in Psalms…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90410",
+   "t_he": "",
+   "t_en": "Saying God’s Name in Vain",
+   "x": "In my country, people invoke the name of God often in ordinary conversation. They say such things as: “OMG! That is so expensive!” “For God’s sake, please forg…",
+   "ax": "Overall, it’s actually very nice that people in your area include God in their lives so regularly! It’s a great way to recognize that God is in fact involved i…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2018",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90421",
+   "t_he": "",
+   "t_en": "Desiring Sin",
+   "x": "I have a general question about spiritual growth. We all have desires for forbidden acts. Should our attitude be that we’d love to do them but we don’t because…",
+   "ax": "Thank you for your excellent question. Your exact question is addressed by a Midrash (Torat Kohanim 9:12, brought in Rashi to Leviticus 20:26). Here is the quo…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90422",
+   "t_he": "",
+   "t_en": "Dolls, Figurines",
+   "x": "Are having dolls or figurines a contradiction to the Torah’s command not to have images?",
+   "ax": "Apart from the Torah’s prohibition against making or owning actual idols, we are not allowed to make certain divine or celestial items even if they are in no w…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2018",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90499",
+   "t_he": "",
+   "t_en": "Significance of Dreams",
+   "x": "I have recently been having a disturbing dream involving someone close to me. The dream has repeated at least once. What does Judaism say about this sort of th…",
+   "ax": "I’m sorry about your upset first of all. I hope the best for you and yours. Judaism sees dreams as usually inconsequential but once in a while significant. The…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2014",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90522",
+   "t_he": "",
+   "t_en": "Astrology, Horoscopes",
+   "x": "Does Judaism believe in astrology? Is there any validity to it or is it just pagan nonsense – some of which made its way into Jewish teachings? Along the same…",
+   "ax": "Thank you for your very important question. The Jewish belief is that astrology is a real force. It is one of the means God placed in the world of channeling s…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2015",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90563",
+   "t_he": "",
+   "t_en": "Two Yuds for Name of God",
+   "x": "I see that prayer books often show God’s name with two letter yud‘s together. Is that one of God’s names? And what is the basis for it?",
+   "ax": "It’s a very good question. The truth is, the double-yud symbol is a bit of a historical anomaly (as heard from my father of blessed memory, Rabbi Azriel Rosenf…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2016"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90566",
+   "t_he": "",
+   "t_en": "Sacrifices Versus Idolatry",
+   "x": "I’ve never really been able to wrap my head around the concept of korbanot (sacrifices). To me it seems like such a primitive act, offering meat to God, a thro…",
+   "ax": "You are right that the notion of animal sacrifice appears very unusual to us. But this is in part because of an association it has in our minds with pagan reli…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2017"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90652",
+   "t_he": "",
+   "t_en": "Apology Guidelines",
+   "x": "If a person has done something to wrong another person, and wants to make amends, I know he is supposed to apologize. But in this case the person he wronged do…",
+   "ax": "If it will embarrass the person, one should not mention the reason for the apology. He should just apologize generally for any wrong he may have done to him. (…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90680",
+   "t_he": "",
+   "t_en": "Achieving Immortality",
+   "x": "In the various life choices I’ve made – career, family, etc – I notice one common denominator: I am on a quest for immortality. I want to leave a legacy. Would…",
+   "ax": "To compensate for the impermanence of flesh, the Pharaohs built pyramids, the Emperors built Rome, and Donald Trump built skyscrapers. To some, cloning is a wa…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90696",
+   "t_he": "",
+   "t_en": "Harry Potter and the Jews",
+   "x": "The Harry Potter series is so popular, but it got me wondering: Does it classify as witchcraft? Should children be allowed / encouraged / discouraged in its re…",
+   "ax": "No one can deny that the Harry Potter stories are riveting entertainment and fine literature. But I suppose the criteria for a rabbi would be: Do they teach Je…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90706",
+   "t_he": "",
+   "t_en": "Golden Calf",
+   "x": "If the Jews had just witnessed God's awesome power in the 10 Plagues, the splitting of the Red Sea, and the revelation at Mount Sinai, how could these same peo…",
+   "ax": "The answer is that the Jews never built the Calf with the intention it should be worshipped. Here's what happened: Moses went up the mountain for 40 days, and…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90744",
+   "t_he": "",
+   "t_en": "Attaining Spirituality",
+   "x": "I want to become a more spiritual person. I feel my life is stuck in a swamp of fashion, technology, and consumption. How do I break out of this and get in tou…",
+   "ax": "Simply put, when a person is seeking spirituality, it usually means trying to connect to a Power that transcends the mundane, that will connect to eternity. Ho…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90749",
+   "t_he": "",
+   "t_en": "Color Blind",
+   "x": "I understand that every phenomenon in our physical world has a corresponding message in the metaphysical world. Could you please tell me why some people are co…",
+   "ax": "In terms of observing the mitzvot, there is no major difference between a color blind person and one who with normal vision. The color blind person is obligate…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90751",
+   "t_he": "",
+   "t_en": "Court Punishments",
+   "x": "I recently heard a rabbi speak about returning stolen funds. He said that rather than calling the police, the money could be returned anonymously. What is wron…",
+   "ax": "Excellent question! The idea is like this: Since a human court cannot determine what is in the heart of man, they have to punish according to the rules of the…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90755",
+   "t_he": "",
+   "t_en": "Dybbuk",
+   "x": "I recently received tickets to a ballet called \"The Dybbuk,\" with music by Leonard Bernstein. It sounds like something like the \"Jewish Exorcist.\" Please tell…",
+   "ax": "A dybbuk is a case of a dead person, whose soul is sent wandering by God because the soul does not merit eternal rest. In some instances that soul may \"chase\"…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90758",
+   "t_he": "",
+   "t_en": "Five Levels of Pleasure - Source",
+   "x": "I really enjoyed reading Rabbi Weinberg's “Five Levels of Pleasure.” I studied in yeshiva but I never encountered this anywhere before. What is the source of t…",
+   "ax": "The Sefer HaChinuch (mitzvah 418 - Ahavas Hashem) writes that there nothing in the world - neither wealth (materialism), family (love), honor (right thing), no…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90759",
+   "t_he": "",
+   "t_en": "Free Will vs. Predestination",
+   "x": "If God is truly omniscient and omnipotent (knows the future), then how do I have free will? Everything we do God must want us to do - since He is omnipotent. I…",
+   "ax": "Often, a result is predetermined, but the path to get there is not. I like to think of it as a circle, with one point designated as the \"finish line.\" You can…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90762",
+   "t_he": "",
+   "t_en": "Go For It",
+   "x": "I'm turning 40 this year. I feel like life is passing me by. When opportunities present themselves, I hesitate, and then it's too late. I don't want to be look…",
+   "ax": "Let me share with you a story from the Bible. After the Jews left Egypt, amidst the plagues and miracles, the entire Jewish nation reached the shores of the Re…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90896",
+   "t_he": "",
+   "t_en": "Great Teshuva",
+   "x": "My friend and I are having a disagreement about degrees of righteousness in God's eyes. Who is greater: One who is virtuous by inclination, or one who is virtu…",
+   "ax": "The Talmud says: \"In a place where a ba'al teshuva (spiritual returnee) stands, even a full tzaddik cannot stand\" (Brachot 34b). The idea is that by having sun…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90899",
+   "t_he": "",
+   "t_en": "What is Holiness?",
+   "x": "I recently heard a rabbi speak about the need to bring holiness into our lives. He spoke about eating kosher food, speaking positively about others, and acting…",
+   "ax": "I applaud you for perceiving the necessity of finding the right definition. You can't begin any serious process unless you have a definition. Rabbi Noah Weinbe…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90903",
+   "t_he": "",
+   "t_en": "Intentional Mistakes",
+   "x": "I've been enjoying the philosophy articles on Aish.com. The approach to life resonates with me much more than the Western style of consumerism and media hype.…",
+   "ax": "You have touched on a deep truth, but ultimately your principle is mistaken. The Talmud states: \"In a place where a reformed sinner stands, even a righteous tz…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90908",
+   "t_he": "",
+   "t_en": "Mazal Tov!",
+   "x": "I am not Jewish, but I frequently hear the words \"Mazal Tov\" at a wedding or on television. What is the origin of this expression?",
+   "ax": "Mazal is the astrological influence that a person is born under. The Talmud (Shabbat 156a) discusses what has a greater influence on a person: the day of the w…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90909",
+   "t_he": "",
+   "t_en": "Music & Spirituality",
+   "x": "I love heavy metal music and as I have become more drawn to Torah and religion, I am wondering: Is it okay to listen to Black Sabbath?",
+   "ax": "Music is a transcendent power. Music is a deep expression of the soul, used to articulate things that can't be expressed in words. Because of its transcendent…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90910",
+   "t_he": "",
+   "t_en": "Nipples - Men",
+   "x": "This one has puzzled me for a long time, and I thought maybe you would have an answer: Why do men have nipples?",
+   "ax": "Nipples represent the ability to nurture. Women can obviously experience this from both a physical and spiritual perspective. As modern research has shown, mot…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90919",
+   "t_he": "",
+   "t_en": "Pleasure",
+   "x": "I could scarcely believe my eyes when I read your claim that Judaism teaches that the purpose of life is to seek pleasure. How can you, as a rabbi, be serious?…",
+   "ax": "Perhaps we need to define our terms. What is \"pleasure\"? Every creature in the universe is programmed to pursue pleasure. The wolf seeks meat, the bear seeks w…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90920",
+   "t_he": "",
+   "t_en": "Prayer of an Atheist",
+   "x": "I enjoy being Jewish, but I have trouble connecting with God. I just don't see Him in my life, and I am suspecting that He does not exist. I don't really have…",
+   "ax": "A basic tenet of Judaism is that since it is impossible to prove that God does \"not\" exist, therefore atheism is built on blind faith. I would like to share wi…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90921",
+   "t_he": "",
+   "t_en": "The Purpose of Life",
+   "x": "I'm 16, thinking about my life, college, career. I see a lot of unhappy adults and I don't want to end up like them. They have a lot of money, but their person…",
+   "ax": "Believe it or not, the purpose of life is to attain pleasure. A primary source of pleasure is having power. What is power? A glance at the world would tell us…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90926",
+   "t_he": "",
+   "t_en": "Relying on Miracles",
+   "x": "With the ongoing problems in Israel, do you believe that God will intercede on the Jews’ behalf? And if He has done so many times in the past, why are the Jews…",
+   "ax": "This is great question that I, living in Israel, think about every day. Indeed, God has made consistent miracles for the Jews in Israel - the sandstorm that ru…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90927",
+   "t_he": "",
+   "t_en": "Who is Satan?",
+   "x": "I have a Christian friend who is always talking about God's battle with Satan. Why is Satan allowed to come to earth to sow death, hatred, and other turmoil? I…",
+   "ax": "Although Judaism introduced the concept of Satan, it differs significantly from the later Christian idea. In Judaism, Satan is just another one of the many spi…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90928",
+   "t_he": "",
+   "t_en": "Self Discovery",
+   "x": "I grew up in the United States and at around age 20 became disillusioned with society. I just felt that the materialism and commercialism was breeding too much…",
+   "ax": "Thank you for writing and sharing your thoughts. I'd like to share with you an episode that occurs in the Bible (Genesis 12:1): God appears to Abraham and comm…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90931",
+   "t_he": "",
+   "t_en": "Stolen Funds",
+   "x": "In my college days, I stole approximately $300. This was 7 years ago. I have wanted to give it back all this time. But I am too embarrassed to tell the guy I s…",
+   "ax": "First, I am deeply moved by your desire to make amends. Imagine the sensitivity of your soul to be bothered by this for so long! This reminds me of an incident…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90936",
+   "t_he": "",
+   "t_en": "Suffering: Why?",
+   "x": "I have had a very difficult life, beset by illness, unemployment, and disappointment from those who had pledged to care for me. I am having trouble seeing the…",
+   "ax": "I am very sorry to hear about the difficult times that you have had to endure. The trials that you have gone through no doubt have obviously made your relation…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90941",
+   "t_he": "",
+   "t_en": "Religion for Children of Divorced Parents",
+   "x": "I am struggling to cope with my ex-spouse who is openly hostile to Judaism as it pertains to the children we share custody of. I yearn for a deeper connection…",
+   "ax": "Your struggle is a noble one and in the end you will not regret any of the efforts you invest in this. My advice is that foremost, it is crucial that you not p…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90949",
+   "t_he": "",
+   "t_en": "Trying to Escape",
+   "x": "When the Israelites were in the wilderness and were 'craving' meat so badly, why didn't they just use some of the cattle that they had. I realize some of that…",
+   "ax": "Your question was asked in the Midrash (Yalkut Shimoni - B'Ha'alotcha 736). The answer is that they had plenty, and were just looking for things what to compla…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90958",
+   "t_he": "",
+   "t_en": "Writing the Name \"God\"",
+   "x": "When I was a young kid going to Hebrew school, I was taught that we never write the full name of God; that it should always be written with a dash in place of…",
+   "ax": "There are two separate issues here. One is the legal issue of erasing God's Name; the other is the emotional issue of treating the Name with proper respect. Fi…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91000",
+   "t_he": "",
+   "t_en": "Playing Music on Shabbat",
+   "x": "I have a question concerning playing music on Shabbat. My uncle is a wonderful guitar player and singer. He writes many songs and aspires to share his music wi…",
+   "ax": "I appreciate the sincerity of your question. Of course there are many beautiful aspects of Shabbat -- the candles, the challah, the wine, and the opportunity f…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91004",
+   "t_he": "",
+   "t_en": "One Night of Chanukah?",
+   "x": "This year during Chanukah I will be on a wilderness survival trip, and it will be very difficult to properly celebrate the holiday. I certainty won't be able t…",
+   "ax": "If a person can only celebrate one day of Chanukah, he should celebrate the first day. This is similar to a case where a person is in prison, and the authoriti…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91033",
+   "t_he": "",
+   "t_en": "Pop Music",
+   "x": "For the past few months, my colleague at work has been listening to Christian pop music. Over time, I have grown to enjoy it very much and even sing along! My…",
+   "ax": "In Judaism, music and song is considered one of the most powerful forces that exist to affect the hearts of human beings. The entirety of Torah is referred to…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "yerachmiel-fried",
+    "published-2012",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91041",
+   "t_he": "",
+   "t_en": "Singularity Theory",
+   "x": "Time Magazine recently ran an article on Singularity Theory, which was new to me and very fascinating, and scary at the same time, that human intelligence is a…",
+   "ax": "I am a bit familiar, but far from well-versed in this theory. Vernor Vinge and Ray Kurzweil take the lead among other scientists and mathematicians whom have s…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "yerachmiel-fried",
+    "published-2012",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91042",
+   "t_he": "",
+   "t_en": "Tachanun Prayer",
+   "x": "I was visiting a synagogue this week and after the silent Amidah everyone sat down and put their heads on their arms, like a sleeping position. I have never se…",
+   "ax": "The prayer you witnessed is called \"Tachanun,\" meaning \"supplication of compassion.\" It is also called \"nefillas apayim,\" \"falling of the face\". This is a pray…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "yerachmiel-fried",
+    "published-2012"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91043",
+   "t_he": "",
+   "t_en": "Tai Chi",
+   "x": "I recently took a class in Tai Chi, which focused a lot on an unseen force flowing in the universe and through the body they call \"Chi,\" which can be focused f…",
+   "ax": "This concept is not inconsistent with mainstream Jewish ideology, as long as one believes that this force, like all forces in the universe, is created and cont…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "yerachmiel-fried",
+    "published-2012",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91044",
+   "t_he": "",
+   "t_en": "Torah Study and the Jewish Soul",
+   "x": "I’m trying to sort out a feeling I’m experiencing: I’ve studied about Judaism in Sunday school, was bat mitzvah’d, and have studied Judaism as a student of com…",
+   "ax": "It is a universal human experience that when one is away from home, and particularly from the home of one’s youth, one longs to be back there. The Torah teache…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "yerachmiel-fried",
+    "published-2012"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91050",
+   "t_he": "",
+   "t_en": "Exodus - Blood on the Doorpost",
+   "x": "The Torah describes (Exodus 12:6-7) how each Hebrew family designates a lamb, and sets it aside. On the evening of the Israelites' deliverance from slavery in…",
+   "ax": "When oppressed people become free, they are frequently just as brutal as their erstwhile oppressors. It turns out that it is not oppression they objected to. T…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2012",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91069",
+   "t_he": "",
+   "t_en": "Cheating on Tests – Repentance",
+   "x": "I cheated on a school test recently and I feel guilty about it. What should I do now? Should I confess to the teacher?",
+   "ax": "It’s very nice, first of all, that you want to make up for your past mistakes. In doing so, I hope you will turn your negative past behavior into a positive ex…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2015",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91081",
+   "t_he": "",
+   "t_en": "Solar Eclipse",
+   "x": "We learned in school about the solar eclipse. Can you give me Jewish perspective on solar eclipses? Is there a blessing to say, or another appropriate response?",
+   "ax": "Basic to Jewish Kabbalistic thought is the idea that everything in the physical world is a metaphor for a spiritual concept. What is the specific message of a…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91089",
+   "t_he": "",
+   "t_en": "Welcoming Guests",
+   "x": "I'm a recent convert to Judaism, and one of the things that impresses me the most about the Jewish community is the way people have so generously opened their…",
+   "ax": "Hachnasat Orchim, welcoming guests, is one of the key ways of \"emulating God.\" In describing the mitzvah to walk in God's ways, the Talmud says: \"Just as He is…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91109",
+   "t_he": "",
+   "t_en": "Suicide Bombers",
+   "x": "Israel has suffered from many gruesome terrorist attacks. What I cannot understand is that a suicide bomber is a human being, born in the image of God. So what…",
+   "ax": "First of all, I would like to dispel a myth which ascribes suicide bombing to poverty and despair. The New York Times claimed that suicide recruits are \"common…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91130",
+   "t_he": "",
+   "t_en": "Downfall of the Enemy",
+   "x": "I married a negative person who has a very negative attitude. All these years whenever his meanness or negativity was pointed in my direction, I would scream a…",
+   "ax": "You've arrived at a deep spiritual truth. The Talmud (Brachot 10a) tells about some neighborhood bandits who were constantly harassing Rabbi Meir. One day Rabb…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-158974",
+   "t_he": "",
+   "t_en": "Was Shavuot Originally an Agricultural Holiday?",
+   "x": "I am somewhat perplexed about the holiday of Shavuot. The Torah describes it as an agricultural holiday, celebrating the harvest. It doesn’t seem to have anyth…",
+   "ax": "Thank you for raising the very good issue. It is true that the written Torah appears to describe Shavuot as an agricultural holiday, celebrating the harvest. S…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2022",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-168192",
+   "t_he": "",
+   "t_en": "Redemption of Firstborn Donkey",
+   "x": "Why was the donkey the only non-kosher animal whose firstborn required redemption?",
+   "ax": "Your question is correct that the donkey was the only non-kosher animal which required redemption. Unlike the cow, sheep and goat, whose firstborns were given…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2022"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-178822",
+   "t_he": "",
+   "t_en": "The Basis for Rabbinical Authority",
+   "x": "What is the basis for rabbinical authority? Does a rabbi have a legal right to impose his interpretations and decisions on others? Also, is there a hierarchy o…",
+   "ax": "Thank you for raising these very important issues. In earlier times, the Jewish legal system was fairly structured and well-defined. There was a process of ord…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2023",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-188831",
+   "t_he": "",
+   "t_en": "Crowns on Torah’s Letters",
+   "x": "I’ve read that some of the Hebrew letters have crowns drawn on top of them when they’re written in the Torah. Which letters does this apply to? What do they lo…",
+   "ax": "Thank you for raising the interesting issue. As you wrote, some of the letters, when written in the Torah, have tiny lines, rounded at the top, protruding from…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2024",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-206662",
+   "t_he": "",
+   "t_en": "What Was the Mark of Cain?",
+   "x": "After Cain killed his brother Abel and God punished him with exile, Cain feared that anyone who met him would kill him. God responded by placing a sign on Cain…",
+   "ax": "There are actually a lot of interesting theories as to exactly what sign God gave Cain to protect him. I list several of them below, beginning with the earlies…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2025",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-206977",
+   "t_he": "",
+   "t_en": "Conversion to Judaism – Torah Sources for Process",
+   "x": "Nowadays, converts are only accepted by Orthodox Judaism if they went through the process of circumcision, immersion and acceptance of the mitzvot, all in fron…",
+   "ax": "Thank you for raising this fundamental issue. You are right that the Torah never explicitly outlines a conversion process. However, as in many areas of Jewish…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2025"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-217240",
+   "t_he": "",
+   "t_en": "Was Megillat Esther a Religious Book?",
+   "x": "I read a post by a non-Orthodox Rabbi who claimed that Megillat Esther is really a secular work. Not only is God’s name never mentioned, but there is almost no…",
+   "ax": "In one sense it is true that the Jewish people as a whole did not seem to be particularly religious during the Purim story. They had already spread entirely th…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2026"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90249",
+   "t_he": "",
+   "t_en": "The Tabernacle’s Construction and the Shamir",
+   "x": "When the Children of Israel constructed the Tabernacle, some of the tasks required doing very fine, delicate work – which seems to be beyond the technology tha…",
+   "ax": "It’s a good issue. Although it’s possible the Israelites were more advanced than we think, the main answer to your question is that it was due to the existence…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2020",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90255",
+   "t_he": "",
+   "t_en": "Haftorah – Source for the Custom",
+   "x": "What is the source of the custom to read from the Prophets on Shabbat and other occasions after reading from the Torah? Is it a recent custom?",
+   "ax": "Thank you for raising the interesting topic. On many days on which the Torah is read – Shabbat and the major festivals, as well as on fast days in the afternoo…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2020"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90298",
+   "t_he": "",
+   "t_en": "End of Slavery in Egypt",
+   "x": "I’m trying to figure out the timeline of the Exodus. I know that our ancestors left Egypt on the first day of Passover, but at what point did the slavery end?…",
+   "ax": "It’s actually interesting, the Talmud answers this directly – that the slavery ended on Rosh Hashanah of the year of the Exodus (Talmud Rosh Hashanah 11a). Thi…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2017",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90314",
+   "t_he": "",
+   "t_en": "Significance of Hebrew Year",
+   "x": "I know the Hebrew calendar year is counted from Rosh Hashanah, and the current year is 5778. But what is that measuring – the years since the world’s creation?",
+   "ax": "Almost, but not quite. The year 5778 measures the number of years since the creation of man on the sixth day of creation – not the creation of the world on the…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2017",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90344",
+   "t_he": "",
+   "t_en": "The Origins of 17 Tammuz",
+   "x": "I notice that in the list of tragedies which occurred on the 17th of Tammuz, it states that Moses broke the Tablets of the law when he descended from Mount Sin…",
+   "ax": "It’s an excellent observation. You are right that the true tragedy was Israel’s sin, and that if anything Moses was well-justified in breaking the Tablets once…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90354",
+   "t_he": "",
+   "t_en": "Will There Be Sacrifices in the Third Temple?",
+   "x": "Will there be sacrifices in the Third Temple? I heard that they were only necessary in the olden days when people were more primitive and felt a need to offer…",
+   "ax": "Thank you for raising the important issue. This is a common misconception, but it is not true. The Torah states many times that its commandments are eternally…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90358",
+   "t_he": "",
+   "t_en": "Kippah – Source of Obligation",
+   "x": "Where does the Torah say that a Jewish man must wear a kippah?",
+   "ax": "There is no source for it in the Torah, as it is not a Torah obligation. However, the importance of having one’s head covered is mentioned several times in the…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90363",
+   "t_he": "",
+   "t_en": "King Solomon’s Non-Jewish Wives",
+   "x": "If the Torah forbids intermarriage, how could King Solomon have married Pharaoh’s daughter and other non-Jewish women? Does that imply that intermarriage was p…",
+   "ax": "Thank you for raising the good issue. Maimonides (Hil’ Issurei Biah 13:14-16) explains that all of King Solomon’s wives converted before they were permitted to…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90372",
+   "t_he": "",
+   "t_en": "Eishet Yefat To’ar – Woman Captured in War",
+   "x": "I find Deuteronomy 21:10-14 to be quite shocking. How can the Torah permit soldiers raping and capturing women in battle and keeping them against their will? I…",
+   "ax": "I’ll begin by writing that it’s not clear if your astonishment is warranted. The Torah never states that a soldier is permitted to rape a woman on the battlefi…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2015",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90441",
+   "t_he": "",
+   "t_en": "Eve's Creation: Rib or Side?",
+   "x": "Exactly what was Eve created from? I always assumed it was one of Adam’s ribs, but I just noticed a translation which said “side.” So which is right? By the wa…",
+   "ax": "Thank you first of all for your interesting observation! This is perhaps yet another example of God’s wisdom demonstrating knowledge of science the ancients co…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2015",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90491",
+   "t_he": "",
+   "t_en": "The Reasons for the Mitzvot",
+   "x": "Why does the Torah not give us the reasons for the mitzvot? Wouldn’t it be more meaningful for us to know the whys?",
+   "ax": "Thank you for your fundamental question. The Talmud (Sanhedrin 21b) asks your exact question and answers that as a matter of fact there are two mitzvot for whi…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90495",
+   "t_he": "",
+   "t_en": "Blessing Before Torah Study",
+   "x": "I’ve begun studying Torah more regularly and wanted to know if there is some blessing I should say before doing so.",
+   "ax": "Yes, there is a set of two blessings to be recited before studying Torah. In fact, these blessings are more important than the blessings we say on food. The bl…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90553",
+   "t_he": "",
+   "t_en": "Kid in Mother’s Milk not Taken Literally",
+   "x": "The Torah states a clear law, “You shall not cook a kid in its mother’s milk.” How in the world can this be taken as the basis for not eating meat and milk tog…",
+   "ax": "Thank you for your very important question. The Talmud discusses this issue at great length (Hullin 113-116), and after detailed analysis concludes that the ve…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90583",
+   "t_he": "",
+   "t_en": "Ashrei - Nun",
+   "x": "The verses in the prayer of Ashrei follow an alphabetical pattern, yet I see that the Nun is missing. Why?",
+   "ax": "Great question! In fact, the Talmud also asks why there is no letter \"nun\" in Ashrei. The answer is that the letter \"Nun\" stands for the word \"nefilah,\" which…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90589",
+   "t_he": "",
+   "t_en": "Brothers' Reunion",
+   "x": "I'm within a few weeks of turning 49. Having been raised in a non-observant Jewish environment, I only began my Jewish education a year ago and am planning to…",
+   "ax": "Mazal Tov! Planning your celebration on the week of the Torah portion you were born in, and the week that you became Bar Mitzvah in 37 years ago is extremely p…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90602",
+   "t_he": "",
+   "t_en": "Eve's Name",
+   "x": "What is the Hebrew name of Eve, the first woman? And what is its deeper meaning?",
+   "ax": "The original biblical name of Eve is \"Chava.\" As with most of the names in the Torah, the Torah explains the significance of this name, which was given to her…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90616",
+   "t_he": "",
+   "t_en": "Source for Shabbat Laws",
+   "x": "I know that Judaism places many restrictions on Shabbat activities – writing, electricity, etc. But when I opened up the Bible to read about that, I couldn't f…",
+   "ax": "You are correct that most of this information is not written in the Bible. But it does appear in the Talmud, the compendium of orally-transmitted Jewish law an…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90722",
+   "t_he": "",
+   "t_en": "Ruth's Conversion for Marriage?",
+   "x": "I have a question regarding the Book of Ruth. When Ruth's husband died, she had not yet converted. However, she still spoke about marrying Ploni Almoni. Why? R…",
+   "ax": "The Book of Ruth, which we read in the synagogue of Shavuot morning, indeed requires explanation. The story begins in the land of Moab, with Naomi, her two son…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90723",
+   "t_he": "",
+   "t_en": "Ruth's Conversion as Moabite?",
+   "x": "I have a question about the Book of Ruth. As a Moabite, why was Ruth allowed to convert to Judaism, given the biblical injunction against accepting converts fr…",
+   "ax": "Excellent question! Before I answer, I need to add an important clarification to your question. The Torah does not exactly forbid a Moabite to convert, only to…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90728",
+   "t_he": "",
+   "t_en": "The Name \"Eliezer\"",
+   "x": "My Bar Mitzvah is coming up in a few months, and I have to prepare a speech to say in front of the whole congregation. The rabbi suggested that I talk about th…",
+   "ax": "The first biblical record of the name Eliezer is in reference to Abraham's servant (Genesis 15:2). It is a beautiful name, meaning “God is my helper.” Here is…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90730",
+   "t_he": "",
+   "t_en": "Torah Study - Prioritized",
+   "x": "I've noticed that some Orthodox Jews downplay the need for secular knowledge. They don't seem to talk about the need for computer technology, artistic inclinat…",
+   "ax": "While you are correct that Torah study gets top priority, it is incorrect to say that other topics are not studied. Besides the fact that Torah study (e.g. the…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90731",
+   "t_he": "",
+   "t_en": "Torah Transmission",
+   "x": "How do we know that the Torah we have today is the same text given on Mount Sinai? Maybe it's all just a game of \"broken telephone.\"",
+   "ax": "Excellent question! The Torah was originally dictated from God to Moses, letter for letter. From there, the Midrash (Devarim Rabba 9:4) tells us: Before his de…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90790",
+   "t_he": "",
+   "t_en": "613 Mitzvot",
+   "x": "What is the earliest reference to the Torah having 613 mitzvot? Where does this list come from? This is a matter of dispute here in South Africa, where a radio…",
+   "ax": "Answering your question requires a little understanding of Jewish history. At Mount Sinai God gave the Jewish people the Torah. The word \"Torah\" literally mean…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90792",
+   "t_he": "",
+   "t_en": "The Ancient Napkin",
+   "x": "I'm not Jewish, but am interested in ancient Jewish customs. I've heard there is a custom of folding a napkin and placing it at a certain place that conveys a…",
+   "ax": "I've answered tens of thousands of questions in this forum, and I've never heard this one before! Although there is no Jewish law about this, there is somethin…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90812",
+   "t_he": "",
+   "t_en": "Double Torah Portion",
+   "x": "I enjoy attending synagogue every Shabbat morning. When it comes to the weekly Torah reading, sometimes we read two parshas. Why is that?",
+   "ax": "The Torah is split up into 54 portions, called parshas. The entire Torah is completed once per year, which works out to approximately one per week. More precis…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90822",
+   "t_he": "",
+   "t_en": "Half-Shekel Equality",
+   "x": "Before Purim, the rabbi put out a plate and told everyone to give a half-shekel (or its local equivalent). I understand this was done in the times of the Templ…",
+   "ax": "When the Torah instructs every Jew to donate one Half-Shekel annually, the law is that everyone must give exactly the same amount. Nobody is allowed to give mo…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90830",
+   "t_he": "",
+   "t_en": "Signs of Kosher Animals",
+   "x": "When God spoke about kosher animals in the Torah, why does it only list the animals known to the people at that time? It never mentions any animals in Africa l…",
+   "ax": "What makes an animal kosher? The Torah says (Leviticus 11:2, 3, 7): \"Speak to the children of Israel saying: Of all the animals in the world, these are the one…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90840",
+   "t_he": "",
+   "t_en": "Mismatched Torah Portions",
+   "x": "I flew to Israel last week and on Shabbat they read a different Torah portion than the one they were reading at my synagogue back home. What gives?",
+   "ax": "This is a good question, and it stems from the fact that Jews in Israel keep one day of Yom Tov, while Yom Tov lasts two days in the Diaspora. As you know, one…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90851",
+   "t_he": "",
+   "t_en": "Blessings on Rabbinical Mitzvahs",
+   "x": "On Chanukah and Purim, we say the blessing, Asher Kidishanu - \"Which God has commanded us...\" Yet aren't those words inappropriate, given that nowhere in the 6…",
+   "ax": "Good question! There are two types of mitzvahs: Torah-level and Rabbinic-level. Torah-level refer to the 613 mitzvahs delineated in the Five Books of Moses. Ra…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90872",
+   "t_he": "",
+   "t_en": "Wine",
+   "x": "From my observations, wine has been the cause of the breakdown of many people's personal lives, marriages, and health. So why do so many Jewish ceremonies, (i.…",
+   "ax": "The Torah also states the danger of wine. When God warned Adam not to eat from the Tree of Knowledge, He said, \"On the day you eat from it, you will die.\" The…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90982",
+   "t_he": "",
+   "t_en": "Esther & Achashverosh",
+   "x": "In the Purim story, how do we understand that Mordechai handed over Esther to Achashverosh? I remember in the synagogue years ago, no one could agree on just w…",
+   "ax": "Although it is not explicit in the Megillah, the Talmud does say that Esther was Mordechai's wife. So how could Mordechai hand his wife over to be raped by Ach…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90984",
+   "t_he": "",
+   "t_en": "Four Cups: Verses",
+   "x": "We are constantly made aware of the importance of the four cups of wine and the obligation to drink them at the Seder. Yet no mention is made in the Torah of t…",
+   "ax": "With such a good question, you could be the Wise Son! The four cups of wine are a rabbinical mitzvah, in commemoration of the four expressions of redemption th…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91003",
+   "t_he": "",
+   "t_en": "Number of Branches on Menorah",
+   "x": "I'm confused. My Chanukah menorah has 9 branches, but the Menorah in our synagogue has 7. Why the difference?",
+   "ax": "The original menorah was the one Moses made for the Tabernacle in the desert. That one, and the ones in the Holy Temples, had 7 branches (6 + the center), as d…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91073",
+   "t_he": "",
+   "t_en": "Meat After the Flood",
+   "x": "Why was man permitted to eat meat after the Flood (Genesis 9:2-3)? Does the fact that at his creation man was not allowed to eat meat indicate that this is the…",
+   "ax": "It’s a very basic and important question. To begin with, it does seem that your inference is correct. At man’s creation – presumably at his highest state – he…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2015"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91170",
+   "t_he": "",
+   "t_en": "Who is a Rabbi?",
+   "x": "What exactly is meant by \"rabbi?\" So many times people will question a rabbi as to whether he is a \"real\" rabbi or fake. Do the different branches of Judaism h…",
+   "ax": "Rabbi literally means \"great one\", But I think the best way to describe the education of the rabbi is that he is a “Judaism Lawyer” with a Ph.D in social work…",
+   "tg": [
+    "aish",
+    "halacha",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "halacha",
+   "y": 2026,
+   "ch": 239,
    "s": "upload"
   }
  ]

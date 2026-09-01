@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "talmud",
- "count": 3617,
+ "count": 3633,
  "entries": [
   {
    "id": "ye-2010112513418718",
@@ -58549,6 +58549,295 @@
    "c": "talmud",
    "y": 2026,
    "ch": 236,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-57948",
+   "t_he": "",
+   "t_en": "Getting Started",
+   "x": "I am married to a non-Jew. I swing back and forth between \"doing\" the traditional things and then not doing anything at all. As a Jew, I have decided to focus…",
+   "ax": "In general, where should you start? Believing in God is the primary commandment in Judaism. Who is God? God is the Creator of the world who gave the Torah and…",
+   "tg": [
+    "aish",
+    "talmud",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90745",
+   "t_he": "",
+   "t_en": "Better Off Not Created",
+   "x": "Why did God create the world? I thought the answer was that in God's kindness, He wanted to give people the opportunity to come close to Him. But I understand…",
+   "ax": "Your idea regarding the creation of the world is correct - so that God could give of His goodness to another. Yet the Talmudic teaching you cite does not contr…",
+   "tg": [
+    "aish",
+    "talmud",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90912",
+   "t_he": "",
+   "t_en": "Number 176",
+   "x": "I was looking through my Jewish library and noticed something really incredible: The longest chapter in Psalms (chapter 119) has 176 verses. The longest parsha…",
+   "ax": "You are very observant! Here are a few answers to this interesting phenomenon: Chapter 119 of Psalms has 176 verses because it follows a pattern whereby the 22…",
+   "tg": [
+    "aish",
+    "talmud",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-221658",
+   "t_he": "",
+   "t_en": "Where Does the Midrash Come from?",
+   "x": "It has always bothered me where the Midrash comes from. Who authored it and what makes it authentic? I sometimes hear of stories and parables from the Midrash…",
+   "ax": "Thank you for raising your important issue. Before I begin addressing your question, I should point out that there are two very different bodies of literature…",
+   "tg": [
+    "aish",
+    "talmud",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2026"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90305",
+   "t_he": "",
+   "t_en": "The Cruel Death of the Scapegoat",
+   "x": "In the Yom Kippur service with the two goats, it bothers me that one of the goats – the se’ir la’azazel – is taken out to be pushed off a cliff. The Mishna (Yo…",
+   "ax": "You are right that the treatment of the scapegoat is quite distinct from how we relate to animals in general. The Torah forbids causing any unnecessary pain to…",
+   "tg": [
+    "aish",
+    "talmud",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2017"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90318",
+   "t_he": "",
+   "t_en": "What Is the Behemoth?",
+   "x": "Job 40:15-24 discusses the Behemoth – a massive, powerful beast. Someone suggested that this is a reference to the dinosaurs. Does the Talmud or commentators e…",
+   "ax": "At the end of the Book of Job, God appears to Job to at last put his many questions of faith to rest. He describes His great power and control of the universe,…",
+   "tg": [
+    "aish",
+    "talmud",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2017"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90453",
+   "t_he": "",
+   "t_en": "Is the Oral Torah a Later Development?",
+   "x": "My parents were both of the belief that only the Torah itself is sacred, and that the Talmud and the Oral Torah were developed much later. They were the attemp…",
+   "ax": "Thank you for raising the very important issue. I’ll write up front that our belief is very different from that of your parents. We discuss this at length else…",
+   "tg": [
+    "aish",
+    "talmud",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2021"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90483",
+   "t_he": "",
+   "t_en": "Duration of Slavery in Egypt",
+   "x": "How long did the actual slavery of Egypt last? When the Children of Israel first descended to Egypt, they were treated with honor as Joseph’s family, and only…",
+   "ax": "Thank you for raising the interesting issue. You are right that when we first descended to Egypt, it was as honored guests, as Joseph’s family. It was only muc…",
+   "tg": [
+    "aish",
+    "talmud",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90547",
+   "t_he": "",
+   "t_en": "Is the Talmud the Word of God?",
+   "x": "I believe that the Tanakh is the word of God, but I don’t know if this is true of the Talmud. Wasn’t the Talmud written by scholars much later, who were trying…",
+   "ax": "Thank you for your very important question. The first point I would like to make is that it is clear that the Torah was given with some sort of explanation. Ve…",
+   "tg": [
+    "aish",
+    "talmud",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90707",
+   "t_he": "",
+   "t_en": "Is the Midrash Literal?",
+   "x": "I respect the Torah greatly and try to observe its commands. One thing that bothers me, however, are the Midrashic texts which describe things in a very far-ou…",
+   "ax": "You have touched on a very fundamental topic in Jewish thought. Writing in Jewish Action magazine, Rabbi Yitzchak Adlerstein explains: There are a number of di…",
+   "tg": [
+    "aish",
+    "talmud",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90714",
+   "t_he": "",
+   "t_en": "Necessity of Oral Law",
+   "x": "It's my understanding that the Mishnah, Talmud and Midrash comprise the collective body of wisdom called the \"Oral Law.\" How does this differ from the Written…",
+   "ax": "It's important to clarify a common misconception many people have about the role of the Oral Torah in Judaism. The Oral Torah is not an interpretation of the W…",
+   "tg": [
+    "aish",
+    "talmud",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90727",
+   "t_he": "",
+   "t_en": "Talmud Study Online",
+   "x": "I've had the opportunity from time to time to learn the Talmud, but currently there is nothing being offered in my area. I was wondering if it's possible to do…",
+   "ax": "It's always best to study with a local rabbi. This will give you an opportunity to probe the nuance of the issues, and develop a personal connection with a rab…",
+   "tg": [
+    "aish",
+    "talmud",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90732",
+   "t_he": "",
+   "t_en": "Torah Versus Talmud?",
+   "x": "I'm hoping that you can clarify a few terms that are not clear for me. What is the difference between Torah, Talmud, Mishnah, Gemara and Midrash. If the Bible…",
+   "ax": "The first thing to know is that the Torah consists of two parts: The Written Torah, and the Oral Torah. The Written Torah totals 24 books, including the Five B…",
+   "tg": [
+    "aish",
+    "talmud",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90733",
+   "t_he": "",
+   "t_en": "Validity of Oral Law: Tefillin Example",
+   "x": "I am getting interested in Judaism – reading the Bible, and trying to practice its many laws. But I am having a hard time accepting the Talmud and all its laws…",
+   "ax": "Thank you for writing. This issue has bothered people throughout the ages, and in fact many break-away Jewish groups (Karaites, Sadducees, and even the Christi…",
+   "tg": [
+    "aish",
+    "talmud",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90879",
+   "t_he": "",
+   "t_en": "Home Hebrew School",
+   "x": "We are a Franco-American Jewish family who is currently residing in New Delhi, India. While in France we belonged to a very supportive community with its own c…",
+   "ax": "This is indeed a challenge – but possible. The most important thing to do is to set regular, fixed times for study – e.g. every afternoon from 3-4. This must b…",
+   "tg": [
+    "aish",
+    "talmud",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91160",
+   "t_he": "",
+   "t_en": "Misquoting the Talmud",
+   "x": "I recently stumbled on an anti-Semitic website and they had a whole list of Talmud sayings that sound very non-PC. One example was: \"It is permitted to marry a…",
+   "ax": "Misquoting Talmudic texts or taking them out of context is an age-old method used to incite anti-Semitism. In the example that you cite, that a Jew may marry a…",
+   "tg": [
+    "aish",
+    "talmud",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "talmud",
+   "y": 2026,
+   "ch": 239,
    "s": "upload"
   }
  ]

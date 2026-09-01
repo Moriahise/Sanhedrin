@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "category": "tanach",
- "count": 7981,
+ "count": 8130,
  "entries": [
   {
    "id": "ye-4809",
@@ -128766,6 +128766,2707 @@
    "c": "tanach",
    "y": 2026,
    "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-157224",
+   "t_he": "",
+   "t_en": "Abraham Bowing",
+   "x": "When the three angels came to Abraham posing as guests, he bowed before them. He did the same before the Hittites when he purchased a burial site for Sarah. Is…",
+   "ax": "Thank you for raising the interesting point. Abraham’s bowing was a form of greeting or politeness and did not constitute worship. Bowing is forbidden only whe…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2022",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-171182",
+   "t_he": "",
+   "t_en": "Vision of God of Exodus 24:10-11",
+   "x": "What is the meaning of Exodus 24:10-11 – that Moses and the elders saw God when He descended upon Mount Sinai, and He had a sapphire brickwork under His feet?…",
+   "ax": "Thank you for raising the profound issue. The verses you cited are indeed packed with meaning and symbolism. They also raise many fundamental issues – many of…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2022"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-192924",
+   "t_he": "",
+   "t_en": "Moses’s Transcendent Grave",
+   "x": "I noticed something very strange about the story of Moses’s burial. The Torah states that Moses ascended Mount Nebo to be able to see the Land of Israel and th…",
+   "ax": "It’s a very sharp question. The Talmud (Sotah 13b) asks this as well. It explains that although Moses first ascended Mount Nebo, in Reuben’s territory, and die…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2024"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-209454",
+   "t_he": "",
+   "t_en": "Copper Snake of Numbers 21",
+   "x": "What is the idea behind the copper snake Moses put up to heal the Children of Israel of their snake bites (Numbers 21:4-9)? Isn’t that almost like idolatry to…",
+   "ax": "Thank you for raising your important issue. The copper snake is sometimes called the Brazen Serpent or Nehushtan, as we’ll discuss below. You are right that lo…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2025"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-209779",
+   "t_he": "",
+   "t_en": "How Adam and Eve Sinned Without an Evil Inclination",
+   "x": "Adam and Eve did not have an evil inclination before they ate of the Tree of Knowledge. But if so, how could they possibly have disobeyed God’s commandment not…",
+   "ax": "Thank you for raising your profound issue. Your premise appears correct. Man had no inherent desire for evil before he ate of the Tree of Knowledge. As the Tor…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2025"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-214033",
+   "t_he": "",
+   "t_en": "Was Sarah a Prophetess?",
+   "x": "The Torah records several conversations between God and Abraham, but we never find God communicating with Sarah. Was she inferior to Abraham?",
+   "ax": "In fact, the Sages teach us that Sarah was a great prophetess in her own right. The Talmud (Megillah 14a) identifies Sarah as Yiskah – the daughter of Haran me…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2025"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90228",
+   "t_he": "",
+   "t_en": "Adam’s Sin and the Decree of Death",
+   "x": "The Torah states that on the day Adam would eat of the fruit of the Tree of Knowledge he would surely die (Genesis 2:17). Yet although he was punished when he…",
+   "ax": "It’s an excellent question. There are several answers to this, most of which are variations of a single theme. To explain, we need to first have a deeper under…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2016"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90329",
+   "t_he": "",
+   "t_en": "Items Doomed to God",
+   "x": "I’m trying to make sense out of Leviticus 27:28-29. It seems to state that all items doomed to God, whether people, animals, or fields, may not be redeemed. Th…",
+   "ax": "You are right that those verses appear quite shocking on simple reading. However, they are much more understandable based on the interpretations of the Sages.…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90334",
+   "t_he": "",
+   "t_en": "The Creation of Man and the Animals",
+   "x": "In our weekly Torah study session, the question came up why the Torah makes special mention of God’s blowing a soul into Adam after creating him (Genesis 2:7).…",
+   "ax": "Thank you for sharing the good inference and I wish your study group much success. The reason for this is because there is a fundamental difference between hum…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90335",
+   "t_he": "",
+   "t_en": "Elijah’s Ascent to Heaven",
+   "x": "I’m trying to understand what exactly occurred when Elijah was taken up in a fiery chariot (II Kings 2:11). The Torah states that he was taken up to Heaven in…",
+   "ax": "Thank you for raising the interesting issue. According to the Sages, Elijah the Prophet (Eliyahu HaNavi in Hebrew) did not die in the incident, but ascended to…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90349",
+   "t_he": "",
+   "t_en": "Should We Hate Receiving Gifts?",
+   "x": "I often hear people quoting the verse “One who hates gifts shall live” (Mishlei (Proverbs) 15:27). This implies our attitude should be that we do not want to r…",
+   "ax": "Thank you for raising the good issue. There is a basic distinction between the intent of the verse and the situation you have in mind. “One who hates gifts sha…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90352",
+   "t_he": "",
+   "t_en": "King Saul Conjuring Samuel’s Soul",
+   "x": "How was King Saul permitted to go to a witch and have her conjure up Prophet Samuel’s soul (I Samuel 28)? Aren’t such practices forbidden? That story altogethe…",
+   "ax": "You are right that all forms of necromancy are forbidden by the Torah – See Leviticus 20:27 and Deut. 18:11. In fact, King Saul himself banished such practices…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90360",
+   "t_he": "",
+   "t_en": "How Can We Recognize a True Prophet?",
+   "x": "How do we know to trust the past prophets of Israel – or a future one if one comes along? I know that we consider the Revelation at Sinai historically credible…",
+   "ax": "Thank you for sending your incisive question. You are right that it is critically important to have clear guidelines as to when to accept a prophet as authenti…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90379",
+   "t_he": "",
+   "t_en": "The Plagues: Why the Staff?",
+   "x": "Many times throughout the story of the Exodus God tells Moses to take along his staff and to use it to perform one of the miracles – such as to wave it at the…",
+   "ax": "It’s a very good basic question. First of all, it is clear that Moses’s staff had special powers. It was not merely a deception. The Talmud (Pirkei Avot 5:8) l…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2015"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90384",
+   "t_he": "",
+   "t_en": "How Our Forefathers’ Merit Helps Us",
+   "x": "I see we often ask in our prayers that God remember the righteousness of our ancestors and as a result treat us mercifully. I'd like to understand how this wor…",
+   "ax": "Thank you for your important question. You are right that at first glance this appears like favoritism – giving Israel an automatic advantage because of their…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90386",
+   "t_he": "",
+   "t_en": "What Was the Serpent?",
+   "x": "What exactly was the Serpent of the story of Adam and Eve? Was it a snake as we think of it? Or was it Satan or some mythical creature? The Torah also teaches…",
+   "ax": "Thank you for your profound questions. The Serpent was a physical animal which was part of the natural world. In fact, according to the Talmud, it was much mor…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90456",
+   "t_he": "",
+   "t_en": "Children Punished for Sins of Parents",
+   "x": "How do we understand verses such as Exodus 20:5 (in the Ten Commandments) that God punishes not only sinners, but their descendants till four generations? How…",
+   "ax": "Thank you for the fundamental question. Before anything else, I will answer that this is no longer the case today. The Talmud (Makkot 24a) records that the pro…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2021"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90484",
+   "t_he": "",
+   "t_en": "The Lying Spirit Which Deceived Ahab",
+   "x": "I Kings 22 records a very strange incident. Ahab wanted to go to battle in Ramot Gilad and all his prophets predicted he would succeed. But then another prophe…",
+   "ax": "Thank you for raising the important issues. You are right that the episode raises some fundamental issues in Jewish theology. I will first summarize the episod…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90502",
+   "t_he": "",
+   "t_en": "Foul Language",
+   "x": "I am always bothered when I hear Jews using foul speech, or when they use such pejoratives as “nigger.” It led me to wonder: Does the Torah actually forbid suc…",
+   "ax": "Thank you for your interesting question. The most explicit verse which comes to my mind is Leviticus 19:2: “You shall be holy unto the Lord your God.” It sound…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2014",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90518",
+   "t_he": "",
+   "t_en": "Sons of God – Bnei Elohim",
+   "x": "The start of Genesis 6 states that the sons of God took wives from the daughters of men and had giant children. Who are these sons of God – angels? Does this i…",
+   "ax": "Thank you for your very important question. The term the Torah actually uses in Genesis 6 is B’nei Elohim. “Elohim” literally means “powerful ones.” It is ofte…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2015"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90523",
+   "t_he": "",
+   "t_en": "Rebellious Son (Ben Sorer U’Moreh) Punished for Future",
+   "x": "In reading last week’s Torah portion, I was very disturbed by the section on the rebellious son (ben sorer u’moreh; Deuteronomy 21:18-21). The Torah basically…",
+   "ax": "It’s a very good question. Probably the first point I should make to you is that the Talmud said that there never was a rebellious son (Sanhedrin 71a). The Tor…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2015"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90564",
+   "t_he": "",
+   "t_en": "Enosh, Calling God’s Name, and the Origins of Idolatry",
+   "x": "I was studying the book of Genesis and came across the statement that in the time of Enosh, Adam’s grandson, mankind began calling in the name of God (4:26). C…",
+   "ax": "You are right that it is a bit of a cryptic expression. The commentators offer two basic explanations, ones which are quite at odds with each other. The first…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2016"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90573",
+   "t_he": "",
+   "t_en": "The Book of Job and Satan’s Power",
+   "x": "I recently began studying the Book of Job and several things strike me as strange right from the start. God praises Job before Satan, and Satan is unimpressed,…",
+   "ax": "Thank you for your insightful question. You are right that the entire backdrop to the story is very atypical. Only under very exceptional circumstances does Go…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2017"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90586",
+   "t_he": "",
+   "t_en": "Biblical Criticism",
+   "x": "I have heard many arguments for a multiple authorship/editing of the Torah. Is there any reason to doubt the seemingly convincing conclusions of the secular un…",
+   "ax": "A complete discussion of Bible Criticism is beyond the scope of one email, but I can try to cover a few of the basic points. One claim that the Bible Critics u…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90591",
+   "t_he": "",
+   "t_en": "Torah Codes Explained",
+   "x": "I found the Discovery Seminar's presentation on Bible Codes very convincing and it has captured my interest. How exactly do the Codes work?",
+   "ax": "According to some researchers, the Codes foretell names and places of events throughout human history: Holocaust, Sadat, AIDS. Torah Codes cannot tell us infor…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90601",
+   "t_he": "",
+   "t_en": "Egyptian Children Punished for Parents' Sins?",
+   "x": "In the Book of Exodus, God indicates that He will slay all the Egyptian first-borns if Pharaoh will not allow the Israelites to leave. Why should the son suffe…",
+   "ax": "In one place, the Torah says \"...each man shall die for his own sins\" (Deut. 24:16), while in the Ten Commandments it says the opposite: that God \"counts the s…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90712",
+   "t_he": "",
+   "t_en": "Location of Prophecy",
+   "x": "You wrote previously that Israel is the only land conducive to prophecy, the highest level of communion with God. All the prophets either received prophecies i…",
+   "ax": "Actually, before the Jewish people settled in Israel, prophecy existed everywhere if the person deserved it. Hence Abraham, Moses, Aaron, etc. all prophesied b…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90718",
+   "t_he": "",
+   "t_en": "Original Sin",
+   "x": "I want to know about the concept of \"sin\" due to Adam and Eve eating from the Tree of Knowledge. The Christian concept of sin revolves around the fall of the m…",
+   "ax": "Adam and Eve were punished according to their actions. In other words, God laid down the conditions for Adam and Eve to live in the garden, provided they would…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90742",
+   "t_he": "",
+   "t_en": "As Great as Moses",
+   "x": "All my friends seem to be talented and smart. I'm just kind of average. I try really hard, but can't seem to ever reach a level of excellence. It's getting me…",
+   "ax": "The Talmud says: \"Everyone is responsible to be as great as Moses.\" But then the Torah tells us in Deuteronomy 34:10 that \"no one will ever be as great as Mose…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90743",
+   "t_he": "",
+   "t_en": "Atonement Today",
+   "x": "I am a bit shocked by the Bible's emphasis on animal offerings. It seems quite violent and inhumane. Is that really what Judaism teaches?",
+   "ax": "The idea of how animal offerings worked is often misunderstood. Many believe that sacrifice was the only way to achieve atonement. Actually, atonement always w…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90748",
+   "t_he": "",
+   "t_en": "Choosing Good Over Evil",
+   "x": "For a long time it has bothered me what the Torah means by: \"God created man in His image\" (Genesis 1:27). Given that human beings are finite and corporal, how…",
+   "ax": "Obviously the \"image of God\" is dealing with the non-physical part of us - the soul. Our drive for morality and meaning, our drive to make a difference is from…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90765",
+   "t_he": "",
+   "t_en": "God's Promises",
+   "x": "Has God failed us? I have read repeatedly where God promised the Jews to be a great nation, yet today Israel is struggling for survival, and Jews in the Diaspo…",
+   "ax": "God made a covenant with Abraham, and that pact is not able to be broken. However, God assures us that our ability to flourish, or conversely to suffer, depend…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90767",
+   "t_he": "",
+   "t_en": "Nostradamus the Prophet?",
+   "x": "Someone forwarded me an email that showed how Nostradamus predicted the attack on the World Trade Center. Already in the first line he predicts the date: \"the…",
+   "ax": "Nostradamus was a French astrologer and physician who lived in the 16th century. His book, Centuries, contains rhyming verses that commingle French, Spanish, L…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90813",
+   "t_he": "",
+   "t_en": "Down-to-Earth Spirituality",
+   "x": "I am perplexed about a certain juxtaposition in the Torah. Parshas Yisro describes the dramatic revelation of God to the Jewish People at Mount Sinai. And then…",
+   "ax": "Actually, they're two sides of the same coin. The spiritual high of Sinai may be nice, but it doesn't solve one problem of the world in which we live. Spiritua…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90902",
+   "t_he": "",
+   "t_en": "In the Image of God",
+   "x": "Maimonides' 13 Principles of Faith states: \"I believe with perfect faith that God does not have a body. Physical concepts do not apply to Him. There is nothing…",
+   "ax": "Does God have ears because it says, \"God heard the sound of your words\" (Deut. 1:34)? Does God have a mouth since it says, \"God spoke to us\" (Deut. 1:6)? Does…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90914",
+   "t_he": "",
+   "t_en": "The Number 40",
+   "x": "In my Torah studies I keep running across the number 40 - for example, Moses on Mount Sinai for 40 days. Is there an underlying message of the number 40?",
+   "ax": "The number 40 has great significance throughout the Torah and the Talmud. The number 40 represents transition or change; the concept of renewal; a new beginnin…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90954",
+   "t_he": "",
+   "t_en": "Why Bad Things Happen",
+   "x": "If God is omnipotent and merciful as the Bible claims, why do bad things happen to good people?",
+   "ax": "Dr. Gerald Schroeder, double-Ph.D. in Nuclear Physics and Earth and Planetary Sciences from the Massachusetts Institute of Technology, explains: It is true, no…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91047",
+   "t_he": "",
+   "t_en": "Abraham & Independence",
+   "x": "I notice that the first “command” given to the first Jew, Abraham, is to \"Go for yourself from your land, from your relatives, and from your father's house to…",
+   "ax": "Where we live and how the people around us behave makes a big impact on how we think and behave. If people around us think powdered wigs and petticoats are sty…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2012"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91051",
+   "t_he": "",
+   "t_en": "Golden Calf - Moses Stands Up",
+   "x": "Why did the Jews worship the Golden Calf?",
+   "ax": "After receiving the Ten Commandments, Moses ascends Mount Sinai and stays there for 40 days. Uncertain when Moses will return and fearful he has died, the Isra…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2012"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91054",
+   "t_he": "",
+   "t_en": "Jacob, Esau & the Purpose of Life",
+   "x": "I seem to have two voices pulling at me: One that says, “Be responsible; think long-term,” and the other that says, “Live it up now.” Each voice seems to have…",
+   "ax": "In the Torah, Esav says to Jacob: “I'm going to die anyway. What do I care about the birthright. Take it and give me the stew.\" (Genesis 25:31-34) Esav believe…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2012"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91058",
+   "t_he": "",
+   "t_en": "The Nazirite Vow",
+   "x": "The Torah (Numbers 6) talks about the nazir. A man who fears that his appetites dominate his judgment vows not to cut his hair and not to drink wine. Then at t…",
+   "ax": "Hair represents sensuality. (Ever see the movie in which the mousy girl lets her hair down and turns out to be Marilyn Monroe?) The nazir offers his hair to Go…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2012"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91059",
+   "t_he": "",
+   "t_en": "Noah: Fixing Mistakes",
+   "x": "If the generation of Noah was so corrupt, then why didn’t God just punish the people outright? Why the whole story of Noah building an ark?",
+   "ax": "God’s actions are corrective, not punishing. Noah seems very odd to people, building his ark out in the middle of nowhere, but that is part of the point. God w…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2012"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91060",
+   "t_he": "",
+   "t_en": "Hardening Pharaoh's Heart",
+   "x": "After the sixth plague – boils – the Bible says that, \"God hardened Pharaoh's heart\" (Exodus 9:12). This seems grossly unfair! How can God warn Pharaoh to obey…",
+   "ax": "God doesn't want to coerce Pharaoh to let the Israelites go. He wants Pharaoh to admit he is wrong. But the plagues are so overwhelming and frightening, Pharao…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2012"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91064",
+   "t_he": "",
+   "t_en": "The Spies’ Rebellion",
+   "x": "I was reading in Numbers chapter 13 how the Jewish people arrive at the border of the Land of Israel. They send prominent men from each tribe as spies, to expl…",
+   "ax": "A covenant with God is a great privilege. It's also a burdensome responsibility. After 210 years of slavery in Egypt and a trek through the desert, the Jewish…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2012",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91182",
+   "t_he": "",
+   "t_en": "Star of David",
+   "x": "Why does the Jewish star have six points? The Encyclopedia of Judaica explained it is from King David's time, and that it was shaped like the hexagon. This ans…",
+   "ax": "In modern times, the Star of David has become a premier Jewish symbol. This six-pointed star (hexagram), made of two interlocking triangles, can be found on me…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-156628",
+   "t_he": "",
+   "t_en": "Gaps in Lives of Forefathers; Torah’s Purpose",
+   "x": "I noticed that there are a lot of gaps in the lives of our forefathers. For example, we hear almost nothing about Abraham until he was 75 (Genesis 12:4). Jacob…",
+   "ax": "Thank you for the good point. The answer is that the purpose of the Torah – and especially the Book of Genesis – is not to impress us with how great our forefa…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2022"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-157228",
+   "t_he": "",
+   "t_en": "Ascent to Jerusalem for the Three Festivals (Aliyah L'Regel)",
+   "x": "When the Temple stood, all males had to appear before the Lord for the three festivals (Exodus 23:14-17, 34:23-24, Deuteronomy 16:16). At what age did they hav…",
+   "ax": "The obligation applied to all males from the age of 13 and up – which is the age of Bar Mitzvah – when a young man becomes obligated in the commandments. Excep…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2022"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-157233",
+   "t_he": "",
+   "t_en": "Jewish Overachievers and Why God Chose Abraham",
+   "x": "Why is it that the Jews contribute so greatly to the world in so many areas? They are on the forefront of almost every intellectual and social area – in medici…",
+   "ax": "It is definitely a well-known phenomenon that Jews are on the forefront of practically every field, cause and endeavor – whether cultural, political, or intell…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2022"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-157239",
+   "t_he": "",
+   "t_en": "Nephilim – Giants in the Torah",
+   "x": "The Torah talks about giants in Biblical times – in the times of Noah, Moses, and King David. What are their origins and what happened to them?",
+   "ax": "Giants are mentioned many times in the Torah, primarily in the antediluvian world (before the Flood). Below is a brief outline of their story. Genesis 6:4 reco…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2022"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-157803",
+   "t_he": "",
+   "t_en": "Were Adam and Eve Jewish?",
+   "x": "Would we consider Adam and Eve to have been Jewish?",
+   "ax": "Not technically. The Jewish people began only with Abraham and his descendants. In a different sense, though, there was no need for a Jewish people in the time…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2022"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-176147",
+   "t_he": "",
+   "t_en": "Does Isaiah 7:14 Refer to a Virgin Birth?",
+   "x": "I work in a Christian hospital and have many Christian friends, many of whom feel strongly about their religious beliefs. They often quote to me Isaiah 7:14 –…",
+   "ax": "Thank you for your important question. Yes, it is well-known that the actual word in that verse is “almah” – which throughout the Torah refers to a young woman…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2023"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-176156",
+   "t_he": "",
+   "t_en": "Selling One’s Daughter Into Slavery",
+   "x": "I was studying Exodus and was very surprised to come across the section about a person selling his daughter into slavery (Exodus 21:7-11). Why does the Torah c…",
+   "ax": "You are right that that section of the Torah is surprising, but it is much less so when we study it carefully. Before I discuss the law in detail, several intr…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2023"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-192654",
+   "t_he": "",
+   "t_en": "Twelve or Thirteen Tribes of Israel?",
+   "x": "I have a question that is really bothering me. I am familiar with the Twelve Tribes of Israel. But it seems like the number should really be thirteen. Jacob ha…",
+   "ax": "It’s a very good point. You are right that in actuality the Jewish people are composed of thirteen tribes. Even so, they are always counted as twelve. The reas…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2024"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-203305",
+   "t_he": "",
+   "t_en": "Where was the Garden of Eden Located?",
+   "x": "Where was the Garden of Eden located? And does it still exist today? The Torah writes that after Adam and Eve were banished from the Garden, God stationed Cher…",
+   "ax": "Thank you for raising the fascinating issue. Let me first address the question of where the Garden of Eden existed in Adam’s time. Not surprisingly, the Torah…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2025"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-203502",
+   "t_he": "",
+   "t_en": "Widow Who Cannot Pay Her Rent",
+   "x": "I have an apartment in Jerusalem which I rent to a widow. Lately, she has fallen quite behind in her payments. I don’t want this situation to continue but I do…",
+   "ax": "It is very commendable that you are concerned with doing the right thing in spite of the loss this is causing you. Really, according to the letter of the law,…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-pinchas-waldman",
+    "published-2025"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-203607",
+   "t_he": "",
+   "t_en": "Where Did the Olive Leaf the Dove Found Come From?",
+   "x": "After the Flood ended, Noah sent out a dove from the ark to see if the water had subsided. It returned with an olive leaf in its beak (Genesis 8:10-11). If the…",
+   "ax": "Thank you for your observant question. The Midrash explains that the leaf came from the Land of Israel, where the flood waters did not fall. (See Bereishis Rab…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2025"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-203973",
+   "t_he": "",
+   "t_en": "Duration of Decree to Throw Baby Boys into Nile",
+   "x": "How long did Pharaoh’s decree to throw the baby boys into the Nile last? Do we know how many people were killed? Even though Moses was saved, if the decree con…",
+   "ax": "You are right that the Torah is not at all clear on the duration of Pharaoh’s decree. We know it occurred around the time of Moses’s birth – eighty years befor…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2025"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-210304",
+   "t_he": "",
+   "t_en": "Behavior of Lot’s Daughters",
+   "x": "Lot’s daughters had an incestual relationship with their father because they thought they were the last people on earth (see Genesis 19:30-38). Didn’t they kno…",
+   "ax": "It’s a very good question. It does seem that at the time the daughters did not know about the rest of the world. The Midrash writes that they assumed the entir…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2025"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-211136",
+   "t_he": "",
+   "t_en": "Why 150 Psalms?",
+   "x": "Is there any significance to the fact that there are exactly 150 Psalms?",
+   "ax": "Not especially that I know of. In fact, the Midrash writes that King David authored 147 psalms rather than 150 – corresponding to the lifespan of our forefathe…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2025"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-214119",
+   "t_he": "",
+   "t_en": "Why Isaac Favored Esau",
+   "x": "If Esau was really so wicked, why did Isaac favor him over Jacob, wanting to give him the blessings? The only reason the Torah gives for Isaac’s preference is…",
+   "ax": "Thank you for raising your important issue. This is a big topic which I deal with at length elsewhere. See here for the first of a three-part series on this. V…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2025"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-214855",
+   "t_he": "",
+   "t_en": "When Was the Torah Written Down?",
+   "x": "Exactly what was taught to Moses and Israel at Sinai, and when were the Jewish people given the Torah in the form we have it today? If Moses received the actua…",
+   "ax": "Thank you for raising this important issue. The Torah as we know it wasn’t given to the Jewish people at Sinai itself. Its transmission was actually a longer p…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2025"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-216150",
+   "t_he": "",
+   "t_en": "Rachel’s Tomb (Kever Rochel) Today",
+   "x": "The Torah states that Jacob put up a monument on Rachel’s grave which stands till today (Genesis 35:20). Does that refer to the domed building which has always…",
+   "ax": "Actually, no. In general, when the Torah states “until today,” it refers to Moses’s time, when the Torah as we have it was first written down (Radak; see Talmu…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2026"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-218051",
+   "t_he": "",
+   "t_en": "Leaving the House on Shabbat",
+   "x": "After the Exodus, when the Israelites were in the desert, some of them wrongly went out on Shabbat to search of manna. In response, God told Moses “Let every m…",
+   "ax": "Thank you for your interesting question. The verse doesn’t exactly say a person shouldn’t leave his home but that he shouldn’t leave his “place”. What exactly…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2026",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-218619",
+   "t_he": "",
+   "t_en": "What Was Rahab's Profession?",
+   "x": "Was Rahab, the woman in Jericho who hid the spies Joshua sent to the land, a prostitute or an innkeeper?",
+   "ax": "The simple reading of the Book of Joshua (2:1) is that Rahab was a harlot (“zonah”). This is the understanding of the Talmud (Zevachim 116b), and followed by s…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2021"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-218669",
+   "t_he": "",
+   "t_en": "The Binding of Isaac - Instructions",
+   "x": "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-K33WTTX\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\" aria-hidden=\"true\"></iframe>…",
+   "ax": "Current For 44 years, Yehuda Katz’s Family Refused to Give Up Hope Human Interest How to Become More Emotionally Connected to Yourself, Your Spouse, and God Je…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2026"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-220681",
+   "t_he": "",
+   "t_en": "Metzora – Blood Placed on Body Parts",
+   "x": "I was studying Leviticus chapter 14 and was wondering about the significance of the blood and oil the Kohen places on the metzora’s (leper’s) right ear, right…",
+   "ax": "Thank you for raising your interesting issue. Ibn Ezra (14:14), a medieval Spanish commentator, explains that a person is stricken with tzara'at (often transla…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2026",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-222490",
+   "t_he": "",
+   "t_en": "How Could King David Take Avishag?",
+   "x": "I’m having a difficult time understanding the episode of King David and Avishag the Shunamite. When he was old, his servants found a young virgin to lie with h…",
+   "ax": "Thank you for the good question. In those days the belief was that a virgin girl produced more warmth than a married woman, and this was considered a medical n…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2026"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90227",
+   "t_he": "",
+   "t_en": "Samson – Contact with Dead",
+   "x": "I’m trying to understand something. Shimshon (Samson) was a nazir (Nazarite), which is why he didn’t cut his hair or drink wine. But isn’t one of the restricti…",
+   "ax": "It's a very good question. The Talmud explains that Samson was a unique type of Nazarite. Since he didn't make the vow himself but it was decreed upon him from…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2015"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90229",
+   "t_he": "",
+   "t_en": "David and Bathsheba",
+   "x": "I have been studying the Book of Samuel and I was really shocked when I read the story of David and Bathsheba (II Samuel 11). How could David, King of Israel,…",
+   "ax": "You are right that the story, after a cursory reading, appears shocking. The Talmud, however, makes a sweeping statement regarding David's behavior: \"Whoever s…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2016"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90236",
+   "t_he": "",
+   "t_en": "Covenant of Salt",
+   "x": "I see the Torah occasionally refers to covenants of salt – such as the covenant of priesthood with Aaron’s descendants and of sovereignty with King David’s fam…",
+   "ax": "Thank you for your interesting observation. The Sages explain that the significance of salt is what we might expect. Salt lasts forever, preserves other foods,…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2016",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90240",
+   "t_he": "",
+   "t_en": "Psalms about Future Events",
+   "x": "If King David authored Psalms, how is it that several of the Psalms talk about events which occurred long after David’s time. Some examples are Psalm 74 which…",
+   "ax": "Thank you for your good observation. This general issue is discussed primarily in the context of Psalm 137, which was clearly written in reference to the First…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90244",
+   "t_he": "",
+   "t_en": "Jacob’s Possessions and Having it All",
+   "x": "When Jacob first meets Esau after having spent years in Haran, he gives him a large gift of animals. At first Esau refuses the gift, but then Jacob convinces h…",
+   "ax": "Yes, it sounds like you’re referring to the two ways Esau and Jacob referred to their possessions. When Esau at first refused the gift, he told Jacob “I have m…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90245",
+   "t_he": "",
+   "t_en": "Is Seeing a Rainbow Good or Bad?",
+   "x": "Is seeing a rainbow a good or a bad thing? On the one hand, it’s a majestic creation of God and a beautiful natural phenomenon. On the other, we are taught tha…",
+   "ax": "You are right that in spite of its majestic beauty, the rainbow seems to represent two things at once. The context in which it is introduced to us in the Torah…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90250",
+   "t_he": "",
+   "t_en": "Year and Date of Aaron’s Death",
+   "x": "In what year did Aaron die? Numbers 33:38 writes explicitly that Aaron died in the 40th year in the desert, at the age of 123. But Deuteronomy 10:6 seems to sa…",
+   "ax": "It was very alert for you to have noticed this. You are right that the verses appear contradictory. The Sages explain that Numbers is accurate and Aaron died a…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2020"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90251",
+   "t_he": "",
+   "t_en": "Descent From King David Today",
+   "x": "Is there any way to research if you’re a descendant of King David? I feel I really relate to him in so many ways!",
+   "ax": "Thank you for raising the interesting issue. It is virtually impossible for a person to know his lineage going that far back today. Interestingly, there were s…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2020",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90254",
+   "t_he": "",
+   "t_en": "Keturah’s Origins",
+   "x": "Who was Abraham’s second wife Keturah? The Torah writes nothing about her background and origin – although if she was a wife of Abraham and mother to six of hi…",
+   "ax": "Thank you for raising the interesting issue. The Torah’s account of the end of Abraham’s life (Genesis 25:1-6) is actually quite curious. After Sarah dies and…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2020"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90292",
+   "t_he": "",
+   "t_en": "Is the Torah Literal?",
+   "x": "I am wondering how does one figure out what parts of the Bible are figurative, and what parts are actual events? From what I know, there are those who debate i…",
+   "ax": "It is a very good and important question. Before all, I should state that our tradition teaches us that every word of the Torah is the precise word of God, as…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2014"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90306",
+   "t_he": "",
+   "t_en": "Jacob Steals the Blessings",
+   "x": "I have a coworker who can’t accept how Jacob could have stolen Esau’s blessings from his father Isaac. How could he have been so dishonest as to trick his fath…",
+   "ax": "Thank you for sharing your coworker’s very fundamental question. The episode of Jacob’s “stealing” the blessings is actually much deeper than people realize. W…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2017"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90310",
+   "t_he": "",
+   "t_en": "Adam’s Children’s Marriages",
+   "x": "I was wondering who the children of Adam and Eve married. If they were the world’s first people, who could they marry other than each other – meaning that brot…",
+   "ax": "Thank you for your good observation. The Talmud (Sanhedrin 58b) notes this as well. It explains that brothers did marry sisters in that generation. This was a…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2017"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90315",
+   "t_he": "",
+   "t_en": "Abraham: Discovering God at Three",
+   "x": "I had always heard that Abraham recognized God when he was three years old. Was that really the case? How much could a three-year-old possibly understand about…",
+   "ax": "Thank you for raising your important issue. What really happened is that Abraham began a journey of discovery at the age of three. As soon as he was old enough…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2017"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90320",
+   "t_he": "",
+   "t_en": "Jacob Buys the Birthright for Soup",
+   "x": "I’m studying the story of Jacob and Esau and I am so bothered by the simple storyline. Imagine the scenario. Two brothers, one is sitting at home studying and…",
+   "ax": "Thank you for your very important question. In truth, there are some fundamental lessons we may learn from the story. As with the Torah in general, there is so…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2017"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90328",
+   "t_he": "",
+   "t_en": "Joseph Buys the Egyptians and Their Land",
+   "x": "I was studying Genesis 47 and I was terribly bothered by the story. Because of the famine, the Egyptians had no food. It was a national emergency. Joseph had s…",
+   "ax": "Thank you for your excellent question. You are right that Joseph’s treatment of the Egyptians at first appears very cruel. (Although in truth in ancient times…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2017"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90343",
+   "t_he": "",
+   "t_en": "The Seventy Weeks of Daniel 9",
+   "x": "I’m curious to know the Jewish understanding of Daniel 9:24-27. It seems such a clear reference to Jesus that I don’t understand how Jewish scholars can disagr…",
+   "ax": "Thank you for raising the very important issue. You happen to be right that learned Christians often see Daniel 9, prophesying about a 490 year period (70 “wee…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90348",
+   "t_he": "",
+   "t_en": "Jethro’s Many Names",
+   "x": "I have been studying Scripture, and it seems that Jethro, Moses’s father-in-law, seems to have different names in different places. Did he have multiple names?…",
+   "ax": "It was observant of you to have noticed that. Jethro appears to have many names throughout the Torah. When Moses first escapes to Midian, he helps a number of…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 238,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90357",
+   "t_he": "",
+   "t_en": "Isaac’s Age at the Binding (Akeidah)",
+   "x": "How old was Isaac when Abraham brought him to Mount Moriah and almost sacrificed him? Was he young enough that Abraham could overpower him? Did he understand w…",
+   "ax": "Thank you for raising the interesting issue. According to virtually all the commentators, Isaac was a grown man at the time of his binding (akeida) – unlike th…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90367",
+   "t_he": "",
+   "t_en": "“Let Us Make Man”",
+   "x": "In the creation account in Genesis, God says, “Let us make man in our image” (1:26). Who is God speaking to? Doesn’t this verse imply that man had more than on…",
+   "ax": "Thank you for your very important question. There are several approaches to understanding that verse. But even before I quote them, it’s significant to look ah…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2014"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90391",
+   "t_he": "",
+   "t_en": "King Solomon and the Queen of Sheba",
+   "x": "I just watched a program that claims that King Solomon had a child with the Queen of Sheba who was named Menalik. This Menalik was entrusted with the Ark of th…",
+   "ax": "Thank you for raising the interesting issue. The story itself is believed to be an Ethiopian folktale, without any serious outside corroboration. Certainly, th…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90392",
+   "t_he": "",
+   "t_en": "The Purpose of the Mishkan (Tabernacle)",
+   "x": "I’ve heard that the Mishkan (Tabernacle) served as an atonement for the Sin of the Golden Calf. But if so, why is it commanded in Exodus before the story of th…",
+   "ax": "Thank you for your very good observations. You are right that the order of events in the story is curious. There is actually a debate in the commentators regar…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90402",
+   "t_he": "",
+   "t_en": "The Borders of Israel Promised to Abraham",
+   "x": "What exactly is the extent of the land promised to Abraham in Genesis 15:18-21? It doesn’t seem to be identical to the Land of Israel God later promised to Isr…",
+   "ax": "Thank you for your perceptive observation. In fact, in Genesis God promised Abraham the land which was then inhabited by ten nations, spanning from the Euphrat…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90404",
+   "t_he": "",
+   "t_en": "Psalm 110 – Two Lords",
+   "x": "Please explain what this verse means: “The Lord said unto my Lord, \"Sit Thou at My right hand, until I make Thine enemies Thy footstool” (Psalm 110:1). Doesn’t…",
+   "ax": "Thank you for raising your important issue. According to the Talmud (Sanhedrin 108b), the second lord refers to Abraham. King David is praising God for helping…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90417",
+   "t_he": "",
+   "t_en": "Why Didn’t Joseph Contact His Family?",
+   "x": "I was thinking about the story of Joseph in the Torah, and a thought came to me. Why didn't Joseph contact his father Jacob as soon as he became the viceroy of…",
+   "ax": "Thank you for your very good question. Yes, the issue is discussed by one of the classic commentators to the Torah, Nachmanides (Rabbi Moshe ben Nachman, calle…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90420",
+   "t_he": "",
+   "t_en": "Recommended Tehillim (Psalms) for Israel, Protection, & More",
+   "x": "I have several frustrating issues going on in life today, as well as a relative who is really not well. I’d like to recite Tehillim. Is there a recommended lis…",
+   "ax": "I hope your issues clear up very soon. It’s always a good idea to say Tehillim in times of need. All of them are good and meaningful, but some are especially r…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90426",
+   "t_he": "",
+   "t_en": "Moses’s Cushite Wife",
+   "x": "Who was the Ethiopian (Cushite) wife that Moses took (Numbers 12:1)? Is she the same wife as Jethro’s daughter Zipporah whom Moses earlier married (Exodus 2:21…",
+   "ax": "Where was Moses’s wife from? The story of Moses’s Cushite wife is actually quite cryptic. As you observed, we hear earlier of Moses marrying the daughter of Je…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2017"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90431",
+   "t_he": "",
+   "t_en": "Jeremiah 31 and the New Covenant",
+   "x": "How do you understand the New Covenant of Jeremiah 31:31? Doesn’t that supersede God’s original covenant with the Jews? In fact, Jeremiah earlier speaks of Isr…",
+   "ax": "Thank you for raising your important issue. Before I begin, I would just like to note that Christian and Jewish Bibles number the verses of Jeremiah 31 differe…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2017"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90434",
+   "t_he": "",
+   "t_en": "Angel injuring Jacob’s Thigh",
+   "x": "When the angel fought against Jacob, why specifically did he injure him in his thigh? Is there a special significance to it?",
+   "ax": "Thank you for your good question. There are a number of explanations offered in the classic commentators. As an introduction, the Sages understand that the ang…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2017"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90439",
+   "t_he": "",
+   "t_en": "How Miraculous was the Splitting of the Sea?",
+   "x": "I was just reading a lecture about the Exodus. It described how Nachshon son of Aminadav was the first to jump into the sea. When he descended to the point tha…",
+   "ax": "It’s an excellent question, one which has bothered a number of the classic commentators. To begin, it is clear from the Torah itself that the sea’s splitting w…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2017"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90449",
+   "t_he": "",
+   "t_en": "Ahaziah’s Age When He Became King",
+   "x": "How old was Ahaziah when he became king? II Kings (8:26) states he was 22, while II Chronicles 22:2 writes 42. The latter seems to definitely be wrong since hi…",
+   "ax": "It’s nice to see that you’re studying the Torah so carefully. Yes, this is a well-known contradiction. In fact, there are many discrepancies between the earlie…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2020"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90451",
+   "t_he": "",
+   "t_en": "Judaism and Snakes",
+   "x": "I have always had the impression that snakes are inherently evil. I’m sure it’s an idea I picked up from the Genesis account of the Serpent tempting Adam and E…",
+   "ax": "Thank you for raising the interesting issue. There is actually a lot to write about the Sages’ attitude toward snakes – both the primordial one and the ones wh…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2021"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90460",
+   "t_he": "",
+   "t_en": "Jacob’s Incomplete Name Change",
+   "x": "I noticed something very curious. Abraham’s name was changed from Abram to Abraham (Genesis 17:5) and that’s how he became permanently known. Likewise Sarai be…",
+   "ax": "Thank you for your good observation. The Talmud (Brachos 12b-13a) notes the same and concludes that Jacob did not have his name changed as did Abraham and Sara…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2020"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90471",
+   "t_he": "",
+   "t_en": "Yearly Parsha (Torah Reading) Cycle",
+   "x": "As we come to the end of the cycle of reading the Torah. I am curious as to when and who divided up the Torah into its different weekly sections, and who gave…",
+   "ax": "Thank you for raising the interesting issue. I’ll address it by giving a brief history of the practice of reading the Torah. There is no Biblical obligation to…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2020",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90486",
+   "t_he": "",
+   "t_en": "Psalm 2: God’s Son and Kiss the Son",
+   "x": "What is the Jewish thought concerning God's son in light of Psalm 2? It describes someone as the King of Zion, a world leader, and says that God calls him His…",
+   "ax": "Thank you for your important question. The term son of God appears a number of times in the Torah where it clearly does not refer to a biological relationship.…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90487",
+   "t_he": "",
+   "t_en": "Noah’s Curse of Canaan",
+   "x": "When Noah became drunk and uncovered, wasn’t it his son Ham who saw him (Genesis 9:22)? Why was his son Canaan cursed? Why not Ham himself?",
+   "ax": "Thank you for the very good question. Several answers are offered by the Midrash and commentators. (1) Since God had already blessed Noah and his three sons (9…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90488",
+   "t_he": "",
+   "t_en": "Anointing and “The Anointed One” (Messiah)",
+   "x": "When was anointing done in Biblical times? Is it still practiced today?",
+   "ax": "Anointing is a form of consecrating a sacred person or item, and initiating it in its special function. In the Torah it was done to the Tabernacle (Exodus 30:2…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90494",
+   "t_he": "",
+   "t_en": "King David Descended from Lot’s Daughters",
+   "x": "Yesterday I was reading in Genesis the story of Lot’s daughters who bore children from him and begat the nations of Amon and Moab. It then struck me that since…",
+   "ax": "It’s a very interesting point. The nations of Amon and Moab were founded on incest. It seems peculiar that Moab of all nations played such a great role in crea…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2019"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90526",
+   "t_he": "",
+   "t_en": "Jephthah Sacrificing Daughter",
+   "x": "My Bible class is studying the Book of Judges and we recently covered the story of Jephthah (Judges 11). Jephthah promises to God that if the Amonites would be…",
+   "ax": "You are right that the story is at first glance shocking. The Torah clearly detests human sacrifice – or murder in virtually any form. Idolatrous practices whi…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2015"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90535",
+   "t_he": "",
+   "t_en": "Appearance of Names in the Torah",
+   "x": "I’m trying to find a consistent pattern in the Torah regarding the identification of people. Sometimes very minor characters are named, while sometimes very si…",
+   "ax": "Thank you for your very good question. You are right that the Torah appears quite inconsistent in its identification of the figures which appear in its pages.…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90540",
+   "t_he": "",
+   "t_en": "Long Lifespans and Late Childbearing in Genesis",
+   "x": "Genesis 5 lists the generations from Adam till Noah, and not only did the people live much longer, but they also didn’t seem to have children until they were m…",
+   "ax": "Thank you for your good observation. Your final point is very good. Not only did man live much longer before the Flood, but he seems to have grown up much more…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90541",
+   "t_he": "",
+   "t_en": "What Happened to Abraham’s Converts?",
+   "x": "I’ve always wondered what happened to the many people Abraham and Sarah taught about God? I understand that they spent years spreading the faith far and wide.…",
+   "ax": "It’s a very interesting issue. It is true that Abraham and Sarah devoted their lives to teaching the world about God. This is one reason why they were so belov…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90545",
+   "t_he": "",
+   "t_en": "Where Was Salem?",
+   "x": "Do we know anything about the city of Salem – where Abraham came to after his battle against the four kings (Genesis 14:18)? Melchizedek, its king, is describe…",
+   "ax": "In fact the Sages identify Salem (“Shalaim”) as none other than the holiest city in the world, Jerusalem (Targum, Bereishit Rabbah 56:16; see also Psalms 76:3…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90556",
+   "t_he": "",
+   "t_en": "Tzara’at Versus Leprosy",
+   "x": "Do we know the identity of the disease of tzara’at in the Torah (Leviticus 13-14)? Is it the identical disease when a person contracted it as when it appeared…",
+   "ax": "Tzara’at is often translated as leprosy but it was not a physical disease at all (nor do its symptoms resemble true leprosy). The Talmud (Erchin 16a) states th…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2018"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90570",
+   "t_he": "",
+   "t_en": "Unleavened Dough of Exodus",
+   "x": "I have what I believe is a very simple question on the Torah. Exodus 12:33-34 states that the Egyptians rushed the Children of Israel out of Egypt, and that as…",
+   "ax": "Thank you for your very good question. The most straightforward answer is that dough only rises when it is at rest. And since the Children of Israel were trave…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2017",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90579",
+   "t_he": "",
+   "t_en": "Animal Offerings Today",
+   "x": "I was reading the Book of Leviticus and this got me wondering: Why don't Jews bring animal offerings today? I know there is no Holy Temple in Jerusalem, but do…",
+   "ax": "Once the Temple was built in Jerusalem (approx. 3,000 years ago), it became permanently forbidden to offer sacrifices anywhere else but there on the Temple Mou…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90581",
+   "t_he": "",
+   "t_en": "Archaeology and the Exodus",
+   "x": "I am in touch with someone who is interested in Judaism, but wants to understand its validity from a historic and archeological perspective. He is very bright,…",
+   "ax": "Since my beard is not white, I suppose I qualify to answer. In 2001, a storm of debate erupted in the Jewish world, following the assertion by Rabbi David Wolp…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90585",
+   "t_he": "",
+   "t_en": "Bible Translation",
+   "x": "I just returned from a business trip where I stayed up late one night reading the Bible that was in the nightstand. Or I should say, that I tried reading it. T…",
+   "ax": "Hebrew is a very special language. It is the language God spoke when He created the world. It is the national language of the Jewish people – which best captur…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90600",
+   "t_he": "",
+   "t_en": "Cursed Ground",
+   "x": "Following the disobedience of Adam and Eve, they are given a punishment, and the serpent is cursed for its role in tempting Eve. My question is: Why does God a…",
+   "ax": "On the third day of the world's creation, God commanded: \"Let the earth sprout vegetation, herbs that give out seeds and TREE FRUIT that grows fruit according…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90684",
+   "t_he": "",
+   "t_en": "Dinosaurs",
+   "x": "A new Bible museum has opened in the U.S. which portrays a world that once included dinosaurs. But we all know that dinosaurs have been extinct for millions of…",
+   "ax": "First, one should realize that Judaism has always been compatible with science. The medieval philosopher Maimonides wrote that seeming conflicts between scienc…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90689",
+   "t_he": "",
+   "t_en": "Evolution and the Bible",
+   "x": "Darwin seems to be well-accepted scientific fact. But given the Creation account in the Bible, is it reasonable to assume that Moses missed evolution?",
+   "ax": "The Bible is well aware of evolution, although it is not very interested in the details of the process. All of animal evolution gets a mere seven sentences (Ge…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90708",
+   "t_he": "",
+   "t_en": "Killing Shechem",
+   "x": "One story in the Bible has always intrigued me. After the prince of Shechem raped Jacob's daughter Dina, Jacob's sons made a deal to have them all the people o…",
+   "ax": "Thank you for sending your interesting question. This story has unfortunately been misunderstood, and used by haters of Israel to falsely show time type of inn…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90709",
+   "t_he": "",
+   "t_en": "King David's Character",
+   "x": "I always thought that King David was a consummate Jewish hero. But lately I've heard various people disparaging his character. What's the story?",
+   "ax": "King David was a very pious man, as can be seen in the books of Samuel and Psalms, which he composed. He fought heroic battles, and set up the kingdom in Jerus…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90713",
+   "t_he": "",
+   "t_en": "Moses' Horns",
+   "x": "I am taking an art appreciation class and we recently studied Michelangelo's statue of Moses, which is adorned with horns. This has anti-Semitic overtones and…",
+   "ax": "This comes from a mistranslation of the Torah. The verse (Exodus 34:29) says that when Moses descended from the mountain with the two tablets in his hands, his…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90716",
+   "t_he": "",
+   "t_en": "Number of Jews at Exodus",
+   "x": "Thank you very much for all your wise and interesting writings. For the last two years, I've been teaching an adult seminar called \"Discovering the Beauty of J…",
+   "ax": "It is written in the Torah, \"The Children of Israel journeyed... 600,000 adult males on foot, besides the children.\" (Exodus 12:37) Since the verse only includ…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90719",
+   "t_he": "",
+   "t_en": "Overnight Lodging",
+   "x": "In Parshat Chayei Sarah when Eliezer was asking for lodging for the night, why is there a difference in the spelling of the word La-lin (Genesis 24:23) and La-…",
+   "ax": "Fantastic! Rashi was bothered by the exact same question! In the first reference, Eliezer asked for one night of lodging. But Rivka, in her generosity, offered…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90721",
+   "t_he": "",
+   "t_en": "Reason for Slavery",
+   "x": "In the Bible, God tells Abraham that his descendents will eventually become slaves, which was fulfill during the awful years in Egypt. Why would God make such…",
+   "ax": "In Genesis 15:7-8, God promises Abraham that he and his descendants will possess the Land of Israel. To which Abraham responds, \"How will I know that's true?\"…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90724",
+   "t_he": "",
+   "t_en": "The Word \"Selah\"",
+   "x": "The word \"selah\" is used frequently in the Book of Psalms (for example, in Psalms 3:3). But I have yet to see a good, consistent translation. Do you know what…",
+   "ax": "The Talmud (Eruvin 54a) says that selah means \"forever.\" The Radak (12th century France) saw it as a musical notation for the singers to raise their voices. An…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90725",
+   "t_he": "",
+   "t_en": "Sun Stands Still for Joshua",
+   "x": "The Bible describes how the Israelites attained a major victory when the sun miraculously stood still at Gibeon – rising but not setting for a whole day. How c…",
+   "ax": "The answer to your question is that Torah has far more credibility than any historical document, which is frequently \"revised\" to reflect the agenda of the peo…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90729",
+   "t_he": "",
+   "t_en": "Three Angels",
+   "x": "The Torah recounts that three angels appeared to Abraham (Genesis 18:2). Later, only two angels go down to Sodom. What happened to the third angel? And what is…",
+   "ax": "Although the Torah does not mention the names of the angels that went to visit Abraham, the Talmud tells us they were Raphael, Michael and Gabriel. (Bava Metzi…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90734",
+   "t_he": "",
+   "t_en": "What is Torah?",
+   "x": "I hear people speak about \"Torah study\" and \"the power of Torah,\" etc. But I'm not clear what exactly they are referring to with the term \"Torah.” Is that more…",
+   "ax": "The word \"Torah\" literally translates as law or teaching. Torah is the Five Books of Moses: Genesis, Exodus, Leviticus, Numbers and Deuteronomy. Each book is o…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "yerachmiel-fried",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90735",
+   "t_he": "",
+   "t_en": "Who Wrote the Torah?",
+   "x": "How did we get the Torah? Who wrote it down? If it was Moses, how could he write about his own death at the end of Deuteronomy?",
+   "ax": "The Torah was given to Moses at Mount Sinai. All Jewish souls – past, present and future – witnessed the Revelation at Sinai. At that event, God conveyed the T…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90736",
+   "t_he": "",
+   "t_en": "Why First-borns Killed?",
+   "x": "It has always bothered me why all of the first-borns in Egypt had to suffering in that final, devastating plague. There is no mention in the verses of the comm…",
+   "ax": "The killing of the first-born stands out from all the other plagues as Divine retribution directed toward Pharaoh and all of Egypt. The Midrash (based on the v…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90793",
+   "t_he": "",
+   "t_en": "Avraham Serving the Angels",
+   "x": "In Genesis 18:8, three angels appear to Abraham. It says that Abraham served them milk and a calf. I realize that the laws of kashrut prohibiting mixtures of m…",
+   "ax": "Good question! In fact, the Talmud states that Abraham observed all the mitzvahs. So how could he be mixing milk and meat? Many different answers are offered:…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90808",
+   "t_he": "",
+   "t_en": "Completing a Book of the Torah",
+   "x": "I am a lay leader at my temple. Since our rabbi is away, I will be leading this week’s Shabbat service. I have beginner-intermediate skills for chanting Torah.…",
+   "ax": "Upon completing a public reading of one of the Five Books of Moses, everybody stands up and shouts \"Chazak! Chazak! Venis-chazeik!\" which translate as \"Be stro…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-90961",
+   "t_he": "",
+   "t_en": "Book of Jonah",
+   "x": "I always loved the story of Jonah and the whale. Why do we read it during the afternoon service of Yom Kippur?",
+   "ax": "Let's recap the story: God tells Jonah to go to Ninveh and to prophesy that in 40 days, God will destroy the city. Instead, Jonah goes to Jaffa, boards a ship,…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91011",
+   "t_he": "",
+   "t_en": "Ruth and Shavuot",
+   "x": "I attended synagogue services on the holiday of Shavuot morning, and we spent a half-hour reading the Book of Ruth. Is there any special connection between Rut…",
+   "ax": "The Torah and prophetic reading on Yom Tov always relate to a deeper theme of the day. In this case, Ruth is the ancestor of King David, who was born on Shavuo…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91016",
+   "t_he": "",
+   "t_en": "Creation & The Big Bang",
+   "x": "I have trouble reconciling my reading of Genesis with current scientific theory. When I read the beginning of creation, is seems clear that God created the wor…",
+   "ax": "In most translations, the first verse of Genesis reads something like this: “In the beginning God created heaven and earth, and the earth was astonishingly emp…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "yerachmiel-fried",
+    "published-2012"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91020",
+   "t_he": "",
+   "t_en": "Eye for an Eye",
+   "x": "I recently heard a talk explaining \"an eye for an eye\" in the Torah. As society has become less barbaric, the rabbis reinterpreted the verse to mean one pays t…",
+   "ax": "The verse you are referring to, discussing a fight between two Jews, says the following: \"…an eye for an eye, a tooth for a tooth, a hand for a hand, a foot fo…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "yerachmiel-fried",
+    "published-2012",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91045",
+   "t_he": "",
+   "t_en": "What Is Torah?",
+   "x": "What is the literal meaning of the word Torah? Some I’ve asked have conjectured it means “The Book” or Hebrew for the Greek “Bible.” Someone else thought it me…",
+   "ax": "Although “Torah” does refer to the Five Books of Moses, or the Bible, and at times it refers to the combination of the written and oral laws, this is not the l…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "yerachmiel-fried",
+    "published-2012"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91052",
+   "t_he": "",
+   "t_en": "Isaac & Finding the Perfect Partner",
+   "x": "I’m 30 years old and finding that most of my friends who have gotten married are soon after divorced. I would like to get married but am afraid of marrying the…",
+   "ax": "Abraham sends his servant Eliezer with instructions to find a wife for Isaac. Eliezer asks God's help to find the right person. He travels through the desert t…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2012"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91053",
+   "t_he": "",
+   "t_en": "Jacob - Disciplining With Love",
+   "x": "I have three kids and when they misbehave I want to discipline them. But sometimes I feel like that would be harming their self-esteem. What does the Torah say…",
+   "ax": "Before dying, our forefather Jacob blessed his children. The strengths and weaknesses of the various children define the character of each of the Twelve Tribes…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2012",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91055",
+   "t_he": "",
+   "t_en": "Jewish Census - \"Members of the Tribe\"",
+   "x": "Immediately after giving the Ten Commandments, God tells the Jewish people to organize themselves by tribe and take a census. (That's why the fourth book of th…",
+   "ax": "It's politically correct to insist that everyone is the same – Jews, gentiles, men, women, blacks, whites, Irish, Chinese – a whole rainbow of colors swirled i…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2012"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91057",
+   "t_he": "",
+   "t_en": "Moses: No Entry into Israel",
+   "x": "Deuteronomy 3:23 speaks about Moses imploring, begging and pleading with God to allow him to enter the Land of Israel. But God says “no.” Why can't Moses go wi…",
+   "ax": "The simple answer is what the Torah writes explicitly. Moses sinned by failing to obey God's instruction. When the people thirsted for water, God told Moses to…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2012"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91062",
+   "t_he": "",
+   "t_en": "Slander & Skin Disease",
+   "x": "The Bible (Leviticus ch. 13-14) speaks of a disease called tzara'as which is translated as \"leprosy.\" What causes this exactly?",
+   "ax": "This was an affliction signaling a spiritual illness. People got tzara'as if they spoke slander. Under U.S. law, you're not guilty of libel if you told the tru…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2012"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91067",
+   "t_he": "",
+   "t_en": "Widows and Orphans: Stop the Suffering",
+   "x": "The Torah says (Exodus 22:20-23): \"Don't taunt or oppress a stranger, for you were strangers in the land of Egypt... Don't cause pain to widows or orphans.\" Wh…",
+   "ax": "It is a natural inclination to pick on the weak. And those who have been weak and picked on are most likely to revenge themselves by picking in turn on others.…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2012"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91068",
+   "t_he": "",
+   "t_en": "Plague of Blood – Magician’s Imitation",
+   "x": "The Torah states that after God turned the water to blood, the Egyptian magicians performed the same feat. But doesn’t the Torah state explicitly that all the…",
+   "ax": "It’s a very good question. There are several different possible answers: (1) It’s possible that not all the water in the country turned to blood. There are var…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "rabbi-dovid-rosenfeld",
+    "published-2015"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91086",
+   "t_he": "",
+   "t_en": "Torah versus Science",
+   "x": "I don't understand all the fuss about certain school districts approving a mix of \"evolution versus creation\" in the classroom. I have undertaken extensive res…",
+   "ax": "To answer your question, I turned to Dr. Gerald Schroeder, a nuclear physicist who served on the staff of MIT and as a member of the U.S. Atomic Energy Commiss…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91097",
+   "t_he": "",
+   "t_en": "Jewish Claim to the Land",
+   "x": "I have heard a lot of anti-Israel sentiment from my friends who support the Palestinians. A good client of mine questions the validity of Israel’s existence, s…",
+   "ax": "The Jewish people are not stealing anything. They were granted the Land of Israel by God, as is stated in Genesis 15:7 and 21:12. In fact, the very first thing…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011",
+    "needs-review"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91105",
+   "t_he": "",
+   "t_en": "Red Heifer",
+   "x": "I was reading the Book of Numbers, chapter 19, which describes the Red Heifer. The whole thing seems quite mysterious. Can you explain?",
+   "ax": "In Temple times, the red heifer was used for the purification of those who had come into contact with the dead. This had great practical importance during Temp…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91119",
+   "t_he": "",
+   "t_en": "Who Was The the First Jew?",
+   "x": "Why is Abraham considered the first Jew?",
+   "ax": "When he was three years old, Abraham looked around at the world of nature with all its perfection, beauty, symmetry, precision, timing, balance, integration, c…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91187",
+   "t_he": "",
+   "t_en": "Waging War Against Canaan",
+   "x": "In 2009, when Israel went into Gaza and killed a lot of people, I was discussing religion with one of my friends, and he said that in the Torah, God told us to…",
+   "ax": "The Canaanite nations were hardcore idol worshippers and as such, were an unacceptable influence on the holy Jewish nation building its home in the Land of Isr…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
+   "s": "upload"
+  },
+  {
+   "id": "up-aish-91201",
+   "t_he": "",
+   "t_en": "Waging War",
+   "x": "After 9-11, the U.S. went into Afghanistan and killed a lot of people, with the President declaring a “war on terror.” The Bible itself seems to condone going…",
+   "ax": "Sometimes war is necessary. Judaism teaches that while the supreme value is life, we're not pacifists. Wiping out evil is also part of justice. Dangerous dispu…",
+   "tg": [
+    "aish",
+    "tanach",
+    "question-answer",
+    "aish.com-staff",
+    "published-2011"
+   ],
+   "c": "tanach",
+   "y": 2026,
+   "ch": 239,
    "s": "upload"
   }
  ]
