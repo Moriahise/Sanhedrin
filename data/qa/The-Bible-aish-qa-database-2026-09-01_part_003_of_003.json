@@ -1,0 +1,836 @@
+{
+  "schema": 2,
+  "format": "sanhedrin-qa-upload",
+  "profile": "sanhedrin-github-upload-aish-v3",
+  "generated_at": "2026-09-01T09:45:44+00:00",
+  "exported_at": "2026-09-01T06:03:58.262Z",
+  "source": "aish.com",
+  "provider": "aish",
+  "part": 3,
+  "total_parts": 3,
+  "questions_in_part": 16,
+  "total_questions": 16,
+  "original_total_questions": 270,
+  "valid_total_questions": 270,
+  "skipped_total_questions": 0,
+  "categories_summary": {
+    "general": 3,
+    "halacha": 5,
+    "tanach": 6,
+    "talmud": 1,
+    "kabbalah": 0,
+    "history": 1
+  },
+  "content_summary": {
+    "question_answer": 16,
+    "articles": 0,
+    "unanswered": 0,
+    "needs_review": 4
+  },
+  "questions": [
+    {
+      "source": "upload",
+      "source_id": "aish-91073",
+      "id": "aish-91073",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Meat After the Flood",
+      "question": "Why was man permitted to eat meat after the Flood (Genesis 9:2-3)? Does the fact that at his creation man was not allowed to eat meat indicate that this is the ideal state of man? But if so, what changed after the Flood?",
+      "answers": [
+        {
+          "text": "It’s a very basic and important question. To begin with, it does seem that your inference is correct. At man’s creation – presumably at his highest state – he was not permitted to kill animals for food. Nachmanides explains that this was because animals possess a degree of life and sentience somewhat resembling human beings: they have awareness and understanding, they run from danger, etc. (Ramban al HaTorah 1:29). It was therefore inappropriate to kill them for man’s pleasure alone.\n(Man was allowed to slaughter an animal to bring it as a sacrifice to God – as Abel did (Gen. 4:4). This was not simply a taking of an animal life for a human one, but devoting it to God – which is clearly a form of bringing it to a higher state. Similarly, according to some, man was permitted to eat the meat of an animal which died on its own – except a limb severed from a live animal (Tosafot Sanhedrin 56b s.v. “achal”). Thus, it was not a matter that man was originally intended to be herbivorous. It was primarily out of a concern for the welfare of the animal kingdom.)\nNachmanides continues that even when meat was permitted after the Flood, man was not permitted to derive benefit from an animal’s soul directly, only its meat. Thus, we could not eat a limb taken from a live animal nor eat its blood – the seat of its soul (Leviticus 17:11).\nIf so, what changed after the Flood? Why were animal lives considered more dispensable than they were in the antediluvian era? In fact today the Sages recommend that we enjoy meat at times such as Shabbat and holidays.\nThere are several answers to this offered by the commentators. As you will see, most are basically practical – that in spite of Nachmanides’ objections, postdiluvian man had a greater need for meat or stronger rights over the animal kingdom than his predecessors. There are, however, approaches along the lines that a more fundamental change occurred in the relationship between mankind and the animal kingdom after the Flood.\n(1) The animals survived the flood only because of Noah’s efforts. Since they owed their lives to him, Noah and his descendants had gained rights over them – including the right to consume them (Ramban (1:29), R. Bechaye, Bechor Shor, Chizkuni, Ohr HaChaim, Malbim). Further, Noah and his family exerted great effort to keep the animals alive on the ark. He also offered sacrifices to God after the Flood – evoking a guarantee from God that He would never again destroy the Earth and its animal life. Thus, Noah and his descendants earned the right to use animals for their needs (Ohr HaChaim).\n(2) Man was weaker after the Flood (as reflected in his shorter lifespan). The world’s flora was also of inferior quality to that which existed before the Flood. The world would now have seasons, with long unproductive winters. Man was also destined to spread out further – to colder areas of the globe. As a result, he would require meat to survive (Malbim, R. Hirsch). Man’s shorter lifespan may have also indicated that his life would be more hectic and he would require more nourishment (R. Hirsch).\n(3) Noah and his family came out of the ark to a barren world, with nothing to subsist on. They were allowed to eat meat in order to survive – and that became permissible for all time (Abarbanel).\n(4) Man reached a very low level of morality before the Flood, reducing human beings to the level of animals. People paid little heed to their souls, created in the Divine image, and basically began acting like animals. (This is why Cain offered plants in sacrifice to God rather than animals (Gen. 4:3). He saw animals as the equal of man. We could not kill them even in God’s service. Once the distinction between animal and man became blurred, Cain’s next step (once he realized animal life could at times be taken – as Abel did) was to kill a human.) God therefore saw need to permit animals to man – to emphasize the fundamental difference between the animal soul and the human one. Man would hopefully then begin to appreciate his humanity (Sefer Ha’Ikkarim, Sect. 3, Ch. 15). (For a more detailed treatment of this approach, see here and here.)\n(5) With the restart of the human race with Noah and his family, man would reach higher levels of spirituality than before – culminating in the Jewish people. The distinction between man and animal would become much greater. Once this became the case, eating animals in fact became desirable. Spiritually speaking, when a higher form of life consumes a lower one, it serves to elevate the lower one, enabling it to serve and become a part of something greater than itself. (See Malbim and Kli Yakar.) The Talmud likewise states that only a Torah scholar should eat meat, not an ignoramus (Pesachim 49b). In other words, only when the consumption will truly be an elevation for the meat is such behavior appropriate.\n(6) It’s possible to suggest that the spiritual level of the animals declined somewhat with the world’s destruction and recreation at the time of the Flood. Before the Flood, the physical world was a much more spiritually charged place. The bonds linking the heavens to the earth were much more powerful. The spiritual vitality of the upper spheres energized the earth to a much greater extent. The earth was thus a richer, more verdant place, and human beings lived much longer.\nConversely, before the Flood, when man sinned it had a much more devastating effect on the physical world. Man’s infidelity caused the animals to breed outside their species as well. It likewise caused the crops to refuse to grow. The world was much more spiritually attuned, and man’s wickedness destroyed the very fabric of existence.\nThis tight coupling came to an end with the Flood, after which God promised He would never again destroy the earth on account of man. The postdiluvian world thus became much more physical, less influenced by spirituality – and less sanctified itself. As a result, the level of the animals declined. They were no longer as spiritually attuned, and so, man was permitted to eat them.",
+          "accepted": true,
+          "author": "Rabbi Dovid Rosenfeld",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/meat-after-the-flood/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "rabbi-dovid-rosenfeld",
+        "published-2015"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-08-31",
+      "published_at": "2015-04-17",
+      "saved_at": "2026-08-31T21:53:46.644Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Rabbi Dovid Rosenfeld",
+        "date": "2015-04-17T12:15:08+00:00",
+        "upvotes": 0,
+        "original_id": "91073",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2015-04-17",
+        "import_date": "2026-08-31",
+        "category_reason": [
+          "permitted",
+          "allowed to",
+          "shabbat"
+        ],
+        "source_filename": "2015-04-17-Meat-After-the-Flood.91073.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91085",
+      "id": "aish-91085",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Torah Source for Pi",
+      "question": "I am a scientist and enjoy studying the Torah lessons found on Aish.com. But from a professional standpoint, I feel that scientific information is more accurate and reliable. Is that a valid perspective?",
+      "answers": [
+        {
+          "text": "Yes and no. On one hand, when it comes to things like medicine, we have to rely on modern science. Yet on the other hand, we have seen time and again where science evolves its theories, and something that was once considered crazy - like the Big Bang - becomes accepted as fact.\nThe Torah is absolute and immutable, and there are many examples of how the Torah reflects a deeper scientific wisdom. Here's one:\nThe verse says: \"[King Solomon] made a molten sea of 10 cubits from rim to rim, with a round circumference, five cubits in height, and a 30-cubit line of circumference.\" (1-Kings 7:23, 2-Chronicles 4:2)\nThe verse describes King Solomon's pool (a large laver) as a circular structure with a circumference of 30 cubits and a diameter of 10 cubits. Thus: 30 divided by 10 equals 3. This value is considered a very primitive approximation of Pi.\nHistorians have generally attributed the first close approximation of Pi to the Egyptians, in their construction of the Great Pyramid, as described by Abbe Moreux in his \"La Science Mysterieuse des Pharaons\" (Paris, 1923).\nNow let's look at the writings of The Vilna Gaon (18th century Lithuania), who writes:\nIn each of the two Biblical verses describing King Solomon's pool, the word for \"line\" is written differently. What is the possible reason? If we take the gematria (numerical value) of the two spellings, we find something very significant.\nThe word \"line\" in 1-Kings 7:23 is spelled Kuf-Vav-Heh, which equals a numerical value of 111. The word \"line\" in 2-Chronicles 4:2 is spelled Kuf-Vav, a numerical value of 106.\nIf you calculate the ratio of these two values to four decimal places (1.0472), then multiply by 3 (the biblical value of Pi in its simple reading), the result is 3.1416 - the precise mathematic value of Pi, correct to four decimal places - or within one tenth-thousandth.\nMany scientists acknowledge the deeper scientific truths of Torah. I recommend reading the writings of Dr. Gerald Schroeder, author of Genesis and the Big Bang, The Science of God, and The Hidden Face of God.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/torah-source-for-pi/",
+      "tags": [
+        "aish",
+        "general",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011",
+        "needs-review"
+      ],
+      "category": "general",
+      "category_confidence": "low",
+      "needs_review": true,
+      "date": "2026-08-31",
+      "published_at": "2011-08-25",
+      "saved_at": "2026-08-31T22:40:30.534Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-08-25T19:12:26+00:00",
+        "upvotes": 0,
+        "original_id": "91085",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-08-25",
+        "import_date": "2026-08-31",
+        "category_reason": [],
+        "source_filename": "2011-08-25-Torah-Source-for-Pi.91085.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91086",
+      "id": "aish-91086",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Torah versus Science",
+      "question": "I don't understand all the fuss about certain school districts approving a mix of \"evolution versus creation\" in the classroom. I have undertaken extensive research of the natural world in light of the biblical account, and my conclusion is there need be no contradiction whatsoever. So what's the big fuss?",
+      "answers": [
+        {
+          "text": "To answer your question, I turned to Dr. Gerald Schroeder, a nuclear physicist who served on the staff of MIT and as a member of the U.S. Atomic Energy Commission, and who now lectures frequently at Aish Jerusalem. Here's what he said:\nIf I had to assign chief blame for the ongoing struggle between science and religion and the resulting erosion of biblical credibility, it would be to the leaders of organized religion. Since Nicolaus Copernicus had the audacity to suggest that the sun, not Earth, was the center of our solar system, their knee-jerk reaction to scientific discovery has been to deny its validity. Yet what does the position of the earth have to do with belief in a Creator of the universe or the validity of the Bible?! Nowhere does the text claim that Earth is central to anything. In fact, the very first sentence of the Bible – \"In the beginning God created the heavens and the earth\" (Genesis 1:1) – places the heavens before Earth. As scientific data demonstrating the sun's centrality accumulated, the Church was forced into embarrassed retreat. And today, the popular perception remains that science had proven the Bible wrong. Where in reality, the claim of Earth's centrality had nothing to do with the Bible.\nSimilarly, Kepler's discovery of the elliptical orbit of the planets did not sit well with the religious establishment. They said circles are perfect geometric shapes, ellipses are defective. And they said an infinitely powerful God would be expected to produce perfect orbits. Of course, the Bible doesn't teach that a circle is better than an ellipse! Yet the Church condemned Kepler's discovery.\nThen Charles Darwin appeared on the scene. The thought that life in general (and humans in particular) had developed from lower life forms was simply unacceptable to the Church. The concept of evolution was condemned as heretical, notwithstanding the fact that Darwin in the closing lines of his book attributed the entire evolutionary flow of life to \"its several powers having been originally breathed by the Creator in a few [life] forms or into one.\" Nonetheless, the gauntlet of heresy had been thrown down.\nJudaism views this whole issue much differently.\nThe medieval philosopher Maimonides wrote that conflicts between science and the Bible arise from either a lack of scientific knowledge or a defective understanding of the Bible. Our Sages always viewed Torah knowledge in light of prevailing scientific theory. In fact, Jewish law states:\n\"Only wise and understanding men are to be appointed to the Sanhedrin. They must be experts in Torah law, with a wide breadth of knowledge. They must also know secular subjects like medicine, mathematics, astrology and astronomy.\" (Maimonides – Sanhedrin ch. 2)\nSo where does the problem lie? Often, acknowledged experts in science assume that although scientific research requires diligent intellectual effort, biblical wisdom can be attained through a simple reading of the Bible.\nYet such a strange and poetic text is not to be read literally. Two millennia ago, long before paleontologists discovered fossils of dinosaurs and cavemen, long before data from the Hubble and Keck telescopes hinted at a multibillion-year-old universe, the Talmud (Chagiga 12b) stated explicitly that the opening chapter of Genesis, all 31 verses, is presented in a manner that intentionally conceals information. Furthermore, Moses, on the day of his death, exhorted the people three times to read the Bible as a text having within it a subtext harboring multiple meanings (Deut. 31:19, 30; 32:44).\nFrom a Jewish perspective, the conflict over teaching science in schools is ironic. Maimonides wrote that science is one of the primary paths to knowing God, and for that reason the Bible commences with a description of the Creation. Throughout the Bible, knowledge of God is compared with the wonders of nature, as stated so well in Psalms (19:2): \"The heavens tell of God's glory, and the sky declares his handiwork.\"\nThe first step in a rapprochement between science and Bible is for each camp to understand the other. Distancing the Bible from a few misplaced theological shibboleths will do wonders in furthering this mutual understanding.\nArnold Penzias, who was awarded the Nobel Prize for his research on the Big Bang, once remarked: \"What we see marking the flight of galaxies with our telescopes, Maimonides saw from his metaphysical view.\"\nTo learn more, read Dr. Schroeder's book, \"The Science of God\" (Free Press).",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/torah-versus-science/",
+      "tags": [
+        "aish",
+        "tanach",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "tanach",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-08-31",
+      "published_at": "2011-08-25",
+      "saved_at": "2026-08-31T21:47:09.468Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-08-25T19:16:30+00:00",
+        "upvotes": 0,
+        "original_id": "91086",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-08-25",
+        "import_date": "2026-08-31",
+        "category_reason": [
+          "bible",
+          "biblical",
+          "genesis",
+          "psalms"
+        ],
+        "source_filename": "2011-08-25-Torah-versus-Science.91086.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91089",
+      "id": "aish-91089",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Welcoming Guests",
+      "question": "I'm a recent convert to Judaism, and one of the things that impresses me the most about the Jewish community is the way people have so generously opened their homes to me as a guest for Shabbat and holiday meals. Where does this idea stem from?",
+      "answers": [
+        {
+          "text": "Hachnasat Orchim, welcoming guests, is one of the key ways of \"emulating God.\" In describing the mitzvah to walk in God's ways, the Talmud says: \"Just as He is merciful, so you be merciful. Just as He is kind, so you be kind.\" One example of God's kindness includes feeding the hungry, as God did by providing the manna bread to the Jews wandering in the desert (Exodus 16:4).\nAbraham emulated God by performing endless acts of kindness. In Genesis (Chapter 18), we find God talking to Abraham. When Abraham sees three strangers approaching from afar, he suddenly jumps up to offer them food and drink. Abraham treats the guests royally and serves the finest foods, and involves his whole family in the mitzvah.\nOn what basis did Abraham prioritize the helping of strangers over talking with God?!\nThe answer is that even greater than talking to God, is to be like God. God is a giver. We are created in the image of God; thus giving is our greatest form of spiritual expression. Abraham achieved great spiritual levels because he emulated God by welcoming guests into his home.\nHachnasat Orchim is one of the mitzvot described in the Talmud (Shabbat 127a), for which we receive the rewards both in this world and in the world to come.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/welcoming-guests/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-08-31",
+      "published_at": "2011-08-28",
+      "saved_at": "2026-08-31T21:58:34.978Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-08-28T18:18:21+00:00",
+        "upvotes": 0,
+        "original_id": "91089",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-08-28",
+        "import_date": "2026-08-31",
+        "category_reason": [
+          "convert",
+          "shabbat",
+          "mitzvah",
+          "mitzvot",
+          "holiday"
+        ],
+        "source_filename": "2011-08-28-Welcoming-Guests.91089.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91097",
+      "id": "aish-91097",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Jewish Claim to the Land",
+      "question": "I have heard a lot of anti-Israel sentiment from my friends who support the Palestinians. A good client of mine questions the validity of Israel’s existence, saying: “How do you justify inhabiting an already populated land through force? How can you contemplate the horrors of the Holocaust and then inflict such suffering on the Arabs?” Some of these people say they respect Judaism, but question why it is acceptable to \"steal\" land from a people and keep it yourself. I am not attacking Israel, just trying to investigate the issue. Do the Jews have a valid claim on Israel? From the times of Abraham and Moses, how many years was the land ours? I could also use some info on the history of U.N. declarations, etc. Thank you.",
+      "answers": [
+        {
+          "text": "The Jewish people are not stealing anything. They were granted the Land of Israel by God, as is stated in Genesis 15:7 and 21:12.\nIn fact, the very first thing that God said to Abraham was: \"Go from your land of your birth… to the land that I will show you, and I will make you into a great nation\" (Genesis 12:1). When Abraham and Sarah got to Israel, God promised them, \"To your descendants have I given this land from the river of Egypt to the Euphrates River.\" In God's eyes the deal was considered set in stone, which is why He said \"I have given this land\" in the past tense, as if the thing were already done and impossible to undo. (Genesis 15:18, Rashi)\nWhy did God promise to give Israel to the Jews? Why didn't God give them Uganda or Argentina instead?\nBecause Israel has a special holiness that other lands do not have. Even from before the giving of the Torah, Jerusalem and Israel had taken on great religious significance. The Talmud says that creation began in Jerusalem, and the world radiated outward from this place. Great religious leaders always lived there, such as Malchitzedek (Genesis 14:15). It is there that the patriarch Isaac was bound for sacrifice, and it is there that his son Jacob dreamt of the ladder ascending to heaven.\nThis inherent holiness is described in the Talmud, which says, \"Even the air of the Land of Israel makes one wise.\"\nThe first words that Rashi, the preeminent Torah commentator, writes on the first verse in Genesis, is to ask why the Torah begins with the Creation account, and not from the first mitzvah (which is to sanctify the new month)? Rashi explains that the purpose of the Creation story is to establish God’s ownership over the world, in order to justify Jewish possession of the Land of Israel. The land belongs to God. He can give it to whomever He wants, and take it away from whomever He wants. God gave it to the Jews.\nAlthough Abraham knew that God had given him the land, he nevertheless chose peaceful measures and paid exorbitant amounts for a field in Hebron (Genesis 23:4, Rashi). This became the Jewish holy site, the Tomb of the patriarchs, 4,000 years ago. Similarly, Jacob purchased Shechem (Genesis 33:19), and King David bought Jerusalem (2-Samuel 24:24). Note that Jerusalem has been the Jewish capital for more than twice as many centuries as Islam has even existed!\nIn our time, the Jews have returned to the Land of Israel on the grounds that their ancestors not only bought this land, but were promised it by God. Moreover, the League of Nations was aware of your friend's claims, and yet they declared Israel to be the homeland of the Jewish people in 1922. The United Nations did the same in 1947. And yet the Jewish claim to the land is far deeper than any political vote by the nations of the world.\nThere are no simple solutions to complex problems, especially when religious beliefs and national identities are at stake. But only through an objective understanding of history, can we hope to arrive at a just and lasting solution.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/jewish-claim-to-the-land/",
+      "tags": [
+        "aish",
+        "tanach",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011",
+        "needs-review"
+      ],
+      "category": "tanach",
+      "category_confidence": "low",
+      "needs_review": true,
+      "date": "2026-08-31",
+      "published_at": "2011-08-28",
+      "saved_at": "2026-08-31T21:56:01.910Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-08-28T18:51:02+00:00",
+        "upvotes": 0,
+        "original_id": "91097",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-08-28",
+        "import_date": "2026-08-31",
+        "category_reason": [
+          "genesis",
+          "samuel",
+          "moses",
+          "abraham",
+          "isaac"
+        ],
+        "source_filename": "2011-08-28-Jewish-Claim-to-the-Land.91097.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91105",
+      "id": "aish-91105",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Red Heifer",
+      "question": "I was reading the Book of Numbers, chapter 19, which describes the Red Heifer. The whole thing seems quite mysterious. Can you explain?",
+      "answers": [
+        {
+          "text": "In Temple times, the red heifer was used for the purification of those who had come into contact with the dead. This had great practical importance during Temple times, because all participants in the Temple service needed to be ritually pure.\nThe unique feature of this cow is that it must be two years old and could have no more than two non-red hairs. (Mishnah Para 1:1, 2:5)\nMaimonides writes that from the time of Moses until the destruction of the Second Temple, only nine red heifers have been used to prepare the “purifying waters.” The tenth red heifer, says Maimonides, will be prepared by the Messiah.\nAs for the deeper reason for the red heifer, that is regarded as one of the deepest secrets in the Torah. So much so that even King Solomon, the wisest scholar who ever lived, was unable to fathom its full meaning.\nThere have been numerous cases of red heifers being born, the most recent being last year in a northern Israeli village called Kfar Chassidim. When these red heifers are born they usually draw quite a bit of attention – which tends to fade as the calf gets older and black hairs begin to appear.\nBut no need to worry. When the Messiah comes, rebuilds the Holy Temple and reinstitutes the use of the Red Heifer, one will surely be available!",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/red-heifer/",
+      "tags": [
+        "aish",
+        "tanach",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "tanach",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-08-31",
+      "published_at": "2011-08-29",
+      "saved_at": "2026-08-31T22:20:02.013Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-08-29T14:41:39+00:00",
+        "upvotes": 0,
+        "original_id": "91105",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-08-29",
+        "import_date": "2026-08-31",
+        "category_reason": [
+          "numbers",
+          "moses",
+          "book of",
+          "king solomon"
+        ],
+        "source_filename": "2011-08-29-Red-Heifer.91105.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91119",
+      "id": "aish-91119",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Who Was The the First Jew?",
+      "question": "Why is Abraham considered the first Jew?",
+      "answers": [
+        {
+          "text": "When he was three years old, Abraham looked around at the world of nature with all its perfection, beauty, symmetry, precision, timing, balance, integration, coordination, unity – and he concluded that for the world to be designed so perfectly, there obviously must be an intelligent designer. It was then that Abraham discovered God.\nNoah also knew about God, and his descendants Shem and Ever even had a yeshiva! If so, in what way was Abraham different that he is chosen to start the Jewish people?\nWhat makes Abraham unique is not just that he recognized God, but that he understood the need to go out and share this with others. The Midrash likens spiritual knowledge to a bottle of perfume. If you leave the bottle of perfume corked and sitting in a corner, what good is it? Shem and Ever were like a closed bottle of perfume, off studying in a corner somewhere.\nThe Founder of Judaism\nBut Abraham went out and taught people about monotheism. He pitched his tent, which was open on all four sides, in the middle of an inter-city highway. He authored a 400-chapter book refuting idolatry. And he endured all types of mockery and persecution for holding beliefs that were, to say the least, politically incorrect. In fact, the Torah calls him \"Avraham Ha-Ivri\" – Abraham the Hebrew. HA-IVRI translates literally as \"the one who stands on the other side.\" The entire world stood on one side, with Abraham standing firm on the other.\nAbraham distinguished himself as being a lover of all humanity. When God sought to destroy the corrupt city of Sodom, Abraham was willing to stand up against God and argue that they should be spared. He cared about everyone and viewed himself not as an individual trying to perfect himself, but as the progenitor of a movement to bring God's existence into perfect clarity.\nThat is the Jewish legacy – serving as an inspiration and a role model for all humanity.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/abraham-the-first-jew/",
+      "tags": [
+        "aish",
+        "tanach",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "tanach",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-08-31",
+      "published_at": "2011-09-01",
+      "saved_at": "2026-08-31T21:59:06.313Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-09-01T16:52:29+00:00",
+        "upvotes": 0,
+        "original_id": "91119",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-09-01",
+        "import_date": "2026-08-31",
+        "category_reason": [
+          "abraham",
+          "noah"
+        ],
+        "source_filename": "2011-09-01-Who-Was-The-the-First-Jew.91119.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91124",
+      "id": "aish-91124",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Chosen People Racist?",
+      "question": "What’s behind the whole concept of the Jews as the Chosen People? Isn’t this idea racist?",
+      "answers": [
+        {
+          "text": "All human beings are God's people, as it says that Adam and Eve were created in the image of God. Further, the great prophet Malachi said, \"Have we not all one father? Has not one God created us?\" (Malachi 2:10) The Talmud likewise points out that one reason the entire human race descends from a single set of parents, Adam and Eve, is so that no one would be able to claim his ancestors are greater than his fellow's (Sanhedrin 37a). Judaism does not believe there is an inherently superior race of human beings.\nHistorically, however, the world slipped away from its relationship with God, and eventually the entire world was worshipping idols. Approximately 4,000 years ago, Abraham re-discovered the one God, and chose to accept the challenge of spreading the ideas of monotheism and morality to the world. Through his dedication and willingness to give up everything for God, he was chosen – and his descendants after him – to become the guardians of God’s message.\nIn other words, Abraham chose God, and thus God chose Abraham.\nAbraham then passed this responsibility to his sons Isaac and Jacob. That mission was formalized 3,300 years ago at Mount Sinai, when God put these ideas into a written form (the Torah).\nTill today, the Jewish mission is to be a \"light unto the nations,\" to go out and teach what it means to be \"created in the image of God.\" Abraham demonstrated how a human being has to take responsibility for the world. Abraham's undertaking was the first progressive, liberal movement the world had ever seen. And how it succeeded!\nYet Judaism is not exclusionary. The Torah presents seven mitzvot for non-Jews to observe. These seven laws are the pillars of human civilization, and are named the \"Seven Laws of Noah,\" since all humans are descended from Noah. Maimonides explains that any human being who faithfully observes these laws earns a proper place in heaven. So you see, the Torah is for all humanity, no conversion necessary.\nAs explained in the Talmud (Sanhedrin 58b), they are:\n1) Do not murder.\n2) Do not steal.\n3) Do not worship false gods.\n4) Do not be sexually immoral.\n5) Do not eat the limb of an animal before it is killed.\n6) Do not curse God.\n7) Set up courts and bring offenders to justice.\nFurthermore, in God's great kindness, he opened the door for every human to potentially become part of the Jewish people. Anyone who is sincere can accept upon himself to keep all the commandments and convert to Judaism in the proper way. Once he converts, he then becomes a Jew in every regard and his relationship with God is the same level as that of every other Jew. Most Jewish communities today have a spectacular ethnic mix, many converts among them.\nSo, no, Judaism is not racist.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/chosen-people-racist/",
+      "tags": [
+        "aish",
+        "general",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011",
+        "needs-review"
+      ],
+      "category": "general",
+      "category_confidence": "low",
+      "needs_review": true,
+      "date": "2026-08-31",
+      "published_at": "2011-09-01",
+      "saved_at": "2026-08-31T21:55:33.044Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-09-01T17:04:22+00:00",
+        "upvotes": 0,
+        "original_id": "91124",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-09-01",
+        "import_date": "2026-08-31",
+        "category_reason": [],
+        "source_filename": "2011-09-01-Chosen-People-Racist.91124.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91125",
+      "id": "aish-91125",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Chosen People – Source of Anti-Semitism?",
+      "question": "I’ve often heard the Jews referred to as the “Chosen People.” Isn’t that possibly the source of much of the anti-Semitism in the world?",
+      "answers": [
+        {
+          "text": "I think the real question is whether the “Chosen People” idea is indeed a legitimate cause of anti-Semitism – or whether it is merely another excuse.\nIf Jewish \"choseness\" is in fact the cause of anti-Semitism, then hatred against the Jews should disappear when Jews drop the claim that they are chosen.\nLate in the 19th century, the Jews living in Germany and Austria collectively rejected their \"choseness\" and were assimilated by their host nation. In fact, they believed that the non-Jews among whom they lived were the true chosen people. \"Berlin is our Jerusalem!\" they loudly proclaimed. Gentile society was their social environment of choice, and Germany their beloved motherland.\nDid anti-Semitism disappear? We all know the tragic answer to that question. The Jews in Germany and Austria experienced the most vicious outpouring of anti-Semitic hatred in history. Precisely when Jews rejected their claim to \"chosenness,\" they suffered the most virulent forms of anti-Semitism.\nAnother test of the Chosen People theory is to see how humanity responds to other peoples who claim to be \"chosen.\" If the claim that Jews are chosen gives rise to anti-Semitism, then all groups who make similar claims of having been \"chosen\" should also become targets of persecution and hatred.\nChristianity and Islam represent two other major religious groups that claim to have been chosen. Christian theology accepts that God gave the Bible to the Jews and made the Jews His special messengers. However, it is the Christian belief that once the Jews rejected Jesus, the Christians became God's new chosen people.\nMuslims likewise believe that the Jewish Bible is the word of God. However, Muslim theology claims that when Mohammad appeared on the scene, God made the Muslims His chosen people. But why hasn't this historically generated hatred against them?\nIndeed, nearly every nation on earth has at one time or another claimed to be chosen. Americans claimed Manifest Destiny – that their actions were divinely willed – in their spread westward, dispossessing the native inhabitants. The Chinese chose to name their country China because the word means \"center of the universe.\" The name Japan means \"source of the sun.\" For Native Americans, the same word means both \"human being\" and \"Indian\" – implying that every non-Indian belongs to some subspecies.\nThese nations are not hated for having claimed superiority. A claim that one is chosen does not in and of itself cause hatred. If it did, then so many other nations would be the targets of the intense, universal hatred that is in fact unique to the Jews.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/chosen-people-source-of-anti-semitism/",
+      "tags": [
+        "aish",
+        "history",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "history",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-08-31",
+      "published_at": "2011-09-01",
+      "saved_at": "2026-08-31T22:21:28.537Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-09-01T17:07:23+00:00",
+        "upvotes": 0,
+        "original_id": "91125",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-09-01",
+        "import_date": "2026-08-31",
+        "category_reason": [
+          "history",
+          "anti semitism",
+          "century"
+        ],
+        "source_filename": "2011-09-01-Chosen-People-Source-of-Anti-Semitism.91125.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91155",
+      "id": "aish-91155",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Kohen Marriages",
+      "question": "I am a Reform Jew and am now looking to get married. I went to a few Jewish dating sites, and I saw some profiles which say \"permitted to a Kohen.\" I am a Kohen, and therefore this caught my attention. What exactly are they talking about?",
+      "answers": [
+        {
+          "text": "A Kohen is not allowed to marry a divorcee, a convert, or someone classified as a \"zonah.\" (see Leviticus 21:14; Talmud – Kiddushin 78a; Maimonides – Forbidden Relations 18:3)\nA \"zonah\" is defined as a woman who had intimate relations with a man whom she was forbidden to marry according to Jewish law – e.g. adultery, incest, or relations with a non-Jew.\nA Kohen is forbidden to marry these women, not because she is a bad person, but because there is metaphysical reality that is created which prevents a Kohen from being able to create the proper bond. Consider that H2O is water, and H2O2 is Hydrogen Peroxide. The difference may seem negligible, but is actually the difference is between life and death.\nThis is a very serious issue, and if a Kohen goes ahead and marries someone that he is not allowed to be married to, he is transgressing a Torah commandment every minute he remains married to her.\nOn a practical level, the kohanim, who are charged with being the spiritual leaders and role models for all of Jewry, must preserve a more scrutinizing level of holiness. The fact that a particular Kohen today may not see himself in such a lofty role does not diminish his obligation to live up to that.\nThere is another issue, however. It is important to check if the \"Kohen\" is a real \"Kohen.\" How reliable is the Kohanic tradition in the family? Just because someone's last name is \"Cohen\" does not mean that he necessarily has the status of a Kohen. To be considered a Kohen, one must have an unbroken tradition, as well as other factors too numerous to mention here. (Nevertheless, most people who have the name Cohen also have the status as Kohen.)\nAlso, it may be that the Kohen is really a \"chalal.” If his mother, paternal grandmother, etc., was forbidden to marry a Kohen, in that case the resulting son would be a chalal, not a Kohen – thereby disqualifying the \"Kohen\" (and his subsequent descendents) from the regular Kohanic rights and obligations.\nBottom line: If you have any questions about your status, or about that of any particular young woman, you need to speak with a reliable authority in Jewish law. If you tell me what city you're located in, I'll be happy to recommend someone you could contact.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/kohen-marriages/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-08-31",
+      "published_at": "2011-09-20",
+      "saved_at": "2026-08-31T22:15:54.564Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-09-20T18:04:49+00:00",
+        "upvotes": 0,
+        "original_id": "91155",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-09-20",
+        "import_date": "2026-08-31",
+        "category_reason": [
+          "jewish law",
+          "permitted",
+          "forbidden",
+          "obligation",
+          "kohen"
+        ],
+        "source_filename": "2011-09-20-Kohen-Marriages.91155.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91157",
+      "id": "aish-91157",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Who is a Mamzer?",
+      "question": "My mother has, unfortunately, been through a number of marriages and other living-together arrangements. This has produced a hodge-podge of children from different fathers. I actually was conceived through an affair that my mother had, and she has never revealed the identity of my biological father. To make a long story short, I was speaking with my friend (who wears a kippah) and he said that I should check out that I may be a mamzer. I remember that my grandma would call someone a \"mamzer\" as a kind of curse. The Internet didn't help much, because I don't know what information is reliable. Can you please help set things straight?",
+      "answers": [
+        {
+          "text": "A child is a mamzer if he is the result of relations with a Jewish man, that a Jewish woman is forbidden to marry – e.g. the result of incest, or an adulterous affair.\nA child that was born to an unmarried woman, is simply considered a child born out of wedlock, and is not a mamzer. However, if the woman was married at the time of conception, then that is adultery and the child is a mamzer (provided it can be concluded that the paramour rather than the husband is the child's father).\nA woman must be sure to receive a proper Get if she is being divorced, otherwise she is still considered married and subsequent children are considered as mamzers. It should be stressed that a civil divorce does not sever the marriage from the Jewish point of view. Only a Get can create a proper divorce. (see: www.aish.com/jl/l/m/103423494.html)\nA Jew who is a mamzer must keep all the commandments just like any other Jew, but he does have severe limitations regarding whom he can marry.\nThat's the legal aspect. The philosophical aspect raises the question: Why is the mamzer punished for the parents' mistake? The answer is that adultery (or incest, which also produces a mamzer) is one of the most terrible crimes, and the reality is that while people will sometimes hurt themselves, they will think much more carefully about hurting their children. So this is a deterrent factor.\nThe soul of a mamzer, for reasons unbeknownst to us mortals, must undergo the limitations of being a mamzer for the purpose of fulfilling his mission in the world. The circumstances that each individual finds himself in are directly related to his unique mission. For some it may be a physical handicap; for others, a metaphysical one. The mamzer is not paying for his parents' iniquities, he is being given a specific challenge for his own growth.\nI think the key for you at this point is to try to find out what really happened. The question of whether you are a mamzer depends on a number of things:\n1) Was your mother born of a Jewish mother?\n2) Was she married to a Jew at the time she had relations with your father?\n4) If she was married to a Jew, was the original wedding ceremony \"kosher\" in Jewish law?\n5) If yes, was she divorced from her first husband according to Jewish law with a \"get,\" or was it a civil divorce?\n6) Was your mother still living with her husband at the same time as her affair? Is it possible the husband is the actual father?\nAs you can see, there are many, many details of Jewish law pertaining to this, and anything said in this email cannot be used to determine a practical application in any specific case. A potentially wrong answer could have serious long-term consequences for the people involved.\nBottom line: If you have any questions about your status, or about that of any particular young woman, you need to speak with a reliable authority in Jewish law. If you tell me what city you're located in, I'll be happy to recommend someone you could contact.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/who_is_a_mamzer/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-08-31",
+      "published_at": "2011-09-20",
+      "saved_at": "2026-08-31T22:23:33.498Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-09-20T18:08:25+00:00",
+        "upvotes": 0,
+        "original_id": "91157",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-09-20",
+        "import_date": "2026-08-31",
+        "category_reason": [
+          "jewish law",
+          "forbidden",
+          "wedding",
+          "mamzer",
+          "living together"
+        ],
+        "source_filename": "2011-09-20-Who-is-a-Mamzer.91157.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91160",
+      "id": "aish-91160",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Misquoting the Talmud",
+      "question": "I recently stumbled on an anti-Semitic website and they had a whole list of Talmud sayings that sound very non-PC. One example was: \"It is permitted to marry a 3-year-old girl,\" which they said means that Judaism condones sexual abuse of a young child. Another example was: \"The best of the Gentiles, kill.\" Does the Talmud really say this stuff?",
+      "answers": [
+        {
+          "text": "Misquoting Talmudic texts or taking them out of context is an age-old method used to incite anti-Semitism.\nIn the example that you cite, that a Jew may marry a 3-year-old girl, it simply means that under the age of 3, a \"marriage\" contract has no validity. The Talmud is discussing a technical legal point, not condoning abhorrent sexual activities - which in fact the Talmud elsewhere condemns unequivocally (e.g., Kiddushin 41a). See here for a longer discussion of this.\nAs for: \"The best of the gentiles, kill,\" the context here is very crucial. The question was raised, how could there be any horses chasing after the Jews with chariots (in Exodus 14:7), when they were all killed in the plague of hail (Exodus 9:19). The Midrash (Tanchuma – Beshalach 8) answers that the horses were owned by those who heeded God's warnings and locked his animals indoors (Exodus 9:20).\nThe Midrash concludes that these God-fearing Egyptians -- the best Egyptians – turned out to be the ones that gave their horses to chase the Jewish people. In other words, in this particular instance, even the best Egyptians also turned out to be oppressors. So even they – \"the best of the gentiles\" – were deserving of death.\nThe Torah states unequivocally that ALL men were created in the image of God (Genesis 1:27). In fact, the Talmud emphasizes that Adam was created from the dust of all four corners of the earth (so to speak), so that no one nation could claim superiority. And of course, it is forbidden for a Jew to kill a Gentile. (source: Talmud Sanhedrin 57a; \"Taz\" Y.D. 158:1).\nSo you see, one can change the meaning of anything by taking it out of context. And better not to waste time refuting these points one by one. God's Torah is morally perfect, and if something ever sounds otherwise, it is because it is not understood properly.\nClick here for a full treatment of this topic.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/misquoting-the-talmud/",
+      "tags": [
+        "aish",
+        "talmud",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "talmud",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-08-31",
+      "published_at": "2011-09-20",
+      "saved_at": "2026-08-31T22:46:18.297Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-09-20T18:13:53+00:00",
+        "upvotes": 0,
+        "original_id": "91160",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-09-20",
+        "import_date": "2026-08-31",
+        "category_reason": [
+          "talmud",
+          "sanhedrin",
+          "kiddushin",
+          "midrash"
+        ],
+        "source_filename": "2011-09-20-Misquoting-the-Talmud.91160.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91170",
+      "id": "aish-91170",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Who is a Rabbi?",
+      "question": "What exactly is meant by \"rabbi?\" So many times people will question a rabbi as to whether he is a \"real\" rabbi or fake. Do the different branches of Judaism have different criteria? I thought anyone could be ordained a rabbi (irrespective of age) if he demonstrated that he had sufficient knowledge (encyclopedic level) of the Talmud. And that the first \"level\" of rabbinic ordination signifies knowledge of all the laws of kashrut. Am I right, or is there more to it?",
+      "answers": [
+        {
+          "text": "Rabbi literally means \"great one\", But I think the best way to describe the education of the rabbi is that he is a “Judaism Lawyer” with a Ph.D in social work and education.\nOn a the most basic level, a rabbi is one that has studied Torah sufficiently to teach and issue rulings on issues of Torah law. On a deeper level, a rabbi, through his efforts and erudition in Torah, has developed wisdom – the ability to analyze events and their effects without any bias. In other words, he is a man of Truth. This ability has made rabbis our community leaders, the ones we turn to in all areas of the human experience, even those which have nothing to do with Torah law per se.\nThe full requirements for a rabbi are explained by Maimonides (Laws of Sanhedrin 2:1,7):\n\"Only wise and understanding people are to be appointed to the Sanhedrin. They must be experts in Torah law, with a wide breadth of knowledge. They must also know secular subjects like medicine, mathematics, astrology and astronomy. They must also be familiar with magic and idolatry, in order to know how to judge such cases...\n\"Even a judge for a regular court must possess the following seven qualities: Wisdom. Humility. Fear of God. Aversion to materialism. Love of truth. Pleasant and likeable. An unimpeachable reputation. All these are specified in the Torah.\"\nIn other words, mastery of the material is just one aspect.\nIf you want a teacher, don't just take the nearest expert – the one on the block. \"Shop\" for a teacher. When you come across someone with wisdom, get references. Check his credentials. Test his wisdom with questions and more questions. See if he lives honestly and consistently with his knowledge. Then check his sources. Know who his teachers are. Make sure he's part of a respected community. See if his students are respectable as well. These are all indications of the rabbi's \"authenticity.\"\nAbove all, a rabbi must be dedicated to following the 613 mitzvahs of the Torah.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/who-is-a-rabbi/",
+      "tags": [
+        "aish",
+        "halacha",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "halacha",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-08-31",
+      "published_at": "2011-09-20",
+      "saved_at": "2026-08-31T22:50:10.825Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-09-20T18:57:02+00:00",
+        "upvotes": 0,
+        "original_id": "91170",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-09-20",
+        "import_date": "2026-08-31",
+        "category_reason": [
+          "kashrut",
+          "rabbi"
+        ],
+        "source_filename": "2011-09-20-Who-is-a-Rabbi.91170.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91184",
+      "id": "aish-91184",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "The Term \"Jew\"",
+      "question": "Our nation was historically called Israelites or Hebrews. I am wondering why always you refer to the Israelite or the Hebrew Nation as \"Jew\" when only after the captivity of 722 BCE that the people of the Tribe of Judah were called \"Jews.\" Nowadays, “Jew” is the common term for any believer or follower of the \"Jewish\" belief. Am I wrong?",
+      "answers": [
+        {
+          "text": "From the time of the prophet Joshua, when the Jewish people came into the Land of Israel, each of the 12 Tribes settled a different area of land. The area that each tribe settled became known by the tribe's name – for example, the region around Jerusalem is known as Judah. At this time, when the term \"Judah-ite\" was used, it only referred to those who came from that tribe.\nIn the late 700s BCE, approximately two-thirds of the Jewish nation was taken into captivity. The only parts of the Land of Israel that remained were the portions of Judah and Benjamin. (Since then, the Ten Tribes' whereabouts has been unknown.) When the Romans became the ruling power of the Middle East 2000 years ago, they referred to this entire region as \"Judea,\" since that Judah was significantly larger than Benjamin. Therefore, all the people came to be called \"Judean,\" from which derives the English word \"Jew.\"\nThere is a deep lesson to be derived from this historical reality. In Hebrew, the word Judah includes all the letters to spell out God's four-letter name, plus a Daled (\"D\"). The Daled stands for King David, who was the first king over the united Jewish people, and the forefather of the Messiah.\nYehuda means \"to admit\" or \"acknowledge.\" In the Bible, when Tamar was about to be executed for adultery, Yehuda risked his personal reputation and stood up for the truth, admitting that he was the one responsible for her predicament. For thousands of years, that has been the hallmark of the Jewish people: standing up for what is right, even at personal expense.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/the-term-jew/",
+      "tags": [
+        "aish",
+        "general",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011",
+        "needs-review"
+      ],
+      "category": "general",
+      "category_confidence": "low",
+      "needs_review": true,
+      "date": "2026-08-31",
+      "published_at": "2011-09-20",
+      "saved_at": "2026-08-31T22:02:43.405Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-09-20T19:29:37+00:00",
+        "upvotes": 0,
+        "original_id": "91184",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-09-20",
+        "import_date": "2026-08-31",
+        "category_reason": [],
+        "source_filename": "2011-09-20-The-Term-Jew.91184.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91187",
+      "id": "aish-91187",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Waging War Against Canaan",
+      "question": "In 2009, when Israel went into Gaza and killed a lot of people, I was discussing religion with one of my friends, and he said that in the Torah, God told us to go out and murder people that we don't like. The verse he quoted was in Deuteronomy about the Jews driving out the Canaanite nations from the Land of Israel. Does the Torah really say that, and if so, why does everything need to be so violent?",
+      "answers": [
+        {
+          "text": "The Canaanite nations were hardcore idol worshippers and as such, were an unacceptable influence on the holy Jewish nation building its home in the Land of Israel. Today, it is hard for us to imagine what could be so evil about a society, since we imagine idolaters as normal families who just happen to worship the sun or a statue. In reality, idol worship was much worse.\nRabbi Akiva (2nd century CE, Israel) reported that he saw a son bind up his father and feed him to ravaging dogs in service of one his idols. Part of their cult worship was to sacrifice children to the gods (Deut. 12:31), and modern archaeologists have found mounds of children's bones by their altars. These nations were also involved in various sexual immoralities like incest, bestiality and temple orgies (Leviticus 18:27).\nToday, most Westerners grow up in quiet neighborhoods, and never experience war, persecution and racism. So they don't easily relate to the concept that if you don't destroy evil, it will destroy you. Questioning someone's sense of justice and morality is really not fair if you haven't dealt with the harsh reality of their experience.\nJudaism taught the world the utopian ideal of world peace, yet sometimes war is necessary. We taught the value of life, yet we're not pacifists. Wiping out evil is part of justice. If you choose to leave evil alone, it will eventually attack you (Rashi, Deut. 20:12).\nIt is ironic that the Jewish people and Israel, who introduced to the world the concept of the sanctity of life, are now criticized as being \"cruel\" by today's Western civilizations which are built on that Jewish moral foundation! People today can only criticize the State of Israel because those very Jews taught the world that murder, conquest and abuse are wrong.\nPeople mistakenly think that the Torah directive was to wipe out the Canaanites cruelly and indiscriminately. In truth, the Torah prefers that the Canaanites would avoid punishment; they were given many chances to accept peace terms. Even though abominable inhuman practice had been indoctrinated into the Canaanite psyche, the hope was that they'd change and adopt the basic pillars of human civilization which distinguish a community of humans from a jungle of wild animals.\nEven as the Jews drew close to battle, they were commanded to act with mercy, as the Torah states, \"When approaching a town to attack it, first offer them peace.\" (Deut. 20:10)\nBefore entering the Land of Israel, Joshua wrote three letters to the Canaanite nations. The first letter said, \"Anyone who wants to leave Israel, has permission to leave.\" If they refused, a second letter said, \"Whoever wants to make peace, can make peace.\" If they again refused, a final letter warned, \"Whoever wants to fight, get ready to fight.\" Upon receiving these letters, only one of the Canaanite nations, the Girgashites, heeded the call and settled peacefully.\nIn the event that the Canaanite nations chose not to make a treaty, the Jewish people were still commanded to fight mercifully. For example, when besieging a city to conquer it, the Jews never surrounded it on all four sides. This way, one side was always left open to allow for anyone who wanted to escape. (see Maimonides – Laws of Kings 6:4-5, with Kesef Mishna)\nIt is interesting that throughout Jewish history, waging war has always been a tremendous personal and national ordeal which ran contrary to the Jews' peace-loving nature. At various stages throughout the 40-year trek in the desert, Moses was forced to reprimand the Jews for having the fear of war. He inspired them with various pep talks, and assurances of victory. Years later, King Saul lost his kingdom by showing misplaced mercy and allowing the Amalekite king to live. (see Exodus 14:3 with Ibn Ezra; Numbers 21:34 with Nachmanides; Deut. 31:6; 1-Samuel ch. 15)\nIn modern times, Israel has often shown tremendous restraint in dealing with its enemies, and regret at any loss of life. Israel absorbed 10,000 missiles before attacking Gaza. When Israeli Prime Minister Golda Meir was asked if she could forgive Egypt for killing Israeli soldiers, she replied, \"It is more difficult for me to forgive Egypt for making us kill their soldiers.\"\nSo let's put things into perspective before criticizing.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/waging-war-against-canaan/",
+      "tags": [
+        "aish",
+        "tanach",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "tanach",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-08-31",
+      "published_at": "2011-09-21",
+      "saved_at": "2026-08-31T22:23:20.539Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-09-21T11:06:04+00:00",
+        "upvotes": 0,
+        "original_id": "91187",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-09-21",
+        "import_date": "2026-08-31",
+        "category_reason": [
+          "exodus",
+          "leviticus",
+          "numbers",
+          "deuteronomy",
+          "verse"
+        ],
+        "source_filename": "2011-09-21-Waging-War-Against-Canaan.91187.html"
+      }
+    },
+    {
+      "source": "upload",
+      "source_id": "aish-91201",
+      "id": "aish-91201",
+      "provider": "aish",
+      "provider_domain": "aish.com",
+      "title": "Waging War",
+      "question": "After 9-11, the U.S. went into Afghanistan and killed a lot of people, with the President declaring a “war on terror.” The Bible itself seems to condone going in and wiping out nations that we don’t like. Why does everything need to be so violent?",
+      "answers": [
+        {
+          "text": "Sometimes war is necessary. Judaism teaches that while the supreme value is life, we're not pacifists. Wiping out evil is also part of justice. Dangerous disputes must be resolved, because if you choose to leave evil alone it will eventually attack you (Rashi, Deut. 20:12).\nToday, most Westerners grow up in quiet neighborhoods, and never experience war, persecution and racism. So they don't easily relate to the concept that if you don't destroy evil, it will destroy you. Questioning someone’s sense of justice and morality is not really fair if you haven't dealt with the harsh reality of their experience.\nIt is ironic that the Jewish people and Israel, which introduced to the world the concept of the sanctity of life, are now criticized as being \"cruel\" by today's Western civilizations which are built on that Jewish moral foundation! People today can only criticize the State of Israel because those very Jews taught the world that murder, conquest and abuse are wrong.\nThough the Torah speaks of the Jewish wars against the Canaanites, people mistakenly think that the directive was to wipe out the Canaanites cruelly and indiscriminately. In truth, the Torah prefers that the Canaanites would avoid punishment; they were given many chances to accept peace terms. Even though abominable inhuman practice had been indoctrinated into the Canaanite psyche, the hope was that they'd change and adopt the basic pillars of human civilization which distinguish a community of humans from a jungle of wild animals.\nEven as the Jews drew close to battle, they were commanded to act with mercy, as the Torah states, \"When approaching a town to attack it, first offer them peace.\" (Deut. 20:10)\nBefore entering the Land of Israel, Joshua wrote three letters to the Canaanite nations. The first letter said, \"Anyone who wants to leave Israel, has permission to leave.\" If they refused, a second letter said, \"Whoever wants to make peace, can make peace.\" If they again refused, a final letter warned, \"Whoever wants to fight, get ready to fight.\" Upon receiving these letters, only one of the Canaanite nations, the Girgashites, heeded the call and settled peacefully.\nIn the event that the Canaanite nations chose not to make a treaty, the Jewish people were still commanded to fight mercifully. For example, when besieging a city to conquer it, the Jews never surrounded it on all four sides. This way, one side was always left open to allow for anyone who wanted to escape. (see Maimonides – Laws of Kings 6:4-5 with Kesef Mishna)\nIt is interesting that throughout Jewish history, waging war has always been a tremendous personal and national ordeal which ran contrary to the Jews' peace-loving nature. At various stages throughout the 40-year trek in the desert, Moses was forced to reprimand the Jews for having a fear of war. He inspired them with various pep talks, and assurances of victory. (see Exodus 14:3 with Ibn Ezra; Numbers 21:34 with Nachmanides; Deut. 31:6) King Saul lost his kingdom by showing misplaced mercy and allowing the Amalekite king to live.\nAnd in modern times, Israel has often shown tremendous restraint in dealing with its enemies, and regret at any loss of life. When Israeli Prime Minister Golda Meir was asked if she could forgive Egypt for killing Israeli soldiers, she replied, \"It is more difficult for me to forgive Egypt for making us kill their soldiers.\"\nSo let’s put things into perspective before criticizing those who are fighting on the side of liberty and justice.",
+          "accepted": true,
+          "author": "Aish.com Staff",
+          "score": 0
+        }
+      ],
+      "url": "https://aish.com/waging-war/",
+      "tags": [
+        "aish",
+        "tanach",
+        "question-answer",
+        "aish.com-staff",
+        "published-2011"
+      ],
+      "category": "tanach",
+      "category_confidence": "high",
+      "needs_review": false,
+      "date": "2026-08-31",
+      "published_at": "2011-08-29",
+      "saved_at": "2026-08-31T22:38:01.082Z",
+      "metadata": {
+        "author": "אנונימי",
+        "rabbi": "Aish.com Staff",
+        "date": "2011-08-29T15:22:15+00:00",
+        "upvotes": 0,
+        "original_id": "91201",
+        "original_source": "aish.com",
+        "content_type": "qa",
+        "original_question_empty": false,
+        "original_answer_empty": false,
+        "original_publication_date": "2011-08-29",
+        "import_date": "2026-08-31",
+        "category_reason": [
+          "bible",
+          "exodus",
+          "numbers",
+          "joshua"
+        ],
+        "source_filename": "2011-08-29-Waging-War.91201.html"
+      }
+    }
+  ]
+}
