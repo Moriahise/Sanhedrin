@@ -4,7 +4,7 @@ import hashlib
 import json
 import re
 from datetime import datetime,timezone
-from urllib.parse import unquote,urlsplit,urlunsplit
+from urllib.parse import unquote,urlsplit,urlunsplit,parse_qs
 
 PROVIDERS={'judaism.stackexchange.com':'miyodeya','www.yeshiva.org.il':'yeshiva','yeshiva.org.il':'yeshiva','din.org.il':'din','www.din.org.il':'din','aish.com':'aish','www.aish.com':'aish','www.chabad.org':'chabad','chabad.org':'chabad'}
 PREFIXES={'miyodeya':'my','yeshiva':'yeshiva','din':'din','aish':'aish','chabad':'chabad','local':'doc','upload':'up'}
@@ -39,6 +39,7 @@ def provider_identity(raw,default_provider=''):
     patterns={'miyodeya':r'/(?:questions|q)/(\d+)','yeshiva':r'/ask/(\d+)','chabad':r'/aid/(\d+)'}
     m=re.search(patterns[provider],urlsplit(url).path) if provider in patterns and url else None
     if m:native=m[1]
+    elif provider=='chabad' and url and str(parse_qs(urlsplit(url).query).get('aid',[''])[0]).isdigit():native=parse_qs(urlsplit(url).query)['aid'][0]
     elif provider in {'din','aish'} and canon:native='url:'+hashlib.sha256(canon.encode()).hexdigest()[:24]
     else:
         native=str(raw.get('native_id') or raw.get('source_id') or raw.get('id') or meta.get('id') or '').strip()
