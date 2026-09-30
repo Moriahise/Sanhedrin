@@ -249,9 +249,17 @@ class Store:
                     new["kind"] = "article"
                 if not new.get("question") and q.get("question"):
                     new["question"] = q["question"]
+                    new["format"] = q["format"]
                 if not new.get("answers") and q.get("answers"):
                     new["answers"] = copy.deepcopy(q["answers"])
                     new["answer_count_local"] = len(new["answers"])
+                if str(new.get("question") or "").strip() or new.get("answers"):
+                    if new.get("kind") == "link":
+                        new["kind"] = (
+                            q["kind"] if q.get("kind") in {"qa", "article"} else "qa"
+                        )
+                    if new.get("quality_status") == "legacy_extraction_incomplete":
+                        new.pop("quality_status")
             if self.update(old, new, reason):
                 changed = True
             self.alias(new["provider"] + ":" + new["native_id"], old["id"])

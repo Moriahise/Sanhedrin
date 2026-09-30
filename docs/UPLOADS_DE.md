@@ -57,6 +57,16 @@ Der Commit unter `data/qa/` startet **Publish durable library** automatisch:
 
 **Du musst keine Python-Skripte auf deinem PC starten und keine Indexdateien von Hand bearbeiten.** `responsa.json`, `data/questions/`, Katalogdateien und Datenbanksicherungen werden nicht als Upload-Ziel verwendet. Die frühere Quelle ist weiterhin im historischen Bestand enthalten; die deaktivierte Automatik deaktiviert ausschließlich die Live-Abfrage.
 
+### Wenn der Eintrag bereits ohne Volltext vorhanden ist
+
+Dein Browserexport wird **nicht wegen der Dublette abgewiesen**. Ein vorhandener Quellenlink wird um den fehlenden Frage-/Artikeltext und die fehlenden Antworten ergänzt. Seine öffentliche ID und bestehende Links bleiben erhalten. Die Kennzeichnung wechselt von **Source links** zu **Questions & answers** bzw. **Articles**; der Hinweis **Full text not available locally** entfällt.
+
+Das gilt für DIN, Yeshiva, Chabad und Aish. Yeshiva und Chabad werden über ihre Quellen-ID erkannt; DIN und Aish außerdem über die ursprüngliche URL, auch wenn der frühere API-Eintrag eine andere ID verwendet. Original-URLs im Export beibehalten. Der gleiche Titel allein reicht nicht zum Zusammenführen.
+
+Eine vollständig identische Datei wird als bereits importiert übersprungen. Ein neuer Export mit nachgeliefertem Inhalt wird eingelesen. Bestehende nichtleere Fragetexte oder Antwortlisten werden im manuellen Ergänzungsmodus nicht pauschal ersetzt; dieser Ablauf füllt fehlende Inhalte. Wenn ein schon vorhandener Text nur ein Auszug ist oder berichtigt werden soll, muss dieser Fall gesondert geprüft werden.
+
+**License not recorded in the original import** bezeichnet eine fehlende Lizenzangabe. Dieser Hinweis blockiert den Inhaltsimport nicht und ist unabhängig davon, ob der Volltext vorhanden ist.
+
 ## 5. Erfolg kontrollieren
 
 1. [GitHub Actions](https://github.com/Moriahise/Sanhedrin/actions) öffnen.

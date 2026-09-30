@@ -168,6 +168,86 @@ class CoreTests(unittest.TestCase):
         self.assertEqual(self.s.get("din-old")["native_id"], "12")
         self.assertEqual(self.s.get("din-old")["question"], "Q")
 
+    def test_manual_fulltext_upgrades_existing_source_links(self):
+        urls = {
+            "din": "https://din.org.il/2026/09/08/תנאי-בחוזה/",
+            "aish": "https://aish.com/manual-article/",
+            "chabad": "https://www.chabad.org/library/article_cdo/aid/123/jewish/Test.htm",
+            "yeshiva": "https://www.yeshiva.org.il/ask/123",
+        }
+        for provider, url in urls.items():
+            with self.subTest(provider=provider):
+                old = normalize(
+                    {"title": "Source title", "url": url}, allow_reference=True
+                )
+                old["id"] = provider + "-published"
+                old["format"] = "plain"
+                if provider in {"din", "aish"}:
+                    old.update(native_id="456", identity_method="verified_wordpress_api")
+                self.s.insert(old, baseline=old)
+                article = provider in {"chabad", "aish"}
+                question = "" if article else "<p>Complete manual question</p>"
+                answer = "<p>Complete manual content RareManualToken</p>"
+                # The browser export may use another ID and a www host,
+                # percent-encoded path or trailing slash for the same source.
+                from urllib.parse import quote
+
+                manual_url = quote(url, safe="/:.")
+                if provider == "din":
+                    manual_url = manual_url.replace("din.org.il", "www.din.org.il")
+                manual_url = manual_url.rstrip("/") + "#browser-export"
+                path = self.root / (provider + ".json")
+                path.write_text(json.dumps({
+                    "exported_at": "2026-09-30T09:00:00Z",
+                    "questions": [{
+                        "id": "different-browser-id",
+                        "title": "Source title",
+                        "url": manual_url,
+                        "question": question,
+                        "answer": answer,
+                    }],
+                }))
+                report = import_file(self.s, path, self.root)
+                self.assertEqual(report.get("updated"), 1)
+                self.assertEqual(report.get("inserted", 0), 0)
+                self.assertEqual(report.get("quarantined", 0), 0)
+                current = self.s.get(old["id"])
+                self.assertEqual(current["question"], question)
+                self.assertEqual(current["answers"][0]["text"], answer)
+                self.assertEqual(current["kind"], "article" if article else "qa")
+                self.assertNotIn("quality_status", current)
+                self.assertEqual(current["native_id"], old["native_id"])
+                if question:
+                    self.assertEqual(current["format"], "html")
+                self.assertEqual(self.s.resolve("different-browser-id", path.name), [old["id"]])
+                before = self.s.logical_hash()
+                self.assertEqual(import_file(self.s, path, self.root)["status"], "already_imported")
+                self.assertEqual(self.s.logical_hash(), before)
+
+        self.assertEqual(self.s.count(), 4)
+        self.assertFalse(self.s.verify())
+        repo = self.root / "repo"
+        repo.mkdir()
+        shutil.copytree(ROOT / "web", repo / "web")
+        out = self.root / "out"
+        manifest = build(self.s, repo, out)
+        self.assertEqual(verify_export(out)["total"], 4)
+        self.assertNotIn("link", manifest["facets"]["kind"])
+        contents = [json.loads(p.read_text()) for p in
+                    (out / manifest["data_base"] / "content").rglob("*.json")]
+        self.assertTrue(all(q["answers"] and q["kind"] != "link" for q in contents))
+        self.assertTrue(all("RareManualToken" in q["answers"][0]["html"] for q in contents))
+
+    def test_metadata_import_after_fulltext_does_not_downgrade_content(self):
+        old = sample(category="halacha", needs_review=False)
+        self.s.insert(old, baseline=old)
+        metadata = normalize({"title": "Reference", "url": old["url"]}, allow_reference=True)
+        outcome, ids = self.s.upsert(metadata, mode="enrich")
+        self.assertEqual(outcome, "unchanged")
+        self.assertEqual(ids, [old["id"]])
+        self.assertEqual(self.s.get(old["id"]), old)
+        self.assertFalse(self.s.verify())
+
     def test_explicit_tags_and_conflict_review(self):
         self.assertEqual(sample(tags=["shabbat"])["category"], "halacha")
         self.assertTrue(sample(tags=["shabbat", "tanach-bible"])["needs_review"])
