@@ -1,0 +1,7 @@
+beautifulsoup4==4.14.3
+bleach==6.4.0
+markdown-it-py==4.0.0
+mdurl==0.1.2
+soupsieve==2.10
+typing-extensions==4.16.0
+webencodings==0.6.1
