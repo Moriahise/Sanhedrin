@@ -5,13 +5,14 @@ import json
 import tempfile
 import shutil
 import unittest
+import urllib.error
 from pathlib import Path
 from unittest.mock import patch, MagicMock
 from sanhedrin.model import DataError, normalize
 from sanhedrin.store import Store
 from sanhedrin.build import build
 from sanhedrin.teshuva import compose, profiles, publish_assets, render, retrieve_library, search_groups, make_source, validate_request
-from sanhedrin.research import public_url, extract_page, external_sources, PublicHTTP, review_draft
+from sanhedrin.research import public_url, extract_page, external_sources, PublicHTTP, review_draft, api_response, ResearchAPIError
 from tools.save_teshuva import save
 from test_teshuva import FakeGitHub, mock_response
 
@@ -127,6 +128,44 @@ class ResearchTests(unittest.TestCase):
         result.pop('publication_status')  # old saved source compilations receive the same gate
         self.assertNotIn('Draft answer',render(result))
         self.assertIn('saved for further research',render(result))
+
+    def test_failed_external_search_never_becomes_a_library_only_draft(self):
+        notes=[{'provider':'web','status':'unavailable','http_status':400},{'provider':'Sefaria','status':'searched','sources':0}]
+        with patch('sanhedrin.research.plan_question',return_value=PLAN), patch('sanhedrin.research.external_sources',return_value=([],notes)), patch('sanhedrin.teshuva.api_draft') as draft:
+            result=compose(self.store,self.root,{**self.request,'external_research':True},identity='teshuva-1-123456789abc',api_key='test-only')
+        draft.assert_not_called()
+        self.assertEqual(result['publication_status'],'needs_research')
+        self.assertTrue(result['missing_evidence'])
+
+    def test_same_material_evidence_blocks_torah_scroll_analogy(self):
+        self.store.upsert({**self.record,'title':'Mold on Torah scrolls','question':'How to clean mold on a Torah scroll?','answers':[{'text':'This answer discusses cleaning mold on a Torah scroll with vinegar.','format':'plain'}]})
+        plan={**PLAN,'requires_same_material_evidence':True,'material_terms':['schach','bamboo','סכך','במבוק'],'problem_terms':['mold','עובש']}
+        with patch('sanhedrin.research.plan_question',return_value=plan), patch('sanhedrin.teshuva.api_draft') as draft:
+            result=compose(self.store,self.root,self.request,identity='teshuva-1-123456789abc',api_key='test-only')
+        draft.assert_not_called()
+        self.assertEqual(result['openai_status'],'insufficient')
+        self.assertEqual(result['publication_status'],'needs_research')
+
+    def test_review_rejects_ready_when_a_paragraph_uses_unsupported_analogy(self):
+        response={'status':'ready','issues':[],'clarification_questions':[],'checks':[{'paragraph':1,'supported':True,'material_scope_matches':False,'answers_question':True,'unsupported_analogy':True,'reason':'Torah-scroll cleaning does not establish safe treatment of bamboo schach.'}]}
+        review=review_draft('Schach mold',[{'text':'Torah-scroll care'}],DRAFT,api_key='test',model='test',opener=lambda *a,**k:mock_response(response))
+        self.assertEqual(review['status'],'needs_research')
+        self.assertTrue(review['issues'])
+
+    def test_api_diagnostics_redact_credentials_and_keep_parameter_error(self):
+        key='sk-test-secret'
+        def fail(*a,**k):
+            raise urllib.error.HTTPError('https://api.openai.com/v1/responses',400,'Bad Request',{},io.BytesIO(json.dumps({'error':{'type':'invalid_request_error','param':'max_tool_calls','message':'Unsupported parameter. '+key}}).encode()))
+        with self.assertRaises(ResearchAPIError) as caught:
+            api_response({},api_key=key,opener=fail)
+        self.assertNotIn(key,json.dumps(caught.exception.details))
+        self.assertEqual(caught.exception.status,400)
+        self.assertEqual(caught.exception.details['param'],'max_tool_calls')
+
+    def test_answered_question_context_is_kept_for_scope_checking(self):
+        source=make_source(self.record,search_groups('schach mold',self.config))
+        self.assertIn('mold',source['question_context'])
+        self.assertTrue(source['text'])
 
     def test_second_pass_rejects_unsupported_draft(self):
         with patch('sanhedrin.research.plan_question', return_value=PLAN), patch('sanhedrin.teshuva.api_draft', return_value=copy.deepcopy(DRAFT)), patch('sanhedrin.research.review_draft', return_value={'status': 'needs_research', 'issues': ['Treatment is not supported by the cited text.'], 'clarification_questions': []}):
