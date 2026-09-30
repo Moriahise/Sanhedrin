@@ -15,6 +15,23 @@ from sanhedrin.model import DataError, canonical_json, digest
 from sanhedrin.store import Store
 from sanhedrin.teshuva import compose, render, validate_request
 
+OPENAI_OWNER = "Moriahise"
+RETRYABLE_API_STATES = {"unconfigured", "failed", "disabled", "owner_only"}
+
+
+def openai_access(request, issue, actor, triggering_actor, repository, enabled):
+    """Decide API access from authenticated GitHub metadata, never request fields."""
+    if not request.get("use_openai"):
+        return ""
+    owner = OPENAI_OWNER.casefold()
+    identities = (repository.split("/")[0], actor, triggering_actor,
+                  issue.get("user", {}).get("login", ""))
+    if any(str(login).casefold() != owner for login in identities):
+        return "owner_only"
+    if enabled != "true":
+        return "disabled"
+    return ""
+
 
 class GitHub:
     def __init__(self, repository, token):
@@ -66,7 +83,7 @@ def authorized(api, event, actor, repository):
         raise
 
 
-def atomic_save(api, result, request_hash, *, attempts=4):
+def atomic_save(api, result, request_hash, *, attempts=4, replace_fallback=False):
     json_path = "Sanhedrin/" + result["id"] + ".json"
     html_path = "Sanhedrin/" + result["id"] + ".html"
     for attempt in range(attempts):
@@ -77,7 +94,9 @@ def atomic_save(api, result, request_hash, *, attempts=4):
             saved = json.loads(existing)
             if saved.get("request_hash") != request_hash or saved.get("id") != result["id"]:
                 raise DataError("Saved response identity conflict")
-            result = saved
+            if not (replace_fallback and saved.get("mode") == "library"
+                    and saved.get("openai_status") in RETRYABLE_API_STATES):
+                result = saved
         files = {json_path: canonical_json(result) + "\n", html_path: render(result)}
         if existing and api.content(html_path, sha) == files[html_path]:
             return result, sha, False
@@ -94,18 +113,23 @@ def atomic_save(api, result, request_hash, *, attempts=4):
     raise DataError("Repository changed repeatedly; rerun the save workflow")
 
 
-def save(api, root, store, issue, request, *, api_key="", model="gpt-4.1-mini"):
+def save(api, root, store, issue, request, *, api_key="", model="gpt-4.1-mini", api_block_reason=""):
     validated = validate_request(request, root)
     request_hash = digest(validated)
     identity = "teshuva-" + str(issue) + "-" + request_hash[:12]
     existing = api.content("Sanhedrin/" + identity + ".json")
+    retry_api = False
     if existing:
         result = json.loads(existing)
         if result.get("request_hash") != request_hash:
             raise DataError("Saved request hash conflict")
-    else:
-        result = compose(store, root, request, identity=identity, api_key=api_key, model=model)
-    result, commit, changed = atomic_save(api, result, request_hash)
+        retry_api = bool(validated["use_openai"] and api_key and not api_block_reason
+                         and result.get("mode") == "library"
+                         and result.get("openai_status") in RETRYABLE_API_STATES)
+    if not existing or retry_api:
+        result = compose(store, root, request, identity=identity, api_key=api_key,
+                         model=model, api_block_reason=api_block_reason)
+    result, commit, changed = atomic_save(api, result, request_hash, replace_fallback=retry_api)
     return {"saved": True, "changed": changed, "id": result["id"], "commit": commit,
             "mode": result["mode"], "openai_status": result["openai_status"]}
 
@@ -127,8 +151,13 @@ def main():
     request = parse_body(issue.get("body"))
     if event.get("issue") and event["issue"].get("body") != issue["body"]:
         return {"saved": False, "status": "superseded_request"}
+    api_block_reason = openai_access(request, issue, actor,
+        os.environ.get("GITHUB_TRIGGERING_ACTOR", ""), repository,
+        os.environ.get("OPENAI_ENABLED", ""))
     with Store(root / ".sanhedrin/library.sqlite") as store:
-        result = save(api, root, store, number, request, api_key=os.environ.get("OPENAI_API_KEY", ""),
+        result = save(api, root, store, number, request,
+                      api_key="" if api_block_reason else os.environ.get("OPENAI_API_KEY", ""),
+                      api_block_reason=api_block_reason,
                       model=os.environ.get("OPENAI_MODEL") or "gpt-4.1-mini")
     if os.environ.get("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a") as output:

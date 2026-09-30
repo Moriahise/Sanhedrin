@@ -23,6 +23,8 @@ TEXT = {
         "original": "Original source", "full": "Read the complete saved text", "excerpt": "Excerpt",
         "library_mode": "Library source compilation", "api_mode": "OpenAI formulation from saved sources",
         "fallback": "The optional API did not produce a usable draft. The saved source passages are shown below.",
+        "disabled": "OpenAI is switched off for this repository. The saved source passages are shown below.",
+        "owner_only": "OpenAI is available only for requests submitted and processed by Moriahise. The saved source passages are shown below.",
     },
     "he": {
         "title": "תשובה · טיוטה מבוססת מקורות", "question": "שאלה",
@@ -33,6 +35,8 @@ TEXT = {
         "original": "למקור המקורי", "full": "לקריאת הטקסט השמור המלא", "excerpt": "קטע",
         "library_mode": "לקט מקורות מהמאגר", "api_mode": "ניסוח באמצעות OpenAI מתוך מקורות שמורים",
         "fallback": "ה-API האופציונלי לא הפיק טיוטה מתאימה. קטעי המקורות השמורים מוצגים להלן.",
+        "disabled": "OpenAI כבוי במאגר זה. קטעי המקורות השמורים מוצגים להלן.",
+        "owner_only": "OpenAI זמין רק לפניות שהוגשו ועובדו על ידי Moriahise. קטעי המקורות השמורים מוצגים להלן.",
     },
 }
 
@@ -167,12 +171,21 @@ def api_draft(question, sources, language, *, api_key, model, opener=urllib.requ
         raise DataError("API response did not complete")
     text = "".join(c.get("text", "") for o in result.get("output", []) if o.get("type") == "message" for c in o.get("content", []) if c.get("type") == "output_text")
     draft = json.loads(text)
+    metadata = {}
+    if isinstance(result.get("id"), str):
+        metadata["openai_response_id"] = result["id"]
+    usage = result.get("usage") or {}
+    if isinstance(usage, dict):
+        counts = {k: usage[k] for k in ("input_tokens", "output_tokens", "total_tokens")
+                  if type(usage.get(k)) is int and usage[k] >= 0}
+        if counts:
+            metadata["openai_usage"] = counts
     if draft.get("status") not in {"draft", "insufficient"} or not isinstance(draft.get("paragraphs"), list) or len(draft["paragraphs"]) > 24:
         raise DataError("Invalid API draft")
     if draft["status"] == "insufficient":
         if draft["paragraphs"]:
             raise DataError("Insufficient response must not assert an answer")
-        return draft
+        return {**draft, **metadata}
     if not draft["paragraphs"]:
         raise DataError("API draft is empty")
     for paragraph in draft["paragraphs"]:
@@ -181,10 +194,10 @@ def api_draft(question, sources, language, *, api_key, model, opener=urllib.requ
         refs = paragraph.get("citations")
         if not isinstance(refs, list) or not refs or not all(type(i) is int and 1 <= i <= len(sources) for i in refs):
             raise DataError("API draft contains unsupported source references")
-    return draft
+    return {**draft, **metadata}
 
 
-def compose(store, root, request, *, identity, api_key="", model="gpt-4.1-mini", opener=urllib.request.urlopen):
+def compose(store, root, request, *, identity, api_key="", model="gpt-4.1-mini", opener=urllib.request.urlopen, api_block_reason=""):
     request = validate_request(request, root)
     config = json.loads((root / "config/teshuva-search.json").read_text())
     groups = search_groups(request["keywords"] or request["question_text"], config)
@@ -200,13 +213,19 @@ def compose(store, root, request, *, identity, api_key="", model="gpt-4.1-mini",
               "language": request["language"], "profile": next(p for p in profiles(root) if p["id"] == request["profile_id"]),
               "mode": "library", "openai_status": "off", "sources": sources, "paragraphs": []}
     if request["use_openai"]:
-        result["openai_status"] = "unconfigured"
-        if api_key:
+        result["openai_status"] = api_block_reason or "unconfigured"
+        if api_key and not api_block_reason:
             try:
                 draft = api_draft(request["question_text"], sources, request["language"], api_key=api_key, model=model, opener=opener)
                 result["openai_status"] = draft["status"]
+                for field in ("openai_response_id", "openai_usage"):
+                    if field in draft:
+                        result[field] = draft[field]
                 if draft["status"] == "draft":
                     result.update(mode="openai", model=model, paragraphs=draft["paragraphs"])
+            except urllib.error.HTTPError as error:
+                result["openai_status"] = "failed"
+                result["openai_http_status"] = error.code
             except (OSError, ValueError, KeyError, TypeError):
                 result["openai_status"] = "failed"
     return result
@@ -227,6 +246,8 @@ def render(result, *, prefix="../"):
     body += '<p class="help">' + esc(words["api_mode"] if result.get("mode") == "openai" else words["library_mode"]) + '</p>'
     if result.get("openai_status") in {"failed", "unconfigured", "insufficient"}:
         body += '<p class="notice">' + esc(words["fallback"]) + '</p>'
+    if result.get("openai_status") in {"disabled", "owner_only"}:
+        body += '<p class="notice">' + esc(words[result["openai_status"]]) + '</p>'
     if result.get("paragraphs"):
         for p in result["paragraphs"]:
             body += '<p dir="auto">' + esc(p["text"]) + ' ' + " ".join('<a href="#source-' + str(i) + '">[' + str(i) + ']</a>' for i in p["citations"]) + '</p>'

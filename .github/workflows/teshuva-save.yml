@@ -65,7 +65,8 @@ jobs:
         if: steps.access.outputs.allowed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY: ${{ vars.OPENAI_ENABLED == 'true' && github.actor == 'Moriahise' && github.triggering_actor == 'Moriahise' && secrets.OPENAI_API_KEY || '' }}
+          OPENAI_ENABLED: ${{ vars.OPENAI_ENABLED }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
           ISSUE_NUMBER: ${{ inputs.issue_number }}
         run: python tools/save_teshuva.py
