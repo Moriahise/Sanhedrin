@@ -294,7 +294,7 @@ async function search() {
     history.replaceState(
       null,
       "",
-      location.pathname + (params.size ? "?" + params : ""),
+      location.pathname + (params.size ? "?" + params : "") + location.hash,
     );
   } catch (e) {
     if (mine === generation) {
