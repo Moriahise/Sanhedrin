@@ -229,6 +229,7 @@ class CoreTests(unittest.TestCase):
         repo = self.root / "repo"
         repo.mkdir()
         shutil.copytree(ROOT / "web", repo / "web")
+        shutil.copytree(ROOT / "config", repo / "config")
         out = self.root / "out"
         manifest = build(self.s, repo, out)
         self.assertEqual(verify_export(out)["total"], 4)
@@ -344,6 +345,7 @@ class CoreTests(unittest.TestCase):
         root = self.root / "repo"
         root.mkdir()
         shutil.copytree(ROOT / "web", root / "web")
+        shutil.copytree(ROOT / "config", root / "config")
         q = sample(
             answers=[{"text": "RareAnswerToken שבת"}],
             published_at="2024-01-01",
@@ -370,6 +372,7 @@ class CoreTests(unittest.TestCase):
         root = self.root / "repo"
         root.mkdir()
         shutil.copytree(ROOT / "web", root / "web")
+        shutil.copytree(ROOT / "config", root / "config")
         out = root / "out"
         out.mkdir()
         (out / "sentinel").write_text("previous")
@@ -382,6 +385,7 @@ class CoreTests(unittest.TestCase):
         root = self.root / "repo"
         root.mkdir()
         shutil.copytree(ROOT / "web", root / "web")
+        shutil.copytree(ROOT / "config", root / "config")
         out = root / "out"
         out.mkdir()
         (out / "sentinel").write_text("previous")

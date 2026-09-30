@@ -44,6 +44,7 @@ jobs:
         run: |
           python -m playwright install --with-deps chromium
           python tools/browser_checks.py
+          python tools/teshuva_browser_checks.py
       - name: Pack reviewable site
         run: tar -czf test-results/site-preview.tar.gz -C dist .
       - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6

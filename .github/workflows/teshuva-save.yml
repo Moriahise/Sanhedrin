@@ -1,0 +1,88 @@
+name: Save Teshuva
+on:
+  issues:
+    types: [opened, edited, labeled]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: GitHub Teshuva issue number
+        required: true
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: teshuva-${{ github.event.issue.number || inputs.issue_number }}
+  cancel-in-progress: false
+jobs:
+  save:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (startsWith(github.event.issue.title, '[Teshuva]') &&
+      (github.event.action != 'labeled' || github.event.label.name == 'teshuva-approved'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+      issues: write
+      actions: write
+    steps:
+      - name: Authorize request processing
+        id: access
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ACTOR: ${{ github.actor }}
+          REPOSITORY: ${{ github.repository }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          if [ "$ACTOR" = "$OWNER" ]; then
+            echo 'allowed=true' >> "$GITHUB_OUTPUT"
+          else
+            permission=$(gh api "repos/$REPOSITORY/collaborators/$ACTOR/permission" --jq .permission 2>/dev/null || true)
+            case "$permission" in admin|maintain|write) echo 'allowed=true' >> "$GITHUB_OUTPUT";; esac
+          fi
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        if: steps.access.outputs.allowed == 'true'
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        if: steps.access.outputs.allowed == 'true'
+        with:
+          python-version: '3.12'
+          cache: pip
+      - if: steps.access.outputs.allowed == 'true'
+        run: pip install -r requirements.txt
+      - name: Restore the complete saved library
+        if: steps.access.outputs.allowed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          python -m sanhedrin restore-release --repo "$REPOSITORY" --directory .sanhedrin/restore
+          python -m sanhedrin --report test-results/teshuva-import.json migrate
+      - name: Compose and atomically save HTML and JSON
+        id: response
+        if: steps.access.outputs.allowed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          ISSUE_NUMBER: ${{ inputs.issue_number }}
+        run: python tools/save_teshuva.py
+      - name: Publish the saved answer
+        if: steps.response.outputs.saved == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: gh workflow run library-pipeline.yml --repo "$REPOSITORY" --ref main
+      - name: Submission status
+        if: always()
+        env:
+          ALLOWED: ${{ steps.access.outputs.allowed }}
+          SAVED: ${{ steps.response.outputs.saved }}
+        run: |
+          if [ "$ALLOWED" != 'true' ]; then
+            echo 'Repository approval required: a maintainer can add teshuva-approved or run Save Teshuva with the issue number.' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Saved response: $SAVED" >> "$GITHUB_STEP_SUMMARY"
+          fi

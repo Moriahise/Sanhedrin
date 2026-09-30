@@ -174,6 +174,10 @@ def _build(store, root, out, max_bytes):
         "catalog-data.js",
         "status.html",
         "status-app.js",
+        "teshuva.html",
+        "teshuva.css",
+        "teshuva-app.js",
+        "teshuva-data.js",
     ):
         shutil.copyfile(root / "web" / name, out / name)
     if (root / "CNAME").exists():
@@ -234,6 +238,7 @@ def _build(store, root, out, max_bytes):
                 "needs_review": bool(q.get("needs_review")),
                 "url": url,
                 "quality_status": q.get("quality_status"),
+                "has_evidence": any(len(t) >= 25 for t in answer_texts) or (q["kind"] in {"article", "document"} and len(question_text) >= 25),
             }
             if q.get("document_path"):
                 card["document_path"] = q["document_path"]
@@ -259,6 +264,8 @@ def _build(store, root, out, max_bytes):
             locators[shard(pid, 2)][pid] = {"n": n, "file": file}
             for field in ("provider", "category", "kind", "language"):
                 facets[field][card[field]].append(n)
+            if card["has_evidence"]:
+                facets["evidence"]["available"].append(n)
             if year(card["published_at"]):
                 facets["published_year"][year(card["published_at"])].append(n)
             import_years = {year(q.get("imported_at")), year(q.get("saved_at"))} | {
@@ -317,6 +324,9 @@ def _build(store, root, out, max_bytes):
     for q in records:
         if q.get("document_path"):
             safe_document(root, q["document_path"], out, q["document_sha256"])
+    from .teshuva import publish_assets
+
+    teshuva_assets = publish_assets(root, out)
     size = sum(p.stat().st_size for p in out.rglob("*") if p.is_file())
     if size > max_bytes:
         raise DataError(f"Export size {size} exceeds budget {max_bytes}")
@@ -342,6 +352,7 @@ def _build(store, root, out, max_bytes):
         ),
         "uncompressed_site_bytes": size,
         "data_base": f"releases/{release}/",
+        "teshuva": teshuva_assets,
     }
     write_json(out / "catalog/manifest.json", manifest)
     write_json(

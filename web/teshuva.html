@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self' https://api.github.com; base-uri 'none'; object-src 'none'; form-action 'self'">
+  <title>Sanhedrin · Ask a question</title>
+  <link rel="stylesheet" href="catalog.css"><link rel="stylesheet" href="teshuva.css">
+  <script type="module" src="teshuva-app.js"></script>
+</head>
+<body>
+<header class="masthead"><a class="brand" href="index.html">SANHEDRIN<span>ספריית שאלות ותשובות</span></a><nav><a href="index.html" data-t="library">Library</a><button id="language" type="button">עברית</button></nav></header>
+<main class="teshuva-shell">
+  <div class="intro"><p class="eyebrow" data-t="eyebrow">A question. Sources. A considered draft.</p><h1 data-t="heading">Formulate your question</h1><p data-t="intro">Find relevant saved answers across the Hebrew and English library. Works without an API.</p></div>
+  <div class="editor-layout">
+  <form id="question-form" class="editor-panel">
+    <label id="question-label" data-t="question">Your question</label>
+    <div class="editor-toolbar" role="toolbar" aria-label="Text formatting">
+      <button type="button" data-command="bold" aria-label="Bold"><strong>B</strong></button>
+      <button type="button" data-command="italic" aria-label="Italic"><em>I</em></button>
+      <button type="button" data-command="insertUnorderedList" aria-label="Bulleted list">• List</button>
+      <button type="button" data-command="undo" aria-label="Undo">↶</button>
+      <button type="button" data-dir="rtl">RTL</button><button type="button" data-dir="ltr">LTR</button>
+    </div>
+    <div id="question-editor" contenteditable="true" role="textbox" aria-multiline="true" aria-labelledby="question-label" dir="auto" spellcheck="true"></div>
+    <div class="editor-meta"><span id="character-count">0 / 8000</span><button id="clear" class="text-button" type="button" data-t="clear">Clear draft</button></div>
+    <label for="keywords" data-t="keywords">Search words (optional)</label>
+    <input id="keywords" maxlength="300" dir="auto" placeholder="shabbat candles · נרות שבת">
+    <p class="help" data-t="keywordHelp">Use specific words if the question is long. Common topics are linked across Hebrew and English.</p>
+    <button id="generate" class="primary" type="submit" disabled data-t="generate">Find a source-based answer</button>
+    <p id="status" role="status" aria-live="polite"></p>
+  </form>
+  <aside class="profile-panel">
+    <p class="eyebrow" data-t="profile">Presentation profile</p>
+    <img id="rav-image" width="180" height="180" alt="" hidden>
+    <label for="rav-select" data-t="chooseProfile">Choose a rabbi portrait</label><select id="rav-select" disabled></select>
+    <p id="rav-name" dir="auto"></p>
+    <p class="help" data-t="profileHelp">The profile accompanies the draft. Source authors are credited separately.</p>
+    <label class="api-switch"><input id="use-openai" type="checkbox"><span data-t="api">Add an OpenAI formulation</span></label>
+    <p class="help" data-t="apiHelp">Optional. After GitHub submission, the workflow drafts from these sources. Requires the repository API secret. If unavailable, the source-based answer is saved.</p>
+    <label for="source-limit" data-t="sourceCount">Number of sources</label><select id="source-limit"><option>3</option><option selected>6</option><option>8</option></select>
+  </aside>
+  </div>
+  <section id="answer-panel" class="answer-panel" hidden aria-live="polite">
+    <header class="answer-profile"><img id="answer-image" width="72" height="72" alt=""><div><p class="eyebrow" data-t="answer">Source-based draft</p><h2 id="answer-name" dir="auto"></h2></div></header>
+    <p class="notice" data-t="draftNotice">These are relevant source passages, not an independently issued ruling. Read the complete sources and check how they apply to your situation.</p>
+    <div id="answer-question" dir="auto"></div>
+    <p id="answer-summary"></p><div id="answer-sources"></div>
+    <div class="save-panel"><button id="save" class="primary" type="button" data-t="save">Save in GitHub / Sanhedrin</button><p class="help" data-t="saveHelp">Review the prepared GitHub issue and submit it. The workflow stores the finished HTML and JSON. Public submissions require repository approval.</p></div>
+    <div id="submission-panel" hidden><label for="submission-body" data-t="submission">Prepared submission</label><textarea id="submission-body" readonly rows="7" dir="ltr"></textarea><button id="copy" type="button" data-t="copy">Copy request</button> <a id="open-github" target="_blank" rel="noopener noreferrer" data-t="open">Open GitHub submission</a><p id="submission-status" role="status"></p></div>
+  </section>
+  <form id="track-form" class="track-form" hidden><label for="issue-number" data-t="issueNumber">GitHub issue number</label><input id="issue-number" type="number" min="1" max="10000000" required><button type="submit" data-t="track">Check saved answer</button><p id="track-status" role="status"></p></form>
+  <section class="archive"><h2 data-t="archive">Saved Teshuvot</h2><div id="saved-list"></div></section>
+</main>
+</body></html>
