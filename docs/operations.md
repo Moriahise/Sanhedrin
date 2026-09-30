@@ -14,15 +14,17 @@ Do not run the old ingestion workflows alongside the new publisher. The branch r
 
 ## Source configuration
 
+Current owner policy, 30 September 2026: only Mi Yodeya uses automatic online collection. DIN, Aish, Chabad and Yeshiva use manual browser-extension JSON uploads with automatic local import, backup and publication. See [UPLOADS_DE.md](UPLOADS_DE.md) for the prepared folders and exact steps.
+
 | Provider | Default operation | Remaining limitation |
 |---|---|---|
 | Mi Yodeya | Official API, complete native answers, attribution and verified acceptance | API quota/backoff; rotating older checks are not a promise of daily full-library refresh |
-| DIN | WordPress metadata and original links | Full body mode requires documented permission; markers must match source structure |
-| Aish | WordPress metadata, Ask The Rabbi category 3504 | Same permission requirement for full bodies |
-| Chabad | Enabled official magazine RSS, metadata and original links | Covers magazine items, not a complete historical Q&A feed; no full-article scraping |
-| Yeshiva | Existing-item metadata checks and optional approved discovery feed | Direct live requests can return HTTP 403; default has no invented discovery endpoint |
+| DIN | Manual JSON import from `data/qa/din/` | Online collection disabled; original browser exports and splitter content parts remain accepted |
+| Aish | Manual JSON import from `data/qa/aish/` | Online collection disabled; uploads trigger the publisher |
+| Chabad | Manual JSON import from `data/qa/chabad/` | RSS collection disabled by updated owner instruction |
+| Yeshiva | Manual JSON import from `data/qa/yeshiva/` | Online collection disabled; existing inputs and texts retained |
 
-Chabad activation records the owner's instruction dated 2026-09-30 and the scope **RSS metadata and original links**. This is the owner's authorization record, not a claim that a separate Chabad permission document was received. Feed URL: `https://www.chabad.org/tools/rss/magazine_rss.xml`. The live adapter was successfully exercised against this endpoint. Existing Chabad article bodies remain intact, and `article.asp?aid=...` IDs resolve to the same source identity as `/aid/...` links.
+The historical Chabad activation records the owner's earlier instruction dated 2026-09-30 and the scope **RSS metadata and original links**; its enabled flag is now false following the owner's updated manual-import instruction. This is the owner's authorization record, not a claim that a separate Chabad permission document was received. Feed URL: `https://www.chabad.org/tools/rss/magazine_rss.xml`. The live adapter was successfully exercised against this endpoint. Existing Chabad article bodies remain intact, and `article.asp?aid=...` IDs resolve to the same source identity as `/aid/...` links.
 
 To use a publisher-provided API/feed for reliable Yeshiva discovery or permitted full texts, configure `adapter: "json_feed"`, a real HTTPS `endpoint`, allowlisted `hosts`, a request budget, `mode` and a `permission_reference` for full mode. Optional `token_env` binds a bearer token to the endpoint host. Add its secret to the execution environment; the supplied Actions workflow only passes the optional Stack Exchange key until another source credential is explicitly configured.
 

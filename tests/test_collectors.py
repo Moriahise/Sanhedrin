@@ -367,10 +367,13 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(self.s.count(), 0)
         self.assertIsNone(self.s.cursor("page"))
 
-    def test_chabad_enabled_in_production_config(self):
+    def test_only_miyodeya_collected_in_production_config(self):
         config = load_config(ROOT / "config/sources.json")
-        self.assertTrue(config["sources"]["chabad"]["enabled"])
-        self.assertEqual(config["sources"]["chabad"]["mode"], "metadata")
+        enabled = {p for p, c in config["sources"].items() if c["enabled"]}
+        self.assertEqual(enabled, {"miyodeya"})
+        self.assertEqual(config["sources"]["miyodeya"]["mode"], "full")
+        for provider in {"din", "aish", "chabad", "yeshiva"}:
+            self.assertIn("Manual browser-extension imports", config["sources"][provider]["disabled_reason"])
 
 
 class TransportTests(unittest.TestCase):

@@ -1,6 +1,6 @@
 # Sanhedrin – Einrichtung, Betrieb und Wiederherstellung
 
-Diese Anleitung beschreibt die neue Umsetzung. Die Datenbank speichert den dauerhaften Bestand; die Website wird daraus als statisches Verzeichnis `dist` erzeugt. Browsererweiterungen, manuelle Exporte und das Aufteilen neuer JSON-Dateien sind für den automatischen Betrieb nicht erforderlich.
+Diese Anleitung beschreibt die neue Umsetzung. Die Datenbank speichert den dauerhaften Bestand; die Website wird daraus als statisches Verzeichnis `dist` erzeugt. **Mi Yodeya läuft automatisch. Yeshiva, DIN, Aish und Chabad erfasst du gemäß deiner aktualisierten Vorgabe vom 30. September 2026 mit Browsererweiterungen.** Nach dem Upload auf `main` erledigt die gemeinsame Pipeline Import, Sicherung und Veröffentlichung. Die konkreten Upload-Ordner und Schritte stehen in [UPLOADS_DE.md](UPLOADS_DE.md).
 
 ## Was erhalten bleibt
 
@@ -48,14 +48,14 @@ Ein teilweiser Quellenfehler hält eine geprüfte Veröffentlichung nicht auf: D
 | Quelle | Aktivierter Weg | Umfang |
 |---|---|---|
 | Mi Yodeya | Offizielle Stack-Exchange-API | Fragen und alle bestätigten nativen Antworten, Originalverweise, Autoren, Lizenz und belegte Annahme einer Antwort |
-| DIN | WordPress-API | Neue/geänderte Metadaten und Originalverweise; vorhandene vollständige Texte bleiben erhalten |
-| Aish | WordPress-API, Ask-The-Rabbi-Kategorie 3504 | Metadaten und Originalverweise; vorhandene Texte bleiben erhalten |
-| Chabad | Offizieller Magazin-RSS-Feed, gemäß deiner Freigabe aktiviert | Titel, Veröffentlichungsdatum und Originalverweise; der Feed ist kein vollständiges historisches Q&A-Archiv |
-| Yeshiva | Direkte Quellenprüfung und vorbereiteter Publisher-Feed-Adapter | Die Website liefert bei Direktabrufen teilweise HTTP 403; zuverlässige neue Erfassung benötigt einen zugelassenen Feed/API-Zugang |
+| DIN | Manueller Browserexport → `data/qa/din/` | Online-Automatik deaktiviert; hochgeladene Inhalte werden automatisch importiert |
+| Aish | Manueller Browserexport → `data/qa/aish/` | Online-Automatik deaktiviert; hochgeladene Inhalte werden automatisch importiert |
+| Chabad | Manueller Browserexport → `data/qa/chabad/` | RSS-Automatik gemäß aktualisierter Vorgabe deaktiviert; hochgeladene Inhalte werden automatisch importiert |
+| Yeshiva | Manueller Browserexport → `data/qa/yeshiva/` | Online-Automatik deaktiviert; hochgeladene Inhalte werden automatisch importiert |
 
-Chabad-Feed: `https://www.chabad.org/tools/rss/magazine_rss.xml`. Er wurde real abgerufen und der Adapter hat erfolgreich Einträge übernommen. Die Artikelnummer aus `article.asp?aid=…` wird derselben Quelle zugeordnet wie `/aid/…`; vorhandene Texte werden dadurch nicht als neue Artikel dupliziert.
+Der vorbereitete Chabad-Feed-Adapter verwendet `https://www.chabad.org/tools/rss/magazine_rss.xml`. Er wurde früher erfolgreich getestet, ist im aktuellen Betriebsmodus jedoch deaktiviert. Die Artikelnummer aus `article.asp?aid=…` wird derselben Quelle zugeordnet wie `/aid/…`; vorhandene Texte werden dadurch nicht als neue Artikel dupliziert.
 
-Für Yeshiva ist kein erfundener Zugang hinterlegt. Ein freigegebener Publisher-Feed lässt sich über `config/sources.json` mit `adapter: "json_feed"`, tatsächlichem HTTPS-Endpunkt und erlaubten Hosts einrichten. Das genaue JSON-Format steht in [operations.md](operations.md). Volltextbetrieb für eine weitere Quelle benötigt `mode: "full"` und eine dokumentierte `permission_reference`. Eventuelle Zugangsschlüssel gehören in Secrets bzw. die Ausführungsumgebung, nicht ins Repository.
+Die nicht automatisch abgefragten Adapter bleiben als optionale technische Wege erhalten. Für Yeshiva ist kein erfundener Zugang hinterlegt. Ein freigegebener Publisher-Feed lässt sich über `config/sources.json` mit `adapter: "json_feed"`, tatsächlichem HTTPS-Endpunkt und erlaubten Hosts einrichten. Das genaue JSON-Format steht in [operations.md](operations.md). Volltextbetrieb für eine weitere Quelle benötigt `mode: "full"` und eine dokumentierte `permission_reference`. Eventuelle Zugangsschlüssel gehören in Secrets bzw. die Ausführungsumgebung, nicht ins Repository.
 
 ## Suche und Ansicht
 
