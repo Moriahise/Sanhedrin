@@ -13,10 +13,10 @@ from urllib.parse import quote
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from sanhedrin.model import DataError, canonical_json, digest
 from sanhedrin.store import Store
-from sanhedrin.teshuva import compose, render, validate_request, profiles, portrait_rotation, PORTRAIT_ROTATION_PATH
+from sanhedrin.teshuva import compose, render, validate_request, profiles, portrait_rotation, PORTRAIT_ROTATION_PATH, publishable
 
 OPENAI_OWNER = "Moriahise"
-RETRYABLE_API_STATES = {"unconfigured", "failed", "disabled", "owner_only"}
+RETRYABLE_API_STATES = {"unconfigured", "failed", "disabled", "owner_only", "insufficient", "needs_clarification"}
 
 
 def openai_access(request, issue, actor, triggering_actor, repository, enabled):
@@ -83,13 +83,17 @@ def authorized(api, event, actor, repository):
         raise
 
 
-def atomic_save(api, result, request_hash, *, attempts=4, replace_fallback=False, portrait_choices=None):
+def atomic_save(api, result, request_hash, *, attempts=4, replace_fallback=False, portrait_choices=None, commit_guard=None, expected_existing=False):
     json_path = "Sanhedrin/" + result["id"] + ".json"
     html_path = "Sanhedrin/" + result["id"] + ".html"
     for attempt in range(attempts):
         ref = api.request("GET", "/git/ref/heads/main")
         sha = ref["object"]["sha"]
         existing = api.content(json_path, sha)
+        if expected_existing and not existing:
+            raise DataError("The saved request was removed during research; no response was restored")
+        if commit_guard and not commit_guard():
+            raise DataError("The question was changed or closed during research; no response was saved")
         counter = None
         if existing:
             saved = json.loads(existing)
@@ -129,7 +133,7 @@ def atomic_save(api, result, request_hash, *, attempts=4, replace_fallback=False
     raise DataError("Repository changed repeatedly; rerun the save workflow")
 
 
-def save(api, root, store, issue, request, *, api_key="", model="gpt-4.1-mini", api_block_reason=""):
+def save(api, root, store, issue, request, *, api_key="", model="gpt-4.1-mini", api_block_reason="", retry_pending=False, commit_guard=None):
     validated = validate_request(request, root)
     request_hash = digest(validated)
     identity = "teshuva-" + str(issue) + "-" + request_hash[:12]
@@ -141,14 +145,17 @@ def save(api, root, store, issue, request, *, api_key="", model="gpt-4.1-mini", 
             raise DataError("Saved request hash conflict")
         retry_api = bool(validated["use_openai"] and api_key and not api_block_reason
                          and result.get("mode") == "library"
-                         and result.get("openai_status") in RETRYABLE_API_STATES)
+                         and result.get("openai_status") in RETRYABLE_API_STATES
+                         and (result.get("openai_status") not in {"insufficient", "needs_clarification"} or retry_pending))
     if not existing or retry_api:
         result = compose(store, root, request, identity=identity, api_key=api_key,
                          model=model, api_block_reason=api_block_reason)
     result, commit, changed = atomic_save(api, result, request_hash, replace_fallback=retry_api,
-                                         portrait_choices=profiles(root))
+                                         portrait_choices=profiles(root), commit_guard=commit_guard, expected_existing=bool(existing))
     return {"saved": True, "changed": changed, "id": result["id"], "commit": commit,
-            "mode": result["mode"], "openai_status": result["openai_status"]}
+            "mode": result["mode"], "openai_status": result["openai_status"],
+            "publication_status": "ready" if publishable(result) else result.get("publication_status", "needs_research"),
+            "clarification_questions": result.get("clarification_questions", []), "missing_evidence": result.get("missing_evidence", [])}
 
 
 def main():
@@ -171,16 +178,29 @@ def main():
     api_block_reason = openai_access(request, issue, actor,
         os.environ.get("GITHUB_TRIGGERING_ACTOR", ""), repository,
         os.environ.get("OPENAI_ENABLED", ""))
+    def current_request():
+        live = api.request("GET", "/issues/" + str(number))
+        return live.get("state") == "open" and live.get("body") == issue.get("body") and live.get("user", {}).get("login") == issue.get("user", {}).get("login")
     with Store(root / ".sanhedrin/library.sqlite") as store:
         result = save(api, root, store, number, request,
                       api_key="" if api_block_reason else os.environ.get("OPENAI_API_KEY", ""),
                       api_block_reason=api_block_reason,
-                      model=os.environ.get("OPENAI_MODEL") or "gpt-4.1-mini")
+                      model=os.environ.get("OPENAI_MODEL") or "gpt-4.1-mini",
+                      retry_pending=os.environ.get("RETRY_RESEARCH") == "true", commit_guard=current_request)
     if os.environ.get("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a") as output:
-            output.write("saved=true\n")
+            output.write("saved=true\npublication_status=" + result["publication_status"] + "\n")
     marker = "<!-- sanhedrin-teshuva-result -->"
-    body = marker + "\nSaved: [HTML](https://github.com/" + repository + "/blob/main/Sanhedrin/" + result["id"] + ".html) · [JSON](https://github.com/" + repository + "/blob/main/Sanhedrin/" + result["id"] + ".json).\n\nAfter publication: https://shekhina.org/Sanhedrin/" + result["id"] + ".html\n\nMode: " + result["mode"] + "; OpenAI: " + result["openai_status"] + "."
+    if result["publication_status"] == "ready":
+        body = marker + "\nSaved: [HTML](https://github.com/" + repository + "/blob/main/Sanhedrin/" + result["id"] + ".html) · [JSON](https://github.com/" + repository + "/blob/main/Sanhedrin/" + result["id"] + ".json).\n\nAfter publication: https://shekhina.org/Sanhedrin/" + result["id"] + ".html"
+    else:
+        body = marker + "\nThe request is saved for further research. No incomplete Teshuva was added to the answer archive.\n\n[Research record](https://github.com/" + repository + "/blob/main/Sanhedrin/" + result["id"] + ".json)."
+        if result["clarification_questions"]:
+            body += "\n\nPlease add these details to the question and submit the updated request:\n" + "\n".join("- " + q for q in result["clarification_questions"])
+        if result["missing_evidence"]:
+            body += "\n\nEvidence still needed:\n" + "\n".join("- " + q for q in result["missing_evidence"])
+        body += "\n\nMoriahise can enable external research in the request or run Save Teshuva with retry_research to repeat an authorized research attempt."
+    body += "\n\nOpenAI status: " + result["openai_status"] + "."
     try:
         comments = api.request("GET", "/issues/" + str(number) + "/comments?per_page=100")
         old = next((c for c in comments if marker in (c.get("body") or "") and c.get("user", {}).get("login") == "github-actions[bot]"), None)

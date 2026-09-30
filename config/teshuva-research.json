@@ -1,0 +1,163 @@
+{
+  "schema": 1,
+  "anchor": {
+    "name": "Sefaria",
+    "url": "https://www.sefaria.org",
+    "export_index": "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/master/books.json",
+    "export_storage": "https://storage.googleapis.com/sefaria-export/"
+  },
+  "sources": [
+    {
+      "name": "asktherav.com",
+      "url": "https://asktherav.com/database/"
+    },
+    {
+      "name": "ohr.edu",
+      "url": "https://ohr.edu/ask_db/ask_main.php"
+    },
+    {
+      "name": "jewishanswers.org",
+      "url": "https://jewishanswers.org/ask-the-rabbi"
+    },
+    {
+      "name": "eretzhemdah.org",
+      "url": "https://eretzhemdah.org/qna.asp?pageid=3"
+    },
+    {
+      "name": "ask.hidabroot.com",
+      "url": "https://ask.hidabroot.com/"
+    },
+    {
+      "name": "daat.org.il",
+      "url": "https://daat.org.il/en/ask-rabi-main/"
+    },
+    {
+      "name": "rabbinicalalliance.org",
+      "url": "https://rabbinicalalliance.org/community-services/ask-a-rabbi/"
+    },
+    {
+      "name": "shulchanaruchharav.com",
+      "url": "https://shulchanaruchharav.com/qa-archive"
+    },
+    {
+      "name": "kashrut.org",
+      "url": "https://kashrut.org/q-a-forum/"
+    },
+    {
+      "name": "yoatzot.org",
+      "url": "https://www.yoatzot.org/ask-a-yoetzet/"
+    },
+    {
+      "name": "star-k.org",
+      "url": "https://www.star-k.org/ask-rabbi"
+    },
+    {
+      "name": "oukosher.org",
+      "url": "https://oukosher.org/ask-kosher-question/"
+    },
+    {
+      "name": "outorah.org",
+      "url": "https://outorah.org/series/4555/"
+    },
+    {
+      "name": "oukosher.org",
+      "url": "https://oukosher.org/halacha-yomis/"
+    },
+    {
+      "name": "yeshiva.org.il",
+      "url": "https://www.yeshiva.org.il/ask/"
+    },
+    {
+      "name": "kipa.co.il",
+      "url": "https://www.kipa.co.il/שאל-את-הרב/"
+    },
+    {
+      "name": "din.org.il",
+      "url": "https://din.org.il/שאל-את-הרב-2/"
+    },
+    {
+      "name": "hidabroot.org",
+      "url": "https://www.hidabroot.org/faq"
+    },
+    {
+      "name": "shoresh.org.il",
+      "url": "https://www.shoresh.org.il/spages/shut/"
+    },
+    {
+      "name": "sheilot.com",
+      "url": "https://sheilot.com/il/"
+    },
+    {
+      "name": "doresh-tzion.co.il",
+      "url": "https://www.doresh-tzion.co.il/qas"
+    },
+    {
+      "name": "kavhalacha.co.il",
+      "url": "https://kavhalacha.co.il/אודות/שאל-את-הרב"
+    },
+    {
+      "name": "meshiv.co.il",
+      "url": "https://meshiv.co.il/"
+    },
+    {
+      "name": "rabenu.co.il",
+      "url": "https://rabenu.co.il/he/שאלות-תשובות-ראשי"
+    },
+    {
+      "name": "ykr.org.il",
+      "url": "https://www.ykr.org.il/faq/"
+    },
+    {
+      "name": "ravsherki.org",
+      "url": "https://ravsherki.org/index.php/2013-02-12-22-45-53"
+    },
+    {
+      "name": "breslev.co.il",
+      "url": "https://breslev.co.il/questions/"
+    },
+    {
+      "name": "ketertora.co.il",
+      "url": "https://ketertora.co.il/שאלות-בהלכה/"
+    },
+    {
+      "name": "toraland.org.il",
+      "url": "https://www.toraland.org.il/שאל-את-הרב/"
+    },
+    {
+      "name": "kosharot.co.il",
+      "url": "https://www.kosharot.co.il/index2.php?id=50&lang=HEB"
+    },
+    {
+      "name": "puah.org.il",
+      "url": "https://puah.org.il/עולם-הידע/שאל-את-הרב/"
+    },
+    {
+      "name": "hebrew.yoatzot.org",
+      "url": "https://hebrew.yoatzot.org/ask-a-yoetzet/"
+    },
+    {
+      "name": "yhb.org.il",
+      "url": "https://yhb.org.il/ask-the-rabbi/"
+    },
+    {
+      "name": "halachayomit.co.il",
+      "url": "https://halachayomit.co.il/he/default.aspx"
+    },
+    {
+      "name": "shabes.net",
+      "url": "https://www.shabes.net/bsd/index.php/2020-09-09-07-25-56"
+    },
+    {
+      "name": "harav.org",
+      "url": "https://harav.org/לכל-תשובה-שאלה/"
+    },
+    {
+      "name": "baltimorejewishlife.com",
+      "url": "https://baltimorejewishlife.com/torah/ask-the-rabbi.php"
+    },
+    {
+      "name": "shul.co.uk",
+      "url": "https://www.shul.co.uk/ask-the-rabbi-archive"
+    }
+  ]
+}

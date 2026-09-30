@@ -104,6 +104,27 @@ def run(directory, reports):
             page.locator("#generate").click()
             page.wait_for_function('() => document.querySelector("#status").textContent.includes("לא נמצא")')
             assert page.locator("#answer-panel").is_hidden()
+            # External research can be requested even when the local corpus has no match.
+            page.locator("#external-research").check()
+            assert page.locator("#use-openai").is_checked()
+            page.locator("#source-urls").fill("https://asktherav.com/database/")
+            page.locator("#generate").click()
+            page.wait_for_selector("#answer-panel", state="visible", timeout=90000)
+            with page.expect_popup() as popup:
+                page.locator("#save").click()
+            popup.value.close()
+            request = json.loads(page.locator("#submission-body").input_value().split("```json\n",1)[1].split("\n```",1)[0])
+            assert request["external_research"] is True and request["use_openai"] is True
+            assert request["source_urls"] == ["https://asktherav.com/database/"]
+            assert request["source_ids"] == [] and request["search_version"] == 2
+            page.reload()
+            page.wait_for_function('() => Boolean(document.querySelector("#rav-image").dataset.profileId)')
+            assert page.locator("#external-research").is_checked()
+            assert page.locator("#source-urls").input_value() == "https://asktherav.com/database/"
+            page.locator("#use-openai").uncheck()
+            assert not page.locator("#external-research").is_checked()
+            assert page.locator("#research-sites a").count() == 38
+            result["external_switch_urls_and_empty_local_research"] = True
             # Start at the final portrait and verify that the next question wraps.
             cycle = page.evaluate("""async()=>{const profiles=await(await fetch('rav-profiles.json')).json();const rotation=await(await fetch('rav-rotation.json')).json();const draft=JSON.parse(localStorage.getItem('sanhedrin-teshuva-draft'));draft.portrait={nextIndex:Math.ceil(rotation.next_index/profiles.length)*profiles.length+profiles.length-1,questionText:'',profileId:''};localStorage.setItem('sanhedrin-teshuva-draft',JSON.stringify(draft));return {last:profiles.at(-1).id,first:profiles[0].id};}""")
             page.reload()

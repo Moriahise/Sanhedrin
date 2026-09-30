@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "stopwords": "a an and are as at be been but by can could did do does for from had has have how i if in into is it may my of on or our should that the their them then there these they this to was we were what when where which who why will with would you your about allowed permitted please question answer האם איך מה מתי מדוע למה על של את עם גם או אני הוא היא הם הן יש אין זה זו לא כן כאשר אם אפשר מותר צריך שאלה תשובה כיצד האם שלום תודה לעשות בזמן ביום",
+  "stopwords": "a an and are as at be been but by can could did do does for from had has have how i if in into is it may my of on or our should that the their them then there these they this to was we were what when where which who why will with would you your about allowed permitted please question answer האם איך מה מתי מדוע למה על של את עם גם או אני הוא היא הם הן יש אין זה זו לא כן כאשר אם אפשר מותר צריך שאלה תשובה כיצד האם שלום תודה לעשות בזמן ביום getting get used use using something year years time trying like know many want concern help regarding really good bad become protection protect possible useable usable put take kept going every האם ניתן כיצד עושים רוצה לדעת הרבה שנה שנים דבר דברים",
   "groups": [
     ["shabbat", "shabbos", "shabat", "שבת"],
     ["kashrut", "kosher", "kashrus", "כשרות", "כשר"],
@@ -30,6 +30,20 @@
     ["fast", "fasting", "צום", "תענית"],
     ["torah", "תורה"],
     ["talmud", "gemara", "תלמוד", "גמרא"],
-    ["halacha", "halakha", "halakhah", "halachah", "הלכה"]
-  ]
+    ["halacha", "halakha", "halakhah", "halachah", "הלכה"],
+    ["schach", "sechach", "sakh", "סכך"],
+    ["mold", "mould", "moldy", "mouldy", "mildew", "schimmel", "schimmelnd", "עובש", "עבש", "schimmelndem"],
+    ["bamboo", "במבוק"],
+    ["treat", "treated", "treatment", "chemical", "chemicals", "כימי", "כימית", "חומר"],
+    ["spray", "spraying", "ריסוס", "לרסס"],
+    ["storage", "storing", "אחסון"],
+    ["insects", "bugs", "חרקים"],
+    ["roof", "roofing", "סיכוך"],
+    ["branches", "ענפים"],
+    ["disinfect", "disinfectant", "חיטוי"],
+    ["smell", "odor", "ריח"],
+    ["rotting", "rotten", "רקוב", "ריקבון"]
+  ],
+  "candidate_limit": 120,
+  "text_limit": 16000
 }

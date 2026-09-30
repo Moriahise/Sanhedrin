@@ -1,95 +1,62 @@
-# Sanhedrin: Fragen eingeben und Teshuvot speichern
+# Sanhedrin: Fragen, Recherche und Teshuvot
 
-## Öffnen
+[Frageeditor öffnen](https://shekhina.org/teshuva.html).
 
-[Frageeditor öffnen](https://shekhina.org/teshuva.html). Der Link **Ask a question / שאלה ותשובה** steht auch oben in der Bibliothek.
+## Fragen und lokale Quellen
 
-## Eine Antwort ohne API erstellen
+1. Frage in den Editor schreiben. Fett, Kursiv, Listen, RTL und LTR stehen in der Werkzeugleiste zur Verfügung. Der Sprachschalter ändert Oberfläche und Ausgabesprache zwischen Englisch und Hebräisch.
+2. Optional genaue Suchwörter eingeben, etwa `schach mold` oder `סכך עובש`. Ein allgemeines Stichwort wie `sukkah` ist für diese Frage zu breit.
+3. Zahl der Vorschauquellen wählen: 3, 6, 8, 12 oder 20.
+4. **Find a source-based answer** anklicken und die gefundenen Quellen prüfen.
 
-1. Frage in das große Eingabefeld schreiben. Fett, Kursiv, Liste und Rückgängig stehen in der Werkzeugleiste zur Verfügung. **RTL** stellt den Editor auf hebräische Schreibrichtung, **LTR** auf englische. Der Sprachschalter ändert die Oberfläche und die Ausgabesprache.
-2. Bei längeren Fragen unter **Search words / מילות חיפוש** einige genaue Suchwörter eintragen, beispielsweise `shabbat candles` oder `נרות שבת`. Die Suche berücksichtigt den vollständigen hebräischen und englischen Bestand. Eine gemeinsame Wortliste verbindet häufige Themen beider Sprachen; sie ist keine allgemeine Übersetzung jeder beliebigen Frage.
-3. Rechts die Zahl der Quellen wählen: 3, 6 oder 8. Das Rabbinerporträt wird automatisch zugeteilt. Die Bilder kommen aus `Rav`; der Dateiname ohne Erweiterung ist der Anzeigename.
-4. **Find a source-based answer / איתור תשובה מבוססת מקורות** anklicken.
-5. Die Antwort zeigt relevante gespeicherte Antwortpassagen bzw. Artikel-/Dokumenttexte. Jeder Beleg enthält den Titel, die Herkunft, den gespeicherten Volltext und gegebenenfalls den Originalverweis. Ein längerer Text wird als Auszug gekennzeichnet.
+Die Vorschau vergleicht bis zu 120 Kandidaten und liest bis zu 60 vollständige Datensätze. Beim Speichern mit der neuen Suche wird der gesamte lokale Bestand erneut verglichen, einschließlich aller HTML-Dokumente unter `responsa/` und ihrer hebräischen Fußnoten. Häufige Fachbegriffe werden zwischen Englisch und Hebräisch verbunden; hebräische Präfixe werden berücksichtigt. Titel und Fragen ohne Antworttext werden nicht als Beleg übernommen.
 
-Titel, reine Fragen ohne Antwort und Link-Platzhalter werden nicht als Antwortbelege verwendet. Ohne passende gespeicherte Texte erscheint eine klare Fehlanzeige. Die Funktion erfindet daraus keine Teshuva. Die Bestandsantwort ist eine Quellenzusammenstellung zur Prüfung; sie entscheidet nicht selbständig zwischen widersprechenden halachischen Positionen.
+Die API erstellt zunächst kurze Suchanfragen auf Englisch und Hebräisch und zerlegt die Frage in Teilfragen. Der Server prüft die besten 120 lokalen Kandidaten und wählt bis zu 12 passende Quellen. Mehrere Antworten bleiben erkennbar getrennt. Kurze Texte werden vollständig übernommen; sehr lange Texte erhalten einen relevanten Ausschnitt mit Kontext, bis zu 16.000 Zeichen pro Quelle. Das gesamte Quellenmaterial ist auf 100.000 Zeichen und 20 Quellen begrenzt. Die Anzahl in der Browser-Vorschau ist keine Vorgabe, ungeeignete Quellen in der fertigen Antwort zu verwenden.
 
-Das Bild ist ein Darstellungsprofil. Die ursprünglichen Autoren werden an den Quellen genannt. Das Profil behauptet nicht, dass der abgebildete Rabbiner den automatisch erzeugten Entwurf verfasst oder genehmigt hat.
+Ohne OpenAI bleibt die lokale Suche verfügbar. Neue reine Quellenzusammenstellungen werden als offene Recherche gespeichert und nicht als fertige Teshuvot im Antwortarchiv veröffentlicht.
 
-### Automatischer Wechsel der Porträts
+## Zuschaltbare externe Recherche
 
-Die Porträts wechseln in der nach Dateinamen geordneten Reihenfolge. Nach dem letzten beginnt die Reihe wieder von vorn. Im Editor gibt es keine manuelle Auswahl. Die Vorschau wechselt nach einer neuen Frage mit gefundenen Quellen; erneutes Erzeugen derselben Frage und Neuladen behalten das Porträt. **Clear draft** beginnt eine neue Frage.
+**Search outside our database** aktiviert die externe Recherche und schaltet gleichzeitig OpenAI ein. Sie wird beim Speichern ausgeführt, nicht beim Anzeigen der lokalen Vorschau. Bei Bedarf bis zu zehn öffentliche HTTPS-URLs in **Additional source URLs** eingeben, eine pro Zeile. URLs werden nur bei eingeschaltetem Recherchemodus abgerufen.
 
-Beim Speichern wird das nächste Porträt aus einem gemeinsamen Zähler in `Sanhedrin/portrait-rotation.json` zugeteilt. Antwort, Porträt und Zähler werden in einem Commit gespeichert. Gleichzeitige Einreichungen lesen nach einem Konflikt den aktuellen Zähler erneut. Eine wiederholte Verarbeitung oder ein späteres OpenAI-Upgrade verändert weder das zugeteilte Porträt noch den Zähler. Vorhandene gespeicherte Antworten behalten ihre Bilder.
+Sefaria ist ein fester Suchpunkt: Der Ablauf durchsucht die offizielle Bibliotheks-Such-API separat auf Hebräisch und Englisch und lädt konkrete Textstellen mit der offiziellen Text-API. Sefarias Exportdateien liegen inzwischen im öffentlichen Google-Cloud-Storage-Bucket `sefaria-export`, nicht in Google Docs. Der Katalog und die Download-Werkzeuge stehen weiterhin in [Sefaria-Export](https://github.com/Sefaria/Sefaria-Export). Ein vollständiger Massendownload ist für die Recherche nicht erforderlich.
 
-Die Vorschau beginnt beim zuletzt veröffentlichten Zählerstand und merkt sich ihren Wechsel im Browser. Wenn zwischen Vorschau und Speicherung andere Fragen gespeichert werden, kann die fertige Antwort ein späteres Porträt erhalten. Die gespeicherte Reihenfolge ist maßgeblich.
+[config/teshuva-research.json](../config/teshuva-research.json) enthält Sefaria sowie die 38 angegebenen Quellen-URLs. Der doppelte Meshiv-Eintrag wurde zusammengeführt. Eine zusätzliche OpenAI-Websuche sucht innerhalb dieser Domains und der Domains aus den eingegebenen URLs nach konkreten veröffentlichten Antworten. Es wird nicht jedes Archiv vollständig gespiegelt und kein Frageformular abgeschickt.
 
-## In GitHub speichern
+Suchtreffer und Links sind Hinweise. Als Beleg wird erst ein tatsächlich gelesener Text verwendet. Gesperrte Seiten, Bot-Verifikationen, reine Formulare, Archive mit Linklisten und fehlgeschlagene Abrufe werden ausgeschlossen und im Rechercheprotokoll vermerkt. Zugriffssperren werden nicht umgangen. Webseitenabrufe berücksichtigen robots.txt, Größen- und Zeitgrenzen. HTTPS-Verbindungen werden auf geprüfte öffentliche IP-Adressen festgelegt; lokale/private Ziele und entsprechende Weiterleitungen sind ausgeschlossen.
 
-1. Nach der Quellenantwort **Save in GitHub / Sanhedrin** anklicken.
-2. Eine vorbereitete GitHub-Pflichtbestätigung öffnet sich als Issue. Die JSON-Anfrage enthält deine Frage, Sprache, die automatische Porträtzuteilung (`profile_id: auto`) und die IDs der angezeigten Quellen. **Submit new issue** anklicken; erst damit wird sie eingereicht. Die Frage und Antwort werden öffentlich gespeichert.
-3. Bei einer sehr langen Frage erscheint der Kopierweg: **Copy request**, anschließend **Open GitHub submission**, Inhalt ins große Issue-Feld einfügen und **Submit new issue** wählen. Die Seite zeigt die vollständige Anfrage auch als auswählbaren Text.
-4. [GitHub Actions](https://github.com/Moriahise/Sanhedrin/actions) zeigt den Lauf **Save Teshuva**. Er lädt den dauerhaft gesicherten Bestand, übernimmt neue lokale Uploads und erzeugt das HTML/JSON-Paar in [Sanhedrin](https://github.com/Moriahise/Sanhedrin/tree/main/Sanhedrin).
-5. Anschließend startet er ausdrücklich **Publish durable library**. Nach erfolgreichem Deploy erscheint die Teshuva unten im Frageeditor unter **Saved Teshuvot**. Das Issue erhält einen Link zu den Dateien und zur veröffentlichten Antwort.
-6. Zur Rückkehr nach einem abgebrochenen Vorgang kann im Editor die **GitHub issue number** eingetragen und **Check saved answer** gewählt werden. Eine wiederholte Verarbeitung verwendet eine bereits gespeicherte Antwort. Eine geänderte Frage bekommt eine neue Datei; die vorige bleibt erhalten.
+Bei externen Antwortseiten werden öffentlich nur ein kurzer zugeschriebener Auszug von höchstens 25 Wörtern, der Original-Link, Abrufzeit und Inhalts-Hash gespeichert. Sefaria-Ausgaben behalten ihre Editions-/Lizenzangaben. Die API darf externe Antworten zusammenfassen, aber nicht lange Passagen übernehmen.
 
-Dateinamen: `Sanhedrin/teshuva-<Issue-Nummer>-<Anfrage-Hash>.html` und `.json`.
+## Speichern und Ergebnisprüfung
 
-Ein Besucher mit GitHub-Konto kann eine Anfrage einreichen. Automatisch verarbeitet werden Anfragen, deren Verarbeitung ein Repository-Inhaber oder Nutzer mit Schreibrechten auslöst. Öffentliche Besucher benötigen Freigabe: Als Repository-Verantwortlicher das Label **teshuva-approved** hinzufügen oder unter **Actions → Save Teshuva → Run workflow** die Issue-Nummer eingeben. Ein externer Besucher kann den API-Schlüssel dadurch nicht eigenständig verwenden. Nach einer weiteren Änderung an seiner Frage ist eine erneute Freigabe erforderlich.
+**Save in GitHub / Sanhedrin** öffnet eine vorbereitete GitHub-Anfrage. Auf GitHub prüfen und **Submit new issue** wählen. Lange Anfragen lassen sich vollständig kopieren und in das Issue einfügen. Frage und Recherche werden öffentlich gespeichert.
 
-## Optionale OpenAI-Ausarbeitung – nur Moriahise
+Der Workflow **Save Teshuva** lädt den dauerhaft gesicherten Bestand und übernimmt neue lokale Texte. Eine vollständige API-Antwort muss jede Aussage auf vorhandene Quellennummern beziehen. Ein zweiter API-Durchgang prüft die Unterstützung der Aussagen, die wesentlichen Teilfragen, Unterschiede zwischen Materialien und Behandlungen sowie fehlende Angaben und Einschränkungen.
 
-OpenAI kann ausschließlich von **Moriahise** verwendet werden. Der Workflow prüft die GitHub-Identität des Issue-Autors, des auslösenden Nutzers und des Nutzers, der einen Lauf wiederholt. Alle drei müssen Moriahise sein. Eine Freigabe fremder Fragen durch `teshuva-approved` erlaubt weiterhin nur die Bestandsantwort. Ein Textfeld im Issue kann diese Identitätsprüfung nicht ersetzen.
+Nur ein vollständiges Ergebnis mit erfolgreicher Prüfung wird als fertige Antwort veröffentlicht und unter **Saved Teshuvot** aufgeführt. Bei fehlenden Belegen bleibt die Anfrage offen. Bei entscheidenden fehlenden Angaben werden konkrete Rückfragen im GitHub-Issue und auf der Statusseite angezeigt. Die frühere Meldung „The optional API did not produce a usable draft“ und eine bloße Quellenliste erscheinen nicht mehr als fertige Teshuva. Auch ältere unvollständige API-Ergebnisse werden beim nächsten Publizieren aus dem Antwortarchiv ausgeschlossen.
 
-### Einmal einrichten
+Die Dateien bleiben nachvollziehbar unter `Sanhedrin/teshuva-<Issue>-<Hash>.json` und `.html` gespeichert. Eine offene Anfrage hat dort eine Recherche-Statusseite. **Check saved answer** unterscheidet eine fertige Antwort von einer offenen Recherche.
 
-1. Bei [OpenAI API keys](https://platform.openai.com/api-keys) einen Schlüssel für dieses Projekt erstellen oder einen vorhandenen geeigneten Schlüssel verwenden. Die API benötigt eine eigene verfügbare Abrechnung; ein ChatGPT-Abonnement allein stellt kein API-Guthaben bereit.
-2. Unter [GitHub → Settings → Secrets and variables → Actions](https://github.com/Moriahise/Sanhedrin/settings/secrets/actions) auf **New repository secret** klicken. Name: `OPENAI_API_KEY`; Secret: den Schlüssel direkt dort einfügen und speichern. Niemals in einen Chat, ein Issue, einen Upload oder eine HTML-Datei schreiben.
-3. Unter [Actions → Variables](https://github.com/Moriahise/Sanhedrin/settings/variables/actions) eine **Repository variable** anlegen: Name `OPENAI_ENABLED`, Wert `true`. Ohne diese Variable oder bei jedem anderen Wert bleibt OpenAI ausgeschaltet.
-4. Optional `OPENAI_MODEL` als Repository variable setzen. Der voreingestellte Wert ist `gpt-4.1-mini`.
+`publication_status` ist `ready`, `needs_research` oder `needs_clarification`. `openai_status` unterscheidet `draft`, `insufficient`, `needs_clarification`, `failed`, `unconfigured`, `disabled` und `owner_only`. Der JSON-Datensatz enthält Suchplan, lokale Trefferzahlen, Quellen-Hashes und das externe Abrufprotokoll. Geheimnisse und API-Fehlertexte werden nicht gespeichert.
 
-### Im täglichen Betrieb
+Offene Recherche wiederholen: Als Moriahise unter **Actions → Save Teshuva → Run workflow** die offene Issue-Nummer eingeben und **retry_research** wählen. Das kann weitere API-Kosten verursachen. Ein bereits fertiges Ergebnis wird wiederverwendet. Fehlende Angaben über eine neue vorbereitete Anfrage ergänzen. Während der Recherche geschlossene oder geänderte Fragen werden nicht mit einer veralteten Antwort gespeichert; während eines erneuten Versuchs entfernte Dateien werden nicht wiederhergestellt.
 
-| Gewünschtes Verhalten | Einstellung |
-|---|---|
-| Diese Frage nur aus vorhandenen Texten zusammenstellen | Im Editor **Add an OpenAI formulation** nicht anhaken |
-| Für diese Frage eine OpenAI-Ausarbeitung erstellen | Hauptschalter `OPENAI_ENABLED=true`; im Editor **Add an OpenAI formulation** anhaken; Issue als Moriahise einreichen |
-| Alle neuen API-Aufrufe zentral sperren | In GitHub unter **Settings → Secrets and variables → Actions → Variables** `OPENAI_ENABLED` auf `false` ändern |
-| API wieder erlauben | Dieselbe Variable auf `true` ändern |
+## OpenAI einstellen – nur Moriahise
 
-Den Schlüssel musst du beim Umschalten nicht löschen oder erneut eingeben. Der Editor startet mit ausgeschalteter OpenAI-Option. Eine Vorschau im Browser löst keinen API-Aufruf aus; er erfolgt erst im GitHub-Speicherworkflow. Bereits laufende API-Anfragen lassen sich durch eine spätere Variablenänderung nicht zurücknehmen. Bereits gespeicherte Antworten bleiben erhalten und sind wie das übrige Repository öffentlich lesbar. Die Beschränkung betrifft das **Erzeugen mit deinem API-Schlüssel**, nicht das Lesen.
+Unter [Settings → Secrets and variables → Actions](https://github.com/Moriahise/Sanhedrin/settings/secrets/actions):
 
-### Ablauf und Prüfung
+- Secret `OPENAI_API_KEY`: vorhandenen geeigneten Projektschlüssel verwenden. Niemals in Chat, Issue oder Quellcode eintragen.
+- Repository variable `OPENAI_ENABLED`: `true` erlaubt API-Nutzung, jeder andere oder fehlende Wert schaltet sie aus.
+- Repository variable `OPENAI_MODEL`: gewünschtes Responses-API-Modell; Standard `gpt-4.1-mini`. Für externe Recherche muss das Modell das Werkzeug `web_search` und Structured Outputs unterstützen.
 
-Nach der Einreichung erzeugt **Save Teshuva** einen zusammenhängenden Entwurf ausschließlich aus den ausgewählten gespeicherten Passagen. Das HTML/JSON-Paar wird in `Sanhedrin` gespeichert und veröffentlicht. Der Schlüssel wird nur im Workflow übergeben; er steht nicht im Browser. Der Aufruf verwendet die Responses API, ein festes JSON-Schema und `store: false`.
+Die geprüften GitHub-Identitäten von Issue-Autor, auslösendem Nutzer und wiederholendem Nutzer müssen alle **Moriahise** sein. Die Freigabe eines fremden Issues gibt keinen Zugriff auf den API-Schlüssel. Öffentliche Besucher brauchen weiterhin eine Repository-Freigabe zur Verarbeitung ihrer Anfrage.
 
-Das gespeicherte JSON zeigt:
+Eine neue lokale API-Ausarbeitung benötigt bis zu drei Modellaufrufe: Suchplan, Ausarbeitung, Prüfung. Mit externer Recherche kommt ein Websuche-Aufruf hinzu; dessen Werkzeugnutzung ist auf vier Aufrufe begrenzt. OpenAI-Websuche wird zusätzlich berechnet. HTTP-Abrufe sind auf 36 Anfragen und 12 Sekunden pro Verbindung begrenzt. Bei API-Fehlern gibt es keine unbegrenzten Wiederholungen. Eine API-Prüfung garantiert keine halachische Richtigkeit; die Quellen und die fertige Antwort bleiben fachlich zu prüfen.
 
-- `mode: openai` und `openai_status: draft`: API-Ausarbeitung erfolgreich.
-- `openai_status: insufficient`: Die API meldet, dass die Quellen nicht ausreichen; die Bestandsantwort bleibt erhalten.
-- `openai_status: disabled`: Hauptschalter aus.
-- `openai_status: owner_only`: Anfrage oder auslösender Nutzer ist nicht Moriahise.
-- `openai_status: unconfigured`: Schlüssel fehlt.
-- `openai_status: failed`: API-Aufruf oder Antwortprüfung fehlgeschlagen. Bei einem HTTP-Fehler wird nur die Statusnummer gespeichert, niemals der geheime Schlüssel oder die HTTP-Antwort.
+Offizielle Dokumentation: [OpenAI-Websuche](https://developers.openai.com/api/docs/guides/tools-web-search), [Sefaria-Suche](https://developers.sefaria.org/reference/post-search-wrapper), [Sefaria-Texte](https://developers.sefaria.org/reference/get-v3-texts).
 
-Bei einem echten erfolgreichen API-Aufruf werden außerdem `openai_response_id` und die verfügbaren Tokenzahlen unter `openai_usage` gespeichert. Diese Angaben ermöglichen die Unterscheidung zwischen einem echten API-Ergebnis und einer Quellenantwort. Quellenverweise werden auf vorhandene Nummern geprüft; die fachliche Richtigkeit des Entwurfs muss weiterhin geprüft werden.
+## Automatische Porträts und Veröffentlichung
 
-Nach einer fehlenden Konfiguration, einer Sperre oder einem API-Fehler kann Moriahise unter **Actions → Save Teshuva → Run workflow** die offene Issue-Nummer erneut verarbeiten. Bei nun erlaubtem API-Zugriff wird die bisherige Quellenantwort aktualisiert. Ein bereits erfolgreicher API-Entwurf wird wiederverwendet und verursacht keinen erneuten Aufruf.
+Bilder stammen aus `Rav/`; der Dateiname ist der Anzeigename. Die Porträts wechseln der Reihe nach und beginnen nach dem letzten erneut von vorn. Der gemeinsame Zähler in `Sanhedrin/portrait-rotation.json`, Anfrage und Bild werden atomar gespeichert. Wiederholungen behalten Bild und Zähler; gleichzeitig eingereichte Fragen lesen nach einem Konflikt den aktuellen Stand. Das Bild ist ein Darstellungsprofil und schreibt die Antwort nicht dem abgebildeten Rabbiner zu.
 
-Offizielle Referenzen: [Quickstart](https://developers.openai.com/api/docs/quickstart), [Responses / Structured Outputs](https://developers.openai.com/api/docs/guides/structured-outputs), [GPT-4.1 Mini](https://developers.openai.com/api/docs/models/gpt-4.1-mini).
-
-## Bilder und frühere Platzhalter
-
-Neue Portraits mit dem gewünschten Anzeigenamen als PNG, JPG, JPEG, WEBP oder GIF in [Rav](https://github.com/Moriahise/Sanhedrin/tree/main/Rav) hochladen. Nach Veröffentlichung stehen sie in der Auswahl. Bereits für gespeicherte Antworten verwendete Bilder sollten erhalten bleiben.
-
-Frühere Platzhalter werden nicht als gespeicherte Teshuvot veröffentlicht. Nur die vom neuen Workflow erzeugten JSON-Dateien werden in den Antwortkatalog übernommen. Die HTML-Ausgabe wird beim Publizieren erneut aus der geprüften JSON-Datei erzeugt.
-
-## Veröffentlichung und Fehlerbehebung
-
-Die öffentliche Website benötigt **Settings → Pages → Build and deployment → Source → GitHub Actions**. Solange GitHub stattdessen aus dem Branch veröffentlicht, kann sein alter Pages-Lauf die erzeugte Website überschreiben. Die vorhandene GitHub-Verbindung kann diese Administrationseinstellung nicht ändern.
-
-- Keine passende Antwort: genauere Suchwörter verwenden und prüfen, ob vollständige Antworttexte bereits importiert wurden.
-- Speicherung noch nicht sichtbar: das Issue und den Lauf **Save Teshuva** prüfen, dann **Publish durable library**.
-- Öffentlicher Besucher wartet: das Issue mit **teshuva-approved** freigeben oder den Speicherworkflow mit der Issue-Nummer starten.
-- Speicherung erfolgreich, Veröffentlichung fehlgeschlagen: **Publish durable library** erneut starten. Das HTML/JSON-Paar bleibt im Repository erhalten.
-- API nicht verfügbar: Bestandsmodus funktioniert weiterhin.
+Der Speicherworkflow startet anschließend **Publish durable library**. Eine fehlgeschlagene Veröffentlichung kann erneut gestartet werden, ohne die Recherche zu wiederholen. GitHub Pages muss aus **GitHub Actions** veröffentlichen. Die bisherigen vollständigen Texte und gespeicherten Antworten bleiben erhalten.

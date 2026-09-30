@@ -340,7 +340,8 @@ class TeshuvaTests(unittest.TestCase):
                                  api_key="test-only", api_block_reason=reason)
             api.assert_not_called()
             self.assertEqual(result["sources"][0]["id"], self.record["id"])
-            self.assertIn("switched off", render(result))
+            self.assertIn("saved for further research", render(result))
+        self.assertNotIn("The saved source passages are shown", render(result))
 
     def test_authorized_retry_upgrades_fallback_and_then_reuses_api_result(self):
         api = FakeGitHub()

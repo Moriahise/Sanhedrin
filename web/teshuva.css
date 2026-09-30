@@ -33,3 +33,5 @@
 .archive article { border-block-end: 1px solid var(--line); padding: .8rem 0; }
 [hidden] { display: none !important; }
 @media (max-width: 740px) { .editor-layout { grid-template-columns: minmax(0,1fr); } .teshuva-shell { padding: 1.5rem .85rem; } .editor-panel, .profile-panel, .answer-panel { padding: 1rem; } .profile-panel img { width: 120px; height: 120px; } .answer-profile { align-items: start; } }
+
+#source-urls{width:100%;box-sizing:border-box;padding:.7rem;border:1px solid var(--line,#ccc);border-radius:.4rem;resize:vertical}#research-sites{max-height:14rem;overflow:auto;overflow-wrap:anywhere}#research-sites p{margin:.4rem 0}.profile-panel details{margin:1rem 0}
