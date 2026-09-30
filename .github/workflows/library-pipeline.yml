@@ -24,7 +24,7 @@ permissions:
   contents: read
 concurrency:
   group: sanhedrin-publisher
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   prepare:
     if: github.ref == 'refs/heads/main'
