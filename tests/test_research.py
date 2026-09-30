@@ -6,7 +6,7 @@ import tempfile
 import shutil
 import unittest
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import patch, MagicMock
 from sanhedrin.model import DataError, normalize
 from sanhedrin.store import Store
 from sanhedrin.build import build
@@ -92,6 +92,18 @@ class ResearchTests(unittest.TestCase):
             with self.assertRaises(DataError):
                 PublicHTTP().request('https://example.org/x')
             connect.assert_not_called()
+
+    def test_hebrew_urls_are_encoded_for_the_https_request(self):
+        connection=MagicMock();response=connection.getresponse.return_value
+        response.status=200;response.read.return_value=b'content'
+        response.getheader.side_effect=lambda key, default=None: {'Content-Type':'text/html'}.get(key,default)
+        addresses=[(2,1,6,'',('93.184.216.34',443))]
+        with patch('sanhedrin.research.socket.getaddrinfo',return_value=addresses), patch('sanhedrin.research.socket.create_connection'), patch('sanhedrin.research.ssl.create_default_context'), patch('sanhedrin.research.http.client.HTTPSConnection',return_value=connection):
+            PublicHTTP().request('https://www.kipa.co.il/שאל-את-הרב/?q=סכך')
+        target=connection.request.call_args.args[1]
+        target.encode('ascii')
+        from urllib.parse import unquote
+        self.assertEqual(unquote(target),'/שאל-את-הרב/?q=סכך')
 
     def test_bot_wall_and_empty_question_form_are_not_evidence(self):
         for page in [b'<title>Just a moment</title><body>Verify you are human</body>', b'<title>Ask a rabbi</title><form>Question</form>']:

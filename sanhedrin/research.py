@@ -66,7 +66,8 @@ class PublicHTTP:
                 headers = {'User-Agent': USER_AGENT, 'Accept-Encoding': 'gzip'}
                 if data is not None:
                     headers['Content-Type'] = 'application/json; charset=utf-8'
-                conn.request('POST' if data is not None else 'GET', (p.path or '/') + ('?' + p.query if p.query else ''), body=data, headers=headers)
+                target = quote(p.path or '/', safe="/%:@!$&'()*+,;=-._~") + ('?' + quote(p.query, safe="%=&:?@!$'()*+,;/-._~") if p.query else '')
+                conn.request('POST' if data is not None else 'GET', target, body=data, headers=headers)
                 response = conn.getresponse()
                 if response.status in (301, 302, 303, 307, 308):
                     url = urljoin(url, response.getheader('Location') or '')
