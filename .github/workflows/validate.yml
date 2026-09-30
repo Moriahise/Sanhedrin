@@ -1,0 +1,49 @@
+name: Validate library
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements-test.txt
+      - name: Unit and failure tests
+        run: |
+          python -m unittest discover -s tests -v
+          python -m compileall -q sanhedrin tools
+          for file in web/*.js; do node --check "$file"; done
+      - name: Complete migration and idempotency audit
+        run: |
+          python -m sanhedrin --report test-results/migration.json migrate
+          python tools/audit_library.py --repeat
+      - name: Build and verify export
+        run: |
+          python -m sanhedrin --report test-results/build.json build
+          python -m sanhedrin --report test-results/export-verification.json verify-export
+      - name: Browser checks
+        run: |
+          python -m playwright install --with-deps chromium
+          python tools/browser_checks.py
+      - name: Pack reviewable site
+        run: tar -czf test-results/site-preview.tar.gz -C dist .
+      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        if: always()
+        with:
+          name: validation-results
+          path: test-results/
+          retention-days: 7

@@ -5,6 +5,7 @@ import sys
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from sanhedrin.store import Store
+from sanhedrin.locking import writer_lock
 from sanhedrin.model import canonical_json,date_value
 from sanhedrin.migrate import migrate
 
@@ -31,5 +32,5 @@ def audit(store,root,repeat=False):
     return {'baseline_ids_verified':len(baseline),'original_aliases_verified':len(old_aliases),'first_2026_yeshiva_upload_verified':len(found),'documents':len(documents),'total':store.count(),'provider_counts':dict(store.db.execute('SELECT provider,count(*) FROM records GROUP BY provider')),'logical_hash':before,'repeat_migration_unchanged':repeat,'errors':errors}
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--root',type=Path,default=Path('.'));p.add_argument('--db',type=Path,default=Path('.sanhedrin/library.sqlite'));p.add_argument('--report',type=Path,default=Path('test-results/audit.json'));p.add_argument('--repeat',action='store_true');args=p.parse_args()
-    with Store(args.db) as store:result=audit(store,args.root,args.repeat)
+    with writer_lock(args.db.parent/'publisher.lock'),Store(args.db) as store:result=audit(store,args.root,args.repeat)
     args.report.parent.mkdir(parents=True,exist_ok=True);args.report.write_text(json.dumps(result,ensure_ascii=False,indent=2));print(json.dumps(result,indent=2))

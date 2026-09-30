@@ -17,9 +17,12 @@ def snapshot(store,directory):
     if errors:raise DataError('Cannot snapshot invalid state: '+errors[0])
     with tempfile.TemporaryDirectory(prefix='.snapshot-',dir=directory) as tmp:
         database=Path(tmp)/'library.sqlite';packed=Path(tmp)/'library.sqlite.gz';store.backup(database)
+        with Store(database) as consistent:
+            if consistent.verify():raise DataError('Snapshot backup failed verification')
+            total=consistent.count();baseline=consistent.db.execute('SELECT count(*) FROM baseline').fetchone()[0];logical=consistent.logical_hash()
         with database.open('rb') as src,packed.open('wb') as target,gzip.GzipFile(filename='',mode='wb',fileobj=target,mtime=0,compresslevel=6) as dst:
             for block in iter(lambda:src.read(1024*1024),b''):dst.write(block)
-        metadata={'schema':1,'created_at':utcnow(),'total':store.count(),'baseline_total':store.db.execute('SELECT count(*) FROM baseline').fetchone()[0],'logical_hash':store.logical_hash(),'database_sha256':sha256_file(database),'compressed_sha256':sha256_file(packed),'database_bytes':database.stat().st_size,'compressed_bytes':packed.stat().st_size}
+        metadata={'schema':1,'created_at':utcnow(),'total':total,'baseline_total':baseline,'logical_hash':logical,'database_sha256':sha256_file(database),'compressed_sha256':sha256_file(packed),'database_bytes':database.stat().st_size,'compressed_bytes':packed.stat().st_size}
         info=Path(tmp)/'snapshot.json';info.write_text(canonical_json(metadata));os.replace(packed,directory/'library.sqlite.gz');os.replace(info,directory/'snapshot.json')
     return metadata
 

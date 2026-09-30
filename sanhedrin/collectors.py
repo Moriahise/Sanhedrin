@@ -34,7 +34,8 @@ def parsed_source(raw,provider,mode='full'):
     q['format']='html';return q
 
 def archive_source(store,raw,origin):
-    store.archive({k:v for k,v in raw.items() if k not in {'source_checked_at','sync_state','imported_at'}},origin)
+    value={k:v for k,v in raw.items() if k not in {'source_checked_at','sync_state','imported_at'}} if isinstance(raw,dict) else raw
+    store.archive(value,origin)
 
 class StackExchange:
     def __init__(self,store,client,config):self.s=store;self.c=client;self.config=config;self.counts=Counter()

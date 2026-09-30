@@ -13,9 +13,9 @@ export class Catalogue {
   }
   async json(relative,optional=false){
     await this.init();if(!/^[a-zA-Z0-9_./-]+$/.test(relative)||relative.includes('..')||relative.startsWith('/'))throw new Error('Invalid catalogue path');
-    const url=new URL(this.manifest.data_base+relative,this.base).href;
+    const requestedRelease=this.manifest.release,url=new URL(this.manifest.data_base+relative,this.base).href;
     if(!this.cache.has(url)){
-      const promise=(async()=>{const r=await fetch(url,{cache:'force-cache'});if(!r.ok){if(r.status===404){const old=this.manifest.release;await this.init(true);if(this.manifest.release!==old)throw new SnapshotChanged();if(optional)return null;}throw new Error('Catalogue data unavailable');}return r.json();})();
+      const promise=(async()=>{const r=await fetch(url,{cache:'force-cache'});if(!r.ok){if(r.status===404){await this.init(true);if(this.manifest.release!==requestedRelease)throw new SnapshotChanged();if(optional)return null;}throw new Error('Catalogue data unavailable');}return r.json();})();
       this.cache.set(url,promise);promise.catch(()=>this.cache.delete(url));if(this.cache.size>128)this.cache.delete(this.cache.keys().next().value);
     }
     return this.cache.get(url);

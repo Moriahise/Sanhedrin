@@ -1,0 +1,24 @@
+[Unit]
+Description=Sanhedrin verified library publication
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=sanhedrin
+Group=sanhedrin
+WorkingDirectory=/srv/sanhedrin/repository
+EnvironmentFile=-/etc/sanhedrin/collector.env
+ExecStart=/srv/sanhedrin/repository/.venv/bin/python /srv/sanhedrin/repository/tools/publish_local.py --root /srv/sanhedrin/repository --state /var/lib/sanhedrin --public /srv/sanhedrin/public
+SuccessExitStatus=2
+TimeoutStartSec=3600
+UMask=0027
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/sanhedrin /srv/sanhedrin/public
+RestrictSUIDSGID=true
+
+[Install]
+WantedBy=multi-user.target
