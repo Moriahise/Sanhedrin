@@ -27,18 +27,28 @@ def run(directory, reports):
             page = browser.new_page(viewport={"width": 1440, "height": 1050})
             page.on("pageerror", lambda error: errors.append(str(error)))
             page.goto(base + "teshuva.html")
-            page.wait_for_function('() => !document.querySelector("#rav-select").disabled')
-            profile_count = page.locator("#rav-select option").count()
+            page.wait_for_function('() => Boolean(document.querySelector("#rav-image").dataset.profileId)')
+            profile_count = page.evaluate("async()=> (await (await fetch('rav-profiles.json')).json()).length")
             assert profile_count >= 71
+            assert page.locator("#rav-select").count() == 0
+            for removed in ['Choose a rabbi portrait', 'The profile accompanies the draft.', 'Only Moriahise can use OpenAI.']:
+                assert removed not in page.locator('body').inner_text()
             page.wait_for_function('() => document.querySelector("#rav-image").naturalWidth > 0')
             assert not page.locator("#use-openai").is_checked()
             assert page.locator("#generate").is_disabled()
             page.locator("#question-editor").fill("How should Shabbat candles be lit?")
             page.locator("#keywords").fill("shabbat candles")
-            page.locator("#rav-select").select_option(index=20)
-            selected = page.locator("#rav-select").input_value()
             page.locator("#generate").click()
             page.wait_for_selector("#answer-sources .source", timeout=90000)
+            first_portrait = page.locator("#rav-image").get_attribute("data-profile-id")
+            page.locator("#generate").click()
+            page.wait_for_selector("#answer-sources .source", timeout=90000)
+            assert page.locator("#rav-image").get_attribute("data-profile-id") == first_portrait
+            page.locator("#question-editor").fill("What sources explain lighting Shabbat candles?")
+            page.locator("#generate").click()
+            page.wait_for_selector("#answer-sources .source", timeout=90000)
+            selected = page.locator("#rav-image").get_attribute("data-profile-id")
+            assert selected != first_portrait
             assert page.locator("#answer-sources .source").count() == 6
             assert page.locator("#answer-image").get_attribute("src") == page.locator("#rav-image").get_attribute("src")
             assert all(len(q) >= 25 for q in page.locator("#answer-sources blockquote").all_inner_texts())
@@ -54,8 +64,8 @@ def run(directory, reports):
             page.locator('[data-dir="rtl"]').click()
             assert page.locator("#question-editor").get_attribute("dir") == "rtl"
             page.reload()
-            page.wait_for_function('() => !document.querySelector("#rav-select").disabled')
-            assert page.locator("#rav-select").input_value() == selected
+            page.wait_for_function('() => Boolean(document.querySelector("#rav-image").dataset.profileId)')
+            assert page.locator("#rav-image").get_attribute("data-profile-id") == selected
             assert "Shabbat" in page.locator("#question-editor").inner_text()
             page.locator("#generate").click()
             page.wait_for_selector("#answer-sources .source", timeout=90000)
@@ -71,6 +81,7 @@ def run(directory, reports):
             assert "sanhedrin-teshuva:v1" in request_body
             assert '"use_openai": false' in request_body
             assert '"source_ids"' in request_body
+            assert '"profile_id": "auto"' in request_body
             # A long request gets an explicit copy/paste route instead of URL truncation.
             long = page.evaluate("""async()=>{const {submission}=await import('./teshuva-data.js');return submission({schema:1,question_html:'<p>'+('ש'.repeat(7000))+'</p>'}).long;}""")
             assert long
@@ -93,6 +104,20 @@ def run(directory, reports):
             page.locator("#generate").click()
             page.wait_for_function('() => document.querySelector("#status").textContent.includes("לא נמצא")')
             assert page.locator("#answer-panel").is_hidden()
+            # Start at the final portrait and verify that the next question wraps.
+            cycle = page.evaluate("""async()=>{const profiles=await(await fetch('rav-profiles.json')).json();const rotation=await(await fetch('rav-rotation.json')).json();const draft=JSON.parse(localStorage.getItem('sanhedrin-teshuva-draft'));draft.portrait={nextIndex:Math.ceil(rotation.next_index/profiles.length)*profiles.length+profiles.length-1,questionText:'',profileId:''};localStorage.setItem('sanhedrin-teshuva-draft',JSON.stringify(draft));return {last:profiles.at(-1).id,first:profiles[0].id};}""")
+            page.reload()
+            page.wait_for_function('() => Boolean(document.querySelector("#rav-image").dataset.profileId)')
+            page.locator("#keywords").fill("שבת נרות")
+            page.locator("#generate").click()
+            page.wait_for_selector("#answer-sources .source", timeout=90000)
+            assert page.locator("#rav-image").get_attribute("data-profile-id") == cycle['last']
+            page.locator("#clear").click()
+            page.locator("#question-editor").fill("How are Shabbat candles lit before sunset?")
+            page.locator("#keywords").fill("shabbat candles")
+            page.locator("#generate").click()
+            page.wait_for_selector("#answer-sources .source", timeout=90000)
+            assert page.locator("#rav-image").get_attribute("data-profile-id") == cycle['first']
             # Explicit failure handling rather than claiming an empty successful answer.
             failed = browser.new_page()
             failed.route("**/catalog/manifest.json", lambda route: route.fulfill(status=503, body="unavailable"))
@@ -101,7 +126,7 @@ def run(directory, reports):
             assert failed.locator("#generate").is_disabled()
             failed.close()
             assert not errors, errors
-            result.update(profiles=profile_count, editor_formatting=True, draft_restoration=True,
+            result.update(profiles=profile_count, automatic_portraits=True, portrait_wraparound=True, editor_formatting=True, draft_restoration=True,
                 prepared_github_submission=True, no_api_required=True, errors=errors)
             browser.close()
     finally:

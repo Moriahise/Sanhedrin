@@ -10,7 +10,7 @@ from unittest.mock import patch
 
 from sanhedrin.model import normalize, DataError, digest
 from sanhedrin.store import Store
-from sanhedrin.teshuva import profiles, search_groups, evidence_text, compose, api_draft, render, validate_request, publish_assets
+from sanhedrin.teshuva import profiles, search_groups, evidence_text, compose, api_draft, render, validate_request, publish_assets, PORTRAIT_ROTATION_PATH
 from tools.save_teshuva import save, atomic_save, parse_body, authorized, openai_access
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -27,6 +27,7 @@ class FakeGitHub:
         self.tree = None
         self.conflict = False
         self.commits = 0
+        self.concurrent_files = {}
 
     def content(self, path, ref="main"):
         return self.files.get(path)
@@ -47,6 +48,7 @@ class FakeGitHub:
                 self.conflict = False
                 self.head = "concurrent-commit"
                 self.files["unrelated.txt"] = "preserved"
+                self.files.update(self.concurrent_files)
                 raise urllib.error.HTTPError("https://api.github.com/", 422, "Conflict", {}, None)
             self.head = value["sha"]
             self.files.update({e["path"]: e["content"] for e in self.tree["tree"]})
@@ -220,6 +222,72 @@ class TeshuvaTests(unittest.TestCase):
         b = save(api, self.root, self.store, 27, {**self.request, "question_html": "What is the source for Shabbat candles?"})
         self.assertNotEqual(a["id"], b["id"])
         self.assertEqual(len(api.files), 4)
+
+    def test_automatic_portraits_cycle_and_retry_keeps_counter(self):
+        for name in ['A.png', 'B.png']:
+            (self.root / 'Rav' / name).write_bytes(b'image-fixture')
+        choices = profiles(self.root)
+        api = FakeGitHub()
+        request = {**self.request, 'profile_id': 'auto'}
+        for index in range(5):
+            result = save(api, self.root, self.store, 40 + index, request)
+            saved = json.loads(api.files['Sanhedrin/' + result['id'] + '.json'])
+            self.assertEqual(saved['profile'], choices[index % len(choices)])
+            self.assertEqual(saved['portrait_sequence'], index)
+        before = api.files[PORTRAIT_ROTATION_PATH]
+        retry = save(api, self.root, self.store, 44, request)
+        self.assertFalse(retry['changed'])
+        self.assertEqual(api.files[PORTRAIT_ROTATION_PATH], before)
+        self.assertEqual(json.loads(before)['next_index'], 5)
+
+    def test_automatic_portrait_rechecks_counter_after_conflict(self):
+        (self.root / 'Rav/A.png').write_bytes(b'image-fixture')
+        api = FakeGitHub()
+        api.conflict = True
+        api.concurrent_files = {PORTRAIT_ROTATION_PATH: json.dumps({'schema': 1, 'next_index': 1})}
+        result = save(api, self.root, self.store, 40, {**self.request, 'profile_id': 'auto'})
+        saved = json.loads(api.files['Sanhedrin/' + result['id'] + '.json'])
+        self.assertEqual(saved['profile'], profiles(self.root)[1])
+        self.assertEqual(saved['portrait_sequence'], 1)
+        self.assertEqual(json.loads(api.files[PORTRAIT_ROTATION_PATH])['next_index'], 2)
+        self.assertEqual(api.files['unrelated.txt'], 'preserved')
+
+    def test_api_upgrade_preserves_automatic_portrait_without_advancing(self):
+        (self.root / 'Rav/A.png').write_bytes(b'image-fixture')
+        api = FakeGitHub()
+        request = {**self.request, 'profile_id': 'auto', 'use_openai': True}
+        first = save(api, self.root, self.store, 40, request, api_block_reason='disabled')
+        initial = json.loads(api.files['Sanhedrin/' + first['id'] + '.json'])
+        save(api, self.root, self.store, 41, {**self.request, 'profile_id': 'auto'})
+        counter = api.files[PORTRAIT_ROTATION_PATH]
+        draft = {'status': 'draft', 'paragraphs': [{'text': 'Saved candles source.', 'citations': [1]}]}
+        with patch('sanhedrin.teshuva.api_draft', return_value=draft):
+            upgraded = save(api, self.root, self.store, 40, request, api_key='test-only')
+        saved = json.loads(api.files['Sanhedrin/' + upgraded['id'] + '.json'])
+        self.assertEqual(saved['profile'], initial['profile'])
+        self.assertEqual(saved['portrait_sequence'], initial['portrait_sequence'])
+        self.assertEqual(api.files[PORTRAIT_ROTATION_PATH], counter)
+        self.assertEqual(saved['mode'], 'openai')
+
+    def test_corrupt_counter_does_not_save_or_reset_rotation(self):
+        api = FakeGitHub()
+        api.files[PORTRAIT_ROTATION_PATH] = json.dumps({'schema': 1, 'next_index': -1})
+        with self.assertRaises(DataError):
+            save(api, self.root, self.store, 40, {**self.request, 'profile_id': 'auto'})
+        self.assertEqual(api.commits, 0)
+        self.assertEqual(len(api.files), 1)
+
+    def test_published_rotation_uses_durable_counter(self):
+        api = FakeGitHub()
+        save(api, self.root, self.store, 40, {**self.request, 'profile_id': 'auto'})
+        (self.root / 'Sanhedrin').mkdir()
+        for path, data in api.files.items():
+            (self.root / path).write_text(data)
+        out = self.root / 'dist'
+        out.mkdir()
+        publish_assets(self.root, out)
+        self.assertEqual(json.loads((out / 'rav-rotation.json').read_text()), {'schema': 1, 'next_index': 1})
+        self.assertEqual(len(json.loads((out / 'teshuvot.json').read_text())), 1)
 
     def test_saved_archive_is_published_without_old_placeholders(self):
         api = FakeGitHub()

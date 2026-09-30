@@ -13,6 +13,7 @@ from .model import DataError, digest, utcnow
 
 MAX_SOURCES = 8
 MAX_QUESTION = 8000
+PORTRAIT_ROTATION_PATH = "Sanhedrin/portrait-rotation.json"
 TEXT = {
     "en": {
         "title": "Teshuva · source-based draft", "question": "Question",
@@ -48,6 +49,15 @@ def profiles(root):
         for p in sorted((root / "Rav").glob("*"))
         if p.is_file() and not p.is_symlink() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}
     ]
+
+
+def portrait_rotation(raw=None):
+    state = json.loads(raw) if raw else {"schema": 1, "next_index": 0}
+    if (not isinstance(state, dict) or state.get("schema") != 1
+            or type(state.get("next_index")) is not int
+            or not 0 <= state["next_index"] < 9_007_199_254_740_991):
+        raise DataError("Invalid portrait rotation counter")
+    return {"schema": 1, "next_index": state["next_index"]}
 
 
 def search_groups(query, config):
@@ -132,8 +142,9 @@ def validate_request(value, root):
     ids = value.get("source_ids", [])
     if not isinstance(ids, list) or not 1 <= len(ids) <= MAX_SOURCES or not all(isinstance(i, str) and 0 < len(i) <= 200 for i in ids) or len(set(ids)) != len(ids):
         raise DataError("Choose 1–8 distinct library sources")
-    profile = next((p for p in profiles(root) if p["id"] == value.get("profile_id")), None)
-    if not profile:
+    choices = profiles(root)
+    profile_id = value.get("profile_id", "auto")
+    if not choices or (profile_id != "auto" and not any(p["id"] == profile_id for p in choices)):
         raise DataError("The selected portrait is not available")
     if type(value.get("use_openai", False)) is not bool:
         raise DataError("Invalid OpenAI switch")
@@ -141,7 +152,7 @@ def validate_request(value, root):
     if not isinstance(keywords, str) or len(keywords) > 300:
         raise DataError("Search words must contain at most 300 characters")
     return {"schema": 1, "question_html": safe, "question_text": text, "language": language,
-            "source_ids": ids, "profile_id": profile["id"], "use_openai": value.get("use_openai", False), "keywords": keywords.strip()}
+            "source_ids": ids, "profile_id": profile_id, "use_openai": value.get("use_openai", False), "keywords": keywords.strip()}
 
 
 def api_draft(question, sources, language, *, api_key, model, opener=urllib.request.urlopen):
@@ -210,8 +221,10 @@ def compose(store, root, request, *, identity, api_key="", model="gpt-4.1-mini",
         sources.append(source)
     result = {"schema": 1, "id": identity, "created_at": utcnow(), "request_hash": digest(request),
               "question_html": request["question_html"], "question_text": request["question_text"],
-              "language": request["language"], "profile": next(p for p in profiles(root) if p["id"] == request["profile_id"]),
+              "language": request["language"], "profile": next(p for p in profiles(root) if request["profile_id"] == "auto" or p["id"] == request["profile_id"]),
               "mode": "library", "openai_status": "off", "sources": sources, "paragraphs": []}
+    if request["profile_id"] == "auto":
+        result["portrait_rotation"] = "round_robin"
     if request["use_openai"]:
         result["openai_status"] = api_block_reason or "unconfigured"
         if api_key and not api_block_reason:
@@ -275,6 +288,9 @@ def publish_assets(root, out):
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(root / "Rav" / profile["file"], target)
     (out / "rav-profiles.json").write_text(json.dumps(choices, ensure_ascii=False), encoding="utf-8")
+    counter = root / PORTRAIT_ROTATION_PATH
+    state = portrait_rotation(counter.read_text() if counter.exists() else None)
+    (out / "rav-rotation.json").write_text(json.dumps(state), encoding="utf-8")
     shutil.copyfile(root / "config/teshuva-search.json", out / "teshuva-search.json")
     entries = []
     for path in sorted((root / "Sanhedrin").glob("teshuva-*.json")):
