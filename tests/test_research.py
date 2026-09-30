@@ -171,7 +171,7 @@ class ResearchTests(unittest.TestCase):
                 if 'blocked' in url: raise DataError('Source verification page is not evidence')
                 return {'title': 'Actual answer', 'url': url, 'text': 'Schach mold treatment with original answer context. ' * 10}
         http = HTTP()
-        response = {'status': 'completed', 'output': [{'type': 'web_search_call', 'action': {'sources': [{'url': 'https://asktherav.com/answer'}, {'url': 'https://asktherav.com/blocked'}, {'url': 'https://unselected.example/answer'}]}}]}
+        response = {'status': 'completed', 'output': [{'type': 'web_search_call', 'action': {'sources': [*({'url': f'https://asktherav.com/blocked/{i}'} for i in range(12)), {'url': 'https://unselected.example/answer'}]}}, {'type':'message','content':[{'type':'output_text','text':'Lead','annotations':[{'type':'url_citation','url':'https://asktherav.com/answer'}]}]}]}
         sources, notes = external_sources('Schach mold', PLAN, json.loads((self.root/'config/teshuva-research.json').read_text()), ['https://new-source.example/answer'], api_key='test-only', model='test', groups=search_groups('schach mold', self.config), passage=lambda text, groups, limit: (text, False), http=http, opener=lambda *a, **k: io.BytesIO(json.dumps(response).encode()))
         self.assertTrue(any(q['query'] == 'סכך עובש' for q in http.queries))
         self.assertTrue(any(q['query'] == 'schach mold' for q in http.queries))

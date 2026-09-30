@@ -135,12 +135,14 @@ def make_source(record, groups, limit=16000):
         return None
     best = max(evidence, key=lambda e: coverage(e[0], groups))
     selected = [best] + [e for e in evidence if e is not best and coverage(e[0], groups)][:2]
-    combined = "\n\n".join(("Answer " + str(i + 1) + ": " if len(selected) > 1 else "") + e[0] for i, e in enumerate(selected))
+    def author_name(value):
+        return str(value.get("name") or value.get("display_name") or "") if isinstance(value, dict) else str(value or "")
+    combined = "\n\n".join(("Answer " + str(i + 1) + (" (" + author_name(e[1]) + ")" if author_name(e[1]) else "") + ": " if len(selected) > 1 else "") + e[0] for i, e in enumerate(selected))
     text, truncated = passage(combined, groups, limit)
     return {"id": record["id"], "title": plain_text(record["title"]), "provider": record["provider"],
             "language": record.get("language") or ("he" if re.search(r"[\u0590-\u05ff]", best[0]) else "en"),
             "url": record.get("url", ""), "text": text, "excerpt": truncated,
-            "author": best[1], "answer_id": best[2], "license": record.get("license"),
+            "author": best[1] if len(selected) == 1 else None, "contributors": [{"author": e[1], "answer_id": e[2]} for e in selected], "answer_id": best[2], "license": record.get("license"),
             "content_hash": digest(combined), "answer_ids": [e[2] for e in selected]}
 
 
@@ -263,10 +265,12 @@ def api_draft(question, sources, language, *, api_key, model, opener=urllib.requ
     if len(raw) > 1_000_000:
         raise DataError("API response is too large")
     result = json.loads(raw)
-    if result.get("status") != "completed":
+    if not isinstance(result, dict) or result.get("status") != "completed":
         raise DataError("API response did not complete")
     text = "".join(c.get("text", "") for o in result.get("output", []) if o.get("type") == "message" for c in o.get("content", []) if c.get("type") == "output_text")
     draft = json.loads(text)
+    if not isinstance(draft, dict):
+        raise DataError("Invalid API draft")
     metadata = {}
     if isinstance(result.get("id"), str):
         metadata["openai_response_id"] = result["id"]
