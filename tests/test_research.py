@@ -119,6 +119,15 @@ class ResearchTests(unittest.TestCase):
             plan.assert_not_called(); research.assert_not_called(); draft.assert_not_called()
             self.assertEqual(result['publication_status'], 'needs_research')
 
+    def test_plain_sources_are_never_published_as_finished_teshuvot(self):
+        request={k:v for k,v in self.request.items() if k!='search_version'}
+        request['use_openai']=False
+        result=compose(self.store,self.root,request,identity='teshuva-1-123456789abc')
+        self.assertEqual(result['publication_status'],'needs_research')
+        result.pop('publication_status')  # old saved source compilations receive the same gate
+        self.assertNotIn('Draft answer',render(result))
+        self.assertIn('saved for further research',render(result))
+
     def test_second_pass_rejects_unsupported_draft(self):
         with patch('sanhedrin.research.plan_question', return_value=PLAN), patch('sanhedrin.teshuva.api_draft', return_value=copy.deepcopy(DRAFT)), patch('sanhedrin.research.review_draft', return_value={'status': 'needs_research', 'issues': ['Treatment is not supported by the cited text.'], 'clarification_questions': []}):
             result = compose(self.store, self.root, self.request, identity='teshuva-1-123456789abc', api_key='test-only')

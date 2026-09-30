@@ -237,7 +237,7 @@ def retrieve_library(store, groups, *, limit=12):
 def publishable(result):
     if result.get("publication_status") in {"needs_research", "needs_clarification"}:
         return False
-    return bool(result.get("sources")) and (result.get("openai_status", "off") == "off" or (result.get("mode") == "openai" and bool(result.get("paragraphs"))))
+    return bool(result.get("sources")) and result.get("openai_status") == "draft" and result.get("mode") == "openai" and bool(result.get("paragraphs"))
 
 
 def api_draft(question, sources, language, *, api_key, model, opener=urllib.request.urlopen):
@@ -365,10 +365,7 @@ def compose(store, root, request, *, identity, api_key="", model="gpt-4.1-mini",
                 result["openai_http_status"] = error.code
             except (OSError, ValueError, KeyError, TypeError):
                 result["openai_status"] = "failed"
-    if request["use_openai"]:
-        result["publication_status"] = "ready" if result["openai_status"] == "draft" else ("needs_clarification" if result["openai_status"] == "needs_clarification" else "needs_research")
-    elif enhanced or not sources:
-        result["publication_status"] = "needs_research"
+    result["publication_status"] = "ready" if result["openai_status"] == "draft" else ("needs_clarification" if result["openai_status"] == "needs_clarification" else "needs_research")
     # External pages are read for verification; publish only a short attributed extract.
     for source in result["sources"]:
         if source.get("external") and source.get("provider") != "Sefaria":

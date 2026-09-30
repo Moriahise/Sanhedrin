@@ -82,7 +82,7 @@ $("track-form").addEventListener("submit",async e=>{
  try {const response=await fetch(`https://api.github.com/repos/Moriahise/Sanhedrin/contents/Sanhedrin?ref=main`,{cache:"no-store"});if(response.status===404)return;if(!response.ok)throw new Error();const files=await response.json();const matches=files.filter(f=>new RegExp(`^teshuva-${number}-[a-f0-9]{12}\\.json$`).test(f.name));
    if(matches.length){
      const results=await Promise.all(matches.map(async f=>{const r=await fetch(f.download_url,{cache:"no-store"});if(!r.ok)throw new Error();return {file:f.name,result:await r.json()};}));
-     const published=results.filter(({result:r})=>!["needs_research","needs_clarification"].includes(r.publication_status)&&(r.openai_status==="off"||(r.mode==="openai"&&r.paragraphs?.length)));
+     const published=results.filter(({result:r})=>!["needs_research","needs_clarification"].includes(r.publication_status)&&(r.openai_status==="draft"&&r.mode==="openai"&&r.paragraphs?.length));
      if(published.length)$("track-status").replaceChildren(element("span",t("saved")),document.createTextNode(" "),...published.map(f=>link(t("full"),`Sanhedrin/${encodeURIComponent(f.file.replace(/\.json$/,".html"))}`)));
      else $("track-status").replaceChildren(element("span",t("needsResearch")),document.createTextNode(" "),link("GitHub",`https://github.com/Moriahise/Sanhedrin/issues/${number}`));
    }

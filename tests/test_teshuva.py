@@ -169,7 +169,8 @@ class TeshuvaTests(unittest.TestCase):
 
     def test_html_is_sanitized_at_input_and_output(self):
         request = {**self.request, "question_html": '<p onclick="alert(1)">How are candles used?</p><script>evil()</script>'}
-        result = compose(self.store, self.root, request, identity="teshuva-1-123456789abc")
+        with patch('sanhedrin.teshuva.api_draft', return_value={'status':'draft','paragraphs':[{'text':'Saved sources.','citations':[1]}]}):
+            result = compose(self.store, self.root, {**request,'use_openai':True}, identity="teshuva-1-123456789abc",api_key='test-only')
         page = render(result)
         self.assertNotIn("onclick", page)
         self.assertNotIn("evil()", page)
@@ -292,11 +293,12 @@ class TeshuvaTests(unittest.TestCase):
         out.mkdir()
         publish_assets(self.root, out)
         self.assertEqual(json.loads((out / 'rav-rotation.json').read_text()), {'schema': 1, 'next_index': 1})
-        self.assertEqual(len(json.loads((out / 'teshuvot.json').read_text())), 1)
+        self.assertEqual(len(json.loads((out / 'teshuvot.json').read_text())), 0)
 
     def test_saved_archive_is_published_without_old_placeholders(self):
         api = FakeGitHub()
-        result = save(api, self.root, self.store, 27, self.request)
+        with patch('sanhedrin.teshuva.api_draft',return_value={'status':'draft','paragraphs':[{'text':'Saved sources.','citations':[1]}]}):
+            result = save(api, self.root, self.store, 27, {**self.request,'use_openai':True},api_key='test-only')
         (self.root / "Sanhedrin").mkdir()
         for path, data in api.files.items():
             (self.root / path).write_text(data)
