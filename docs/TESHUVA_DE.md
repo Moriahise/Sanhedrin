@@ -8,7 +8,7 @@
 
 1. Frage in das große Eingabefeld schreiben. Fett, Kursiv, Liste und Rückgängig stehen in der Werkzeugleiste zur Verfügung. **RTL** stellt den Editor auf hebräische Schreibrichtung, **LTR** auf englische. Der Sprachschalter ändert die Oberfläche und die Ausgabesprache.
 2. Bei längeren Fragen unter **Search words / מילות חיפוש** einige genaue Suchwörter eintragen, beispielsweise `shabbat candles` oder `נרות שבת`. Die Suche berücksichtigt den vollständigen hebräischen und englischen Bestand. Eine gemeinsame Wortliste verbindet häufige Themen beider Sprachen; sie ist keine allgemeine Übersetzung jeder beliebigen Frage.
-3. Rechts ein Rabbinerprofil und 3, 6 oder 8 Quellen wählen. Die 71 vorhandenen Bilder kommen aus `Rav`. Der Dateiname ohne Erweiterung ist der Anzeigename.
+3. Rechts die Zahl der Quellen wählen: 3, 6 oder 8. Das Rabbinerporträt wird automatisch zugeteilt. Die Bilder kommen aus `Rav`; der Dateiname ohne Erweiterung ist der Anzeigename.
 4. **Find a source-based answer / איתור תשובה מבוססת מקורות** anklicken.
 5. Die Antwort zeigt relevante gespeicherte Antwortpassagen bzw. Artikel-/Dokumenttexte. Jeder Beleg enthält den Titel, die Herkunft, den gespeicherten Volltext und gegebenenfalls den Originalverweis. Ein längerer Text wird als Auszug gekennzeichnet.
 
@@ -16,10 +16,18 @@ Titel, reine Fragen ohne Antwort und Link-Platzhalter werden nicht als Antwortbe
 
 Das Bild ist ein Darstellungsprofil. Die ursprünglichen Autoren werden an den Quellen genannt. Das Profil behauptet nicht, dass der abgebildete Rabbiner den automatisch erzeugten Entwurf verfasst oder genehmigt hat.
 
+### Automatischer Wechsel der Porträts
+
+Die Porträts wechseln in der nach Dateinamen geordneten Reihenfolge. Nach dem letzten beginnt die Reihe wieder von vorn. Im Editor gibt es keine manuelle Auswahl. Die Vorschau wechselt nach einer neuen Frage mit gefundenen Quellen; erneutes Erzeugen derselben Frage und Neuladen behalten das Porträt. **Clear draft** beginnt eine neue Frage.
+
+Beim Speichern wird das nächste Porträt aus einem gemeinsamen Zähler in `Sanhedrin/portrait-rotation.json` zugeteilt. Antwort, Porträt und Zähler werden in einem Commit gespeichert. Gleichzeitige Einreichungen lesen nach einem Konflikt den aktuellen Zähler erneut. Eine wiederholte Verarbeitung oder ein späteres OpenAI-Upgrade verändert weder das zugeteilte Porträt noch den Zähler. Vorhandene gespeicherte Antworten behalten ihre Bilder.
+
+Die Vorschau beginnt beim zuletzt veröffentlichten Zählerstand und merkt sich ihren Wechsel im Browser. Wenn zwischen Vorschau und Speicherung andere Fragen gespeichert werden, kann die fertige Antwort ein späteres Porträt erhalten. Die gespeicherte Reihenfolge ist maßgeblich.
+
 ## In GitHub speichern
 
 1. Nach der Quellenantwort **Save in GitHub / Sanhedrin** anklicken.
-2. Eine vorbereitete GitHub-Pflichtbestätigung öffnet sich als Issue. Die JSON-Anfrage enthält deine Frage, Sprache, Profil und die IDs der angezeigten Quellen. **Submit new issue** anklicken; erst damit wird sie eingereicht. Die Frage und Antwort werden öffentlich gespeichert.
+2. Eine vorbereitete GitHub-Pflichtbestätigung öffnet sich als Issue. Die JSON-Anfrage enthält deine Frage, Sprache, die automatische Porträtzuteilung (`profile_id: auto`) und die IDs der angezeigten Quellen. **Submit new issue** anklicken; erst damit wird sie eingereicht. Die Frage und Antwort werden öffentlich gespeichert.
 3. Bei einer sehr langen Frage erscheint der Kopierweg: **Copy request**, anschließend **Open GitHub submission**, Inhalt ins große Issue-Feld einfügen und **Submit new issue** wählen. Die Seite zeigt die vollständige Anfrage auch als auswählbaren Text.
 4. [GitHub Actions](https://github.com/Moriahise/Sanhedrin/actions) zeigt den Lauf **Save Teshuva**. Er lädt den dauerhaft gesicherten Bestand, übernimmt neue lokale Uploads und erzeugt das HTML/JSON-Paar in [Sanhedrin](https://github.com/Moriahise/Sanhedrin/tree/main/Sanhedrin).
 5. Anschließend startet er ausdrücklich **Publish durable library**. Nach erfolgreichem Deploy erscheint die Teshuva unten im Frageeditor unter **Saved Teshuvot**. Das Issue erhält einen Link zu den Dateien und zur veröffentlichten Antwort.

@@ -13,7 +13,7 @@ from urllib.parse import quote
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from sanhedrin.model import DataError, canonical_json, digest
 from sanhedrin.store import Store
-from sanhedrin.teshuva import compose, render, validate_request
+from sanhedrin.teshuva import compose, render, validate_request, profiles, portrait_rotation, PORTRAIT_ROTATION_PATH
 
 OPENAI_OWNER = "Moriahise"
 RETRYABLE_API_STATES = {"unconfigured", "failed", "disabled", "owner_only"}
@@ -83,13 +83,14 @@ def authorized(api, event, actor, repository):
         raise
 
 
-def atomic_save(api, result, request_hash, *, attempts=4, replace_fallback=False):
+def atomic_save(api, result, request_hash, *, attempts=4, replace_fallback=False, portrait_choices=None):
     json_path = "Sanhedrin/" + result["id"] + ".json"
     html_path = "Sanhedrin/" + result["id"] + ".html"
     for attempt in range(attempts):
         ref = api.request("GET", "/git/ref/heads/main")
         sha = ref["object"]["sha"]
         existing = api.content(json_path, sha)
+        counter = None
         if existing:
             saved = json.loads(existing)
             if saved.get("request_hash") != request_hash or saved.get("id") != result["id"]:
@@ -97,7 +98,22 @@ def atomic_save(api, result, request_hash, *, attempts=4, replace_fallback=False
             if not (replace_fallback and saved.get("mode") == "library"
                     and saved.get("openai_status") in RETRYABLE_API_STATES):
                 result = saved
+            else:
+                # Upgrading a saved draft keeps its original portrait and sequence.
+                result = {**result, "profile": saved["profile"]}
+                if "portrait_sequence" in saved:
+                    result["portrait_sequence"] = saved["portrait_sequence"]
+        elif result.get("portrait_rotation") == "round_robin":
+            if not portrait_choices:
+                raise DataError("No portraits available for automatic rotation")
+            counter = portrait_rotation(api.content(PORTRAIT_ROTATION_PATH, sha))
+            index = counter["next_index"]
+            result = {**result, "profile": portrait_choices[index % len(portrait_choices)],
+                      "portrait_sequence": index}
+            counter["next_index"] = index + 1
         files = {json_path: canonical_json(result) + "\n", html_path: render(result)}
+        if counter is not None:
+            files[PORTRAIT_ROTATION_PATH] = canonical_json(counter) + "\n"
         if existing and api.content(html_path, sha) == files[html_path]:
             return result, sha, False
         parent = api.request("GET", "/git/commits/" + sha)
@@ -129,7 +145,8 @@ def save(api, root, store, issue, request, *, api_key="", model="gpt-4.1-mini", 
     if not existing or retry_api:
         result = compose(store, root, request, identity=identity, api_key=api_key,
                          model=model, api_block_reason=api_block_reason)
-    result, commit, changed = atomic_save(api, result, request_hash, replace_fallback=retry_api)
+    result, commit, changed = atomic_save(api, result, request_hash, replace_fallback=retry_api,
+                                         portrait_choices=profiles(root))
     return {"saved": True, "changed": changed, "id": result["id"], "commit": commit,
             "mode": result["mode"], "openai_status": result["openai_status"]}
 

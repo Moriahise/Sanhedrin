@@ -105,7 +105,7 @@ export async function retrieve(cat, query, config, maxSources = 6) {
   return { sources, groups, candidates: ranked.length, partial: failures.length > 0 };
 }
 
-export function buildRequest({questionHtml, keywords, language, profileId, useOpenai, sources}) {
+export function buildRequest({questionHtml, keywords, language, profileId = "auto", useOpenai, sources}) {
   const safe = cleanEditor(questionHtml), text = plain(safe);
   if (text.length < 8 || text.length > 8000 || safe.length > 20000) throw new Error("Question must contain 8–8000 characters.");
   if (!sources.length || sources.length > 8) throw new Error("Choose 1–8 sources with saved text.");
