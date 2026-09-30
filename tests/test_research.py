@@ -138,10 +138,14 @@ class ResearchTests(unittest.TestCase):
         self.assertTrue(result['missing_evidence'])
 
     def test_same_material_evidence_blocks_torah_scroll_analogy(self):
-        self.store.upsert({**self.record,'title':'Mold on Torah scrolls','question':'How to clean mold on a Torah scroll?','answers':[{'text':'This answer discusses cleaning mold on a Torah scroll with vinegar.','format':'plain'}]})
+        self.store.close()
+        self.store=Store(self.root/'scope.sqlite')
+        record=normalize({'id':'yeshiva-2','title':'Mold on Torah scrolls','question':'How to clean mold on a Torah scroll?','answers':[{'text':'This answer discusses cleaning mold on a Torah scroll with vinegar.'}],'format':'plain','url':'https://www.yeshiva.org.il/ask/2'})
+        self.store.insert(record)
+        request={**self.request,'source_ids':[record['id']]}
         plan={**PLAN,'requires_same_material_evidence':True,'material_terms':['schach','bamboo','סכך','במבוק'],'problem_terms':['mold','עובש']}
         with patch('sanhedrin.research.plan_question',return_value=plan), patch('sanhedrin.teshuva.api_draft') as draft:
-            result=compose(self.store,self.root,self.request,identity='teshuva-1-123456789abc',api_key='test-only')
+            result=compose(self.store,self.root,request,identity='teshuva-1-123456789abc',api_key='test-only')
         draft.assert_not_called()
         self.assertEqual(result['openai_status'],'insufficient')
         self.assertEqual(result['publication_status'],'needs_research')
