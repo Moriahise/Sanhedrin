@@ -11,7 +11,7 @@ from unittest.mock import patch
 from sanhedrin.model import normalize, DataError, digest
 from sanhedrin.store import Store
 from sanhedrin.teshuva import profiles, search_groups, evidence_text, compose, api_draft, render, validate_request, publish_assets
-from tools.save_teshuva import save, atomic_save, parse_body, authorized
+from tools.save_teshuva import save, atomic_save, parse_body, authorized, openai_access
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -134,6 +134,26 @@ class TeshuvaTests(unittest.TestCase):
         result = compose(self.store, self.root, {**self.request, "use_openai": True}, identity="teshuva-1-123456789abc", api_key="test-only", opener=fail)
         self.assertEqual(result["mode"], "library")
 
+    def test_real_api_metadata_is_recorded_without_credentials(self):
+        draft = {"status": "draft", "paragraphs": [{"text": "Saved source.", "citations": [1]}]}
+        body = {"id": "resp_test_fixture", "status": "completed",
+                "usage": {"input_tokens": 90, "output_tokens": 40, "total_tokens": 130},
+                "output": [{"type": "message", "content": [{"type": "output_text", "text": json.dumps(draft)}]}]}
+        result = compose(self.store, self.root, {**self.request, "use_openai": True},
+                         identity="teshuva-1-123456789abc", api_key="test-only-secret",
+                         opener=lambda *a, **k: io.BytesIO(json.dumps(body).encode()))
+        self.assertEqual(result["openai_response_id"], "resp_test_fixture")
+        self.assertEqual(result["openai_usage"]["total_tokens"], 130)
+        self.assertNotIn("test-only-secret", json.dumps(result))
+
+    def test_http_error_records_only_status_and_keeps_sources(self):
+        def fail(*args, **kwargs):
+            raise urllib.error.HTTPError("https://api.openai.com/", 429, "Quota", {}, None)
+        result = compose(self.store, self.root, {**self.request, "use_openai": True},
+                         identity="teshuva-1-123456789abc", api_key="test-only", opener=fail)
+        self.assertEqual(result["openai_http_status"], 429)
+        self.assertEqual(result["mode"], "library")
+
     def test_api_insufficient_keeps_excerpts(self):
         result = compose(self.store, self.root, {**self.request, "use_openai": True}, identity="teshuva-1-123456789abc", api_key="test-only",
             opener=lambda *a, **k: mock_response({"status": "insufficient", "paragraphs": []}))
@@ -221,6 +241,63 @@ class TeshuvaTests(unittest.TestCase):
                 return {"permission": "read"}
         self.assertFalse(authorized(Permissions(), {}, "outsider", "owner/repo"))
         self.assertTrue(authorized(Permissions(), {}, "owner", "owner/repo"))
+
+    def test_only_owner_can_use_openai_even_after_maintainer_approval(self):
+        request = {**self.request, "use_openai": True}
+        issue = {"user": {"login": "Moriahise"}}
+        self.assertEqual(openai_access(request, issue, "Moriahise", "Moriahise", "Moriahise/Sanhedrin", "true"), "")
+        for author, actor, rerunner in [("visitor", "Moriahise", "Moriahise"),
+                                       ("Moriahise", "maintainer", "maintainer"),
+                                       ("Moriahise", "Moriahise", "maintainer"),
+                                       ("Moriahise", "Moriahise", "")]:
+            with self.subTest(author=author, actor=actor, rerunner=rerunner):
+                reason = openai_access(request, {"user": {"login": author}}, actor, rerunner,
+                                       "Moriahise/Sanhedrin", "true")
+                self.assertEqual(reason, "owner_only")
+                with patch("sanhedrin.teshuva.api_draft") as api:
+                    result = compose(self.store, self.root, request, identity="teshuva-1-123456789abc",
+                                     api_key="test-only", api_block_reason=reason)
+                api.assert_not_called()
+                self.assertEqual(result["mode"], "library")
+                self.assertEqual(result["openai_status"], "owner_only")
+
+    def test_master_switch_defaults_off_and_preserves_library(self):
+        request = {**self.request, "use_openai": True}
+        for enabled in ["", "false", "1", "TRUE"]:
+            reason = openai_access(request, {"user": {"login": "Moriahise"}}, "Moriahise",
+                                   "Moriahise", "Moriahise/Sanhedrin", enabled)
+            self.assertEqual(reason, "disabled")
+            with patch("sanhedrin.teshuva.api_draft") as api:
+                result = compose(self.store, self.root, request, identity="teshuva-1-123456789abc",
+                                 api_key="test-only", api_block_reason=reason)
+            api.assert_not_called()
+            self.assertEqual(result["sources"][0]["id"], self.record["id"])
+            self.assertIn("switched off", render(result))
+
+    def test_authorized_retry_upgrades_fallback_and_then_reuses_api_result(self):
+        api = FakeGitHub()
+        request = {**self.request, "use_openai": True}
+        first = save(api, self.root, self.store, 27, request, api_block_reason="disabled")
+        self.assertEqual(first["openai_status"], "disabled")
+        draft = {"status": "draft", "paragraphs": [{"text": "Saved candles source.", "citations": [1]}]}
+        with patch("sanhedrin.teshuva.api_draft", return_value=draft) as draft_call:
+            second = save(api, self.root, self.store, 27, request, api_key="test-only")
+            third = save(api, self.root, self.store, 27, request, api_key="test-only")
+        draft_call.assert_called_once()
+        self.assertEqual(first["id"], second["id"])
+        self.assertEqual(second["mode"], "openai")
+        self.assertTrue(second["changed"])
+        self.assertFalse(third["changed"])
+        self.assertEqual(json.loads(api.files["Sanhedrin/" + second["id"] + ".json"])["mode"], "openai")
+
+    def test_blocked_retry_never_calls_api(self):
+        api = FakeGitHub()
+        request = {**self.request, "use_openai": True}
+        save(api, self.root, self.store, 27, request, api_block_reason="disabled")
+        with patch("sanhedrin.teshuva.api_draft") as draft_call:
+            result = save(api, self.root, self.store, 27, request, api_key="test-only", api_block_reason="owner_only")
+        draft_call.assert_not_called()
+        self.assertEqual(result["mode"], "library")
 
 
 if __name__ == "__main__":

@@ -29,21 +29,46 @@ Dateinamen: `Sanhedrin/teshuva-<Issue-Nummer>-<Anfrage-Hash>.html` und `.json`.
 
 Ein Besucher mit GitHub-Konto kann eine Anfrage einreichen. Automatisch verarbeitet werden Anfragen, deren Verarbeitung ein Repository-Inhaber oder Nutzer mit Schreibrechten auslöst. Öffentliche Besucher benötigen Freigabe: Als Repository-Verantwortlicher das Label **teshuva-approved** hinzufügen oder unter **Actions → Save Teshuva → Run workflow** die Issue-Nummer eingeben. Ein externer Besucher kann den API-Schlüssel dadurch nicht eigenständig verwenden. Nach einer weiteren Änderung an seiner Frage ist eine erneute Freigabe erforderlich.
 
-## Optionale OpenAI-Ausarbeitung
+## Optionale OpenAI-Ausarbeitung – nur Moriahise
 
-Die Option **Add an OpenAI formulation** ist zunächst aus. Die Vorschau im Browser bleibt eine Bestandsantwort. Wenn die Option eingeschaltet ist, erstellt der GitHub-Workflow nach der bestätigten Einreichung zusätzlich einen zusammenhängenden Entwurf ausschließlich aus den ausgewählten gespeicherten Passagen.
+OpenAI kann ausschließlich von **Moriahise** verwendet werden. Der Workflow prüft die GitHub-Identität des Issue-Autors, des auslösenden Nutzers und des Nutzers, der einen Lauf wiederholt. Alle drei müssen Moriahise sein. Eine Freigabe fremder Fragen durch `teshuva-approved` erlaubt weiterhin nur die Bestandsantwort. Ein Textfeld im Issue kann diese Identitätsprüfung nicht ersetzen.
 
-Einmalig im Repository:
+### Einmal einrichten
 
-1. [Settings → Secrets and variables → Actions](https://github.com/Moriahise/Sanhedrin/settings/secrets/actions) öffnen.
-2. Unter **Repository secrets → New repository secret** einen Schlüssel namens **OPENAI_API_KEY** anlegen.
-3. Optional unter **Variables** die Variable **OPENAI_MODEL** anlegen. Ohne diese Variable wird `gpt-4.1-mini` verwendet.
+1. Bei [OpenAI API keys](https://platform.openai.com/api-keys) einen Schlüssel für dieses Projekt erstellen oder einen vorhandenen geeigneten Schlüssel verwenden. Die API benötigt eine eigene verfügbare Abrechnung; ein ChatGPT-Abonnement allein stellt kein API-Guthaben bereit.
+2. Unter [GitHub → Settings → Secrets and variables → Actions](https://github.com/Moriahise/Sanhedrin/settings/secrets/actions) auf **New repository secret** klicken. Name: `OPENAI_API_KEY`; Secret: den Schlüssel direkt dort einfügen und speichern. Niemals in einen Chat, ein Issue, einen Upload oder eine HTML-Datei schreiben.
+3. Unter [Actions → Variables](https://github.com/Moriahise/Sanhedrin/settings/variables/actions) eine **Repository variable** anlegen: Name `OPENAI_ENABLED`, Wert `true`. Ohne diese Variable oder bei jedem anderen Wert bleibt OpenAI ausgeschaltet.
+4. Optional `OPENAI_MODEL` als Repository variable setzen. Der voreingestellte Wert ist `gpt-4.1-mini`.
 
-Der Schlüssel gehört nicht in JSON-Uploads, HTML-Dateien oder den Browsereditor. Er wird nur im Workflow verwendet. Der API-Aufruf nutzt die Responses API mit einem festen JSON-Schema und `store: false`. Quellenverweise werden auf vorhandene Nummern geprüft. Diese technische Prüfung garantiert nicht die inhaltliche Richtigkeit jeder Schlussfolgerung; der Entwurf und seine Anwendung benötigen weiterhin Prüfung.
+### Im täglichen Betrieb
 
-Wenn der Schlüssel fehlt, die API nicht erreichbar ist, die Antwort abbricht oder ungültige Quellenverweise enthält, werden die gespeicherten Quellenpassagen als Bestandsantwort ausgegeben. Der Status steht im gespeicherten JSON und im Ergebnis des Issues. Es wurde kein kostenpflichtiger API-Test mit einem privaten Schlüssel durchgeführt; die API-Schnittstelle wurde mit simulierten gültigen und fehlerhaften Antworten geprüft.
+| Gewünschtes Verhalten | Einstellung |
+|---|---|
+| Diese Frage nur aus vorhandenen Texten zusammenstellen | Im Editor **Add an OpenAI formulation** nicht anhaken |
+| Für diese Frage eine OpenAI-Ausarbeitung erstellen | Hauptschalter `OPENAI_ENABLED=true`; im Editor **Add an OpenAI formulation** anhaken; Issue als Moriahise einreichen |
+| Alle neuen API-Aufrufe zentral sperren | In GitHub unter **Settings → Secrets and variables → Actions → Variables** `OPENAI_ENABLED` auf `false` ändern |
+| API wieder erlauben | Dieselbe Variable auf `true` ändern |
 
-Offizielle Referenzen: [Responses / Structured Outputs](https://developers.openai.com/api/docs/guides/structured-outputs), [GPT-4.1 Mini](https://developers.openai.com/api/docs/models/gpt-4.1-mini).
+Den Schlüssel musst du beim Umschalten nicht löschen oder erneut eingeben. Der Editor startet mit ausgeschalteter OpenAI-Option. Eine Vorschau im Browser löst keinen API-Aufruf aus; er erfolgt erst im GitHub-Speicherworkflow. Bereits laufende API-Anfragen lassen sich durch eine spätere Variablenänderung nicht zurücknehmen. Bereits gespeicherte Antworten bleiben erhalten und sind wie das übrige Repository öffentlich lesbar. Die Beschränkung betrifft das **Erzeugen mit deinem API-Schlüssel**, nicht das Lesen.
+
+### Ablauf und Prüfung
+
+Nach der Einreichung erzeugt **Save Teshuva** einen zusammenhängenden Entwurf ausschließlich aus den ausgewählten gespeicherten Passagen. Das HTML/JSON-Paar wird in `Sanhedrin` gespeichert und veröffentlicht. Der Schlüssel wird nur im Workflow übergeben; er steht nicht im Browser. Der Aufruf verwendet die Responses API, ein festes JSON-Schema und `store: false`.
+
+Das gespeicherte JSON zeigt:
+
+- `mode: openai` und `openai_status: draft`: API-Ausarbeitung erfolgreich.
+- `openai_status: insufficient`: Die API meldet, dass die Quellen nicht ausreichen; die Bestandsantwort bleibt erhalten.
+- `openai_status: disabled`: Hauptschalter aus.
+- `openai_status: owner_only`: Anfrage oder auslösender Nutzer ist nicht Moriahise.
+- `openai_status: unconfigured`: Schlüssel fehlt.
+- `openai_status: failed`: API-Aufruf oder Antwortprüfung fehlgeschlagen. Bei einem HTTP-Fehler wird nur die Statusnummer gespeichert, niemals der geheime Schlüssel oder die HTTP-Antwort.
+
+Bei einem echten erfolgreichen API-Aufruf werden außerdem `openai_response_id` und die verfügbaren Tokenzahlen unter `openai_usage` gespeichert. Diese Angaben ermöglichen die Unterscheidung zwischen einem echten API-Ergebnis und einer Quellenantwort. Quellenverweise werden auf vorhandene Nummern geprüft; die fachliche Richtigkeit des Entwurfs muss weiterhin geprüft werden.
+
+Nach einer fehlenden Konfiguration, einer Sperre oder einem API-Fehler kann Moriahise unter **Actions → Save Teshuva → Run workflow** die offene Issue-Nummer erneut verarbeiten. Bei nun erlaubtem API-Zugriff wird die bisherige Quellenantwort aktualisiert. Ein bereits erfolgreicher API-Entwurf wird wiederverwendet und verursacht keinen erneuten Aufruf.
+
+Offizielle Referenzen: [Quickstart](https://developers.openai.com/api/docs/quickstart), [Responses / Structured Outputs](https://developers.openai.com/api/docs/guides/structured-outputs), [GPT-4.1 Mini](https://developers.openai.com/api/docs/models/gpt-4.1-mini).
 
 ## Bilder und frühere Platzhalter
 
