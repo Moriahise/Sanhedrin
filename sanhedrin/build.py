@@ -4,6 +4,7 @@ import base64
 import hashlib
 import html
 import json
+import re
 import shutil
 import tempfile
 import uuid
@@ -163,8 +164,10 @@ def build(store, root, destination, *, max_bytes=900_000_000):
 
 
 def _build(store, root, out, max_bytes):
+    search_config = json.loads((root / "config/teshuva-search.json").read_text())
+    hebrew_roots = {term for group in search_config["groups"] for term in group if re.search(r"[\u0590-\u05ff]", term)}
     logical = store.logical_hash()
-    release = "v1-" + digest([logical, RENDER_VERSION, sha256_file(__file__)])[:24]
+    release = "v1-" + digest([logical, RENDER_VERSION, sha256_file(__file__), sha256_file(root / "config/teshuva-search.json")])[:24]
     dataout = out / "releases" / release
     for name in (
         "index.html",
@@ -292,6 +295,10 @@ def _build(store, root, out, max_bytes):
                     word = SYNONYMS.get(word, word)
                     if len(word) >= 2 and word not in STOPWORDS:
                         weighted[word] += weight
+            for word in list(weighted):
+                for prefix_size in (1, 2):
+                    if len(word) > prefix_size + 2 and all(c in "והשבלמכ" for c in word[:prefix_size]) and word[prefix_size:] in hebrew_roots:
+                        weighted[word[prefix_size:]] = max(weighted[word[prefix_size:]], weighted[word])
             for word, weight in weighted.items():
                 postings[shard(word)][word].extend((n, weight))
             counts[q["provider"]] += 1

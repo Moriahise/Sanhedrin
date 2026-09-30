@@ -8,6 +8,11 @@ on:
         description: GitHub Teshuva issue number
         required: true
         type: string
+      retry_research:
+        description: Repeat an incomplete owner-authorized research attempt (API costs)
+        required: false
+        default: false
+        type: boolean
 permissions:
   contents: read
 concurrency:
@@ -60,7 +65,7 @@ jobs:
         run: |
           python -m sanhedrin restore-release --repo "$REPOSITORY" --directory .sanhedrin/restore
           python -m sanhedrin --report test-results/teshuva-import.json migrate
-      - name: Compose and atomically save HTML and JSON
+      - name: Research and atomically save the answer or pending request
         id: response
         if: steps.access.outputs.allowed == 'true'
         env:
@@ -68,9 +73,10 @@ jobs:
           OPENAI_API_KEY: ${{ vars.OPENAI_ENABLED == 'true' && github.actor == 'Moriahise' && github.triggering_actor == 'Moriahise' && secrets.OPENAI_API_KEY || '' }}
           OPENAI_ENABLED: ${{ vars.OPENAI_ENABLED }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          RETRY_RESEARCH: ${{ inputs.retry_research }}
           ISSUE_NUMBER: ${{ inputs.issue_number }}
         run: python tools/save_teshuva.py
-      - name: Publish the saved answer
+      - name: Publish the updated answer and research status
         if: steps.response.outputs.saved == 'true'
         env:
           GH_TOKEN: ${{ github.token }}

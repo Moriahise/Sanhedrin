@@ -6,11 +6,17 @@ export function groupsFor(query, config) {
   const seen = new Set(), groups = [];
   for (let term of searchTokens(query)) {
     if (term.length < 2 || stop.has(term)) continue;
-    if (!lookup.has(term) && term.length > 3 && "והשבלמכ".includes(term[0]) && lookup.has(term.slice(1))) term = term.slice(1);
+    for(const count of [1,2])if(!lookup.has(term)&&term.length>count+2&&[...term.slice(0,count)].every(c=>"והשבלמכ".includes(c))&&lookup.has(term.slice(count))){term=term.slice(count);break;}
     const group = lookup.get(term) || [term], key = group.join("|");
     if (!seen.has(key)) { seen.add(key); groups.push(group); }
   }
   return groups.slice(0, 24);
+}
+
+function matchingWords(text, groups) {
+  const words=new Set(searchTokens(text)), wanted=new Set(groups.flat());
+  for(const word of [...words])for(const count of [1,2])if(word.length>count+2&&[...word.slice(0,count)].every(c=>"והשבלמכ".includes(c))&&wanted.has(word.slice(count)))words.add(word.slice(count));
+  return words;
 }
 
 export function plain(value) {
@@ -38,7 +44,7 @@ export function excerpt(text, groups, limit = 2200) {
   const parts = text.split(/(?<=[.!?׃])\s+/u);
   let best = 0, max = -1, offset = 0, chosen = 0;
   parts.forEach((part, i) => {
-    const words = new Set(searchTokens(part)), score = groups.filter(g => g.some(t => words.has(t))).length;
+    const words = matchingWords(part,groups), score = groups.filter(g => g.some(t => words.has(t))).length;
     if (score > max) { max = score; best = i; chosen = offset; }
     offset += part.length + 1;
   });
@@ -56,7 +62,7 @@ export function sourceFrom(record, groups) {
     const text = plain(record.question_html); if (text.length >= 25) answers = [{ text, author: record.author }];
   }
   if (!answers.length) return null;
-  const score = text => { const words = new Set(searchTokens(text)); return groups.filter(g => g.some(t => words.has(t))).length; };
+  const score = text => { const words = matchingWords(text,groups); return groups.filter(g => g.some(t => words.has(t))).length; };
   answers.sort((a,b) => score(b.text) - score(a.text));
   return { id: record.id, title: record.title, provider: record.provider, language: record.language,
     url: record.url, license: record.license, author: answers[0].author, answer_id: answers[0].answer_id,
@@ -87,29 +93,40 @@ export async function retrieve(cat, query, config, maxSources = 6) {
     for (const [n, score] of best) { const old = ranks.get(n) || { coverage: 0, score: 0 }; ranks.set(n, { coverage: old.coverage + 1, score: old.score + score }); }
   }
   const ranked = [...ranks].sort((a,b) => b[1].coverage - a[1].coverage || b[1].score - a[1].score || a[0]-b[0]);
-  const cards = await cat.metadata(ranked.slice(0, 80).map(([n]) => n));
+  const cards = await cat.metadata(ranked.slice(0, 120).map(([n]) => n));
   // Include both languages when each has an equally complete topic match.
   const coverage = ranked[0]?.[1].coverage || 0;
   const bilingual = ["he", "en"].map(language => cards.find(c => c.language === language && ranks.get(c.n)?.coverage === coverage)).filter(Boolean);
   const ordered = [...new Map([cards[0], ...bilingual, ...cards].filter(Boolean).map(c => [c.id,c])).values()];
   const sources = [], failures = [];
-  for (let i = 0; i < ordered.length && sources.length < maxSources; i += 6) {
+  for (let i = 0; i < Math.min(60, ordered.length); i += 6) {
     const values = await Promise.allSettled(ordered.slice(i, i + 6).map(c => cat.detail(c.id)));
     for (const value of values) {
       if (value.status !== "fulfilled") { failures.push(value.reason); continue; }
       const source = sourceFrom(value.value, groups);
-      if (source && sources.length < maxSources) sources.push(source);
+      if (source) {
+        const words = matchingWords(source.text,groups), matched = groups.filter(g => g.some(t => words.has(t)));
+        if (matched.length) sources.push({...source, coverage: matched.length, document: value.value.kind === "document"});
+      }
     }
   }
   if (!sources.length && failures.length) throw failures[0];
-  return { sources, groups, candidates: ranked.length, partial: failures.length > 0 };
+  sources.sort((a,b) => b.coverage-a.coverage);
+  const minimum = Math.max(1, Math.min(3, sources[0]?.coverage || 1) - ((sources[0]?.coverage || 0)>=3?1:0));
+  const selected = sources.filter(s => s.coverage >= minimum).slice(0,maxSources);
+  const doc = sources.find(s => s.document && s.coverage >= (sources[0]?.coverage || 0)-1);
+  if(doc && !selected.some(s => s.document)) { if(selected.length===maxSources)selected.pop();selected.push(doc); }
+  return { sources:selected, groups, candidates: ranked.length, partial: failures.length > 0 };
 }
 
-export function buildRequest({questionHtml, keywords, language, profileId = "auto", useOpenai, sources}) {
+export function buildRequest({questionHtml, keywords, language, profileId = "auto", useOpenai, externalResearch = false, sourceUrls = [], sources}) {
   const safe = cleanEditor(questionHtml), text = plain(safe);
   if (text.length < 8 || text.length > 8000 || safe.length > 20000) throw new Error("Question must contain 8–8000 characters.");
-  if (!sources.length || sources.length > 8) throw new Error("Choose 1–8 sources with saved text.");
-  return {schema: 1, question_html: safe, keywords: keywords.trim(), language, profile_id: profileId, use_openai: useOpenai, source_ids: sources.map(s => s.id)};
+  if ((!sources.length && !useOpenai) || sources.length > 20) throw new Error("Choose sources or enable OpenAI research.");
+  if(sourceUrls.length > 10)throw new Error("Use up to 10 source URLs.");
+  for(const value of sourceUrls) { const url=new URL(value); if(url.protocol!=="https:"||url.username||url.password||url.port&&url.port!=="443")throw new Error("Use public HTTPS source URLs."); }
+  if(externalResearch && !useOpenai)throw new Error("External research requires OpenAI.");
+  return {schema: 1, question_html: safe, keywords: keywords.trim(), language, profile_id: profileId, use_openai: useOpenai, search_version:2, external_research:externalResearch, source_urls:sourceUrls, source_ids: sources.map(s => s.id)};
 }
 
 export function submission(request, repository = "Moriahise/Sanhedrin") {
