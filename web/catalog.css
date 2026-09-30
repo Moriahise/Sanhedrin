@@ -183,6 +183,7 @@ select {
   display: flex;
   flex-direction: column;
   min-width: 0;
+  overflow-wrap: anywhere;
   transition: box-shadow 0.15s;
 }
 .card:hover {

@@ -295,10 +295,17 @@ async function search() {
       location.pathname + (params.size ? "?" + params : ""),
     );
   } catch (e) {
-    if (mine === generation)
+    if (mine === generation) {
       $("notice").textContent = t(
         e instanceof SnapshotChanged ? "changed" : "notFound",
       );
+      $("cards").replaceChildren();
+      $("result-count").textContent = "";
+      $("page-number").textContent = "";
+      $("previous").disabled = true;
+      $("next").disabled = true;
+      current = null;
+    }
   } finally {
     if (mine === generation) $("cards").setAttribute("aria-busy", "false");
   }
@@ -383,18 +390,25 @@ async function loadReader() {
     $("reader").replaceChildren();
     if (e instanceof AmbiguousID) {
       $("notice").textContent = t("ambiguous");
-      const rows = await Promise.all(e.ids.map((id) => cat.detail(id)));
-      if (mine === generation)
-        for (const q of rows) {
-          const p = el("p");
-          p.append(
-            link(
-              `${providers[q.provider] || q.provider} · ${q.title}`,
-              itemURL(q),
-            ),
+      try {
+        const rows = await Promise.all(e.ids.map((id) => cat.detail(id)));
+        if (mine === generation)
+          for (const q of rows) {
+            const p = el("p");
+            p.append(
+              link(
+                `${providers[q.provider] || q.provider} · ${q.title}`,
+                itemURL(q),
+              ),
+            );
+            $("reader").append(p);
+          }
+      } catch (failure) {
+        if (mine === generation)
+          $("notice").textContent = t(
+            failure instanceof SnapshotChanged ? "changed" : "notFound",
           );
-          $("reader").append(p);
-        }
+      }
     } else
       $("notice").textContent = t(
         e instanceof SnapshotChanged ? "changed" : "notFound",

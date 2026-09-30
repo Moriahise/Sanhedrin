@@ -132,6 +132,19 @@ def run(directory, report_dir):
             )
             assert failed.locator("#notice").inner_text()
             failed.close()
+            ambiguous_failure = browser.new_page()
+            ambiguous_failure.on("pageerror", lambda e: errors.append(str(e)))
+            ambiguous_failure.route(
+                "**/content/**/*.json",
+                lambda route: route.fulfill(status=503, body="unavailable"),
+            )
+            ambiguous_failure.goto(base + "qa.html?id=137101")
+            ambiguous_failure.wait_for_function(
+                '() => document.querySelector("#reader").getAttribute("aria-busy")==="false"'
+            )
+            assert ambiguous_failure.locator("#notice").inner_text()
+            assert ambiguous_failure.locator("#reader p a").count() == 0
+            ambiguous_failure.close()
             changed = browser.new_page()
             changed.on("pageerror", lambda e: errors.append(str(e)))
             changed.goto(base)
