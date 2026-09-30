@@ -340,8 +340,8 @@ def compose(store, root, request, *, identity, api_key="", model="gpt-4.1-mini",
         if not any(s.get("external") for s in sources):
             evidence_gaps.append("No external source text could be verified.")
     if plan and plan.get("requires_same_material_evidence"):
-        material = set(tokens(" ".join(plan["material_terms"])))
-        problem = set(tokens(" ".join(plan["problem_terms"])))
+        material = {term for group in search_groups(" ".join(plan["material_terms"]),config) for term in group}
+        problem = {term for group in search_groups(" ".join(plan["problem_terms"]),config) for term in group} - material
         if not any((lambda words: bool(words & material) and bool(words & problem))(matching_words(s["text"] + " " + s.get("question_context", ""), [list(material),list(problem)])) for s in sources):
             evidence_gaps.append("Direct evidence addressing the specific material/object and the actual problem is still needed. Instructions for another object are not sufficient.")
     per_source = min(16000, 100000 // max(1, len(sources)))

@@ -143,7 +143,7 @@ class ResearchTests(unittest.TestCase):
         record=normalize({'id':'yeshiva-2','title':'Mold on Torah scrolls','question':'How to clean mold on a Torah scroll?','answers':[{'text':'This answer discusses cleaning mold on a Torah scroll with vinegar.'}],'format':'plain','url':'https://www.yeshiva.org.il/ask/2'})
         self.store.insert(record)
         request={**self.request,'source_ids':[record['id']]}
-        plan={**PLAN,'requires_same_material_evidence':True,'material_terms':['schach','bamboo','סכך','במבוק'],'problem_terms':['mold','עובש']}
+        plan={**PLAN,'requires_same_material_evidence':True,'material_terms':['schach','bamboo','סכך','במבוק'],'problem_terms':['mold','moldy schach','עובש']}
         with patch('sanhedrin.research.plan_question',return_value=plan), patch('sanhedrin.teshuva.api_draft') as draft:
             result=compose(self.store,self.root,request,identity='teshuva-1-123456789abc',api_key='test-only')
         draft.assert_not_called()
@@ -229,6 +229,24 @@ class ResearchTests(unittest.TestCase):
             return {'schema': 1, 'id': first['id'], 'request_hash': 'unused'}
         with patch('tools.save_teshuva.compose', side_effect=removed), self.assertRaises(DataError):
             save(api, self.root, self.store, 1, self.request, api_key='test-only')
+
+    def test_older_model_domain_filters_fall_back_without_changing_model(self):
+        calls=[]
+        class HTTP:
+            def json(self,*a):return {'hits':{'hits':[]}}
+            def page(self,url):return {'title':'Answer','text':'An actual published source on schach mold. '*10,'url':url}
+        def opener(request,timeout):
+            payload=json.loads(request.data);calls.append(payload)
+            if len(calls)==1:
+                raise urllib.error.HTTPError(request.full_url,400,'Bad Request',{},io.BytesIO(json.dumps({'error':{'message':"Parameter 'filters' not supported with model 'gpt-4.1-mini'",'param':'tools'}}).encode()))
+            return io.BytesIO(json.dumps({'status':'completed','output':[{'type':'web_search_call','action':{'sources':[{'url':'https://asktherav.com/answer'},{'url':'https://outside.example/answer'}]}}]}).encode())
+        sources,notes=external_sources('Schach mold',PLAN,json.loads((self.root/'config/teshuva-research.json').read_text()),[],api_key='test-only',model='gpt-4.1-mini',groups=search_groups('schach mold',self.config),passage=lambda text,groups,limit:(text,False),http=HTTP(),opener=opener)
+        self.assertEqual(len(calls),2)
+        self.assertTrue(all(p['model']=='gpt-4.1-mini' for p in calls))
+        self.assertNotIn('filters',calls[1]['tools'][0])
+        self.assertIn('allowed_domains',json.loads(calls[1]['input']))
+        self.assertEqual(len(sources),1)
+        self.assertEqual(next(n for n in notes if n.get('provider')=='web')['search_mode'],'query_domains')
 
     def test_sefaria_anchor_and_url_sources_are_read_not_inferred(self):
         class HTTP:
