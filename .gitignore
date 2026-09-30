@@ -11,3 +11,12 @@ __pycache__/
 # Betriebssystem/Editor
 .DS_Store
 *~
+
+.venv/
+.sanhedrin/
+dist/
+dist.previous/
+test-results/
+.sanhedrin-build-*/
+.sanhedrin-previous-*/
+*.sqlite*

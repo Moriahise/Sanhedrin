@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "sources": {
+    "miyodeya": {"enabled": true, "adapter": "stackexchange", "mode": "full", "hosts": ["api.stackexchange.com"], "permission_reference": "https://stackoverflow.com/help/licensing", "budget": 180, "delay": 1.2, "max_pages": 20, "reconcile_limit": 4000, "initial_days": 30, "overlap_seconds": 172800, "quota_reserve": 5, "key_env": "STACKEXCHANGE_KEY"},
+    "din": {"enabled": true, "adapter": "wordpress", "mode": "metadata", "hosts": ["din.org.il", "www.din.org.il"], "endpoint": "https://din.org.il/wp-json/wp/v2/posts", "budget": 22, "delay": 3, "max_pages": 20, "per_page": 100, "initial_days": 30, "overlap_seconds": 172800},
+    "aish": {"enabled": true, "adapter": "wordpress", "mode": "metadata", "hosts": ["aish.com", "www.aish.com"], "endpoint": "https://aish.com/wp-json/wp/v2/posts", "categories": [3504], "budget": 22, "delay": 3, "max_pages": 20, "per_page": 100, "initial_days": 30, "overlap_seconds": 172800},
+    "chabad": {"enabled": true, "adapter": "rss", "mode": "metadata", "hosts": ["www.chabad.org", "chabad.org"], "endpoint": "https://www.chabad.org/tools/rss/magazine_rss.xml", "budget": 10, "delay": 3, "permission_reference": "Owner authorization in Sanhedrin modernization session, 2026-09-30: Chabad RSS-Feeds Freigabe; den Adapter aktivieren", "permission_scope": "RSS metadata and original source links", "terms_reference": "https://www.chabad.org/library/article_cdo/aid/298447/jewish/RSS-and-Podcast-Directory.htm"},
+    "yeshiva": {"enabled": true, "adapter": "yeshiva", "mode": "metadata", "hosts": ["www.yeshiva.org.il", "yeshiva.org.il"], "budget": 12, "delay": 3, "reconcile_limit": 10, "discovery_endpoint": "", "note": "Direct checks may return HTTP 403. A publisher-provided feed is needed for reliable discovery. Do not bypass source protections."}
+  }
+}

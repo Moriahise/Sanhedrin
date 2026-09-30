@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; base-uri 'none'; object-src 'none'; form-action 'self'"
+    />
+    <title>Sanhedrin · ספריית שאלות ותשובות</title>
+    <link rel="stylesheet" href="catalog.css" />
+    <script type="module" src="catalog-app.js"></script>
+  </head>
+  <body>
+    <header class="masthead">
+      <a class="brand" href="index.html"
+        >SANHEDRIN<span>ספריית שאלות ותשובות</span></a
+      >
+      <nav aria-label="Language">
+        <button id="language" type="button">English</button
+        ><a href="status.html" data-i18n="health">מצב המקורות</a>
+      </nav>
+    </header>
+    <main class="catalogue">
+      <div class="intro">
+        <p class="eyebrow" data-i18n="eyebrow">ידע שנשמר. מקורות שנבדקים.</p>
+        <h1 data-i18n="heading">מרחב של שאלות. ספרייה של תשובות.</h1>
+        <p data-i18n="intro">
+          חיפוש בטקסט המלא, עם קישור למקור ותאריכים ברורים.
+        </p>
+        <p id="overview" class="overview" aria-live="polite"></p>
+      </div>
+      <form id="search-form" class="search-panel">
+        <label for="query" data-i18n="searchLabel">חיפוש בספרייה</label>
+        <div class="query-row">
+          <input
+            id="query"
+            name="q"
+            type="search"
+            autocomplete="off"
+            placeholder="שבת, הלכה, מספר שאלה…"
+          /><button type="submit" data-i18n="search">חיפוש</button>
+        </div>
+        <div id="filters" class="filters"></div>
+        <button class="text-button" type="reset" data-i18n="reset">
+          ניקוי הסינון
+        </button>
+      </form>
+      <div class="results-heading">
+        <h2 data-i18n="results">מתוך הספרייה</h2>
+        <p id="result-count" aria-live="polite"></p>
+      </div>
+      <p id="notice" class="notice" role="status"></p>
+      <section
+        id="cards"
+        class="cards"
+        aria-label="Results"
+        aria-busy="true"
+      ></section>
+      <nav class="pagination" aria-label="Pages">
+        <button id="previous" type="button" data-i18n="previous">הקודם</button
+        ><span id="page-number"></span
+        ><button id="next" type="button" data-i18n="next">הבא</button>
+      </nav>
+    </main>
+    <footer>
+      <span data-i18n="footer"
+        >הטקסטים נשמרים עם קישורי המקור. סיווג ממתין לבדיקה אינו שאלה ללא
+        תשובה.</span
+      ><a href="status.html" data-i18n="health">מצב המקורות</a>
+    </footer>
+  </body>
+</html>

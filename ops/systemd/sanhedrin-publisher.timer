@@ -1,0 +1,11 @@
+[Unit]
+Description=Daily Sanhedrin source checks and publication
+
+[Timer]
+OnCalendar=*-*-* 03:17:00 UTC
+RandomizedDelaySec=300
+Persistent=true
+Unit=sanhedrin-publisher.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,464 @@
+import { Catalogue, AmbiguousID, SnapshotChanged } from "./catalog-data.js";
+const $ = (id) => document.getElementById(id),
+  cat = new Catalogue();
+const dictionaries = {
+  en: {
+    health: "Source status",
+    eyebrow: "Knowledge preserved. Sources checked.",
+    heading: "A world of questions. A library of answers.",
+    intro: "Search the full text, with original sources and clear dates.",
+    searchLabel: "Search the library",
+    search: "Search",
+    reset: "Clear filters",
+    results: "From the library",
+    previous: "Previous",
+    next: "Next",
+    footer:
+      "Texts retain their source links. Category review does not mean unanswered.",
+    back: "Back to the library",
+    provider: "Source",
+    category: "Category",
+    kind: "Content",
+    language: "Language",
+    published_year: "Publication year",
+    imported_year: "Import year",
+    answer_status: "Answers",
+    review: "Category review",
+    all: "All",
+    qa: "Questions & answers",
+    article: "Articles",
+    document: "Documents",
+    link: "Source links",
+    he: "Hebrew",
+    en: "English",
+    answered: "Answers available locally",
+    local_missing: "Full text not available locally",
+    remote_unanswered: "Source confirms no answers",
+    needed: "Review needed",
+    question: "Question",
+    answer: "Answer",
+    accepted: "Accepted · verified at source",
+    original: "Original source",
+    published: "Published",
+    imported: "Imported",
+    checked: "Source checked",
+    reviewBadge: "Category under review",
+    notFound: "This item could not be loaded. Please try again.",
+    empty: "No matching items. Try fewer filters or a different search.",
+    loading: "Loading…",
+    ambiguous:
+      "This historical number belongs to several sources. Choose the original source.",
+    licenseUnknown: "License not recorded in the original import",
+    notChecked: "Source has not yet been checked",
+    changed: "The library was updated. Refresh to load the current version.",
+  },
+  he: {
+    health: "מצב המקורות",
+    eyebrow: "ידע שנשמר. מקורות שנבדקים.",
+    heading: "מרחב של שאלות. ספרייה של תשובות.",
+    intro: "חיפוש בטקסט המלא, עם קישור למקור ותאריכים ברורים.",
+    searchLabel: "חיפוש בספרייה",
+    search: "חיפוש",
+    reset: "ניקוי הסינון",
+    results: "מתוך הספרייה",
+    previous: "הקודם",
+    next: "הבא",
+    footer:
+      "הטקסטים נשמרים עם קישורי המקור. סיווג ממתין לבדיקה אינו שאלה ללא תשובה.",
+    back: "בחזרה לספרייה",
+    provider: "מקור",
+    category: "קטגוריה",
+    kind: "סוג תוכן",
+    language: "שפה",
+    published_year: "שנת פרסום",
+    imported_year: "שנת ייבוא",
+    answer_status: "תשובות",
+    review: "בדיקת סיווג",
+    all: "הכול",
+    qa: "שאלות ותשובות",
+    article: "מאמרים",
+    document: "מסמכים",
+    link: "קישורים למקור",
+    he: "עברית",
+    en: "אנגלית",
+    answered: "תשובות זמינות במאגר",
+    local_missing: "הטקסט המלא אינו זמין במאגר",
+    remote_unanswered: "המקור מאשר שאין תשובות",
+    needed: "דרושה בדיקה",
+    question: "שאלה",
+    answer: "תשובה",
+    accepted: "תשובה נבחרת · מאומתת במקור",
+    original: "למקור המקורי",
+    published: "פרסום",
+    imported: "ייבוא",
+    checked: "בדיקת מקור",
+    reviewBadge: "סיווג ממתין לבדיקה",
+    notFound: "לא ניתן לטעון את הפריט. נסו שוב.",
+    empty: "לא נמצאו פריטים. נסו להפחית סינון או לשנות את החיפוש.",
+    loading: "טוען…",
+    ambiguous: "המספר ההיסטורי מופיע בכמה מקורות. בחרו את המקור המקורי.",
+    licenseUnknown: "הרישיון לא תועד בייבוא המקורי",
+    notChecked: "המקור טרם נבדק",
+    changed: "הספרייה עודכנה. רעננו כדי לטעון את הגרסה החדשה.",
+  },
+};
+const providers = {
+  miyodeya: "Mi Yodeya",
+  yeshiva: "Yeshiva",
+  din: "Din",
+  aish: "Aish",
+  chabad: "Chabad",
+  local: "Sanhedrin",
+};
+let lang = "he",
+  generation = 0,
+  current = null,
+  page = 0,
+  debounce;
+try {
+  lang = localStorage.getItem("sanhedrin-language") === "en" ? "en" : "he";
+} catch {}
+const t = (k) => dictionaries[lang][k] || k;
+function el(tag, text, className) {
+  const n = document.createElement(tag);
+  if (text !== undefined) n.textContent = text;
+  if (className) n.className = className;
+  return n;
+}
+function safeURL(value) {
+  if (!value) return null;
+  try {
+    const u = new URL(value, location.href);
+    return ["https:", "http:"].includes(u.protocol) ? u.href : null;
+  } catch {
+    return null;
+  }
+}
+function link(text, url) {
+  const a = el("a", text);
+  const safe = safeURL(url);
+  if (safe) {
+    a.href = safe;
+    a.rel = "noopener noreferrer";
+  }
+  return a;
+}
+function date(value) {
+  if (!value) return "";
+  const d = new Date(value);
+  return Number.isNaN(d.valueOf())
+    ? String(value).slice(0, 10)
+    : new Intl.DateTimeFormat(lang === "he" ? "he-IL" : "en-GB", {
+        dateStyle: "medium",
+      }).format(d);
+}
+function itemURL(q) {
+  if (
+    q.kind === "document" &&
+    q.document_path &&
+    !q.document_path.startsWith("/") &&
+    !q.document_path.split("/").includes("..") &&
+    !q.document_path.includes(":")
+  )
+    return q.document_path;
+  return `qa.html?id=${encodeURIComponent(q.id)}`;
+}
+function applyLanguage() {
+  document.documentElement.lang = lang;
+  document.documentElement.dir = lang === "he" ? "rtl" : "ltr";
+  $("language").textContent = lang === "he" ? "English" : "עברית";
+  document
+    .querySelectorAll("[data-i18n]")
+    .forEach((n) => (n.textContent = t(n.dataset.i18n)));
+  if ($("query"))
+    $("query").placeholder =
+      lang === "he"
+        ? "שבת, הלכה, מספר שאלה…"
+        : "Shabbat, halacha, question ID…";
+}
+$("language").addEventListener("click", () => {
+  lang = lang === "he" ? "en" : "he";
+  try {
+    localStorage.setItem("sanhedrin-language", lang);
+  } catch {}
+  applyLanguage();
+  if ($("cards")) {
+    $("overview").textContent =
+      `${cat.manifest.total.toLocaleString()} ${lang === "he" ? "פריטים" : "items"} · ${cat.manifest.documents} ${t("document")}`;
+    const selected = filters();
+    renderFilters(selected);
+    search();
+  } else loadReader();
+});
+function filters() {
+  return Object.fromEntries(
+    [...document.querySelectorAll("#filters select")].map((n) => [
+      n.name,
+      n.value,
+    ]),
+  );
+}
+function renderFilters(selected = {}) {
+  $("filters").replaceChildren();
+  for (const field of [
+    "provider",
+    "category",
+    "kind",
+    "language",
+    "published_year",
+    "imported_year",
+    "answer_status",
+    "review",
+  ]) {
+    const label = el("label", t(field)),
+      select = el("select");
+    select.name = field;
+    select.id = `filter-${field}`;
+    select.append(new Option(t("all"), ""));
+    let values = Object.entries(cat.manifest.facets[field] || {});
+    values.sort((a, b) =>
+      field.endsWith("year")
+        ? b[0].localeCompare(a[0])
+        : a[0].localeCompare(b[0]),
+    );
+    for (const [value, spec] of values)
+      select.append(
+        new Option(
+          `${field === "provider" ? providers[value] || value : t(value)} (${spec.count.toLocaleString()})`,
+          value,
+        ),
+      );
+    select.value = selected[field] || "";
+    label.append(select);
+    $("filters").append(label);
+    select.addEventListener("change", () => {
+      page = 0;
+      search();
+    });
+  }
+}
+function card(q) {
+  const box = el(
+    "article",
+    undefined,
+    "card" + (q.needs_review ? " review" : ""),
+  );
+  box.dir = "auto";
+  const tags = el("div", undefined, "tag-row");
+  tags.append(
+    el("span", providers[q.provider] || q.provider, "badge"),
+    el("span", t(q.kind), "badge"),
+  );
+  if (q.needs_review)
+    tags.append(el("span", t("reviewBadge"), "badge review-label"));
+  const h = el("h3");
+  h.append(
+    link(
+      (lang === "en" && q.title_en) || (lang === "he" && q.title_he) || q.title,
+      itemURL(q),
+    ),
+  );
+  box.append(tags, h, el("p", q.excerpt));
+  const info = [
+    q.category,
+    q.published_at ? `${t("published")}: ${date(q.published_at)}` : null,
+  ]
+    .filter(Boolean)
+    .join(" · ");
+  box.append(el("p", info, "meta"));
+  return box;
+}
+async function search() {
+  const mine = ++generation;
+  $("cards").setAttribute("aria-busy", "true");
+  $("notice").textContent = t("loading");
+  try {
+    const result = await cat.search($("query").value, filters(), page);
+    if (mine !== generation) return;
+    current = result;
+    page = result.page;
+    $("cards").replaceChildren(...result.items.map(card));
+    $("result-count").textContent =
+      `${result.total.toLocaleString()} / ${cat.manifest.total.toLocaleString()}`;
+    $("page-number").textContent =
+      `${page + 1} / ${Math.max(1, Math.ceil(result.total / result.pageSize))}`;
+    $("previous").disabled = page === 0;
+    $("next").disabled = (page + 1) * result.pageSize >= result.total;
+    $("notice").textContent = result.total ? "" : t("empty");
+    const params = new URLSearchParams();
+    if ($("query").value) params.set("q", $("query").value);
+    for (const [k, v] of Object.entries(filters())) if (v) params.set(k, v);
+    if (page) params.set("page", page);
+    history.replaceState(
+      null,
+      "",
+      location.pathname + (params.size ? "?" + params : ""),
+    );
+  } catch (e) {
+    if (mine === generation) {
+      $("notice").textContent = t(
+        e instanceof SnapshotChanged ? "changed" : "notFound",
+      );
+      $("cards").replaceChildren();
+      $("result-count").textContent = "";
+      $("page-number").textContent = "";
+      $("previous").disabled = true;
+      $("next").disabled = true;
+      current = null;
+    }
+  } finally {
+    if (mine === generation) $("cards").setAttribute("aria-busy", "false");
+  }
+}
+function attribution(owner, license, url) {
+  const p = el("p", undefined, "attribution");
+  const name =
+    typeof owner === "string" ? owner : owner?.display_name || owner?.name;
+  if (name) {
+    p.append(
+      link(name, url || owner?.link || ""),
+      document.createTextNode(" · "),
+    );
+  }
+  const label = typeof license === "string" ? license : license?.name;
+  const match = String(label || "").match(/^CC BY-SA (2\.5|3\.0|4\.0)$/i);
+  p.append(
+    match
+      ? link(label, `https://creativecommons.org/licenses/by-sa/${match[1]}/`)
+      : el("span", label || t("licenseUnknown")),
+  );
+  return p;
+}
+function renderReader(q) {
+  const area = $("reader");
+  area.replaceChildren();
+  area.dir = "auto";
+  document.title = q.title + " · Sanhedrin";
+  area.append(
+    el("p", providers[q.provider] || q.provider, "eyebrow"),
+    el("h1", q.title),
+  );
+  const meta = el("div", undefined, "reader-meta");
+  for (const [key, value] of [
+    ["published", q.published_at],
+    ["imported", q.imported_at],
+    ["checked", q.source_checked_at],
+  ])
+    if (value) meta.append(el("span", `${t(key)}: ${date(value)}`));
+  if (!q.source_checked_at) meta.append(el("span", t("notChecked")));
+  if (q.needs_review) meta.append(el("span", t("reviewBadge")));
+  area.append(meta);
+  if (q.url) area.append(link(t("original"), q.url));
+  area.append(attribution(q.author, q.license, q.author_url));
+  if (q.question_html && q.question_html !== "<p></p>") {
+    if (q.kind !== "article") area.append(el("h2", t("question")));
+    const body = el("div", undefined, "body-text");
+    body.innerHTML = q.question_html;
+    area.append(body);
+  }
+  q.answers.forEach((a, i) => {
+    if (q.kind !== "article") area.append(el("h2", `${t("answer")} ${i + 1}`));
+    if (a.is_accepted && a.accepted_verified)
+      area.append(el("p", t("accepted"), "badge"));
+    const body = el("div", undefined, "body-text");
+    body.innerHTML = a.html;
+    area.append(
+      body,
+      attribution(
+        a.author || a.owner,
+        a.license || a.content_license,
+        a.author_url || a.owner?.link,
+      ),
+    );
+    if (a.url || a.link) area.append(link(t("original"), a.url || a.link));
+  });
+  if (q.kind === "link") area.append(el("p", t("local_missing"), "notice"));
+  if (q.kind === "document") area.append(link(t("document"), q.document_path));
+}
+async function loadReader() {
+  const mine = ++generation;
+  $("reader").setAttribute("aria-busy", "true");
+  $("notice").textContent = t("loading");
+  try {
+    const p = new URLSearchParams(location.search),
+      q = await cat.detail(p.get("id") || "", p.get("src") || "");
+    if (mine !== generation) return;
+    renderReader(q);
+    $("notice").textContent = "";
+  } catch (e) {
+    if (mine !== generation) return;
+    $("reader").replaceChildren();
+    if (e instanceof AmbiguousID) {
+      $("notice").textContent = t("ambiguous");
+      try {
+        const rows = await Promise.all(e.ids.map((id) => cat.detail(id)));
+        if (mine === generation)
+          for (const q of rows) {
+            const p = el("p");
+            p.append(
+              link(
+                `${providers[q.provider] || q.provider} · ${q.title}`,
+                itemURL(q),
+              ),
+            );
+            $("reader").append(p);
+          }
+      } catch (failure) {
+        if (mine === generation)
+          $("notice").textContent = t(
+            failure instanceof SnapshotChanged ? "changed" : "notFound",
+          );
+      }
+    } else
+      $("notice").textContent = t(
+        e instanceof SnapshotChanged ? "changed" : "notFound",
+      );
+  } finally {
+    if (mine === generation) $("reader").setAttribute("aria-busy", "false");
+  }
+}
+applyLanguage();
+if ($("cards")) {
+  try {
+    await cat.init();
+    $("overview").textContent =
+      `${cat.manifest.total.toLocaleString()} ${lang === "he" ? "פריטים" : "items"} · ${cat.manifest.documents} ${t("document")}`;
+    const p = new URLSearchParams(location.search);
+    $("query").value = p.get("q") || "";
+    page = Math.max(0, parseInt(p.get("page"), 10) || 0);
+    renderFilters(Object.fromEntries(p));
+    $("search-form").addEventListener("submit", (e) => {
+      e.preventDefault();
+      clearTimeout(debounce);
+      page = 0;
+      search();
+    });
+    $("search-form").addEventListener("reset", () => {
+      clearTimeout(debounce);
+      setTimeout(() => {
+        page = 0;
+        search();
+      }, 0);
+    });
+    $("query").addEventListener("input", () => {
+      clearTimeout(debounce);
+      generation++;
+      debounce = setTimeout(() => {
+        page = 0;
+        search();
+      }, 300);
+    });
+    $("previous").addEventListener("click", () => {
+      page--;
+      search();
+    });
+    $("next").addEventListener("click", () => {
+      page++;
+      search();
+    });
+    await search();
+  } catch {
+    $("notice").textContent = t("notFound");
+    $("cards").setAttribute("aria-busy", "false");
+  }
+} else await loadReader();

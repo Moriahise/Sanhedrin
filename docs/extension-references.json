@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "archives": [
+    {
+      "name": "AISH_JSON_SPLITTER_GITHUB_V3.zip",
+      "sha256": "66ad92a91785f966289c814e843308723c23db1abcf75a535eaea81027f576d3",
+      "files": [
+        "json_splitter_ui_AISH_GITHUB.pyw",
+        "JSON_Splitter_AISH_GITHUB_starten.bat",
+        "README_JSON_SPLITTER_AISH_GITHUB.md",
+        "TESTBERICHT_AISH_JSON_SPLITTER.md",
+        "PAKET_MANIFEST_AISH_SPLITTER.json"
+      ]
+    },
+    {
+      "name": "CHABAD_JSON_SPLITTER_GITHUB_V2.zip",
+      "sha256": "72bff2d41c704f7291b9facc5c2520e555f59d671e47d9347e7c31885936bb9f",
+      "files": [
+        "json_splitter_ui_CHABAD_GITHUB.pyw",
+        "JSON_Splitter_CHABAD_GITHUB_starten.bat",
+        "README_JSON_SPLITTER_CHABAD_GITHUB.md"
+      ]
+    },
+    {
+      "name": "DIN_JSON_SPLITTER_GITHUB_V3.zip",
+      "sha256": "65bb0ef9bcd8dd858f16b47cd8911f533cb4c5d647cd81dde3ca36e7c62cb74c",
+      "files": [
+        "json_splitter_ui_DIN_GITHUB.pyw",
+        "JSON_Splitter_DIN_GITHUB_starten.bat",
+        "README_JSON_SPLITTER_DIN_GITHUB.md",
+        "TESTBERICHT_DIN_JSON_SPLITTER.md",
+        "PAKET_MANIFEST_DIN_SPLITTER.json"
+      ]
+    },
+    {
+      "name": "aish-extension-v2.zip",
+      "sha256": "ad655db510cbd948be56caa6b393bec81d3e1cd17639065593a089410b5da81e",
+      "files": [
+        "aish-extension-v2/",
+        "aish-extension-v2/icon128.png",
+        "aish-extension-v2/popup.html",
+        "aish-extension-v2/content.js",
+        "aish-extension-v2/README.md",
+        "aish-extension-v2/icon16.png",
+        "aish-extension-v2/popup.js",
+        "aish-extension-v2/manifest.json",
+        "aish-extension-v2/example-output.json",
+        "aish-extension-v2/background.js",
+        "aish-extension-v2/icon48.png"
+      ]
+    },
+    {
+      "name": "chabad-extension.zip",
+      "sha256": "f1f9e2364d7091f936115a8b57b74a56965bd3b759abf3978fbbaecadf41b1d2",
+      "files": [
+        "chabad-extension/",
+        "chabad-extension/icon128.png",
+        "chabad-extension/popup.html",
+        "chabad-extension/content.js",
+        "chabad-extension/README.md",
+        "chabad-extension/icon16.png",
+        "chabad-extension/popup.js",
+        "chabad-extension/manifest.json",
+        "chabad-extension/background.js",
+        "chabad-extension/icon48.png"
+      ]
+    },
+    {
+      "name": "din-extension-v3.zip",
+      "sha256": "d7c8432f0e192dc3a3eed94d351ada0be3dae2375293900af9d80285321c1726",
+      "files": [
+        "din-extension-v3/",
+        "din-extension-v3/icon128.png",
+        "din-extension-v3/popup.html",
+        "din-extension-v3/content.js",
+        "din-extension-v3/README.md",
+        "din-extension-v3/icon16.png",
+        "din-extension-v3/popup.js",
+        "din-extension-v3/manifest.json",
+        "din-extension-v3/example-output.json",
+        "din-extension-v3/background.js",
+        "din-extension-v3/icon48.png"
+      ]
+    },
+    {
+      "name": "yeshiva-extension-v1.2.zip",
+      "sha256": "6bf5123bd376beaa3d3a404928e43d3c73787aa2c0446bfcd782590d390a0931",
+      "files": [
+        "yeshiva-extension-v1.2/",
+        "yeshiva-extension-v1.2/icon128.png",
+        "yeshiva-extension-v1.2/popup.html",
+        "yeshiva-extension-v1.2/content.js",
+        "yeshiva-extension-v1.2/icon16.png",
+        "yeshiva-extension-v1.2/popup.js",
+        "yeshiva-extension-v1.2/manifest.json",
+        "yeshiva-extension-v1.2/background.js",
+        "yeshiva-extension-v1.2/icon48.png"
+      ]
+    }
+  ]
+}

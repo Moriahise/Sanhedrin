@@ -1,229 +1,51 @@
-# 📚 Beit Din Gadol Sanhedrin - Responsa Archiv
+# Sanhedrin
 
-Automatisiertes Archiv-System für halachische Teshuvot (Responsa) mit GitHub Actions Integration.
+A Hebrew and English library of Jewish questions, answers and responsa, with original source links and full-text search.
 
-## ✨ Features
+This modernization preserves the published library while replacing manual browser-extension exports and the `responsa.json` runtime index. The original 63,051 public IDs remain valid. A clean repository migration produces **64,264 entries**, including **17 documents**, with all **246 records from the first Yeshiva upload of 2026**. Live collection can increase this total.
 
-- 🔄 **Automatisches Update**: Bei jedem Upload neuer Dateien wird `responsa.json` automatisch aktualisiert
-- 🌐 **Zweisprachig**: Hebräisch (RTL) und Englisch
-- 🔍 **Suche & Filter**: Nach Kategorie, Jahr und Freitext
-- 📱 **Responsiv**: Funktioniert auf Desktop und Mobile
-- 🎨 **Schönes Design**: Elegantes Gold-Blau Theme
+The catalogue searches questions **and answers**. Publication year and import year are separate filters. Hebrew search ignores niqqud; controlled English spelling variants are supported. Dashed cards indicate that a category needs review. Only a complete remote source check can establish that a question has no answers.
 
-## 📁 Projektstruktur
+## Run locally
 
-```
-responsa-archive/
-├── .github/
-│   └── workflows/
-│       └── update-responsa.yml    # GitHub Actions Workflow
-├── responsa/                      # Hier Dateien hinzufügen!
-│   ├── 2025/                      # Nach Jahr organisiert
-│   │   ├── dokument1.html
-│   │   ├── dokument2.html
-│   │   └── dokument3.pdf
-│   └── 2024/
-│       └── ...
-├── index.html                     # Hauptseite
-├── script.js                      # JavaScript Funktionalität
-├── styles.css                     # Styling
-├── responsa.json                  # Auto-generierte Datenbank
-└── update_responsa.py             # Update-Script
-```
+Python 3.12 or newer is required. Install and run from the repository root:
 
-## 🚀 Setup & Verwendung
-
-### 1. GitHub Repository Setup
-
-1. **Repository erstellen** auf GitHub
-2. **Dateien hochladen**:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/DEIN-USERNAME/responsa-archive.git
-   git push -u origin main
-   ```
-
-3. **GitHub Actions aktivieren**:
-   - Gehe zu `Settings` → `Actions` → `General`
-   - Unter "Workflow permissions":
-     - ✅ Wähle "Read and write permissions"
-     - ✅ Aktiviere "Allow GitHub Actions to create and approve pull requests"
-   - Speichern!
-
-### 2. GitHub Pages aktivieren (Optional - für Website)
-
-1. Gehe zu `Settings` → `Pages`
-2. Source: "Deploy from a branch"
-3. Branch: `main` / Folder: `/ (root)`
-4. Speichern!
-
-Deine Website ist dann verfügbar unter:
-`https://DEIN-USERNAME.github.io/responsa-archive/`
-
-### 3. Neue Responsa hinzufügen
-
-**Methode 1: Über GitHub Website** (einfachste Methode)
-1. Gehe zu deinem Repository auf GitHub
-2. Navigiere zu `responsa/2025/` (oder erstelle einen neuen Jahres-Ordner)
-3. Klicke "Add file" → "Upload files"
-4. Ziehe deine HTML/PDF-Dateien rein
-5. Klicke "Commit changes"
-6. ✅ **AUTOMATISCH**: GitHub Actions läuft und aktualisiert `responsa.json`!
-
-**Methode 2: Über Git Command Line**
 ```bash
-# Neue Datei hinzufügen
-cp meine-neue-teshuvah.html responsa/2025/
-
-# Commit und Push
-git add responsa/2025/meine-neue-teshuvah.html
-git commit -m "Neue Teshuvah hinzugefügt"
-git push
-
-# ✅ AUTOMATISCH: GitHub Actions aktualisiert responsa.json!
+python3 -m venv .venv
+.venv/bin/pip install -r requirements-test.txt
+.venv/bin/python -m sanhedrin migrate
+.venv/bin/python tools/audit_library.py --repeat
+.venv/bin/python -m sanhedrin sync
+.venv/bin/python -m sanhedrin build
+.venv/bin/python -m sanhedrin verify-export
+.venv/bin/python -m http.server 8000 --directory dist
 ```
 
-### 4. Workflow manuell starten
+Open `http://localhost:8000`. The `sync` command returns 2 when a source fails or defers; successful pages are retained, other sources continue, and building can proceed. Exit 1 indicates a failed command. The repository root still contains the original site for rollback; **serve the generated `dist` directory** for the modernized site.
 
-Du kannst den Update-Prozess auch manuell triggern:
-1. Gehe zu "Actions" Tab im Repository
-2. Wähle "Update responsa.json"
-3. Klicke "Run workflow"
+## Autonomous publication
 
-## 🛠️ Lokales Testen
+One daily GitHub Actions publisher restores the latest verified database snapshot from GitHub Releases, imports changed local files, checks configured sources, verifies all original IDs, builds the website, saves a new recovery snapshot and deploys the generated `dist` artifact. The schedule is **03:17 UTC**. Set GitHub Pages → Build and deployment → Source to **GitHub Actions** before production activation. Optional secret: `STACKEXCHANGE_KEY`.
 
-### Voraussetzungen
-- Python 3.7+
-- Einen lokalen Webserver
+Chabad RSS metadata collection is **enabled**, following the owner's authorization on 30 September 2026, using the official magazine feed. Mi Yodeya uses the Stack Exchange API with native answer IDs, verified acceptance and attribution. DIN and Aish currently collect metadata through their verified WordPress APIs. Yeshiva direct checks can return HTTP 403; a permitted publisher feed is required for reliable new-item discovery. Full-text adapters require an explicit permission reference in configuration.
 
-### Installation
+An always-on Linux host can use the provided systemd service and timer instead of GitHub Actions. Select one publisher; do not run both against independent state.
+
+## Verification
+
 ```bash
-# Python Dependencies installieren
-pip install beautifulsoup4 lxml
-
-# Update-Script lokal testen
-python3 update_responsa.py
+.venv/bin/python -m unittest discover -s tests -v
+.venv/bin/python tools/audit_library.py --repeat
+.venv/bin/python -m playwright install chromium
+.venv/bin/python tools/browser_checks.py
 ```
 
-### Lokalen Webserver starten
-```bash
-# Mit Python
-python3 -m http.server 8000
+The full-data audit independently checks original IDs, historical aliases, first-2026 Yeshiva import charges and documents. Browser checks exercise full search, source collisions, old links, pagination, mobile layout and failed network requests. Recovery validates both snapshot checksums, database integrity, revisions and catalogue cardinality before replacing state.
 
-# Oder mit Node.js
-npx http-server
+- [Deutsche Anleitung](docs/BETRIEB_DE.md)
+- [Architecture](docs/architecture.md)
+- [Operations, activation and recovery](docs/operations.md)
+- [Extension references](docs/extensions.md)
+- [Implementation evidence](docs/implementation-report.md)
 
-# Dann öffne: http://localhost:8000
-```
-
-## 📝 Dateiformat-Anforderungen
-
-### HTML-Dateien
-- **Titel**: Aus `<title>` Tag extrahiert
-- **Zusammenfassung**: Erste ~50 Wörter des Inhalts
-- **Datum**: Datei-Modifikationszeit
-
-### PDF-Dateien
-- **Titel**: Aus Dateinamen
-- **Zusammenfassung**: (leer)
-- **Datum**: Datei-Modifikationszeit
-
-## 🎯 Kategorien
-
-Folgende Kategorien werden unterstützt:
-- `ritual` - הלכות עבודה / Ritual Law
-- `civil` - דיני ממונות / Civil Law
-- `family` - דיני משפחה / Family Law
-- `kashrut` - כשרות / Kashrut
-- `shabbat` - שבת וחגים / Shabbat & Holidays
-- `conversion` - גיור / Conversion
-- `halacha-history` - הלכה – תולדות / Halacha – History
-- `other` - אחר / Other
-
-**Hinweis**: Neue Dateien erhalten automatisch Kategorie `other`. 
-Du kannst die Kategorien in `responsa.json` manuell bearbeiten.
-
-## 🔧 Erweiterte Konfiguration
-
-### Kategorien anpassen
-Bearbeite `responsa.json` manuell:
-```json
-{
-    "number": 1,
-    "category": "kashrut",          // Kategorie-ID ändern
-    "category_he": "כשרות",         // Hebräischer Name
-    "category_en": "Kashrut",       // Englischer Name
-    ...
-}
-```
-
-### Titel/Zusammenfassung anpassen
-Bearbeite `responsa.json` manuell:
-```json
-{
-    "number": 1,
-    "title_he": "Dein hebräischer Titel",
-    "title_en": "Your English Title",
-    "summary_he": "Hebräische Zusammenfassung...",
-    "summary_en": "English summary...",
-    ...
-}
-```
-
-## 🐛 Troubleshooting
-
-### Workflow läuft nicht
-- ✅ Prüfe "Workflow permissions" in Settings → Actions → General
-- ✅ Stelle sicher, dass "Read and write permissions" aktiviert ist
-
-### responsa.json wird nicht aktualisiert
-1. Gehe zu "Actions" Tab
-2. Klicke auf den letzten Workflow-Lauf
-3. Prüfe die Logs auf Fehler
-
-### Website zeigt keine Daten
-- ✅ Prüfe ob `responsa.json` korrekt formatiert ist (JSON Validator)
-- ✅ Öffne Browser-Konsole (F12) und prüfe auf JavaScript-Fehler
-- ✅ Stelle sicher, dass der Dateipfad in `responsa.json` korrekt ist
-
-### Python Script Fehler
-```bash
-# Debug-Modus
-python3 -u update_responsa.py
-
-# Prüfe Python-Version
-python3 --version  # Sollte 3.7+ sein
-
-# Dependencies neu installieren
-pip install --upgrade beautifulsoup4 lxml
-```
-
-## 📊 Workflow Details
-
-Der GitHub Actions Workflow macht folgendes:
-
-1. ✅ **Checkout** - Repository herunterladen
-2. ✅ **Python Setup** - Python 3.11 installieren
-3. ✅ **Dependencies** - BeautifulSoup4 + lxml installieren
-4. ✅ **Update Script** - `update_responsa.py` ausführen
-5. ✅ **Check Changes** - Prüfen ob `responsa.json` geändert wurde
-6. ✅ **Commit & Push** - Änderungen automatisch committen (falls vorhanden)
-7. ✅ **Summary** - Ergebnis im Actions-Tab anzeigen
-
-## 📄 Lizenz
-
-Alle Rechte vorbehalten © 2025 Beit Din Gadol Sanhedrin
-
-## 💡 Support
-
-Bei Problemen:
-1. Prüfe die [Actions Tab](../../actions) für Workflow-Logs
-2. Öffne ein Issue im Repository
-3. Konsultiere die Troubleshooting-Sektion oben
-
----
-
-**Viel Erfolg mit dem Responsa-Archiv! 📚✨**
+Original archives, chunks and `responsa.json` remain migration inputs. The new website does not fetch them, and the publisher does not rewrite them.

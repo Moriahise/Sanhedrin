@@ -1,0 +1,41 @@
+{
+  "run_id": "e5b54d4f9d2b44dd974a1c13cde282a1",
+  "sources": {
+    "miyodeya": {
+      "status": "ok",
+      "counts": {
+        "inserted": 120,
+        "updated": 4145
+      },
+      "requests": 129
+    },
+    "din": {
+      "status": "ok",
+      "counts": {
+        "inserted": 679,
+        "updated": 3
+      },
+      "requests": 8
+    },
+    "aish": {
+      "status": "ok",
+      "counts": {
+        "inserted": 2,
+        "updated": 2
+      },
+      "requests": 2
+    },
+    "chabad": {
+      "status": "ok",
+      "counts": {
+        "updated": 4
+      },
+      "requests": 2
+    },
+    "yeshiva": {
+      "status": "error",
+      "reason": "yeshiva.org.il: HTTP 403"
+    }
+  },
+  "status": "partial"
+}
