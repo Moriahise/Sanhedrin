@@ -57,7 +57,7 @@ def run(directory, report_dir):
             )
             assert lookup["shabbat"] > 1000
             assert lookup["hebrew"] == lookup["niqqud"]
-            assert lookup["documents"] == 17
+            assert lookup["documents"] == manifest["documents"]
             assert lookup["imported2026"] > lookup["published2026"]
             assert lookup["ambiguous"] == 2
             assert lookup["contextProvider"] == "yeshiva"

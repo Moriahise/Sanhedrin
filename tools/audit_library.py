@@ -1,6 +1,7 @@
 """Assertions against original repository data, not the migration implementation."""
 
 import argparse
+import hashlib
 import json
 import sys
 from pathlib import Path
@@ -59,7 +60,19 @@ def audit(store, root, repeat=False):
         found.append(value["id"])
     assert len(rows) == 246 and len(set(found)) == 246
     documents = [q for q in store.records() if q["kind"] == "document"]
-    assert len(documents) == 17
+    expected_documents = {
+        p.relative_to(root).as_posix() for p in (root / "responsa").rglob("*.html")
+    }
+    if (root / "responsa.json").exists():
+        expected_documents.update(
+            row["file"] for row in json.loads((root / "responsa.json").read_text())
+            if isinstance(row, dict) and str(row.get("file", "")).startswith("responsa/")
+        )
+    actual_documents = {q.get("document_path"): q for q in documents}
+    assert set(actual_documents) == expected_documents, "Document paths differ from source files"
+    for path in expected_documents:
+        expected_hash = hashlib.sha256((root / path).read_bytes()).hexdigest()
+        assert actual_documents[path]["document_sha256"] == expected_hash, path
     before = store.logical_hash()
     if repeat:
         migrate(store, root)
