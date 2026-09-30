@@ -313,7 +313,7 @@ def compose(store, root, request, *, identity, api_key="", model="gpt-4.1-mini",
             raise DataError("Saved answer text is unavailable for source: " + pid)
         sources.append(source)
     plan, diagnostics, stats = None, [], {}
-    enhanced = request.get("search_version") == 2
+    enhanced = request.get("search_version") == 2 or request["use_openai"]
     if enhanced and request["use_openai"] and api_key and not api_block_reason:
         from .research import plan_question
         try:

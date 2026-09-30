@@ -127,6 +127,14 @@ class ResearchTests(unittest.TestCase):
         self.assertNotIn('The optional API did not produce', render(result))
         self.assertNotIn('Treatment is not supported', render(result))
 
+    def test_older_api_requests_also_receive_research_and_review(self):
+        request={k:v for k,v in self.request.items() if k not in {'search_version','source_urls','external_research'}}
+        with patch('sanhedrin.research.plan_question',return_value=PLAN) as plan, patch('sanhedrin.teshuva.api_draft',return_value=copy.deepcopy(DRAFT)), patch('sanhedrin.research.review_draft',return_value={'status':'needs_research','issues':['Unsupported treatment'],'clarification_questions':[]}) as review:
+            result=compose(self.store,self.root,request,identity='teshuva-1-123456789abc',api_key='test-only')
+        plan.assert_called_once();review.assert_called_once()
+        self.assertEqual(result['publication_status'],'needs_research')
+        self.assertEqual(result['retrieval']['scanned'],1)
+
     def test_review_requires_empty_issues_for_ready(self):
         with self.assertRaises(DataError):
             review_draft('Question', [], DRAFT, api_key='test', model='test', opener=lambda *a, **k: mock_response({'status': 'ready', 'issues': ['Missing evidence'], 'clarification_questions': []}))
