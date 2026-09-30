@@ -1,0 +1,18 @@
+{
+  "baseline_ids_verified": 63051,
+  "original_aliases_verified": 260640,
+  "first_2026_yeshiva_upload_verified": 246,
+  "documents": 17,
+  "total": 65069,
+  "provider_counts": {
+    "aish": 557,
+    "chabad": 2407,
+    "din": 15438,
+    "local": 17,
+    "miyodeya": 41148,
+    "yeshiva": 5502
+  },
+  "logical_hash": "39eb589157d9c51fd711676eb8f7629b2fc12fa0ed88483b7a13d515bd177066",
+  "repeat_migration_unchanged": true,
+  "errors": []
+}

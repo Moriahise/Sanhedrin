@@ -35,6 +35,11 @@ jobs:
         run: |
           python -m sanhedrin --report test-results/build.json build
           python -m sanhedrin --report test-results/export-verification.json verify-export
+      - name: Full database recovery
+        run: |
+          python -m sanhedrin --report test-results/snapshot.json snapshot --directory .sanhedrin/snapshot
+          python -m sanhedrin --db .sanhedrin/restored.sqlite --report test-results/restore.json restore --directory .sanhedrin/snapshot
+          python -m sanhedrin --db .sanhedrin/restored.sqlite --report test-results/restored-verification.json verify
       - name: Browser checks
         run: |
           python -m playwright install --with-deps chromium

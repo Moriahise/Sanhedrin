@@ -1,7 +1,5 @@
-# Modernization work branch
+# Modernization delivery
 
-The autonomous-library modernization is being restored and verified after automatic scratch-workspace maintenance. This branch is isolated from main and production.
+The recovered implementation is secured in committed files and delivered through PR #4. The original main is preserved at `backup/main-before-modernization-2026-09-30-c18ee5c` (commit `c18ee5c8771fd0e1e2bb0ee3c72f29d6d25f507a`).
 
-Target: preserve all 63,051 public IDs, restore missing source records, replace the responsa.json runtime monolith with a versioned catalogue and full-text index, and replace manual extension exports with transactional collectors and durable recovery snapshots.
-
-Previous full-data audit: 64,264 entries including 17 documents; 246/246 first-2026 Yeshiva import records and 260,640 historical aliases retained. These results must be reproduced on the committed implementation before release.
+See [implementation-report.md](implementation-report.md) for reproduced data, live source checks and validation; [BETRIEB_DE.md](BETRIEB_DE.md) for the complete German operating instructions.

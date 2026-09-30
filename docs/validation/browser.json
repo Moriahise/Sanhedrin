@@ -1,0 +1,28 @@
+{
+  "initial_resource_bytes": 57390,
+  "search": {
+    "shabbat": 7059,
+    "hebrew": 4369,
+    "niqqud": 4369,
+    "documents": 17,
+    "imported2026": 930,
+    "published2026": 189,
+    "ambiguous": 2,
+    "contextProvider": "yeshiva"
+  },
+  "total": 65069,
+  "javascript_errors": [],
+  "status": "ok",
+  "checks": [
+    "pagination",
+    "full text",
+    "Hebrew niqqud",
+    "separate date filters",
+    "source collisions",
+    "legacy src links",
+    "documents",
+    "mobile layout",
+    "HTTP failure",
+    "changed snapshot"
+  ]
+}
