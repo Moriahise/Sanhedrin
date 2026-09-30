@@ -339,9 +339,189 @@ footer {
   font-size: 0.8rem;
   color: var(--muted);
 }
+/* Song collections remain available independently of catalogue loading. */
+.music-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1px solid #d6bb8d;
+  border-radius: 7px;
+  padding: 0.4rem 0.7rem;
+  background: #fff7e8;
+  text-decoration: none;
+  font-weight: 700;
+}
+.music-nav:hover {
+  background: #f8ecd4;
+}
+.music-feature {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+  margin: 0 0 2rem;
+  padding: 1.4rem 1.6rem;
+  border: 1px solid #a6824e;
+  border-radius: 12px;
+  background: linear-gradient(115deg, #173b3b, #254d47);
+  color: #fff9eb;
+}
+.music-feature-note {
+  display: grid;
+  place-items: center;
+  flex: 0 0 58px;
+  width: 58px;
+  height: 58px;
+  border: 1px solid #c7a66f;
+  border-radius: 50%;
+  color: #edce98;
+  font-size: 2rem;
+}
+.music-feature-copy {
+  flex: 1;
+  min-width: 0;
+}
+.music-feature-copy p {
+  margin: 0.3rem 0 0;
+  color: #e2e6da;
+  font-size: 0.86rem;
+}
+.music-feature-copy .music-feature-kicker {
+  margin: 0;
+  color: #edce98;
+  font-weight: 700;
+  font-size: 0.73rem;
+}
+.music-feature h2 {
+  margin: 0.3rem 0;
+  font-size: clamp(1.15rem, 2.2vw, 1.5rem);
+}
+.music-feature-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  flex-shrink: 0;
+  border-radius: 7px;
+  padding: 0.7rem 1rem;
+  background: #f1d5a2;
+  color: #173b3b;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.music-feature-link:hover {
+  background: #fff1d4;
+}
+.music-section {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid #c9ad7e;
+  scroll-margin-top: 1.5rem;
+}
+.music-section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.music-section-heading .eyebrow {
+  margin: 0;
+  color: #805b28;
+}
+.music-section-heading h2 {
+  margin: 0.3rem 0;
+  font-size: clamp(1.7rem, 3vw, 2.1rem);
+}
+.music-section-heading p:not(.eyebrow) {
+  margin: 0.4rem 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.music-section-heading .music-tab-hint {
+  font-size: 0.78rem;
+}
+.music-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+.music-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 1.3rem;
+  border: 1px solid #d4c4a8;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #fffdf7, #fff);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.music-card:hover {
+  border-color: #a67b3d;
+  box-shadow: 0 5px 20px #173b3b12;
+}
+.music-card-top {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: #805b28;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+.music-card-symbol {
+  display: grid;
+  place-items: center;
+  flex: 0 0 32px;
+  height: 32px;
+  border: 1px solid #dbc49e;
+  border-radius: 50%;
+  background: #fff5e0;
+  font-size: 1rem;
+}
+.music-card h3 {
+  margin: 0.9rem 0 0.4rem;
+  font-size: 1.08rem;
+  line-height: 1.5;
+}
+.music-card p {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.music-card-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: auto;
+  padding-top: 0.85rem;
+  border-top: 1px solid #e7decf;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+:root[lang="he"] .music-en,
+:root[lang="en"] .music-he {
+  display: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .music-card {
+    transition: none;
+  }
+}
 @media (max-width: 900px) {
-  .cards {
+  .cards,
+  .music-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .music-feature {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .music-feature-link {
+    margin-inline-start: 74px;
   }
   .filters {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -352,8 +532,30 @@ footer {
 }
 @media (max-width: 560px) {
   .cards,
-  .health-grid {
+  .health-grid,
+  .music-grid {
     grid-template-columns: 1fr;
+  }
+  .music-feature {
+    padding: 1.1rem;
+    gap: 0.8rem;
+  }
+  .music-feature-note {
+    flex-basis: 40px;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+  .music-feature-link {
+    margin-inline-start: 0;
+    width: 100%;
+  }
+  .music-nav {
+    padding: 0.3rem 0.45rem;
+  }
+  .music-section {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
   }
   .masthead {
     align-items: flex-start;
