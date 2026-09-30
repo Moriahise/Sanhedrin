@@ -8,6 +8,8 @@ on:
     paths:
       - 'sanhedrin/**'
       - 'web/**'
+      - 'Rav/**'
+      - 'Sanhedrin/**'
       - 'config/**'
       - 'tools/audit_library.py'
       - 'requirements.txt'

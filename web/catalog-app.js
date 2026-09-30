@@ -3,6 +3,7 @@ const $ = (id) => document.getElementById(id),
   cat = new Catalogue();
 const dictionaries = {
   en: {
+    ask: "Ask a question",
     health: "Source status",
     eyebrow: "Knowledge preserved. Sources checked.",
     heading: "A world of questions. A library of answers.",
@@ -53,6 +54,7 @@ const dictionaries = {
     changed: "The library was updated. Refresh to load the current version.",
   },
   he: {
+    ask: "שאלה ותשובה",
     health: "מצב המקורות",
     eyebrow: "ידע שנשמר. מקורות שנבדקים.",
     heading: "מרחב של שאלות. ספרייה של תשובות.",
