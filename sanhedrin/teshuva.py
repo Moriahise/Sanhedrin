@@ -16,9 +16,8 @@ MAX_QUESTION = 8000
 PORTRAIT_ROTATION_PATH = "Sanhedrin/portrait-rotation.json"
 TEXT = {
     "en": {
-        "title": "Teshuva · source-based draft", "question": "Question",
+        "title": "Teshuva", "question": "Question",
         "sources": "Sources from the library", "draft": "Draft answer",
-        "notice": "Source-based draft for review. The selected portrait is a presentation profile; it does not identify the author of the source texts or imply rabbinic approval.",
         "basis": "The following passages are relevant source material from the saved library. Their applicability to the question must be checked in context.",
         "empty": "The saved library does not contain enough matching answer text for this question. No answer has been inferred from titles or source links.",
         "original": "Original source", "full": "Read the complete saved text", "excerpt": "Excerpt",
@@ -28,9 +27,8 @@ TEXT = {
         "owner_only": "OpenAI is available only for requests submitted and processed by Moriahise. The saved source passages are shown below.",
     },
     "he": {
-        "title": "תשובה · טיוטה מבוססת מקורות", "question": "שאלה",
+        "title": "תשובה", "question": "שאלה",
         "sources": "מקורות מהמאגר", "draft": "טיוטת תשובה",
-        "notice": "טיוטה מבוססת מקורות לעיון. התמונה הנבחרת משמשת פרופיל תצוגה; היא אינה מזהה את מחבר המקורות ואינה מעידה על אישור רבני.",
         "basis": "הקטעים הבאים הם מקורות רלוונטיים מהמאגר השמור. יש לבדוק את התאמתם לשאלה בתוך הקשרם המלא.",
         "empty": "אין במאגר די טקסט של תשובות התואמות לשאלה. לא הוסקה תשובה מכותרות או מקישורים בלבד.",
         "original": "למקור המקורי", "full": "לקריאת הטקסט השמור המלא", "excerpt": "קטע",
@@ -255,7 +253,7 @@ def render(result, *, prefix="../"):
     esc = lambda text: html.escape(str(text or ""), quote=True)
     profile = result["profile"]
     body = '<header class="answer-profile"><img width="88" height="88" src="' + prefix + esc(profile["image"]) + '" alt="' + esc(profile["name"]) + '"><div><p>SANHEDRIN</p><h1>' + esc(words["title"]) + '</h1><p>' + esc(profile["name"]) + '</p></div></header>'
-    body += '<p class="notice">' + esc(words["notice"]) + '</p><h2>' + words["question"] + '</h2><div dir="auto">' + sanitize(result["question_html"]) + '</div><h2>' + words["draft"] + '</h2>'
+    body += '<h2>' + words["question"] + '</h2><div dir="auto">' + sanitize(result["question_html"]) + '</div><h2>' + words["draft"] + '</h2>'
     body += '<p class="help">' + esc(words["api_mode"] if result.get("mode") == "openai" else words["library_mode"]) + '</p>'
     if result.get("openai_status") in {"failed", "unconfigured", "insufficient"}:
         body += '<p class="notice">' + esc(words["fallback"]) + '</p>'
