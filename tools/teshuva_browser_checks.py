@@ -57,6 +57,11 @@ def run(directory, reports):
             assert set(data["languages"]) == {"en", "he"}
             assert data["total"] >= 64000
             result["retrieval"] = data
+            # The owner's actual failing query must find the rare speech term,
+            # rather than only generic articles about talking or prophetic kings.
+            speech = page.evaluate("""async()=>{const {Catalogue,retrieve}=await import('./teshuva-data.js');const c=new Catalogue();await c.init();const config=await(await fetch('teshuva-search.json')).json();const q=\"Memallel vs. M'daber vs. M'Siach Are porpoises considered Memallel or Chai? Why is Memallel chosen as the label for the fourth kingdom? Speech (Dibbur) that is not heard or accepted is not called speech. Sicha is casual conversation. Is this distinction correct?\";const a=await retrieve(c,q,config,8);return {ids:a.sources.map(s=>s.id),titles:a.sources.map(s=>s.title),text:a.sources.map(s=>s.text).join(' ')};}""")
+            assert "ממללא" in speech["text"] or "Onkelos" in speech["text"], speech["titles"]
+            result["speech_retrieval"] = {"ids": speech["ids"], "titles": speech["titles"]}
             # Keyboard formatting and HTML sanitation are checked in the real editor.
             page.evaluate("""()=>{const e=document.querySelector('#question-editor'),r=document.createRange();r.selectNodeContents(e);const s=getSelection();s.removeAllRanges();s.addRange(r);}""")
             page.locator('[data-command="bold"]').click()

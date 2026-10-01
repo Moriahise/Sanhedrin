@@ -104,7 +104,9 @@ export async function retrieve(cat, query, config, maxSources = 6, questionHtml 
       const rarity = Math.log(2 + cat.manifest.total / Math.max(1, list.length / 2));
       for (let i = 0; i < list.length; i += 2) {
         const n = list[i]; if (allowed && !allowed.has(n)) continue;
-        best.set(n, Math.max(best.get(n) || 0, (1 + list[i + 1]) * rarity));
+        // Repeating a broad word must not outweigh a rare exact term. Index
+        // weights include frequency, so damp them before applying rarity.
+        best.set(n, Math.max(best.get(n) || 0, (1 + Math.log1p(list[i + 1]) / 4) * rarity));
       }
     }
     for (const [n, score] of best) { const old = ranks.get(n) || { coverage: 0, score: 0 }; ranks.set(n, { coverage: old.coverage + 1, score: old.score + score }); }
