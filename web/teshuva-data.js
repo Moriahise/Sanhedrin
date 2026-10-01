@@ -92,6 +92,7 @@ export async function retrieve(cat, query, config, maxSources = 6, questionHtml 
   // Keep the full question context even when it has a separate heading.
   // The heading contributes title affinity; it must not discard body terms.
   const title=questionTitle(questionHtml), groups = groupsFor(query, config);
+  const titleGroups = new Set(groupsFor(title,config).map(group=>group.join('|')));
   if (!groups.length) return { sources: [], groups, candidates: 0 };
   const allowedSpec = cat.manifest.facets.evidence?.available;
   const allowed = allowedSpec ? new Set(await cat.json(allowedSpec.file)) : null;
@@ -104,15 +105,16 @@ export async function retrieve(cat, query, config, maxSources = 6, questionHtml 
     for (let term of group) {
       term = cat.manifest.synonyms[term] || term;
       const list = termParts.get(term) || [];
-      const rarity = Math.log(2 + cat.manifest.total / Math.max(1, list.length / 2));
       for (let i = 0; i < list.length; i += 2) {
         const n = list[i]; if (allowed && !allowed.has(n)) continue;
-        // Repeating a broad word must not outweigh a rare exact term. Index
-        // weights include frequency, so damp them before applying rarity.
-        best.set(n, Math.max(best.get(n) || 0, (1 + Math.log1p(list[i + 1]) / 4) * rarity));
+        best.set(n, Math.max(best.get(n) || 0, 1 + Math.log1p(list[i + 1]) / 4));
       }
     }
-    for (const [n, score] of best) { const old = ranks.get(n) || { coverage: 0, score: 0 }; ranks.set(n, { coverage: old.coverage + 1, score: old.score + score }); }
+    // Rarity belongs to the concept's union of documents, not to one spelling.
+    // A rare transliteration of ordinary "speech" is still a common concept.
+    const rarity = Math.log(2 + cat.manifest.total / Math.max(1,best.size));
+    const anchor = titleGroups.has(group.join('|')) && best.size <= .02*cat.manifest.total ? 4 : 1;
+    for (const [n, weight] of best) { const old = ranks.get(n) || { coverage: 0, score: 0 }; ranks.set(n, { coverage: old.coverage + 1, score: old.score + weight*rarity*anchor }); }
   }
   const ranked = [...ranks].sort((a,b) => b[1].score - a[1].score || a[0]-b[0]);
   const cards = await cat.metadata(ranked.slice(0, config.candidate_limit || 160).map(([n]) => n));
