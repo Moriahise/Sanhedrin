@@ -89,7 +89,9 @@ export function sourceFrom(record, groups) {
 
 export async function retrieve(cat, query, config, maxSources = 6, questionHtml = query) {
   await cat.init();
-  const title=questionTitle(questionHtml), groups = groupsFor(query === plain(questionHtml) ? title : query, config);
+  // Keep the full question context even when it has a separate heading.
+  // The heading contributes title affinity; it must not discard body terms.
+  const title=questionTitle(questionHtml), groups = groupsFor(query, config);
   if (!groups.length) return { sources: [], groups, candidates: 0 };
   const allowedSpec = cat.manifest.facets.evidence?.available;
   const allowed = allowedSpec ? new Set(await cat.json(allowedSpec.file)) : null;

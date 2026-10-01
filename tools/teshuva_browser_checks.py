@@ -60,9 +60,11 @@ def run(directory, reports):
             result["retrieval"] = data
             # The owner's actual failing query must find the rare speech term,
             # rather than only generic articles about talking or prophetic kings.
-            speech = page.evaluate("""async()=>{const {Catalogue,retrieve}=await import('./teshuva-data.js');const c=new Catalogue();await c.init();const config=await(await fetch('teshuva-search.json')).json();const q=\"Memallel vs. M'daber vs. M'Siach Are porpoises considered Memallel or Chai? Why is Memallel chosen as the label for the fourth kingdom? Speech (Dibbur) that is not heard or accepted is not called speech. Sicha is casual conversation. Is this distinction correct?\";const a=await retrieve(c,q,config,8);return {ids:a.sources.map(s=>s.id),titles:a.sources.map(s=>s.title),text:a.sources.map(s=>s.text).join(' ')};}""")
+            speech = page.evaluate("""async()=>{const {Catalogue,retrieve}=await import('./teshuva-data.js');const c=new Catalogue();await c.init();const config=await(await fetch('teshuva-search.json')).json();const title=\"Memallel vs. M'daber vs. M'Siach\";const body=\"Are porpoises considered Memallel or Chai? Why is Memallel chosen as the label for the fourth kingdom? Speech (Dibbur) that is not heard or accepted is not called speech. Sicha is casual conversation. Is this distinction correct?\";const q=title+' '+body;const a=await retrieve(c,q,config,8);const b=await retrieve(c,q,config,8,'<p>'+title+'</p><p>'+body+'</p>');const fields=a=>({ids:a.sources.map(s=>s.id),titles:a.sources.map(s=>s.title),text:a.sources.map(s=>s.text).join(' ')});return {...fields(a),rich:fields(b)};}""")
             assert "ממללא" in speech["text"] or "Onkelos" in speech["text"], speech["titles"]
+            assert "ממללא" in speech["rich"]["text"] or "Onkelos" in speech["rich"]["text"], speech["rich"]["titles"]
             result["speech_retrieval"] = {"ids": speech["ids"], "titles": speech["titles"]}
+            result["speech_rich_retrieval"] = {"ids": speech["rich"]["ids"], "titles": speech["rich"]["titles"]}
             # Keyboard formatting and HTML sanitation are checked in the real editor.
             page.evaluate("""()=>{const e=document.querySelector('#question-editor'),r=document.createRange();r.selectNodeContents(e);const s=getSelection();s.removeAllRanges();s.addRange(r);}""")
             page.locator('[data-command="bold"]').click()
