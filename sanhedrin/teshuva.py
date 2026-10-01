@@ -345,7 +345,7 @@ def compose(store, root, request, *, identity, api_key="", model="gpt-4.1-mini",
             raise DataError('Saved answer text is unavailable for source: ' + pid)
         else:
             diagnostics.append({'provider': 'library', 'source_id': pid, 'status': 'unavailable'})
-    result = {'schema': 1, 'answer_version': 6, 'id': identity, 'created_at': utcnow(), 'request_hash': digest(request),
+    result = {'schema': 1, 'answer_version': 7, 'id': identity, 'created_at': utcnow(), 'request_hash': digest(request),
               'question_html': request['question_html'], 'question_text': request['question_text'],
               'language': request['language'], 'profile': next(p for p in profiles(root) if request['profile_id'] == 'auto' or p['id'] == request['profile_id']),
               'mode': 'library', 'openai_status': api_block_reason or ('unconfigured' if request['use_openai'] else 'off'),
