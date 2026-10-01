@@ -345,7 +345,7 @@ def compose(store, root, request, *, identity, api_key="", model="gpt-4.1-mini",
             raise DataError('Saved answer text is unavailable for source: ' + pid)
         else:
             diagnostics.append({'provider': 'library', 'source_id': pid, 'status': 'unavailable'})
-    result = {'schema': 1, 'answer_version': 5, 'id': identity, 'created_at': utcnow(), 'request_hash': digest(request),
+    result = {'schema': 1, 'answer_version': 6, 'id': identity, 'created_at': utcnow(), 'request_hash': digest(request),
               'question_html': request['question_html'], 'question_text': request['question_text'],
               'language': request['language'], 'profile': next(p for p in profiles(root) if request['profile_id'] == 'auto' or p['id'] == request['profile_id']),
               'mode': 'library', 'openai_status': api_block_reason or ('unconfigured' if request['use_openai'] else 'off'),
@@ -425,14 +425,16 @@ def compose(store, root, request, *, identity, api_key="", model="gpt-4.1-mini",
                     keep = {c['paragraph'] for c in checks if c['supported'] and c['material_scope_matches'] and c['answers_question'] and not c['unsupported_analogy']}
                 else:
                     keep = set(range(1, len(draft['paragraphs']) + 1)) if review['status'] == 'ready' else set()
-                diagnostics.append({'provider':'review','status':'reviewed','round':round_number,'paragraphs':len(draft['paragraphs']),'retained':len(keep),'reasons':[c['reason'] for c in checks if c['paragraph'] not in keep][:8]})
-                paragraphs = [p for i, p in enumerate(draft['paragraphs'], 1) if i in keep]
+                diagnostics.append({'provider':'review','status':'reviewed','round':round_number,'paragraphs':len(draft['paragraphs']),'retained':len(keep),'reasons':[c['reason'] for c in checks if c['paragraph'] not in keep][:8], 'verification_failures':list(dict.fromkeys(f for c in checks for f in c.get('verification_failures',[])))})
+                by_number = {c['paragraph']:c for c in checks}
+                paragraphs = [{'text':by_number[i].get('verified_text',p['text']),'citations':by_number[i].get('verified_citations',p['citations'])} if i in by_number else p for i,p in enumerate(draft['paragraphs'],1) if i in keep]
+                edited = any(tokens(p["text"]) != tokens(original["text"]) for p, original in zip(paragraphs, [p for i,p in enumerate(draft['paragraphs'],1) if i in keep]))
                 gaps = list(dict.fromkeys(draft.get('missing_evidence', []) + review.get('issues', [])))[:8]
                 clarifications = [q for q in draft.get('clarification_questions', []) + review.get('clarification_questions', [])
                                   if not re.search(r'sources?|references?|books?|preferred|authoritative|מקורות|ספרים', q, re.I)][:3]
                 if len(keep) != len(draft['paragraphs']) and not gaps:
                     gaps = ['An unsupported part was removed; the answer covers only the documented points below.']
-                complete = draft['status'] == 'draft' and review['status'] == 'ready' and len(keep) == len(draft['paragraphs']) and not gaps and not clarifications
+                complete = draft['status'] == 'draft' and review['status'] == 'ready' and len(keep) == len(draft['paragraphs']) and not edited and not gaps and not clarifications
                 if paragraphs:
                     checked = {**result, 'mode': 'openai', 'model': model, 'openai_status': 'draft' if complete else 'partial',
                                'publication_status': 'ready' if complete else 'partial', 'answer_kind': 'complete' if complete else 'partial',

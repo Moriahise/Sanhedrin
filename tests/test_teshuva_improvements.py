@@ -95,7 +95,7 @@ class ImprovementsTests(unittest.TestCase):
     def test_old_failed_request_is_upgraded_once_with_same_identity(self):
         api=FakeGitHub();first=save(api,self.root,self.store,9,self.request,api_block_reason='disabled')
         path='Sanhedrin/'+first['id']+'.json';old=json.loads(api.files[path]);old.pop('answer_version');old['publication_status']='needs_research';old['openai_status']='insufficient';api.files[path]=json.dumps(old)
-        replacement={**old,'answer_version':5,'citation_audit_version':1,'publication_status':'ready','mode':'openai','openai_status':'draft','paragraphs':[{'text':'A supported answer.','citations':[1]}]}
+        replacement={**old,'answer_version':6,'citation_audit_version':1,'publication_status':'ready','mode':'openai','openai_status':'draft','paragraphs':[{'text':'A supported answer.','citations':[1]}]}
         with patch('tools.save_teshuva.compose',return_value=replacement) as run:
             second=save(api,self.root,self.store,9,self.request,api_key='test')
         run.assert_called_once();self.assertEqual(first['id'],second['id']);self.assertEqual(second['publication_status'],'ready')
@@ -148,3 +148,17 @@ class ImprovementsTests(unittest.TestCase):
             return mock_response({'status':'ready','issues':[],'clarification_questions':[],'checks':checks})
         review=review_draft('Creation levels',[{'title':'Other','text':'Unrelated text.'},{'title':'Creation','text':'There are four levels of creation. The fourth level is speaking.'}],{'paragraphs':paragraphs},api_key='test',model='test',opener=opener)
         self.assertEqual([c['paragraph'] for c in review['checks']],[1,2]);self.assertEqual(review['status'],'ready')
+
+    def test_verified_claim_survives_unverified_neighbour_in_same_paragraph(self):
+        valid='The source lists four levels of creation.'
+        original=valid+' It also establishes every distinction about hearing, acceptance and literacy, and recommends cleaning bamboo schach with vinegar.'
+        check={'supported':True,'material_scope_matches':True,'answers_question':True,'unsupported_analogy':False,'reason':'The classification is documented.','evidence':[{'claim':valid,'source':1,'quote':'four levels of creation','kind':'explicit'}]}
+        review=review_draft('Creation levels',[{'title':'Creation','text':'There are four levels of creation.'}],{'paragraphs':[{'text':original,'citations':[1]}]},api_key='test',model='test',opener=lambda *a,**k:mock_response({'status':'partial','issues':['Other distinctions are unestablished.'],'clarification_questions':[],'checks':{'1':check}}))
+        self.assertTrue(review['checks'][0]['supported']);self.assertEqual(review['checks'][0]['verified_text'],valid)
+        self.assertNotIn('vinegar',review['checks'][0]['verified_text'])
+
+    def test_authentic_short_phrase_and_typography_are_not_rejected(self):
+        claim='Onkelos describes the human as a “speaking spirit”.'
+        check={'supported':True,'material_scope_matches':True,'answers_question':True,'unsupported_analogy':False,'reason':'The phrase is explicit.','evidence':[{'claim':'Onkelos describes the human as a "speaking spirit".','source':1,'quote':'speaking spirit','kind':'explicit'}]}
+        review=review_draft('Memallel',[{'title':'Onkelos Genesis 2:7','text':'The human became a speaking spirit.'}],{'paragraphs':[{'text':claim,'citations':[1]}]},api_key='test',model='test',opener=lambda *a,**k:mock_response({'status':'ready','issues':[],'clarification_questions':[],'checks':{'1':check}}))
+        self.assertTrue(review['checks'][0]['supported'])

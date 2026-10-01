@@ -515,29 +515,35 @@ def review_draft(question, sources, draft, *, api_key, model, opener=urllib.requ
         if check['supported']:
             from .html import tokens
             paragraph = draft['paragraphs'][check['paragraph']-1]
-            copied_claims, covered_positions, valid = [], set(), True
+            copied_claims, valid_items, failures = [], [], []
             items = check.get('evidence', [])
             if not isinstance(items, list) or not 1 <= len(items) <= 12:
-                valid = False
+                failures.append('missing_evidence')
                 items = []
             for item in items:
                 n = item.get('source')
                 claim, quote = item.get('claim', ''), item.get('quote', '')
-                if (type(n) is not int or n not in paragraph['citations'] or not 1 <= n <= len(sources)
-                    or not isinstance(claim, str) or not claim.strip() or claim not in paragraph['text']
-                    or not isinstance(quote, str) or not 3 <= len(quote.split()) <= 30
-                    or item.get('kind') not in {'explicit','inference'}):
-                    valid = False; continue
+                if type(n) is not int or n not in paragraph['citations'] or not 1 <= n <= len(sources):
+                    failures.append('invalid_source'); continue
+                if not isinstance(claim, str) or not claim.strip() or ' '.join(tokens(claim)) not in ' '.join(tokens(paragraph['text'])):
+                    failures.append('claim_not_verbatim'); continue
+                if not isinstance(quote, str) or len(quote.strip()) < 8 or not 1 <= len(quote.split()) <= 30 or item.get('kind') not in {'explicit','inference'}:
+                    failures.append('invalid_quote'); continue
                 normalized_quote = ' '.join(tokens(quote))
                 if not normalized_quote or normalized_quote not in ' '.join(tokens(sources[n-1]['text'])):
-                    valid = False; continue
-                copied_claims.append(claim)
-                start = paragraph['text'].find(claim)
-                covered_positions.update(range(start, start + len(claim)))
-            if len(covered_positions) < .7 * len(paragraph['text']):
-                valid = False
-            if not valid:
+                    failures.append('quote_not_in_source'); continue
+                # A verified fragment cannot carry unverified neighbouring claims.
+                # Keep the copied claim itself, rather than the whole paragraph.
+                if claim.strip() not in copied_claims:
+                    copied_claims.append(claim.strip()); valid_items.append(item)
+            if not copied_claims:
                 check.update(supported=False, reason='A factual claim lacks a verifiable passage in its cited source.')
+            else:
+                check['verified_text'] = ' '.join(copied_claims)
+                check['verified_citations'] = list(dict.fromkeys(e['source'] for e in valid_items))
+                check['evidence'] = valid_items
+            if failures:
+                check['verification_failures'] = list(dict.fromkeys(failures))
     rejected = [c for c in checks if not c['supported'] or not c['material_scope_matches'] or not c['answers_question'] or c['unsupported_analogy']]
     if rejected and review['status'] == 'ready':
         review.update(status='needs_research',issues=[c['reason'] for c in rejected][:8])
