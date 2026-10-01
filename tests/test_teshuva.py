@@ -62,7 +62,7 @@ class TeshuvaTests(unittest.TestCase):
         self.rerank_patch.start(); self.addCleanup(self.rerank_patch.stop)
         # Existing fixtures isolate drafting; research stages have separate regression tests.
         self.plan_patch = patch('sanhedrin.research.plan_question', return_value={'queries_en':['shabbat candles'],'queries_he':['שבת נרות'],'subquestions':['What do the sources say?']})
-        self.review_patch = patch('sanhedrin.research.review_draft', return_value={'status':'ready','issues':[],'clarification_questions':[]})
+        self.review_patch = patch('sanhedrin.research.review_draft', return_value={'status':'ready','issues':[],'clarification_questions':[],'citation_audit_version':1})
         self.plan_patch.start();self.review_patch.start()
         self.addCleanup(self.plan_patch.stop);self.addCleanup(self.review_patch.stop)
         self.tmp = tempfile.TemporaryDirectory()

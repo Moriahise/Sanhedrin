@@ -9,7 +9,7 @@ from unittest.mock import patch
 from sanhedrin.model import normalize
 from sanhedrin.store import Store
 from sanhedrin.teshuva import compose, profiles, retrieve_library, search_groups, render
-from sanhedrin.research import source_urls, web_queries, extract_page, rerank_sources, sefaria_text, plan_question
+from sanhedrin.research import source_urls, web_queries, extract_page, rerank_sources, sefaria_text, plan_question, review_draft
 from tools.save_teshuva import save
 from test_teshuva import FakeGitHub, mock_response
 
@@ -45,7 +45,7 @@ class ImprovementsTests(unittest.TestCase):
         self.assertEqual(source_urls('https://127.0.0.1/a https://user:secret@example.com/a'),[])
 
     def test_fragment_extraction_reads_dibbur_not_first_section_of_book(self):
-        page=('<title>Likutei Etzot</title><main><div class="mw-parser-output"><h2 id="Other">Other</h2><p>'+('Unrelated. '*400)+'</p><h2 id="DIBBUR_-_Speech">Speech</h2><p>'+('Dibbur is heard and accepted in the quoted discussion. '*3)+'</p><h2 id="Next">Next</h2><p>Different chapter</p></div></main>').encode()
+        page=('<title>Likutei Etzot</title><main><div class="mw-parser-output"><h2 id="Other">Other</h2><p>'+('Unrelated. '*400)+'</p>\n<h2 id="DIBBUR_-_Speech">Speech</h2>\n<p>'+('Dibbur is heard and accepted in the quoted discussion. '*3)+'</p>\n<h2 id="Next">Next</h2><p>Different chapter</p></div></main>').encode()
         text=extract_page(page,'https://en.wikisource.org/wiki/Book#DIBBUR_-_Speech')['text']
         self.assertIn('heard and accepted',text);self.assertNotIn('Unrelated.',text);self.assertNotIn('Different chapter',text)
 
@@ -78,7 +78,7 @@ class ImprovementsTests(unittest.TestCase):
 
     def test_good_paragraph_survives_bad_paragraph_and_second_search(self):
         draft={'status':'partial','paragraphs':[{'text':'The original text distinguishes speech and conversation.','citations':[1]},{'text':'Use vinegar to clean moldy bamboo.','citations':[1]}],'missing_evidence':['The porpoise classification is not established.'],'clarification_questions':[]}
-        review={'status':'partial','issues':['No bamboo treatment is established.'],'clarification_questions':[],'checks':[{'paragraph':1,'supported':True,'material_scope_matches':True,'answers_question':True,'unsupported_analogy':False,'reason':'Supported explanation.'},{'paragraph':2,'supported':False,'material_scope_matches':False,'answers_question':False,'unsupported_analogy':True,'reason':'Wrong material and topic.'}]}
+        review={'status':'partial','citation_audit_version':1,'issues':['No bamboo treatment is established.'],'clarification_questions':[],'checks':[{'paragraph':1,'supported':True,'material_scope_matches':True,'answers_question':True,'unsupported_analogy':False,'reason':'Supported explanation.'},{'paragraph':2,'supported':False,'material_scope_matches':False,'answers_question':False,'unsupported_analogy':True,'reason':'Wrong material and topic.'}]}
         with patch('sanhedrin.research.plan_question',return_value=PLAN) as plan,patch('sanhedrin.research.rerank_sources',side_effect=lambda q,s,**kw:s),patch('sanhedrin.teshuva.api_draft',return_value=draft),patch('sanhedrin.research.review_draft',return_value=review):
             result=compose(self.store,self.root,self.request,identity='teshuva-1-123456789abc',api_key='test')
         self.assertEqual(plan.call_count,2);self.assertIn('feedback',plan.call_args.kwargs)
@@ -95,9 +95,27 @@ class ImprovementsTests(unittest.TestCase):
     def test_old_failed_request_is_upgraded_once_with_same_identity(self):
         api=FakeGitHub();first=save(api,self.root,self.store,9,self.request,api_block_reason='disabled')
         path='Sanhedrin/'+first['id']+'.json';old=json.loads(api.files[path]);old.pop('answer_version');old['publication_status']='needs_research';old['openai_status']='insufficient';api.files[path]=json.dumps(old)
-        replacement={**old,'answer_version':3,'publication_status':'ready','mode':'openai','openai_status':'draft','paragraphs':[{'text':'A supported answer.','citations':[1]}]}
+        replacement={**old,'answer_version':4,'citation_audit_version':1,'publication_status':'ready','mode':'openai','openai_status':'draft','paragraphs':[{'text':'A supported answer.','citations':[1]}]}
         with patch('tools.save_teshuva.compose',return_value=replacement) as run:
             second=save(api,self.root,self.store,9,self.request,api_key='test')
         run.assert_called_once();self.assertEqual(first['id'],second['id']);self.assertEqual(second['publication_status'],'ready')
         with patch('tools.save_teshuva.compose',side_effect=AssertionError('No duplicate paid request')):
             save(api,self.root,self.store,9,self.request,api_key='test')
+
+    def test_wrong_model_context_cannot_reintroduce_daniel_or_messiah(self):
+        wrong={**PLAN,'context':'Prophetic kingdoms','anchor_terms':['משיח','Daniel kingdoms'],'references':[]}
+        fixed=plan_question('Are porpoises Memallel or Chai in the fourth kingdom?',api_key='test',model='test',opener=lambda *a,**k:mock_response(wrong))
+        self.assertIn('NOT Daniel',fixed['context']);self.assertIn('Onkelos Genesis 2:7',fixed['references'])
+        self.assertFalse(any('משיח' in word or 'kingdom' in word for word in fixed['anchor_terms']))
+
+    def test_supported_flag_without_real_quote_does_not_publish_claim(self):
+        draft={'paragraphs':[{'text':'Speech must be heard and accepted to count as medaber.','citations':[1]}]}
+        response={'status':'ready','issues':[],'clarification_questions':[],'checks':[{'paragraph':1,'supported':True,'material_scope_matches':True,'answers_question':True,'unsupported_analogy':False,'reason':'Claimed support.','evidence':[{'claim':draft['paragraphs'][0]['text'],'source':1,'quote':'speech must be heard and accepted','kind':'explicit'}]}]}
+        review=review_draft('Memallel and Chai',[{'title':'Animal hide','text':'There are four levels of creation: inanimate, plant, animal and human.'}],draft,api_key='test',model='test',opener=lambda *a,**k:mock_response(response))
+        self.assertFalse(review['checks'][0]['supported']);self.assertEqual(review['status'],'needs_research')
+
+    def test_exact_supporting_quote_is_verified_against_cited_text(self):
+        claim='The source lists four levels of creation.'
+        response={'status':'ready','issues':[],'clarification_questions':[],'checks':[{'paragraph':1,'supported':True,'material_scope_matches':True,'answers_question':True,'unsupported_analogy':False,'reason':'Direct classification.','evidence':[{'claim':claim,'source':1,'quote':'four levels of creation: inanimate, plant, animal and human','kind':'explicit'}]}]}
+        review=review_draft('Creation levels',[{'title':'Creation','text':'There are four levels of creation: inanimate, plant, animal and human.'}],{'paragraphs':[{'text':claim,'citations':[1]}]},api_key='test',model='test',opener=lambda *a,**k:mock_response(response))
+        self.assertTrue(review['checks'][0]['supported']);self.assertEqual(review['citation_audit_version'],1)

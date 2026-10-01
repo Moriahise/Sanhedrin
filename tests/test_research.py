@@ -133,7 +133,7 @@ class ResearchTests(unittest.TestCase):
 
     def test_failed_external_search_still_uses_sufficient_local_evidence(self):
         notes=[{'provider':'web','status':'unavailable','http_status':400}]
-        with patch('sanhedrin.research.plan_question',return_value=PLAN), patch('sanhedrin.research.external_sources',return_value=([],notes)), patch('sanhedrin.teshuva.api_draft',return_value=DRAFT) as draft, patch('sanhedrin.research.review_draft',return_value={'status':'ready','issues':[],'clarification_questions':[]}):
+        with patch('sanhedrin.research.plan_question',return_value=PLAN), patch('sanhedrin.research.external_sources',return_value=([],notes)), patch('sanhedrin.teshuva.api_draft',return_value=DRAFT) as draft, patch('sanhedrin.research.review_draft',return_value={'status':'ready','issues':[],'clarification_questions':[],'citation_audit_version':1}):
             result=compose(self.store,self.root,{**self.request,'external_research':True},identity='teshuva-1-123456789abc',api_key='test-only')
         draft.assert_called_once()
         self.assertEqual(result['publication_status'],'ready')
@@ -210,7 +210,7 @@ class ResearchTests(unittest.TestCase):
             first = save(api, self.root, self.store, 1, self.request, api_key='test-only')
         with patch('tools.save_teshuva.compose', side_effect=AssertionError('No automatic paid retry')):
             save(api, self.root, self.store, 1, self.request, api_key='test-only')
-        with patch('sanhedrin.research.plan_question', return_value=PLAN), patch('sanhedrin.teshuva.api_draft', return_value=DRAFT), patch('sanhedrin.research.review_draft', return_value={'status': 'ready', 'issues': [], 'clarification_questions': []}):
+        with patch('sanhedrin.research.plan_question', return_value=PLAN), patch('sanhedrin.teshuva.api_draft', return_value=DRAFT), patch('sanhedrin.research.review_draft', return_value={'status': 'ready', 'issues': [], 'clarification_questions': [], 'citation_audit_version':1}):
             second = save(api, self.root, self.store, 1, self.request, api_key='test-only', retry_pending=True)
         self.assertEqual(first['id'], second['id'])
         self.assertEqual(second['publication_status'], 'ready')
