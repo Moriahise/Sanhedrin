@@ -99,7 +99,7 @@ def atomic_save(api, result, request_hash, *, attempts=4, replace_fallback=False
             saved = json.loads(existing)
             if saved.get("request_hash") != request_hash or saved.get("id") != result["id"]:
                 raise DataError("Saved response identity conflict")
-            if not (replace_fallback and (saved.get("answer_version", 0) < 7
+            if not (replace_fallback and (saved.get("answer_version", 0) < 8
                     or saved.get("openai_status") in RETRYABLE_API_STATES)):
                 result = saved
             else:
@@ -133,7 +133,7 @@ def atomic_save(api, result, request_hash, *, attempts=4, replace_fallback=False
     raise DataError("Repository changed repeatedly; rerun the save workflow")
 
 
-def save(api, root, store, issue, request, *, api_key="", model="gpt-4.1-mini", api_block_reason="", retry_pending=False, commit_guard=None):
+def save(api, root, store, issue, request, *, api_key="", model="gpt-5.4-mini", api_block_reason="", retry_pending=False, commit_guard=None):
     validated = validate_request(request, root)
     request_hash = digest(validated)
     identity = "teshuva-" + str(issue) + "-" + request_hash[:12]
@@ -144,7 +144,7 @@ def save(api, root, store, issue, request, *, api_key="", model="gpt-4.1-mini", 
         if result.get("request_hash") != request_hash:
             raise DataError("Saved request hash conflict")
         retry_api = bool(validated["use_openai"] and api_key and not api_block_reason
-                         and (result.get("answer_version", 0) < 7 and (not publishable(result) or result.get('mode') == 'library')
+                         and (result.get("answer_version", 0) < 8 and (not publishable(result) or result.get('mode') == 'library')
                               or result.get("openai_status") in RETRYABLE_API_STATES
                               and (result.get("openai_status") not in {"insufficient", "needs_clarification", "partial"} or retry_pending)))
     if not existing or retry_api:
@@ -185,7 +185,7 @@ def main():
         result = save(api, root, store, number, request,
                       api_key="" if api_block_reason else os.environ.get("OPENAI_API_KEY", ""),
                       api_block_reason=api_block_reason,
-                      model=os.environ.get("OPENAI_MODEL") or "gpt-4.1-mini",
+                      model=os.environ.get("OPENAI_MODEL") or "gpt-5.4-mini",
                       retry_pending=os.environ.get("RETRY_RESEARCH") == "true", commit_guard=current_request)
     if os.environ.get("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a") as output:

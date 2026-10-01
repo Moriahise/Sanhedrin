@@ -95,7 +95,7 @@ class ImprovementsTests(unittest.TestCase):
     def test_old_failed_request_is_upgraded_once_with_same_identity(self):
         api=FakeGitHub();first=save(api,self.root,self.store,9,self.request,api_block_reason='disabled')
         path='Sanhedrin/'+first['id']+'.json';old=json.loads(api.files[path]);old.pop('answer_version');old['publication_status']='needs_research';old['openai_status']='insufficient';api.files[path]=json.dumps(old)
-        replacement={**old,'answer_version':7,'citation_audit_version':1,'publication_status':'ready','mode':'openai','openai_status':'draft','paragraphs':[{'text':'A supported answer.','citations':[1]}]}
+        replacement={**old,'answer_version':8,'citation_audit_version':1,'publication_status':'ready','mode':'openai','openai_status':'draft','paragraphs':[{'text':'A supported answer.','citations':[1]}]}
         with patch('tools.save_teshuva.compose',return_value=replacement) as run:
             second=save(api,self.root,self.store,9,self.request,api_key='test')
         run.assert_called_once();self.assertEqual(first['id'],second['id']);self.assertEqual(second['publication_status'],'ready')
