@@ -69,6 +69,8 @@ export function excerpt(text, groups, limit = 2200) {
   return { text: (start ? "… " : "") + text.slice(start, end) + (end < text.length ? " …" : ""), excerpt: true };
 }
 
+function authorName(value) { return value&&typeof value === "object" ? String(value.name||value.display_name||"") : String(value||""); }
+
 export function sourceFrom(record, groups) {
   let answers = [...(record.answers || [])].sort((a, b) => Number(Boolean(b.accepted && b.accepted_verified)) - Number(Boolean(a.accepted && a.accepted_verified)))
     .map(a => ({ text: plain(a.html), author: a.author, answer_id: a.answer_id })).filter(a => a.text.length >= 25);
@@ -79,9 +81,9 @@ export function sourceFrom(record, groups) {
   const score = text => { const words = matchingWords(text,groups); return groups.filter(g => g.some(t => words.has(t))).length; };
   answers.sort((a,b) => score(b.text) - score(a.text));
   return { id: record.id, title: record.title, provider: record.provider, language: record.language,
-    url: record.url, license: record.license, author: answers[0].author, answer_id: answers[0].answer_id,
+    url: record.url, license: record.license, author: answers.length===1?authorName(answers[0].author):"", answer_id: answers[0].answer_id,
     question_context: ["article","document"].includes(record.kind)?"":plain(record.question_html).slice(0,2500),
-    kind:record.kind, ...excerpt(answers.slice(0,3).map((a,i)=>`${answers.length>1?`Answer ${i+1}: `:""}${a.text}`).join("\n\n"), groups, 6000) };
+    kind:record.kind, ...excerpt(answers.slice(0,3).map((a,i)=>`${answers.length>1?`Answer ${i+1}${authorName(a.author)?` (${authorName(a.author)})`:""}: `:""}${a.text}`).join("\n\n"), groups, 6000) };
 }
 
 export async function retrieve(cat, query, config, maxSources = 6, questionHtml = query) {

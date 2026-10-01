@@ -95,7 +95,7 @@ class ImprovementsTests(unittest.TestCase):
     def test_old_failed_request_is_upgraded_once_with_same_identity(self):
         api=FakeGitHub();first=save(api,self.root,self.store,9,self.request,api_block_reason='disabled')
         path='Sanhedrin/'+first['id']+'.json';old=json.loads(api.files[path]);old.pop('answer_version');old['publication_status']='needs_research';old['openai_status']='insufficient';api.files[path]=json.dumps(old)
-        replacement={**old,'answer_version':4,'citation_audit_version':1,'publication_status':'ready','mode':'openai','openai_status':'draft','paragraphs':[{'text':'A supported answer.','citations':[1]}]}
+        replacement={**old,'answer_version':5,'citation_audit_version':1,'publication_status':'ready','mode':'openai','openai_status':'draft','paragraphs':[{'text':'A supported answer.','citations':[1]}]}
         with patch('tools.save_teshuva.compose',return_value=replacement) as run:
             second=save(api,self.root,self.store,9,self.request,api_key='test')
         run.assert_called_once();self.assertEqual(first['id'],second['id']);self.assertEqual(second['publication_status'],'ready')
@@ -125,3 +125,26 @@ class ImprovementsTests(unittest.TestCase):
             response={'status':status,'paragraphs':[{'text':'The source lists four creation levels.','citations':[1]}],'missing_evidence':['The linguistic distinction is not established.'],'clarification_questions':[]}
             result=api_draft('Creation levels',[{'title':'Creation','provider':'local','text':'Four levels of creation.'}],'en',api_key='test',model='test',opener=lambda *a,**k:mock_response(response))
             self.assertEqual(result['status'],'partial');self.assertEqual(len(result['paragraphs']),1)
+
+    def test_source_author_is_displayed_as_name(self):
+        result=compose(self.store,self.root,{**self.request,'use_openai':False},identity='teshuva-1-123456789abc')
+        result['sources'][0]['author']={'display_name':'Source Writer','user_id':123}
+        page=render(result)
+        self.assertIn('Source Writer',page);self.assertNotIn('user_id',page);self.assertNotIn('[object Object]',page)
+
+    def test_duplicate_source_numbers_do_not_discard_valid_selection(self):
+        response={'sources':[{'number':1,'relevance':5,'reason':'Direct text.'},{'number':1,'relevance':4,'reason':'Repeated lead.'}]}
+        sources=[{'title':'Creation','text':'Four levels of creation.'}]
+        selected=rerank_sources('Creation levels',sources,{},api_key='test',model='test',opener=lambda *a,**k:mock_response(response))
+        self.assertEqual(len(selected),1);self.assertEqual(selected[0]['relevance'],5)
+
+    def test_named_review_slots_distinguish_paragraph_and_source_numbers(self):
+        paragraphs=[{'text':'There are four levels of creation.','citations':[2]},{'text':'The fourth level is speaking.','citations':[2]}]
+        def opener(req,**kwargs):
+            payload=json.loads(req.data);data=json.loads(payload['input'])
+            self.assertEqual([p['paragraph'] for p in data['draft']],[1,2])
+            self.assertEqual(payload['text']['format']['schema']['properties']['checks']['required'],['1','2'])
+            checks={str(i):{'supported':True,'material_scope_matches':True,'answers_question':True,'unsupported_analogy':False,'reason':'Exact source statement.','evidence':[{'claim':p['text'],'source':2,'quote':p['text'],'kind':'explicit'}]} for i,p in enumerate(paragraphs,1)}
+            return mock_response({'status':'ready','issues':[],'clarification_questions':[],'checks':checks})
+        review=review_draft('Creation levels',[{'title':'Other','text':'Unrelated text.'},{'title':'Creation','text':'There are four levels of creation. The fourth level is speaking.'}],{'paragraphs':paragraphs},api_key='test',model='test',opener=opener)
+        self.assertEqual([c['paragraph'] for c in review['checks']],[1,2]);self.assertEqual(review['status'],'ready')

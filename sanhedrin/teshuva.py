@@ -267,7 +267,7 @@ def api_draft(question, sources, language, *, api_key, model, opener=urllib.requ
         "missing_evidence": {"type": "array", "maxItems":8, "items": {"type": "string"}},
         "clarification_questions": {"type": "array", "maxItems":3, "items": {"type": "string"}},
         "paragraphs": {"type": "array", "maxItems":8, "items": {"type": "object", "additionalProperties": False,
-            "required": ["text", "citations"], "properties": {"text": {"type": "string"}, "citations": {"type": "array", "items": {"type": "integer"}}}}}}}
+            "required": ["text", "citations"], "properties": {"text": {"type": "string"}, "citations": {"type": "array", "minItems":1, "items": {"type": "integer", "minimum":1, "maximum":max(1,len(sources))}}}}}}}
     instructions = (
         "Write a useful, well-reasoned Jewish source answer in " + ("Hebrew" if language == "he" else "English") + ". Begin with a direct answer, then explain the sources, context, distinctions and reasoning in up to EIGHT SHORT paragraphs. Each paragraph should cover ONE precise point, making individual claims easy to verify. Cover halacha, Tanakh, aggadah, kabbalah or language according to the actual question, not a presumed category. Correct mistaken premises respectfully when supported. "
         "For external answer pages, paraphrase; do not quote more than 25 words per source in the whole answer. Use ONLY the supplied numbered source texts. Read their context and distinguish separate authors/answers. No outside knowledge, invented rulings, references or quotations. "
@@ -345,7 +345,7 @@ def compose(store, root, request, *, identity, api_key="", model="gpt-4.1-mini",
             raise DataError('Saved answer text is unavailable for source: ' + pid)
         else:
             diagnostics.append({'provider': 'library', 'source_id': pid, 'status': 'unavailable'})
-    result = {'schema': 1, 'answer_version': 4, 'id': identity, 'created_at': utcnow(), 'request_hash': digest(request),
+    result = {'schema': 1, 'answer_version': 5, 'id': identity, 'created_at': utcnow(), 'request_hash': digest(request),
               'question_html': request['question_html'], 'question_text': request['question_text'],
               'language': request['language'], 'profile': next(p for p in profiles(root) if request['profile_id'] == 'auto' or p['id'] == request['profile_id']),
               'mode': 'library', 'openai_status': api_block_reason or ('unconfigured' if request['use_openai'] else 'off'),
@@ -425,6 +425,7 @@ def compose(store, root, request, *, identity, api_key="", model="gpt-4.1-mini",
                     keep = {c['paragraph'] for c in checks if c['supported'] and c['material_scope_matches'] and c['answers_question'] and not c['unsupported_analogy']}
                 else:
                     keep = set(range(1, len(draft['paragraphs']) + 1)) if review['status'] == 'ready' else set()
+                diagnostics.append({'provider':'review','status':'reviewed','round':round_number,'paragraphs':len(draft['paragraphs']),'retained':len(keep),'reasons':[c['reason'] for c in checks if c['paragraph'] not in keep][:8]})
                 paragraphs = [p for i, p in enumerate(draft['paragraphs'], 1) if i in keep]
                 gaps = list(dict.fromkeys(draft.get('missing_evidence', []) + review.get('issues', [])))[:8]
                 clarifications = [q for q in draft.get('clarification_questions', []) + review.get('clarification_questions', [])
@@ -510,6 +511,9 @@ def render(result, *, prefix="../"):
             body += '<h3>' + esc(words['open_points']) + '</h3><ul>' + ''.join('<li dir="auto">' + esc(point) + '</li>' for point in dict.fromkeys(points)) + '</ul>'
     body += '<h2>' + words["sources"] + '</h2>'
     for i, source in enumerate(result["sources"], 1):
+        source = dict(source)
+        if isinstance(source.get("author"), dict):
+            source["author"] = source["author"].get("name") or source["author"].get("display_name") or ""
         body += '<section id="source-' + str(i) + '" class="source"><h3 dir="auto">[' + str(i) + '] ' + esc(source["title"]) + '</h3><p>' + esc(source["provider"]) + (' · ' + esc(source["author"]) if source.get("author") else '') + '</p><blockquote dir="auto">' + esc(source["text"]) + '</blockquote>'
         if source.get("excerpt"):
             body += '<p>' + esc(words["excerpt"]) + '</p>'
