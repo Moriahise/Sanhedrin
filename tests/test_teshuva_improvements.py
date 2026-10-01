@@ -8,7 +8,7 @@ from pathlib import Path
 from unittest.mock import patch
 from sanhedrin.model import normalize
 from sanhedrin.store import Store
-from sanhedrin.teshuva import compose, profiles, retrieve_library, search_groups, render
+from sanhedrin.teshuva import compose, profiles, retrieve_library, search_groups, render, api_draft
 from sanhedrin.research import source_urls, web_queries, extract_page, rerank_sources, sefaria_text, plan_question, review_draft
 from tools.save_teshuva import save
 from test_teshuva import FakeGitHub, mock_response
@@ -119,3 +119,9 @@ class ImprovementsTests(unittest.TestCase):
         response={'status':'ready','issues':[],'clarification_questions':[],'checks':[{'paragraph':1,'supported':True,'material_scope_matches':True,'answers_question':True,'unsupported_analogy':False,'reason':'Direct classification.','evidence':[{'claim':claim,'source':1,'quote':'four levels of creation: inanimate, plant, animal and human','kind':'explicit'}]}]}
         review=review_draft('Creation levels',[{'title':'Creation','text':'There are four levels of creation: inanimate, plant, animal and human.'}],{'paragraphs':[{'text':claim,'citations':[1]}]},api_key='test',model='test',opener=lambda *a,**k:mock_response(response))
         self.assertTrue(review['checks'][0]['supported']);self.assertEqual(review['citation_audit_version'],1)
+
+    def test_model_status_mismatch_preserves_text_for_independent_review(self):
+        for status in ['draft','insufficient','needs_clarification']:
+            response={'status':status,'paragraphs':[{'text':'The source lists four creation levels.','citations':[1]}],'missing_evidence':['The linguistic distinction is not established.'],'clarification_questions':[]}
+            result=api_draft('Creation levels',[{'title':'Creation','provider':'local','text':'Four levels of creation.'}],'en',api_key='test',model='test',opener=lambda *a,**k:mock_response(response))
+            self.assertEqual(result['status'],'partial');self.assertEqual(len(result['paragraphs']),1)

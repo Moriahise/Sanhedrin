@@ -194,7 +194,9 @@ def api_response(payload, *, api_key, opener=urllib.request.urlopen):
         raise DataError('API response is too large')
     result = json.loads(raw)
     if not isinstance(result, dict) or result.get('status') != 'completed':
-        raise DataError('Research API did not complete')
+        status = result.get('status', 'missing') if isinstance(result, dict) else 'invalid'
+        reason = (result.get('incomplete_details') or {}).get('reason', '') if isinstance(result, dict) else ''
+        raise DataError('Research API did not complete: ' + str(status)[:40] + (' (' + str(reason)[:80] + ')' if reason else ''))
     return result
 
 
@@ -265,7 +267,7 @@ def source_urls(question, explicit=()):
 def sefaria_text(ref, http, groups, passage):
     if not isinstance(ref, str) or not 0 < len(ref) <= 300 or ref.startswith(('http', 'Sheet', 'sheets', 'api/')):
         raise DataError('Invalid Sefaria text reference')
-    data = http.json('https://www.sefaria.org/api/v3/texts/' + quote(ref, safe='') + '?version=hebrew&version=english')
+    data = http.json('https://www.sefaria.org/api/v3/texts/' + quote(ref, safe='') + '?version=source&version=english')
     versions = data.get('versions', [])
     def flatten(value):
         if isinstance(value, list):
@@ -437,8 +439,8 @@ def rerank_sources(question, sources, plan, *, api_key, model, opener=urllib.req
     """A semantic evidence check prevents lexical coincidences from becoming sources."""
     if not sources:
         return []
-    item = {'type': 'object', 'additionalProperties': False, 'required': ['number', 'relevance', 'reason'], 'properties': {'number': {'type': 'integer'}, 'relevance': {'type': 'integer'}, 'reason': {'type': 'string'}}}
-    schema = {'type': 'object', 'additionalProperties': False, 'required': ['sources'], 'properties': {'sources': {'type': 'array', 'items': item}}}
+    item = {'type': 'object', 'additionalProperties': False, 'required': ['number', 'relevance', 'reason'], 'properties': {'number': {'type': 'integer', 'minimum':1, 'maximum':min(40,len(sources))}, 'relevance': {'type': 'integer', 'minimum':0, 'maximum':5}, 'reason': {'type': 'string'}}}
+    schema = {'type': 'object', 'additionalProperties': False, 'required': ['sources'], 'properties': {'sources': {'type': 'array', 'maxItems':16, 'items': item}}}
     from .teshuva import passage
     groups = list(groups) or [[t] for t in re.findall(r'[\w]+', ' '.join(plan.get('anchor_terms', []))) if len(t) > 1]
     # Include beginning AND focal content: a dictionary or scholarly distinction

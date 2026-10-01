@@ -264,9 +264,9 @@ def publishable(result):
 def api_draft(question, sources, language, *, api_key, model, opener=urllib.request.urlopen, feedback=None, context=""):
     schema = {"type": "object", "additionalProperties": False, "required": ["status", "paragraphs", "missing_evidence", "clarification_questions"], "properties": {
         "status": {"type": "string", "enum": ["draft", "partial", "insufficient", "needs_clarification"]},
-        "missing_evidence": {"type": "array", "items": {"type": "string"}},
-        "clarification_questions": {"type": "array", "items": {"type": "string"}},
-        "paragraphs": {"type": "array", "items": {"type": "object", "additionalProperties": False,
+        "missing_evidence": {"type": "array", "maxItems":8, "items": {"type": "string"}},
+        "clarification_questions": {"type": "array", "maxItems":3, "items": {"type": "string"}},
+        "paragraphs": {"type": "array", "maxItems":8, "items": {"type": "object", "additionalProperties": False,
             "required": ["text", "citations"], "properties": {"text": {"type": "string"}, "citations": {"type": "array", "items": {"type": "integer"}}}}}}}
     instructions = (
         "Write a useful, well-reasoned Jewish source answer in " + ("Hebrew" if language == "he" else "English") + ". Begin with a direct answer, then explain the sources, context, distinctions and reasoning in up to EIGHT SHORT paragraphs. Each paragraph should cover ONE precise point, making individual claims easy to verify. Cover halacha, Tanakh, aggadah, kabbalah or language according to the actual question, not a presumed category. Correct mistaken premises respectfully when supported. "
@@ -301,11 +301,16 @@ def api_draft(question, sources, language, *, api_key, model, opener=urllib.requ
         if not isinstance(values, list) or len(values) > 8 or not all(isinstance(v, str) and 0 < len(v) <= 1000 for v in values):
             raise DataError("Invalid research follow-up")
     if draft["status"] in {"insufficient", "needs_clarification"}:
-        if draft["paragraphs"]:
-            raise DataError("Insufficient response must not assert an answer")
+        if not draft['paragraphs']:
+            return {**draft, **metadata}
+        # A mislabeled useful response still undergoes the full independent
+        # claim audit. Its supported paragraphs need not be thrown away.
+        draft['status'] = 'partial'
+    if not draft['paragraphs']:
+        draft['status'] = 'insufficient'
         return {**draft, **metadata}
-    if not draft["paragraphs"] or (draft['status'] == 'draft' and (draft.get("missing_evidence") or draft.get("clarification_questions"))):
-        raise DataError("API draft is incomplete")
+    if draft['status'] == 'draft' and (draft.get('missing_evidence') or draft.get('clarification_questions')):
+        draft['status'] = 'partial'
     for paragraph in draft["paragraphs"]:
         if not isinstance(paragraph, dict) or not isinstance(paragraph.get("text"), str) or not paragraph["text"].strip() or len(paragraph["text"]) > 8000:
             raise DataError("Invalid draft paragraph")
@@ -387,7 +392,10 @@ def compose(store, root, request, *, identity, api_key="", model="gpt-4.1-mini",
                 sources = rerank_sources(request['question_text'], pool, plan or {}, api_key=api_key, model=model, opener=opener, groups=groups)
                 diagnostics.append({'provider': 'source_selection', 'status': 'reviewed', 'round': round_number, 'candidates': len(pool), 'selected': len(sources)})
             except (OSError, ValueError, TypeError, KeyError) as error:
-                diagnostics.append({'provider': 'source_selection', 'status': 'unavailable', 'round': round_number, 'reason': type(error).__name__})
+                note = {'provider': 'source_selection', 'status': 'unavailable', 'round': round_number, 'reason': type(error).__name__}
+                if isinstance(error, DataError):
+                    note['detail'] = str(error)[:300]
+                diagnostics.append(note)
                 # Original sources remain viewable if the API fails; a later draft
                 # is still independently checked before it can become an answer.
                 sources = pool[:12]
@@ -444,6 +452,8 @@ def compose(store, root, request, *, identity, api_key="", model="gpt-4.1-mini",
             if isinstance(error, ResearchAPIError):
                 note.update(http_status=error.status, api_error=error.details)
                 result['openai_http_status'] = error.status
+            elif isinstance(error, DataError):
+                note['detail'] = str(error)[:300]
             diagnostics.append(note)
             result['openai_status'] = 'failed'
             # Do not re-run a failed paid API call blindly. Preserve useful local
