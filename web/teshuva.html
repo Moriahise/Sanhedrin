@@ -10,7 +10,7 @@
 <body>
 <header class="masthead"><a class="brand" href="index.html">SANHEDRIN<span>ספריית שאלות ותשובות</span></a><nav><a href="index.html" data-t="library">Library</a><a class="music-nav" href="index.html#songs"><span aria-hidden="true">♪</span> <span class="music-he" lang="he">שירים וניגונים</span><span class="music-en" lang="en">Songs &amp; Niggunim</span></a><button id="language" type="button">עברית</button></nav></header>
 <main class="teshuva-shell">
-  <div class="intro"><p class="eyebrow" data-t="eyebrow">A question. Sources. A considered draft.</p><h1 data-t="heading">Formulate your question</h1><p data-t="intro">Find relevant saved answers across the Hebrew and English library. Works without an API.</p></div>
+  <div class="intro"><p class="eyebrow" data-t="eyebrow">A question. Sources. An answer.</p><h1 data-t="heading">Formulate your question</h1><p data-t="intro">Find relevant saved answers across the Hebrew and English library. Works without an API.</p></div>
   <div class="editor-layout">
   <form id="question-form" class="editor-panel">
     <label id="question-label" data-t="question">Your question</label>
@@ -44,11 +44,11 @@
   </aside>
   </div>
   <section id="answer-panel" class="answer-panel" hidden aria-live="polite">
-    <header class="answer-profile"><img id="answer-image" width="72" height="72" alt=""><div><p class="eyebrow" data-t="answer">Source-based draft</p><h2 id="answer-name" dir="auto"></h2></div></header>
-    <p class="notice" data-t="draftNotice">These are relevant source passages, not an independently issued ruling. Read the complete sources and check how they apply to your situation.</p>
+    <header class="answer-profile"><img id="answer-image" width="72" height="72" alt=""><div><p class="eyebrow" data-t="answer">Original answer texts</p><h2 id="answer-name" dir="auto"></h2></div></header>
+    <p class="notice" data-t="draftNotice">Read the original answer texts below. Saving with OpenAI enabled adds a checked explanation and identifies any open points.</p>
     <div id="answer-question" dir="auto"></div>
     <p id="answer-summary"></p><div id="answer-sources"></div>
-    <div class="save-panel"><button id="save" class="primary" type="button" data-t="save">Save in GitHub / Sanhedrin</button><p class="help" data-t="saveHelp">Review the prepared GitHub issue and submit it. The workflow researches the question and publishes a complete checked answer. Open research requests remain saved. Public submissions require repository approval.</p></div>
+    <div class="save-panel"><button id="save" class="primary" type="button" data-t="save">Save in GitHub / Sanhedrin</button><p class="help" data-t="saveHelp">Review the prepared GitHub issue and submit it. The workflow researches the question and publishes supported answers. Open points are listed separately. Public submissions require repository approval.</p></div>
     <div id="submission-panel" hidden><label for="submission-body" data-t="submission">Prepared submission</label><textarea id="submission-body" readonly rows="7" dir="ltr"></textarea><button id="copy" type="button" data-t="copy">Copy request</button> <a id="open-github" target="_blank" rel="noopener noreferrer" data-t="open">Open GitHub submission</a><p id="submission-status" role="status"></p></div>
   </section>
   <form id="track-form" class="track-form" hidden><label for="issue-number" data-t="issueNumber">GitHub issue number</label><input id="issue-number" type="number" min="1" max="10000000" required><button type="submit" data-t="track">Check saved answer</button><p id="track-status" role="status"></p></form>

@@ -23,6 +23,8 @@ DRAFT = {'status': 'draft', 'paragraphs': [{'text': 'The source addresses mold o
 
 class ResearchTests(unittest.TestCase):
     def setUp(self):
+        self.rerank_patch = patch("sanhedrin.research.rerank_sources", side_effect=lambda question, sources, **kwargs: sources[:16])
+        self.rerank_patch.start(); self.addCleanup(self.rerank_patch.stop)
         self.tmp = tempfile.TemporaryDirectory()
         self.root = Path(self.tmp.name)
         shutil.copytree(ROOT / 'config', self.root / 'config')
@@ -118,37 +120,37 @@ class ResearchTests(unittest.TestCase):
             with patch('sanhedrin.research.plan_question') as plan, patch('sanhedrin.research.external_sources') as research, patch('sanhedrin.teshuva.api_draft') as draft:
                 result = compose(self.store, self.root, {**self.request, 'external_research': True}, identity='teshuva-1-123456789abc', api_key='test-only', api_block_reason=reason)
             plan.assert_not_called(); research.assert_not_called(); draft.assert_not_called()
-            self.assertEqual(result['publication_status'], 'needs_research')
+            self.assertEqual(result['publication_status'], 'sources')
 
-    def test_plain_sources_are_never_published_as_finished_teshuvot(self):
+    def test_local_answer_texts_are_published_without_api(self):
         request={k:v for k,v in self.request.items() if k!='search_version'}
         request['use_openai']=False
         result=compose(self.store,self.root,request,identity='teshuva-1-123456789abc')
-        self.assertEqual(result['publication_status'],'needs_research')
-        result.pop('publication_status')  # old saved source compilations receive the same gate
-        self.assertNotIn('Draft answer',render(result))
-        self.assertIn('saved for further research',render(result))
+        self.assertEqual(result['publication_status'],'sources')
+        self.assertEqual(result['paragraphs'],[])
+        self.assertIn('This source discusses mold on schach',render(result))
+        self.assertIn('Original answer texts',render(result))
 
-    def test_failed_external_search_never_becomes_a_library_only_draft(self):
-        notes=[{'provider':'web','status':'unavailable','http_status':400},{'provider':'Sefaria','status':'searched','sources':0}]
-        with patch('sanhedrin.research.plan_question',return_value=PLAN), patch('sanhedrin.research.external_sources',return_value=([],notes)), patch('sanhedrin.teshuva.api_draft') as draft:
+    def test_failed_external_search_still_uses_sufficient_local_evidence(self):
+        notes=[{'provider':'web','status':'unavailable','http_status':400}]
+        with patch('sanhedrin.research.plan_question',return_value=PLAN), patch('sanhedrin.research.external_sources',return_value=([],notes)), patch('sanhedrin.teshuva.api_draft',return_value=DRAFT) as draft, patch('sanhedrin.research.review_draft',return_value={'status':'ready','issues':[],'clarification_questions':[]}):
             result=compose(self.store,self.root,{**self.request,'external_research':True},identity='teshuva-1-123456789abc',api_key='test-only')
-        draft.assert_not_called()
-        self.assertEqual(result['publication_status'],'needs_research')
-        self.assertTrue(result['missing_evidence'])
+        draft.assert_called_once()
+        self.assertEqual(result['publication_status'],'ready')
+        self.assertTrue(result['paragraphs'])
+        self.assertIn(notes[0]['http_status'],[n.get('http_status') for n in result['research_diagnostics']])
 
-    def test_same_material_evidence_blocks_torah_scroll_analogy(self):
-        self.store.close()
-        self.store=Store(self.root/'scope.sqlite')
-        record=normalize({'id':'yeshiva-2','title':'Mold on Torah scrolls','question':'How to clean mold on a Torah scroll?','answers':[{'text':'This answer discusses cleaning mold on a Torah scroll with vinegar.'}],'format':'plain','url':'https://www.yeshiva.org.il/ask/2'})
+    def test_same_material_scope_rejects_torah_scroll_treatment(self):
+        self.rerank_patch.stop()
+        self.store.close();self.store=Store(self.root/'scope.sqlite')
+        record=normalize({'id':'yeshiva-2','title':'Mold on Torah scrolls','question':'How to clean mold on a Torah scroll?','answers':[{'text':'This answer discusses cleaning mold on a Torah scroll with vinegar.'}],'format':'plain'})
         self.store.insert(record)
         request={**self.request,'source_ids':[record['id']]}
-        plan={**PLAN,'requires_same_material_evidence':True,'material_terms':['schach','bamboo','סכך','במבוק'],'problem_terms':['mold','moldy schach','עובש']}
-        with patch('sanhedrin.research.plan_question',return_value=plan), patch('sanhedrin.teshuva.api_draft') as draft:
+        with patch('sanhedrin.research.plan_question',return_value=PLAN), patch('sanhedrin.research.rerank_sources',return_value=[]), patch('sanhedrin.teshuva.api_draft') as draft:
             result=compose(self.store,self.root,request,identity='teshuva-1-123456789abc',api_key='test-only')
         draft.assert_not_called()
-        self.assertEqual(result['openai_status'],'insufficient')
         self.assertEqual(result['publication_status'],'needs_research')
+        self.assertNotIn('vinegar',render(result))
 
     def test_review_rejects_ready_when_a_paragraph_uses_unsupported_analogy(self):
         response={'status':'ready','issues':[],'clarification_questions':[],'checks':[{'paragraph':1,'supported':True,'material_scope_matches':False,'answers_question':True,'unsupported_analogy':True,'reason':'Torah-scroll cleaning does not establish safe treatment of bamboo schach.'}]}
@@ -174,7 +176,7 @@ class ResearchTests(unittest.TestCase):
     def test_second_pass_rejects_unsupported_draft(self):
         with patch('sanhedrin.research.plan_question', return_value=PLAN), patch('sanhedrin.teshuva.api_draft', return_value=copy.deepcopy(DRAFT)), patch('sanhedrin.research.review_draft', return_value={'status': 'needs_research', 'issues': ['Treatment is not supported by the cited text.'], 'clarification_questions': []}):
             result = compose(self.store, self.root, self.request, identity='teshuva-1-123456789abc', api_key='test-only')
-        self.assertEqual(result['publication_status'], 'needs_research')
+        self.assertEqual(result['publication_status'], 'sources')
         self.assertEqual(result['paragraphs'], [])
         self.assertNotIn('The optional API did not produce', render(result))
         self.assertNotIn('Treatment is not supported', render(result))
@@ -183,8 +185,8 @@ class ResearchTests(unittest.TestCase):
         request={k:v for k,v in self.request.items() if k not in {'search_version','source_urls','external_research'}}
         with patch('sanhedrin.research.plan_question',return_value=PLAN) as plan, patch('sanhedrin.teshuva.api_draft',return_value=copy.deepcopy(DRAFT)), patch('sanhedrin.research.review_draft',return_value={'status':'needs_research','issues':['Unsupported treatment'],'clarification_questions':[]}) as review:
             result=compose(self.store,self.root,request,identity='teshuva-1-123456789abc',api_key='test-only')
-        plan.assert_called_once();review.assert_called_once()
-        self.assertEqual(result['publication_status'],'needs_research')
+        self.assertEqual(plan.call_count,2);self.assertEqual(review.call_count,2)
+        self.assertEqual(result['publication_status'],'sources')
         self.assertEqual(result['retrieval']['scanned'],1)
 
     def test_review_requires_empty_issues_for_ready(self):
@@ -197,7 +199,7 @@ class ResearchTests(unittest.TestCase):
         (self.root / 'Sanhedrin').mkdir()
         (self.root / 'Sanhedrin'/ (result['id'] + '.json')).write_text(json.dumps(result))
         out = self.root / 'out';out.mkdir();publish_assets(self.root, out)
-        self.assertEqual(json.loads((out / 'teshuvot.json').read_text()), [])
+        self.assertEqual(len(json.loads((out / 'teshuvot.json').read_text())), 1)
         page = (out / 'Sanhedrin' / (result['id'] + '.html')).read_text()
         self.assertIn('What treatment will be used?', page)
         self.assertNotIn('Draft answer', page)
@@ -240,11 +242,12 @@ class ResearchTests(unittest.TestCase):
             if len(calls)==1:
                 raise urllib.error.HTTPError(request.full_url,400,'Bad Request',{},io.BytesIO(json.dumps({'error':{'message':"Parameter 'filters' not supported with model 'gpt-4.1-mini'",'param':'tools'}}).encode()))
             return io.BytesIO(json.dumps({'status':'completed','output':[{'type':'web_search_call','action':{'sources':[{'url':'https://asktherav.com/answer'},{'url':'https://outside.example/answer'}]}}]}).encode())
-        sources,notes=external_sources('Schach mold',PLAN,json.loads((self.root/'config/teshuva-research.json').read_text()),[],api_key='test-only',model='gpt-4.1-mini',groups=search_groups('schach mold',self.config),passage=lambda text,groups,limit:(text,False),http=HTTP(),opener=opener)
-        self.assertEqual(len(calls),2)
-        self.assertTrue(all(p['model']=='gpt-4.1-mini' for p in calls))
+        sources,notes=external_sources('Schach mold',PLAN,json.loads((self.root/'config/teshuva-research.json').read_text()),[],api_key='test-only',model='test-filter-model',groups=search_groups('schach mold',self.config),passage=lambda text,groups,limit:(text,False),http=HTTP(),opener=opener)
+        self.assertEqual(len(calls),3)
+        self.assertTrue(all(p['model']=='test-filter-model' for p in calls))
         self.assertNotIn('filters',calls[1]['tools'][0])
-        self.assertIn('allowed_domains',json.loads(calls[1]['input']))
+        self.assertIn('site:star-k.org',calls[1]['input'])
+        self.assertFalse(calls[1]['input'].startswith('{'))
         self.assertEqual(len(sources),1)
         self.assertEqual(next(n for n in notes if n.get('provider')=='web')['search_mode'],'query_domains')
 

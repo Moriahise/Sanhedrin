@@ -159,5 +159,25 @@
       "name": "shul.co.uk",
       "url": "https://www.shul.co.uk/ask-the-rabbi-archive"
     }
-  ]
+  ],
+  "reference_sources": [
+    {
+      "name": "Chabad",
+      "url": "https://www.chabad.org/"
+    },
+    {
+      "name": "Wikisource Hebrew",
+      "url": "https://he.wikisource.org/"
+    },
+    {
+      "name": "Wikisource English",
+      "url": "https://en.wikisource.org/"
+    },
+    {
+      "name": "Mi Yodeya",
+      "url": "https://judaism.stackexchange.com/"
+    }
+  ],
+  "max_rounds": 2,
+  "web_searches_per_round": 2
 }

@@ -164,6 +164,7 @@ def build(store, root, destination, *, max_bytes=900_000_000):
 
 
 def _build(store, root, out, max_bytes):
+    from .retrieval import search_text
     search_config = json.loads((root / "config/teshuva-search.json").read_text())
     hebrew_roots = {term for group in search_config["groups"] for term in group if re.search(r"[\u0590-\u05ff]", term)}
     logical = store.logical_hash()
@@ -291,7 +292,7 @@ def _build(store, root, out, max_bytes):
                 (question_text, 3),
                 (" ".join(answer_texts), 1),
             ]:
-                for word in set(tokens(text)):
+                for word in set(tokens(text)) | set(tokens(search_text(text))):
                     word = SYNONYMS.get(word, word)
                     if len(word) >= 2 and word not in STOPWORDS:
                         weighted[word] += weight

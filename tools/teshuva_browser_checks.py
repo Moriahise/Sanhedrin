@@ -123,7 +123,7 @@ def run(directory, reports):
             assert page.locator("#source-urls").input_value() == "https://asktherav.com/database/"
             page.locator("#use-openai").uncheck()
             assert not page.locator("#external-research").is_checked()
-            assert page.locator("#research-sites a").count() == 38
+            assert page.locator("#research-sites a").count() == 42
             result["external_switch_urls_and_empty_local_research"] = True
             # Start at the final portrait and verify that the next question wraps.
             cycle = page.evaluate("""async()=>{const profiles=await(await fetch('rav-profiles.json')).json();const rotation=await(await fetch('rav-rotation.json')).json();const draft=JSON.parse(localStorage.getItem('sanhedrin-teshuva-draft'));draft.portrait={nextIndex:Math.ceil(rotation.next_index/profiles.length)*profiles.length+profiles.length-1,questionText:'',profileId:''};localStorage.setItem('sanhedrin-teshuva-draft',JSON.stringify(draft));return {last:profiles.at(-1).id,first:profiles[0].id};}""")

@@ -58,6 +58,8 @@ class FakeGitHub:
 
 class TeshuvaTests(unittest.TestCase):
     def setUp(self):
+        self.rerank_patch = patch("sanhedrin.research.rerank_sources", side_effect=lambda question, sources, **kwargs: sources[:16])
+        self.rerank_patch.start(); self.addCleanup(self.rerank_patch.stop)
         # Existing fixtures isolate drafting; research stages have separate regression tests.
         self.plan_patch = patch('sanhedrin.research.plan_question', return_value={'queries_en':['shabbat candles'],'queries_he':['שבת נרות'],'subquestions':['What do the sources say?']})
         self.review_patch = patch('sanhedrin.research.review_draft', return_value={'status':'ready','issues':[],'clarification_questions':[]})
@@ -293,7 +295,7 @@ class TeshuvaTests(unittest.TestCase):
         out.mkdir()
         publish_assets(self.root, out)
         self.assertEqual(json.loads((out / 'rav-rotation.json').read_text()), {'schema': 1, 'next_index': 1})
-        self.assertEqual(len(json.loads((out / 'teshuvot.json').read_text())), 0)
+        self.assertEqual(len(json.loads((out / 'teshuvot.json').read_text())), 1)
 
     def test_saved_archive_is_published_without_old_placeholders(self):
         api = FakeGitHub()
@@ -347,7 +349,7 @@ class TeshuvaTests(unittest.TestCase):
                                  api_key="test-only", api_block_reason=reason)
             api.assert_not_called()
             self.assertEqual(result["sources"][0]["id"], self.record["id"])
-            self.assertIn("saved for further research", render(result))
+            self.assertIn("Shabbat candles are discussed", render(result))
         self.assertNotIn("The saved source passages are shown", render(result))
 
     def test_authorized_retry_upgrades_fallback_and_then_reuses_api_result(self):

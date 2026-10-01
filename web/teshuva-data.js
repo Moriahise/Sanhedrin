@@ -1,10 +1,24 @@
 import { Catalogue, searchTokens, shard } from "./catalog-data.js";
 
+export function searchText(value) {
+  return String(value || "").replace(/https?:\/\/[^\s<>]+/g," ").replace(/([A-Za-z])[’'`‘](?=[A-Za-z])/g,"$1");
+}
+export function questionTitle(value) {
+  const doc=new DOMParser().parseFromString(String(value||""),"text/html");
+  for(const node of doc.querySelectorAll("p,div,br,h1,h2,h3,li"))node.after(doc.createTextNode("\n"));
+  return (doc.body.textContent.split(/\n/).map(s=>s.trim()).find(Boolean)||"").slice(0,200);
+}
+export function titleAffinity(title, question, config) {
+  const stop=new Set(config.stopwords.split(/\s+/));
+  const words=text=>new Set(searchTokens(searchText(text)).filter(w=>w.length>1&&!stop.has(w)));
+  const a=words(title), b=words(question), common=[...a].filter(w=>b.has(w)).length;
+  return common>=Math.min(2,a.size,b.size)&&common ? common/Math.max(a.size,b.size) : 0;
+}
 export function groupsFor(query, config) {
   const stop = new Set(config.stopwords.split(/\s+/)), lookup = new Map();
   for (const group of config.groups) for (const term of group) lookup.set(term, group);
   const seen = new Set(), groups = [];
-  for (let term of searchTokens(query)) {
+  for (let term of searchTokens(searchText(query))) {
     if (term.length < 2 || stop.has(term)) continue;
     for(const count of [1,2])if(!lookup.has(term)&&term.length>count+2&&[...term.slice(0,count)].every(c=>"והשבלמכ".includes(c))&&lookup.has(term.slice(count))){term=term.slice(count);break;}
     const group = lookup.get(term) || [term], key = group.join("|");
@@ -14,7 +28,7 @@ export function groupsFor(query, config) {
 }
 
 function matchingWords(text, groups) {
-  const words=new Set(searchTokens(text)), wanted=new Set(groups.flat());
+  const words=new Set(searchTokens(searchText(text))), wanted=new Set(groups.flat());
   for(const word of [...words])for(const count of [1,2])if(word.length>count+2&&[...word.slice(0,count)].every(c=>"והשבלמכ".includes(c))&&wanted.has(word.slice(count)))words.add(word.slice(count));
   return words;
 }
@@ -66,12 +80,13 @@ export function sourceFrom(record, groups) {
   answers.sort((a,b) => score(b.text) - score(a.text));
   return { id: record.id, title: record.title, provider: record.provider, language: record.language,
     url: record.url, license: record.license, author: answers[0].author, answer_id: answers[0].answer_id,
-    ...excerpt(answers[0].text, groups) };
+    question_context: ["article","document"].includes(record.kind)?"":plain(record.question_html).slice(0,2500),
+    kind:record.kind, ...excerpt(answers.slice(0,3).map((a,i)=>`${answers.length>1?`Answer ${i+1}: `:""}${a.text}`).join("\n\n"), groups, 6000) };
 }
 
-export async function retrieve(cat, query, config, maxSources = 6) {
+export async function retrieve(cat, query, config, maxSources = 6, questionHtml = query) {
   await cat.init();
-  const groups = groupsFor(query, config);
+  const title=questionTitle(questionHtml), groups = groupsFor(query === plain(questionHtml) ? title : query, config);
   if (!groups.length) return { sources: [], groups, candidates: 0 };
   const allowedSpec = cat.manifest.facets.evidence?.available;
   const allowed = allowedSpec ? new Set(await cat.json(allowedSpec.file)) : null;
@@ -92,12 +107,10 @@ export async function retrieve(cat, query, config, maxSources = 6) {
     }
     for (const [n, score] of best) { const old = ranks.get(n) || { coverage: 0, score: 0 }; ranks.set(n, { coverage: old.coverage + 1, score: old.score + score }); }
   }
-  const ranked = [...ranks].sort((a,b) => b[1].coverage - a[1].coverage || b[1].score - a[1].score || a[0]-b[0]);
-  const cards = await cat.metadata(ranked.slice(0, 120).map(([n]) => n));
-  // Include both languages when each has an equally complete topic match.
-  const coverage = ranked[0]?.[1].coverage || 0;
-  const bilingual = ["he", "en"].map(language => cards.find(c => c.language === language && ranks.get(c.n)?.coverage === coverage)).filter(Boolean);
-  const ordered = [...new Map([cards[0], ...bilingual, ...cards].filter(Boolean).map(c => [c.id,c])).values()];
+  const ranked = [...ranks].sort((a,b) => b[1].score - a[1].score || a[0]-b[0]);
+  const cards = await cat.metadata(ranked.slice(0, config.candidate_limit || 160).map(([n]) => n));
+  const affinity=new Map(cards.map(c=>[c.id,titleAffinity(c.title,title,config)]));
+  const ordered=cards.sort((a,b)=>(ranks.get(b.n).score+50*affinity.get(b.id))-(ranks.get(a.n).score+50*affinity.get(a.id)));
   const sources = [], failures = [];
   for (let i = 0; i < Math.min(60, ordered.length); i += 6) {
     const values = await Promise.allSettled(ordered.slice(i, i + 6).map(c => cat.detail(c.id)));
@@ -106,15 +119,19 @@ export async function retrieve(cat, query, config, maxSources = 6) {
       const source = sourceFrom(value.value, groups);
       if (source) {
         const words = matchingWords(source.text,groups), matched = groups.filter(g => g.some(t => words.has(t)));
-        if (matched.length) sources.push({...source, coverage: matched.length, document: value.value.kind === "document"});
+        const titleWords=matchingWords(source.title,groups), titleScore=groups.filter(g=>g.some(t=>titleWords.has(t))).length;
+        const similarity=titleAffinity(source.title,title,config);
+        const lengthPenalty=1+.23*Math.log1p(Math.max(0,source.text.length-1800)/1800);
+        const score=(ranks.get(value.value.n)?.score||matched.length)/lengthPenalty+2*titleScore+(similarity>=.45?50:8)*similarity;
+        if (matched.length) sources.push({...source, coverage: matched.length, score, document: value.value.kind === "document"});
       }
     }
   }
   if (!sources.length && failures.length) throw failures[0];
-  sources.sort((a,b) => b.coverage-a.coverage);
+  sources.sort((a,b) => b.score-a.score);
   const minimum = Math.max(1, Math.min(3, sources[0]?.coverage || 1) - ((sources[0]?.coverage || 0)>=3?1:0));
-  const selected = sources.filter(s => s.coverage >= minimum).slice(0,maxSources);
-  const doc = sources.find(s => s.document && s.coverage >= (sources[0]?.coverage || 0)-1);
+  const selected = sources.filter(s => s.coverage >= minimum && s.score >= .15*sources[0].score).slice(0,maxSources);
+  const doc = sources.find(s => s.document && s.score >= .6*(sources[0]?.score || 0));
   if(doc && !selected.some(s => s.document)) { if(selected.length===maxSources)selected.pop();selected.push(doc); }
   return { sources:selected, groups, candidates: ranked.length, partial: failures.length > 0 };
 }

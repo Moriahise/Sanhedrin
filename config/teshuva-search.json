@@ -1,49 +1,343 @@
 {
   "schema": 1,
-  "stopwords": "a an and are as at be been but by can could did do does for from had has have how i if in into is it may my of on or our should that the their them then there these they this to was we were what when where which who why will with would you your about allowed permitted please question answer האם איך מה מתי מדוע למה על של את עם גם או אני הוא היא הם הן יש אין זה זו לא כן כאשר אם אפשר מותר צריך שאלה תשובה כיצד האם שלום תודה לעשות בזמן ביום getting get used use using something year years time trying like know many want concern help regarding really good bad become protection protect possible useable usable put take kept going every האם ניתן כיצד עושים רוצה לדעת הרבה שנה שנים דבר דברים",
+  "stopwords": "a an and are as at be been but by can could did do does for from had has have how i if in into is it may my of on or our should that the their them then there these they this to was we were what when where which who why will with would you your about allowed permitted please question answer האם איך מה מתי מדוע למה על של את עם גם או אני הוא היא הם הן יש אין זה זו לא כן כאשר אם אפשר מותר צריך שאלה תשובה כיצד האם שלום תודה לעשות בזמן ביום getting get used use using something year years time trying like know many want concern help regarding really good bad become protection protect possible useable usable put take kept going every האם ניתן כיצד עושים רוצה לדעת הרבה שנה שנים דבר דברים related originally mistake instead correct versus vs another refers referred terms includes inclusive fourth part called considered basis primarily specify traditional conceptual questioner now someone things already even still therefore unless both such saying passages queries source sources comments particular know come reference references either etc says saying found provides provide context theoretical must never always specific",
   "groups": [
-    ["shabbat", "shabbos", "shabat", "שבת"],
-    ["kashrut", "kosher", "kashrus", "כשרות", "כשר"],
-    ["prayer", "praying", "davening", "תפילה", "תפילות"],
-    ["blessing", "blessings", "bracha", "brachot", "berakhah", "beracha", "ברכה", "ברכות"],
-    ["pesach", "passover", "פסח"],
-    ["sukkot", "sukkos", "sukkah", "סוכות", "סוכה"],
-    ["chanukah", "hanukkah", "חנוכה"],
-    ["purim", "פורים"],
-    ["tefillin", "תפילין"],
-    ["mezuzah", "mezuza", "מזוזה"],
-    ["tzedakah", "charity", "צדקה"],
-    ["mourning", "avelut", "אבלות"],
-    ["marriage", "wedding", "נישואין", "חתונה"],
-    ["mikveh", "mikvah", "מקוה", "מקווה"],
-    ["eruv", "eiruv", "עירוב"],
-    ["candles", "candle", "נרות", "נר"],
-    ["cooking", "cook", "בישול", "לבשל"],
-    ["milk", "dairy", "חלב", "חלבי"],
-    ["meat", "בשר", "בשרי"],
-    ["electricity", "electric", "חשמל"],
-    ["water", "מים"],
-    ["bread", "לחם"],
-    ["wine", "יין"],
-    ["kiddush", "קידוש"],
-    ["havdalah", "הבדלה"],
-    ["fast", "fasting", "צום", "תענית"],
-    ["torah", "תורה"],
-    ["talmud", "gemara", "תלמוד", "גמרא"],
-    ["halacha", "halakha", "halakhah", "halachah", "הלכה"],
-    ["schach", "sechach", "sakh", "סכך"],
-    ["mold", "mould", "moldy", "mouldy", "mildew", "schimmel", "schimmelnd", "עובש", "עבש", "schimmelndem"],
-    ["bamboo", "במבוק"],
-    ["treat", "treated", "treatment", "chemical", "chemicals", "כימי", "כימית", "חומר"],
-    ["spray", "spraying", "ריסוס", "לרסס"],
-    ["storage", "storing", "אחסון"],
-    ["insects", "bugs", "חרקים"],
-    ["roof", "roofing", "סיכוך"],
-    ["branches", "ענפים"],
-    ["disinfect", "disinfectant", "חיטוי"],
-    ["smell", "odor", "ריח"],
-    ["rotting", "rotten", "רקוב", "ריקבון"]
+    [
+      "shabbat",
+      "shabbos",
+      "shabat",
+      "שבת"
+    ],
+    [
+      "kashrut",
+      "kosher",
+      "kashrus",
+      "כשרות",
+      "כשר"
+    ],
+    [
+      "prayer",
+      "praying",
+      "davening",
+      "תפילה",
+      "תפילות"
+    ],
+    [
+      "blessing",
+      "blessings",
+      "bracha",
+      "brachot",
+      "berakhah",
+      "beracha",
+      "ברכה",
+      "ברכות"
+    ],
+    [
+      "pesach",
+      "passover",
+      "פסח"
+    ],
+    [
+      "sukkot",
+      "sukkos",
+      "sukkah",
+      "סוכות",
+      "סוכה"
+    ],
+    [
+      "chanukah",
+      "hanukkah",
+      "חנוכה"
+    ],
+    [
+      "purim",
+      "פורים"
+    ],
+    [
+      "tefillin",
+      "תפילין"
+    ],
+    [
+      "mezuzah",
+      "mezuza",
+      "מזוזה"
+    ],
+    [
+      "tzedakah",
+      "charity",
+      "צדקה"
+    ],
+    [
+      "mourning",
+      "avelut",
+      "אבלות"
+    ],
+    [
+      "marriage",
+      "wedding",
+      "נישואין",
+      "חתונה"
+    ],
+    [
+      "mikveh",
+      "mikvah",
+      "מקוה",
+      "מקווה"
+    ],
+    [
+      "eruv",
+      "eiruv",
+      "עירוב"
+    ],
+    [
+      "candles",
+      "candle",
+      "נרות",
+      "נר"
+    ],
+    [
+      "cooking",
+      "cook",
+      "בישול",
+      "לבשל"
+    ],
+    [
+      "milk",
+      "dairy",
+      "חלב",
+      "חלבי"
+    ],
+    [
+      "meat",
+      "בשר",
+      "בשרי"
+    ],
+    [
+      "electricity",
+      "electric",
+      "חשמל"
+    ],
+    [
+      "water",
+      "מים"
+    ],
+    [
+      "bread",
+      "לחם"
+    ],
+    [
+      "wine",
+      "יין"
+    ],
+    [
+      "kiddush",
+      "קידוש"
+    ],
+    [
+      "havdalah",
+      "הבדלה"
+    ],
+    [
+      "fast",
+      "fasting",
+      "צום",
+      "תענית"
+    ],
+    [
+      "torah",
+      "תורה"
+    ],
+    [
+      "talmud",
+      "gemara",
+      "תלמוד",
+      "גמרא"
+    ],
+    [
+      "halacha",
+      "halakha",
+      "halakhah",
+      "halachah",
+      "הלכה"
+    ],
+    [
+      "schach",
+      "sechach",
+      "sakh",
+      "סכך"
+    ],
+    [
+      "mold",
+      "mould",
+      "moldy",
+      "mouldy",
+      "mildew",
+      "schimmel",
+      "schimmelnd",
+      "עובש",
+      "עבש",
+      "schimmelndem"
+    ],
+    [
+      "bamboo",
+      "במבוק"
+    ],
+    [
+      "treat",
+      "treated",
+      "treatment",
+      "chemical",
+      "chemicals",
+      "כימי",
+      "כימית",
+      "חומר"
+    ],
+    [
+      "spray",
+      "spraying",
+      "ריסוס",
+      "לרסס"
+    ],
+    [
+      "storage",
+      "storing",
+      "אחסון"
+    ],
+    [
+      "insects",
+      "bugs",
+      "חרקים"
+    ],
+    [
+      "roof",
+      "roofing",
+      "סיכוך"
+    ],
+    [
+      "branches",
+      "ענפים"
+    ],
+    [
+      "disinfect",
+      "disinfectant",
+      "חיטוי"
+    ],
+    [
+      "smell",
+      "odor",
+      "ריח"
+    ],
+    [
+      "rotting",
+      "rotten",
+      "רקוב",
+      "ריקבון"
+    ],
+    [
+      "memallel",
+      "memalela",
+      "memalel",
+      "ממלל",
+      "ממללא"
+    ],
+    [
+      "medaber",
+      "mdaber",
+      "דיבור",
+      "dibbur",
+      "dibur",
+      "speech",
+      "speaking"
+    ],
+    [
+      "sicha",
+      "sichah",
+      "siha",
+      "siach",
+      "msiach",
+      "conversation",
+      "שיחה",
+      "שיח"
+    ],
+    [
+      "domem",
+      "domeim",
+      "inanimate",
+      "דומם"
+    ],
+    [
+      "tzomeach",
+      "tsomeach",
+      "vegetative",
+      "צומח"
+    ],
+    [
+      "chai",
+      "animal",
+      "animals",
+      "חי"
+    ],
+    [
+      "chutzpis",
+      "chutzpit",
+      "chuzpit",
+      "chutzpith",
+      "hutzpit",
+      "חוצפית"
+    ],
+    [
+      "meturgeman",
+      "interpreter",
+      "מתורגמן"
+    ],
+    [
+      "vidui",
+      "viduy",
+      "confession",
+      "וידוי",
+      "ודוי"
+    ],
+    [
+      "malachi",
+      "מלאכי"
+    ],
+    [
+      "onkelos",
+      "אונקלוס"
+    ],
+    [
+      "likutei",
+      "likutey",
+      "ליקוטי",
+      "לקוטי"
+    ],
+    [
+      "etzot",
+      "etsot",
+      "עצות"
+    ],
+    [
+      "tablet",
+      "tablets",
+      "טאבלט"
+    ],
+    [
+      "rejoicing",
+      "rejoicings",
+      "שמחה"
+    ],
+    [
+      "cleaning",
+      "clean",
+      "ניקוי"
+    ],
+    [
+      "dry",
+      "drying",
+      "יבש",
+      "ייבוש"
+    ]
   ],
-  "candidate_limit": 120,
+  "candidate_limit": 160,
   "text_limit": 16000
 }
