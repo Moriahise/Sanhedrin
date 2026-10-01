@@ -52,8 +52,9 @@ def run(directory, reports):
             assert page.locator("#answer-sources .source").count() == 6
             assert page.locator("#answer-image").get_attribute("src") == page.locator("#rav-image").get_attribute("src")
             assert all(len(q) >= 25 for q in page.locator("#answer-sources blockquote").all_inner_texts())
-            data = page.evaluate("""async()=>{const {Catalogue,retrieve}=await import('./teshuva-data.js');const c=new Catalogue();await c.init();const config=await(await fetch('teshuva-search.json')).json();const a=await retrieve(c,'שבת נרות',config,8);return {total:c.manifest.total,ids:a.sources.map(s=>s.id),languages:a.sources.map(s=>s.language),sources:a.sources.length};}""")
+            data = page.evaluate("""async()=>{const {Catalogue,retrieve,titleAffinity}=await import('./teshuva-data.js');const c=new Catalogue();await c.init();const config=await(await fetch('teshuva-search.json')).json();const a=await retrieve(c,'שבת נרות',config,8);return {total:c.manifest.total,ids:a.sources.map(s=>s.id),languages:a.sources.map(s=>s.language),sources:a.sources.length,bilingual_affinity:titleAffinity('Shabbat candles','שבת נרות',config)};}""")
             assert data["sources"] == 8
+            assert data["bilingual_affinity"] == 1
             assert set(data["languages"]) == {"en", "he"}
             assert data["total"] >= 64000
             result["retrieval"] = data

@@ -9,8 +9,9 @@ export function questionTitle(value) {
   return (doc.body.textContent.split(/\n/).map(s=>s.trim()).find(Boolean)||"").slice(0,200);
 }
 export function titleAffinity(title, question, config) {
-  const stop=new Set(config.stopwords.split(/\s+/));
-  const words=text=>new Set(searchTokens(searchText(text)).filter(w=>w.length>1&&!stop.has(w)));
+  // Compare equivalent concepts, rather than favouring a title merely because
+  // its literal spelling is in the question's language.
+  const words=text=>new Set(groupsFor(text,config).map(group=>group[0]));
   const a=words(title), b=words(question), common=[...a].filter(w=>b.has(w)).length;
   return common>=Math.min(2,a.size,b.size)&&common ? common/Math.max(a.size,b.size) : 0;
 }
