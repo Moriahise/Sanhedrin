@@ -92,7 +92,7 @@ export async function retrieve(cat, query, config, maxSources = 6, questionHtml 
   // Keep the full question context even when it has a separate heading.
   // The heading contributes title affinity; it must not discard body terms.
   const title=questionTitle(questionHtml), groups = groupsFor(query, config);
-  const titleGroups = new Set(groupsFor(title,config).map(group=>group.join('|')));
+  const titleGroups = new Set(groupsFor(title,config).slice(0,3).map(group=>group.join('|')));
   if (!groups.length) return { sources: [], groups, candidates: 0 };
   const allowedSpec = cat.manifest.facets.evidence?.available;
   const allowed = allowedSpec ? new Set(await cat.json(allowedSpec.file)) : null;
