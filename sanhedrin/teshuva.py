@@ -512,6 +512,10 @@ def render(result, *, prefix="../"):
         body += '<p>' + esc(words["basis"]) + '</p>'
     if result.get('publication_status') == 'partial' or result.get('clarification_questions'):
         points = (result.get('missing_evidence', []) if result.get('publication_status') == 'partial' else []) + result.get('clarification_questions', [])
+        # Detailed audit failures remain in JSON/diagnostics for maintainers.
+        # The answer page shows substantive open questions, not draft-editing
+        # instructions or implementation errors from the review stage.
+        points = [point for point in points if not re.match(r'^(?:paragraph\s+\d+|some draft paragraphs|a factual claim|an unsupported part)\b', point, re.I)]
         if points:
             body += '<h3>' + esc(words['open_points']) + '</h3><ul>' + ''.join('<li dir="auto">' + esc(point) + '</li>' for point in dict.fromkeys(points)) + '</ul>'
     body += '<h2>' + words["sources"] + '</h2>'

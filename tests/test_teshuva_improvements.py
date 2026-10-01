@@ -189,3 +189,11 @@ class ImprovementsTests(unittest.TestCase):
         check={'supported':True,'material_scope_matches':True,'answers_question':True,'unsupported_analogy':False,'reason':'Two documented clauses.','evidence':evidence}
         review=review_draft('Creation levels',[{'title':'Creation','text':text}],{'paragraphs':[{'text':text,'citations':[1]}]},api_key='test',model='test',opener=lambda *a,**k:mock_response({'status':'ready','issues':[],'clarification_questions':[],'checks':{'1':check}}))
         self.assertEqual(review['checks'][0]['verified_text'],'The fourth level is human. Animals form the third level.')
+
+    def test_answer_shows_substantive_open_points_without_draft_audit_jargon(self):
+        result=compose(self.store,self.root,{**self.request,'use_openai':False},identity='teshuva-1-123456789abc')
+        result.update(publication_status='partial',missing_evidence=['No source establishes the hearing distinction.','Paragraph 1 overstates the sources.','Some draft paragraphs add unsupported recommendations.','A factual claim lacks a verifiable passage in its cited source.'])
+        page=render(result)
+        self.assertIn('No source establishes the hearing distinction.',page)
+        self.assertNotIn('Paragraph 1',page);self.assertNotIn('Some draft paragraphs',page);self.assertNotIn('A factual claim',page)
+        self.assertEqual(len(result['missing_evidence']),4)
