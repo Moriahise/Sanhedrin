@@ -144,7 +144,7 @@ def save(api, root, store, issue, request, *, api_key="", model="gpt-5.4-mini", 
         if result.get("request_hash") != request_hash:
             raise DataError("Saved request hash conflict")
         retry_api = bool(validated["use_openai"] and api_key and not api_block_reason
-                         and (result.get("answer_version", 0) < 8 and (not publishable(result) or result.get('mode') == 'library')
+                         and (result.get("answer_version", 0) < 8 and result.get('publication_status') != 'ready'
                               or result.get("openai_status") in RETRYABLE_API_STATES
                               and (result.get("openai_status") not in {"insufficient", "needs_clarification", "partial"} or retry_pending)))
     if not existing or retry_api:

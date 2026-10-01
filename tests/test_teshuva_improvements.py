@@ -162,3 +162,14 @@ class ImprovementsTests(unittest.TestCase):
         check={'supported':True,'material_scope_matches':True,'answers_question':True,'unsupported_analogy':False,'reason':'The phrase is explicit.','evidence':[{'claim':'Onkelos describes the human as a "speaking spirit".','source':1,'quote':'speaking spirit','kind':'explicit'}]}
         review=review_draft('Memallel',[{'title':'Onkelos Genesis 2:7','text':'The human became a speaking spirit.'}],{'paragraphs':[{'text':claim,'citations':[1]}]},api_key='test',model='test',opener=lambda *a,**k:mock_response({'status':'ready','issues':[],'clarification_questions':[],'checks':{'1':check}}))
         self.assertTrue(review['checks'][0]['supported'])
+
+    def test_older_partial_answer_receives_one_authorized_engine_upgrade(self):
+        api=FakeGitHub();first=save(api,self.root,self.store,10,self.request,api_block_reason='disabled')
+        path='Sanhedrin/'+first['id']+'.json';old=json.loads(api.files[path])
+        old.update(answer_version=7,mode='openai',openai_status='partial',publication_status='partial',citation_audit_version=1,paragraphs=[{'text':'Previously supported part.','citations':[1]}]);api.files[path]=json.dumps(old)
+        newer={**old,'answer_version':8,'paragraphs':[{'text':'Improved supported part.','citations':[1]}]}
+        with patch('tools.save_teshuva.compose',return_value=newer) as run:
+            upgraded=save(api,self.root,self.store,10,self.request,api_key='test')
+        run.assert_called_once();self.assertEqual(upgraded['publication_status'],'partial')
+        with patch('tools.save_teshuva.compose',side_effect=AssertionError('No repeated paid attempt')):
+            save(api,self.root,self.store,10,self.request,api_key='test')
