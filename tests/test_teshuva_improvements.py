@@ -95,7 +95,7 @@ class ImprovementsTests(unittest.TestCase):
     def test_old_failed_request_is_upgraded_once_with_same_identity(self):
         api=FakeGitHub();first=save(api,self.root,self.store,9,self.request,api_block_reason='disabled')
         path='Sanhedrin/'+first['id']+'.json';old=json.loads(api.files[path]);old.pop('answer_version');old['publication_status']='needs_research';old['openai_status']='insufficient';api.files[path]=json.dumps(old)
-        replacement={**old,'answer_version':8,'citation_audit_version':1,'publication_status':'ready','mode':'openai','openai_status':'draft','paragraphs':[{'text':'A supported answer.','citations':[1]}]}
+        replacement={**old,'answer_version':9,'citation_audit_version':1,'publication_status':'ready','mode':'openai','openai_status':'draft','paragraphs':[{'text':'A supported answer.','citations':[1]}]}
         with patch('tools.save_teshuva.compose',return_value=replacement) as run:
             second=save(api,self.root,self.store,9,self.request,api_key='test')
         run.assert_called_once();self.assertEqual(first['id'],second['id']);self.assertEqual(second['publication_status'],'ready')
@@ -167,9 +167,25 @@ class ImprovementsTests(unittest.TestCase):
         api=FakeGitHub();first=save(api,self.root,self.store,10,self.request,api_block_reason='disabled')
         path='Sanhedrin/'+first['id']+'.json';old=json.loads(api.files[path])
         old.update(answer_version=7,mode='openai',openai_status='partial',publication_status='partial',citation_audit_version=1,paragraphs=[{'text':'Previously supported part.','citations':[1]}]);api.files[path]=json.dumps(old)
-        newer={**old,'answer_version':8,'paragraphs':[{'text':'Improved supported part.','citations':[1]}]}
+        newer={**old,'answer_version':9,'paragraphs':[{'text':'Improved supported part.','citations':[1]}]}
         with patch('tools.save_teshuva.compose',return_value=newer) as run:
             upgraded=save(api,self.root,self.store,10,self.request,api_key='test')
         run.assert_called_once();self.assertEqual(upgraded['publication_status'],'partial')
         with patch('tools.save_teshuva.compose',side_effect=AssertionError('No repeated paid attempt')):
             save(api,self.root,self.store,10,self.request,api_key='test')
+
+    def test_richer_verified_first_round_is_not_lost_to_fewer_named_gaps(self):
+        first={'status':'partial','paragraphs':[{'text':text,'citations':[1]} for text in ['Speech is the human category.','Animal life is a separate category.','Conversation is a speech usage.']],'missing_evidence':['Hearing is not established.','Writing is not established.'],'clarification_questions':[]}
+        second={**first,'paragraphs':first['paragraphs'][:1],'missing_evidence':['Hearing is not established.']}
+        def review(question,sources,draft,**kwargs):
+            return {'status':'partial','citation_audit_version':1,'issues':[],'clarification_questions':[],'checks':[{'paragraph':i,'supported':True,'material_scope_matches':True,'answers_question':True,'unsupported_analogy':False,'reason':'Documented statement.'} for i in range(1,len(draft['paragraphs'])+1)]}
+        with patch('sanhedrin.research.plan_question',return_value=PLAN),patch('sanhedrin.research.rerank_sources',side_effect=lambda q,s,**kw:s),patch('sanhedrin.teshuva.api_draft',side_effect=[first,second]),patch('sanhedrin.research.review_draft',side_effect=review):
+            result=compose(self.store,self.root,self.request,identity='teshuva-1-123456789abc',api_key='test')
+        self.assertEqual(len(result['paragraphs']),3);self.assertEqual(result['research_rounds'],1)
+
+    def test_verified_clauses_keep_readable_sentence_boundaries(self):
+        text='the fourth level is human and animals form the third level'
+        evidence=[{'claim':'the fourth level is human','source':1,'quote':'the fourth level is human','kind':'explicit'},{'claim':'animals form the third level','source':1,'quote':'animals form the third level','kind':'explicit'}]
+        check={'supported':True,'material_scope_matches':True,'answers_question':True,'unsupported_analogy':False,'reason':'Two documented clauses.','evidence':evidence}
+        review=review_draft('Creation levels',[{'title':'Creation','text':text}],{'paragraphs':[{'text':text,'citations':[1]}]},api_key='test',model='test',opener=lambda *a,**k:mock_response({'status':'ready','issues':[],'clarification_questions':[],'checks':{'1':check}}))
+        self.assertEqual(review['checks'][0]['verified_text'],'The fourth level is human. Animals form the third level.')

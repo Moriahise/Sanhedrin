@@ -550,7 +550,17 @@ def review_draft(question, sources, draft, *, api_key, model, opener=urllib.requ
             if not copied_claims:
                 check.update(supported=False, reason='A factual claim lacks a verifiable passage in its cited source.')
             else:
-                check['verified_text'] = ' '.join(copied_claims)
+                # Audit spans often omit surrounding sentence punctuation. Keep
+                # their verified words, but make separate clauses readable.
+                sentences = []
+                for claim in copied_claims:
+                    sentence = claim.strip()
+                    if sentence and sentence[0].islower():
+                        sentence = sentence[0].upper() + sentence[1:]
+                    if sentence and sentence[-1] not in '.!?׃':
+                        sentence += '.'
+                    sentences.append(sentence)
+                check['verified_text'] = ' '.join(sentences)
                 check['verified_citations'] = list(dict.fromkeys(e['source'] for e in valid_items))
                 check['evidence'] = valid_items
             if failures:

@@ -345,7 +345,7 @@ def compose(store, root, request, *, identity, api_key="", model="gpt-5.4-mini",
             raise DataError('Saved answer text is unavailable for source: ' + pid)
         else:
             diagnostics.append({'provider': 'library', 'source_id': pid, 'status': 'unavailable'})
-    result = {'schema': 1, 'answer_version': 8, 'id': identity, 'created_at': utcnow(), 'request_hash': digest(request),
+    result = {'schema': 1, 'answer_version': 9, 'id': identity, 'created_at': utcnow(), 'request_hash': digest(request),
               'question_html': request['question_html'], 'question_text': request['question_text'],
               'language': request['language'], 'profile': next(p for p in profiles(root) if request['profile_id'] == 'auto' or p['id'] == request['profile_id']),
               'mode': 'library', 'openai_status': api_block_reason or ('unconfigured' if request['use_openai'] else 'off'),
@@ -440,7 +440,10 @@ def compose(store, root, request, *, identity, api_key="", model="gpt-5.4-mini",
                                'publication_status': 'ready' if complete else 'partial', 'answer_kind': 'complete' if complete else 'partial',
                                'sources': sources, 'paragraphs': paragraphs, 'missing_evidence': gaps, 'clarification_questions': clarifications,
                                'review_status': review['status'], 'citation_audit_version': review.get('citation_audit_version', 0), 'support_checks': [c for c in checks if c['paragraph'] in keep], 'research_rounds': round_number}
-                    rank = (int(complete), -len(gaps), len(paragraphs))
+                    # Fewer listed gaps do not mean more of the question was
+                    # answered. Never replace a richer checked first round
+                    # merely because the next round names fewer open points.
+                    rank = (int(complete), len(paragraphs), sum(len(tokens(p['text'])) for p in paragraphs), -len(gaps))
                     if best is None or rank > best[0]:
                         best = (rank, checked)
                     if complete:
