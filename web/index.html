@@ -5,11 +5,40 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; base-uri 'none'; object-src 'none'; form-action 'self'"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'sha256-rZ00UGSLDDNg80vYDm9eZb3jssLteBEE83DuN13zcaA='; img-src 'self'; connect-src 'self'; base-uri 'none'; object-src 'none'; form-action 'self'"
     />
     <title>Sanhedrin · ספריית שאלות ותשובות</title>
     <link rel="stylesheet" href="catalog.css" />
     <script type="module" src="catalog-app.js"></script>
+    <style id="department-styles">
+      .sanhedrin-departments { margin: 0 0 2rem; scroll-margin-top: 1.5rem; }
+      .sanhedrin-departments .department-heading { display: flex; align-items: end; justify-content: space-between; flex-wrap: wrap; gap: .5rem 1.5rem; margin-bottom: 1rem; }
+      .sanhedrin-departments .department-heading .eyebrow { margin: 0; }
+      .sanhedrin-departments .department-heading h2 { margin: .3rem 0 0; font-size: clamp(1.35rem, 2.5vw, 1.8rem); }
+      .sanhedrin-departments .department-tab-hint { margin: 0; color: var(--muted); font-size: .76rem; }
+      .sanhedrin-departments .department-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+      .sanhedrin-departments .department-card { --department-text: #183b3b; --department-muted: #526766; --department-accent: #805b28; --department-border: #dfd5c3; display: flex; flex-direction: column; min-width: 0; padding: 1.5rem 1.6rem; border: 1px solid var(--department-border); border-block-start: 3px solid #ae8140; border-radius: 12px; background: linear-gradient(135deg, #fff9ed, #fffdf8); color: var(--department-text); text-decoration: none; overflow-wrap: anywhere; transition: border-color .15s, box-shadow .15s; }
+      .sanhedrin-departments .department-card--mikdash { --department-text: #fff9eb; --department-muted: #d9e4dc; --department-accent: #f1d5a2; --department-border: #58776b; background: linear-gradient(135deg, #173b3b, #295447); }
+      .sanhedrin-departments .department-card:hover { border-color: #ae8140; box-shadow: 0 7px 24px #173b3b18; }
+      .sanhedrin-departments .department-card:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; }
+      .sanhedrin-departments .department-card-top { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: .75rem; }
+      .sanhedrin-departments .department-category { color: var(--department-accent); font-size: .75rem; font-weight: 700; }
+      .sanhedrin-departments .department-emblem { display: grid; place-items: center; flex: 0 0 56px; width: 56px; height: 56px; border: 1px solid var(--department-border); border-radius: 13px; color: var(--department-accent); }
+      .sanhedrin-departments .department-emblem svg { display: block; width: 39px; height: 39px; }
+      .sanhedrin-departments .department-card h3 { margin: 0 0 .5rem; font-size: clamp(1.35rem, 2.6vw, 1.75rem); line-height: 1.35; color: var(--department-text); }
+      .sanhedrin-departments .department-card p { margin: 0 0 1.15rem; color: var(--department-muted); font-size: .88rem; }
+      .sanhedrin-departments .department-topics { margin-bottom: 1.2rem; color: var(--department-accent); font-size: .74rem; font-weight: 700; }
+      .sanhedrin-departments .department-action { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-top: auto; padding-top: .9rem; border-top: 1px solid var(--department-border); color: var(--department-text); font-size: .88rem; font-weight: 700; }
+      .sanhedrin-departments .department-action-arrow { color: var(--department-accent); font-size: 1.15rem; }
+      @media (max-width: 640px) {
+        .sanhedrin-departments .department-grid { grid-template-columns: 1fr; }
+        .sanhedrin-departments .department-card { padding: 1.25rem; }
+        .sanhedrin-departments .department-heading { align-items: start; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .sanhedrin-departments .department-card { transition: none; }
+      }
+    </style>
   </head>
   <body>
     <header class="masthead">
@@ -19,6 +48,7 @@
       <nav aria-label="Language">
         <a href="teshuva.html" data-i18n="ask">שאלה ותשובה</a>
         <a class="music-nav" href="#songs"><span aria-hidden="true">♪</span> <span class="music-he" lang="he">שירים וניגונים</span><span class="music-en" lang="en">Songs &amp; Niggunim</span></a>
+        <a class="music-nav" href="#departments"><span class="music-he" lang="he">מרחבי לימוד ועבודה</span><span class="music-en" lang="en">Study &amp; tools</span></a>
         <button id="language" type="button">English</button
         ><a href="status.html" data-i18n="health">מצב המקורות</a>
       </nav>
@@ -32,6 +62,48 @@
         </p>
         <p id="overview" class="overview" aria-live="polite"></p>
       </div>
+      <!-- Study and Mikdash departments -->
+      <section id="departments" class="sanhedrin-departments" aria-labelledby="departments-title" tabindex="-1">
+        <div class="department-heading">
+          <div>
+            <p class="eyebrow"><span class="music-he" lang="he">מן המקור אל המעשה</span><span class="music-en" lang="en">From sources to practice</span></p>
+            <h2 id="departments-title"><span class="music-he" lang="he">מרחבי לימוד ועבודה</span><span class="music-en" lang="en">Study &amp; workspaces</span></h2>
+          </div>
+          <p class="department-tab-hint"><span class="music-he" lang="he">כל מרחב נפתח בלשונית חדשה.</span><span class="music-en" lang="en">Each space opens in a new tab.</span></p>
+        </div>
+        <div class="department-grid">
+          <a class="department-card department-card--mikdash" href="https://moriahise.github.io/Minhal-haMikdash/" target="_blank" rel="noopener noreferrer">
+            <div class="department-card-top">
+              <span class="department-category"><span class="music-he" lang="he">עולם המקדש · תכנון וניהול</span><span class="music-en" lang="en">The Mikdash · Planning &amp; administration</span></span>
+              <span class="department-emblem" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+                  <path d="M7 40h34M10 36h28M13 36V16h22v20M17 36V12h14v24M21 36V23h6v13M17 12V8h14v4M8 20h5M35 20h5M8 20v16M40 20v16M7 16h7M34 16h7"/>
+                  <path d="M21 17h6M21 20h6"/>
+                </svg>
+              </span>
+            </div>
+            <h3><span class="music-he" lang="he">מִנְהַל הַמִּקְדָּשׁ</span><span class="music-en" lang="en">Minhal haMikdash</span></h3>
+            <p><span class="music-he" lang="he">מרחב לתכנון ולניהול עולם המקדש, בליווי מקורות מן המשנה, הגמרא והרמב״ם.</span><span class="music-en" lang="en">Explore planning and administration of the Mikdash, with sources from the Mishnah, Gemara and Rambam.</span></p>
+            <span class="department-topics"><span class="music-he" lang="he">מקורות · תכנון · ניהול</span><span class="music-en" lang="en">Sources · Planning · Administration</span></span>
+            <span class="department-action"><span class="music-he" lang="he">אל מִנְהַל המקדש</span><span class="music-en" lang="en">Enter Minhal haMikdash</span><span class="department-action-arrow" aria-hidden="true">↗</span></span>
+          </a>
+          <a class="department-card department-card--sefaria" href="https://moriahise.github.io/sefaria-studio/" target="_blank" rel="noopener noreferrer">
+            <div class="department-card-top">
+              <span class="department-category"><span class="music-he" lang="he">ספריית התורה · קריאה ועריכה</span><span class="music-en" lang="en">The Torah library · Reading &amp; editing</span></span>
+              <span class="department-emblem" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+                  <path d="M24 12c-5-4-11-4-18-2v26c7-2 13-2 18 2 5-4 11-4 18-2V10c-7-2-13-2-18 2Z"/>
+                  <path d="M24 12v26M11 16c3-1 6-1 9 1M11 22c3-1 6-1 9 1M11 28c3-1 6-1 9 1M28 17c3-2 6-2 9-1M28 23c3-2 6-2 9-1M28 29c3-2 6-2 9-1"/>
+                </svg>
+              </span>
+            </div>
+            <h3><span class="music-he" lang="he">ספריא · סטודיו לטקסט</span><span class="music-en" lang="en">Sefaria Text Studio</span></h3>
+            <p><span class="music-he" lang="he">קוראים במקורות בעברית ובאנגלית, מעיינים זה לצד זה ועורכים טקסטים במרחב לימוד אישי.</span><span class="music-en" lang="en">Read Hebrew and English sources, study them side by side and edit texts in your own workspace.</span></p>
+            <span class="department-topics"><span class="music-he" lang="he">קריאה · עיון · עריכה</span><span class="music-en" lang="en">Reading · Study · Editing</span></span>
+            <span class="department-action"><span class="music-he" lang="he">אל סטודיו הטקסט</span><span class="music-en" lang="en">Open the text studio</span><span class="department-action-arrow" aria-hidden="true">↗</span></span>
+          </a>
+        </div>
+      </section>
       <aside class="music-feature" aria-labelledby="music-feature-title">
         <span class="music-feature-note" aria-hidden="true">♪</span>
         <div class="music-feature-copy">
