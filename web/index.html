@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'; style-src 'self' 'sha256-rZ00UGSLDDNg80vYDm9eZb3jssLteBEE83DuN13zcaA='; img-src 'self'; connect-src 'self'; base-uri 'none'; object-src 'none'; form-action 'self'"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'sha256-OghQdzfZxx8SXyyMNFKPfpjKo8jsY5Uvpg0VwYYsEy0='; img-src 'self'; connect-src 'self'; base-uri 'none'; object-src 'none'; form-action 'self'"
     />
     <title>Sanhedrin · ספריית שאלות ותשובות</title>
     <link rel="stylesheet" href="catalog.css" />
@@ -30,6 +30,10 @@
       .sanhedrin-departments .department-topics { margin-bottom: 1.2rem; color: var(--department-accent); font-size: .74rem; font-weight: 700; }
       .sanhedrin-departments .department-action { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-top: auto; padding-top: .9rem; border-top: 1px solid var(--department-border); color: var(--department-text); font-size: .88rem; font-weight: 700; }
       .sanhedrin-departments .department-action-arrow { color: var(--department-accent); font-size: 1.15rem; }
+      .sanhedrin-departments .department-card--mikdash .department-action { text-decoration: none; }
+      .sanhedrin-departments .department-card--mikdash .department-action:hover { color: var(--department-accent); }
+      .sanhedrin-departments .department-card--mikdash .department-action:focus-visible { outline: 3px solid var(--department-accent); outline-offset: 4px; }
+      .sanhedrin-departments .department-card--mikdash .department-action--secondary { margin-top: .7rem; padding: .75rem .85rem; border: 1px solid var(--department-border); border-radius: 8px; background: #ffffff0a; font-size: .8rem; }
       @media (max-width: 640px) {
         .sanhedrin-departments .department-grid { grid-template-columns: 1fr; }
         .sanhedrin-departments .department-card { padding: 1.25rem; }
@@ -72,7 +76,7 @@
           <p class="department-tab-hint"><span class="music-he" lang="he">כל מרחב נפתח בלשונית חדשה.</span><span class="music-en" lang="en">Each space opens in a new tab.</span></p>
         </div>
         <div class="department-grid">
-          <a class="department-card department-card--mikdash" href="https://moriahise.github.io/Minhal-haMikdash/" target="_blank" rel="noopener noreferrer">
+          <article class="department-card department-card--mikdash" aria-labelledby="mikdash-department-title">
             <div class="department-card-top">
               <span class="department-category"><span class="music-he" lang="he">עולם המקדש · תכנון וניהול</span><span class="music-en" lang="en">The Mikdash · Planning &amp; administration</span></span>
               <span class="department-emblem" aria-hidden="true">
@@ -82,11 +86,12 @@
                 </svg>
               </span>
             </div>
-            <h3><span class="music-he" lang="he">מִנְהַל הַמִּקְדָּשׁ</span><span class="music-en" lang="en">Minhal haMikdash</span></h3>
+            <h3 id="mikdash-department-title"><span class="music-he" lang="he">מִנְהַל הַמִּקְדָּשׁ</span><span class="music-en" lang="en">Minhal haMikdash</span></h3>
             <p><span class="music-he" lang="he">מרחב לתכנון ולניהול עולם המקדש, בליווי מקורות מן המשנה, הגמרא והרמב״ם.</span><span class="music-en" lang="en">Explore planning and administration of the Mikdash, with sources from the Mishnah, Gemara and Rambam.</span></p>
             <span class="department-topics"><span class="music-he" lang="he">מקורות · תכנון · ניהול</span><span class="music-en" lang="en">Sources · Planning · Administration</span></span>
-            <span class="department-action"><span class="music-he" lang="he">אל מִנְהַל המקדש</span><span class="music-en" lang="en">Enter Minhal haMikdash</span><span class="department-action-arrow" aria-hidden="true">↗</span></span>
-          </a>
+            <a class="department-action" href="https://moriahise.github.io/Minhal-haMikdash/" target="_blank" rel="noopener noreferrer"><span class="music-he" lang="he">אל מִנְהַל המקדש</span><span class="music-en" lang="en">Enter Minhal haMikdash</span><span class="department-action-arrow" aria-hidden="true">↗</span></a>
+            <a class="department-action department-action--secondary" href="https://moriahise.github.io/Minhal-haMikdash/app/Minhal_HaMikdash_Lebendiges_13.1.html" target="_blank" rel="noopener noreferrer"><span class="music-he" lang="he">מחזור עבודת המקדש · חוויה אינטראקטיבית</span><span class="music-en" lang="en">The living year · Interactive experience</span><span class="department-action-arrow" aria-hidden="true">↗</span></a>
+          </article>
           <a class="department-card department-card--sefaria" href="https://moriahise.github.io/sefaria-studio/" target="_blank" rel="noopener noreferrer">
             <div class="department-card-top">
               <span class="department-category"><span class="music-he" lang="he">ספריית התורה · קריאה ועריכה</span><span class="music-en" lang="en">The Torah library · Reading &amp; editing</span></span>
