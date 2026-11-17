@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>על השם · שכינה | About the name · Shekhina</title>
+<meta name="description" content="Why this library bears the name Shekhina: five textual anchors, the number 385 and the year 5787. למה הספרייה נקראת שכינה.">
+<style>
+  :root{
+    --bg:#f5f3ee; --paper:#ffffff; --ink:#1f2b2a; --teal:#173b38; --teal-2:#22504b;
+    --gold:#b0803a; --gold-soft:#f3e7d1; --muted:#5f6b69; --line:#e6dfd2;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:17px/1.7 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans Hebrew",sans-serif}
+  .serif{font-family:"Frank Ruhl Libre","David","SBL Hebrew","Times New Roman",serif}
+  a{color:var(--teal)}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+  header.top{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+  .brand{font-weight:700;color:var(--teal);text-decoration:none;font-size:18px}
+  .langs{display:flex;gap:6px}
+  .langs button{border:1px solid var(--line);background:var(--paper);color:var(--teal);border-radius:8px;padding:6px 12px;font:inherit;font-size:14px;cursor:pointer}
+  .langs button[aria-pressed="true"]{background:var(--teal);color:#fff;border-color:var(--teal)}
+  .hero{padding:30px 0 10px}
+  .eyebrow{color:var(--gold);font-weight:700;font-size:14px;letter-spacing:.02em;margin:0 0 6px}
+  h1{color:var(--teal);font-size:clamp(32px,5.4vw,54px);line-height:1.12;margin:0 0 16px;font-weight:800}
+  .lead{font-size:19px;color:var(--muted);max-width:780px;margin:0}
+  h2{color:var(--teal);font-size:clamp(24px,3.4vw,32px);margin:0 0 8px;font-weight:800}
+  .sec{padding:34px 0 6px}
+  .sub{color:var(--muted);margin:0 0 18px;max-width:780px}
+  .verse{font-size:clamp(24px,3.6vw,34px);line-height:1.5;color:var(--teal);margin:6px 0 4px}
+  .verse-ref{color:var(--gold);font-weight:700;font-size:14px}
+  .hl{background:var(--gold-soft);border-radius:6px;padding:0 4px}
+  .dark{background:linear-gradient(135deg,var(--teal),var(--teal-2));color:#eef3f1;border-radius:16px;padding:26px 26px 22px;border-top:4px solid var(--gold);margin-top:8px}
+  .dark h2{color:#fff}
+  .dark .sub{color:#c9d8d4}
+  .nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:16px 0 12px}
+  .num{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:12px;text-align:center}
+  .num .w{font-size:26px;display:block;color:#f3e7d1;min-height:40px}
+  .num b{display:block;font-size:22px;color:#fff}
+  .num small{color:#c9d8d4;font-size:13.5px}
+  .dark p{margin:8px 0}
+  .dark .fine{font-size:14.5px;color:#b9cbc6}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+  .card{background:var(--paper);border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:14px;padding:20px 20px 16px;display:flex;flex-direction:column}
+  .card .k{color:var(--gold);font-weight:700;font-size:13.5px;margin:0 0 4px}
+  .card h3{color:var(--teal);font-size:21px;margin:0 0 8px;line-height:1.3}
+  .card .q{font-size:20px;line-height:1.55;color:var(--teal);background:#faf6ee;border-radius:10px;padding:8px 12px;margin:4px 0 10px}
+  .card p{margin:0 0 8px}
+  .card .src{margin-top:auto;font-size:14px;color:var(--muted);border-top:1px dashed var(--line);padding-top:8px}
+  .pillars{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+  .pillar{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px}
+  .pillar .w{font-size:24px;color:var(--gold);display:block;margin-bottom:2px}
+  .pillar h3{color:var(--teal);margin:0 0 6px;font-size:19px}
+  .pillar p{margin:0;color:var(--muted);font-size:16px}
+  .note{border-inline-start:4px solid var(--gold);background:#fbf7ef;border-radius:10px;padding:14px 16px;margin:18px 0;color:var(--muted);font-size:15.5px}
+  .closing{text-align:center;padding:38px 0 10px}
+  .closing .verse{font-size:clamp(26px,4vw,38px)}
+  footer{border-top:1px solid var(--line);margin-top:30px;padding:20px 0 40px;color:var(--muted);font-size:14.5px}
+  footer ul{margin:6px 0 0;padding-inline-start:20px}
+  .remez{background:var(--paper);border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:14px;padding:22px 22px 14px;text-align:center}
+  .remez p[data-lang]{text-align:start;max-width:780px;margin:14px auto 8px}
+  .eq{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px;margin:18px 0 6px}
+  .eq .t{background:#faf6ee;border:1px solid var(--line);border-radius:12px;padding:10px 18px;min-width:120px}
+  .eq .t.res{background:var(--teal);border-color:var(--teal)}
+  .eq .t.res .w,.eq .t.res b{color:#fff}
+  .eq .w{display:block;font-size:26px;color:var(--teal)}
+  .eq b{display:block;font-size:22px;color:var(--teal)}
+  .eq small{color:var(--muted);font-size:13px}
+  .eq .op{font-size:28px;color:var(--gold);font-weight:700}
+  [data-lang]{display:none}
+  html[lang="he"] [data-lang="he"], html[lang="en"] [data-lang="en"]{display:revert}
+  span[data-lang]{display:none}
+  html[lang="he"] span[data-lang="he"], html[lang="en"] span[data-lang="en"]{display:inline}
+  .he{direction:rtl;unicode-bidi:isolate}
+  @media (max-width:560px){.dark{padding:20px 16px}.card{padding:16px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="/"><span data-lang="he">שכינה · ספריית שאלות ותשובות</span><span data-lang="en">Shekhina · Q&amp;A library</span></a>
+    <div class="langs" role="group" aria-label="Language">
+      <button type="button" data-set="he" aria-pressed="true">עברית</button>
+      <button type="button" data-set="en" aria-pressed="false">English</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <p class="eyebrow"><span data-lang="he">על השם</span><span data-lang="en">About the name</span></p>
+    <h1><span data-lang="he">שְׁכִינָה: למה הספרייה נקראת כך</span><span data-lang="en">Shekhina: why this library bears the name</span></h1>
+    <p class="lead" data-lang="he">שכינה היא השראת השם בעולם, מלשון <span class="serif">״וְשָׁכַנְתִּי בְּתוֹכָם״</span> (שמות כה, ח). בקבלה היא ספירת המלכות, כנסת ישראל. ספרייה של שאלות ותשובות היא תורה שבעל פה, ובלשון תיקוני הזוהר: <span class="serif">״מַלְכוּת פֶּה, תּוֹרָה שֶׁבְּעַל פֶּה קָרֵינָן לָהּ״</span>.</p>
+    <p class="lead" data-lang="en">The Shekhina is the indwelling of the Divine Presence in the world, from <em>“that I may dwell among them”</em> (Exodus 25:8). In Kabbalah it is <em>Malkhut</em>, the Assembly of Israel. A library of questions and answers is Oral Torah, and the Tikkunei Zohar teaches: <em>“Malkhut is the mouth; we call it the Oral Torah.”</em></p>
+  </section>
+
+  <!-- 385 -->
+  <section class="sec">
+    <div class="dark">
+      <p class="eyebrow"><span data-lang="he">המספר</span><span data-lang="en">The number</span></p>
+      <h2>385</h2>
+      <p class="sub" data-lang="he">שנת ה׳תשפ״ז, השנה שבה הספרייה החלה להתמלא, ארוכה 385 ימים. זו השנה הארוכה ביותר האפשרית בלוח העברי, כמניין <span class="serif">שכינה</span>. היא פותחת בשבת ומונה 55 שבועות שלמים.</p>
+      <p class="sub" data-lang="en">The year 5787, in which this library began to fill, is 385 days long. That is the longest year the Hebrew calendar allows, equal to the numerical value of <em>Shekhina</em>. It opens on Shabbat and counts exactly 55 weeks.</p>
+      <div class="nums">
+        <div class="num"><span class="w serif he">שְׁכִינָה</span><b>385</b><small><span data-lang="he">השראת השם</span><span data-lang="en">Divine Presence</span></small></div>
+        <div class="num"><span class="w serif he">שָׂפָה</span><b>385</b><small><span data-lang="he">לשון, דיבור</span><span data-lang="en">language, speech</span></small></div>
+        <div class="num"><span class="w serif he">מִצְרַיְמָה</span><b>385</b><small><span data-lang="he">בראשית מו, ד</span><span data-lang="en">Genesis 46:4</span></small></div>
+        <div class="num"><span class="w serif he">משֶׁה גּוֹאֵל</span><b>385</b><small><span data-lang="he">שפתי כהן</span><span data-lang="en">Siftei Kohen</span></small></div>
+        <div class="num"><span class="w" dir="ltr" style="font-size:19px;white-space:nowrap;line-height:40px">1²+2²+…+10²</span><b>385</b><small><span data-lang="he">רמז לעשר</span><span data-lang="en">a hint of the Ten</span></small></div>
+      </div>
+      <p class="fine" data-lang="he">לדיוק: כל שנה מעוברת שלמה מונה 385 ימים. ייחודה של תשפ״ז הוא שהיא פותחת בשבת (קביעות זש״ה), ולכן גם ראש השנה תשפ״ח חל בשבת.</p>
+      <p class="fine" data-lang="en">For accuracy: every complete leap year has 385 days. What sets 5787 apart is that it opens on Shabbat (year type <span class="serif he">זש״ה</span>), so Rosh Hashanah 5788 falls on Shabbat as well.</p>
+    </div>
+  </section>
+
+  <!-- FIVE ANCHORS -->
+  <section class="sec">
+    <p class="eyebrow"><span data-lang="he">מן המקורות</span><span data-lang="en">From the sources</span></p>
+    <h2><span data-lang="he">חמישה עוגנים</span><span data-lang="en">Five anchors</span></h2>
+    <p class="sub" data-lang="he">גימטריא היא רמז, וכוחו של רמז כשהוא נשען על פסוק ועל דברי חז״ל. אלה חמשת העוגנים שבהם המספר 385 והשם שכינה נפגשים.</p>
+    <p class="sub" data-lang="en">Gematria is a hint (<em>remez</em>), and a hint carries weight when it rests on a verse and on the words of the Sages. These are the five anchors where the number 385 and the name Shekhina meet.</p>
+
+    <div class="grid">
+      <article class="card">
+        <p class="k">1</p>
+        <h3><span data-lang="he">מלכות פה: שכינה = שפה</span><span data-lang="en">Malkhut is the mouth: Shekhina = Safah</span></h3>
+        <div class="q serif he">מַלְכוּת פֶּה, תּוֹרָה שֶׁבְּעַל פֶּה קָרֵינָן לָהּ</div>
+        <p data-lang="he">השכינה היא המלכות, והמלכות היא הפה. לכן שכינה ושפה שוות זו לזו (385). ספרייה זו עוסקת בשפה: בשאלה, בתשובה ובניגון.</p>
+        <p data-lang="en">The Shekhina is Malkhut, and Malkhut is the mouth. Hence Shekhina and Safah (speech) share one number, 385. This library is about speech: the question, the answer and the melody.</p>
+        <p class="src"><span data-lang="he">תיקוני זוהר יז ע״א (פתח אליהו) · אגרת הקודש כה</span><span data-lang="en">Tikkunei Zohar 17a (Patach Eliyahu) · Iggeret haKodesh 25</span></p>
+      </article>
+
+      <article class="card">
+        <p class="k">2</p>
+        <h3><span data-lang="he">״אנכי ארד עמך״: השכינה יורדת לגלות</span><span data-lang="en">“I will go down with you”: the Shekhina goes into exile</span></h3>
+        <div class="q serif he">אָנֹכִי אֵרֵד עִמְּךָ <span class="hl">מִצְרַיְמָה</span> וְאָנֹכִי אַעַלְךָ גַם עָלֹה</div>
+        <p data-lang="he">המילה שמניינה 385 עומדת בפסוק שבו הקב״ה מבטיח לרדת עם יעקב לגלות. חז״ל: <span class="serif">״גלו למצרים, שכינה עמהן״</span>. ובשפתי כהן: מצרימה = משה גואל. הגלות, השכינה והגואל נפגשים במספר אחד.</p>
+        <p data-lang="en">The word whose value is 385 stands in the very verse where God promises to go down into exile with Jacob. The Sages: <em>“They were exiled to Egypt, and the Shekhina was with them.”</em> The Siftei Kohen adds: <span class="serif he" style="white-space:nowrap">מצרימה = משה גואל</span> (“to Egypt” = “Moses the redeemer”). Exile, Presence and Redeemer meet in one number.</p>
+        <p class="src"><span data-lang="he">בראשית מו, ד · מגילה כט ע״א · שפתי כהן (ר׳ מרדכי הכהן, צפת)</span><span data-lang="en">Genesis 46:4 · Megillah 29a · Siftei Kohen (R. Mordechai haKohen, Safed)</span></p>
+      </article>
+
+      <article class="card">
+        <p class="k">3</p>
+        <h3><span data-lang="he">עשרה ששכינה עמהם</span><span data-lang="en">Ten with whom the Shekhina dwells</span></h3>
+        <div class="q serif he">מִנַּיִן לַעֲשָׂרָה שֶׁמִּתְפַּלְּלִין שֶׁשְּׁכִינָה עִמָּהֶם</div>
+        <p data-lang="he">השכינה שורה על עשרה. וברמז: סכום הריבועים של אחד עד עשר הוא 385. כל אחת מעשר המדרגות כלולה בעצמה, והשלם הוא שכינה.</p>
+        <p data-lang="en">The Shekhina rests upon ten. And as a hint: the sum of the squares from one to ten is 385. Each of the ten levels is contained within itself, and the whole is Shekhina.</p>
+        <p class="src"><span data-lang="he">ברכות ו ע״א (״אֱלֹהִים נִצָּב בַּעֲדַת אֵל״)</span><span data-lang="en">Berakhot 6a (“God stands in the congregation of God”)</span></p>
+      </article>
+
+      <article class="card">
+        <p class="k">4</p>
+        <h3><span data-lang="he">מי מקבל פני שכינה: מקורות שנבדקים</span><span data-lang="en">Who receives the Shekhina: sources checked</span></h3>
+        <div class="q serif he">אַרְבַּע כִּתּוֹת אֵין מְקַבְּלוֹת פְּנֵי שְׁכִינָה</div>
+        <p data-lang="he">כת ליצים, כת חניפים, כת שקרים וכת מספרי לשון הרע. ארבעתן חטאי הדיבור. מי שמבקש שהשכינה תשרה, נזהר בשפתו. לכן כאן: ידע שנשמר, מקורות שנבדקים.</p>
+        <p data-lang="en">Scoffers, flatterers, liars and slanderers. All four are sins of speech. Whoever wants the Shekhina to dwell guards their speech. That is why this library holds to: knowledge preserved, sources checked.</p>
+        <p class="src"><span data-lang="he">סוטה מב ע״א (ר׳ ירמיה בר אבא)</span><span data-lang="en">Sotah 42a (R. Yirmeya bar Abba)</span></p>
+      </article>
+
+      <article class="card">
+        <p class="k">5</p>
+        <h3><span data-lang="he">השכינה בבתי הכנסת ובמקדש</span><span data-lang="en">The Shekhina in synagogue and Sanctuary</span></h3>
+        <div class="q serif he">וְעָשׂוּ לִי מִקְדָּשׁ וְשָׁכַנְתִּי בְּתוֹכָם</div>
+        <p data-lang="he">בגלות שורה השכינה בבתי הכנסת. אביי מונה את בי כנישתא דהוצל ודשף ויתיב. לעתיד היא שבה למקדש. מכאן מרחבי הלימוד של הספרייה: מנהל המקדש ובית הכנסת החי.</p>
+        <p data-lang="en">In exile the Shekhina dwells in the synagogues; Abaye names the synagogues of Huzal and Shaf veYativ. In the future it returns to the Sanctuary. Hence this library's workspaces: the administration of the Mikdash and the living synagogue.</p>
+        <p class="src"><span data-lang="he">שמות כה, ח · מגילה כט ע״א</span><span data-lang="en">Exodus 25:8 · Megillah 29a</span></p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ZECHARIAH REMEZ -->
+  <section class="sec">
+    <p class="eyebrow"><span data-lang="he">רמז</span><span data-lang="en">A hint</span></p>
+    <h2><span data-lang="he">ה׳ אחד ושמו אחד</span><span data-lang="en">The Lord one and His name one</span></h2>
+    <div class="remez">
+      <p class="verse serif he">בַּיּוֹם הַהוּא יִהְיֶה <span class="hl">ה׳ אֶחָד</span> <span class="hl">וּשְׁמוֹ</span> אֶחָד</p>
+      <p class="verse-ref"><span data-lang="he">זכריה יד, ט</span><span data-lang="en">Zechariah 14:9</span></p>
+      <div class="eq">
+        <div class="t"><span class="w serif he">שמו</span><b>346</b></div>
+        <div class="op">+</div>
+        <div class="t"><span class="w serif he">ה׳ אחד</span><b>39</b><small>26 + 13</small></div>
+        <div class="op">=</div>
+        <div class="t res"><span class="w serif he">שכינה</span><b>385</b></div>
+      </div>
+      <p data-lang="he">״שמו״ עולה 346, ו״ה׳ אחד״ עולה 39 (שם הוי״ה 26, אחד 13). יחד: 385, כמניין שכינה. בלשון המקובלים המלכות עצמה נקראת ״שם״, כמו ״ברוך שם כבוד מלכותו״. הרמז אומר: כאשר השם מתאחד עם שמו, השכינה שלמה. זו תפילה ליום ההוא, ולא חשבון של מועד.</p>
+      <p data-lang="en">“His name” (<span class="serif he">שמו</span>) equals 346, and “the Lord is one” (<span class="serif he">ה׳ אחד</span>) equals 39: the Divine Name 26, “one” 13. Together they make 385, the value of Shekhina. In the language of the Kabbalists, Malkhut itself is called “Name,” as in “Blessed be the Name of His glorious kingdom.” The hint says: when the Lord and His name are one, the Shekhina is whole. It is a prayer for “that day,” not a calculation of when.</p>
+    </div>
+  </section>
+
+  <!-- COMMITMENT -->
+  <section class="sec">
+    <p class="eyebrow"><span data-lang="he">מה השם מחייב</span><span data-lang="en">What the name asks of us</span></p>
+    <h2><span data-lang="he">שליחות, לא נבואה</span><span data-lang="en">A task, not a prediction</span></h2>
+    <p class="sub" data-lang="he">הרמז אינו מנבא תאריכים. הוא מאיר מה השעה דורשת. שלושה דברים עולים מן המקורות ומלווים את הספרייה:</p>
+    <p class="sub" data-lang="en">The hint does not predict dates. It shows what the hour asks for. Three things rise from the sources and guide this library:</p>
+    <div class="pillars">
+      <div class="pillar">
+        <span class="w serif he">שָׂפָה</span>
+        <h3><span data-lang="he">דיבור מקודש</span><span data-lang="en">Sanctified speech</span></h3>
+        <p data-lang="he">אמת, לשון נקייה ודברי תורה. כל תשובה עם מקורה.</p>
+        <p data-lang="en">Truth, clean language and words of Torah. Every answer with its source.</p>
+      </div>
+      <div class="pillar">
+        <span class="w serif he">שַׁבָּת</span>
+        <h3><span data-lang="he">רוממות שבת בימי החול</span><span data-lang="en">Shabbat in the weekday</span></h3>
+        <p data-lang="he">שנה שראשה שבת. הלימוד היומי כהמשך של קדושת השבת.</p>
+        <p data-lang="en">A year whose head is Shabbat. Daily learning as a continuation of its holiness.</p>
+      </div>
+      <div class="pillar">
+        <span class="w serif he">הַיָּחִיד</span>
+        <h3><span data-lang="he">למען היחיד</span><span data-lang="en">For the sake of the individual</span></h3>
+        <p data-lang="he">כשראש השנה חל בשבת, הציבור כולו מוותר על השופר כדי שיחיד אחד לא יכשל. כך כל שאלה של יחיד חשובה כאן.</p>
+        <p data-lang="en">When Rosh Hashanah falls on Shabbat, the whole community forgoes the shofar so that not one person stumbles. So too, every single question matters here.</p>
+      </div>
+    </div>
+    <div class="note" data-lang="he">״תְּקוּפוֹת וְגִימַטְרִיָּאוֹת פַּרְפְּרָאוֹת לַחָכְמָה״ (אבות ג, יח). חשבון השנים והגימטריא הם תבלין לחכמה: הם מאירים, אך אינם פוסקים הלכה ואינם מחשבים קצים (סנהדרין צז ע״ב).</div>
+    <div class="note" data-lang="en"><em>“Calendar cycles and gematria are the seasonings of wisdom”</em> (Avot 3:18). They illuminate. They do not decide halakhah, nor do they calculate the End (Sanhedrin 97b).</div>
+  </section>
+
+  <!-- CLOSING -->
+  <section class="closing">
+    <p class="verse serif he">אָנֹכִי אֵרֵד עִמְּךָ… וְאָנֹכִי אַעַלְךָ גַם עָלֹה</p>
+    <p class="verse-ref"><span data-lang="he">בראשית מו, ד</span><span data-lang="en">Genesis 46:4: “I will go down with you… and I will also surely bring you up.”</span></p>
+    <p class="sub" style="margin:14px auto 0" data-lang="he">השם שמור כאן שנים רבות. בשנת תשפ״ז, השנה שמניינה כמניין שכינה, החלה הספרייה להתמלא.</p>
+    <p class="sub" style="margin:14px auto 0" data-lang="en">The name was held here for many years. In 5787, the year that carries the number of the Shekhina, the library began to fill.</p>
+  </section>
+
+  <footer>
+    <strong><span data-lang="he">מקורות</span><span data-lang="en">Sources</span></strong>
+    <ul>
+      <li><a href="https://www.sefaria.org/Exodus.25.8">Exodus 25:8</a> · <a href="https://www.sefaria.org/Genesis.46.4">Genesis 46:4</a></li>
+      <li><a href="https://www.sefaria.org/Megillah.29a">Megillah 29a</a> · <a href="https://www.sefaria.org/Sotah.42a">Sotah 42a</a> · <a href="https://www.sefaria.org/Berakhot.6a">Berakhot 6a</a> · <a href="https://www.sefaria.org/Rosh_Hashanah.29b">Rosh Hashanah 29b</a> · <a href="https://www.sefaria.org/Sanhedrin.97b">Sanhedrin 97b</a> · <a href="https://www.sefaria.org/Pirkei_Avot.3.18">Avot 3:18</a></li>
+      <li><a href="https://www.sefaria.org/Tikkunei_Zohar.17a">Tikkunei Zohar 17a</a> · <a href="https://torah.org/torah-portion/yosef-man-shalom/">Siftei Kohen (Torah.org)</a> · <a href="https://www.chabad.org/7480776">Chabad.org: 5787</a></li>
+    </ul>
+  </footer>
+</div>
+
+<script>
+(function(){
+  var root=document.documentElement;
+  function setLang(l){
+    if(l!=="he"&&l!=="en") l="he";
+    root.lang=l; root.dir=(l==="he")?"rtl":"ltr";
+    var b=document.querySelectorAll(".langs button");
+    for(var i=0;i<b.length;i++) b[i].setAttribute("aria-pressed", b[i].getAttribute("data-set")===l ? "true":"false");
+    try{localStorage.setItem("shekhina-lang",l);}catch(e){}
+  }
+  var start="he";
+  try{
+    var p=new URLSearchParams(location.search).get("lang");
+    var s=localStorage.getItem("shekhina-lang");
+    start=p||s||"he";
+  }catch(e){}
+  setLang(start);
+  var btns=document.querySelectorAll(".langs button");
+  for(var i=0;i<btns.length;i++) btns[i].addEventListener("click",function(){setLang(this.getAttribute("data-set"));});
+})();
+</script>
+</body>
+</html>

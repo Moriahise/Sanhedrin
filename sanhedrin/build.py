@@ -172,6 +172,7 @@ def _build(store, root, out, max_bytes):
     dataout = out / "releases" / release
     for name in (
         "index.html",
+        "about-the-name.html",
         "qa.html",
         "catalog.css",
         "catalog-app.js",
