@@ -1491,6 +1491,76 @@
     "cycle-15-yoma-9"
   ],
   "sheets": {
+    "cycle-14-arakhin-2": {
+      "en": {
+        "discuss": "Why are a tumtum and androgynos excluded only from being valued?",
+        "question": "Who can pledge a valuation, who can be valued, and what does the word “all” come to include?",
+        "reading": "All may pledge a valuation and be valued, vow and be vowed: kohanim, levites and Israelites, women and slaves. A tumtum and an androgynos may vow, be vowed and pledge, but are not valued, for only a definite male or female is valued. A deaf-mute, an insane person and a minor may be vowed and valued, but may not vow or pledge, for they lack understanding. Later authorities discuss when a woman or a slave actually pays."
+      },
+      "he": {
+        "discuss": "מדוע טומטום ואנדרוגינוס ממועטים רק מן הנערכין?",
+        "question": "מי יכול להעריך, מי יכול להיערך, ומה באה המילה \"הכל\" לרבות?",
+        "reading": "הכל מעריכין ונערכין, נודרין ונידרין: כהנים, לוים וישראלים, נשים ועבדים. טומטום ואנדרוגינוס נודרין ונידרין ומעריכין, אבל לא נערכין, שאינו נערך אלא זכר ודאי ונקבה ודאית. חרש, שוטה וקטן נידרין ונערכין, אבל לא נודרין ולא מעריכין, מפני שאין בהם דעת. פוסקים מאוחרים דנים מתי אשה ועבד משלמים בפועל."
+      },
+      "revision": "6b103eaf41cc81d42dade2091b7a622b13e579ed18099c4969d3a8e86b18b667",
+      "sources": [
+        {
+          "en": "Arakhin 2a",
+          "he": "ערכין ב׳ א",
+          "url": "https://www.sefaria.org/Arakhin_2a"
+        },
+        {
+          "en": "Arakhin 2b",
+          "he": "ערכין ב׳ ב",
+          "url": "https://www.sefaria.org/Arakhin_2b"
+        }
+      ]
+    },
+    "cycle-14-arakhin-3": {
+      "en": {
+        "discuss": "What does “they too were part of the miracle” add to women’s obligation?",
+        "question": "What does “all” include in the many areas of halakha, and why must the Mishna mention kohanim?",
+        "reading": "“All are fit to read the Megilla” includes women, following Rabbi Yehoshua ben Levi: women are obligated, for they too were part of that miracle. “All are obligated in zimmun” includes women and slaves, who form their own groups; “all join” includes a child who knows to Whom one blesses. Later authorities discuss whether women may read for men."
+      },
+      "he": {
+        "discuss": "מה מוסיף \"שאף הן היו באותו הנס\" לחיוב הנשים?",
+        "question": "מה מרבה \"הכל\" בתחומי הלכה רבים, ומדוע המשנה צריכה להזכיר כהנים?",
+        "reading": "\"הכל כשרין לקרות את המגילה\" מרבה נשים, כרבי יהושע בן לוי: נשים חייבות במקרא מגילה, שאף הן היו באותו הנס. \"הכל חייבין בזימון\" מרבה נשים ועבדים, המזמנים לעצמם; \"הכל מצטרפין\" מרבה קטן היודע למי מברכין. פוסקים מאוחרים דנים אם נשים מוציאות אנשים."
+      },
+      "revision": "e3d6f21cee4fc60ac2b703b8d2d80550a23dc688dea34e616192262e81785cdd",
+      "sources": [
+        {
+          "en": "Arakhin 3a",
+          "he": "ערכין ג׳ א",
+          "url": "https://www.sefaria.org/Arakhin_3a"
+        },
+        {
+          "en": "Arakhin 3b",
+          "he": "ערכין ג׳ ב",
+          "url": "https://www.sefaria.org/Arakhin_3b"
+        }
+      ]
+    },
+    "cycle-14-bekhorot-61": {
+      "en": {
+        "discuss": "How do the three baraitot reflect different views on disqualified sacrifices?",
+        "question": "How are the conflicting rulings about two tithed animals reconciled, and what happens when an agent makes a mistake while tithing?",
+        "reading": "One baraita says they graze, following the Rabbis that one does not bring sacrifices into a state of disqualification; one says they are offered, following Rabbi Shimon that one may; and one says they die, following Rabbi Yehuda, who holds a mistake in tithe is an exchange, and an exchange of tithe dies."
+      },
+      "he": {
+        "discuss": "כיצד משקפות שלוש הברייתות שיטות שונות בקדשים שנפסלו?",
+        "question": "כיצד מתיישבים הפסקים הסותרים על שתי בהמות שיצאו בעשירי, ומה דינו של שליח שטעה במעשר?",
+        "reading": "ברייתא אחת אומרת ירעו, כרבנן, האומרים שאין מביאים קדשים לבית הפסול; אחת אומרת יקריבו, כרבי שמעון, האומר שמביאים; ואחת אומרת ימותו, כרבי יהודה, הסובר שטעות מעשר תמורה הויא, ותמורת מעשר מתה."
+      },
+      "revision": "4ec3652d2131ea7abff0f1732aa4719aa629720d19e824aa901c8008f30b4f6a",
+      "sources": [
+        {
+          "en": "Bekhorot 61a",
+          "he": "בכורות ס״א א",
+          "url": "https://www.sefaria.org/Bekhorot_61a"
+        }
+      ]
+    },
     "cycle-15-berakhot-2": {
       "en": {
         "discuss": "Why does the mishnah define the start of evening Shema by the priests’ eating rather than by the stars?",
