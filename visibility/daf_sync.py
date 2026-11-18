@@ -49,7 +49,8 @@ def refresh(entries, previous, revisions, get, today=None):
     sheets = {s:v for s,v in previous["sheets"].items() if s in by_slug}
     due = [s for s,d in by_slug.items() if (s in sheets or s not in deferred or START <= d <= upcoming)
            and sheets.get(s, {}).get("revision") != revisions[s]]
-    due.sort(key=lambda s:(not START <= by_slug[s] <= upcoming, abs((dt.date.fromisoformat(by_slug[s])-today).days), s))
+    retries = {s: day for s,day in previous.get("retried", {}).items() if s in due}
+    due.sort(key=lambda s:(s in retries, retries.get(s, ""), not START <= by_slug[s] <= upcoming, abs((dt.date.fromisoformat(by_slug[s])-today).days), s))
     def fetch(slug):
         base = DAF + "shiur/" + slug + "/"
         try:
@@ -67,6 +68,11 @@ def refresh(entries, previous, revisions, get, today=None):
         for slug, row, error in pool.map(fetch, due[:64]):
             if row is None:
                 failures.append((slug,error))
+                retries[slug] = today.isoformat()
             else:
                 sheets[slug] = row
-    return {"baseline": sorted(deferred.intersection(by_slug)), "sheets":sheets}, failures
+                retries.pop(slug, None)
+    state = {"baseline": sorted(deferred.intersection(by_slug)), "sheets": sheets}
+    if retries:
+        state["retried"] = retries
+    return state, failures

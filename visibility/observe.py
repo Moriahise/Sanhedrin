@@ -3,6 +3,7 @@ from concurrent.futures import ThreadPoolExecutor
 import datetime as dt
 import hashlib
 import json
+import os
 import re
 from urllib.parse import urlencode, urljoin
 from xml.etree import ElementTree as ET
@@ -111,7 +112,11 @@ def main():
     result = audit(run.request, today)
     slugs = set(run.read_json(run.CONFIG / "weekly.json", {})) | set(run.read_json(run.CONFIG / "sheets.json", {}))
     start = today - dt.timedelta(days=today.weekday())
-    result["voluntary_reports_week_to_date"] = session_reports(run.request, start, today, slugs)
+    def read_feedback(url):
+        token = os.environ.get("GH_TOKEN")
+        headers = {"Authorization": "Bearer "+token} if token else {}
+        return run.request(url, headers=headers)
+    result["voluntary_reports_week_to_date"] = session_reports(read_feedback, start, today, slugs)
     key = today.strftime("%G-W%V")
     output = run.CONFIG / "state/observations.json"
     history = run.read_json(output, {})

@@ -30,7 +30,8 @@ class PermanentSheets(unittest.TestCase):
         self.assertEqual(again,state)
         retained, errors = refresh(entries,state,{slug:"1"*64},get)
         self.assertTrue(errors)
-        self.assertEqual(retained,state)
+        self.assertEqual(retained["sheets"],state["sheets"])
+        self.assertIn(slug,retained["retried"])
         with self.assertRaises(ValueError):
             extract(markup,b"<main></main>")
 
