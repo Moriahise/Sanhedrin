@@ -8,6 +8,8 @@ from pathlib import Path
 import re
 import sys
 import tempfile
+import time
+from urllib.error import HTTPError, URLError
 from urllib.parse import quote, urlencode, urljoin, urlsplit
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree as ET
@@ -26,11 +28,18 @@ MAX_READ = 5_000_000
 def request(url, data=None, headers=None, method=None):
     headers = {"User-Agent": "Shekhina-visibility/1.0", **(headers or {})}
     req = Request(url, data=data, headers=headers, method=method)
-    with urlopen(req, timeout=25) as response:
-        body = response.read(MAX_READ+1)
-        if len(body) > MAX_READ:
-            raise ValueError(f"Response exceeds limit for {urlsplit(url).hostname}")
-        return body
+    for attempt in range(3):
+        try:
+            with urlopen(req, timeout=25) as response:
+                body = response.read(MAX_READ+1)
+                if len(body) > MAX_READ:
+                    raise ValueError(f"Response exceeds limit for {urlsplit(url).hostname}")
+                return body
+        except (URLError, TimeoutError) as error:
+            transient = not isinstance(error, HTTPError) or error.code in (408, 429, 500, 502, 503, 504)
+            if req.get_method() != "GET" or not transient or attempt == 2:
+                raise
+            time.sleep(2 ** (attempt+1))
 
 
 def read_json(path, default):
