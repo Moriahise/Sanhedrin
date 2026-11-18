@@ -14,6 +14,11 @@ const tractate = document.querySelector("#tractate");
 const folio = document.querySelector("#folio");
 const volumes = new Map();
 let entries, dates, active;
+const permanent = jsonSheets();
+async function jsonSheets() {
+  try { return new Set(await (await fetch("/learn/daf-sheets.json")).json()); }
+  catch { return new Set(); }
+}
 const json = async url => {
   const response = await fetch(url, {cache:"no-cache"});
   if (!response.ok) throw Error("Unavailable");
@@ -146,6 +151,9 @@ function show(date, push=false) {
   panel.append(el("h2",title),el("small",en?enDaf:heDaf));
   const study=el("div",t("Loading the shiur…","השיעור בטעינה…"));
   const controls=el("p");controls.append(anchor(source,t("Full Daf Yomi shiur","שיעור הדף היומי המלא")),document.createTextNode(" · "),anchor(source+"sources/",t("Source sheet","דף מקורות")),document.createTextNode(" · "),anchor(url.href,t("Link to this daf","קישור לדף זה")));
+  permanent.then(ids => {
+    if (ids.has(slug)) controls.lastElementChild.href="/learn/"+lang+"/daf-yomi/"+slug+"/";
+  });
   const group=el("section");group.append(el("h2",t("From the library","מתוך הספרייה")));
   const matches=el("div",t("Loading questions and answers…","השאלות והתשובות בטעינה…"));group.append(matches);
   panel.append(study,controls,group);

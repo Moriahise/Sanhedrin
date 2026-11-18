@@ -344,7 +344,9 @@ def _build(store, root, out, max_bytes):
     from .visibility import publish
     publish(root, out)
     if daf_matches is not None:
-        daf_matches.write(out)
+        from .daf_sheets import write_sheets
+        matches = daf_matches.write(out)
+        write_sheets(root, out, dataout, daf_matches.entries, matches, plain_text)
     size = sum(p.stat().st_size for p in out.rglob("*") if p.is_file())
     if size > max_bytes:
         raise DataError(f"Export size {size} exceeds budget {max_bytes}")

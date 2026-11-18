@@ -142,6 +142,7 @@ class DafMatches:
             body+='<p>'+link(f"/learn/{lang}/daf-yomi/","Browse the collection" if en else "לכל דפי החברותא")+'</p>'
             # The interactive date picker is canonical. The fallback is a printable view.
             (folder/lang/"daf-yomi"/"today.html").write_text(page(lang,"daf-yomi",title,title,body))
+        return mapping
 
 
 def load_matches(root):

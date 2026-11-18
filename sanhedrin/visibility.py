@@ -140,6 +140,7 @@ def daf_reader(lang):
               '<div class="day-controls"><label>'+("Tractate" if en else "מסכת")+' <select id="tractate"></select></label>'
               '<label>'+("Daf" if en else "דף")+' <select id="folio"></select></label></div></details>')
     inner = ('<p>'+desc+'</p>'+controls+finder+'<div id="study" aria-live="polite"></div><p class="reader-fallback">'+
+             link(path+"archive/","Permanent worksheets" if en else "ארכיון דפי הלימוד")+" · "+
              link(path+"today.html","Printable daily edition" if en else "מהדורת היום להדפסה")+" · "+
              link("https://moriahise.github.io/Daf-Yomi/","Daf Yomi library" if en else "ספריית הדף היומי")+'</p>'
              '<script type="module" src="/learn/daf-reader.js"></script>')

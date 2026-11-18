@@ -123,7 +123,14 @@ def refresh_daf():
     if not entries:
         raise ValueError("Empty Daf Yomi collection")
     save(CONFIG / "daf-catalogue.json", entries)
-    print("Verified bilingual Daf Yomi catalogue:", len(entries))
+    from daf_sync import DAF, refresh as refresh_sheets
+    path = CONFIG / "daf-sheets.json"
+    state, failures = refresh_sheets(entries, json.loads(path.read_text()),
+        json.loads(request(DAF + "data/chavruta-revisions.json")), request)
+    save(path, state)
+    print("Verified bilingual Daf Yomi catalogue:", len(entries), "permanent editions:", len(state["sheets"]))
+    if failures:
+        raise ValueError(f"Will retry incomplete editions: {failures}")
 
 
 def notify():
