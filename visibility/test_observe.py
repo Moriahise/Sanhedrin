@@ -25,6 +25,7 @@ class ObservationTests(unittest.TestCase):
 
     def test_audit_checks_both_languages_and_detects_broken_canonical(self):
         files = run.render(run.CONFIG)
+        files["learn/daf-related.json"] = b'{"bekhorot-61":[["example","Bekhorot 61","en",true]]}'
         channel = b'<a href="https://shekhina.org/learn/en/">EN</a><a href="https://shekhina.org/learn/he/">HE</a>'
         def read(url):
             if url in observe.CHANNELS.values():

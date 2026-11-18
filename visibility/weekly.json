@@ -43,5 +43,40 @@
         "url": "https://moriahise.github.io/Shiurim/shiur/5787-2026-11-21/"
       }
     ]
+  },
+  "zohar-5787-2026-11-21": {
+    "date": "2026-11-21",
+    "en": {
+      "body": "The departure from Beersheba is placed beside Ecclesiastes’ rising and setting sun. East, south, north and west give the journey a symbolic order alongside its geographical movement. Jacob does not cease to belong to a larger relation when he leaves home. At the same time, the night and the place at which he rests retain their particular narrative role. Begin by following the order of directions in the source, then ask what that order adds to the experience of departure.",
+      "question": "How does the meaning of Jacob’s departure change as a household takes shape?",
+      "questions": [
+        "How does the meaning of Jacob’s departure change as a household takes shape?",
+        "Compare Births are read as a pattern of relations with A household cannot be completed anywhere. Which exact source words support the connection?",
+        "After reading all intervening chapters, what complication or alternative reading should be added to these four studies?"
+      ],
+      "title": "Zohar · Departure, a growing household and the time to return"
+    },
+    "he": {
+      "body": "היציאה מבאר שבע עומדת לצד זריחת השמש ושקיעתה שבקהלת. מזרח, דרום, צפון ומערב מעניקים למסע סדר סמלי לצד תנועתו הגאוגרפית. יעקב אינו חדל להשתייך ליחס רחב יותר בצאתו מן הבית. ובה בעת הלילה והמקום שבו הוא נח שומרים על תפקידם המסוים בסיפור. התחילו במעקב אחר סדר הכיוונים במקור, ואחר כך שאלו מה הסדר הזה מוסיף לחוויית היציאה.",
+      "question": "כיצד משתנה משמעות יציאת יעקב בשעה שביתו הולך ונבנה?",
+      "questions": [
+        "כיצד משתנה משמעות יציאת יעקב בשעה שביתו הולך ונבנה?",
+        "השוו בין הלידות נקראות כדגם יחסים לבין הבית אינו משתלם בכל מקום. אילו מילים מדויקות במקור תומכות בקישור?",
+        "אחרי קריאת כל הפרקים שבין התחנות, איזו מורכבות או קריאה חלופית יש להוסיף לארבעת העיונים?"
+      ],
+      "title": "זוהר · יציאה, בית צומח ועת השיבה"
+    },
+    "sources": [
+      {
+        "en": "Zohar · original text",
+        "he": "זוהר · נוסח המקור",
+        "url": "https://www.sefaria.org/Zohar,_Vayetzei"
+      },
+      {
+        "en": "Full Zohar shiur",
+        "he": "שיעור הזוהר המלא",
+        "url": "https://moriahise.github.io/Zohar/shiur/5787-2026-11-21/"
+      }
+    ]
   }
 }

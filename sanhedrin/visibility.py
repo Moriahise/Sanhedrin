@@ -14,6 +14,7 @@ COPY = {
     "he": ("דפי מקורות ללימוד בחברותא", "עיון במקורות", "שאלות לחברותא", "ספריית השו״ת", "English", "דפי מקורות להדפסה עם הפניות לטקסטים ושאלות ללימוד בחברותא.", "שיעורים · הלימוד השבועי שפורסם", "עדכונים ללימוד", "לימוד בחברותא"),
 }
 CSS = """*{box-sizing:border-box}html{background:#f7f6ee;color:#193b35;font:17px/1.65 system-ui,sans-serif}body{margin:auto;max-width:52rem;padding:1.3rem}nav{display:flex;gap:1rem;justify-content:space-between;flex-wrap:wrap;border-bottom:1px solid #acb5a7;padding-bottom:1rem}main{padding:1rem 0}h1,h2{font-family:Georgia,serif;line-height:1.22}h1{font-size:clamp(2rem,6vw,3.25rem)}a{color:#175949;text-underline-offset:.18em}li{margin:.65rem 0}section{margin-block:1.8rem}a:focus-visible{outline:3px solid #ab7132}footer{border-top:1px solid #acb5a7;padding-top:1rem}@media print{nav,footer,.feedback{display:none}html{background:white;color:black;font-size:11pt}body{max-width:none;padding:0}a{color:black}li{break-inside:avoid}}"""
+CSS += """ .tracks{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr));gap:1rem}.track,.daily-call{border-block-start:2px solid #a78952;padding-block:.6rem}.track{margin:0}.daily-call{background:#e8efe5;padding:1rem 1.25rem}.track h2,.daily-call h2{margin:.4rem 0}h3{line-height:1.35}.day-controls{display:flex;gap:.45rem;flex-wrap:wrap;margin:.4rem 0 1.2rem}.day-controls button,.day-controls input{background:#fffdf7;color:inherit;font:inherit;border:1px solid #8b9f91;border-radius:.3rem;padding:.35rem .6rem}.day-controls button{cursor:pointer}.day-controls :disabled{opacity:.5}.qa-entry{border-block-start:1px solid #acb5a7;padding-block:.8rem}.qa-entry h3{margin:.25rem 0}.qa-entry small{color:#435d4e}.qa-entry summary{cursor:pointer}.reader-fallback{margin-block:2rem}@media print{.day-controls,#dates,.reader-fallback{display:none}}"""
 HOSTS = {"www.sefaria.org", "www.sefaria.org.il", "shekhina.org", "moriahise.github.io"}
 
 
@@ -82,6 +83,44 @@ def xml(root):
     return ET.tostring(root, encoding="utf-8", xml_declaration=True)
 
 
+def collection_intro(lang, weekly):
+    en = lang == "en"
+    groups = [
+        ("Torah shiur" if en else "שיעור תורה", "https://moriahise.github.io/Shiurim/", False),
+        ("Zohar shiur" if en else "שיעור בזוהר", "https://moriahise.github.io/Zohar/", True),
+    ]
+    cards = []
+    for title, source, zohar in groups:
+        keys = [k for k in weekly if k.startswith("zohar-") == zohar]
+        body = ""
+        if keys:
+            recent = max(keys, key=lambda k: weekly[k]["date"])
+            item = weekly[recent][lang]
+            body = "<h3>" + link(sheet_path(lang,recent),item["title"]) + "</h3><p>" + escape(item["question"]) + "</p>"
+        cards.append('<section class="track"><h2>'+title+'</h2>'+body+link(source, "All shiurim" if en else "לכל השיעורים")+'</section>')
+    return ('<section class="daily-call"><h2>'+link(sheet_path(lang,"daf-yomi"),"Daf Yomi chavruta collection" if en else "אוסף חברותא לדף היומי")+'</h2><p>'
+            + ("Study the day’s daf with a partner, then explore related questions and answers from the Sanhedrin library." if en else "למדו את הדף היומי בחברותא ועיינו בשאלות ובתשובות הקשורות לסוגיה מתוך ספריית סנהדרין.")+'</p></section><div class="tracks">'
+            +"".join(cards)+"</div>")
+
+
+def daf_reader(lang):
+    en = lang == "en"
+    path = sheet_path(lang,"daf-yomi")
+    title = "Daf Yomi chavruta" if en else "חברותא לדף היומי"
+    desc = ("Study the daf with its sources, discussion questions and related responsa." if en else
+            "לימוד הדף היומי עם מקורות, שאלות לחברותא ושאלות ותשובות מן הספרייה.")
+    controls = ('<form id="dates"><label for="day">'+("Study date · Jerusalem" if en else "תאריך הלימוד · ירושלים")+'</label>'
+                '<div class="day-controls"><button id="previous" type="button">'+("Previous daf" if en else "הדף הקודם")+'</button>'
+                '<input id="day" type="date" required><button type="submit">'+("Open" if en else "פתיחה")+'</button>'
+                '<button id="next" type="button">'+("Next daf" if en else "הדף הבא")+'</button>'
+                '<button id="today" type="button">'+("Today" if en else "היום")+'</button></div></form>')
+    inner = ('<p>'+desc+'</p>'+controls+'<div id="study" aria-live="polite"></div><p class="reader-fallback">'+
+             link(path+"today.html","Printable daily edition" if en else "מהדורת היום להדפסה")+" · "+
+             link("https://moriahise.github.io/Daf-Yomi/","Daf Yomi library" if en else "ספריית הדף היומי")+'</p>'
+             '<script type="module" src="/learn/daf-reader.js"></script>')
+    return page(lang,"daf-yomi",title,desc,inner)
+
+
 def render(config):
     fixed = json.loads((config / "sheets.json").read_text())
     weekly = json.loads((config / "weekly.json").read_text())
@@ -95,9 +134,21 @@ def render(config):
     evergreen = list(dict.fromkeys([s for s in preferred if s in fixed] + list(fixed)))
     order = list(reversed(sorted(weekly, key=lambda k: (weekly[k]["date"], k)))) + evergreen
     result = {"learn/study.css": CSS.encode()}
+    collection = (config / "daf-catalogue.json").is_file()
+    if collection:
+        result["learn/daf-catalogue.json"] = json.dumps(json.loads((config/"daf-catalogue.json").read_text()), ensure_ascii=False,separators=(",",":")).encode()
+        result["learn/daf-reader.js"] = (config/"daf-reader.js").read_bytes()
+        result["learn/index.html"] = ('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+            '<title>Chavruta · חברותא | Shekhina</title><link rel="canonical" href="https://shekhina.org/learn/"><link rel="stylesheet" href="study.css"></head><body><main>'
+            '<h1>Chavruta · <bdi lang="he">חברותא</bdi></h1><p>Torah and Zohar shiurim · Daf Yomi with questions and answers</p><p lang="he" dir="rtl">שיעורי תורה וזוהר · הדף היומי עם שאלות ותשובות</p>'
+            '<nav><a href="en/" lang="en">Study in English</a><a href="he/" lang="he" dir="rtl">לימוד בעברית</a></nav></main></body></html>').encode()
     urls = {"/", "/about-the-name.html"}
     for lang in LANGS:
         labels = COPY[lang]
+        if collection:
+            daily_path = sheet_path(lang,"daf-yomi")
+            result[daily_path.lstrip("/")+"index.html"] = daf_reader(lang).encode()
+            urls.update(("/learn/",daily_path))
         rss = ET.Element("rss", version="2.0")
         channel = ET.SubElement(rss, "channel")
         for key, value in (("title", labels[0]+" · Shekhina"), ("link", BASE+sheet_path(lang)), ("description", labels[5]), ("language", lang)):
@@ -121,7 +172,7 @@ def render(config):
                     ET.SubElement(entry,key).text=val
         path = sheet_path(lang)
         urls.add(path)
-        result[path.lstrip("/")+"index.html"] = page(lang, "", labels[0], labels[5], f'<p>{labels[5]}</p><ul>{"".join(index)}</ul>').encode()
+        result[path.lstrip("/")+"index.html"] = page(lang, "", labels[0], labels[5], f'<p>{labels[5]}</p>'+ (collection_intro(lang,weekly) if collection else "") + ('<h2>'+("Source sheet archive" if lang=="en" else "ארכיון דפי המקורות")+'</h2>') + f'<ul>{"".join(index)}</ul>' ).encode()
         result[path.lstrip("/")+"feed.xml"] = xml(rss)
     key = (config / "indexnow-key.txt").read_text().strip()
     if not re.fullmatch("[a-f0-9]{32}", key):
@@ -134,7 +185,7 @@ def render(config):
     result["sitemap.xml"] = xml(sitemap)
     # Public fingerprints let the independent notifier wait for the actual Pages rollout.
     fingerprints = {"/"+k[:-len("index.html")]: hashlib.sha256(v).hexdigest()
-                    for k,v in result.items() if k.endswith("/index.html")}
+                    for k,v in result.items() if k.endswith("/index.html") and k!="learn/index.html"}
     result["learn/revision.json"] = json.dumps(fingerprints,sort_keys=True).encode()
     return result
 

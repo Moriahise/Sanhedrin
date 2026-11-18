@@ -43,6 +43,7 @@ jobs:
       - name: Browser checks
         run: |
           python -m playwright install --with-deps chromium
+          python visibility/browser_check.py
           python tools/browser_checks.py
           python tools/teshuva_browser_checks.py
       - name: Pack reviewable site

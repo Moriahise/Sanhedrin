@@ -54,13 +54,13 @@ def text_at(node, xpath):
     return " ".join(matches[0].text_content().split())
 
 
-def fetch_feature():
-    home = html.fromstring(request(SHIURIM).decode("utf-8"))
+def fetch_feature(base=SHIURIM):
+    home = html.fromstring(request(base).decode("utf-8"))
     hrefs = home.xpath('//section[contains(concat(" ",@class," ")," hero ")]//a[contains(@href,"shiur/")]/@href')
     if not hrefs:
         raise ValueError("No published featured shiur")
-    url = urljoin(SHIURIM, hrefs[0])
-    match = re.fullmatch(re.escape(SHIURIM)+r"shiur/([a-z0-9]+(?:-[a-z0-9]+)*)/", url)
+    url = urljoin(base, hrefs[0])
+    match = re.fullmatch(re.escape(base)+r"shiur/([a-z0-9]+(?:-[a-z0-9]+)*)/", url)
     if not match:
         raise ValueError("Unexpected featured address")
     slug = match[1]
@@ -70,22 +70,29 @@ def fetch_feature():
         href = block.xpath("a/@href")
         if href and urlsplit(href[0]).netloc in ("www.sefaria.org","www.sefaria.org.il"):
             row["sources"].append({"url": href[0], **{s:text_at(block,f'h3//*[@lang="{s}"]') for s in LANGS}})
+    zohar = base == "https://moriahise.github.io/Zohar/"
+    if zohar:
+        for href in doc.xpath('//*[@id="sources"]//a[starts-with(@href,"https://www.sefaria.org/Zohar")]/@href')[:1]:
+            row["sources"].append({"url":href,"en":"Zohar · original text","he":"זוהר · נוסח המקור"})
     if not row["sources"]:
         raise ValueError("No verifiable primary source")
-    row["sources"].append({"url":url,"en":"Full weekly study at Shiurim","he":"השיעור המלא באתר שיעורים"})
+    row["sources"].append({"url":url,"en":"Full Zohar shiur" if zohar else "Full weekly study at Shiurim","he":"שיעור הזוהר המלא" if zohar else "השיעור המלא באתר שיעורים"})
     for lang in LANGS:
         questions=doc.xpath(f'//section[@class="discussion"]//li/*[@lang="{lang}"]')
         row[lang] = {"title":text_at(doc,f'//p[@class="lesson-subtitle"]/*[@lang="{lang}"]'),
                      "question":text_at(doc,f'//div[@class="guiding-question"]/p[@lang="{lang}"]'),
                      "body":text_at(doc,f'//div[@class="paragraph-pair"]/p[@lang="{lang}"]'),
                      "questions":[" ".join(q.text_content().split()) for q in questions[:3]]}
-    return slug,row
+    if zohar:
+        for lang in LANGS:
+            row[lang]["title"] = ("Zohar · " if lang == "en" else "זוהר · ") + text_at(doc, f'//main//h1/*[@lang="{lang}"]')
+    return ("zohar-" + slug if zohar else slug), row
 
 
-def refresh():
+def refresh(base=SHIURIM):
     path=CONFIG/"weekly.json"
     rows=read_json(path,{})
-    slug,row=fetch_feature()
+    slug,row=fetch_feature(base)
     match=re.search(r"(\d{4}-\d\d-\d\d)$",slug)
     row["date"]=dt.date.fromisoformat(match[1]).isoformat() if match else rows.get(slug,{}).get("date",dt.date.today().isoformat())
     check_record(slug,row)
@@ -93,7 +100,7 @@ def refresh():
     # Generate the entire candidate before touching the working selection.
     with tempfile.TemporaryDirectory() as tmp:
         stage=Path(tmp)
-        for name in ("sheets.json","indexnow-key.txt","priority.json"):
+        for name in ("sheets.json","indexnow-key.txt","priority.json","daf-catalogue.json","daf-reader.js"):
             if (CONFIG/name).exists(): (stage/name).write_bytes((CONFIG/name).read_bytes())
         save(stage/"weekly.json",rows)
         files=render(stage)
@@ -101,6 +108,22 @@ def refresh():
             raise ValueError("Candidate exceeds allocation; retain previous release")
     save(path,rows)
     print("Verified published study:",slug)
+
+
+def refresh_daf():
+    data = json.loads(request("https://moriahise.github.io/Daf-Yomi/data/catalogue.json"))
+    entries = {}
+    for item in data["editions"]:
+        day = dt.date.fromisoformat(item["target_shabbat"]).isoformat()
+        slug = item["id"]
+        if (day in entries or not re.fullmatch(r"cycle-[0-9]+-[a-z0-9-]+-[0-9]+", slug)
+                or not all(item[field][lang].strip() for field in ("parashah","title") for lang in LANGS)):
+            raise ValueError("Invalid or duplicate daily edition on " + day)
+        entries[day] = [slug, item["parashah"]["en"], item["parashah"]["he"], item["title"]["en"], item["title"]["he"]]
+    if not entries:
+        raise ValueError("Empty Daf Yomi collection")
+    save(CONFIG / "daf-catalogue.json", entries)
+    print("Verified bilingual Daf Yomi catalogue:", len(entries))
 
 
 def notify():
@@ -192,7 +215,7 @@ def materialize():
 
 if __name__=="__main__":
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("operation",choices=("refresh","notify","google","check","materialize"))
+    parser.add_argument("operation",choices=("refresh","zohar","daf","notify","google","check","materialize"))
     op=parser.parse_args().operation
     if op=="check":
         files=render(CONFIG)
@@ -207,4 +230,4 @@ if __name__=="__main__":
         if files!=actual: raise ValueError("Published snapshot is stale or incomplete")
         print("Verified",len(files),"files,",sum(map(len,files.values())),"bytes")
     else:
-        {"refresh":refresh,"notify":notify,"google":google,"materialize":materialize}[op]()
+        {"refresh":refresh,"daf":refresh_daf,"zohar":lambda: refresh("https://moriahise.github.io/Zohar/"),"notify":notify,"google":google,"materialize":materialize}[op]()

@@ -5,6 +5,7 @@ on:
     paths:
       - 'sanhedrin/visibility.py'
       - 'visibility/*.py'
+      - 'visibility/daf-reader.js'
       - 'visibility/sheets.json'
       - '.github/workflows/visibility.yml'
   schedule:
@@ -57,6 +58,16 @@ jobs:
         id: refresh
         continue-on-error: true
         run: python visibility/run.py refresh
+      - name: Read the published weekly Zohar
+        if: github.event_name != 'workflow_run'
+        id: zohar
+        continue-on-error: true
+        run: python visibility/run.py zohar
+      - name: Refresh the published Daf Yomi catalogue
+        if: github.event_name != 'workflow_run'
+        id: daf
+        continue-on-error: true
+        run: python visibility/run.py daf
       - name: Build and verify the next public selection
         run: |
           python visibility/run.py materialize
@@ -70,7 +81,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- visibility/weekly.json visibility/published
+          git add -- visibility/weekly.json visibility/daf-catalogue.json visibility/published
           for file in visibility/priority.json visibility/state/indexnow.json visibility/state/observations.json; do
             if test -f "$file"; then git add -- "$file"; fi
           done
@@ -79,7 +90,7 @@ jobs:
             git push origin HEAD:main
           fi
       - name: Report recoverable upstream failures
-        if: steps.notify.outcome == 'failure' || steps.refresh.outcome == 'failure' || steps.google.outcome == 'failure' || steps.observe.outcome == 'failure'
+        if: steps.notify.outcome == 'failure' || steps.refresh.outcome == 'failure' || steps.google.outcome == 'failure' || steps.observe.outcome == 'failure' || steps.daf.outcome == 'failure' || steps.zohar.outcome == 'failure'
         run: |
           echo 'An upstream operation needs retry. The verified selection remains available.' >> "$GITHUB_STEP_SUMMARY"
           exit 1

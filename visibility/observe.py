@@ -64,7 +64,16 @@ def audit(fetch, observed_on):
         doc = html.fromstring(fetch(url).decode("utf-8"))
         urls = {urljoin(url, href) for href in doc.xpath("//a/@href")}
         channels[name] = {lang: base + f"/learn/{lang}/" in urls for lang in run.LANGS}
-    return {"observed_on": observed_on.isoformat(), "learning_pages": len(revision),
+    daf = {}
+    if "/learn/en/daf-yomi/" in revision:
+        editions = json.loads(fetch(base + "/learn/daf-catalogue.json"))
+        matches = json.loads(fetch(base + "/learn/daf-related.json"))
+        if not editions or not isinstance(matches,dict) or not matches:
+            raise ValueError("Published daily chavruta data missing")
+        row = editions.get(observed_on.isoformat())
+        daf = {"daf_editions":len(editions), "daf_with_related_qa":len(matches),
+               "observed_date_has_daf":bool(row)}
+    return {**daf, "observed_on": observed_on.isoformat(), "learning_pages": len(revision),
             "sitemap_urls": len(sitemap), "feed_entries": counts, "public_links": channels}
 
 

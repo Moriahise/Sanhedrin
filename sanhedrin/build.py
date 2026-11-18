@@ -198,6 +198,8 @@ def _build(store, root, out, max_bytes):
     id_to_n = {q["id"]: n for n, q in enumerate(records)}
     facets = defaultdict(lambda: defaultdict(list))
     locators = defaultdict(dict)
+    from .daf_chavruta import load_matches
+    daf_matches = load_matches(root)
     metadata = []
     postings = defaultdict(lambda: defaultdict(list))
     counts = Counter()
@@ -248,6 +250,8 @@ def _build(store, root, out, max_bytes):
             if q.get("document_path"):
                 card["document_path"] = q["document_path"]
             metadata.append(card)
+            if daf_matches is not None:
+                daf_matches.consider(card, question_text, answer_texts)
             content = {
                 **card,
                 "question_html": question_html,
@@ -339,6 +343,8 @@ def _build(store, root, out, max_bytes):
     # This offline extension reads the last verified selection shipped with the repository.
     from .visibility import publish
     publish(root, out)
+    if daf_matches is not None:
+        daf_matches.write(out)
     size = sum(p.stat().st_size for p in out.rglob("*") if p.is_file())
     if size > max_bytes:
         raise DataError(f"Export size {size} exceeds budget {max_bytes}")
