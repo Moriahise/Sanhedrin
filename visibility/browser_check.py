@@ -12,24 +12,24 @@ def main():
     root = Path("dist")
     items = json.loads((root/"learn/daf-catalogue.json").read_text())
     from hashlib import sha256
-    from lxml import html
+    from bs4 import BeautifulSoup
     from urllib.parse import parse_qs, urlsplit
     data = root / json.loads((root/"catalog/manifest.json").read_text())["data_base"]
     for n in range(2, 9):
         slug = f"cycle-15-berakhot-{n}"
         for language in ("en","he"):
-            page = html.fromstring((root/"learn"/language/"daf-yomi"/slug/"index.html").read_text())
-            urls = page.xpath("//main//a/@href")
+            page = BeautifulSoup((root/"learn"/language/"daf-yomi"/slug/"index.html").read_text(), "html.parser")
+            urls = [a["href"] for a in page.select("main a[href]")]
             source = "https://moriahise.github.io/Daf-Yomi/shiur/"+slug+"/"
             assert source in urls and source+"sources/" in urls
             assert any(u.startswith("https://www.sefaria.org/") for u in urls)
-            alternate = page.xpath('//nav/a[@hreflang]/@href')[0]
+            alternate = page.select_one("nav a[hreflang]")["href"]
             assert (root / alternate.strip("/") / "index.html").is_file()
             qa = next(u for u in urls if u.startswith("/qa.html?id="))
             pid = parse_qs(urlsplit(qa).query)["id"][0]
             digest = sha256(pid.encode()).hexdigest()
             record = json.loads((data/"content"/digest[:2]/(digest+".json")).read_text())
-            assert record["id"] == pid and record["answers"] and page.xpath("//blockquote/text()")
+            assert record["id"] == pid and record["answers"] and page.select_one("blockquote").get_text(strip=True)
     print("Verified 14 permanent sheets with their actual archive records, languages and source links")
     matches = json.loads((root/"learn/daf-related.json").read_text())
     date = next(d for d,row in sorted(items.items()) if matches.get(row[0].split("-",2)[2]))
