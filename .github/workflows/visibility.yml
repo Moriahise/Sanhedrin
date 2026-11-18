@@ -1,5 +1,12 @@
 name: Maintain Shekhina discovery
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'sanhedrin/visibility.py'
+      - 'visibility/*.py'
+      - 'visibility/sheets.json'
+      - '.github/workflows/visibility.yml'
   schedule:
     - cron: '37 1 * * *'
   workflow_dispatch:
@@ -55,12 +62,16 @@ jobs:
           python visibility/run.py materialize
           python visibility/run.py check
           python -m unittest discover -s visibility -p 'test_*.py'
+      - name: Check the public reading paths and distribution
+        id: observe
+        continue-on-error: true
+        run: python visibility/observe.py
       - name: Save only the supplement
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -- visibility/weekly.json visibility/published
-          for file in visibility/priority.json visibility/state/indexnow.json; do
+          for file in visibility/priority.json visibility/state/indexnow.json visibility/state/observations.json; do
             if test -f "$file"; then git add -- "$file"; fi
           done
           if ! git diff --cached --quiet; then
@@ -68,7 +79,7 @@ jobs:
             git push origin HEAD:main
           fi
       - name: Report recoverable upstream failures
-        if: steps.notify.outcome == 'failure' || steps.refresh.outcome == 'failure' || steps.google.outcome == 'failure'
+        if: steps.notify.outcome == 'failure' || steps.refresh.outcome == 'failure' || steps.google.outcome == 'failure' || steps.observe.outcome == 'failure'
         run: |
           echo 'An upstream operation needs retry. The verified selection remains available.' >> "$GITHUB_STEP_SUMMARY"
           exit 1

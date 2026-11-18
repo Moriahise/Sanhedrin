@@ -1,0 +1,25 @@
+{
+  "2026-W47": {
+    "feed_entries": {
+      "en": 3,
+      "he": 3
+    },
+    "learning_pages": 8,
+    "observed_on": "2026-11-18",
+    "public_links": {
+      "moriah": {
+        "en": true,
+        "he": true
+      },
+      "shiurim": {
+        "en": true,
+        "he": true
+      }
+    },
+    "sitemap_urls": 10,
+    "voluntary_reports_week_to_date": {
+      "repeat_session_reports": 0,
+      "session_reports": 0
+    }
+  }
+}

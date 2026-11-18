@@ -4,7 +4,7 @@ import json
 import re
 from html import escape
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import urlencode, urlsplit
 from xml.etree import ElementTree as ET
 
 BASE = "https://shekhina.org"
@@ -13,7 +13,7 @@ COPY = {
     "en": ("Source sheets for chavruta study", "Read the sources", "Discuss together", "Responsa library", "Hebrew", "Printable source sheets with primary texts and questions for paired study.", "Shiurim · published weekly study", "Learning feed", "Study with a partner"),
     "he": ("דפי מקורות ללימוד בחברותא", "עיון במקורות", "שאלות לחברותא", "ספריית השו״ת", "English", "דפי מקורות להדפסה עם הפניות לטקסטים ושאלות ללימוד בחברותא.", "שיעורים · הלימוד השבועי שפורסם", "עדכונים ללימוד", "לימוד בחברותא"),
 }
-CSS = """*{box-sizing:border-box}html{background:#f7f6ee;color:#193b35;font:17px/1.65 system-ui,sans-serif}body{margin:auto;max-width:52rem;padding:1.3rem}nav{display:flex;gap:1rem;justify-content:space-between;flex-wrap:wrap;border-bottom:1px solid #acb5a7;padding-bottom:1rem}main{padding:1rem 0}h1,h2{font-family:Georgia,serif;line-height:1.22}h1{font-size:clamp(2rem,6vw,3.25rem)}a{color:#175949;text-underline-offset:.18em}li{margin:.65rem 0}section{margin-block:1.8rem}a:focus-visible{outline:3px solid #ab7132}footer{border-top:1px solid #acb5a7;padding-top:1rem}@media print{nav,footer{display:none}html{background:white;color:black;font-size:11pt}body{max-width:none;padding:0}a{color:black}li{break-inside:avoid}}"""
+CSS = """*{box-sizing:border-box}html{background:#f7f6ee;color:#193b35;font:17px/1.65 system-ui,sans-serif}body{margin:auto;max-width:52rem;padding:1.3rem}nav{display:flex;gap:1rem;justify-content:space-between;flex-wrap:wrap;border-bottom:1px solid #acb5a7;padding-bottom:1rem}main{padding:1rem 0}h1,h2{font-family:Georgia,serif;line-height:1.22}h1{font-size:clamp(2rem,6vw,3.25rem)}a{color:#175949;text-underline-offset:.18em}li{margin:.65rem 0}section{margin-block:1.8rem}a:focus-visible{outline:3px solid #ab7132}footer{border-top:1px solid #acb5a7;padding-top:1rem}@media print{nav,footer,.feedback{display:none}html{background:white;color:black;font-size:11pt}body{max-width:none;padding:0}a{color:black}li{break-inside:avoid}}"""
 HOSTS = {"www.sefaria.org", "www.sefaria.org.il", "shekhina.org", "moriahise.github.io"}
 
 
@@ -62,6 +62,22 @@ def page(lang, slug, title, description, inner):
             f'<body><nav>{navigation}</nav><main><h1>{escape(title)}</h1>{inner}</main><footer>{foot}</footer></body></html>')
 
 
+def feedback(lang, slug):
+    if lang == "he":
+        intro = "למדתם יחד? אפשר לדווח מרצון ב־GitHub. הדיווח ושם המשתמש יוצגו לציבור. סמנו x בתוך הסוגריים המרובעים ליד ההצהרה המתאימה. אין לציין שמות או פרטי קבוצה."
+        action = "דיווח על לימוד בחברותא"
+        first, repeat = "למדנו את הדף יחד.", "כבר למדנו יחד דף קודם מהסדרה."
+    else:
+        intro = "Studied this together? You can report a session on GitHub. The report and your username will be public. Mark each applicable box with an x. Please omit names and group details."
+        action = "Report a study session"
+        first, repeat = "We studied this sheet together.", "We previously studied another sheet in this series together."
+    body = (f"Sheet: {slug}\nLanguage: {lang}\n\n"
+            f"- [ ] {first} <!-- studied -->\n- [ ] {repeat} <!-- returning -->")
+    url = "https://github.com/Moriahise/Sanhedrin/issues/new?" + urlencode(
+        {"title": f"[Chavruta] {slug}", "body": body})
+    return f'<aside class="feedback"><p>{escape(intro)} {link(url, action, rel="nofollow")}</p></aside>'
+
+
 def xml(root):
     return ET.tostring(root, encoding="utf-8", xml_declaration=True)
 
@@ -97,7 +113,7 @@ def render(config):
                     f'<section><h2>{labels[2]}</h2><ol>{questions}</ol></section>')
             path = sheet_path(lang, slug)
             urls.add(path)
-            result[path.lstrip("/")+"index.html"] = page(lang, slug, item["title"], item["question"], body).encode()
+            result[path.lstrip("/")+"index.html"] = page(lang, slug, item["title"], item["question"], body + feedback(lang, slug)).encode()
             index.append("<li>"+link(path, item["title"])+f'<br>{escape(item["question"])}</li>')
             if len(index) <= 20:
                 entry = ET.SubElement(channel, "item")
