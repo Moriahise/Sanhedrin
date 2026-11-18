@@ -1,0 +1,74 @@
+name: Maintain Shekhina discovery
+on:
+  schedule:
+    - cron: '37 1 * * *'
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Publish durable library"]
+    types: [completed]
+    branches: [main]
+permissions:
+  contents: read
+concurrency:
+  group: shekhina-discovery
+  cancel-in-progress: false
+jobs:
+  maintain:
+    if: github.ref == 'refs/heads/main' && (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: main
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: '3.12'
+      - run: python -m pip install 'lxml==6.1.1'
+      - name: Verify the committed selection
+        run: |
+          python visibility/run.py check
+          python -m unittest discover -s visibility -p 'test_*.py'
+      - name: Record changes already visible to readers
+        id: notify
+        continue-on-error: true
+        run: python visibility/run.py notify
+      - name: Update Google measurements when connected
+        if: github.event_name != 'workflow_run'
+        id: google
+        continue-on-error: true
+        env:
+          GSC_CLIENT_ID: ${{ secrets.GSC_CLIENT_ID }}
+          GSC_CLIENT_SECRET: ${{ secrets.GSC_CLIENT_SECRET }}
+          GSC_REFRESH_TOKEN: ${{ secrets.GSC_REFRESH_TOKEN }}
+          GSC_PROPERTY: ${{ vars.GSC_PROPERTY }}
+        run: python visibility/run.py google
+      - name: Read the published weekly lesson
+        if: github.event_name != 'workflow_run'
+        id: refresh
+        continue-on-error: true
+        run: python visibility/run.py refresh
+      - name: Build and verify the next public selection
+        run: |
+          python visibility/run.py materialize
+          python visibility/run.py check
+          python -m unittest discover -s visibility -p 'test_*.py'
+      - name: Save only the supplement
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- visibility/weekly.json visibility/published
+          for file in visibility/priority.json visibility/state/indexnow.json; do
+            if test -f "$file"; then git add -- "$file"; fi
+          done
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh verified Shekhina discovery data'
+            git push origin HEAD:main
+          fi
+      - name: Report recoverable upstream failures
+        if: steps.notify.outcome == 'failure' || steps.refresh.outcome == 'failure' || steps.google.outcome == 'failure'
+        run: |
+          echo 'An upstream operation needs retry. The verified selection remains available.' >> "$GITHUB_STEP_SUMMARY"
+          exit 1
