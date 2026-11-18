@@ -1,0 +1,26 @@
+name: Shekhina GEO availability
+on:
+  schedule:
+    - cron: '41 5 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['geo/**', '.github/workflows/geo-monitor.yml']
+permissions:
+  contents: read
+concurrency:
+  group: geo-public-availability
+  cancel-in-progress: false
+jobs:
+  observe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+          sparse-checkout: geo
+      - name: Verify measurement rules
+        run: python3 -m unittest discover -s geo -p 'test_*.py' -v
+      - name: Check live bilingual pages and crawler eligibility
+        run: python3 geo/availability.py
