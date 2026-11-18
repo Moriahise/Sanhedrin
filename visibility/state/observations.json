@@ -1,10 +1,13 @@
 {
   "2026-W47": {
+    "daf_editions": 1489,
+    "daf_with_related_qa": 1277,
     "feed_entries": {
-      "en": 3,
-      "he": 3
+      "en": 4,
+      "he": 4
     },
-    "learning_pages": 8,
+    "learning_pages": 12,
+    "observed_date_has_daf": true,
     "observed_on": "2026-11-18",
     "public_links": {
       "moriah": {
@@ -16,7 +19,7 @@
         "he": true
       }
     },
-    "sitemap_urls": 10,
+    "sitemap_urls": 15,
     "voluntary_reports_week_to_date": {
       "repeat_session_reports": 0,
       "session_reports": 0
