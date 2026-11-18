@@ -103,6 +103,28 @@ def collection_intro(lang, weekly):
             +"".join(cards)+"</div>")
 
 
+def collection_landing(weekly):
+    sections = []
+    for label, hebrew, source, is_zohar in (
+        ("Torah shiur","שיעור תורה","https://moriahise.github.io/Shiurim/",False),
+        ("Zohar shiur","שיעור בזוהר","https://moriahise.github.io/Zohar/",True),
+    ):
+        keys = [k for k in weekly if k.startswith("zohar-") == is_zohar]
+        parts = ['<section class="track"><h2>'+link(source,label)+' · <bdi lang="he">'+hebrew+'</bdi></h2>']
+        if keys:
+            slug = max(keys,key=lambda k:weekly[k]["date"])
+            for lang in ("en","he"):
+                parts.append(f'<p lang="{lang}" dir="auto">'+link(sheet_path(lang,slug),weekly[slug][lang]["title"])+'</p>')
+        sections.append("".join(parts)+"</section>")
+    return ('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+            '<title>Chavruta · חברותא | Shekhina</title><link rel="canonical" href="https://shekhina.org/learn/"><link rel="stylesheet" href="study.css"></head><body><main>'
+            '<h1>Chavruta · <bdi lang="he">חברותא</bdi></h1><section class="daily-call"><h2>Daf Yomi · <bdi lang="he">הדף היומי</bdi></h2>'
+            '<p>A daily shiur with questions and answers from the library.</p><p lang="he" dir="rtl">שיעור יומי עם שאלות ותשובות מתוך הספרייה.</p>'
+            '<a href="en/daf-yomi/" hreflang="en">Open the daily chavruta</a> · <a href="he/daf-yomi/" lang="he" hreflang="he">לחברותא של היום</a></section>'
+            '<div class="tracks">'+"".join(sections)+'</div><nav><a href="en/" lang="en">All English source sheets</a>'
+            '<a href="he/" lang="he" dir="rtl">כל דפי המקורות בעברית</a></nav></main></body></html>')
+
+
 def daf_reader(lang):
     en = lang == "en"
     path = sheet_path(lang,"daf-yomi")
@@ -141,10 +163,7 @@ def render(config):
     if collection:
         result["learn/daf-catalogue.json"] = json.dumps(json.loads((config/"daf-catalogue.json").read_text()), ensure_ascii=False,separators=(",",":")).encode()
         result["learn/daf-reader.js"] = (config/"daf-reader.js").read_bytes()
-        result["learn/index.html"] = ('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-            '<title>Chavruta · חברותא | Shekhina</title><link rel="canonical" href="https://shekhina.org/learn/"><link rel="stylesheet" href="study.css"></head><body><main>'
-            '<h1>Chavruta · <bdi lang="he">חברותא</bdi></h1><p>Torah and Zohar shiurim · Daf Yomi with questions and answers</p><p lang="he" dir="rtl">שיעורי תורה וזוהר · הדף היומי עם שאלות ותשובות</p>'
-            '<nav><a href="en/" lang="en">Study in English</a><a href="he/" lang="he" dir="rtl">לימוד בעברית</a></nav></main></body></html>').encode()
+        result["learn/index.html"] = collection_landing(weekly).encode()
     urls = {"/", "/about-the-name.html"}
     for lang in LANGS:
         labels = COPY[lang]
