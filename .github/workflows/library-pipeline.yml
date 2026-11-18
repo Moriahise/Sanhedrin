@@ -69,7 +69,14 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
           COMMIT: ${{ github.sha }}
-        run: python -m sanhedrin --report test-results/state-release.json publish-snapshot --repo "$REPOSITORY" --commit "$COMMIT" --directory .sanhedrin/snapshot
+        run: |
+          for wait in 0 10 30; do
+            sleep "$wait"
+            if python -m sanhedrin --report test-results/state-release.json publish-snapshot --repo "$REPOSITORY" --commit "$COMMIT" --directory .sanhedrin/snapshot; then
+              exit 0
+            fi
+          done
+          exit 1
       - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
           path: dist

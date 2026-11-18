@@ -14,7 +14,9 @@ TAG = re.compile(r"^sanhedrin-state-\d{8}T\d{12}Z-[a-f0-9]{12}$")
 def gh(*args):
     r = subprocess.run(["gh", *args], capture_output=True, text=True)
     if r.returncode:
-        raise DataError("GitHub Release operation failed; existing state preserved")
+        status = re.search(r"\bHTTP[ /]+(\d{3})\b", r.stderr, re.IGNORECASE)
+        detail = f"HTTP {status[1]}" if status else f"exit {r.returncode}"
+        raise DataError(f"GitHub {args[0]} {args[1]} failed ({detail}); existing state preserved")
     return r.stdout
 
 
