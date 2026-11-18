@@ -10,6 +10,9 @@ const dayInput = document.querySelector("#day");
 const catalogue = new Catalogue("/");
 const previous = document.querySelector("#previous");
 const next = document.querySelector("#next");
+const tractate = document.querySelector("#tractate");
+const folio = document.querySelector("#folio");
+const volumes = new Map();
 let entries, dates, active;
 const json = async url => {
   const response = await fetch(url, {cache:"no-cache"});
@@ -36,7 +39,12 @@ function plain(html) {
   template.innerHTML = html || "";
   return template.content.textContent.replace(/\s+/g," ").trim();
 }
-function excerpt(text, limit) {
+function excerpt(text, limit, focus="") {
+  const at=focus ? text.toLowerCase().indexOf(focus.toLowerCase()) : -1;
+  if (at>limit/2 && text.length>limit) {
+    const start=Math.max(0,at-Math.floor(limit/3));
+    return "…"+excerpt(text.slice(start).replace(/^\S*\s+/,""),limit);
+  }
   return text.length <= limit ? text : text.slice(0,limit).replace(/\s+\S*$/,"")+"…";
 }
 async function lesson(url, target) {
@@ -69,18 +77,18 @@ async function related(slug, target) {
     const key = slug.replace(/^cycle-\d+-/,"");
     const hits = [...((await relationRequest)[key] || [])];
     hits.sort((a,b)=>Number(b[3])-Number(a[3]) || Number(b[2]===lang)-Number(a[2]===lang));
-    const result = await Promise.all(hits.map(async ([id,reason,language,citation]) => {
+    const result = await Promise.all(hits.map(async ([id,reason,language,citation,answerIndex,focus]) => {
       const source = "/qa.html?id="+encodeURIComponent(id);
       const card = el("article"); card.className="qa-entry";
       try {
         const q = await catalogue.detail(id);
-        const answer = q.answers.find(a => plain(a.html).length>=25);
+        const answer = q.answers[answerIndex] || q.answers.find(a => plain(a.html).length>=25);
         if (!answer || q.kind!=="qa") return null;
         const heading = el("h3"); heading.dir="auto";heading.lang=language;
         heading.append(anchor(source,q.title));
         const why = el("small");
         why.append(document.createTextNode(citation ? t("Cites this daf · ","מצטט את הדף · ") : t("Shared topic · ","נושא משותף · ")), el("bdi",reason));
-        const answerText = el("p",excerpt(plain(answer.html),430)); answerText.dir="auto"; answerText.lang=language;
+        const answerText = el("p",excerpt(plain(answer.html),430,focus)); answerText.dir="auto"; answerText.lang=language;
         const questionText = plain(q.question_html);
         card.append(heading,why);
         if(questionText && questionText!==q.title){
@@ -102,6 +110,17 @@ async function related(slug, target) {
     target.replaceChildren(el("p",t("Library matches could not be loaded.","טעינת ההתאמות מהספרייה נכשלה.")),anchor("/",t("Open the library","לספרייה")));
   }
 }
+function volumeOf(row) {
+  // Keep separate cycles separate if the same tractate is published twice.
+  return row[0].slice(0,row[0].lastIndexOf("-"));
+}
+function folios(volume, selected) {
+  folio.replaceChildren();
+  for (const date of volumes.get(volume) || []) {
+    const row=entries[date];
+    folio.add(new Option((en ? row[1] : row[2])+" · "+date,date,false,date===selected));
+  }
+}
 function show(date, push=false) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) date=today();
   active=date;dayInput.value=date;
@@ -114,15 +133,19 @@ function show(date, push=false) {
   const stamp=el("time",date);stamp.dateTime=date;
   panel.replaceChildren(stamp);
   if(!row){
+    document.title=t("Daf Yomi chavruta","חברותא לדף היומי")+" · Shekhina";
+    tractate.value="";folio.replaceChildren();
     panel.append(el("p",t("There is no published shiur for this date in the collection.","אין באוסף שיעור שפורסם לתאריך זה.")),anchor(base+"#calendar",t("Open the Daf Yomi calendar","ללוח הדף היומי")));
     return;
   }
   const [slug,enDaf,heDaf,enTitle,heTitle]=row;
+  tractate.value=volumeOf(row);folios(tractate.value,date);
   const source=base+"shiur/"+slug+"/";
   const title=en?enTitle:heTitle;
+  document.title=title+" · "+t("Daf Yomi chavruta","חברותא לדף היומי")+" · Shekhina";
   panel.append(el("h2",title),el("small",en?enDaf:heDaf));
   const study=el("div",t("Loading the shiur…","השיעור בטעינה…"));
-  const controls=el("p");controls.append(anchor(source,t("Full Daf Yomi shiur","שיעור הדף היומי המלא")),document.createTextNode(" · "),anchor(source+"sources/",t("Source sheet","דף מקורות")));
+  const controls=el("p");controls.append(anchor(source,t("Full Daf Yomi shiur","שיעור הדף היומי המלא")),document.createTextNode(" · "),anchor(source+"sources/",t("Source sheet","דף מקורות")),document.createTextNode(" · "),anchor(url.href,t("Link to this daf","קישור לדף זה")));
   const group=el("section");group.append(el("h2",t("From the library","מתוך הספרייה")));
   const matches=el("div",t("Loading questions and answers…","השאלות והתשובות בטעינה…"));group.append(matches);
   panel.append(study,controls,group);
@@ -131,6 +154,17 @@ function show(date, push=false) {
 }
 async function start(){
   entries=await json("/learn/daf-catalogue.json");dates=Object.keys(entries).sort();
+  for(const date of dates){
+    const row=entries[date],key=volumeOf(row);
+    if(!volumes.has(key)){
+      volumes.set(key,[]);
+      const name=(en?row[1]:row[2]).replace(/(?: דף)? \d+$/,"");
+      tractate.add(new Option(name+" · "+t("Cycle ","מחזור ")+row[0].split("-")[1],key));
+    }
+    volumes.get(key).push(date);
+  }
+  tractate.addEventListener("change",()=>show(volumes.get(tractate.value)[0],true));
+  folio.addEventListener("change",()=>show(folio.value,true));
   const current=()=>new URL(location.href).searchParams.get("date")||today();
   show(current());
   document.querySelector("#dates").addEventListener("submit",e=>{e.preventDefault();show(dayInput.value,true);});

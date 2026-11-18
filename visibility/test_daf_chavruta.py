@@ -18,10 +18,11 @@ class DafCollectionTests(unittest.TestCase):
         matcher.consider(card,"",answer)
         matcher.consider({**card,"id":"folio","title":"עניין אחר","language":"he"},"",["נושא אחר לגמרי עם מראה מקום מפורש בבכורות ס״א."])
         matcher.consider({**card,"id":"different","title":"Wrong folio"},"Bekhorot 62a",answer)
+        matcher.consider({**card,"id":"codex","title":"A different text"},"Hilchot Bechorot 61:2",answer)
         matcher.consider({**card,"id":"no-answer"},"Bekhorot 61a",[""])
         result=matcher.top["bekhorot-61"]
         self.assertEqual([v[1] for v in result["en"]],["topic"])
-        self.assertEqual(result["he"][0],(20,"folio","Bekhorot 61"))
+        self.assertEqual(result["he"][0][:4],(22,"folio","Bekhorot 61",0))
 
     def test_collections_reachable_in_both_languages(self):
         public = run.render(run.CONFIG)

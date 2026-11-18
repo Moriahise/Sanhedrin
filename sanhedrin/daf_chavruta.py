@@ -80,8 +80,8 @@ class DafMatches:
         if card["kind"] != "qa" or not card["has_evidence"] or not card["answers"]:
             return
         # Search actual saved answers, not a remote-answer count or an unaudited related link.
-        answer = next((v for v in answers if len(v.strip())>=25),None)
-        if not answer:
+        valid = [i for i,text in enumerate(answers) if len(text.strip())>=25]
+        if not valid:
             return
         matches = {}
         title_phrases = phrases(card["title"])
@@ -91,15 +91,25 @@ class DafMatches:
                     continue
                 rank = (5 if phrase in title_phrases else 1) + (5 if phrase in TOPICS.get(key,()) else 0) + min(3,len(phrase)//8)
                 if rank>matches.get(key,(0,''))[0]:
-                    matches[key] = (rank,phrase)
-        for name,num in self.citation.findall(norm(" ".join([card["title"],question,*answers]))):
-            value = num.rstrip("ab").translate(str.maketrans('', '', '״"׳\x27'))
-            key = self.references.get((name,value))
-            if key:
-                matches[key] = (20,self.labels[key])
-        for key,(score,reason) in matches.items():
+                    index = next((i for i in valid if phrase in norm(answers[i])),valid[0])
+                    matches[key] = (rank,phrase,index,phrase)
+        for index,text in [(-1,card["title"]+" "+question), *((i,answers[i]) for i in valid)]:
+            normalized = norm(text)
+            for ref in self.citation.finditer(normalized):
+                # A chapter:section citation to Mishnah or Rambam is not a Bavli folio.
+                prefix = normalized[max(0,ref.start()-30):ref.start()]
+                suffix = normalized[ref.end():ref.end()+12]
+                if re.match(r"\s*[:.]\s*\d",suffix) or re.search(r"(?:hilchot|hilchos|hilkhot|משנה|הלכות)\s*$",prefix):
+                    continue
+                name,num = ref.groups()
+                value = num.rstrip("ab").translate(str.maketrans('', '', '״"׳\x27'))
+                key = self.references.get((name,value))
+                score = 22 if index>=0 else 20
+                if key and score>matches.get(key,(0,""))[0]:
+                    matches[key] = (score,self.labels[key],index if index>=0 else valid[0],ref.group() if index>=0 else "")
+        for key,(score,reason,index,anchor) in matches.items():
             bucket = self.top[key].setdefault(card["language"], [])
-            candidate = (score,card["id"],reason)
+            candidate = (score,card["id"],reason,index,anchor)
             if len(bucket)<2 or candidate>bucket[-1]:
                 bucket.append(candidate)
                 bucket.sort(reverse=True)
@@ -108,7 +118,7 @@ class DafMatches:
 
     def write(self, out):
         folder = out/"learn"
-        mapping = {k:[[pid,reason,lang,score>=20] for lang,hits in langs.items() for score,pid,reason in hits]
+        mapping = {k:[[pid,reason,lang,score>=20,index,anchor] for lang,hits in langs.items() for score,pid,reason,index,anchor in hits]
                    for k,langs in self.top.items()}
         (folder/"daf-related.json").write_text(json.dumps(mapping,ensure_ascii=False,separators=(",",":")))
         day = dt.datetime.now(ZoneInfo("Asia/Jerusalem")).date().isoformat()
@@ -123,7 +133,7 @@ class DafMatches:
                 title=(en_title if en else he_title)
                 body+='<p>'+link(url,"Read the shiur" if en else "לימוד השיעור")+' · '+link(url+"sources/","Source sheet" if en else "דף מקורות")+'</p><h2>'+("From the library" if en else "מתוך הספרייה")+'</h2>'
                 hits=sorted(mapping.get(slug.split("-",2)[2],[]), key=lambda h:(not h[3],h[2]!=lang))
-                for pid,reason,language,cited in hits:
+                for pid,reason,language,cited,index,anchor in hits:
                     question,_,provider=self.examples[pid]
                     body+=f'<article lang="{escape(language)}" dir="auto"><h3>'+link('/qa.html?id='+quote(pid,safe=""),question)+'</h3></article><small>'+escape(provider+' · '+reason)+'</small>'
                 if not hits: body+='<p>'+("No matching answered record was found." if en else "לא נמצאה שאלה מתאימה עם תשובה במאגר.")+'</p>'

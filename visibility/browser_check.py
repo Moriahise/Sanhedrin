@@ -39,6 +39,12 @@ def main():
             tab.get_by_text("אין באוסף שיעור שפורסם לתאריך זה.").wait_for()
             tab.go_back()
             tab.locator(".qa-entry h4").first.wait_for()
+            tab.locator("#finder summary").click()
+            tab.locator("#tractate").select_option("cycle-14-arakhin")
+            tab.locator("#folio").select_option("2026-11-20")
+            assert tab.locator("#day").input_value()=="2026-11-20"
+            assert "date=2026-11-20" in tab.url
+            assert tab.evaluate("document.documentElement.scrollWidth <= innerWidth")
             assert not errors,errors
             print("Verified date selection, archived answers, Hebrew, mobile width and browser history")
             browser.close()

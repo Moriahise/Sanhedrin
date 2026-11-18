@@ -14,7 +14,7 @@ COPY = {
     "he": ("דפי מקורות ללימוד בחברותא", "עיון במקורות", "שאלות לחברותא", "ספריית השו״ת", "English", "דפי מקורות להדפסה עם הפניות לטקסטים ושאלות ללימוד בחברותא.", "שיעורים · הלימוד השבועי שפורסם", "עדכונים ללימוד", "לימוד בחברותא"),
 }
 CSS = """*{box-sizing:border-box}html{background:#f7f6ee;color:#193b35;font:17px/1.65 system-ui,sans-serif}body{margin:auto;max-width:52rem;padding:1.3rem}nav{display:flex;gap:1rem;justify-content:space-between;flex-wrap:wrap;border-bottom:1px solid #acb5a7;padding-bottom:1rem}main{padding:1rem 0}h1,h2{font-family:Georgia,serif;line-height:1.22}h1{font-size:clamp(2rem,6vw,3.25rem)}a{color:#175949;text-underline-offset:.18em}li{margin:.65rem 0}section{margin-block:1.8rem}a:focus-visible{outline:3px solid #ab7132}footer{border-top:1px solid #acb5a7;padding-top:1rem}@media print{nav,footer,.feedback{display:none}html{background:white;color:black;font-size:11pt}body{max-width:none;padding:0}a{color:black}li{break-inside:avoid}}"""
-CSS += """ .tracks{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr));gap:1rem}.track,.daily-call{border-block-start:2px solid #a78952;padding-block:.6rem}.track{margin:0}.daily-call{background:#e8efe5;padding:1rem 1.25rem}.track h2,.daily-call h2{margin:.4rem 0}h3{line-height:1.35}.day-controls{display:flex;gap:.45rem;flex-wrap:wrap;margin:.4rem 0 1.2rem}.day-controls button,.day-controls input{background:#fffdf7;color:inherit;font:inherit;border:1px solid #8b9f91;border-radius:.3rem;padding:.35rem .6rem}.day-controls button{cursor:pointer}.day-controls :disabled{opacity:.5}.qa-entry{border-block-start:1px solid #acb5a7;padding-block:.8rem}.qa-entry h3{margin:.25rem 0}.qa-entry small{color:#435d4e}.qa-entry summary{cursor:pointer}.reader-fallback{margin-block:2rem}@media print{.day-controls,#dates,.reader-fallback{display:none}}"""
+CSS += """ .tracks{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr));gap:1rem}.track,.daily-call{border-block-start:2px solid #a78952;padding-block:.6rem}.track{margin:0}.daily-call{background:#e8efe5;padding:1rem 1.25rem}.track h2,.daily-call h2{margin:.4rem 0}h3{line-height:1.35}.day-controls{display:flex;gap:.45rem;flex-wrap:wrap;margin:.4rem 0 1.2rem}.day-controls button,.day-controls input,.day-controls select{background:#fffdf7;color:inherit;font:inherit;border:1px solid #8b9f91;border-radius:.3rem;padding:.35rem .6rem}.day-controls button{cursor:pointer}.day-controls :disabled{opacity:.5}.qa-entry{border-block-start:1px solid #acb5a7;padding-block:.8rem}.qa-entry h3{margin:.25rem 0}.qa-entry small{color:#435d4e}.qa-entry summary{cursor:pointer}.reader-fallback{margin-block:2rem}@media print{.day-controls,#dates,#finder,.reader-fallback{display:none}}"""
 HOSTS = {"www.sefaria.org", "www.sefaria.org.il", "shekhina.org", "moriahise.github.io"}
 
 
@@ -114,7 +114,10 @@ def daf_reader(lang):
                 '<input id="day" type="date" required><button type="submit">'+("Open" if en else "פתיחה")+'</button>'
                 '<button id="next" type="button">'+("Next daf" if en else "הדף הבא")+'</button>'
                 '<button id="today" type="button">'+("Today" if en else "היום")+'</button></div></form>')
-    inner = ('<p>'+desc+'</p>'+controls+'<div id="study" aria-live="polite"></div><p class="reader-fallback">'+
+    finder = ('<details id="finder"><summary>'+("Find a tractate and daf" if en else "חיפוש לפי מסכת ודף")+'</summary>'
+              '<div class="day-controls"><label>'+("Tractate" if en else "מסכת")+' <select id="tractate"></select></label>'
+              '<label>'+("Daf" if en else "דף")+' <select id="folio"></select></label></div></details>')
+    inner = ('<p>'+desc+'</p>'+controls+finder+'<div id="study" aria-live="polite"></div><p class="reader-fallback">'+
              link(path+"today.html","Printable daily edition" if en else "מהדורת היום להדפסה")+" · "+
              link("https://moriahise.github.io/Daf-Yomi/","Daf Yomi library" if en else "ספריית הדף היומי")+'</p>'
              '<script type="module" src="/learn/daf-reader.js"></script>')
