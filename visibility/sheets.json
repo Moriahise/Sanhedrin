@@ -1,0 +1,61 @@
+{
+  "chanukah": {
+    "en": {
+      "title": "Chanukah · Counting the lights",
+      "question": "What are Beit Shammai and Beit Hillel counting?",
+      "body": "Read Shabbat 21b from the passage beginning “Ner ish uveito.” Trace the two ways the Gemara explains the order of the lights. One explanation counts days still to come or days already entered. The other compares the decreasing offerings of Sukkot with the principle of ascending in holiness.",
+      "questions": [
+        "Draw two rows for the eight nights. Which numbers do the two schools assign to the second night?",
+        "Which explanation depends on the calendar, and which draws an analogy from another area of worship?"
+      ]
+    },
+    "he": {
+      "title": "חנוכה · מניין הנרות",
+      "question": "מה מונים בית שמאי ובית הלל?",
+      "body": "קראו בשבת כא ע״ב מן הברייתא הפותחת במילים ״מצות חנוכה נר איש וביתו״. הגמרא מציעה שני הסברים לסדר הנרות. ההסבר הראשון מבחין בין הימים הנכנסים לימים היוצאים. ההסבר השני מזכיר את פרי החג ואת העיקרון ״מעלין בקודש ואין מורידין״.",
+      "questions": [
+        "ציירו שתי שורות לשמונת הלילות. כמה נרות מונה כל שיטה בלילה השני?",
+        "איזה הסבר תלוי במניין הימים, ואיזה הסבר משווה את ההדלקה לתחום אחר בעבודת הקודש?"
+      ]
+    },
+    "sources": [
+      {
+        "en": "Talmud Bavli · Shabbat 21b",
+        "he": "תלמוד בבלי · שבת כא ע״ב",
+        "url": "https://www.sefaria.org/Shabbat.21b"
+      }
+    ]
+  },
+  "bet-el": {
+    "en": {
+      "title": "Vayetzei · Waking at Bethel",
+      "question": "What does Yaakov recognize when he wakes up?",
+      "body": "Read Genesis 28:10–19 twice. On the first reading, follow what Yaakov does with the stone. On the second, mark each occurrence of “place.” In verses 16–17 he describes what he has just learned; in verses 18–19 he acts and gives the place a name.",
+      "questions": [
+        "Which words in verse 16 describe the place, and which describe Yaakov’s earlier understanding?",
+        "Compare the stone before the dream and after it. What does the second action add to his words?"
+      ]
+    },
+    "he": {
+      "title": "ויצא · יקיצה בבית אל",
+      "question": "מה מגלה יעקב כשהוא מתעורר משנתו?",
+      "body": "קראו פעמיים את בראשית כח, י–יט. בקריאה הראשונה עקבו אחר מעשיו של יעקב באבן. בשנייה סמנו כל הופעה של המילה ״מקום״. בפסוקים טז–יז יעקב מתאר מה נודע לו, ובפסוקים יח–יט הוא עושה מעשה וקורא למקום בשם.",
+      "questions": [
+        "אילו מילים בפסוק טז מתארות את המקום, ואילו מילים מתארות את מה שידע יעקב קודם לכן?",
+        "השוו בין האבן לפני החלום לבין האבן לאחריו. מה מוסיף המעשה על דבריו של יעקב?"
+      ]
+    },
+    "sources": [
+      {
+        "en": "Genesis 28:10–19",
+        "he": "בראשית כח, י–יט",
+        "url": "https://www.sefaria.org/Genesis.28.10-19"
+      },
+      {
+        "en": "Why this library bears the name Shekhina",
+        "he": "מדוע נקראת הספרייה שכינה",
+        "url": "https://shekhina.org/about-the-name.html"
+      }
+    ]
+  }
+}

@@ -336,6 +336,9 @@ def _build(store, root, out, max_bytes):
     from .teshuva import publish_assets
 
     teshuva_assets = publish_assets(root, out)
+    # This offline extension reads the last verified selection shipped with the repository.
+    from .visibility import publish
+    publish(root, out)
     size = sum(p.stat().st_size for p in out.rglob("*") if p.is_file())
     if size > max_bytes:
         raise DataError(f"Export size {size} exceeds budget {max_bytes}")
