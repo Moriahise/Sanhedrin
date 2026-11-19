@@ -1,7 +1,7 @@
 {
   "2026-W47": {
-    "daf_editions": 1489,
-    "daf_with_related_qa": 1259,
+    "daf_editions": 1578,
+    "daf_with_related_qa": 1337,
     "feed_entries": {
       "en": 4,
       "he": 4
@@ -19,7 +19,7 @@
         "he": true
       }
     },
-    "sitemap_urls": 37,
+    "sitemap_urls": 165,
     "voluntary_reports_week_to_date": {
       "repeat_session_reports": 0,
       "session_reports": 0
