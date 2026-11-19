@@ -1541,6 +1541,31 @@
         }
       ]
     },
+    "cycle-14-arakhin-4": {
+      "en": {
+        "discuss": "Why should kohanim interrupt their service for the Megilla?",
+        "question": "Why must the Mishna state that kohanim pledge valuations, and what do the verses on valuation include and exclude?",
+        "reading": "Kohanim are not in the release of land in the Jubilee, but they are in the release of debts and of slaves, so they are obligated on Rosh Hashana. In Megilla the novelty is that kohanim at their service, levites on their platform and Israelites at their station interrupt to hear it. In zimmun, eating sacred food is atonement, yet “you shall eat and be satisfied” applies; a kohen may join a non-kohen who eats ordinary food."
+      },
+      "he": {
+        "discuss": "מדוע כהנים מבטלים עבודתם למקרא מגילה?",
+        "question": "מדוע המשנה צריכה לומר שכהנים מעריכין, ומה מרבים וממעטים פסוקי הערכין?",
+        "reading": "כהנים אינם בהשמטת קרקע, אבל ישנם בהשמטת כספים ובשילוח עבדים, ולכן חייבים בראש השנה. במגילה החידוש הוא שכהנים בעבודתם, לוים בדוכנם וישראל במעמדם מבטלין עבודתם ובאין לשמוע מקרא מגילה. בזימון, אכילת קדשים כפרה היא, ובכל זאת \"ואכלת ושבעת\" חל; וכהן מצטרף עם זר האוכל חולין."
+      },
+      "revision": "faa4feed77d31eb22d38237cbe10436ccd878d92a233ebdc659c8213bec7e0e3",
+      "sources": [
+        {
+          "en": "Arakhin 4a",
+          "he": "ערכין ד׳ א",
+          "url": "https://www.sefaria.org/Arakhin_4a"
+        },
+        {
+          "en": "Arakhin 4b",
+          "he": "ערכין ד׳ ב",
+          "url": "https://www.sefaria.org/Arakhin_4b"
+        }
+      ]
+    },
     "cycle-14-bekhorot-61": {
       "en": {
         "discuss": "How do the three baraitot reflect different views on disqualified sacrifices?",
@@ -1733,6 +1758,1581 @@
           "en": "Berakhot 8b",
           "he": "ברכות ח׳ ב",
           "url": "https://www.sefaria.org/Berakhot_8b"
+        }
+      ]
+    },
+    "cycle-15-gittin-10": {
+      "en": {
+        "discuss": "How does “agency against her will” distinguish divorce from betrothal?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 10a or 10b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 9a and the next one is on Gittin 12b. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 10a–10b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד ״שליחות בעל כורחה״ מבחינה בין גירושין לקידושין?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין י׳ ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין ט׳ ע״א, והבאה היא על גיטין י״ב ע״ב. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 10a–10b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "93c635084d09d5a4039c722a88fc9f72f7d28252948b821b9f7474ab3bdf9bd2",
+      "sources": [
+        {
+          "en": "Gittin 10a",
+          "he": "גיטין י׳ א",
+          "url": "https://www.sefaria.org/Gittin_10a"
+        },
+        {
+          "en": "Gittin 10b",
+          "he": "גיטין י׳ ב",
+          "url": "https://www.sefaria.org/Gittin_10b"
+        }
+      ]
+    },
+    "cycle-15-gittin-11": {
+      "en": {
+        "discuss": "Why do unmistakably gentile names make a get less suspect rather than more?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 11a or 11b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 9a and the next one is on Gittin 12b. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 11a–11b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע שמות נכריים מובהקים הופכים גט לחשוד פחות ולא יותר?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין י״א ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין ט׳ ע״א, והבאה היא על גיטין י״ב ע״ב. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 11a–11b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "38c54073c9091e3899e46c01fde261416ca17320303485c0fd98636904282c8e",
+      "sources": [
+        {
+          "en": "Gittin 11a",
+          "he": "גיטין י״א א",
+          "url": "https://www.sefaria.org/Gittin_11a"
+        },
+        {
+          "en": "Gittin 11b",
+          "he": "גיטין י״א ב",
+          "url": "https://www.sefaria.org/Gittin_11b"
+        }
+      ]
+    },
+    "cycle-15-gittin-12": {
+      "en": {
+        "discuss": "Why must an earlier tannaitic dispute be checked for transferable reasoning before it serves as precedent?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada recalls learning Gittin at about eighteen, when his teacher raised a sharp difficulty in Tosafot on “his healing belongs to the master.” Tosafot, comparing the mishnah in Ha-Ḥovel, suggest the case of a strong drug; but if the questioner knew that answer, why did he challenge Rabbi Yoḥanan and not the mishnah? The young Ben Yehoyada answered: an Amora’s words are expected to be precise and explanatory, while a tanna speaks more briefly. So the questioner could read the mishnah’s general language narrowly, but not Rabbi Yoḥanan’s unqualified “his healing to his master.” His teacher, he records, was satisfied with the answer."
+      },
+      "he": {
+        "discuss": "מדוע יש לבדוק אם מחלוקת תנאים קדומה בנויה על טעם הניתן להעברה לפני שהיא משמשת תקדים?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע נזכר שכאשר היה כבן שמונה עשרה למדו מסכת גיטין, ורבו הקשה קושיה חריפה בתוספות על ״רפואתו לרבו״. התוספות, המשווים למשנה בפרק החובל, מציעים את מקרה הסם החריף; אבל אם המקשן ידע תירוץ זה, מדוע הקשה על רבי יוחנן ולא על המשנה? בן יהוידע הצעיר השיב: אמורא דרכו לפרש, ותנא אין דרכו לפרש כל כך. לכן המקשן יכול היה לפרש את לשון המשנה הסתמית בצמצום, אבל לא את ״רפואתו לרבו״ הסתמי של רבי יוחנן. רבו, הוא מספר, נחה דעתו בתירוץ."
+      },
+      "revision": "04c0e9eb8c2cfc19e3b81163f0ac91806c589f648c85d13f4b93f3b8dc1d6b80",
+      "sources": [
+        {
+          "en": "Gittin 12a",
+          "he": "גיטין י״ב א",
+          "url": "https://www.sefaria.org/Gittin_12a"
+        },
+        {
+          "en": "Gittin 12b",
+          "he": "גיטין י״ב ב",
+          "url": "https://www.sefaria.org/Gittin_12b"
+        }
+      ]
+    },
+    "cycle-15-gittin-13": {
+      "en": {
+        "discuss": "How does Rava’s “four zuz” argument change the meaning of the slave’s loss of teruma?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 13a or 13b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 12b and the next one is on Gittin 14a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 13a–13b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד טיעון ״ארבעה זוזי״ של רבא משנה את משמעות אובדן התרומה של העבד?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין י״ג ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין י״ב ע״ב, והבאה היא על גיטין י״ד ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 13a–13b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "7f2672267c36bc9e5ecff2ebdaa58c6cff1fb7c0ca6ea639d70da8cd4cbb6255",
+      "sources": [
+        {
+          "en": "Gittin 13a",
+          "he": "גיטין י״ג א",
+          "url": "https://www.sefaria.org/Gittin_13a"
+        },
+        {
+          "en": "Gittin 13b",
+          "he": "גיטין י״ג ב",
+          "url": "https://www.sefaria.org/Gittin_13b"
+        }
+      ]
+    },
+    "cycle-15-gittin-14": {
+      "en": {
+        "discuss": "What does it mean to call a rule “halakha without a reason,” and why might the Sages establish one?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada asks how Rav Ashi can be challenged with the violent house of Bar Elyashiv, when he himself challenged Amemar from later-born recipients and so must hold that the rule applies in all cases. He answers that Rav Ashi grounds the enactment in what benefits most borrowers, who gain a new loan; violent creditors are rare, so the Sages did not distinguish. Against Amemar, however, later-born recipients are common, so the objection there is decisive."
+      },
+      "he": {
+        "discuss": "מה פירוש ״כהלכתא בלא טעמא״, ומדוע חכמים יקבעו הלכה כזו?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע שואל כיצד אפשר להקשות על רב אשי מבני בר אלישיב האלימים, כשהוא עצמו הקשה על אמימר מן הנולדים, ומשמע שהוא סובר שהדין חל בכל גוונא. תשובתו: רב אשי מבסס את התקנה על מה שמועיל לרוב הלווים, הזוכים במלוה חדשה; בעלי זרוע אינם מצויים כל כך, ובטלי במיעוטייהו, ולא פלוג רבנן. אבל לסברת אמימר הנולדים מצויים הרבה, ולכן הקושיה שם מכרעת."
+      },
+      "revision": "2d930f46e200f3319703052607a491f4406377f304f9a22753864e97e49a5ea2",
+      "sources": [
+        {
+          "en": "Gittin 14a",
+          "he": "גיטין י״ד א",
+          "url": "https://www.sefaria.org/Gittin_14a"
+        },
+        {
+          "en": "Gittin 14b",
+          "he": "גיטין י״ד ב",
+          "url": "https://www.sefaria.org/Gittin_14b"
+        }
+      ]
+    },
+    "cycle-15-gittin-15": {
+      "en": {
+        "discuss": "Why does the Gemara emend Rabban Shimon ha-Nasi’s words rather than reject Rav Yosef’s ruling?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 15a or 15b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 14b and the next one is on Gittin 16a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 15a–15b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע הגמרא מתקנת את דברי רבן שמעון הנשיא ולא דוחה את פסק רב יוסף?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין ט״ו ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין י״ד ע״ב, והבאה היא על גיטין ט״ז ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 15a–15b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "98035bed2a6a26aa5439736eed154e3e2aa6bf29f621ca6e84c93d8fdd1afcdd",
+      "sources": [
+        {
+          "en": "Gittin 15a",
+          "he": "גיטין ט״ו א",
+          "url": "https://www.sefaria.org/Gittin_15a"
+        },
+        {
+          "en": "Gittin 15b",
+          "he": "גיטין ט״ו ב",
+          "url": "https://www.sefaria.org/Gittin_15b"
+        }
+      ]
+    },
+    "cycle-15-gittin-16": {
+      "en": {
+        "discuss": "Why does a source about mikvaot not decide Ilfa’s question about hands?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada asks why the Gemara reports that Rav Yehuda and Rabbah came to visit Rabba bar bar Ḥana when he was ill. It is told in their praise: even at a sick visit they spoke only words of Torah, and the sick man, despite his weakness, set his mind to answer correctly. He suggests that Heaven arranged this question at that moment so that the answer would take the form of a kal va-ḥomer, “if they said ’before us he divorced her,’ would they not be believed?”, since a kal va-ḥomer is a known remedy, as the Benei Yissakhar explains from God’s reply to Moses’ prayer for Miriam. And since a lamp is mentioned, the visit was at night, though one does not usually visit the sick at night; they came then so as not to neglect their students by day. Ben Yehoyada on Gittin 16a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע מקור על מקוואות אינו מכריע את שאלת אילפא על ידיים?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע שואל מדוע הגמרא מספרת שרב יהודה ורבה עלו לבקר את רבה בר בר חנה בחוליו. הדבר נאמר לשבחם: אף בשעת ביקור חולים לא דיברו אלא בדברי תורה, והחולה, על אף חולשתו, שם לבו להשיב כהלכה. הוא מציע שמן השמים נתגלגלה שאלה זו באותה שעה כדי שהתשובה תבוא בדרך של קל וחומר, ״מה אילו יאמרו בפנינו גירשה, מי לא מהימני״, שהרי קל וחומר מסוגל לרפואה, כפי שכתב בעל בני יששכר על תשובת הקב״ה לתפילת משה על מרים. ומאחר שנזכר נר, הביקור היה בלילה, אף שאין מבקרים חולה בלילה; באו אז כדי שלא לבטל את תלמידיהם ביום. Ben Yehoyada on Gittin 16a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "ec8c7a4cf24f7b4b2d4624363c86913b44555ba4c4fb849aceccba4ca10a1db8",
+      "sources": [
+        {
+          "en": "Gittin 16a",
+          "he": "גיטין ט״ז א",
+          "url": "https://www.sefaria.org/Gittin_16a"
+        },
+        {
+          "en": "Gittin 16b",
+          "he": "גיטין ט״ז ב",
+          "url": "https://www.sefaria.org/Gittin_16b"
+        }
+      ]
+    },
+    "cycle-15-gittin-17": {
+      "en": {
+        "discuss": "How can Persia be both a refuge and a burden, and what does this suggest about reading history in aggada?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada addresses Rabba bar bar Ḥana’s prayer, “Merciful One, either in Your shadow or in the shadow of the son of Esau,” when the Gemara itself says that Israel could not bear Roman decrees. He answers that for Torah scholars the Persians were harsher, since the angel of Persia asked that the Sages be made liable to the poll tax; but the rule of Esau is nullified wherever “the voice is the voice of Jacob.” Scholars, protected by Torah from Esau, feared Persia more; ordinary people, who lacked that protection, feared Rome more."
+      },
+      "he": {
+        "discuss": "כיצד פרס יכולה להיות גם מקלט וגם משא, ומה זה מלמד על קריאת היסטוריה באגדה?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע עוסק בתפילת רבה בר בר חנה, ״רחמנא, או בטולך או בטולא דבר עשו״, כשהגמרא עצמה אומרת שישראל אינם יכולים לקבל גזירות רומיים. תשובתו: לתלמידי חכמים הפרסיים קשים יותר, שהרי שר פרס ביקש לכתוב רבנן בכרגא; אבל שליטת עשו מתבטלת במקום שבו ״הקול קול יעקב״. החכמים, המוגנים מעשו בזכות התורה, חששו מפרס יותר; המון העם, שאין לו הגנה זו, חשש מרומי יותר."
+      },
+      "revision": "05ec25c05e4e767b9eb808350b22b09335cf77ab12d3e56f01b7830f73a5df9c",
+      "sources": [
+        {
+          "en": "Gittin 17a",
+          "he": "גיטין י״ז א",
+          "url": "https://www.sefaria.org/Gittin_17a"
+        },
+        {
+          "en": "Gittin 17b",
+          "he": "גיטין י״ז ב",
+          "url": "https://www.sefaria.org/Gittin_17b"
+        }
+      ]
+    },
+    "cycle-15-gittin-18": {
+      "en": {
+        "discuss": "How do Rava and Rav Ashi defend the date by appealing to behavior and publicity?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 18a or 18b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 17a and the next one is on Gittin 31b. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 18a–18b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד רבא ורב אשי מגינים על הזמן בפנייה להתנהגות ולפרסום?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין י״ח ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין י״ז ע״א, והבאה היא על גיטין ל״א ע״ב. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 18a–18b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "c0a7040320e6a6a02f875ea9dcaf09b5060a084aba0328023289887d076668ef",
+      "sources": [
+        {
+          "en": "Gittin 18a",
+          "he": "גיטין י״ח א",
+          "url": "https://www.sefaria.org/Gittin_18a"
+        },
+        {
+          "en": "Gittin 18b",
+          "he": "גיטין י״ח ב",
+          "url": "https://www.sefaria.org/Gittin_18b"
+        }
+      ]
+    },
+    "cycle-15-gittin-19": {
+      "en": {
+        "discuss": "What justifies combining positions of different Amoraim “in a time of need”?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 19a or 19b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 17a and the next one is on Gittin 31b. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 19a–19b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מה מצדיק שילוב עמדות של אמוראים שונים ״בשעת הדחק״?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין י״ט ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין י״ז ע״א, והבאה היא על גיטין ל״א ע״ב. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 19a–19b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "683ed515c5156824895fde0163bfe0f8e6dbd07282943abc08eedc0902201099",
+      "sources": [
+        {
+          "en": "Gittin 19a",
+          "he": "גיטין י״ט א",
+          "url": "https://www.sefaria.org/Gittin_19a"
+        },
+        {
+          "en": "Gittin 19b",
+          "he": "גיטין י״ט ב",
+          "url": "https://www.sefaria.org/Gittin_19b"
+        }
+      ]
+    },
+    "cycle-15-gittin-2": {
+      "en": {
+        "discuss": "What does each tanna’s expansion or restriction of the declaration suggest about the purpose of the rule?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 2a or 2b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the next one is on Gittin 6a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 2a–2b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מה מלמדת ההרחבה או הצמצום של כל תנא על תכלית הדין?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין ב׳ ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; והבאה היא על גיטין ו׳ ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 2a–2b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "5f0613633c1e5821fbe46c2097e6690c1f25429e3ceec53ecb2b8ac029c2dcd0",
+      "sources": [
+        {
+          "en": "Gittin 2a",
+          "he": "גיטין ב׳ א",
+          "url": "https://www.sefaria.org/Gittin_2a"
+        },
+        {
+          "en": "Gittin 2b",
+          "he": "גיטין ב׳ ב",
+          "url": "https://www.sefaria.org/Gittin_2b"
+        }
+      ]
+    },
+    "cycle-15-gittin-20": {
+      "en": {
+        "discuss": "Why does a distinction about beautifying the divine Name not decide whether a retraced get is valid?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 20a or 20b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 17a and the next one is on Gittin 31b. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 20a–20b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע הבחנה בהידור השם אינה מכריעה אם גט שהועבר עליו קולמוס כשר?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין כ׳ ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין י״ז ע״א, והבאה היא על גיטין ל״א ע״ב. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 20a–20b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "167ac8ceb8f8a58c5679cd31dbc58ddeb3f0cb965f0177c39788cf54fab00493",
+      "sources": [
+        {
+          "en": "Gittin 20a",
+          "he": "גיטין כ׳ א",
+          "url": "https://www.sefaria.org/Gittin_20a"
+        },
+        {
+          "en": "Gittin 20b",
+          "he": "גיטין כ׳ ב",
+          "url": "https://www.sefaria.org/Gittin_20b"
+        }
+      ]
+    },
+    "cycle-15-gittin-21": {
+      "en": {
+        "discuss": "How does “a woman writes her own get” answer the question about her tablet?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 21a or 21b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 17a and the next one is on Gittin 31b. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 21a–21b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד ״אשה כותבת את גיטה״ עונה על השאלה על הטבלה שלה?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין כ״א ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין י״ז ע״א, והבאה היא על גיטין ל״א ע״ב. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 21a–21b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "89f4bdc3d3b1f2f1cb4356c6fd30f7a85e0befe7892f28d57d34026596b5fda3",
+      "sources": [
+        {
+          "en": "Gittin 21a",
+          "he": "גיטין כ״א א",
+          "url": "https://www.sefaria.org/Gittin_21a"
+        },
+        {
+          "en": "Gittin 21b",
+          "he": "גיטין כ״א ב",
+          "url": "https://www.sefaria.org/Gittin_21b"
+        }
+      ]
+    },
+    "cycle-15-gittin-22": {
+      "en": {
+        "discuss": "Does a perforated pot behave more like land or like a vessel, and how do Abaye and Rava answer differently?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 22a or 22b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 17a and the next one is on Gittin 31b. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 22a–22b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "האם עציץ נקוב מתנהג יותר כקרקע או ככלי, וכיצד אביי ורבא עונים אחרת?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין כ״ב ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין י״ז ע״א, והבאה היא על גיטין ל״א ע״ב. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 22a–22b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "698d386bd507a9fe4e28305899877b2c0cccca1f90572d3ddf913f4cc6403f67",
+      "sources": [
+        {
+          "en": "Gittin 22a",
+          "he": "גיטין כ״ב א",
+          "url": "https://www.sefaria.org/Gittin_22a"
+        },
+        {
+          "en": "Gittin 22b",
+          "he": "גיטין כ״ב ב",
+          "url": "https://www.sefaria.org/Gittin_22b"
+        }
+      ]
+    },
+    "cycle-15-gittin-23": {
+      "en": {
+        "discuss": "What is the difference between the hand that writes a get and the mind that intends it?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 23a or 23b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 17a and the next one is on Gittin 31b. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 23a–23b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מה ההבדל בין היד הכותבת גט לבין הדעת המתכוונת אליו?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין כ״ג ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין י״ז ע״א, והבאה היא על גיטין ל״א ע״ב. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 23a–23b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "aea015fe7ddd84d65202d4b25a8f581d8436a20f2b50457f6aed0c96ccdea5e5",
+      "sources": [
+        {
+          "en": "Gittin 23a",
+          "he": "גיטין כ״ג א",
+          "url": "https://www.sefaria.org/Gittin_23a"
+        },
+        {
+          "en": "Gittin 23b",
+          "he": "גיטין כ״ג ב",
+          "url": "https://www.sefaria.org/Gittin_23b"
+        }
+      ]
+    },
+    "cycle-15-gittin-24": {
+      "en": {
+        "discuss": "Why does a kal va-ḥomer carry a limit, and how does it shape the woman’s duty to declare?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 24a or 24b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 17a and the next one is on Gittin 31b. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 24a–24b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע קל וחומר נושא עמו גבול, וכיצד הוא מעצב את חובת האישה לומר?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין כ״ד ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין י״ז ע״א, והבאה היא על גיטין ל״א ע״ב. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 24a–24b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "fe4119d4fabcf29253844d2bb22e476f7e041ddafd3263ed544404a9fe2bee8e",
+      "sources": [
+        {
+          "en": "Gittin 24a",
+          "he": "גיטין כ״ד א",
+          "url": "https://www.sefaria.org/Gittin_24a"
+        },
+        {
+          "en": "Gittin 24b",
+          "he": "גיטין כ״ד ב",
+          "url": "https://www.sefaria.org/Gittin_24b"
+        }
+      ]
+    },
+    "cycle-15-gittin-25": {
+      "en": {
+        "discuss": "Why does Rabbi Yoḥanan hold that even “whichever I wish” does not disqualify a woman from the priesthood?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 25a or 25b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 17a and the next one is on Gittin 31b. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 25a–25b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע רבי יוחנן סובר שאפילו ״לאיזו שארצה״ אינו פוסל אישה לכהונה?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין כ״ה ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין י״ז ע״א, והבאה היא על גיטין ל״א ע״ב. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 25a–25b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "e6e33a2046bd53da19db2107fa24d6fad3578f4d69c5bb5c0d6d30facdc9492d",
+      "sources": [
+        {
+          "en": "Gittin 25a",
+          "he": "גיטין כ״ה א",
+          "url": "https://www.sefaria.org/Gittin_25a"
+        },
+        {
+          "en": "Gittin 25b",
+          "he": "גיטין כ״ה ב",
+          "url": "https://www.sefaria.org/Gittin_25b"
+        }
+      ]
+    },
+    "cycle-15-gittin-26": {
+      "en": {
+        "discuss": "How does Rava reconcile the tannaim’s acceptance of bereira with their prohibition of the Samaritans’ wine?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 26a or 26b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 17a and the next one is on Gittin 31b. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 26a–26b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד רבא מיישב את קבלת הברירה של התנאים עם איסורם ביין הכותים?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין כ״ו ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין י״ז ע״א, והבאה היא על גיטין ל״א ע״ב. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 26a–26b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "087a3359f4ab27f4f86ce13379f4cdb796f7a735a1f011b36c43931b179d41da",
+      "sources": [
+        {
+          "en": "Gittin 26a",
+          "he": "גיטין כ״ו א",
+          "url": "https://www.sefaria.org/Gittin_26a"
+        },
+        {
+          "en": "Gittin 26b",
+          "he": "גיטין כ״ו ב",
+          "url": "https://www.sefaria.org/Gittin_26b"
+        }
+      ]
+    },
+    "cycle-15-gittin-27": {
+      "en": {
+        "discuss": "What two conditions does Rabbah require before we fear that a found get is a different one?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 27a or 27b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 17a and the next one is on Gittin 31b. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 27a–27b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "אילו שני תנאים רבה דורש לפני שחוששים שהגט שנמצא הוא אחר?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין כ״ז ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין י״ז ע״א, והבאה היא על גיטין ל״א ע״ב. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 27a–27b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "dedc219e31d2d3da55319ac402f4d648b5d78d85792e947ebdeca4e4f1b50850",
+      "sources": [
+        {
+          "en": "Gittin 27a",
+          "he": "גיטין כ״ז א",
+          "url": "https://www.sefaria.org/Gittin_27a"
+        },
+        {
+          "en": "Gittin 27b",
+          "he": "גיטין כ״ז ב",
+          "url": "https://www.sefaria.org/Gittin_27b"
+        }
+      ]
+    },
+    "cycle-15-gittin-28": {
+      "en": {
+        "discuss": "Why does the Gemara distinguish between “perhaps he died” and “perhaps he will die”?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 28a or 28b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 17a and the next one is on Gittin 31b. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 28a–28b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע הגמרא מבחינה בין ״שמא מת״ ל״שמא ימות״?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין כ״ח ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין י״ז ע״א, והבאה היא על גיטין ל״א ע״ב. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 28a–28b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "e6937d7f282d52d386815de9485662640779359cbcabc485dce8ba1315c9f22d",
+      "sources": [
+        {
+          "en": "Gittin 28a",
+          "he": "גיטין כ״ח א",
+          "url": "https://www.sefaria.org/Gittin_28a"
+        },
+        {
+          "en": "Gittin 28b",
+          "he": "גיטין כ״ח ב",
+          "url": "https://www.sefaria.org/Gittin_28b"
+        }
+      ]
+    },
+    "cycle-15-gittin-29": {
+      "en": {
+        "discuss": "Why might illness permit an agent to transfer a get even when the husband said “you take it”?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 29a or 29b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 17a and the next one is on Gittin 31b. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 29a–29b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע חולי עשוי להתיר לשליח להעביר גט גם כשהבעל אמר ״את הולך״?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין כ״ט ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין י״ז ע״א, והבאה היא על גיטין ל״א ע״ב. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 29a–29b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "7eb00af44c57c6e55e811aaf24009ac6a9bc5dd619b235821ee9f8200e1215ce",
+      "sources": [
+        {
+          "en": "Gittin 29a",
+          "he": "גיטין כ״ט א",
+          "url": "https://www.sefaria.org/Gittin_29a"
+        },
+        {
+          "en": "Gittin 29b",
+          "he": "גיטין כ״ט ב",
+          "url": "https://www.sefaria.org/Gittin_29b"
+        }
+      ]
+    },
+    "cycle-15-gittin-3": {
+      "en": {
+        "discuss": "How does delivery before two or three people turn an apparent stringency back into a leniency?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 3a or 3b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the next one is on Gittin 6a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 3a–3b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד הנתינה בפני שניים או שלושה הופכת חומרה לכאורה בחזרה לקולא?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין ג׳ ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; והבאה היא על גיטין ו׳ ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 3a–3b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "e9c6842a013cd85ca62ad3a44eb2fdc1507328b839cf015426b17d9337c15c10",
+      "sources": [
+        {
+          "en": "Gittin 3a",
+          "he": "גיטין ג׳ א",
+          "url": "https://www.sefaria.org/Gittin_3a"
+        },
+        {
+          "en": "Gittin 3b",
+          "he": "גיטין ג׳ ב",
+          "url": "https://www.sefaria.org/Gittin_3b"
+        }
+      ]
+    },
+    "cycle-15-gittin-30": {
+      "en": {
+        "discuss": "How do the two versions of Rav Yosef’s ruling reflect the dispute whether there is duress in gittin?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 30a or 30b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 17a and the next one is on Gittin 31b. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 30a–30b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד שתי הלשונות בפסק רב יוסף משקפות את המחלוקת אם יש אונס בגיטין?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין ל׳ ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין י״ז ע״א, והבאה היא על גיטין ל״א ע״ב. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 30a–30b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "c58e87a86fd31e4f4620b496832d762d35eee3f7029515f6bbe64f0df27e291d",
+      "sources": [
+        {
+          "en": "Gittin 30a",
+          "he": "גיטין ל׳ א",
+          "url": "https://www.sefaria.org/Gittin_30a"
+        },
+        {
+          "en": "Gittin 30b",
+          "he": "גיטין ל׳ ב",
+          "url": "https://www.sefaria.org/Gittin_30b"
+        }
+      ]
+    },
+    "cycle-15-gittin-31": {
+      "en": {
+        "discuss": "How does Abba Elazar ben Gamla’s “by thought” prepare the law of produce set aside for tithes?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada explains the epithet palga’ah, “divider,” given to Geniva. An unworthy student is compared to an asheira; a worthy scholar is called shor, ox, as with Joseph, “his firstling ox.” When the vav of shor is split into alef and heh, the word becomes asheira; so the divisive scholar is called “palag a-h,” one who splits into alef-heh. Likewise, scholars increase shalom, but in a contentious one the vav of shalom is split into alef-heh, turning it toward ashma, guilt. When the rabbis told Geniva they were discussing “winds,” they did not lie: the sin of the divisive man is in speech, which Onkelos calls “a speaking spirit.”"
+      },
+      "he": {
+        "discuss": "כיצד ״במחשבה״ של אבא אלעזר בן גמלא מכין את דין הפירות המונחים למעשרות?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע מסביר את הכינוי ״פלגאה״ שניתן לגניבא. תלמיד שאינו הגון נמשל לאשרה; תלמיד חכם הגון נקרא ״שור״, כמו יוסף, ״בכור שורו״. כשהוי״ו של ״שור״ נחלקת לאל״ף וה״א, נעשית התיבה ״אשרה״; לכן בעל המחלוקת נקרא ״פלג א״ה״. וכן תלמידי חכמים מרבים שלום, ובבעל מחלוקת נחלקת הוי״ו של ״שלום״ לא״ה ונוטה ל״אשמה״. וכשאמרו לגניבא שעסקו ״ברוחות״, לא שיקרו: חטאו של בעל המחלוקת הוא בדיבור, שאונקלוס קורא לו ״רוחא ממללא״."
+      },
+      "revision": "5137b9cb32eafeafc82e1cbca2f7c28b962826181fef9565056cc540bffe69cf",
+      "sources": [
+        {
+          "en": "Gittin 31a",
+          "he": "גיטין ל״א א",
+          "url": "https://www.sefaria.org/Gittin_31a"
+        },
+        {
+          "en": "Gittin 31b",
+          "he": "גיטין ל״א ב",
+          "url": "https://www.sefaria.org/Gittin_31b"
+        }
+      ]
+    },
+    "cycle-15-gittin-32": {
+      "en": {
+        "discuss": "Why does the mishnah list four ways a husband can reach the agent or his wife?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 32a or 32b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 31b and the next one is on Gittin 35a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 32a–32b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע המשנה מונה ארבע דרכים שבהן הבעל מגיע לשליח או לאשתו?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין ל״ב ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין ל״א ע״ב, והבאה היא על גיטין ל״ה ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 32a–32b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "3a204b62eca64372135cb34ea2ee9ec8db29d51bd51102cbefeab9fbbff67b2f",
+      "sources": [
+        {
+          "en": "Gittin 32a",
+          "he": "גיטין ל״ב א",
+          "url": "https://www.sefaria.org/Gittin_32a"
+        },
+        {
+          "en": "Gittin 32b",
+          "he": "גיטין ל״ב ב",
+          "url": "https://www.sefaria.org/Gittin_32b"
+        }
+      ]
+    },
+    "cycle-15-gittin-33": {
+      "en": {
+        "discuss": "How does the number of judges required for cancellation shape the two explanations of “tikkun ha-olam”?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 33a or 33b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 31b and the next one is on Gittin 35a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 33a–33b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד מספר הדיינים הדרוש לביטול מעצב את שני ההסברים ל״תיקון העולם״?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין ל״ג ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין ל״א ע״ב, והבאה היא על גיטין ל״ה ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 33a–33b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "8872a02597b5eb3d20165146df035768e1214082dc3740f7d61b83ba38cf3c6a",
+      "sources": [
+        {
+          "en": "Gittin 33a",
+          "he": "גיטין ל״ג א",
+          "url": "https://www.sefaria.org/Gittin_33a"
+        },
+        {
+          "en": "Gittin 33b",
+          "he": "גיטין ל״ג ב",
+          "url": "https://www.sefaria.org/Gittin_33b"
+        }
+      ]
+    },
+    "cycle-15-gittin-34": {
+      "en": {
+        "discuss": "Why might the court’s power apply to money but not to permitting a married woman?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 34a or 34b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 31b and the next one is on Gittin 35a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 34a–34b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע ייתכן שכוח בית הדין חל בממון אך לא בהיתר אשת איש?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין ל״ד ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין ל״א ע״ב, והבאה היא על גיטין ל״ה ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 34a–34b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "888d1526eaf3bb9e19d148170044178615e5dded65c4e10f801aefe5ad308f1d",
+      "sources": [
+        {
+          "en": "Gittin 34a",
+          "he": "גיטין ל״ד א",
+          "url": "https://www.sefaria.org/Gittin_34a"
+        },
+        {
+          "en": "Gittin 34b",
+          "he": "גיטין ל״ד ב",
+          "url": "https://www.sefaria.org/Gittin_34b"
+        }
+      ]
+    },
+    "cycle-15-gittin-35": {
+      "en": {
+        "discuss": "Why did the story of the gold dinar make courts reluctant to impose oaths?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada asks why the Gemara notes that the story of the gold dinar happened in years of famine. One answer: to show the severity of the oath, since even though she gave the bread as charity in a time when it saved lives, the merit of that commandment did not protect her from the punishment for her oath. Another: only in famine, when flour was very costly, would the flour saved by the dinar’s place count as a real benefit worth a peruta. “Like one who swore truthfully” means she swore inadvertently, not realizing that the saved flour was a benefit to her."
+      },
+      "he": {
+        "discuss": "מדוע מעשה דינר הזהב גרם לבתי הדין להימנע מלהשביע?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע שואל מדוע הגמרא מציינת שמעשה דינר הזהב אירע בשני בצורת. תשובה אחת: להודיע את חומרת השבועה, שאף שנתנה את הככר צדקה לעני בזמן שהיה בו פיקוח נפש, לא הועיל זכות המצווה להצילה מעונש השבועה. ועוד: רק בשני בצורת, כשהקמח ביוקר גדול, נחשב מקום הדינר להנאה של שווה פרוטה. ״כמי שנשבע באמת״ פירושו שנשבעה בשוגג, שלא עלה על לבה שהרווחת מקום הדינר היא הנאה."
+      },
+      "revision": "5c6a19b05afd2310a15e2025b79fc4404fedf5af8425e10fdf5913bbb8ef482d",
+      "sources": [
+        {
+          "en": "Gittin 35a",
+          "he": "גיטין ל״ה א",
+          "url": "https://www.sefaria.org/Gittin_35a"
+        },
+        {
+          "en": "Gittin 35b",
+          "he": "גיטין ל״ה ב",
+          "url": "https://www.sefaria.org/Gittin_35b"
+        }
+      ]
+    },
+    "cycle-15-gittin-36": {
+      "en": {
+        "discuss": "Why can a vow “on the mind of the public” not be annulled, and when does that rule yield?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "On Ulla’s saying “shameless is the bride who strayed under her own wedding canopy,” Ben Yehoyada draws on the Arizal: at the golden calf, by saying “these, elleh, are your gods,” Israel damaged the letters elleh of the divine name Elohim, and by kissing the calf they damaged the letters mi as well, so the whole name was damaged. Its numerical value, eighty-six, is pe-vav, and these letters stand “within the canopy,” inside the word ḥuppa. The bride’s sin within her ḥuppa is thus the damage to the name hidden in the word itself."
+      },
+      "he": {
+        "discuss": "מדוע נדר ״על דעת רבים״ אין לו הפרה, ומתי כלל זה נסוג?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "על מאמר עולא ״עלובה כלה שזינתה בתוך חופתה״ בן יהוידע נשען על דברי האר״י: בעגל, באמרם ״אלה אלהיך״, פגמו ישראל באותיות ״אלה״ של שם אלקים, ובנשיקת העגל פגמו גם באותיות ״מי״, ונמצא שפגמו בשם כולו. מניינו פ״ו, והאותיות פ״ו נמצאות ״תוך חופה״, בתוך התיבה ״חופה״. חטא הכלה בתוך חופתה הוא אפוא הפגם בשם הטמון בתיבה עצמה."
+      },
+      "revision": "3f8d13d0c396b017989ea25cbb0b33f9550e69fa3a3e8aa19d3a908b647a53d1",
+      "sources": [
+        {
+          "en": "Gittin 36a",
+          "he": "גיטין ל״ו א",
+          "url": "https://www.sefaria.org/Gittin_36a"
+        },
+        {
+          "en": "Gittin 36b",
+          "he": "גיטין ל״ו ב",
+          "url": "https://www.sefaria.org/Gittin_36b"
+        }
+      ]
+    },
+    "cycle-15-gittin-37": {
+      "en": {
+        "discuss": "How do the explanations of “prozbul” reveal the purpose of the institution?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 37a or 37b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 36b and the next one is on Gittin 38b. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 37a–37b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד ההסברים למילה ״פרוזבול״ חושפים את מטרת המוסד?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין ל״ז ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין ל״ו ע״ב, והבאה היא על גיטין ל״ח ע״ב. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 37a–37b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "4a96ee9ab0bf52e7905e0dc24e325990ec6def2c001e3906561d4fabda42d86d",
+      "sources": [
+        {
+          "en": "Gittin 37a",
+          "he": "גיטין ל״ז א",
+          "url": "https://www.sefaria.org/Gittin_37a"
+        },
+        {
+          "en": "Gittin 37b",
+          "he": "גיטין ל״ז ב",
+          "url": "https://www.sefaria.org/Gittin_37b"
+        }
+      ]
+    },
+    "cycle-15-gittin-38": {
+      "en": {
+        "discuss": "How does the Gemara derive that a captor can acquire a slave’s labor but not his body?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada reads Rabbah’s word naḥtei, “householders descend from their property,” as an acronym: the three causes involve confusion (nevukhim) about Shabbat, freedom (ḥerut), and Torah, whose initials form naḥat. Another hint: the three sins concern property, meals, and slaves, nekhasim, se’uda, avadim, forming nasa, “he journeys” away from his possessions. Each loss is measure for measure: one who frees his slave disdains the bounty God gave him; one who inspects property on Shabbat cuts off the blessing that comes to property from Shabbat’s holiness, “throw away the salt and the meat goes to the dog.”"
+      },
+      "he": {
+        "discuss": "כיצד הגמרא לומדת ששבאי קונה את מעשי ידיו של עבד אך לא את גופו?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע קורא את מילת רבה ״נחתי בעלי בתים מנכסיהון״ כראשי תיבות: שלושת הדברים נוגעים לנבוכים בשבת, לחירות ולתורה, וראשי תיבותיהם ״נחת״. רמז נוסף: שלושת החטאים נוגעים לנכסים, לסעודה ולעבדים, וראשי התיבות ״נסע״, שבעל הבית נוסע מנכסיו. כל הפסד הוא מידה כנגד מידה: המשחרר עבדו מזלזל בשפע שהשפיע לו הקב״ה; המסייר נכסיו בשבת מנתק את הברכה הבאה לממון מכוח קדושת השבת, ״פוץ מלחא ושדי בשרא לכלבא״."
+      },
+      "revision": "844e4532e525816204bd75be21a0c801dc8afbf86479d75539f10899685bd329",
+      "sources": [
+        {
+          "en": "Gittin 38a",
+          "he": "גיטין ל״ח א",
+          "url": "https://www.sefaria.org/Gittin_38a"
+        },
+        {
+          "en": "Gittin 38b",
+          "he": "גיטין ל״ח ב",
+          "url": "https://www.sefaria.org/Gittin_38b"
+        }
+      ]
+    },
+    "cycle-15-gittin-39": {
+      "en": {
+        "discuss": "How does “a person does not speak in vain” explain the consecrated slave?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 39a or 39b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 38b and the next one is on Gittin 45a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 39a–39b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד ״אין אדם מוציא דבריו לבטלה״ מסביר את העבד המוקדש?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין ל״ט ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין ל״ח ע״ב, והבאה היא על גיטין מ״ה ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 39a–39b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "27243e3eaeb3b8c0b740cc6c64cfc95c74ab5270eccb14bad54d40f7b859c15d",
+      "sources": [
+        {
+          "en": "Gittin 39a",
+          "he": "גיטין ל״ט א",
+          "url": "https://www.sefaria.org/Gittin_39a"
+        },
+        {
+          "en": "Gittin 39b",
+          "he": "גיטין ל״ט ב",
+          "url": "https://www.sefaria.org/Gittin_39b"
+        }
+      ]
+    },
+    "cycle-15-gittin-4": {
+      "en": {
+        "discuss": "Why does the Gemara prefer to set a mishnah according to Rabbi Meir or Rabbi Elazar before Rabbi Yehuda?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 4a or 4b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the next one is on Gittin 6a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 4a–4b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע הגמרא מעדיפה להעמיד משנה כרבי מאיר או כרבי אלעזר לפני רבי יהודה?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין ד׳ ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; והבאה היא על גיטין ו׳ ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 4a–4b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "12094214f8bcd5d822f337ea9d1fba6f04264fc5f847497ed756571998589e96",
+      "sources": [
+        {
+          "en": "Gittin 4a",
+          "he": "גיטין ד׳ א",
+          "url": "https://www.sefaria.org/Gittin_4a"
+        },
+        {
+          "en": "Gittin 4b",
+          "he": "גיטין ד׳ ב",
+          "url": "https://www.sefaria.org/Gittin_4b"
+        }
+      ]
+    },
+    "cycle-15-gittin-40": {
+      "en": {
+        "discuss": "What kind of act by a master implies that he regards his slave as free?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 40a or 40b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 38b and the next one is on Gittin 45a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 40a–40b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "איזה סוג מעשה של אדון מלמד שהוא רואה בעבדו בן חורין?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין מ׳ ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין ל״ח ע״ב, והבאה היא על גיטין מ״ה ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 40a–40b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "43e0245cee5f9652bdd527e497fd840dbcad2118af1101982d178aad3b762641",
+      "sources": [
+        {
+          "en": "Gittin 40a",
+          "he": "גיטין מ׳ א",
+          "url": "https://www.sefaria.org/Gittin_40a"
+        },
+        {
+          "en": "Gittin 40b",
+          "he": "גיטין מ׳ ב",
+          "url": "https://www.sefaria.org/Gittin_40b"
+        }
+      ]
+    },
+    "cycle-15-gittin-41": {
+      "en": {
+        "discuss": "How do Rav and Ulla read the mortgaged-slave mishnah differently, and what principle of liability does each extract?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 41a or 41b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 38b and the next one is on Gittin 45a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 41a–41b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד רב ועולא קוראים את משנת העבד האפותיקי באופן שונה, ואיזה עיקרון של אחריות כל אחד מוציא ממנה?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין מ״א ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין ל״ח ע״ב, והבאה היא על גיטין מ״ה ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 41a–41b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "cd3c37603bdb9e3e453c0cab2d10f39e58d0f09d45b8d9df5de83efed5521e33",
+      "sources": [
+        {
+          "en": "Gittin 41a",
+          "he": "גיטין מ״א א",
+          "url": "https://www.sefaria.org/Gittin_41a"
+        },
+        {
+          "en": "Gittin 41b",
+          "he": "גיטין מ״א ב",
+          "url": "https://www.sefaria.org/Gittin_41b"
+        }
+      ]
+    },
+    "cycle-15-gittin-42": {
+      "en": {
+        "discuss": "Why does Rabbah say the dispute disappears if the master sold the other half?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 42a or 42b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 38b and the next one is on Gittin 45a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 42a–42b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע רבה אומר שהמחלוקת נעלמת אם האדון מכר את החצי השני?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין מ״ב ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין ל״ח ע״ב, והבאה היא על גיטין מ״ה ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 42a–42b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "133bab1a63fde88d3851a2ee9af7a3c6b7aa08b1aed80f14aa459c225d33efb3",
+      "sources": [
+        {
+          "en": "Gittin 42a",
+          "he": "גיטין מ״ב א",
+          "url": "https://www.sefaria.org/Gittin_42a"
+        },
+        {
+          "en": "Gittin 42b",
+          "he": "גיטין מ״ב ב",
+          "url": "https://www.sefaria.org/Gittin_42b"
+        }
+      ]
+    },
+    "cycle-15-gittin-43": {
+      "en": {
+        "discuss": "Why can the question of a slave sold for a future fine be asked even according to the Rabbis?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 43a or 43b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 38b and the next one is on Gittin 45a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 43a–43b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע אפשר לשאול את שאלת עבד שנמכר לקנס עתידי גם לשיטת רבנן?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין מ״ג ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין ל״ח ע״ב, והבאה היא על גיטין מ״ה ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 43a–43b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "ca0aa137827b6188a80eb8c8ae87faa10c62da37a1d878dd65a843eb5f907a1f",
+      "sources": [
+        {
+          "en": "Gittin 43a",
+          "he": "גיטין מ״ג א",
+          "url": "https://www.sefaria.org/Gittin_43a"
+        },
+        {
+          "en": "Gittin 43b",
+          "he": "גיטין מ״ג ב",
+          "url": "https://www.sefaria.org/Gittin_43b"
+        }
+      ]
+    },
+    "cycle-15-gittin-44": {
+      "en": {
+        "discuss": "Why does Rav hold the master responsible when an extortioner takes the slave?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 44a or 44b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 38b and the next one is on Gittin 45a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 44a–44b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע רב מטיל אחריות על האדון כאשר פרהנג לוקח את העבד?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין מ״ד ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין ל״ח ע״ב, והבאה היא על גיטין מ״ה ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 44a–44b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "d7339e708553f55191614ce159505bd415a9c412e4a21f3dd9529769d8e850c8",
+      "sources": [
+        {
+          "en": "Gittin 44a",
+          "he": "גיטין מ״ד א",
+          "url": "https://www.sefaria.org/Gittin_44a"
+        },
+        {
+          "en": "Gittin 44b",
+          "he": "גיטין מ״ד ב",
+          "url": "https://www.sefaria.org/Gittin_44b"
+        }
+      ]
+    },
+    "cycle-15-gittin-45": {
+      "en": {
+        "discuss": "Why does the Gemara finally fine the buyer and not the seller?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada reads Rav Ilish’s surprise at Rav Naḥman’s daughters through the verse “one man in a thousand I found, but a woman among all these I did not find”: it refers to the righteous for whom nature is overturned, like those who stood in fire unharmed, and he thought the daughters who stirred a boiling pot with bare hands were such women. Once he saw them still doing it after their corruption, he concluded it was sorcery from the start. He explains why the raven called first, though Rav Ilish would not trust it: a righteous person’s evil angel too is forced to proclaim good, darkness precedes light as the shell precedes the fruit, and guilt is brought about through the guilty and merit through the meritorious: the raven’s call led the other captive to flee to his death, while Rav Ilish was saved through the dove, the image of the community of Israel. The doubled “Ilish, flee!” is the doubling of a righteous person’s name, a call to run both before and after the river, and a sign that the escape was for him alone. Ben Yehoyada on Gittin 45a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע הגמרא קונסת בסוף את הלוקח ולא את המוכר?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "הבן יהוידע מפרש את תמיהת רב עיליש על בנות רב נחמן לפי הכתוב ״אדם אחד מאלף מצאתי ואשה בכל אלה לא מצאתי״: הוא נאמר על צדיקים שנעשה להם דבר הפך הטבע, כמו העומדים באש ולא נכוו, וסבר שבנות רב נחמן, שבחשו קדרה בידיהן, הן כאלה. כשראה שעדיין הן עושות כן אחר שהחמיצו, הוכרח לומר שמתחילה מעשה כשפים היה. הוא מבאר מדוע קרא העורב תחילה אף שרב עיליש לא סמך עליו: אצל צדיק גם המלאך שמצד הרע מכריז טוב בעל כרחו, החושך קודם לאור כקליפה הקודמת לפרי, ומגלגלין חובה על ידי חייב וזכות על ידי זכאי: כרוז העורב גרם לאותו גברא לברוח ולהיהרג, ורב עיליש ניצל על ידי היונה, שכנסת ישראל נמשלה לה. כפל ״עיליש ברח״ הוא כפל שמו של צדיק בדרך חיבה, רמז לרוץ לפני מעבר המים ואחריו, וסימן שהבריחה נועדה לו לבדו. Ben Yehoyada on Gittin 45a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "e7a3e38b806e54155b73dcb71e9db774348924741c4013518e25c15cca04ea6e",
+      "sources": [
+        {
+          "en": "Gittin 45a",
+          "he": "גיטין מ״ה א",
+          "url": "https://www.sefaria.org/Gittin_45a"
+        },
+        {
+          "en": "Gittin 45b",
+          "he": "גיטין מ״ה ב",
+          "url": "https://www.sefaria.org/Gittin_45b"
+        }
+      ]
+    },
+    "cycle-15-gittin-46": {
+      "en": {
+        "discuss": "How do the two versions of Rav Naḥman’s condition differ in purpose?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 46a or 46b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 45a and the next one is on Gittin 47a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 46a–46b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד שתי הלשונות בתנאי רב נחמן נבדלות במטרתן?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין מ״ו ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין מ״ה ע״א, והבאה היא על גיטין מ״ז ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 46a–46b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "d9f1d070db39fe910a1bf2c590d058cf2699e20119ce32153308d0720d76e95d",
+      "sources": [
+        {
+          "en": "Gittin 46a",
+          "he": "גיטין מ״ו א",
+          "url": "https://www.sefaria.org/Gittin_46a"
+        },
+        {
+          "en": "Gittin 46b",
+          "he": "גיטין מ״ו ב",
+          "url": "https://www.sefaria.org/Gittin_46b"
+        }
+      ]
+    },
+    "cycle-15-gittin-47": {
+      "en": {
+        "discuss": "Why did Rabbi Ami first agree to redeem the man and then refuse?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada explains why Resh Lakish, who left only a kav of saffron when he died, applied to himself the verse “and they leave their wealth to others.” It was not, God forbid, a sign of a grudging eye; on the contrary, it showed his good eye. He was content with his lot, and the little he had seemed much to him, so much that a kav of saffron deserved to be called “their wealth.” Ben Yehoyada on Gittin 47a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע רבי אמי הסכים תחילה לפדות את האיש ואחר כך סירב?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "הבן יהוידע מבאר מדוע ריש לקיש, שהניח בשעת מותו רק קב של מוריקא, קרא על עצמו ״ועזבו לאחרים חילם״. לא משום צרות עין חס ושלום אמר כך, אלא אדרבה, הראה בזה עין טובה שהייתה לו: הוא היה שמח בחלקו, והמעט שלו נראה בעיניו מרובה, עד שקב של מוריקא היה ראוי לומר עליו ״חילם״. Ben Yehoyada on Gittin 47a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "61987d4efb5558abe1e1e36bcad16d557e9fcc3cbfd132e4116d82e0de12a4bd",
+      "sources": [
+        {
+          "en": "Gittin 47a",
+          "he": "גיטין מ״ז א",
+          "url": "https://www.sefaria.org/Gittin_47a"
+        },
+        {
+          "en": "Gittin 47b",
+          "he": "גיטין מ״ז ב",
+          "url": "https://www.sefaria.org/Gittin_47b"
+        }
+      ]
+    },
+    "cycle-15-gittin-48": {
+      "en": {
+        "discuss": "Why are the two disputes of Rabbi Yoḥanan and Resh Lakish both needed?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 48a or 48b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 47a and the next one is on Gittin 52a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 48a–48b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע שתי המחלוקות של רבי יוחנן וריש לקיש נצרכות?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין מ״ח ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין מ״ז ע״א, והבאה היא על גיטין נ״ב ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 48a–48b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "05caf7db3e3e7b45db7a668131d7958ae6ea6483b586701135e594b6c25c6ae7",
+      "sources": [
+        {
+          "en": "Gittin 48a",
+          "he": "גיטין מ״ח א",
+          "url": "https://www.sefaria.org/Gittin_48a"
+        },
+        {
+          "en": "Gittin 48b",
+          "he": "גיטין מ״ח ב",
+          "url": "https://www.sefaria.org/Gittin_48b"
+        }
+      ]
+    },
+    "cycle-15-gittin-49": {
+      "en": {
+        "discuss": "How do Rabbi Yishmael and Rabbi Akiva each read “the best of his field”?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 49a or 49b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 47a and the next one is on Gittin 52a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 49a–49b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד רבי ישמעאל ורבי עקיבא קוראים כל אחד את ״מיטב שדהו״?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין מ״ט ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין מ״ז ע״א, והבאה היא על גיטין נ״ב ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 49a–49b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "60c882a226ea5edc87b639a54ad15aefa4bc93b9c2aa9fd69b2652171d98e485",
+      "sources": [
+        {
+          "en": "Gittin 49a",
+          "he": "גיטין מ״ט א",
+          "url": "https://www.sefaria.org/Gittin_49a"
+        },
+        {
+          "en": "Gittin 49b",
+          "he": "גיטין מ״ט ב",
+          "url": "https://www.sefaria.org/Gittin_49b"
+        }
+      ]
+    },
+    "cycle-15-gittin-5": {
+      "en": {
+        "discuss": "How does “after they learned” change the status of the declaration for Rabbah?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 5a or 5b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the next one is on Gittin 6a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 5a–5b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד ״לאחר שלמדו״ משנה את מעמד האמירה לרבה?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין ה׳ ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; והבאה היא על גיטין ו׳ ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 5a–5b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "528c4a23918d8cc0cf577dc8c717fca2680c79a05154f7b6003e2b6e261ba380",
+      "sources": [
+        {
+          "en": "Gittin 5a",
+          "he": "גיטין ה׳ א",
+          "url": "https://www.sefaria.org/Gittin_5a"
+        },
+        {
+          "en": "Gittin 5b",
+          "he": "גיטין ה׳ ב",
+          "url": "https://www.sefaria.org/Gittin_5b"
+        }
+      ]
+    },
+    "cycle-15-gittin-50": {
+      "en": {
+        "discuss": "Why is a guarantor for a ketubba not bound, while a guarantor for a loan is?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 50a or 50b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 47a and the next one is on Gittin 52a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 50a–50b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע ערב לכתובה אינו משתעבד, וערב להלוואה משתעבד?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין נ׳ ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין מ״ז ע״א, והבאה היא על גיטין נ״ב ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 50a–50b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "c1e06aab2d11d06b858aa2211f0cf58c074d003936ac757a52c0bd5d3ef67f07",
+      "sources": [
+        {
+          "en": "Gittin 50a",
+          "he": "גיטין נ׳ א",
+          "url": "https://www.sefaria.org/Gittin_50a"
+        },
+        {
+          "en": "Gittin 50b",
+          "he": "גיטין נ׳ ב",
+          "url": "https://www.sefaria.org/Gittin_50b"
+        }
+      ]
+    },
+    "cycle-15-gittin-51": {
+      "en": {
+        "discuss": "How can publicity replace a written document in claims against buyers?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 51a or 51b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 47a and the next one is on Gittin 52a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 51a–51b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד פרסום יכול לבוא במקום שטר בתביעות כלפי לוקחים?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין נ״א ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין מ״ז ע״א, והבאה היא על גיטין נ״ב ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 51a–51b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "7783afedf01b5fd661a1bb3e28b4245ecd1bcf5bc78def3ebcb2b455f1a9495c",
+      "sources": [
+        {
+          "en": "Gittin 51a",
+          "he": "גיטין נ״א א",
+          "url": "https://www.sefaria.org/Gittin_51a"
+        },
+        {
+          "en": "Gittin 51b",
+          "he": "גיטין נ״א ב",
+          "url": "https://www.sefaria.org/Gittin_51b"
+        }
+      ]
+    },
+    "cycle-15-gittin-52": {
+      "en": {
+        "discuss": "Why may a guardian buy tefillin but not pledge charity for the orphans?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada asks why Rabbi Meir needed three Sabbath eves to make peace between the quarreling couple. Strife is born of anger, and anger is “smoke” rising in the nose; עשן is the acronym of the three husks, snake, seraph and scorpion, so each Sabbath he nullified one husk, just as fruit is forbidden for three years and holy in the fourth. When the Satan cried “woe,” it was because the Sabbath is called “heart,” the heart of the week that nourishes all its days; for those who desecrate it the numerical value of לב (32) becomes twice וי (16), woe above and woe below. Rabbi Meir restored the “heart” to its place and drove the “woe” out of that man’s house. Ben Yehoyada on Gittin 52a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע אפוטרופוס רשאי לקנות תפילין אך לא לפסוק צדקה בשם היתומים?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "הבן יהוידע שואל מדוע הוצרך רבי מאיר שלוש ערבי שבתות לעשות שלום בין בני הזוג המריבים. המריבה נולדה מן הכעס, וכל כעס הוא עשן העולה באף; ״עשן״ ראשי תיבות של שלוש הקליפות נחש, שרף ועקרב, ולכן בכל שבת ביטל קליפה אחת, כמו ״שלש שנים יהיה לכם ערלים, ובשנה הרביעית יהיה קדש״. כשאמר השטן ״וי״, הרי השבת נקראת לב, שהיא כלב השבוע המחלק חיות לכל ימי החול; למחלליה נהפך מספר ל״ב לשני פעמים ״וי״, וי לעילא ווי לתתא. רבי מאיר החזיר את מספר ל״ב למקומו והוציא את ה״וי״ מביתו של אותו גברא. Ben Yehoyada on Gittin 52a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "202ee7e174e3d7056c1a800b773a176ee573ec9d328f690088af01b6b302e460",
+      "sources": [
+        {
+          "en": "Gittin 52a",
+          "he": "גיטין נ״ב א",
+          "url": "https://www.sefaria.org/Gittin_52a"
+        },
+        {
+          "en": "Gittin 52b",
+          "he": "גיטין נ״ב ב",
+          "url": "https://www.sefaria.org/Gittin_52b"
+        }
+      ]
+    },
+    "cycle-15-gittin-53": {
+      "en": {
+        "discuss": "Why does Shmuel reject the meaning “actual libation”?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 53a or 53b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 52a and the next one is on Gittin 55a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 53a–53b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע שמואל דוחה את הפירוש ״מנסך ממש״?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין נ״ג ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין נ״ב ע״א, והבאה היא על גיטין נ״ה ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 53a–53b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "15530c72d67b71aa1ad91e9651e6f171fe322ba9c22f51cd4692b324267cf80c",
+      "sources": [
+        {
+          "en": "Gittin 53a",
+          "he": "גיטין נ״ג א",
+          "url": "https://www.sefaria.org/Gittin_53a"
+        },
+        {
+          "en": "Gittin 53b",
+          "he": "גיטין נ״ג ב",
+          "url": "https://www.sefaria.org/Gittin_53b"
+        }
+      ]
+    },
+    "cycle-15-gittin-54": {
+      "en": {
+        "discuss": "Why is the Sabbatical year treated more strictly than Shabbat in planting?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 54a or 54b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 52a and the next one is on Gittin 55a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 54a–54b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע השביעית חמורה מן השבת בנטיעה?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין נ״ד ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין נ״ב ע״א, והבאה היא על גיטין נ״ה ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 54a–54b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "188852145f93c4fba8f4cb66cfcbfbeeba7ac0c4c1f1920d101de646a897c7c8",
+      "sources": [
+        {
+          "en": "Gittin 54a",
+          "he": "גיטין נ״ד א",
+          "url": "https://www.sefaria.org/Gittin_54a"
+        },
+        {
+          "en": "Gittin 54b",
+          "he": "גיטין נ״ד ב",
+          "url": "https://www.sefaria.org/Gittin_54b"
+        }
+      ]
+    },
+    "cycle-15-gittin-55": {
+      "en": {
+        "discuss": "Why does Rava conclude that the woman’s awareness is not needed for a get?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada asks why Beit Hillel say “for the sake of penitents” rather than “for the proper ordering of society.” When a person sins, the other side takes a spark of holiness from his soul and builds a great structure upon it. With the husks God acts like Beit Shammai, demolishing the whole palace to retrieve the spark; but with the penitent He acts like Beit Hillel and asks only “the value of the beam”: fasts corresponding to what he damaged, while God Himself breaks down the structure and frees the sparks. Hillel is kindness, the right hand, and Shammai strength, the left; this is why the ruling is specifically the enactment of those who return."
+      },
+      "he": {
+        "discuss": "מדוע רבא מסיק שאין צריך דעתה של האישה בגט?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "הבן יהוידע שואל מדוע בית הלל אומרים ״משום תקנת השבין״ ולא ״מפני תיקון העולם״. כאשר אדם חוטא, הסטרא אחרא לוקחת חלק קדושה מנפשו ובונה עליו בנין גדול. עם הקליפות הקדוש ברוך הוא מתנהג כבית שמאי, לקעקע כל הבירה כדי ליטול את ניצוץ הקדושה; אבל עם השב בתשובה הוא מתנהג כבית הלל, ואינו מבקש ממנו אלא ״דמי מריש״: תעניות כנגד מה שפגם, והקדוש ברוך הוא עצמו מקעקע את בירת הקליפה ומוציא את הניצוצות. הלל הוא חסד, הימין, ושמאי גבורה, השמאל; ולכן ההלכה היא דווקא תקנתם של השבים."
+      },
+      "revision": "12634a77cfbb4676fd648e217c0c9fe33674b58b1102fe8dab9bf1b907420b48",
+      "sources": [
+        {
+          "en": "Gittin 55a",
+          "he": "גיטין נ״ה א",
+          "url": "https://www.sefaria.org/Gittin_55a"
+        },
+        {
+          "en": "Gittin 55b",
+          "he": "גיטין נ״ה ב",
+          "url": "https://www.sefaria.org/Gittin_55b"
+        }
+      ]
+    },
+    "cycle-15-gittin-56": {
+      "en": {
+        "discuss": "Why does the Gemara hold the silent Rabbis partly responsible for Bar Kamtza’s revenge?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada reads the details of the story as signs from Heaven. Bar Kamtza assumed the Sages saw and approved, though they did not see him take the man by the hand. The Caesar sent a calf, recalling that every reckoning carries part of the sin of the golden calf, and the blemish fell on the lips, pointing to evil speech, the sin of the Second Temple, which weighs like the three gravest sins and therefore brought three years of siege and hunger. Rabbi Zekharya’s “humility” was that he would not decide by his own view but sent the matter to the Sanhedrin, and meanwhile the calf left the Temple court and the chance was lost. Nero’s arrows fell on Jerusalem against nature; because he honored a verse and withdrew from destroying the light of the world, Rabbi Meir, who “lit up” the eyes of the Sages, came from him. Rabbi Tzadok fasted forty years, a year for each day of the journey across the Land, as with the spies."
+      },
+      "he": {
+        "discuss": "מדוע הגמרא מטילה על החכמים ששתקו אחריות חלקית לנקמת בר קמצא?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "הבן יהוידע קורא את פרטי המעשה כסימנים מן השמים. בר קמצא סבר שהחכמים ראו והסכימו, אף שלא ראו שנטלו בידו והוציאו. הקיסר שלח עגל, לרמוז ש״אין לך כל פקידה שאין בה מעון העגל״, והמום נפל בניב שפתים, רמז ללשון הרע, חטא הבית השני, השקול כנגד שלוש עבירות חמורות, ולכן צר עליה שלוש שנים ברעב. ענוותנותו של רבי זכריה הייתה שלא רצה להורות על פי סברתו אלא על פי הסנהדרין, ובינתיים יצא העגל מן העזרה ואבדה ההזדמנות. חיצי נירון נפלו בירושלים שלא כדרך הטבע; ומשום שכיבד פסוק של תורה וחדל מלהחריב את אורו של עולם, יצא ממנו רבי מאיר, שהאיר עיני חכמים. רבי צדוק ישב ארבעים שנה בתענית, יום לשנה כנגד מהלך ארבעים יום של ארץ ישראל, כבמרגלים."
+      },
+      "revision": "0b80822d07ef94ca4cb9393541263c74b1841e68b538ab13b2b69875bba63a05",
+      "sources": [
+        {
+          "en": "Gittin 56a",
+          "he": "גיטין נ״ו א",
+          "url": "https://www.sefaria.org/Gittin_56a"
+        },
+        {
+          "en": "Gittin 56b",
+          "he": "גיטין נ״ו ב",
+          "url": "https://www.sefaria.org/Gittin_56b"
+        }
+      ]
+    },
+    "cycle-15-gittin-57": {
+      "en": {
+        "discuss": "What does Onkelos learn from the three figures he summons?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada notes that the great destructions all came from slight causes: Kamtza and Bar Kamtza, a rooster and hen, a litter’s pole; Heaven turned trivial events into the instruments of a decree. The price of forty se’ahs for a dinar recalled the Torah given in forty days, and the loss of a single se’ah hinted that one sin was to be sought out. The custom of leading a rooster and hen before the couple is the root of the Baghdad custom; they chose living creatures, not fish, which die out of water. The valley’s streams, two parts water and one blood, were like wine mixed with two parts water, a sign that it was the blood of Torah scholars; and the dew of lights, טל, became “dung,” זבל, of equal value, when the vineyards were fed with blood."
+      },
+      "he": {
+        "discuss": "מה לומד אונקלוס משלוש הדמויות שהוא מעלה?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "הבן יהוידע מעיר שכל החורבנות הגדולים באו מסיבות קלות: קמצא ובר קמצא, תרנגול ותרנגולת, שקא דריספק; מן השמים גלגלו דברים קלים להיות כלי לגזירה. השער של ארבעים סאה בדינר רמז לתורה שניתנה בארבעים יום, והחיסרון של סאה אחת רמז שיחפשו עון אחד בלבד. מנהג להוליך תרנגול ותרנגולת לפני החתן והכלה הוא שורש מנהג עירו בגדאד; בחרו בבריות חיות ולא בדגים, שמתים כשיוצאים מן המים. הנחלים שבבקעת ידים, שני חלקים מים ואחד דם, כיין המזוג בשני חלקים מים, להורות שזה דמם של בעלי תורה; וה״טל״ של אורות נהפך ל״זבל״, השווה לו במספר, כשבצרו את הכרמים מדמם של ישראל."
+      },
+      "revision": "63fe261d7aa87871ee9cbc538ec84a70be54860de60195a77874be2c03f08b0d",
+      "sources": [
+        {
+          "en": "Gittin 57a",
+          "he": "גיטין נ״ז א",
+          "url": "https://www.sefaria.org/Gittin_57a"
+        },
+        {
+          "en": "Gittin 57b",
+          "he": "גיטין נ״ז ב",
+          "url": "https://www.sefaria.org/Gittin_57b"
+        }
+      ]
+    },
+    "cycle-15-gittin-58": {
+      "en": {
+        "discuss": "How does Rabbi Yehoshua recognize a future teacher in the captive boy?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada reads the measures of Beitar as measure for measure: forty se’ahs of tefillin corresponded to the Tablets, which weighed forty se’ahs, for they had slighted the honor of the Torah. The four hundred synagogues, each with four hundred teachers and four hundred children, were built to nullify Esau’s four hundred men, the forces of the other side. Rabbi Yehoshua was sure the child would be a teacher in Israel because, by completing the verse “is it not the Lord, against whom we sinned,” he accepted his suffering as atonement and justified the judgment. Tzafnat’s cry “if You had no pity on us, why not on the holiness of Your mighty Name” refers to the Name through which miracles are done, beyond nature. Ben Yehoyada on Gittin 58a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד מזהה רבי יהושע מורה עתידי בתינוק השבוי?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "הבן יהוידע קורא את מידות ביתר כמידה כנגד מידה: ארבעים סאה קציצי תפילין כנגד הלוחות שמשקלם ארבעים סאה, משום שזלזלו בכבוד התורה. ארבע מאות בתי הכנסת, בכל אחד ארבע מאות מלמדים ולפני כל אחד ארבע מאות תינוקות, נעשו לבטל את ״ארבע מאות איש עמו״ של עשו, כוחות הקליפה. רבי יהושע היה בטוח שהתינוק יורה הוראה בישראל משום שבהשלמת הפסוק ״הלא ה׳ זו חטאנו לו״ קיבל את יסוריו לכפרה והצדיק עליו את הדין. זעקת צפנת ״אם עלינו לא חסת, על קדושת שמך הגבור למה לא תחוס״ מכוונת לשם שעל ידו נעשים הנסים, שלמעלה מן הטבע. Ben Yehoyada on Gittin 58a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "85c88fb26bbdf3506ee31a131ea6ee8b45971ad68e46bc951a19c6fcacc80a91",
+      "sources": [
+        {
+          "en": "Gittin 58a",
+          "he": "גיטין נ״ח א",
+          "url": "https://www.sefaria.org/Gittin_58a"
+        },
+        {
+          "en": "Gittin 58b",
+          "he": "גיטין נ״ח ב",
+          "url": "https://www.sefaria.org/Gittin_58b"
+        }
+      ]
+    },
+    "cycle-15-gittin-59": {
+      "en": {
+        "discuss": "Why did Rebbi’s court begin its votes from the side?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada explains why the Gemara keeps challenging with David, Solomon and Ḥizkiya after answering Saul: Samuel outlived only part of Saul’s reign by a few months, so the answer “we mean all the years” seemed to fit Saul alone; with David the years without Ira were many, and Shimi, already condemned for cursing David, might have been considered a dead man from the start. Each new challenge tested whether the same answer could hold. On the priest’s precedence, “to open first, to bless first and to take a fine portion first” are three things corresponding to the letters of כהן, each a letter without a pair in its series. Ben Yehoyada on Gittin 59a, Gittin 59b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע בית דינו של רבי התחיל את המנין מן הצד?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "הבן יהוידע מבאר מדוע הגמרא ממשיכה להקשות מדוד, משלמה ומחזקיה אחר שתירצה בשאול: שאול נשאר בלא שמואל רק שמונה חדשים, ולכן נראה שהתירוץ ״כולהו שני קאמרינן״ מתאים לו לבדו; אצל דוד השנים בלא עירא היאירי היו מרובות, ושמעי, שכבר נתחייב מיתה משעה שקילל את דוד, אפשר שנחשב כגברא קטילא מעיקרא. כל קושיה חדשה בדקה אם אותו תירוץ יכול לעמוד. בקדימת הכהן, ״לפתוח ראשון ולברך ראשון וליטול מנה יפה ראשון״ הם שלושה דברים כנגד שלוש אותיות כה״ן, שכל אחת מהן יחידה ואין לה זוג. Ben Yehoyada on Gittin 59a, Gittin 59b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "df028fc49ebed925fe0057d34dda52f8553c9b683c003f666b856e6dd89f23ce",
+      "sources": [
+        {
+          "en": "Gittin 59a",
+          "he": "גיטין נ״ט א",
+          "url": "https://www.sefaria.org/Gittin_59a"
+        },
+        {
+          "en": "Gittin 59b",
+          "he": "גיטין נ״ט ב",
+          "url": "https://www.sefaria.org/Gittin_59b"
+        }
+      ]
+    },
+    "cycle-15-gittin-6": {
+      "en": {
+        "discuss": "How does the Gemara turn “witnesses are not available” into a question about institutions, markets, and mobility?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada first questions a proof attributed to earlier commentators: Rabbeinu Simḥa doubted whether ruling lines, sirtut, must be scored with iron so that they remain, and some said the doubt is resolved here, since otherwise how did they know Rabbi Evyatar wrote without lines? Ben Yehoyada rejects the proof: the writing itself may have been visibly crooked. On the word count, he argues that Rabbi Evyatar wrote only three words, “and they gave the boy for a harlot,” and that Rabbi Yitzḥak must emend the baraita to “two may be written, three may not,” because three words can already form a complete verse, such as “May the Lord bless you and keep you.”"
+      },
+      "he": {
+        "discuss": "כיצד הגמרא הופכת את ״אין עדים מצויין״ לשאלה על מוסדות, שווקים וניידות?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע דן תחילה בראיה המיוחסת למפרשים: רבינו שמחה נסתפק אם השרטוט צריך להיות בברזל כדי שיתקיים, ויש אומרים שהספק נפשט כאן, שאם לא כן מהיכן נודע שרבי אביתר כתב בלא שרטוט? בן יהוידע דוחה את הראיה: אפשר שנודע להם מפני שראו את הכתב מעוקם. ובעניין מספר התיבות הוא טוען שרבי אביתר כתב רק שלוש תיבות, ״ויתנו הילד בזונה״, ושרבי יצחק מוכרח להגיה בברייתא ״שתים כותבין, שלוש אין כותבין״, מפני ששלוש תיבות כבר יכולות להיות פסוק שלם, כמו ״יברכך ה׳ וישמרך״."
+      },
+      "revision": "0c2a471b6689c50316ed09fc6fe6d6f0839436e884d0947810058ab337de6cd5",
+      "sources": [
+        {
+          "en": "Gittin 6a",
+          "he": "גיטין ו׳ א",
+          "url": "https://www.sefaria.org/Gittin_6a"
+        },
+        {
+          "en": "Gittin 6b",
+          "he": "גיטין ו׳ ב",
+          "url": "https://www.sefaria.org/Gittin_6b"
+        }
+      ]
+    },
+    "cycle-15-gittin-60": {
+      "en": {
+        "discuss": "Why may one not read publicly from a ḥumash, though it is complete in itself?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "On “these you may write, but you may not write halakhot,” Ben Yehoyada notes that the Oral Torah was later written down because wisdom of the heart diminished, and reads “whoever is wise will keep these”: one who is truly wise keeps the teaching of “these” and does not need to set it aside. On “the Holy One made a covenant with Israel only for the sake of the oral teachings,” he explains that the Oral Torah is called “faithfulness,” as in “I will betroth you to Me in faithfulness,” because it depends on faith in what is not explicit in the written text. So “did you deal faithfully” on the day of judgment refers to give and take in the Oral Torah, and fits the teaching that one is first judged on Torah. Ben Yehoyada on Gittin 60a, Gittin 60b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע אין קוראים בציבור מחומש, אף שהוא שלם בעצמו?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "על ״אלה אתה כותב ואי אתה כותב הלכות״ מעיר הבן יהוידע שאחר כך נכתבה תורה שבעל פה משום שנתמעטה חכמת הלב, וקורא ״מי חכם וישמר אלה״: מי שהוא חכם באמת שומר את דרשת ״אלה״ ואינו נצרך לעבור עליה. על ״לא כרת הקדוש ברוך הוא ברית עם ישראל אלא בשביל דברים שבעל פה״ הוא מבאר שתורה שבעל פה מכונה ״אמונה״, ״וארשתיך לי באמונה״, משום שהיא תלויה באמונה שאינה כתובה להדיא בתורה שבכתב. לכן ״נשאת ונתת באמונה״ ביום הדין מכוון למשא ומתן בתורה שבעל פה, ומתיישב עם ״תחילת דינו של אדם על דברי תורה״. Ben Yehoyada on Gittin 60a, Gittin 60b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "fc0bd46427c4e5a317b29f03c612160c72ab518c9bf17f2d2f3aa5ff61fab1be",
+      "sources": [
+        {
+          "en": "Gittin 60a",
+          "he": "גיטין ס׳ א",
+          "url": "https://www.sefaria.org/Gittin_60a"
+        },
+        {
+          "en": "Gittin 60b",
+          "he": "גיטין ס׳ ב",
+          "url": "https://www.sefaria.org/Gittin_60b"
+        }
+      ]
+    },
+    "cycle-15-gittin-61": {
+      "en": {
+        "discuss": "Why does Rav Ḥisda say the deaf-mute’s find is protected only by rabbinic law, and what difference does it make?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 61a or 61b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 60b and the next one is on Gittin 62a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 61a–61b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע רב חסדא אומר שמציאת חרש מוגנת רק מדבריהם, ומה נפקא מינה?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין ס״א ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין ס׳ ע״ב, והבאה היא על גיטין ס״ב ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 61a–61b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "7578a17130a2e308f270a6fb41495dfd806efb1883b715ac76a6a4ad3598f40c",
+      "sources": [
+        {
+          "en": "Gittin 61a",
+          "he": "גיטין ס״א א",
+          "url": "https://www.sefaria.org/Gittin_61a"
+        },
+        {
+          "en": "Gittin 61b",
+          "he": "גיטין ס״א ב",
+          "url": "https://www.sefaria.org/Gittin_61b"
+        }
+      ]
+    },
+    "cycle-15-gittin-62": {
+      "en": {
+        "discuss": "Why did the Rabbis allow a ḥaver to knead and press for an am ha’aretz?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada asks why Rav Huna and Rav Ḥisda did not rise for Geniva for the sake of peace, as others honored him. He suggests they meant to leave before he arrived, so their not rising would go unnoticed, or that he was riding, and one would rise out of doubt while the other said that for a man of strife we need not be stringent. Geniva called them “kings” to excuse his own dispute with Mar Ukva, since kings are accustomed to fight one another. The greeting to a king is doubled, one for the king himself and one for the public that depends on him, and so too for a Torah scholar. Ben Yehoyada on Gittin 62a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע התירו חכמים לחבר ללוש ולבדוד בשביל עם הארץ?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "הבן יהוידע שואל מדוע רב הונא ורב חסדא לא קמו מפני גניבא מפני דרכי שלום, כפי שכיבדוהו אחרים. הוא מציע שהתכוונו לקום וללכת קודם שיגיע אליהם, כך שלא ניכר הדבר, או שהיה רוכב, ואחד אמר לקום מספק, וחבירו אמר שבבעל מחלוקת אין חוששים לחומרא. גניבא קראם ״מלכים״ כדי לרמוז התנצלות על מחלוקתו עם מר עוקבא, שדרך המלכים להילחם זה בזה. שלום למלך כופלים, אחד לו עצמו ואחד לציבור התלוי בו, וכך גם לתלמיד חכם. Ben Yehoyada on Gittin 62a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "84afaa8527356bb490985d9082c5ae0608b43f71fb05fea38da40e502e881dcf",
+      "sources": [
+        {
+          "en": "Gittin 62a",
+          "he": "גיטין ס״ב א",
+          "url": "https://www.sefaria.org/Gittin_62a"
+        },
+        {
+          "en": "Gittin 62b",
+          "he": "גיטין ס״ב ב",
+          "url": "https://www.sefaria.org/Gittin_62b"
+        }
+      ]
+    },
+    "cycle-15-gittin-63": {
+      "en": {
+        "discuss": "Why does the agent’s declaration “I am an agent to receive” defeat the divorce?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 63a or 63b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 62a and the next one is on Gittin 67a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 63a–63b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע הצהרת השליח ״שליח לקבלה הוינא״ מבטלת את הגירושין?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין ס״ג ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין ס״ב ע״א, והבאה היא על גיטין ס״ז ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 63a–63b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "50b342c7bd7aca625a500e1161e4abb70a816c5b312c4f48cdd117e0774ac1c9",
+      "sources": [
+        {
+          "en": "Gittin 63a",
+          "he": "גיטין ס״ג א",
+          "url": "https://www.sefaria.org/Gittin_63a"
+        },
+        {
+          "en": "Gittin 63b",
+          "he": "גיטין ס״ג ב",
+          "url": "https://www.sefaria.org/Gittin_63b"
+        }
+      ]
+    },
+    "cycle-15-gittin-64": {
+      "en": {
+        "discuss": "Why does Rav Huna believe the husband who says the get was a deposit?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 64a or 64b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 62a and the next one is on Gittin 67a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 64a–64b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע רב הונא מאמין לבעל האומר שהגט היה פיקדון?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין ס״ד ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין ס״ב ע״א, והבאה היא על גיטין ס״ז ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 64a–64b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "8b50bb5e11626ead9212e264cc42993c72400f0c37771c564f1821725519c7ac",
+      "sources": [
+        {
+          "en": "Gittin 64a",
+          "he": "גיטין ס״ד א",
+          "url": "https://www.sefaria.org/Gittin_64a"
+        },
+        {
+          "en": "Gittin 64b",
+          "he": "גיטין ס״ד ב",
+          "url": "https://www.sefaria.org/Gittin_64b"
+        }
+      ]
+    },
+    "cycle-15-gittin-7": {
+      "en": {
+        "discuss": "How do the teachings about fear in the home and about Mar Ukva treat the power of speech?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada reads Mar Ukva’s correspondence closely. The first question, whether he may hand his tormentors to the government, was sent in writing because it was sensitive, and Rabbi Elazar answered in writing with a verse of restraint; the second, a complaint that they trouble him greatly, was sent orally, and Rabbi Elazar answered orally. That is why the Gemara stresses that “the word went out from the mouth of Rabbi Elazar”: a spoken word had effect. He explains “rise early and stay late against them” as learning under strain, which earns reward even in this world, and “they will perish by themselves” as a way of ensuring that no one is punished through Mar Ukva himself. He also calls ever min ha-ḥai a “great thing” because, following earlier authorities, eating it violates both a negative command and the positive command of slaughter."
+      },
+      "he": {
+        "discuss": "כיצד המאמרים על אימה בבית ועל מר עוקבא מתייחסים לכוחו של הדיבור?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע מעיין בחילופי הדברים של מר עוקבא. השאלה הראשונה, אם מותר למסור את מצעריו למלכות, נשלחה במכתב מפני שהיא רגישה, ורבי אלעזר השיב במכתב בפסוק של איפוק; השנייה, ״קא מצערי לי טובא״, נשלחה בעל פה, ורבי אלעזר השיב בעל פה. לכן מדגישה הגמרא ש״הדבר יצא מפי רבי אלעזר״: הדיבור שבפה פעל. את ״השכם והערב עליהם״ הוא מפרש כלימוד מתוך הדחק, שיש עליו שכר גם בעולם הזה, ואת ״כלים מאליהן״ כדרך שלא ייענש אדם על ידי מר עוקבא עצמו. הוא גם קורא לאבר מן החי ״דבר גדול״ מפני שלפי גדולי הפוסקים יש בו לאו ועשה של שחיטה."
+      },
+      "revision": "e5fadcc32ac84a5754717ac9ebb63f0d02f53be1e2e18cfc35bf45cd556be15f",
+      "sources": [
+        {
+          "en": "Gittin 7a",
+          "he": "גיטין ז׳ א",
+          "url": "https://www.sefaria.org/Gittin_7a"
+        },
+        {
+          "en": "Gittin 7b",
+          "he": "גיטין ז׳ ב",
+          "url": "https://www.sefaria.org/Gittin_7b"
+        }
+      ]
+    },
+    "cycle-15-gittin-8": {
+      "en": {
+        "discuss": "Which of the three explanations for distinguishing a ship from a pot seems most convincing, and why?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "Ben Yehoyada, the commentary of Rabbi Yosef Ḥayyim of Baghdad (the Ben Ish Ḥai) on the Talmud, records no comment on Gittin 8a or 8b. His remarks on this tractate are selective and gather around aggadic passages and textual cruxes; the nearest earlier comment is on Gittin 7b and the next one is on Gittin 9a. The essence of this daf therefore rests on the Gemara itself. Ben Yehoyada on Gittin 8a–8b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "איזה משלושת ההסברים להבחנה בין ספינה לעציץ נראה משכנע ביותר, ומדוע?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "בן יהוידע, פירושו של רבי יוסף חיים מבגדאד (בעל הבן איש חי) על התלמוד, אינו מביא דברים על גיטין ח׳ ע״א או ע״ב. דבריו על המסכת סלקטיביים ומתרכזים סביב קטעי אגדה וקושיות בנוסח; ההערה הקרובה הקודמת היא על גיטין ז׳ ע״ב, והבאה היא על גיטין ט׳ ע״א. לכן תמצית הדף הזה נשענת על הגמרא עצמה. Ben Yehoyada on Gittin 8a–8b: no comment in the edition · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "bc40cc8167710e17f4af67e47ef2d15416c39e06d679d42fe26236d829ee39f9",
+      "sources": [
+        {
+          "en": "Gittin 8a",
+          "he": "גיטין ח׳ א",
+          "url": "https://www.sefaria.org/Gittin_8a"
+        },
+        {
+          "en": "Gittin 8b",
+          "he": "גיטין ח׳ ב",
+          "url": "https://www.sefaria.org/Gittin_8b"
+        }
+      ]
+    },
+    "cycle-15-gittin-9": {
+      "en": {
+        "discuss": "Why does the Gemara separate Rabbi Yose’s praise of Rabbi Shimon from the halakhic ruling?",
+        "question": "How does the argument develop across both sides of this daf?",
+        "reading": "On Rabbi Yose’s praise of Rabbi Shimon, “He kisses the lips who gives a right answer,” Ben Yehoyada draws on the Arizal: Moses drew his power from the “lights of the mouth,” and Rabbi Shimon bar Yoḥai was a spark of Moses’ soul. “Kissing the lips” is read as nourishment from that source, which gave Rabbi Shimon the ability to speak of supernal matters while “clothing” them, so that only those fit would understand. This, he notes, is why the Zohar says that Bar Yoḥai “knew how to guard his ways,” and why he, rather than his teachers, was permitted to write it. On Rashi’s gloss “worthy of being kissed,” he cites his son Rabbi Yaakov: one cannot kiss speech itself, so one kisses the lips, the vessel of speech. Ben Yehoyada on Gittin 9a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע הגמרא מפרידה בין שבחו של רבי יוסי לרבי שמעון לבין ההכרעה ההלכתית?",
+        "question": "כיצד מתפתח הדיון בשני עמודי הדף?",
+        "reading": "על שבחו של רבי יוסי לרבי שמעון, ״שפתים ישק משיב דברים נכוחים״, בן יהוידע נשען על דברי האר״י: משה רבנו היה יונק מאורות הפה, ורבי שמעון בר יוחאי היה ניצוץ של משה. ״שפתים ישק״ מתפרש כיניקה והזנה ממקור זה, שהעניק לרשב״י כוח לדבר בסודות עליונים ולהלביש אותם, כך שרק הראוי יבין. לכן, הוא מציין, אמר הזוהר ש״בר יוחאי ידע לאסתמרא ארחוי״, ולכן ניתנה לו ולא לרבותיו רשות לכתוב אותו. על פירוש רש״י ״ראוי לנשק״ הוא מביא את בנו רבי יעקב: אי אפשר לנשק את הדיבור עצמו, ולכן נושקים את השפתיים, כלי הדיבור. Ben Yehoyada on Gittin 9a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "cd33b1df1acf40c9037ca9f9c5097c9e404ba3e19529b63afb4457b37db404b6",
+      "sources": [
+        {
+          "en": "Gittin 9a",
+          "he": "גיטין ט׳ א",
+          "url": "https://www.sefaria.org/Gittin_9a"
+        },
+        {
+          "en": "Gittin 9b",
+          "he": "גיטין ט׳ ב",
+          "url": "https://www.sefaria.org/Gittin_9b"
         }
       ]
     }
