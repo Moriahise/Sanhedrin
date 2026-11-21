@@ -12437,5 +12437,831 @@
     "בבא קמא דף 119",
     "Bava Kamma 119 — Suspect Goods, the Soul of the Robbed, and the Craftsman's Leftovers",
     "בבא קמא קי״ט — סחורה חשודה, נפשו של הנגזל ושיירי האומן"
+  ],
+  "2031-08-03": [
+    "cycle-15-bava-metzia-2",
+    "Bava Metzia 2",
+    "בבא מציעא דף 2",
+    "Bava Metzia 2 — Two Holding a Garment: Claims, Oaths, and the Logic of Division",
+    "שניים אוחזין בטלית: טענות, שבועות והיגיון החלוקה"
+  ],
+  "2031-08-04": [
+    "cycle-15-bava-metzia-3",
+    "Bava Metzia 3",
+    "בבא מציעא דף 3",
+    "Bava Metzia 3 — An Oath of the Sages and Rabbi Ḥiyya’s Kal va-Ḥomer",
+    "שבועה של תקנת חכמים וקל וחומר של רבי חייא"
+  ],
+  "2031-08-05": [
+    "cycle-15-bava-metzia-4",
+    "Bava Metzia 4",
+    "בבא מציעא דף 4",
+    "Bava Metzia 4 — The Common Denominator and the Debtor Who Says “Here It Is”",
+    "הצד השווה והלווה האומר ״הילך״"
+  ],
+  "2031-08-06": [
+    "cycle-15-bava-metzia-5",
+    "Bava Metzia 5",
+    "בבא מציעא דף 5",
+    "Bava Metzia 5 — Suspected About Money, Trusted With an Oath?",
+    "חשוד על הממון ונאמן בשבועה?"
+  ],
+  "2031-08-07": [
+    "cycle-15-bava-metzia-6",
+    "Bava Metzia 6",
+    "בבא מציעא דף 6",
+    "Bava Metzia 6 — Seizing Before the Court and Consecrating What Is in Doubt",
+    "תקפה אחד בפנינו והקדש ספק"
+  ],
+  "2031-08-08": [
+    "cycle-15-bava-metzia-7",
+    "Bava Metzia 7",
+    "בבא מציעא דף 7",
+    "Bava Metzia 7 — What the Hand Reaches and What the Document Proves",
+    "עד מקום שידו מגעת ומה שהשטר מוכיח"
+  ],
+  "2031-08-09": [
+    "cycle-15-bava-metzia-8",
+    "Bava Metzia 8",
+    "בבא מציעא דף 8",
+    "Bava Metzia 8 — Lifting for Another, and the Rider Versus the Leader",
+    "המגביה מציאה לחבירו, והרוכב מול המנהיג"
+  ],
+  "2031-08-10": [
+    "cycle-15-bava-metzia-9",
+    "Bava Metzia 9",
+    "בבא מציעא דף 9",
+    "Bava Metzia 9 — The Way People Acquire, and a Courtyard That Walks",
+    "כדרך שבני אדם קונין, וחצר מהלכת"
+  ],
+  "2031-08-11": [
+    "cycle-15-bava-metzia-10",
+    "Bava Metzia 10",
+    "בבא מציעא דף 10",
+    "Bava Metzia 10 — Four Cubits, a Courtyard, and the Hand of the Worker",
+    "ארבע אמות, חצר, ויד הפועל"
+  ],
+  "2031-08-12": [
+    "cycle-15-bava-metzia-11",
+    "Bava Metzia 11",
+    "בבא מציעא דף 11",
+    "Bava Metzia 11 — A Field That Is Guarded, and a Gift Given on a Ship",
+    "חצר המשתמרת, ומתנה שניתנה בספינה"
+  ],
+  "2031-08-13": [
+    "cycle-15-bava-metzia-12",
+    "Bava Metzia 12",
+    "בבא מציעא דף 12",
+    "Bava Metzia 12 — Whose Find Is It? Children, Servants, Wives, and Lost Documents",
+    "של מי המציאה? בנים, עבדים, אשה ושטרות אבודים"
+  ],
+  "2031-08-14": [
+    "cycle-15-bava-metzia-13",
+    "Bava Metzia 13",
+    "בבא מציעא דף 13",
+    "Bava Metzia 13 — A Document Written Before the Loan: Payment, Collusion, and Liens",
+    "שטר שנכתב לפני ההלוואה: פירעון, קנוניא ושעבוד"
+  ],
+  "2031-08-15": [
+    "cycle-15-bava-metzia-14",
+    "Bava Metzia 14",
+    "בבא מציעא דף 14",
+    "Bava Metzia 14 — Guarantees, Improvements, and the Buyer Whose Field Is Taken",
+    "אחריות, שבח, והלוקח ששדהו נטרפת"
+  ],
+  "2031-08-16": [
+    "cycle-15-bava-metzia-15",
+    "Bava Metzia 15",
+    "בבא מציעא דף 15",
+    "Bava Metzia 15 — The Creditor’s Reach and the Buyer Who Knew",
+    "ידו של בעל החוב והלוקח שידע"
+  ],
+  "2031-08-17": [
+    "cycle-15-bava-metzia-16",
+    "Bava Metzia 16",
+    "בבא מציעא דף 16",
+    "Bava Metzia 16 — Selling What You Do Not Yet Own, and Documents of the Court",
+    "מכירת מה שעדיין אינו שלך, ושטרי בית דין"
+  ],
+  "2031-08-18": [
+    "cycle-15-bava-metzia-17",
+    "Bava Metzia 17",
+    "בבא מציעא דף 17",
+    "Bava Metzia 17 — The Proven Denier and the Pearl Under the Shard",
+    "המוחזק כפרן והמרגלית שתחת החרס"
+  ],
+  "2031-08-19": [
+    "cycle-15-bava-metzia-18",
+    "Bava Metzia 18",
+    "בבא מציעא דף 18",
+    "Bava Metzia 18 — A Lost Get: Caravans, Two Men of the Same Name, and Identifying Marks",
+    "גט שאבד: שיירות, שני יוסף בן שמעון, וסימנים"
+  ],
+  "2031-08-20": [
+    "cycle-15-bava-metzia-19",
+    "Bava Metzia 19",
+    "בבא מציעא דף 19",
+    "Bava Metzia 19 — Found Gittin, Manumissions, and Gifts That Can Be Revoked",
+    "גיטין, שחרורים ומתנות שאפשר לחזור מהן"
+  ],
+  "2031-08-21": [
+    "cycle-15-bava-metzia-20",
+    "Bava Metzia 20",
+    "בבא מציעא דף 20",
+    "Bava Metzia 20 — Bundles of Documents, a Split Cedar, and a Receipt in the Lender’s Hand",
+    "צרורות שטרות, ארז שנבקע, ושובר ביד המלווה"
+  ],
+  "2031-08-22": [
+    "cycle-15-bava-metzia-21",
+    "Bava Metzia 21",
+    "בבא מציעא דף 21",
+    "Bava Metzia 21 — Finds That Belong to the Finder, and Despair Without Knowledge",
+    "מציאות שהן של המוצא, ויאוש שלא מדעת"
+  ],
+  "2031-08-23": [
+    "cycle-15-bava-metzia-22",
+    "Bava Metzia 22",
+    "בבא מציעא דף 22",
+    "Bava Metzia 22 — The Law Follows Abaye: Despair, Consent, and Wind-Blown Dates",
+    "הלכה כאביי: יאוש, רצון ותמרים שהפיל הרוח"
+  ],
+  "2031-08-24": [
+    "cycle-15-bava-metzia-23",
+    "Bava Metzia 23",
+    "בבא מציעא דף 23",
+    "Bava Metzia 23 — Marks That Will Be Trampled, Food on the Road, and Three Things Scholars Say Differently",
+    "סימן העשוי לידרס, אוכלין בדרך, ושלושה דברים שחכמים משנים בהם"
+  ],
+  "2031-08-25": [
+    "cycle-15-bava-metzia-24",
+    "Bava Metzia 24",
+    "בבא מציעא דף 24",
+    "Bava Metzia 24 — A Silver Cup, a Majority of Gentiles, and Beyond the Letter of the Law",
+    "כוס של כסף, רוב נכרים, ולפנים משורת הדין"
+  ],
+  "2031-08-26": [
+    "cycle-15-bava-metzia-25",
+    "Bava Metzia 25",
+    "בבא מציעא דף 25",
+    "Bava Metzia 25 — Towers of Coins, Hidden Birds, and Objects in a Wall",
+    "מגדלי מטבעות, גוזלות מוצנעים וחפצים בכותל"
+  ],
+  "2031-08-27": [
+    "cycle-15-bava-metzia-26",
+    "Bava Metzia 26",
+    "בבא מציעא דף 26",
+    "Bava Metzia 26 — Who Lost It? Tenants, Two or Three Passers-By, and the Money Changer’s Table",
+    "מי איבד? שוכרים, שניים או שלושה עוברים, ושולחנו של השולחני"
+  ],
+  "2031-08-28": [
+    "cycle-15-bava-metzia-27",
+    "Bava Metzia 27",
+    "בבא מציעא דף 27",
+    "Bava Metzia 27 — The Garment as a Model, a Peruta’s Worth, and Whether Signs Are Biblical",
+    "השמלה כדגם, שווה פרוטה, ושאלת סימנים דאורייתא"
+  ],
+  "2031-08-29": [
+    "cycle-15-bava-metzia-28",
+    "Bava Metzia 28",
+    "בבא מציעא דף 28",
+    "Bava Metzia 28 — Ranking Signs, Announcing at the Festivals, and the Stone of Claims",
+    "דירוג סימנים, הכרזה ברגלים ואבן הטוען"
+  ],
+  "2031-08-30": [
+    "cycle-15-bava-metzia-29",
+    "Bava Metzia 29",
+    "בבא מציעא דף 29",
+    "Bava Metzia 29 — Using the Money, Reading the Books, and Shaking the Garment",
+    "שימוש במעות, קריאה בספרים וניעור הכסות"
+  ],
+  "2031-08-31": [
+    "cycle-15-bava-metzia-30",
+    "Bava Metzia 30",
+    "בבא מציעא דף 30",
+    "Bava Metzia 30 — When One May Ignore, and Going Beyond the Letter of the Law",
+    "מתי מותר להתעלם, ולפנים משורת הדין"
+  ],
+  "2031-09-01": [
+    "cycle-15-bava-metzia-31",
+    "Bava Metzia 31",
+    "בבא מציעא דף 31",
+    "Bava Metzia 31 — “Return, You Shall Return”: The Doubled Verbs of the Torah",
+    "״השב תשיבם״: הפעלים הכפולים שבתורה"
+  ],
+  "2031-09-02": [
+    "cycle-15-bava-metzia-32",
+    "Bava Metzia 32",
+    "בבא מציעא דף 32",
+    "Bava Metzia 32 — Unloading, Loading, and the Suffering of Animals",
+    "פריקה, טעינה וצער בעלי חיים"
+  ],
+  "2031-09-03": [
+    "cycle-15-bava-metzia-33",
+    "Bava Metzia 33",
+    "בבא מציעא דף 33",
+    "Bava Metzia 33 — His Own, His Father’s, His Teacher’s: Priorities in Returning",
+    "שלו, של אביו ושל רבו: סדרי עדיפויות בהשבה"
+  ],
+  "2031-09-04": [
+    "cycle-15-bava-metzia-34",
+    "Bava Metzia 34",
+    "בבא מציעא דף 34",
+    "Bava Metzia 34 — Transferring the Double Payment, and the Oath That It Is Not in His Hands",
+    "הקניית הכפל, ושבועה שאינה ברשותו"
+  ],
+  "2031-09-05": [
+    "cycle-15-bava-metzia-35",
+    "Bava Metzia 35",
+    "בבא מציעא דף 35",
+    "Bava Metzia 35 — The Lender’s Oath, Lost Cloaks, and an Appraisal That Returns",
+    "שבועת המלווה, הכיפין שאבדו ושומא שחוזרת"
+  ],
+  "2031-09-06": [
+    "cycle-15-bava-metzia-36",
+    "Bava Metzia 36",
+    "בבא מציעא דף 36",
+    "Bava Metzia 36 — A Guardian Who Hands Over to a Guardian, and Negligence Ending in Accident",
+    "שומר שמסר לשומר, ותחילתו בפשיעה וסופו באונס"
+  ],
+  "2031-09-07": [
+    "cycle-15-bava-metzia-37",
+    "Bava Metzia 37",
+    "בבא מציעא דף 37",
+    "Bava Metzia 37 — “I Stole From One of You”: Doubt, Fines, and Leaving It Until Elijah",
+    "״גזלתי לאחד מכם״: ספק, קנס, ויהא מונח עד שיבוא אליהו"
+  ],
+  "2031-09-08": [
+    "cycle-15-bava-metzia-38",
+    "Bava Metzia 38",
+    "בבא מציעא דף 38",
+    "Bava Metzia 38 — Produce That Is Spoiling, and the Property of a Captive",
+    "פירות המתקלקלים ונכסי שבוי"
+  ],
+  "2031-09-09": [
+    "cycle-15-bava-metzia-39",
+    "Bava Metzia 39",
+    "בבא מציעא דף 39",
+    "Bava Metzia 39 — Guarding the Absent and the Young: Captives, Fugitives, and Minors",
+    "שמירה על הנעדר והקטן: שבויים, בורחים וקטנים"
+  ],
+  "2031-09-10": [
+    "cycle-15-bava-metzia-40",
+    "Bava Metzia 40",
+    "בבא מציעא דף 40",
+    "Bava Metzia 40 — Expected Shrinkage: Grain, Wine, Oil, and the Guardian’s Allowance",
+    "חסרונות צפויים: תבואה, יין, שמן וקצבת השומר"
+  ],
+  "2031-09-11": [
+    "cycle-15-bava-metzia-41",
+    "Bava Metzia 41",
+    "בבא מציעא דף 41",
+    "Bava Metzia 41 — Misappropriation Without Loss: The Jug, the Shepherd’s Staff, and Two Verses",
+    "שליחות יד בלא חסרון: החבית, מקל הרועה ושני פסוקים"
+  ],
+  "2031-09-12": [
+    "cycle-15-bava-metzia-42",
+    "Bava Metzia 42",
+    "בבא מציעא דף 42",
+    "Bava Metzia 42 — Guarding Money, and the Blessing Hidden From the Eye",
+    "שמירת כספים, וברכה הסמויה מן העין"
+  ],
+  "2031-09-13": [
+    "cycle-15-bava-metzia-43",
+    "Bava Metzia 43",
+    "בבא מציעא דף 43",
+    "Bava Metzia 43 — Using a Deposit, and the Value of What Was Taken",
+    "שימוש בפיקדון, ושווי מה שנלקח"
+  ],
+  "2031-09-14": [
+    "cycle-15-bava-metzia-44",
+    "Bava Metzia 44",
+    "בבא מציעא דף 44",
+    "Bava Metzia 44 — Intent and Act, and Which Coin Is Money",
+    "מחשבה ומעשה, ואיזו מטבע היא כסף"
+  ],
+  "2031-09-15": [
+    "cycle-15-bava-metzia-45",
+    "Bava Metzia 45",
+    "בבא מציעא דף 45",
+    "Bava Metzia 45 — Gold, Second Tithe, and Coins as Exchange",
+    "זהב, מעשר שני, ומטבע בחליפין"
+  ],
+  "2031-09-16": [
+    "cycle-15-bava-metzia-46",
+    "Bava Metzia 46",
+    "בבא מציעא דף 46",
+    "Bava Metzia 46 — Coins Cannot Be Acquired by Ḥalipin",
+    "אין מטבע נקנה בחליפין"
+  ],
+  "2031-09-17": [
+    "cycle-15-bava-metzia-47",
+    "Bava Metzia 47",
+    "בבא מציעא דף 47",
+    "Bava Metzia 47 — The Shoe of Boaz, and Whether Money Acquires",
+    "נעלו של בועז, והאם מעות קונות"
+  ],
+  "2031-09-18": [
+    "cycle-15-bava-metzia-48",
+    "Bava Metzia 48",
+    "בבא מציעא דף 48",
+    "Bava Metzia 48 — The Curse of “He Who Exacted Payment,” and the Down Payment",
+    "קללת ״מי שפרע״, ודין הערבון"
+  ],
+  "2031-09-19": [
+    "cycle-15-bava-metzia-49",
+    "Bava Metzia 49",
+    "בבא מציעא דף 49",
+    "Bava Metzia 49 — “Let Your Yes Be Righteous,” and the Measure of Overcharge",
+    "״שיהא הן שלך צדק״, ושיעור האונאה"
+  ],
+  "2031-09-20": [
+    "cycle-15-bava-metzia-50",
+    "Bava Metzia 50",
+    "בבא מציעא דף 50",
+    "Bava Metzia 50 — Less Than a Sixth, a Sixth, More Than a Sixth",
+    "פחות משתות, שתות, יתר על שתות"
+  ],
+  "2031-09-21": [
+    "cycle-15-bava-metzia-51",
+    "Bava Metzia 51",
+    "בבא מציעא דף 51",
+    "Bava Metzia 51 — Who Is Protected by Ona’ah, and Waiving It",
+    "מי מוגן באונאה, ומחילה עליה"
+  ],
+  "2031-09-22": [
+    "cycle-15-bava-metzia-52",
+    "Bava Metzia 52",
+    "בבא מציעא דף 52",
+    "Bava Metzia 52 — The Worn Coin and the “Bad Soul”",
+    "הסלע החסירה ו״נפש רעה״"
+  ],
+  "2031-09-23": [
+    "cycle-15-bava-metzia-53",
+    "Bava Metzia 53",
+    "בבא מציעא דף 53",
+    "Bava Metzia 53 — Second Tithe Worth Less Than a Peruta",
+    "מעשר שני שאין בו שוה פרוטה"
+  ],
+  "2031-09-24": [
+    "cycle-15-bava-metzia-54",
+    "Bava Metzia 54",
+    "בבא מציעא דף 54",
+    "Bava Metzia 54 — The Added Fifth: How It Is Counted and What It Is",
+    "החומש: כיצד מחשבים אותו ומהו"
+  ],
+  "2031-09-25": [
+    "cycle-15-bava-metzia-55",
+    "Bava Metzia 55",
+    "בבא מציעא דף 55",
+    "Bava Metzia 55 — Five Perutot and Five Fifths",
+    "חמש פרוטות וחמשה חומשין"
+  ],
+  "2031-09-26": [
+    "cycle-15-bava-metzia-56",
+    "Bava Metzia 56",
+    "בבא מציעא דף 56",
+    "Bava Metzia 56 — Things Without Ona’ah: Slaves, Documents, Land, and the Sacred",
+    "דברים שאין להם אונאה: עבדים, שטרות, קרקעות והקדשות"
+  ],
+  "2031-09-27": [
+    "cycle-15-bava-metzia-57",
+    "Bava Metzia 57",
+    "בבא מציעא דף 57",
+    "Bava Metzia 57 — Voiding the Sale of the Sacred, and Interest on Temple Property",
+    "ביטול מקח בהקדש, ורבית להקדש"
+  ],
+  "2031-09-28": [
+    "cycle-15-bava-metzia-58",
+    "Bava Metzia 58",
+    "בבא מציעא דף 58",
+    "Bava Metzia 58 — Wronging With Words",
+    "אונאת דברים"
+  ],
+  "2031-09-29": [
+    "cycle-15-bava-metzia-59",
+    "Bava Metzia 59",
+    "בבא מציעא דף 59",
+    "Bava Metzia 59 — The Oven of Akhnai and the Gates of Ona’ah",
+    "תנור של עכנאי ושערי אונאה"
+  ],
+  "2031-09-30": [
+    "cycle-15-bava-metzia-60",
+    "Bava Metzia 60",
+    "בבא מציעא דף 60",
+    "Bava Metzia 60 — Mixing, Adorning, and the Opening of Interest",
+    "ערבוב, פרכוס ופתיחת דיני רבית"
+  ],
+  "2031-10-01": [
+    "cycle-15-bava-metzia-61",
+    "Bava Metzia 61",
+    "בבא מציעא דף 61",
+    "Bava Metzia 61 — Interest, Theft, False Weights, and the Exodus",
+    "רבית, גזל, משקלות ויציאת מצרים"
+  ],
+  "2031-10-02": [
+    "cycle-15-bava-metzia-62",
+    "Bava Metzia 62",
+    "בבא מציעא דף 62",
+    "Bava Metzia 62 — “Your Brother Shall Live With You,” and Returning Interest",
+    "״וחי אחיך עמך״, והחזרת רבית"
+  ],
+  "2031-10-03": [
+    "cycle-15-bava-metzia-63",
+    "Bava Metzia 63",
+    "בבא מציעא דף 63",
+    "Bava Metzia 63 — Paying in Advance, and the Wage for Waiting",
+    "פסיקה על הפירות, ואגר נטר"
+  ],
+  "2031-10-04": [
+    "cycle-15-bava-metzia-64",
+    "Bava Metzia 64",
+    "בבא מציעא דף 64",
+    "Bava Metzia 64 — Growing Produce, Living in the Borrower’s Yard",
+    "פירות הגדלים, ודירה בחצר הלווה"
+  ],
+  "2031-10-05": [
+    "cycle-15-bava-metzia-65",
+    "Bava Metzia 65",
+    "בבא מציעא דף 65",
+    "Bava Metzia 65 — Rent Versus Sale, and Selling on Credit",
+    "מרבין על השכר, וטרשא"
+  ],
+  "2031-10-06": [
+    "cycle-15-bava-metzia-66",
+    "Bava Metzia 66",
+    "בבא מציעא דף 66",
+    "Bava Metzia 66 — Mere Words and Asmakhta",
+    "פטומי מילי ואסמכתא"
+  ],
+  "2031-10-07": [
+    "cycle-15-bava-metzia-67",
+    "Bava Metzia 67",
+    "בבא מציעא דף 67",
+    "Bava Metzia 67 — The Mortgage and Its Fruits",
+    "משכנתא ופירותיה"
+  ],
+  "2031-10-08": [
+    "cycle-15-bava-metzia-68",
+    "Bava Metzia 68",
+    "בבא מציעא דף 68",
+    "Bava Metzia 68 — Investment Partnerships and the Idle Worker’s Wage",
+    "עיסקא ושכר כפועל בטל"
+  ],
+  "2031-10-09": [
+    "cycle-15-bava-metzia-69",
+    "Bava Metzia 69",
+    "בבא מציעא דף 69",
+    "Bava Metzia 69 — Partners, Herdsmen, and Rent for Money",
+    "שותפים, מגדלי בהמות, ושכירות מעות"
+  ],
+  "2031-10-10": [
+    "cycle-15-bava-metzia-70",
+    "Bava Metzia 70",
+    "בבא מציעא דף 70",
+    "Bava Metzia 70 — Orphans’ Money and Iron Flock",
+    "מעות של יתומים וצאן ברזל"
+  ],
+  "2031-10-11": [
+    "cycle-15-bava-metzia-71",
+    "Bava Metzia 71",
+    "בבא מציעא דף 71",
+    "Bava Metzia 71 — The Blindness of Lenders at Interest",
+    "סמיות עיניהם של מלוי ברבית"
+  ],
+  "2031-10-12": [
+    "cycle-15-bava-metzia-72",
+    "Bava Metzia 72",
+    "בבא מציעא דף 72",
+    "Bava Metzia 72 — The Penalized Document and the Market Price",
+    "שטר שכתוב בו רבית, ופסיקה על השער"
+  ],
+  "2031-10-13": [
+    "cycle-15-bava-metzia-73",
+    "Bava Metzia 73",
+    "בבא מציעא דף 73",
+    "Bava Metzia 73 — Transported Goods, Vineyards, and the Sages’ Dealings",
+    "פירות המובלים, פרדסים ועסקי החכמים"
+  ],
+  "2031-10-14": [
+    "cycle-15-bava-metzia-74",
+    "Bava Metzia 74",
+    "בבא מציעא דף 74",
+    "Bava Metzia 74 — Sitomta and the Missing Steps",
+    "סיטומתא ושלבים חסרים"
+  ],
+  "2031-10-15": [
+    "cycle-15-bava-metzia-75",
+    "Bava Metzia 75",
+    "בבא מציעא דף 75",
+    "Bava Metzia 75 — Hillel’s Stringency and Interest in Words",
+    "חומרת הלל ורבית דברים"
+  ],
+  "2031-10-16": [
+    "cycle-15-bava-metzia-76",
+    "Bava Metzia 76",
+    "בבא מציעא דף 76",
+    "Bava Metzia 76 — Hiring Workers and Retracting",
+    "השוכר את הפועלים וחזרו בהן"
+  ],
+  "2031-10-17": [
+    "cycle-15-bava-metzia-77",
+    "Bava Metzia 77",
+    "בבא מציעא דף 77",
+    "Bava Metzia 77 — The Worker’s Upper Hand and Rabbi Dosa",
+    "יד פועל על העליונה ורבי דוסא"
+  ],
+  "2031-10-18": [
+    "cycle-15-bava-metzia-78",
+    "Bava Metzia 78",
+    "בבא מציעא דף 78",
+    "Bava Metzia 78 — The Rented Donkey and Deviating From the Owner’s Wishes",
+    "השוכר את החמור והמעביר על דעת בעל הבית"
+  ],
+  "2031-10-19": [
+    "cycle-15-bava-metzia-79",
+    "Bava Metzia 79",
+    "בבא מציעא דף 79",
+    "Bava Metzia 79 — The Donkey That Died Midway and the Sunken Ship",
+    "החמור שמתה בחצי הדרך והספינה שטבעה"
+  ],
+  "2031-10-20": [
+    "cycle-15-bava-metzia-80",
+    "Bava Metzia 80",
+    "בבא מציעא דף 80",
+    "Bava Metzia 80 — Overloading, Hidden Faults, and Craftsmen as Guardians",
+    "תוספת משא, מום שסנפו, ואומנים כשומרים"
+  ],
+  "2031-10-21": [
+    "cycle-15-bava-metzia-81",
+    "Bava Metzia 81",
+    "בבא מציעא דף 81",
+    "Bava Metzia 81 — Guarding With the Owner and “Put It Down Before Me”",
+    "שמירה בבעלים ו״הנח לפני״"
+  ],
+  "2031-10-22": [
+    "cycle-15-bava-metzia-82",
+    "Bava Metzia 82",
+    "בבא מציעא דף 82",
+    "Bava Metzia 82 — The Pledge, the Lost Item, and the Broken Barrel",
+    "המשכון, שומר אבידה והחבית שנשברה"
+  ],
+  "2031-10-23": [
+    "cycle-15-bava-metzia-83",
+    "Bava Metzia 83",
+    "בבא מציעא דף 83",
+    "Bava Metzia 83 — “That You May Walk in the Way of the Good”",
+    "״למען תלך בדרך טובים״"
+  ],
+  "2031-10-24": [
+    "cycle-15-bava-metzia-84",
+    "Bava Metzia 84",
+    "בבא מציעא דף 84",
+    "Bava Metzia 84 — Rabbi Yoḥanan and Reish Lakish, and the Suffering of Rabbi Elazar",
+    "רבי יוחנן וריש לקיש, ויסורי רבי אלעזר"
+  ],
+  "2031-10-25": [
+    "cycle-15-bava-metzia-85",
+    "Bava Metzia 85",
+    "בבא מציעא דף 85",
+    "Bava Metzia 85 — Rebbi’s Suffering and Rabbi Ḥiyya’s Deeds",
+    "יסורי רבי ומעשי רבי חייא"
+  ],
+  "2031-10-26": [
+    "cycle-15-bava-metzia-86",
+    "Bava Metzia 86",
+    "בבא מציעא דף 86",
+    "Bava Metzia 86 — Rabba bar Naḥmani and Abraham’s Hospitality",
+    "רבה בר נחמני והכנסת האורחים של אברהם"
+  ],
+  "2031-10-27": [
+    "cycle-15-bava-metzia-87",
+    "Bava Metzia 87",
+    "בבא מציעא דף 87",
+    "Bava Metzia 87 — Saying Little and Doing Much, and the Worker Who Eats",
+    "אומרים מעט ועושים הרבה, ופועל האוכל"
+  ],
+  "2031-10-28": [
+    "cycle-15-bava-metzia-88",
+    "Bava Metzia 88",
+    "בבא מציעא דף 88",
+    "Bava Metzia 88 — When Produce Becomes Obligated in Tithes, and the Muzzled Worker",
+    "קביעות למעשר, וחסימת הפועל"
+  ],
+  "2031-10-29": [
+    "cycle-15-bava-metzia-89",
+    "Bava Metzia 89",
+    "בבא מציעא דף 89",
+    "Bava Metzia 89 — “You Shall Not Muzzle an Ox While Threshing”",
+    "״לא תחסום שור בדישו״"
+  ],
+  "2031-10-30": [
+    "cycle-15-bava-metzia-90",
+    "Bava Metzia 90",
+    "בבא מציעא דף 90",
+    "Bava Metzia 90 — The Prohibition of Muzzling an Animal",
+    "איסור חסימת בהמה"
+  ],
+  "2031-10-31": [
+    "cycle-15-bava-metzia-91",
+    "Bava Metzia 91",
+    "בבא מציעא דף 91",
+    "Bava Metzia 91 — Hands and Feet, and Which Vine the Worker May Eat From",
+    "בידיו וברגליו, ומאיזו גפן אוכל הפועל"
+  ],
+  "2031-11-01": [
+    "cycle-15-bava-metzia-92",
+    "Bava Metzia 92",
+    "בבא מציעא דף 92",
+    "Bava Metzia 92 — Does the Worker Eat His Own or Heaven’s?",
+    "פועל משלו הוא אוכל או משל שמים?"
+  ],
+  "2031-11-02": [
+    "cycle-15-bava-metzia-93",
+    "Bava Metzia 93",
+    "בבא מציעא דף 93",
+    "Bava Metzia 93 — The Four Guardians and the Shepherd’s Duty",
+    "ארבעה שומרים וחובת הרועה"
+  ],
+  "2031-11-03": [
+    "cycle-15-bava-metzia-94",
+    "Bava Metzia 94",
+    "בבא מציעא דף 94",
+    "Bava Metzia 94 — Stipulations by Guardians and “When Its Owner Is With It”",
+    "תנאי השומרים ו״בעליו עמו״"
+  ],
+  "2031-11-04": [
+    "cycle-15-bava-metzia-95",
+    "Bava Metzia 95",
+    "בבא מציעא דף 95",
+    "Bava Metzia 95 — The Borrower’s Liability and Negligence with the Owner",
+    "חיובי השואל ופשיעה בבעלים"
+  ],
+  "2031-11-05": [
+    "cycle-15-bava-metzia-96",
+    "Bava Metzia 96",
+    "בבא מציעא דף 96",
+    "Bava Metzia 96 — Borrowing with the Owner: Inquiries of Rami bar Ḥama",
+    "שאלה בבעלים: בעיותיו של רמי בר חמא"
+  ],
+  "2031-11-06": [
+    "cycle-15-bava-metzia-97",
+    "Bava Metzia 97",
+    "בבא מציעא דף 97",
+    "Bava Metzia 97 — The Broken Axe, the Cat and the Mice, and “With the Owner” in Daily Life",
+    "הנרגא שנשברה, השונרא והעכברים, ו״בעליו עמו״ בחיי היום־יום"
+  ],
+  "2031-11-07": [
+    "cycle-15-bava-metzia-98",
+    "Bava Metzia 98",
+    "בבא מציעא דף 98",
+    "Bava Metzia 98 — “I Do Not Know,” Rolling Oaths and Borrowing That Interrupts Renting",
+    "״איני יודע״, גלגול שבועה ושאילה המפסיקה שכירות"
+  ],
+  "2031-11-08": [
+    "cycle-15-bava-metzia-99",
+    "Bava Metzia 99",
+    "בבא מציעא דף 99",
+    "Bava Metzia 99 — When the Borrowing Begins, and Valuing What Was Taken",
+    "מתי מתחילה השאילה, ושומת הנגזל"
+  ],
+  "2031-11-09": [
+    "cycle-15-bava-metzia-100",
+    "Bava Metzia 100",
+    "בבא מציעא דף 100",
+    "Bava Metzia 100 — The Calf Born in Doubt and Sumchus’s Division",
+    "הוולד שנולד בספק וחלוקת סומכוס"
+  ],
+  "2031-11-10": [
+    "cycle-15-bava-metzia-101",
+    "Bava Metzia 101",
+    "בבא מציעא דף 101",
+    "Bava Metzia 101 — Trees Swept Away, Planting Uninvited, and Renting a House",
+    "עצים ששטפם נהר, נוטע שלא ברשות ושכירות בית"
+  ],
+  "2031-11-11": [
+    "cycle-15-bava-metzia-102",
+    "Bava Metzia 102",
+    "בבא מציעא דף 102",
+    "Bava Metzia 102 — The Mezuzah, the Manure, and the Leap Month",
+    "המזוזה, הזבל וחודש העיבור"
+  ],
+  "2031-11-12": [
+    "cycle-15-bava-metzia-103",
+    "Bava Metzia 103",
+    "בבא מציעא דף 103",
+    "Bava Metzia 103 — Rent Claims, Lasting Loans and the Customs of Sharecropping",
+    "טענות שכירות, שאילה לעולם ומנהגי האריסות"
+  ],
+  "2031-11-13": [
+    "cycle-15-bava-metzia-104",
+    "Bava Metzia 104",
+    "בבא מציעא דף 104",
+    "Bava Metzia 104 — Expounding the Language of Ordinary People",
+    "דורש לשון הדיוט"
+  ],
+  "2031-11-14": [
+    "cycle-15-bava-metzia-105",
+    "Bava Metzia 105",
+    "בבא מציעא דף 105",
+    "Bava Metzia 105 — Weeding, a Field Worth Tending, and Measures of Four Kav",
+    "ניכוש, שדה הראויה לטיפול ושיעורי ארבעה קבין"
+  ],
+  "2031-11-15": [
+    "cycle-15-bava-metzia-106",
+    "Bava Metzia 106",
+    "בבא מציעא דף 106",
+    "Bava Metzia 106 — Regional Calamity, Miracles and the Land’s Agency",
+    "מכת מדינה, ניסים ושליחותא דארעא"
+  ],
+  "2031-11-16": [
+    "cycle-15-bava-metzia-107",
+    "Bava Metzia 107",
+    "בבא מציעא דף 107",
+    "Bava Metzia 107 — Rotating Crops, Neighbors’ Boundaries and the Blessings of Deuteronomy",
+    "מחזור גידולים, גבולות שכנים וברכות משנה תורה"
+  ],
+  "2031-11-17": [
+    "cycle-15-bava-metzia-108",
+    "Bava Metzia 108",
+    "בבא מציעא דף 108",
+    "Bava Metzia 108 — The Forest on the Riverbank and the Neighbor’s Right of Pre-emption",
+    "היער שעל גדת הנהר ודינא דבר מצרא"
+  ],
+  "2031-11-18": [
+    "cycle-15-bava-metzia-109",
+    "Bava Metzia 109",
+    "בבא מציעא דף 109",
+    "Bava Metzia 109 — The Tenant’s Improvements and the Departing Planter",
+    "שבח המקבל והשתלא המסתלק"
+  ],
+  "2031-11-19": [
+    "cycle-15-bava-metzia-110",
+    "Bava Metzia 110",
+    "בבא מציעא דף 110",
+    "Bava Metzia 110 — Disputed Terms, Orphans’ Improvements and Paying Workers on Time",
+    "תנאים שנויים במחלוקת, שבח יתומים ותשלום שכר בזמנו"
+  ],
+  "2031-11-20": [
+    "cycle-15-bava-metzia-111",
+    "Bava Metzia 111",
+    "בבא מציעא דף 111",
+    "Bava Metzia 111 — Withholding Wages: Oshek and Gezel",
+    "כובש שכר שכיר: עושק וגזל"
+  ],
+  "2031-11-21": [
+    "cycle-15-bava-metzia-112",
+    "Bava Metzia 112",
+    "בבא מציעא דף 112",
+    "Bava Metzia 112 — “He Risks His Life for It”: The Worker’s Wages and His Oath",
+    "״ואליו הוא נושא את נפשו״: שכר השכיר ושבועתו"
+  ],
+  "2031-11-22": [
+    "cycle-15-bava-metzia-113",
+    "Bava Metzia 113",
+    "בבא מציעא דף 113",
+    "Bava Metzia 113 — Taking a Pledge and “All Israel Are Children of Kings”",
+    "משכון ו״כל ישראל בני מלכים הן״"
+  ],
+  "2031-11-23": [
+    "cycle-15-bava-metzia-114",
+    "Bava Metzia 114",
+    "בבא מציעא דף 114",
+    "Bava Metzia 114 — Arranging for a Debtor, and Elijah in the Cemetery",
+    "סידור לבעל חוב, ואליהו בבית הקברות"
+  ],
+  "2031-11-24": [
+    "cycle-15-bava-metzia-115",
+    "Bava Metzia 115",
+    "בבא מציעא דף 115",
+    "Bava Metzia 115 — The Guarantor, the Widow and the Millstone",
+    "הערב, האלמנה והריחים"
+  ],
+  "2031-11-25": [
+    "cycle-15-bava-metzia-116",
+    "Bava Metzia 116",
+    "בבא מציעא דף 116",
+    "Bava Metzia 116 — The Slaughtering Knife and the Collapsed Two-Story House",
+    "סכינא דאשכבתא והבית והעלייה שנפלו"
+  ],
+  "2031-11-26": [
+    "cycle-15-bava-metzia-117",
+    "Bava Metzia 117",
+    "בבא מציעא דף 117",
+    "Bava Metzia 117 — Upper and Lower: Repairing and Rebuilding a Shared House",
+    "עליון ותחתון: תיקון ובנייה של בית משותף"
+  ],
+  "2031-11-27": [
+    "cycle-15-bava-metzia-118",
+    "Bava Metzia 118",
+    "בבא מציעא דף 118",
+    "Bava Metzia 118 — Fallen Stones, Ownerless Property and Two Gardens",
+    "אבנים שנפלו, הפקר ושתי גנות"
+  ],
+  "2031-11-28": [
+    "cycle-15-bava-metzia-119",
+    "Bava Metzia 119",
+    "בבא מציעא דף 119",
+    "Bava Metzia 119 — Root and Foliage, Rabbi Shimon’s Compromise and the Completion of Bava Metzia",
+    "עיקר ונוף, הכרעת רבי שמעון וסיום מסכת בבא מציעא"
   ]
 }
