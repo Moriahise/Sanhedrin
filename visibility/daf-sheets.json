@@ -1616,6 +1616,31 @@
         }
       ]
     },
+    "cycle-14-arakhin-7": {
+      "en": {
+        "discuss": "Why is a condemned person’s case not delayed for a sacrifice?",
+        "question": "How does the law treat one about to be executed, and what are the lowest and highest sums of a valuation?",
+        "reading": "Rav Yosef and Rabba explain the dispute of the first tanna and Rabbi Shimon ben Elazar either as whether an oral loan is collected from heirs, or as whether a debt written in the Torah is like a written document. A baraita on a pit whose owner’s heirs must pay is explained as a case where he already stood trial, or where the ox became a tereifa."
+      },
+      "he": {
+        "discuss": "מדוע אין מענין את דינו של היוצא ליהרג לשם קרבן?",
+        "question": "כיצד ההלכה נוהגת ביוצא ליהרג, ומהם הסכום הנמוך והגבוה שבערכין?",
+        "reading": "רב יוסף ורבה מסבירים את מחלוקת תנא קמא ורבי שמעון בן אלעזר, או במלוה על פה אם גובה מן היורשין, או במלוה הכתובה בתורה אם היא ככתובה בשטר. ברייתא על בור שיורשי בעליו חייבים לשלם מתבארת כשעמד בדין, או כשעשאו טריפה."
+      },
+      "revision": "07c39122d6a29bb507f75f21394336b74257babe59031202f87a3b81fd27f0b5",
+      "sources": [
+        {
+          "en": "Arakhin 7a",
+          "he": "ערכין ז׳ א",
+          "url": "https://www.sefaria.org/Arakhin_7a"
+        },
+        {
+          "en": "Arakhin 7b",
+          "he": "ערכין ז׳ ב",
+          "url": "https://www.sefaria.org/Arakhin_7b"
+        }
+      ]
+    },
     "cycle-14-bekhorot-61": {
       "en": {
         "discuss": "How do the three baraitot reflect different views on disqualified sacrifices?",
@@ -1633,6 +1658,481 @@
           "en": "Bekhorot 61a",
           "he": "בכורות ס״א א",
           "url": "https://www.sefaria.org/Bekhorot_61a"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-10": {
+      "en": {
+        "discuss": "Why does the Gemara care whether the baraita of stringencies follows Rabbi Yehuda or the Rabbis?",
+        "question": "If one person digs a pit and another deepens it, when does the final addition make the second digger liable for the entire loss?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 10. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 9b (opening words «בעי רב אשי: שליש מלגו או שליש …») and on Daf 16a (opening words «צבוע [זכר] לאחר שבע שנים נעשה עטלף»)."
+      },
+      "he": {
+        "discuss": "מדוע חשוב לגמרא אם ברייתת החומרות כרבי יהודה או כרבנן?",
+        "question": "כשאחד חופר בור ואחר מעמיק אותו, מתי התוספת האחרונה מחייבת את השני במלוא הנזק?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא י׳. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ט׳ ב (בדיבור המתחיל «בעי רב אשי: שליש מלגו או שליש …») ובדף ט״ז א (בדיבור המתחיל «צבוע [זכר] לאחר שבע שנים נעשה עטלף»)."
+      },
+      "revision": "db0c849c6aa8da8a028ae4e3f25dbabb7c458673ff3d0a45412adfc9942324a9",
+      "sources": [
+        {
+          "en": "Bava Kamma 10a",
+          "he": "בבא קמא י׳ א",
+          "url": "https://www.sefaria.org/Bava_Kamma_10a"
+        },
+        {
+          "en": "Bava Kamma 10b",
+          "he": "בבא קמא י׳ ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_10b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-11": {
+      "en": {
+        "discuss": "How does the Gemara reinterpret the dispute between the baraita and Abba Shaul so that no one holds the damager bears depreciation?",
+        "question": "If an ox dies in a pit, who must haul the carcass out, and who bears the loss if its value drops?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 11. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 9b (opening words «בעי רב אשי: שליש מלגו או שליש …») and on Daf 16a (opening words «צבוע [זכר] לאחר שבע שנים נעשה עטלף»)."
+      },
+      "he": {
+        "discuss": "כיצד הגמרא מפרשת מחדש את מחלוקת הברייתא ואבא שאול כך שאיש אינו סובר שפחת הנבלה על המזיק?",
+        "question": "כששור מת בבור, על מי מוטל להעלות את הנבלה, ומי נושא בהפסד אם פחת ערכה?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא י״א. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ט׳ ב (בדיבור המתחיל «בעי רב אשי: שליש מלגו או שליש …») ובדף ט״ז א (בדיבור המתחיל «צבוע [זכר] לאחר שבע שנים נעשה עטלף»)."
+      },
+      "revision": "4a8cb162265ca1e03931a09b2ed750a1fc9bea769b8e418cf23d6f049562aae6",
+      "sources": [
+        {
+          "en": "Bava Kamma 11a",
+          "he": "בבא קמא י״א א",
+          "url": "https://www.sefaria.org/Bava_Kamma_11a"
+        },
+        {
+          "en": "Bava Kamma 11b",
+          "he": "בבא קמא י״א ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_11b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-12": {
+      "en": {
+        "discuss": "Why did Rav Naḥman threaten the judges who collected from orphans' slaves?",
+        "question": "When a creditor seeks to collect from slaves left to heirs, what turns on treating them as land or as movable property?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 12. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 9b (opening words «בעי רב אשי: שליש מלגו או שליש …») and on Daf 16a (opening words «צבוע [זכר] לאחר שבע שנים נעשה עטלף»)."
+      },
+      "he": {
+        "discuss": "מדוע איים רב נחמן על הדיינים שגבו מעבדי היתומים?",
+        "question": "כשבעל חוב בא לגבות מעבדים שירשו היתומים, מה תלוי בשאלה אם דינם כקרקע או כמיטלטלין?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא י״ב. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ט׳ ב (בדיבור המתחיל «בעי רב אשי: שליש מלגו או שליש …») ובדף ט״ז א (בדיבור המתחיל «צבוע [זכר] לאחר שבע שנים נעשה עטלף»)."
+      },
+      "revision": "1509cc7acbbdb3dae4ceebca7206389f45b0d7e93cd8a95805b1d2c31324a228",
+      "sources": [
+        {
+          "en": "Bava Kamma 12a",
+          "he": "בבא קמא י״ב א",
+          "url": "https://www.sefaria.org/Bava_Kamma_12a"
+        },
+        {
+          "en": "Bava Kamma 12b",
+          "he": "בבא קמא י״ב ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_12b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-13": {
+      "en": {
+        "discuss": "Why does Rav Naḥman distinguish priestly gifts from lesser offerings that remain the owner's property?",
+        "question": "Whose field is a partners' courtyard for the law of Shen and Regel when one partner's animal damages the other's property?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 13. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 9b (opening words «בעי רב אשי: שליש מלגו או שליש …») and on Daf 16a (opening words «צבוע [זכר] לאחר שבע שנים נעשה עטלף»)."
+      },
+      "he": {
+        "discuss": "מדוע רב נחמן מבחין בין מתנות כהונה לבין קדשים קלים שהם ממון בעלים?",
+        "question": "לעניין שן ורגל, למי נחשבת חצר השותפים כשבהמתו של שותף אחד מזיקה לרכושו של האחר?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא י״ג. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ט׳ ב (בדיבור המתחיל «בעי רב אשי: שליש מלגו או שליש …») ובדף ט״ז א (בדיבור המתחיל «צבוע [זכר] לאחר שבע שנים נעשה עטלף»)."
+      },
+      "revision": "de2e4867747278717a136ffeff7b3ab1303a0b206914117b761ca86299f961e8",
+      "sources": [
+        {
+          "en": "Bava Kamma 13a",
+          "he": "בבא קמא י״ג א",
+          "url": "https://www.sefaria.org/Bava_Kamma_13a"
+        },
+        {
+          "en": "Bava Kamma 13b",
+          "he": "בבא קמא י״ג ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_13b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-14": {
+      "en": {
+        "discuss": "How does distinguishing between courtyards designated for produce and for oxen reconcile the baraitot?",
+        "question": "Why does it matter whether partners share the right to bring produce into a courtyard or also the right to bring oxen there?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 14. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 9b (opening words «בעי רב אשי: שליש מלגו או שליש …») and on Daf 16a (opening words «צבוע [זכר] לאחר שבע שנים נעשה עטלף»)."
+      },
+      "he": {
+        "discuss": "כיצד ההבחנה בין חצר המיוחדת לפירות לבין חצר המיוחדת לשוורים מיישבת את הברייתות?",
+        "question": "לעניין חיוב בנזק, מה ההבדל בין חצר שלשני השותפים רשות להכניס אליה פירות ובין חצר שמותר לשניהם להכניס אליה גם שוורים?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא י״ד. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ט׳ ב (בדיבור המתחיל «בעי רב אשי: שליש מלגו או שליש …») ובדף ט״ז א (בדיבור המתחיל «צבוע [זכר] לאחר שבע שנים נעשה עטלף»)."
+      },
+      "revision": "799d190d07b2faf34f0cf910a3912c0619bb2f5ef0bac1f803414f516198db66",
+      "sources": [
+        {
+          "en": "Bava Kamma 14a",
+          "he": "בבא קמא י״ד א",
+          "url": "https://www.sefaria.org/Bava_Kamma_14a"
+        },
+        {
+          "en": "Bava Kamma 14b",
+          "he": "בבא קמא י״ד ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_14b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-15": {
+      "en": {
+        "discuss": "Why are three separate verses needed to equate women with men in damages, civil law, and killing?",
+        "question": "If the owner admits that his ox gored while still a tam, why does payment depend on whether half-damages are compensation or a fine?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 15. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 9b (opening words «בעי רב אשי: שליש מלגו או שליש …») and on Daf 16a (opening words «צבוע [זכר] לאחר שבע שנים נעשה עטלף»)."
+      },
+      "he": {
+        "discuss": "מדוע נדרשים שלושה פסוקים נפרדים כדי להשוות אשה לאיש בעונשים, בדינים ובמיתות?",
+        "question": "אם בעל שור תם מודה ששורו נגח, מדוע התשלום תלוי בשאלה אם חצי נזק הוא ממון או קנס?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ט״ו. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ט׳ ב (בדיבור המתחיל «בעי רב אשי: שליש מלגו או שליש …») ובדף ט״ז א (בדיבור המתחיל «צבוע [זכר] לאחר שבע שנים נעשה עטלף»)."
+      },
+      "revision": "e6d7632b8efadd120bca381599c3f8bbb2d3edb66640cc4c952acb0eefdf7a61",
+      "sources": [
+        {
+          "en": "Bava Kamma 15a",
+          "he": "בבא קמא ט״ו א",
+          "url": "https://www.sefaria.org/Bava_Kamma_15a"
+        },
+        {
+          "en": "Bava Kamma 15b",
+          "he": "בבא קמא ט״ו ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_15b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-16": {
+      "en": {
+        "discuss": "Why does Rav Zevid reject reading the whole mishnah as Rabbi Tarfon, and how does Ravina improve on his reconstruction?",
+        "question": "Does calling a lion forewarned mean its owner pays the same damages however it takes its prey?",
+        "reading": "Ben Yehoyada comments on several aggadic lines. On the male hyena that turns into a bat after seven years, he explains that the creature arises from its dust after its death; the same applies to the spine that becomes a snake. That this happens to one who did not bow at Modim he grounds in the Arizal: bowing at Modim draws the \"drop of ḥasadim\" down the spinal cord. Ḥasadim are hinted in \"mayim,\" water — and the filling letters of מ״ם יו״ד מ״ם spell מודים. Since the snake belongs to the element of fire, the opposite of water, a spine deprived of ḥasadim turns toward the snake. On Hezekiah buried \"beside the best of the family\" — David and Solomon — he notes that these three spread Torah greatly: the final letters of their names spell הוד, and the initial letters spell חדש, for they renewed Torah study. On Jeremiah's prayer that his enemies stumble even when giving charity, he finds charity hinted in \"before You,\" as in \"I will behold Your face in tzedek.\" Ben Yehoyada on Bava Kamma 16a, Ben Yehoyada on Bava Kamma 16b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע רב זביד דוחה את קריאת כל המשנה כרבי טרפון, וכיצד רבינא משפר את השחזור שלו?",
+        "question": "האם הגדרת האריה כמועד מחייבת את בעליו באותו תשלום בכל דרך שבה הוא טורף את טרפו?",
+        "reading": "בן יהוידע מעיר על כמה שורות אגדה. על צבוע זכר הנעשה עטלף לאחר שבע שנים הוא מבאר שהבריה מתהווה מן העפר שלו לאחר מיתתו, וכן בשדרו של אדם הנעשה נחש. שזה קורה במי שלא כרע במודים — הוא מבסס על דברי האר״י: בכריעת מודים מורידים את טיפת החסדים דרך חוט השדרה. החסדים רמוזים ב\"מים\" — ואותיות המילוי של מ״ם יו״ד מ״ם הן אותיות מודים. ומאחר שהנחש מיסוד האש, ההפך מן המים, שדרה שנחסרו ממנה החסדים פונה אל הנחש. על חזקיהו שנקבר \"אצל מעולים שבמשפחה\" — דוד ושלמה — הוא מציין ששלושתם הרבו תורה בישראל: סופי שמותיהם הוד, וראשיהם חדש, שחידשו ריבוץ תורה. ועל תפילת ירמיהו שאויביו ייכשלו אף בשעת צדקה הוא מוצא את הצדקה רמוזה ב\"לפניך\", כמו \"אני בצדק אחזה פניך\". Ben Yehoyada on Bava Kamma 16a, Ben Yehoyada on Bava Kamma 16b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "1b190c51c160d51accb34cc7dd561bffcd9e92c0019473466589478653b5133a",
+      "sources": [
+        {
+          "en": "Bava Kamma 16a",
+          "he": "בבא קמא ט״ז א",
+          "url": "https://www.sefaria.org/Bava_Kamma_16a"
+        },
+        {
+          "en": "Bava Kamma 16b",
+          "he": "בבא קמא ט״ז ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_16b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-17": {
+      "en": {
+        "discuss": "Why does the Gemara allow saying \"he fulfilled\" at a funeral but not \"he taught\"?",
+        "question": "If an animal sets a vessel rolling and it breaks farther away, is the decisive act the first push or the eventual breakage?",
+        "reading": "Ben Yehoyada reads the aggada of Hezekiah's funeral numerically and morally. The 36,000 who went out with bared shoulders allude to ל״ו — twice חי — for although the prophet told Hezekiah \"you shall die and not live,\" he lives doubly, in this world and the next. ל״ו also spells \"lo,\" a term the Sages read as \"wife,\" hinting that Hezekiah ultimately married; hence a Torah scroll was laid on his bier, for the first mitzvah written in it is \"be fruitful and multiply.\" On \"whoever engages in Torah and kindness merits two tribes,\" he finds Joseph and Issachar in \"the foot of the ox and the donkey\": the last letters of their names, ף and ר, total a thousand, אלף, hinting at the abundance of Atzilut. Torah joined with kindness, he adds, is the Torah that \"makes souls\" for converts, as Avraham and Rabbi Akiva did. And Issachar's wealth was true wealth: like a merchant whose friend told him that one who serves his own money is really a poor servant, Issachar handed his produce to Zevulun and sat in Torah — rich without being enslaved to riches. Ben Yehoyada on Bava Kamma 17a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע מתירה הגמרא לומר \"קיים\" בהספד ולא \"תני\"?",
+        "question": "אם בהמה מגלגלת כלי והוא נשבר במקום אחר, האם הולכים אחר הדחיפה הראשונה או אחר שעת השבירה?",
+        "reading": "בן יהוידע קורא את אגדת הלוויית חזקיהו בדרך הרמז והמוסר. שלושים וששה אלף חלוצי כתף רומזים ל״ו — פעמיים חי — שאף על פי שאמר לו הנביא \"מת אתה ולא תחיה\", הוא חי כפליים, בעולם הזה ובעולם הבא. ל״ו הוא גם \"לו\", כינוי לאשה, רמז שחזקיהו נשא אשה; ולכן הניחו ספר תורה על מטתו, שהמצוה הראשונה הכתובה בה היא פרו ורבו. על \"העוסק בתורה ובגמילות חסדים זוכה לנחלת שני שבטים\" הוא מוצא את יוסף ויששכר ב\"רגל השור והחמור\": סופי שמותיהם, ף ור, עולים אלף — רמז לשפע האצילות. תורה עם גמילות חסדים, הוא מוסיף, היא התורה ש\"עושה נפשות\" לגרים, כאברהם וכרבי עקיבא. ועושרו של יששכר היה עושר אמיתי: כסוחר שאמר לו אוהבו שמי שמשרת את ממונו אינו אלא עני ומשרת, יששכר מסר את פירותיו לזבולן וישב בתורה — עשיר בלי להשתעבד לעושר. Ben Yehoyada on Bava Kamma 17a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "9f03d420455a2ca9876b0a1a016b7637e7e31afb1b653b15991d680b20048677",
+      "sources": [
+        {
+          "en": "Bava Kamma 17a",
+          "he": "בבא קמא י״ז א",
+          "url": "https://www.sefaria.org/Bava_Kamma_17a"
+        },
+        {
+          "en": "Bava Kamma 17b",
+          "he": "בבא קמא י״ז ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_17b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-18": {
+      "en": {
+        "discuss": "Why does the bucket baraita fit neither Sumakhos nor a simple reading of the Rabbis without difficulty?",
+        "question": "When an animal repeatedly breaks vessels by kicking up pebbles, can repetition turn half-damages into full liability?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 18. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 17a (opening words «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») and on Daf 30a (opening words «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "he": {
+        "discuss": "מדוע ברייתת הדלי אינה מתיישבת בלי קושי לא עם סומכוס ולא עם קריאה פשוטה של רבנן?",
+        "question": "כשבהמה שבה ושוברת כלים בצרורות הניתזים מרגליה, האם החזרה על המעשה יכולה לחייב את בעליה בנזק שלם?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא י״ח. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף י״ז א (בדיבור המתחיל «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») ובדף ל׳ א (בדיבור המתחיל «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "revision": "ed1de48775b842be4b08c77f2efdea0203043497ebc81a7a01ff1b579186c186",
+      "sources": [
+        {
+          "en": "Bava Kamma 18a",
+          "he": "בבא קמא י״ח א",
+          "url": "https://www.sefaria.org/Bava_Kamma_18a"
+        },
+        {
+          "en": "Bava Kamma 18b",
+          "he": "בבא קמא י״ח ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_18b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-19": {
+      "en": {
+        "discuss": "Why does the daf leave so many of Rav Ashi's questions as \"teiku\"?",
+        "question": "If an animal kicks up pebbles in the street and they break something in a private courtyard, which location determines liability?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 19. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 17a (opening words «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») and on Daf 30a (opening words «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "he": {
+        "discuss": "מדוע הדף משאיר כל כך הרבה משאלות רב אשי בתיקו?",
+        "question": "אם בהמה מתיזה צרורות ברשות הרבים והם שוברים כלי ברשות הניזק, לפי איזה מקום נקבע החיוב?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא י״ט. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף י״ז א (בדיבור המתחיל «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») ובדף ל׳ א (בדיבור המתחיל «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "revision": "6cb5edf3f61becf1eddcb98699382d04f7c0b8656393d1ada3aef061a64591c6",
+      "sources": [
+        {
+          "en": "Bava Kamma 19a",
+          "he": "בבא קמא י״ט א",
+          "url": "https://www.sefaria.org/Bava_Kamma_19a"
+        },
+        {
+          "en": "Bava Kamma 19b",
+          "he": "בבא קמא י״ט ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_19b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-2": {
+      "en": {
+        "discuss": "Why does the mishnah define the four categories mainly through what distinguishes them, before stating what they share?",
+        "question": "When an ox injures with its horns, teeth, or feet, what makes a related act of damage a toldah of one category rather than another?",
+        "reading": "Ben Yehoyada pauses at the Gemara's rule that Torah law is not derived from \"divrei kabbalah,\" words of the prophets, and asks why prophetic verses carry that name at all. His first answer: Moshe prophesied with \"zeh,\" as if the Shekhinah itself spoke from his throat, while the prophets said \"koh\" — they received the message for themselves and then voiced it in their own words, like a borrower who repays a loan with other coins of equal value rather than the very same coins. His second answer, following Rabbi Ḥayyim Vital, is that Moshe saw the light of Atzilut through Beriah only \"by way of passage,\" while the other prophets saw it fully clothed in lower worlds; their words are therefore \"received\" through an intermediary. The essence: the halakhic hierarchy between Torah and Prophets rests on a difference in the mode of revelation, not merely in authority. Ben Yehoyada on Bava Kamma 2b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע המשנה מגדירה את ארבעת האבות בעיקר על ידי מה שמבדיל ביניהם, לפני שהיא אומרת מה משותף להם?",
+        "question": "כששור מזיק בקרנו, בשיניו או ברגליו, לפי מה קובעים לאיזה אב נזיקין שייכת כל תולדה?",
+        "reading": "בן יהוידע עוצר אצל הכלל \"דברי תורה מדברי קבלה לא ילפינן\" ושואל מדוע נקראים פסוקי הנביאים \"דברי קבלה\". תשובתו הראשונה: משה רבינו נתנבא ב\"זה\", כאילו השכינה מדברת מתוך גרונו, ואילו הנביאים אמרו \"כה\" — הם קיבלו את הדברים לעצמם ואחר כך השמיעו אותם בלשונם, כמי שלווה מאה דינרים ופורע מאה אחרים כמותם ולא את אותם המטבעות עצמם. תשובתו השנייה, על פי רבי חיים ויטאל: משה ראה את אור האצילות דרך הבריאה רק \"דרך מעבר\", ושאר הנביאים ראו אותו בהתלבשות גמורה בעולמות שלמטה; לכן דבריהם \"מקובלים\" על ידי אמצעי. העיקר: ההיררכיה ההלכתית בין תורה לנביאים נשענת על הבדל באופן ההתגלות, ולא רק על הבדל בסמכות. Ben Yehoyada on Bava Kamma 2b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "c33711730f39e711f1bb8bf28831be64bb37957649a78897c798a13384f87320",
+      "sources": [
+        {
+          "en": "Bava Kamma 2a",
+          "he": "בבא קמא ב׳ א",
+          "url": "https://www.sefaria.org/Bava_Kamma_2a"
+        },
+        {
+          "en": "Bava Kamma 2b",
+          "he": "בבא קמא ב׳ ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_2b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-20": {
+      "en": {
+        "discuss": "Why does Rava extend liability from eating the turnip to breaking the barrel?",
+        "question": "Must someone pay for living in an empty courtyard without permission if the owner would otherwise have earned no rent?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 20. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 17a (opening words «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») and on Daf 30a (opening words «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "he": {
+        "discuss": "מדוע רבא מרחיב את החיוב מאכילת הלפת אל שבירת החבית?",
+        "question": "האם מי שדר בחצר ריקה בלי רשות חייב לשלם כשבעל החצר לא היה מקבל עליה שכר ממילא?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא כ׳. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף י״ז א (בדיבור המתחיל «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») ובדף ל׳ א (בדיבור המתחיל «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "revision": "ac35648bc0283f4f3f16736dda17c3735385fc12ae31d7084b20cb104e0cf167",
+      "sources": [
+        {
+          "en": "Bava Kamma 20a",
+          "he": "בבא קמא כ׳ א",
+          "url": "https://www.sefaria.org/Bava_Kamma_20a"
+        },
+        {
+          "en": "Bava Kamma 20b",
+          "he": "בבא קמא כ׳ ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_20b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-3": {
+      "en": {
+        "discuss": "Why does the Gemara insist that each of the two verbs, \"and he sends forth\" and \"and it consumes,\" needs its own supporting verse?",
+        "question": "Why do pebbles kicked up by a walking animal count as a toldah of Regel if their owner pays only half the damage?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 3. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 2b (opening words «דברי תורה מדברי קבלה לא ילפינן») and on Daf 9a (opening words «בהדור מצוה, עד שליש במצוה»)."
+      },
+      "he": {
+        "discuss": "מדוע הגמרא מתעקשת שכל אחד משני הפעלים, \"ושלח\" ו\"ובער\", צריך פסוק מסייע משלו?",
+        "question": "מדוע צרורות שניתזו מתחת רגלי בהמה נחשבים תולדה של רגל, אף שהבעלים משלמים רק חצי נזק?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ג׳. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ב׳ ב (בדיבור המתחיל «דברי תורה מדברי קבלה לא ילפינן») ובדף ט׳ א (בדיבור המתחיל «בהדור מצוה, עד שליש במצוה»)."
+      },
+      "revision": "227ab16789f56ecbd972adf1c0c692d8288c9bd3c2bece65e56359ff97d8cf65",
+      "sources": [
+        {
+          "en": "Bava Kamma 3a",
+          "he": "בבא קמא ג׳ א",
+          "url": "https://www.sefaria.org/Bava_Kamma_3a"
+        },
+        {
+          "en": "Bava Kamma 3b",
+          "he": "בבא קמא ג׳ ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_3b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-4": {
+      "en": {
+        "discuss": "Why does the Gemara reject the slave analogy as a reason for listing Keren separately?",
+        "question": "How can the Mishnah count four primary categories of damage, Rabbi Oshaya thirteen, and Rabbi Ḥiyya twenty-four?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 4. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 2b (opening words «דברי תורה מדברי קבלה לא ילפינן») and on Daf 9a (opening words «בהדור מצוה, עד שליש במצוה»)."
+      },
+      "he": {
+        "discuss": "מדוע הגמרא דוחה את ההשוואה לעבד כטעם למניית הקרן בנפרד?",
+        "question": "כיצד מונה המשנה ארבעה אבות נזיקין, רבי אושעיא שלושה עשר ורבי חייא עשרים וארבעה?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ד׳. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ב׳ ב (בדיבור המתחיל «דברי תורה מדברי קבלה לא ילפינן») ובדף ט׳ א (בדיבור המתחיל «בהדור מצוה, עד שליש במצוה»)."
+      },
+      "revision": "12ea522f4d30b7d7b87ca3df730c961184ca3f18de63f1fd9d9ab232c6c70594",
+      "sources": [
+        {
+          "en": "Bava Kamma 4a",
+          "he": "בבא קמא ד׳ א",
+          "url": "https://www.sefaria.org/Bava_Kamma_4a"
+        },
+        {
+          "en": "Bava Kamma 4b",
+          "he": "בבא קמא ד׳ ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_4b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-5": {
+      "en": {
+        "discuss": "Why does following Rabbi Akiva on conspiring witnesses explain their absence from Rabbi Oshaya's list?",
+        "question": "If one category of damage can be derived from the others, what would we lose by leaving its verse out of the Torah?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 5. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 2b (opening words «דברי תורה מדברי קבלה לא ילפינן») and on Daf 9a (opening words «בהדור מצוה, עד שליש במצוה»)."
+      },
+      "he": {
+        "discuss": "מדוע ההליכה בשיטת רבי עקיבא בעדים זוממין מסבירה את היעדרם מרשימת רבי אושעיא?",
+        "question": "אם אפשר ללמוד אב נזיקין אחד מן האחרים, איזה דין היינו מחסירים אילו לא נכתב הפסוק המיוחד לו?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ה׳. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ב׳ ב (בדיבור המתחיל «דברי תורה מדברי קבלה לא ילפינן») ובדף ט׳ א (בדיבור המתחיל «בהדור מצוה, עד שליש במצוה»)."
+      },
+      "revision": "a3e7d0b680fd9aed9de4a563827bbdfe0e5dbfa702f496979b37438c55e056de",
+      "sources": [
+        {
+          "en": "Bava Kamma 5a",
+          "he": "בבא קמא ה׳ א",
+          "url": "https://www.sefaria.org/Bava_Kamma_5a"
+        },
+        {
+          "en": "Bava Kamma 5b",
+          "he": "בבא קמא ה׳ ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_5b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-6": {
+      "en": {
+        "discuss": "What four features distinguish the four sages' cases from Bor, and how does the common denominator overcome each one?",
+        "question": "When a stone falls from a roof into the street and causes injury, what can we learn from Fire and Pit together that neither teaches on its own?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 6. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 2b (opening words «דברי תורה מדברי קבלה לא ילפינן») and on Daf 9a (opening words «בהדור מצוה, עד שליש במצוה»)."
+      },
+      "he": {
+        "discuss": "אילו ארבע תכונות מבדילות את מקרי ארבעת החכמים מן הבור, וכיצד הצד השווה מתגבר על כל אחת?",
+        "question": "כשאבן נופלת מן הגג לרחוב ומזיקה, מה אפשר ללמוד מאש ומבור יחד שאי אפשר ללמוד מכל אחד מהם לבדו?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ו׳. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ב׳ ב (בדיבור המתחיל «דברי תורה מדברי קבלה לא ילפינן») ובדף ט׳ א (בדיבור המתחיל «בהדור מצוה, עד שליש במצוה»)."
+      },
+      "revision": "1d65034c0e2bde7d6bfc9870fae5741eb4ee9e70ecb525e02eb31f19416e9276",
+      "sources": [
+        {
+          "en": "Bava Kamma 6a",
+          "he": "בבא קמא ו׳ א",
+          "url": "https://www.sefaria.org/Bava_Kamma_6a"
+        },
+        {
+          "en": "Bava Kamma 6b",
+          "he": "בבא קמא ו׳ ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_6b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-7": {
+      "en": {
+        "discuss": "Why can Rabbi Akiva's a fortiori not rest on a vow to the Temple, and how does Rabbi Shimon ben Menasya solve the problem?",
+        "question": "How can the Torah require payment from the best land yet allow the person who caused the damage to pay even with bran?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 7. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 2b (opening words «דברי תורה מדברי קבלה לא ילפינן») and on Daf 9a (opening words «בהדור מצוה, עד שליש במצוה»)."
+      },
+      "he": {
+        "discuss": "מדוע הקל וחומר של רבי עקיבא אינו יכול להישען על נדר לבדק הבית, וכיצד רבי שמעון בן מנסיא פותר את הבעיה?",
+        "question": "כיצד מתיישבת הדרישה לשלם ממיטב השדה עם האפשרות לשלם לניזק אפילו בסובין?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ז׳. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ב׳ ב (בדיבור המתחיל «דברי תורה מדברי קבלה לא ילפינן») ובדף ט׳ א (בדיבור המתחיל «בהדור מצוה, עד שליש במצוה»)."
+      },
+      "revision": "14a4455790f0de1e02d77294c5078b30d19394834681e40cc1d56fcd65cddd52",
+      "sources": [
+        {
+          "en": "Bava Kamma 7a",
+          "he": "בבא קמא ז׳ א",
+          "url": "https://www.sefaria.org/Bava_Kamma_7a"
+        },
+        {
+          "en": "Bava Kamma 7b",
+          "he": "בבא קמא ז׳ ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_7b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-8": {
+      "en": {
+        "discuss": "How do the three resolutions of the conflicting baraitot differ in what they assume about appraisal?",
+        "question": "When a debtor sells his land, how does the order of the sales affect which buyer must answer a claim for damages, a loan, or a ketubba?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 8. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 2b (opening words «דברי תורה מדברי קבלה לא ילפינן») and on Daf 9a (opening words «בהדור מצוה, עד שליש במצוה»)."
+      },
+      "he": {
+        "discuss": "במה נבדלים שלושת היישובים של הברייתות הסותרות במה שהם מניחים על השומה?",
+        "question": "כשאדם מוכר את שדותיו, כיצד סדר המכירות קובע מאיזה לוקח יגבו ניזק, בעל חוב או אישה הבאה לגבות את כתובתה?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ח׳. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ב׳ ב (בדיבור המתחיל «דברי תורה מדברי קבלה לא ילפינן») ובדף ט׳ א (בדיבור המתחיל «בהדור מצוה, עד שליש במצוה»)."
+      },
+      "revision": "36340748902b254ae077cdc772bfbf07149cf7c1ab8a4dc7842946d35d2881d9",
+      "sources": [
+        {
+          "en": "Bava Kamma 8a",
+          "he": "בבא קמא ח׳ א",
+          "url": "https://www.sefaria.org/Bava_Kamma_8a"
+        },
+        {
+          "en": "Bava Kamma 8b",
+          "he": "בבא קמא ח׳ ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_8b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-9": {
+      "en": {
+        "discuss": "Why can a buyer without a guarantee not retract after taking possession, and how does a guarantee change this?",
+        "question": "Why might handing an ox, an open pit, or a fire into a child's care lead to different rulings when someone is hurt?",
+        "reading": "Ben Yehoyada reads the rule \"beautifying a mitzvah — up to a third\" on two levels. Kabbalistically, he links it to the division of Tiferet into thirds: Leah takes the upper third, Rachel — who is called \"mitzvah\" — the lower, and the middle third is shared; Rachel's \"beauty\" is when she reaches into that middle third. On Rav Ashi's question whether the third is \"from within\" or \"from without,\" he asks why the Gemara said \"a third\" rather than \"half,\" and answers with a parable: a man who brings the king ten measures of grapes in a large vessel that could hold three more receives only market value, while one who brings six measures in a small vessel heaped to the brim receives a hundred gold coins — for the first showed that he valued the king's honor at exactly ten measures. Since a heaped measure exceeds a level one by a third, \"up to a third\" means serving God with full capacity. On \"up to a third from his own, beyond that from the Holy One,\" he explains: up to a third, one consumes the \"principal\" of the beautification in this world; beyond it, the principal is stored for the World to Come and one enjoys only its fruits now. Ben Yehoyada on Bava Kamma 9a, Ben Yehoyada on Bava Kamma 9b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע לוקח שלא באחריות אינו יכול לחזור בו לאחר שהחזיק, וכיצד האחריות משנה זאת?",
+        "question": "מדוע מסירת שור, בור פתוח או אש לשמירת קטן עשויה להביא לדינים שונים אם נגרם נזק?",
+        "reading": "בן יהוידע קורא את הדין \"הידור מצוה עד שליש\" בשני רבדים. בדרך הסוד הוא קושר אותו לחלוקת התפארת לשלושה שלישים: לאה לוקחת את השליש העליון, רחל — הנקראת \"מצוה\" — את התחתון, והשליש האמצעי משותף; הידורה של רחל הוא כאשר היא מגיעה אל השליש האמצעי. על שאלת רב אשי \"שליש מלגו או שליש מלבר\" הוא שואל מדוע לא אמרה הגמרא \"עד חצי\", ומשיב במשל: מי שמביא למלך עשרה קבין ענבים בכלי גדול שהיה יכול להכיל עוד שלושה, מקבל רק את שווים בשוק, ואילו המביא ששה קבין בכלי קטן גדוש עד שפתו מקבל מאה זהובים — שהראשון הראה שכבוד המלך שווה בעיניו עשרה קבין בדיוק. ומאחר שמידה גדושה יתירה על מחוקה שליש, \"עד שליש\" פירושו עבודת השם בכל הכוח. ועל \"עד שליש משלו, מכאן ואילך משל הקדוש ברוך הוא\" הוא מבאר: עד שליש אוכל בעולם הזה את קרן ההידור; מעבר לכך הקרן שמורה לעולם הבא, ואוכל כאן רק מפירותיה. Ben Yehoyada on Bava Kamma 9a, Ben Yehoyada on Bava Kamma 9b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "bac9a4898cc2a289fcfc2ef08f40bf8f6794f099b615cf3f6ab6b77538793d22",
+      "sources": [
+        {
+          "en": "Bava Kamma 9a",
+          "he": "בבא קמא ט׳ א",
+          "url": "https://www.sefaria.org/Bava_Kamma_9a"
+        },
+        {
+          "en": "Bava Kamma 9b",
+          "he": "בבא קמא ט׳ ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_9b"
         }
       ]
     },
@@ -4811,6 +5311,31 @@
         }
       ]
     },
+    "cycle-15-kiddushin-39": {
+      "en": {
+        "discuss": "Why did Rabbi Yoḥanan curse those who say orla does not apply abroad, while permitting doubtful orla there?",
+        "question": "How does Rabbi Yaakov understand the Torah's promise of long life in light of the son who died after obeying his father and sending away the mother bird?",
+        "reading": "On the boy who honored his father and sent away the mother bird, then fell and died, Ben Yehoyada cites the Iyun Ya'akov: the story combines two mitzvot to show that the second, at least, was done for its own sake, since he already had a promised reward for the first; yet he died, so there is no reward in this world. The repeated \"and where\" reflects the view that the \"vav\" may divide, so even one of the two rewards is missing. The world \"entirely good\" and \"entirely long\" refers to life after the resurrection, distinct from the soul's reward."
+      },
+      "he": {
+        "discuss": "מדוע רבי יוחנן קילל את האומרים שאין ערלה בחוצה לארץ, ובכל זאת התיר שם ספק ערלה?",
+        "question": "כיצד מפרש רבי יעקב את הבטחת התורה לאריכות ימים לנוכח מותו של הבן שקיים גם את מצוות אביו וגם את מצוות שילוח הקן?",
+        "reading": "על הנער שכיבד את אביו ושילח את האם, ונפל ומת, מביא בן יהוידע את עיון יעקב: המעשה מצרף שתי מצוות כדי להראות שלפחות השנייה נעשתה לשמה, שהרי כבר היה לו שכר מובטח על הראשונה; ובכל זאת מת, ומכאן שאין שכר בעולם הזה. \"והיכן\" הכפול משקף את השיטה שוי\"ו לחלק, כך שאפילו אחד משני השכרים חסר. ו\"עולם שכולו טוב\" ו\"עולם שכולו ארוך\" הם החיים לאחר תחיית המתים, לבד משכר הנשמות בעולם הבא."
+      },
+      "revision": "7266c37b6252b90ec92ec49220dd0b74bac0df5e5b5d8c5ade57c05da4322363",
+      "sources": [
+        {
+          "en": "Kiddushin 39a",
+          "he": "קידושין ל״ט א",
+          "url": "https://www.sefaria.org/Kiddushin_39a"
+        },
+        {
+          "en": "Kiddushin 39b",
+          "he": "קידושין ל״ט ב",
+          "url": "https://www.sefaria.org/Kiddushin_39b"
+        }
+      ]
+    },
     "cycle-15-kiddushin-4": {
       "en": {
         "discuss": "In what sense does a betrothed daughter \"leave\" her father, and why is that enough for the analogy to the maidservant?",
@@ -4833,6 +5358,256 @@
           "en": "Kiddushin 4b",
           "he": "קידושין ד׳ ב",
           "url": "https://www.sefaria.org/Kiddushin_4b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-40": {
+      "en": {
+        "discuss": "How do the stories of Rabbi Tzadok and Rav Kahana illustrate \"mighty in strength who fulfill His word\"?",
+        "question": "Why does Rabbi Elazar son of Rabbi Shimon ask a person weighing a single deed to consider the balance of the whole world's merits as well as his own?",
+        "reading": "When Rabbi Ḥanina says \"two Caesar-bearers guarded me all night,\" Ben Yehoyada reads it as a humble hint at the two angels who always accompany the righteous. A miracle is done for one who escapes forbidden intercourse measure for measure: he overrode the nature of desire implanted in man, so nature is changed for him, and every change of nature is called a miracle."
+      },
+      "he": {
+        "discuss": "כיצד מעשי רבי צדוק ורב כהנא ממחישים את \"גברי כח עשי דברו\"?",
+        "question": "מדוע רבי אלעזר ברבי שמעון מבקש מאדם השוקל מעשה אחד לראות לנגד עיניו גם את כף הזכויות של העולם כולו?",
+        "reading": "על דברי רבי חנינא \"שני נושאי קיסר שמרוני כל הלילה\" אומר בן יהוידע שזו רמיזה בענווה לשני המלאכים המלווים את הצדיק תמיד. ונס נעשה למי שניצל מדבר ערוה מידה כנגד מידה: הוא כפה את טבע התאווה הטבוע באדם, ולכן משנים לו את הטבע, וכל שינוי טבע נקרא נס."
+      },
+      "revision": "f4247f756a11beacacf7ea1ce391f2dd18aa2a65f790d11b45d5258200a396ba",
+      "sources": [
+        {
+          "en": "Kiddushin 40a",
+          "he": "קידושין מ׳ א",
+          "url": "https://www.sefaria.org/Kiddushin_40a"
+        },
+        {
+          "en": "Kiddushin 40b",
+          "he": "קידושין מ׳ ב",
+          "url": "https://www.sefaria.org/Kiddushin_40b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-41": {
+      "en": {
+        "discuss": "Why is a mitzva performed in person greater than through an agent, and how do Rav Safra and Rava illustrate it?",
+        "question": "If kiddushin can be performed through an agent, why does the Mishnah mention the option of acting in person first?",
+        "reading": "Bar Kappara's \"nothing came into his hand but his anger\" is precise, Ben Yehoyada explains: a person's traits are marked in the lines of the hand, and each night the soul seals the day's deeds \"by the hand of every man.\" One who is insulted and stays silent takes the merits of the one who shames him, but only if he does not seethe inside; one who silently rages gains nothing from the insult but the sin of his anger, since anger is likened to idolatry, which is sinful even in the heart alone."
+      },
+      "he": {
+        "discuss": "מדוע מצוה בו יותר מבשלוחו, וכיצד רב ספרא ורבא ממחישים זאת?",
+        "question": "אם אפשר לקדש ולהתקדש על ידי שליח, מדוע המשנה מקדימה להזכיר שהאיש והאישה יכולים לפעול בעצמם?",
+        "reading": "\"לא עלתה בידו אלא רגזנותו\" מדויק, מבאר בן יהוידע: מידות האדם רשומות בשרטוטי כף היד, ובכל לילה הנשמה חותמת על מעשי היום \"ביד כל אדם יחתום\". הנעלב ושותק נוטל את זכויות המחרף, אבל רק אם אינו מתמלא רוגז בלבו; הרוגז בלבו ושותק אין בידו מן הזכויות אלא עוון רגזנותו, שהכעס כעבודה זרה, שעוונה אף בלב בלבד."
+      },
+      "revision": "9be2a3d168b0026931378ac25d236fb827c78c740f7fb6c847883559a0070aff",
+      "sources": [
+        {
+          "en": "Kiddushin 41a",
+          "he": "קידושין מ״א א",
+          "url": "https://www.sefaria.org/Kiddushin_41a"
+        },
+        {
+          "en": "Kiddushin 41b",
+          "he": "קידושין מ״א ב",
+          "url": "https://www.sefaria.org/Kiddushin_41b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-42": {
+      "en": {
+        "discuss": "How does Rabbi Yonatan derive agency for offerings when he uses \"the whole assembly\" for another teaching?",
+        "question": "Why does the principle that an agent acts on behalf of the sender usually cease to apply when the instruction is to commit a transgression?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 42. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 42a nor 42b is among them in the Senlake edition. The nearest comments are on Kiddushin 41 and Kiddushin 49."
+      },
+      "he": {
+        "discuss": "כיצד לומד רבי יונתן שליחות בקדשים כאשר הוא דורש את ״כל קהל עדת ישראל״ לדבר אחר?",
+        "question": "מדוע הכלל ״שלוחו של אדם כמותו״ אינו חל בדרך כלל כאשר השליח נצטווה לעבור עבירה?",
+        "reading": "לבן יהוידע אין פירוש על קידושין מ״ב. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין מ״א ועל קידושין מ״ט."
+      },
+      "revision": "5445ed1b7d0293bc21c559ba0ec05cf194ff0e4d7d88e8b1afd1ddd708474f07",
+      "sources": [
+        {
+          "en": "Kiddushin 42a",
+          "he": "קידושין מ״ב א",
+          "url": "https://www.sefaria.org/Kiddushin_42a"
+        },
+        {
+          "en": "Kiddushin 42b",
+          "he": "קידושין מ״ב ב",
+          "url": "https://www.sefaria.org/Kiddushin_42b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-43": {
+      "en": {
+        "discuss": "How does the Gemara establish that there is no agency for a transgression throughout the Torah?",
+        "question": "Can the two men sent to carry out a betrothal also serve as its witnesses, and why might their very status as agents count against them?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 43. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 43a nor 43b is among them in the Senlake edition. The nearest comments are on Kiddushin 41 and Kiddushin 49."
+      },
+      "he": {
+        "discuss": "כיצד קובעת הגמרא שאין שליח לדבר עבירה בכל התורה?",
+        "question": "האם שניים שנשלחו לקדש אישה יכולים לשמש גם כעדי הקידושין, ומדוע עצם היותם שליחים עשוי למנוע זאת?",
+        "reading": "לבן יהוידע אין פירוש על קידושין מ״ג. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין מ״א ועל קידושין מ״ט."
+      },
+      "revision": "d6c10d8dc00beb89a918b38f00210cf53c728bad9857cea0344e39655ab05383",
+      "sources": [
+        {
+          "en": "Kiddushin 43a",
+          "he": "קידושין מ״ג א",
+          "url": "https://www.sefaria.org/Kiddushin_43a"
+        },
+        {
+          "en": "Kiddushin 43b",
+          "he": "קידושין מ״ג ב",
+          "url": "https://www.sefaria.org/Kiddushin_43b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-44": {
+      "en": {
+        "discuss": "How does Rabbi Yoḥanan's distinction between consent and compulsion explain who receives betrothal and divorce?",
+        "question": "If a betrothed na'arah can receive her own get while her father is alive, can she also appoint an agent to receive it for her?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 44. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 44a nor 44b is among them in the Senlake edition. The nearest comments are on Kiddushin 41 and Kiddushin 49."
+      },
+      "he": {
+        "discuss": "כיצד ההבחנה של רבי יוחנן בין מדעתה לבעל כורחה מסבירה מי מקבל קידושין וגירושין?",
+        "question": "אם נערה מאורסה יכולה לקבל את גיטה בעצמה בחיי אביה, האם היא יכולה גם למנות שליח שיקבל אותו בשבילה?",
+        "reading": "לבן יהוידע אין פירוש על קידושין מ״ד. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין מ״א ועל קידושין מ״ט."
+      },
+      "revision": "5e7576254f4761fcd0df84527f9ad56de709516434e024ef56c50130a08c0a2c",
+      "sources": [
+        {
+          "en": "Kiddushin 44a",
+          "he": "קידושין מ״ד א",
+          "url": "https://www.sefaria.org/Kiddushin_44a"
+        },
+        {
+          "en": "Kiddushin 44b",
+          "he": "קידושין מ״ד ב",
+          "url": "https://www.sefaria.org/Kiddushin_44b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-45": {
+      "en": {
+        "discuss": "How does Rav Amram's answer about betrothal through designation remove Rav Hamnuna's objection?",
+        "question": "When two fathers share a cup of wine and one proposes his son as the other's son-in-law, what evidence is there that the absent son authorized the kiddushin?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 45. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 45a nor 45b is among them in the Senlake edition. The nearest comments are on Kiddushin 41 and Kiddushin 49."
+      },
+      "he": {
+        "discuss": "כיצד תשובת רב עמרם בקידושי יעוד מסלקת את קושיית רב המנונא?",
+        "question": "כששני אבות שותים יחד ואחד נותן כוס לחברו כדי לקדש את בתו לבנו, מה יכול להוכיח שהבן שאינו שם הסמיך את אביו לקדש עבורו?",
+        "reading": "לבן יהוידע אין פירוש על קידושין מ״ה. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין מ״א ועל קידושין מ״ט."
+      },
+      "revision": "27dbec768f7b6ab1cfc4c72b24246e39dd149eb50606d674cb1833f8cead90ad",
+      "sources": [
+        {
+          "en": "Kiddushin 45a",
+          "he": "קידושין מ״ה א",
+          "url": "https://www.sefaria.org/Kiddushin_45a"
+        },
+        {
+          "en": "Kiddushin 45b",
+          "he": "קידושין מ״ה ב",
+          "url": "https://www.sefaria.org/Kiddushin_45b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-46": {
+      "en": {
+        "discuss": "How does Rav Asi answer the verse \"if her father utterly refuses,\" and what do Rav Naḥman bar Yitzḥak and Abaye add?",
+        "question": "If a man gives a woman several dates for kiddushin, how does his wording determine whether their values can be added together to make a perutah?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 46. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 46a nor 46b is among them in the Senlake edition. The nearest comments are on Kiddushin 41 and Kiddushin 49."
+      },
+      "he": {
+        "discuss": "כיצד רב אסי מתרץ את ״אם מאן ימאן אביה״, ומה מוסיפים רב נחמן בר יצחק ואביי?",
+        "question": "כשאדם נותן לאישה כמה תמרים לשם קידושין, כיצד קובעת לשונו אם שוויים מצטרף לפרוטה?",
+        "reading": "לבן יהוידע אין פירוש על קידושין מ״ו. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין מ״א ועל קידושין מ״ט."
+      },
+      "revision": "3e3178fbd8f2cb27c0af89b995fbdb889bfe4960b92721dfeb4137b067fa3fcf",
+      "sources": [
+        {
+          "en": "Kiddushin 46a",
+          "he": "קידושין מ״ו א",
+          "url": "https://www.sefaria.org/Kiddushin_46a"
+        },
+        {
+          "en": "Kiddushin 46b",
+          "he": "קידושין מ״ו ב",
+          "url": "https://www.sefaria.org/Kiddushin_46b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-47": {
+      "en": {
+        "discuss": "Why does \"with these\" make the woman betrothed even if she eats the items, unlike \"with this and this\"?",
+        "question": "Why does Rav distinguish between betrothing a woman with money she owes him and betrothing her with money he left in her safekeeping?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 47. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 47a nor 47b is among them in the Senlake edition. The nearest comments are on Kiddushin 41 and Kiddushin 49."
+      },
+      "he": {
+        "discuss": "מדוע ״באלו״ עושה אותה מקודשת אף אם אכלה, ולא כן ״בזו ובזו״?",
+        "question": "מדוע רב מבחין בין קידושין בכסף שהאישה חייבת לו מחמת הלוואה לבין קידושין בכסף שהפקיד אצלה?",
+        "reading": "לבן יהוידע אין פירוש על קידושין מ״ז. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין מ״א ועל קידושין מ״ט."
+      },
+      "revision": "43e0e2bbdc3cbeaaa6cb2322bdfe8a4d6f6d0b916a96c49dfb7fe1fe1807fb3d",
+      "sources": [
+        {
+          "en": "Kiddushin 47a",
+          "he": "קידושין מ״ז א",
+          "url": "https://www.sefaria.org/Kiddushin_47a"
+        },
+        {
+          "en": "Kiddushin 47b",
+          "he": "קידושין מ״ז ב",
+          "url": "https://www.sefaria.org/Kiddushin_47b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-48": {
+      "en": {
+        "discuss": "How do the different explanations of the dispute on betrothal with a document keep Rav's ruling on a loan intact?",
+        "question": "If a woman asks a craftsman to make jewelry for her as kiddushin, why does it matter whether his wages accrue as he works or only when he finishes?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 48. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 48a nor 48b is among them in the Senlake edition. The nearest comments are on Kiddushin 41 and Kiddushin 49."
+      },
+      "he": {
+        "discuss": "כיצד ההסברים השונים למחלוקת בקידושי שטר משאירים את פסק רב במלוה על כנו?",
+        "question": "כשאישה מבקשת מאומן שיעשה לה תכשיטים ובשכרו תתקדש לו, מדוע חשוב אם חיוב השכר מצטבר במהלך המלאכה או חל רק בסופה?",
+        "reading": "לבן יהוידע אין פירוש על קידושין מ״ח. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין מ״א ועל קידושין מ״ט."
+      },
+      "revision": "35e0f39b3d877af6d47d9d743850cc20e27e7954a5d6328d8b268f57b633559a",
+      "sources": [
+        {
+          "en": "Kiddushin 48a",
+          "he": "קידושין מ״ח א",
+          "url": "https://www.sefaria.org/Kiddushin_48a"
+        },
+        {
+          "en": "Kiddushin 48b",
+          "he": "קידושין מ״ח ב",
+          "url": "https://www.sefaria.org/Kiddushin_48b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-49": {
+      "en": {
+        "discuss": "Why does Rabbi Shimon's view apply to an advantage in money but not to an advantage in lineage?",
+        "question": "If a man known for wrongdoing betroths a woman “on condition that I am righteous,” why does the Gemara take seriously a thought of repentance that nobody else can see?",
+        "reading": "On Rabbi Yehuda's statement that one who translates a verse literally is a liar and one who adds is a blasphemer, Ben Yehoyada writes that, were he not afraid, he would reverse the reading: the literal translator blasphemes and the one who adds is a liar; but he notes that he has no manuscripts or early printings of Kiddushin to check."
+      },
+      "he": {
+        "discuss": "מדוע שיטת רבי שמעון חלה בשבח ממון ולא בשבח יוחסין?",
+        "question": "כשאדם הידוע כרשע מקדש אישה ״על מנת שאני צדיק״, מדוע הגמרא חוששת להרהור תשובה שאיש מלבדו אינו יכול לראות?",
+        "reading": "על דברי רבי יהודה ״המתרגם פסוק כצורתו הרי זה בדאי והמוסיף עליו הרי זה מחרף ומגדף״ כותב בן יהוידע שלולא שהיה מתיירא היה גורס להפך: המתרגם כצורתו מחרף ומגדף, והמוסיף בדאי; אך הוא מציין שאין בידו כתבי יד או דפוסים ישנים של מסכת קידושין לבדוק."
+      },
+      "revision": "3363f865c59e702c4716f516ee207e56247cd600d4a45e171aba5ffe7bd0ac39",
+      "sources": [
+        {
+          "en": "Kiddushin 49a",
+          "he": "קידושין מ״ט א",
+          "url": "https://www.sefaria.org/Kiddushin_49a"
+        },
+        {
+          "en": "Kiddushin 49b",
+          "he": "קידושין מ״ט ב",
+          "url": "https://www.sefaria.org/Kiddushin_49b"
         }
       ]
     },
@@ -4861,6 +5636,256 @@
         }
       ]
     },
+    "cycle-15-kiddushin-50": {
+      "en": {
+        "discuss": "Why is each proposed source for \"matters in the heart are not matters\" rejected until the case of misuse?",
+        "question": "How can an agent tell whether the place his sender named is a condition of the betrothal or simply a clue to where the woman can be found?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 50. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 50a nor 50b is among them in the Senlake edition. The nearest comments are on Kiddushin 49 and Kiddushin 52."
+      },
+      "he": {
+        "discuss": "מדוע כל מקור מוצע ל״דברים שבלב אינם דברים״ נדחה עד מקרה המעילה?",
+        "question": "כיצד מבחין השליח בין ציון מקום המגביל את שליחותו לקדש לבין ציון מקום שרק מסייע לו למצוא את האישה?",
+        "reading": "לבן יהוידע אין פירוש על קידושין נ׳. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין מ״ט ועל קידושין נ״ב."
+      },
+      "revision": "bd62f305e721e270c6c7bd51eb61e772c64d41d48d76f7a2d8ac8ea6752a01c4",
+      "sources": [
+        {
+          "en": "Kiddushin 50a",
+          "he": "קידושין נ׳ א",
+          "url": "https://www.sefaria.org/Kiddushin_50a"
+        },
+        {
+          "en": "Kiddushin 50b",
+          "he": "קידושין נ׳ ב",
+          "url": "https://www.sefaria.org/Kiddushin_50b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-51": {
+      "en": {
+        "discuss": "How do tithes, animal tithe and the thanks-offering each escape Rabba's rule?",
+        "question": "If a man betroths one of two sisters without identifying which one, why do Abaye and Rava disagree about whether kiddushin take effect at all?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 51. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 51a nor 51b is among them in the Senlake edition. The nearest comments are on Kiddushin 49 and Kiddushin 52."
+      },
+      "he": {
+        "discuss": "כיצד מעשר, מעשר בהמה ותודה נמלטים כל אחד מכלל רבה?",
+        "question": "אם אדם מקדש אחת משתי אחיות בלי לפרש איזו מהן, מדוע נחלקו אביי ורבא אם הקידושין חלים בכלל?",
+        "reading": "לבן יהוידע אין פירוש על קידושין נ״א. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין מ״ט ועל קידושין נ״ב."
+      },
+      "revision": "26d893d9f258180fcc35e7d2a8f27b5f48bd573fb91573749552860f60457706",
+      "sources": [
+        {
+          "en": "Kiddushin 51a",
+          "he": "קידושין נ״א א",
+          "url": "https://www.sefaria.org/Kiddushin_51a"
+        },
+        {
+          "en": "Kiddushin 51b",
+          "he": "קידושין נ״א ב",
+          "url": "https://www.sefaria.org/Kiddushin_51b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-52": {
+      "en": {
+        "discuss": "Why is Rava's view refuted by Tavyumei's baraita, and what does \"Ya'al Kagam\" signify?",
+        "question": "Why did Rava reject kiddushin performed with a handful of onions from a crop the sharecropper and landowner were to divide, and how might taking a full bundle have changed the sharecropper's claim?",
+        "reading": "Rabbi Yehuda called Rabbi Meir's students \"kanteranim,\" Ben Yehoyada suggests, as a play on letters: Torah scholars are called the \"sheath\" (nartek) of Torah, and \"kanteranim\" reverses those letters. Sages sometimes argue the opposite of the truth to sharpen their listeners (lefake'aḥ), but these students came, he said, not to sharpen but to defeat (lekape'aḥ)."
+      },
+      "he": {
+        "discuss": "מדוע ברייתא דטביומי מפריכה את רבא, ומה מציין ״יע״ל קג״ם״?",
+        "question": "מדוע דחה רבא את קידושי האריס שקידש בקומץ בצלים מן היבול המשותף, ואיזו טענה הייתה עומדת לאריס אילו לקח אגודה שלמה?",
+        "reading": "רבי יהודה קרא לתלמידי רבי מאיר ״קנתרנים״, מציע בן יהוידע, כמשחק אותיות: תלמידי חכמים נקראים ״נרתק״ של התורה, ו״קנתרנים״ הוא ״נרתקים״ בהיפוך אותיות. דרך החכמים לומר לפעמים הפך האמת כדי לפקח את השומעים ולחדדם, אבל אלו באו, אמר, לא לפקח אלא לקפח."
+      },
+      "revision": "71fefc937b32f47d4c4323237ed53edae5b532b9a5f1ce0f92b85b7bd39ff108",
+      "sources": [
+        {
+          "en": "Kiddushin 52a",
+          "he": "קידושין נ״ב א",
+          "url": "https://www.sefaria.org/Kiddushin_52a"
+        },
+        {
+          "en": "Kiddushin 52b",
+          "he": "קידושין נ״ב ב",
+          "url": "https://www.sefaria.org/Kiddushin_52b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-53": {
+      "en": {
+        "discuss": "How does the baraita on dividing offerings support Rabbi Yoḥanan against Rav?",
+        "question": "When a kohen receives a portion of an offering to eat, does that give him the right to use it for kiddushin, and what do the rules against trading portions show?",
+        "reading": "Tosafot ask why only this man was called ben Ḥamtzan, if the gluttons all snatched; they answer that he snatched from a glutton like himself, while the others took only from the modest. Ben Yehoyada adds: the modest forgave and would not shame anyone, but the gluttons, robbed by one bolder than they, gave him the name — like the short man who complained that another had cheated him and, told that a short man is full of cunning, replied that the other was shorter still, so that next to him he counts as tall. Ben Yehoyada on Kiddushin 53 · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897 https://www.sefaria.org/Ben_Yehoyada_on_Kiddushin.53a"
+      },
+      "he": {
+        "discuss": "כיצד ברייתת החלוקה בקדשים מסייעת לרבי יוחנן נגד רב?",
+        "question": "כשכהן מקבל חלק בקרבן לאכילה, האם הוא רשאי לקדש בו אישה, ומה מלמד האיסור על הכהנים להחליף ביניהם את חלקיהם?",
+        "reading": "התוספות שואלים מדוע רק זה נקרא ״בן חמצן״, אם כל הגרגרנים חוטפים; ומתרצים שהוא חטף מגרגרן כמותו, והאחרים חטפו רק מן הצנועים. בן יהוידע מוסיף: הצנועים מחלו ולא רצו לגנות איש, אבל הגרגרנים, שנחטף מהם על ידי עז מהם, הם שקראו לו כך — כמו הקצר שקבל לפני השר שאחר רימה אותו, וכשאמרו לו שקצר קומה מלא ערמה, השיב שהאחר קצר ממנו, ולגביו הוא נחשב ארוך. Ben Yehoyada on Kiddushin 53 · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897 https://www.sefaria.org/Ben_Yehoyada_on_Kiddushin.53a"
+      },
+      "revision": "728641aac5876217d3126c3461851c89e343ca817c364fbadb6d3deeb1f8dae6",
+      "sources": [
+        {
+          "en": "Kiddushin 53a",
+          "he": "קידושין נ״ג א",
+          "url": "https://www.sefaria.org/Kiddushin_53a"
+        },
+        {
+          "en": "Kiddushin 53b",
+          "he": "קידושין נ״ג ב",
+          "url": "https://www.sefaria.org/Kiddushin_53b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-54": {
+      "en": {
+        "discuss": "Why does Rav find it difficult that Rabbi Meir distinguishes between deliberate and unwitting use of consecrated property?",
+        "question": "Why does Rav distinguish a priestly garment still fit for service from one that has worn out when explaining Rabbi Meir's view of unwitting misuse of sacred property?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 54. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 54a nor 54b is among them in the Senlake edition. The nearest comments are on Kiddushin 53 and Kiddushin 59."
+      },
+      "he": {
+        "discuss": "מדוע קשה לרב שרבי מאיר מבחין בין מזיד לשוגג בהקדש?",
+        "question": "מדוע רב מבחין בין בגד כהונה שעדיין ראוי לעבודה לבין בגד שבלה כשהוא מפרש את שיטת רבי מאיר במעילה בשוגג?",
+        "reading": "לבן יהוידע אין פירוש על קידושין נ״ד. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין נ״ג ועל קידושין נ״ט."
+      },
+      "revision": "e98654aaa21ecb84825206b0bbb4abb3199c518591a8afc9f0898502048403cc",
+      "sources": [
+        {
+          "en": "Kiddushin 54a",
+          "he": "קידושין נ״ד א",
+          "url": "https://www.sefaria.org/Kiddushin_54a"
+        },
+        {
+          "en": "Kiddushin 54b",
+          "he": "קידושין נ״ד ב",
+          "url": "https://www.sefaria.org/Kiddushin_54b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-55": {
+      "en": {
+        "discuss": "How does Rabbi Oshaya use the found animal to illustrate Rabbi Meir's view on deliberate desacralization?",
+        "question": "A male animal is found between Jerusalem and Migdal Eder. How can the finder account for the possibility that it was consecrated either as a burnt offering or as a peace offering?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 55. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 55a nor 55b is among them in the Senlake edition. The nearest comments are on Kiddushin 53 and Kiddushin 59."
+      },
+      "he": {
+        "discuss": "כיצד רבי אושעיא משתמש בבהמה שנמצאה כדי להמחיש את שיטת רבי מאיר בחילול במזיד?",
+        "question": "נמצאה בהמה זכר בין ירושלים למגדל עדר. כיצד יכול המוצא לצאת ידי הספק שמא הוקדשה לעולה ושמא לשלמים?",
+        "reading": "לבן יהוידע אין פירוש על קידושין נ״ה. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין נ״ג ועל קידושין נ״ט."
+      },
+      "revision": "9445c1921fb20586e400efa03249e1e9965109d77f626e6e89c552677f62db4c",
+      "sources": [
+        {
+          "en": "Kiddushin 55a",
+          "he": "קידושין נ״ה א",
+          "url": "https://www.sefaria.org/Kiddushin_55a"
+        },
+        {
+          "en": "Kiddushin 55b",
+          "he": "קידושין נ״ה ב",
+          "url": "https://www.sefaria.org/Kiddushin_55b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-56": {
+      "en": {
+        "discuss": "How does Rabbi Elazar reconcile Rabbi Yehuda's ruling that deliberate betrothal with tithe is valid?",
+        "question": "Why does the Gemara need a separate basis for forbidding benefit from an ox sentenced to stoning if its meat is already forbidden to eat?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 56. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 56a nor 56b is among them in the Senlake edition. The nearest comments are on Kiddushin 53 and Kiddushin 59."
+      },
+      "he": {
+        "discuss": "כיצד רבי אלעזר מיישב את פסק רבי יהודה שבמזיד קידש במעשר?",
+        "question": "מדוע הגמרא זקוקה למקור נוסף לאיסור הנאה משור הנסקל, אם בשרו כבר אסור באכילה?",
+        "reading": "לבן יהוידע אין פירוש על קידושין נ״ו. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין נ״ג ועל קידושין נ״ט."
+      },
+      "revision": "716701d2b4775b6bf3adf55c4d229358c170bdccf9b8837611f97932ef715f74",
+      "sources": [
+        {
+          "en": "Kiddushin 56a",
+          "he": "קידושין נ״ו א",
+          "url": "https://www.sefaria.org/Kiddushin_56a"
+        },
+        {
+          "en": "Kiddushin 56b",
+          "he": "קידושין נ״ו ב",
+          "url": "https://www.sefaria.org/Kiddushin_56b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-57": {
+      "en": {
+        "discuss": "What does the story of Shimon HaAmasoni teach about the method of expounding \"et\"?",
+        "question": "Why does Rava reason that the live bird released after a metzora's purification must be permitted to whoever later catches it?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 57. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 57a nor 57b is among them in the Senlake edition. The nearest comments are on Kiddushin 53 and Kiddushin 59."
+      },
+      "he": {
+        "discuss": "מה מלמד מעשה שמעון העמסוני על שיטת דרשת ״את״?",
+        "question": "מדוע רבא מסיק שהציפור החיה המשולחת בטהרת המצורע מוכרחה להיות מותרת למי שיצוד אותה אחר כך?",
+        "reading": "לבן יהוידע אין פירוש על קידושין נ״ז. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין נ״ג ועל קידושין נ״ט."
+      },
+      "revision": "47698d3ecc2e5ee9691f8269cc209d7f23a7f38e13b34434c4996c7228c80318",
+      "sources": [
+        {
+          "en": "Kiddushin 57a",
+          "he": "קידושין נ״ז א",
+          "url": "https://www.sefaria.org/Kiddushin_57a"
+        },
+        {
+          "en": "Kiddushin 57b",
+          "he": "קידושין נ״ז ב",
+          "url": "https://www.sefaria.org/Kiddushin_57b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-58": {
+      "en": {
+        "discuss": "How does Rabba resolve the contradiction in Rabbi Shimon's view of non-sacred animals slaughtered in the courtyard?",
+        "question": "How does Abaye distinguish payment for bringing the ashes and drawing water for purification from payment for sprinkling the water or mixing in the ashes?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 58. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 58a nor 58b is among them in the Senlake edition. The nearest comments are on Kiddushin 53 and Kiddushin 59."
+      },
+      "he": {
+        "discuss": "כיצד רבה מיישב את הסתירה בשיטת רבי שמעון בחולין שנשחטו בעזרה?",
+        "question": "כיצד מבחין אביי בין שכר הבאת האפר ומילוי המים לצורך טהרה לבין שכר ההזאה וקידוש המים באפר?",
+        "reading": "לבן יהוידע אין פירוש על קידושין נ״ח. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין נ״ג ועל קידושין נ״ט."
+      },
+      "revision": "357b217ee21014d9f1660e8ac71691f2ed768d67907ca7ceb5905be267ecf6e6",
+      "sources": [
+        {
+          "en": "Kiddushin 58a",
+          "he": "קידושין נ״ח א",
+          "url": "https://www.sefaria.org/Kiddushin_58a"
+        },
+        {
+          "en": "Kiddushin 58b",
+          "he": "קידושין נ״ח ב",
+          "url": "https://www.sefaria.org/Kiddushin_58b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-59": {
+      "en": {
+        "discuss": "Why does the mishna say \"to his fellow\" here and \"to his agent\" in the earlier mishna?",
+        "question": "What does the example of a poor man reaching for a cake teach Rabbi Abba about buying a field that Rav Giddel was already trying to buy?",
+        "reading": "How could Rav Giddel, Rabbi Zeira and Rav Yitzḥak Nappaḥa suspect a great man like Rabbi Abba of knowingly taking what another was negotiating for? Ben Yehoyada explains that Rav Giddel had not yet agreed on a price with the seller, and the seller himself offered the field to Rabbi Abba — both cases where, according to the authorities he cites, the rule of the \"poor man and the cake\" does not apply. They complained only because a man of his stature should be stricter for appearance's sake, and Rav Yitzḥak first asked the law and then why he had not been stringent."
+      },
+      "he": {
+        "discuss": "מדוע המשנה אומרת כאן ״לחבירו״ ובמשנה הקודמת ״לשלוחו״?",
+        "question": "מה מלמד המשל על עני המהפך בחררה את רבי אבא בעניין השדה שקנה בשעה שרב גידל כבר עסק בקנייתו?",
+        "reading": "כיצד חשדו רב גידל, רבי זירא ורב יצחק נפחא באדם גדול כרבי אבא שקנה ביודעין מה שאחר מהפך בו? בן יהוידע מבאר שרב גידל עדיין לא פסק דמים עם המוכר, והמוכר עצמו הציע את הקרקע לרבי אבא — שני מקרים שלפי הפוסקים שהוא מביא אין בהם דין ״עני המהפך בחררה״. הם קבלו רק משום שאדם חשוב ראוי להחמיר על עצמו מפני מראית העין, ולכן שאל רב יצחק תחילה את הדין ואחר כך מדוע לא החמיר."
+      },
+      "revision": "7a9ae796757a97b6453b17a26377f09f1f778beeee63bac90654c22f40c3dd87",
+      "sources": [
+        {
+          "en": "Kiddushin 59a",
+          "he": "קידושין נ״ט א",
+          "url": "https://www.sefaria.org/Kiddushin_59a"
+        },
+        {
+          "en": "Kiddushin 59b",
+          "he": "קידושין נ״ט ב",
+          "url": "https://www.sefaria.org/Kiddushin_59b"
+        }
+      ]
+    },
     "cycle-15-kiddushin-6": {
       "en": {
         "discuss": "Why is \"I am your husband\" ineffective while \"you are my wife\" works?",
@@ -4883,6 +5908,256 @@
           "en": "Kiddushin 6b",
           "he": "קידושין ו׳ ב",
           "url": "https://www.sefaria.org/Kiddushin_6b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-60": {
+      "en": {
+        "discuss": "Why does Abaye rule that the woman needs a bill of divorce only from the first and last suitor according to Rav?",
+        "question": "If a woman accepts kiddushin on condition that she receive two hundred zuz, can she accept another man's kiddushin before the first man pays?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 60. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 60a nor 60b is among them in the Senlake edition. The nearest comments are on Kiddushin 59 and Kiddushin 61."
+      },
+      "he": {
+        "discuss": "מדוע אביי פוסק שלפי רב צריכה גט רק מן הראשון ומן האחרון?",
+        "question": "אישה קיבלה קידושין בתנאי שייתן לה המקדש מאתיים זוז. האם קידושין שקיבלה מאדם אחר לפני התשלום יכולים לחול?",
+        "reading": "לבן יהוידע אין פירוש על קידושין ס׳. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין נ״ט ועל קידושין ס״א."
+      },
+      "revision": "72c176e1c6c1ca67e8c1bf8645fac29b318dbc231998ebb8d4f79b38c167a7e5",
+      "sources": [
+        {
+          "en": "Kiddushin 60a",
+          "he": "קידושין ס׳ א",
+          "url": "https://www.sefaria.org/Kiddushin_60a"
+        },
+        {
+          "en": "Kiddushin 60b",
+          "he": "קידושין ס׳ ב",
+          "url": "https://www.sefaria.org/Kiddushin_60b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-61": {
+      "en": {
+        "discuss": "Why are crevices and rocks of ten handbreadths excluded from a measured field, and how do consecration and sale differ?",
+        "question": "Why does Rabbi Meir learn from Moshe's agreement with Gad and Reuven that a condition must state what happens both if it is fulfilled and if it is not?",
+        "reading": "Why did Rabbi Meir not cite the earlier verses \"if you do well\" or \"if you walk in My statutes\"? Ben Yehoyada answers that these are God's words, and a word of good from God, even conditional, is not retracted; so the doubling there could be explained as needed to reverse that promise. He cited Gad and Reuben, words of Moses after the giving of the Torah, and not Eliezer's \"then you shall be free of my oath,\" which preceded Sinai and might reflect only the customs of Noah's descendants."
+      },
+      "he": {
+        "discuss": "מדוע נקעים וסלעים בני עשרה טפחים אינם נמדדים עם השדה, וכיצד שונים הקדש ומכר?",
+        "question": "מדוע לומד רבי מאיר מתנאו של משה עם בני גד ובני ראובן שצריך לפרש גם מה יקרה אם יתקיים התנאי וגם מה יקרה אם לא יתקיים?",
+        "reading": "מדוע לא הביא רבי מאיר את הפסוקים הקודמים ״אם תיטיב״ או ״אם בחקתי תלכו״? בן יהוידע משיב שאלו דברי ה׳, וכל דיבור לטובה היוצא מפי הקב״ה, אפילו על תנאי, אינו חוזר; ולכן אפשר לבאר שם את הכפילות כדרושה לבטל את ההבטחה. הוא הביא את בני גד ובני ראובן, דברי משה לאחר מתן תורה, ולא ״אז תנקה מאלתי״ של אליעזר, שקדם לסיני ואפשר שהוא רק ממנהגי בני נח."
+      },
+      "revision": "e6638d1a1f02ac39f7f32a9e4bffced693a95bb56a050191a7336a3c469fc648",
+      "sources": [
+        {
+          "en": "Kiddushin 61a",
+          "he": "קידושין ס״א א",
+          "url": "https://www.sefaria.org/Kiddushin_61a"
+        },
+        {
+          "en": "Kiddushin 61b",
+          "he": "קידושין ס״א ב",
+          "url": "https://www.sefaria.org/Kiddushin_61b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-62": {
+      "en": {
+        "discuss": "How do the sota and the sprinkling verses fit Rabbi Meir's and Rabbi Ḥanina ben Gamliel's views?",
+        "question": "Why can a person's power to detach produce matter for a future designation of terumah, while a prospective convert cannot effect kiddushin now to take effect after conversion?",
+        "reading": "Rava explains \"the sword\" as coarse salt, hard barley bread and onions. Ben Yehoyada gives reasons: the Sages said salt needs cooking like ox meat, so coarse salt is hard on the stomach — one should eat finely ground salt; and barley bread is fit only when fresh. He adds that the letters of ḥerev (8+200+2) with the doubled vowel segol (30) equal 1,240, the value of the three foods with the kollel. Ben Yehoyada on Kiddushin 62 · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897 https://www.sefaria.org/Ben_Yehoyada_on_Kiddushin.62a"
+      },
+      "he": {
+        "discuss": "כיצד פסוקי הסוטה וההזאה מתיישבים לפי רבי מאיר ורבי חנינא בן גמליאל?",
+        "question": "מדוע היכולת לתלוש פירות יכולה להועיל להפרשת תרומה שתחול לאחר התלישה, ואילו מי שעתיד להתגייר אינו יכול לקדש עכשיו כדי שהקידושין יחולו לאחר גיורו?",
+        "reading": "רבא מפרש ״חרב״ כמלח גסה, פת שעורים קשה ובצלים. בן יהוידע נותן טעמים: אמרו חז״ל שמלח צריך בישול כבשר שור, ולכן מלח גסה קשה למעיים — יש לאכול מלח דק כקמח; ופת שעורים ראויה רק סמוך לאפייתה. ומוסיף שאותיות ״חרב״ מלאות עם נקוד הסגול הכפול עולות כמנין שלושת המאכלים עם הכולל. Ben Yehoyada on Kiddushin 62 · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897 https://www.sefaria.org/Ben_Yehoyada_on_Kiddushin.62a"
+      },
+      "revision": "14eb4afb2047ebb2a2c17b27b5c46803da8d9698ccbe38b8f35f4739beada925",
+      "sources": [
+        {
+          "en": "Kiddushin 62a",
+          "he": "קידושין ס״ב א",
+          "url": "https://www.sefaria.org/Kiddushin_62a"
+        },
+        {
+          "en": "Kiddushin 62b",
+          "he": "קידושין ס״ב ב",
+          "url": "https://www.sefaria.org/Kiddushin_62b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-63": {
+      "en": {
+        "discuss": "Which tanna'im hold that one can transfer what does not yet exist, and how is Rabbi Akiva excluded?",
+        "question": "When a man betroths a woman on condition that his father agree, do his words require an explicit yes, silence, or simply the absence of an objection?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 63. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 63a nor 63b is among them in the Senlake edition. The nearest comments are on Kiddushin 62 and Kiddushin 66."
+      },
+      "he": {
+        "discuss": "אילו תנאים סוברים שאדם מקנה דבר שלא בא לעולם, וכיצד מוצא רבי עקיבא מן הרשימה?",
+        "question": "כשאדם מקדש אישה ״על מנת שירצה אבא״, האם כוונתו שהאב יאמר הן, שישתוק בשעת שמיעה, או שלא ימחה?",
+        "reading": "לבן יהוידע אין פירוש על קידושין ס״ג. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין ס״ב ועל קידושין ס״ו."
+      },
+      "revision": "ad9c5707c3f0c1a600f013d7f999ea3d77f343e9088623ba6ab97f6d402a8534",
+      "sources": [
+        {
+          "en": "Kiddushin 63a",
+          "he": "קידושין ס״ג א",
+          "url": "https://www.sefaria.org/Kiddushin_63a"
+        },
+        {
+          "en": "Kiddushin 63b",
+          "he": "קידושין ס״ג ב",
+          "url": "https://www.sefaria.org/Kiddushin_63b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-64": {
+      "en": {
+        "discuss": "Why is the father believed about his minor daughter's betrothal and divorce, but not once she is grown?",
+        "question": "When a father with daughters from two marriages says “I betrothed my eldest daughter,” which daughters could he mean according to Rabbi Meir and Rabbi Yosei?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 64. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 64a nor 64b is among them in the Senlake edition. The nearest comments are on Kiddushin 62 and Kiddushin 66."
+      },
+      "he": {
+        "discuss": "מדוע האב נאמן על קידושי בתו הקטנה וגירושיה, אך לא כשהיא גדולה?",
+        "question": "כשאב שיש לו בנות משתי נשים אומר ״קידשתי את בתי הגדולה״, לאילו בנות יכול היה להתכוון לדעת רבי מאיר ולדעת רבי יוסי?",
+        "reading": "לבן יהוידע אין פירוש על קידושין ס״ד. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין ס״ב ועל קידושין ס״ו."
+      },
+      "revision": "9fc6d34604ca97ed5efe83530a4c32d56d1ea5d01efd493bffc50559bae46518",
+      "sources": [
+        {
+          "en": "Kiddushin 64a",
+          "he": "קידושין ס״ד א",
+          "url": "https://www.sefaria.org/Kiddushin_64a"
+        },
+        {
+          "en": "Kiddushin 64b",
+          "he": "קידושין ס״ד ב",
+          "url": "https://www.sefaria.org/Kiddushin_64b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-65": {
+      "en": {
+        "discuss": "Why does Abaye limit the dispute of Rabbi Meir and Rabbi Yosei to two groups of daughters?",
+        "question": "If he says “I betrothed you” and she denies it, why does his statement restrict whom he may marry without imposing a corresponding restriction on her?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 65. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 65a nor 65b is among them in the Senlake edition. The nearest comments are on Kiddushin 62 and Kiddushin 66."
+      },
+      "he": {
+        "discuss": "מדוע אביי מגביל את מחלוקת רבי מאיר ורבי יוסי לשתי כתי בנות?",
+        "question": "כשהוא אומר ״קידשתיך״ והיא מכחישה, מדוע דבריו אוסרים אותו בקרובותיה בלי לאסור אותה בקרוביו?",
+        "reading": "לבן יהוידע אין פירוש על קידושין ס״ה. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין ס״ב ועל קידושין ס״ו."
+      },
+      "revision": "dd14e76117681870f5b55c7417d051ae469076c627cedee4fafff7727a112b9a",
+      "sources": [
+        {
+          "en": "Kiddushin 65a",
+          "he": "קידושין ס״ה א",
+          "url": "https://www.sefaria.org/Kiddushin_65a"
+        },
+        {
+          "en": "Kiddushin 65b",
+          "he": "קידושין ס״ה ב",
+          "url": "https://www.sefaria.org/Kiddushin_65b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-66": {
+      "en": {
+        "discuss": "Why do Abaye and Rava disagree about one witness to a wife's adultery, and how do they read Mar Shmuel's ruling?",
+        "question": "Why is the Temple service a kohen already performed judged differently when he is discovered to be the son of a divorcée and when he is discovered to have a disqualifying blemish?",
+        "reading": "King Yannai's \"great joy\" came from thinking his own strength had won the victory; since it was not for the sake of Heaven, he stumbled into shedding the blood of the righteous, and the golden tables, rather than the wooden tables of the poor, show his pride. Elazar ben Po'ira is named by his father to hint that he opened (pa'ar) his mouth to inform on the Sages; Yehuda ben Gedidya's name hints at the \"cutting off\" that his words caused, and \"the crown of kingship suffices for you\" implies that even Yannai's kingship was rabbinically questionable, since kings should come from families fit to marry priests."
+      },
+      "he": {
+        "discuss": "מדוע אביי ורבא חלוקים בעד אחד על אשה שזינתה, וכיצד הם קוראים את פסק מר שמואל?",
+        "question": "מדוע שונה דינה של עבודה שכבר עשה כהן כשנודע שהוא בן גרושה מדינה כשנודע שהיה בעל מום?",
+        "reading": "״שמחה גדולה״ של ינאי באה מכך שחשב שכחו ועוצם ידו עשו לו את החיל הזה; ומשום שלא היתה לשם שמים נכשל בשפיכת דם צדיקים, והשולחנות של זהב, ולא של עץ כשל עניים, מעידים על גאוותו. אלעזר בן פועירא נזכר בשם אביו לרמוז שפער פיו להלשין על החכמים; ושם יהודה בן גדידיה רומז לכריתה שגרמו דבריו, ו״רב לך כתר מלכות״ משמע שגם המלכות שלו היתה מפוקפקת מדרבנן, שאין מעמידין מלך אלא מן המשיאין לכהונה."
+      },
+      "revision": "e78fdbae76bad9acd16b990f8938bcc79ae42d3aa457eef6c90a507a8db868d5",
+      "sources": [
+        {
+          "en": "Kiddushin 66a",
+          "he": "קידושין ס״ו א",
+          "url": "https://www.sefaria.org/Kiddushin_66a"
+        },
+        {
+          "en": "Kiddushin 66b",
+          "he": "קידושין ס״ו ב",
+          "url": "https://www.sefaria.org/Kiddushin_66b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-67": {
+      "en": {
+        "discuss": "Why does the case of a convert who married a mamzeret challenge the mishna's rule, and how is it answered?",
+        "question": "How does the Gemara use the case of a wife's sister to distinguish a forbidden union in which kiddushin take no effect from one in which they do?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 67. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 67a nor 67b is among them in the Senlake edition. The nearest comments are on Kiddushin 66 and Kiddushin 69."
+      },
+      "he": {
+        "discuss": "מדוע גר שנשא ממזרת מקשה על כלל המשנה, וכיצד מתורץ?",
+        "question": "כיצד לומדת הגמרא מדין אחות אישה להבחין בין איסור ערווה שבו אין קידושין תופסים לבין איסור שבו הקידושין תופסים?",
+        "reading": "לבן יהוידע אין פירוש על קידושין ס״ז. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין ס״ו ועל קידושין ס״ט."
+      },
+      "revision": "26ed36360d08b33004b029e906d76d4bfa09416756a5dc62678cbb13452b24d3",
+      "sources": [
+        {
+          "en": "Kiddushin 67a",
+          "he": "קידושין ס״ז א",
+          "url": "https://www.sefaria.org/Kiddushin_67a"
+        },
+        {
+          "en": "Kiddushin 67b",
+          "he": "קידושין ס״ז ב",
+          "url": "https://www.sefaria.org/Kiddushin_67b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-68": {
+      "en": {
+        "discuss": "Why are forbidden relations compared to a wife's sister rather than to a menstruating woman?",
+        "question": "How does Rabbi Shimon bar Yochai read the words “for he will turn your son away” to identify which grandchild the Torah calls “your son”?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 68. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 68a nor 68b is among them in the Senlake edition. The nearest comments are on Kiddushin 66 and Kiddushin 69."
+      },
+      "he": {
+        "discuss": "מדוע העריות מוקשות לאחות אשה ולא לנדה?",
+        "question": "כיצד דורש רבי שמעון בן יוחאי את המילים ״כי יסיר את בנך״ כדי לברר לאיזה נכד קוראת התורה ״בנך״?",
+        "reading": "לבן יהוידע אין פירוש על קידושין ס״ח. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין ס״ו ועל קידושין ס״ט."
+      },
+      "revision": "2d5a50ac73ef0e5faa0b49687cf45cc34c2fab2ac0b03173c6c4891bef42ede4",
+      "sources": [
+        {
+          "en": "Kiddushin 68a",
+          "he": "קידושין ס״ח א",
+          "url": "https://www.sefaria.org/Kiddushin_68a"
+        },
+        {
+          "en": "Kiddushin 68b",
+          "he": "קידושין ס״ח ב",
+          "url": "https://www.sefaria.org/Kiddushin_68b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-69": {
+      "en": {
+        "discuss": "How does Rabbi Tarfon propose to purify the descendants of a mamzer, and why is this meant initially?",
+        "question": "Why does the Mishnah introduce its ten categories of lineage by saying that they “came up from Babylonia,” and what difference does it make whether Ezra led them up or they came on their own?",
+        "reading": "How can the baraita learn both the Temple's height and the Land's from \"you shall arise and go up\"? Ben Yehoyada answers that the doubled wording is expounded: \"arise\" — going from a low place to a high one — teaches that the Land of Israel is higher than other lands, and \"go up\" that the Temple is higher than the Land. The Gemara preferred a different verse for the Land because the context, \"matters of dispute within your gates,\" speaks of those already in the Land."
+      },
+      "he": {
+        "discuss": "כיצד רבי טרפון מציע לטהר את צאצאי הממזר, ומדוע הכוונה לכתחילה?",
+        "question": "מדוע המשנה מציגה את עשרת היוחסין בלשון ״עלו מבבל״, ומה ההבדל בין הדעה שעזרא העלה אותם לבין הדעה שעלו מאליהם?",
+        "reading": "כיצד הברייתא לומדת את גובה המקדש ואת גובה הארץ שניהם מ״וקמת ועלית״? בן יהוידע משיב שהלשון הכפולה נדרשת: ״וקמת״ — הליכה ממקום שפל לגבוה — מלמד שארץ ישראל גבוהה מכל הארצות, ו״ועלית״ שהמקדש גבוה מן הארץ. הגמרא העדיפה פסוק אחר לגובה הארץ, משום שההקשר, ״דברי ריבת בשעריך״, עוסק במי שכבר נמצא בארץ."
+      },
+      "revision": "f1e5a0a2f69d17607595e0e0067bd6c24b70fa9de129a0bf9d2928aa7f6798aa",
+      "sources": [
+        {
+          "en": "Kiddushin 69a",
+          "he": "קידושין ס״ט א",
+          "url": "https://www.sefaria.org/Kiddushin_69a"
+        },
+        {
+          "en": "Kiddushin 69b",
+          "he": "קידושין ס״ט ב",
+          "url": "https://www.sefaria.org/Kiddushin_69b"
         }
       ]
     },
@@ -4911,6 +6186,256 @@
         }
       ]
     },
+    "cycle-15-kiddushin-70": {
+      "en": {
+        "discuss": "How do the names Tel Melah, Tel Harsha and Cherub-Addon-Immer serve as evidence for the lineages that came up?",
+        "question": "Why did Rav Yehudah take a man's habit of calling others slaves as a reason to question the man's own claim to distinguished ancestry?",
+        "reading": "\"One who marries a woman for money will have unfit children\": Ben Yehoyada notes that the final nun of mamon belongs to the letters mantzepakh, valued 300 (shin-tav), leaving the letters of mum, so mamon becomes \"shat mum\" — \"he set a blemish.\" And \"the new moon,\" thirty days, corresponds to the full spelling of the divine name Yah, which does not shine on such a marriage; his son Rabbi Ya'akov explains it as the standard thirty-day term of a loan."
+      },
+      "he": {
+        "discuss": "כיצד השמות תל מלח, תל חרשא וכרוב אדון אמר משמשים ראיה ליוחסין שעלו?",
+        "question": "מדוע ראה רב יהודה בהרגלו של אדם לכנות אחרים עבדים עילה לפקפק בטענתו על ייחוסו שלו?",
+        "reading": "״הנושא אשה לשם ממון הויין לו בנים שאינם מהוגנים״: בן יהוידע מעיר שנו״ן של ממון היא מאותיות מנצפ״ך שמספרן ש״ת, ונשארות אותיות ״מום״, ונמצא ״ממון״ נהפך ל״שת מום״. ו״חודש״, שלשים יום, כנגד מילוי שם י־ה שאינו מאיר בנישואין כאלה; ובנו רבי יעקב מפרש שזהו זמן סתם מלוה, שלשים יום."
+      },
+      "revision": "5e277a722c66048386a6b47b833ed4adfdb2faecd31d2676fb7fbbea7f1cbbce",
+      "sources": [
+        {
+          "en": "Kiddushin 70a",
+          "he": "קידושין ע׳ א",
+          "url": "https://www.sefaria.org/Kiddushin_70a"
+        },
+        {
+          "en": "Kiddushin 70b",
+          "he": "קידושין ע׳ ב",
+          "url": "https://www.sefaria.org/Kiddushin_70b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-71": {
+      "en": {
+        "discuss": "Why does the Gemara hold that an assimilated family remains assimilated, and how does this shape the Sages' silence?",
+        "question": "When Rav Yehudah hesitates to find a wife for his son because of uncertainty about ancestry, why does Ulla direct his attention to how people behave in a quarrel?",
+        "reading": "\"Money purifies mamzerim\": plainly, a mamzer purifies his offspring through a maidservant bought with his money, the purification being attributed to its cause. Ben Yehoyada also cites the Ashkenazi sages: brazenness is a sign of a mamzer, but if the brazen one is rich, the sign is lost, for people say \"the rich man answers boldly\" — so money covers for mamzerim."
+      },
+      "he": {
+        "discuss": "מדוע הגמרא סוברת שמשפחה שנטמעה נטמעה, וכיצד הדבר משפיע על שתיקת החכמים?",
+        "question": "כשרב יהודה מהסס להשיא את בנו מחמת ספק בייחוס, מדוע עולא מפנה את תשומת לבו להתנהגותם של אנשים בשעת מריבה?",
+        "reading": "״כסף מטהר ממזרים״: לפי הפשט, ממזר מטהר את זרעו בשפחה שהיא מקנת כספו, והטהרה נתלית במסבב, בכסף. בן יהוידע מביא גם בשם רבני אשכנז: עזות פנים סימן לממזר, אבל אם העז עשיר אבד הסימן, שיאמרו ״ועשיר יענה עזות״ — נמצא שהכסף מחפה על הממזרים."
+      },
+      "revision": "f0a6b52ddfaf384b70aba252ac6cba951a02139017614d64d6799ca39fc63a13",
+      "sources": [
+        {
+          "en": "Kiddushin 71a",
+          "he": "קידושין ע״א א",
+          "url": "https://www.sefaria.org/Kiddushin_71a"
+        },
+        {
+          "en": "Kiddushin 71b",
+          "he": "קידושין ע״א ב",
+          "url": "https://www.sefaria.org/Kiddushin_71b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-72": {
+      "en": {
+        "discuss": "How do the borders of Babylonia for lineage differ from those for divorce, according to Rav Pappa and Rav Yosef?",
+        "question": "How do Rabbi Yosei and Rabbi Meir read Yechezkel's promise of purification differently when asking whether the marriage restrictions on mamzerim will endure in the future?",
+        "reading": "Rabbi asked Levi to show him the Persians: they resemble the legions of David's house — Ben Yehoyada explains, as the Gemara says of David's troops, that they march one after another in orderly file, not in a disordered mass. The Ḥabbarin resemble destructive angels, which once given power do not distinguish righteous from wicked; and the Ishmaelites, who braid their hair like women, resemble the hairy demons of the outhouse."
+      },
+      "he": {
+        "discuss": "כיצד גבולות בבל ליוחסין שונים מגבולותיה לגיטין, לפי רב פפא ורב יוסף?",
+        "question": "כיצד קוראים רבי יוסי ורבי מאיר באופן שונה את הבטחת הטהרה שביחזקאל כשהם דנים אם איסורם של ממזרים לבוא בקהל יעמוד גם לעתיד לבוא?",
+        "reading": "רבי ביקש מלוי שיראהו את הפרסיים: הם דומים לחיילות של בית דוד — בן יהוידע מבאר, כפי שנאמר על חיילות דוד, שהולכים זה אחר זה בסדר נכון ולא בערבוביה. החברים דומים למלאכי חבלה, שמשניתנה להם רשות אינם מבחינים בין צדיק לרשע; והישמעאלים, הקולעים שערותיהם כנשים, דומים לשעירים של בית הכסא."
+      },
+      "revision": "c914b29dd2e504a0cd2d93eacba312acd2864ce7d77d579e2e0945507b928fb2",
+      "sources": [
+        {
+          "en": "Kiddushin 72a",
+          "he": "קידושין ע״ב א",
+          "url": "https://www.sefaria.org/Kiddushin_72a"
+        },
+        {
+          "en": "Kiddushin 72b",
+          "he": "קידושין ע״ב ב",
+          "url": "https://www.sefaria.org/Kiddushin_72b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-73": {
+      "en": {
+        "discuss": "How do Rabbi Yosei and Rabbi Yehuda count the \"congregations\" to decide whether a convert may marry a mamzeret?",
+        "question": "Why do signs that someone cared for a baby, such as oil on its skin or an amulet around its neck, matter when deciding whether it has the status of an asufi?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 73. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 73a nor 73b is among them in the Senlake edition. The nearest comments are on Kiddushin 72 and Kiddushin 76."
+      },
+      "he": {
+        "discuss": "כיצד רבי יוסי ורבי יהודה מונים את ה״קהלות״ כדי להכריע אם גר מותר בממזרת?",
+        "question": "מדוע סימנים לכך שמישהו טיפל בתינוק, כגון משיחת גופו בשמן או תליית קמיע עליו, משפיעים על ההכרעה אם דינו כאסופי?",
+        "reading": "לבן יהוידע אין פירוש על קידושין ע״ג. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין ע״ב ועל קידושין ע״ו."
+      },
+      "revision": "99c81ed31bc5a13f5bed22c03219fa915a9bcd4ef5df3eeb8e62a99fb82f4fa8",
+      "sources": [
+        {
+          "en": "Kiddushin 73a",
+          "he": "קידושין ע״ג א",
+          "url": "https://www.sefaria.org/Kiddushin_73a"
+        },
+        {
+          "en": "Kiddushin 73b",
+          "he": "קידושין ע״ג ב",
+          "url": "https://www.sefaria.org/Kiddushin_73b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-74": {
+      "en": {
+        "discuss": "Why are the seller and the judge believed only in limited circumstances?",
+        "question": "When the identity of a firstborn is in doubt, why does Rav Nachman set different time limits for accepting the word of the midwife, the mother, and the father?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 74. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 74a nor 74b is among them in the Senlake edition. The nearest comments are on Kiddushin 72 and Kiddushin 76."
+      },
+      "he": {
+        "discuss": "מדוע המוכר והדיין נאמנים רק בנסיבות מוגבלות?",
+        "question": "כשיש ספק מיהו הבכור, מדוע רב נחמן מבחין בין משך הזמן שבו נאמנת החיה, הזמן שבו נאמנת האם ונאמנותו של האב?",
+        "reading": "לבן יהוידע אין פירוש על קידושין ע״ד. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין ע״ב ועל קידושין ע״ו."
+      },
+      "revision": "fe7daaac1999c564334fb70948a922ecd1077090a8922662732d4fd17a4578d6",
+      "sources": [
+        {
+          "en": "Kiddushin 74a",
+          "he": "קידושין ע״ד א",
+          "url": "https://www.sefaria.org/Kiddushin_74a"
+        },
+        {
+          "en": "Kiddushin 74b",
+          "he": "קידושין ע״ד ב",
+          "url": "https://www.sefaria.org/Kiddushin_74b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-75": {
+      "en": {
+        "discuss": "How do the first tanna, Rabbi Yosei and Rabban Shimon ben Gamliel each learn from the High Priest and the widow?",
+        "question": "How can uncertainty about a family's priestly lineage affect whether a kohen may marry a widow from that family, and what difference does a double doubt make?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 75. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 75a nor 75b is among them in the Senlake edition. The nearest comments are on Kiddushin 72 and Kiddushin 76."
+      },
+      "he": {
+        "discuss": "כיצד התנא קמא, רבי יוסי ורבן שמעון בן גמליאל לומדים כל אחד מכהן גדול באלמנה?",
+        "question": "כיצד משפיע ספק חללות במשפחה על השאלה אם כהן רשאי לשאת אלמנה מאותה משפחה, ומה משנה קיומו של ספק ספיקא?",
+        "reading": "לבן יהוידע אין פירוש על קידושין ע״ה. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין ע״ב ועל קידושין ע״ו."
+      },
+      "revision": "77c38e803084b0dbb4215328deec5e4c220b2d7e485722a1987846170425b9b0",
+      "sources": [
+        {
+          "en": "Kiddushin 75a",
+          "he": "קידושין ע״ה א",
+          "url": "https://www.sefaria.org/Kiddushin_75a"
+        },
+        {
+          "en": "Kiddushin 75b",
+          "he": "קידושין ע״ה ב",
+          "url": "https://www.sefaria.org/Kiddushin_75b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-76": {
+      "en": {
+        "discuss": "What different reasons are given for forbidding marriage with Samaritans?",
+        "question": "Why may an inquiry into a family's priestly ancestry stop at an ancestor who served at the altar?",
+        "reading": "Why did the Gemara first think \"there is no blemish in you\" refers to lineage rather than a physical blemish? Because \"you are all fair\" already covers the body, so \"no blemish\" must add something — the flaw of mamzer status, mamzer being read as \"mum zar,\" a foreign blemish."
+      },
+      "he": {
+        "discuss": "אילו טעמים שונים ניתנים לאיסור החיתון בכותים?",
+        "question": "מדוע אפשר להפסיק את בדיקת ייחוסה של משפחת כהונה כשמגיעים לאב קדמון שעבד על גבי המזבח?",
+        "reading": "מדוע סברה הגמרא תחילה ש״ומום אין בך״ עוסק ביוחסין ולא במום ממש? משום ש״כולך יפה״ כבר כולל את הגוף, ולכן ״ומום אין בך״ מוסיף דבר — פסול ממזרות, ו״ממזר״ נוטריקון ״מום זר״."
+      },
+      "revision": "1f80ecd7aa03f5c3fc6f285bc2aced1969cecf59ef6fbf097f2e4581bc68a830",
+      "sources": [
+        {
+          "en": "Kiddushin 76a",
+          "he": "קידושין ע״ו א",
+          "url": "https://www.sefaria.org/Kiddushin_76a"
+        },
+        {
+          "en": "Kiddushin 76b",
+          "he": "קידושין ע״ו ב",
+          "url": "https://www.sefaria.org/Kiddushin_76b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-77": {
+      "en": {
+        "discuss": "Why is a ḥalal's daughter unfit forever, while a ḥalala's daughter is fit?",
+        "question": "Why may the daughter of an Israelite man and a chalalah marry a kohen, while the daughter of a chalal and an Israelite woman may not?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 77. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 77a nor 77b is among them in the Senlake edition. The nearest comments are on Kiddushin 76 and Kiddushin 81."
+      },
+      "he": {
+        "discuss": "מדוע בת חלל פסולה לעולם, ואילו בת חללה כשרה?",
+        "question": "מדוע בתם של ישראל וחללה כשרה להינשא לכהן, ואילו בתם של חלל ובת ישראל פסולה לכהונה?",
+        "reading": "לבן יהוידע אין פירוש על קידושין ע״ז. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין ע״ו ועל קידושין פ״א."
+      },
+      "revision": "eeb122e3f9ec0702407b62cda3b4604228ca323bbf94588894ccb481655c27e9",
+      "sources": [
+        {
+          "en": "Kiddushin 77a",
+          "he": "קידושין ע״ז א",
+          "url": "https://www.sefaria.org/Kiddushin_77a"
+        },
+        {
+          "en": "Kiddushin 77b",
+          "he": "קידושין ע״ז ב",
+          "url": "https://www.sefaria.org/Kiddushin_77b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-78": {
+      "en": {
+        "discuss": "How do Abaye and Rava differ on whether betrothal alone makes a High Priest liable for marrying a widow?",
+        "question": "Does the Torah's authority for a father to identify his firstborn also make him credible when he declares his son disqualified by lineage?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 78. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 78a nor 78b is among them in the Senlake edition. The nearest comments are on Kiddushin 76 and Kiddushin 81."
+      },
+      "he": {
+        "discuss": "כיצד אביי ורבא חלוקים אם קידושין לבדם מחייבים כהן גדול באלמנה?",
+        "question": "האם הנאמנות שנתנה התורה לאב להכיר בבנו הבכור מקנה לו גם נאמנות לפסול את בנו לעניין יוחסין?",
+        "reading": "לבן יהוידע אין פירוש על קידושין ע״ח. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין ע״ו ועל קידושין פ״א."
+      },
+      "revision": "926257d34f859859df6b22ac124bdb300de964ca2319cde85f6840fe78a850e2",
+      "sources": [
+        {
+          "en": "Kiddushin 78a",
+          "he": "קידושין ע״ח א",
+          "url": "https://www.sefaria.org/Kiddushin_78a"
+        },
+        {
+          "en": "Kiddushin 78b",
+          "he": "קידושין ע״ח ב",
+          "url": "https://www.sefaria.org/Kiddushin_78b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-79": {
+      "en": {
+        "discuss": "Why are both the father's and the woman's case of competing betrothals needed?",
+        "question": "A father arranged kiddushin for his daughter on the road while she accepted kiddushin in town. Can signs of maturity found later that day establish who had authority that morning?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 79. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 79a nor 79b is among them in the Senlake edition. The nearest comments are on Kiddushin 76 and Kiddushin 81."
+      },
+      "he": {
+        "discuss": "מדוע נדרשים גם דין האב וגם דין האשה בקידושין מתחרים?",
+        "question": "אב קידש את בתו בדרך והיא קידשה את עצמה בעיר. האם סימני בגרות שנמצאו בה בהמשך אותו יום יכולים להכריע בידי מי הייתה הסמכות בבוקר?",
+        "reading": "לבן יהוידע אין פירוש על קידושין ע״ט. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין ע״ו ועל קידושין פ״א."
+      },
+      "revision": "1fa27eb114b5ec35a40d5f292ce03ea4c7190289dcc3d5755626f5449b626d72",
+      "sources": [
+        {
+          "en": "Kiddushin 79a",
+          "he": "קידושין ע״ט א",
+          "url": "https://www.sefaria.org/Kiddushin_79a"
+        },
+        {
+          "en": "Kiddushin 79b",
+          "he": "קידושין ע״ט ב",
+          "url": "https://www.sefaria.org/Kiddushin_79b"
+        }
+      ]
+    },
     "cycle-15-kiddushin-8": {
       "en": {
         "discuss": "Why might goods worth enough still fail to betroth if their value is not fixed, according to Rav Yosef?",
@@ -4933,6 +6458,81 @@
           "en": "Kiddushin 8b",
           "he": "קידושין ח׳ ב",
           "url": "https://www.sefaria.org/Kiddushin_8b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-80": {
+      "en": {
+        "discuss": "How far does a presumption of family reach, according to Rabbi Yoḥanan and Reish Lakish?",
+        "question": "When children are seen clinging to a woman as their mother, for which purposes may a court rely on that relationship without further proof?",
+        "reading": "Ben Yehoyada writes no comment on Kiddushin 80. His commentary on this tractate addresses only selected, mostly aggadic passages, and neither 80a nor 80b is among them in the Senlake edition. The nearest comments are on Kiddushin 76 and Kiddushin 81."
+      },
+      "he": {
+        "discuss": "עד היכן מגיעה חזקת המשפחה, לפי רבי יוחנן וריש לקיש?",
+        "question": "כשרואים ילדים כרוכים אחר אישה כאמם, לאילו עניינים רשאי בית דין לסמוך על חזקה זו בלי ראיה נוספת?",
+        "reading": "לבן יהוידע אין פירוש על קידושין פ׳. פירושו למסכת זו עוסק רק בקטעים נבחרים, רובם אגדתיים, ובמהדורת סנלייק אין בהם לא עמוד א ולא עמוד ב של דף זה. הפירושים הקרובים ביותר הם על קידושין ע״ו ועל קידושין פ״א."
+      },
+      "revision": "eb5364419e0a4c040e46a8726879168216eaa40dc452904bc2e9ccbb636c28cd",
+      "sources": [
+        {
+          "en": "Kiddushin 80a",
+          "he": "קידושין פ׳ א",
+          "url": "https://www.sefaria.org/Kiddushin_80a"
+        },
+        {
+          "en": "Kiddushin 80b",
+          "he": "קידושין פ׳ ב",
+          "url": "https://www.sefaria.org/Kiddushin_80b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-81": {
+      "en": {
+        "discuss": "What practical arrangements does the Gemara give to avoid forbidden seclusion?",
+        "question": "Why does Rav distinguish between a woman traveling with two men on the road and a woman in their company in town when applying the rules of yichud?",
+        "reading": "Rabbi Meir and Rabbi Akiva mocked sinners, implying that overcoming the inclination is easy and belittling the righteous and penitents who struggled. Heaven therefore let Satan show them the inclination's force — and as a woman's appearance only, not a real woman, so that even after the miraculous rescue they would not have sinned by gazing at a real woman. Rabbi Akiva's story, though he was the teacher, comes second because he surely told his students what happened to him, as he had mocked before them."
+      },
+      "he": {
+        "discuss": "אילו סידורים מעשיים נותנת הגמרא כדי להימנע מייחוד אסור?",
+        "question": "מדוע רב מבחין בדיני ייחוד בין אישה ההולכת בדרך עם שני אנשים לבין אישה הנמצאת בחברתם בעיר?",
+        "reading": "רבי מאיר ורבי עקיבא היו מתלוצצים בעוברי עבירה, וכאילו הראו שקל לאדם להתגבר על יצרו, והקטינו את מעלת הצדיקים ובעלי התשובה שנלחמו בו. לכן הניחו משמים לשטן להראות להם את תוקף היצר — ובדמות אשה בלבד ולא באשה ממש, כדי שגם לאחר ההצלה בנס לא ייכשלו בהסתכלות באשה ממש. מעשה רבי עקיבא, אף שהיה הרב, בא שני, משום שבוודאי סיפר לתלמידיו מה שקרה לו, שהרי לפניהם התלוצץ."
+      },
+      "revision": "9ea45d29ab93c5e4ebba050fc642a0788da37f36b910fde2a07e6ffc76f1bce6",
+      "sources": [
+        {
+          "en": "Kiddushin 81a",
+          "he": "קידושין פ״א א",
+          "url": "https://www.sefaria.org/Kiddushin_81a"
+        },
+        {
+          "en": "Kiddushin 81b",
+          "he": "קידושין פ״א ב",
+          "url": "https://www.sefaria.org/Kiddushin_81b"
+        }
+      ]
+    },
+    "cycle-15-kiddushin-82": {
+      "en": {
+        "discuss": "Why may a bachelor or a woman not teach children, and how do Rabbi Elazar and Rabbi Yehuda extend this?",
+        "question": "Why does Rabbi Meir advise a father to teach his son a clean and easy trade, while Rabbi Nehorai chooses to teach his son only Torah?",
+        "reading": "\"No trade lacks poverty and wealth\": in times without prosperity craftsmen sit idle and lower their wages by half and still find no work, while in good times, when people profit from commerce and fields, they bring work to craftsmen and they grow rich. \"The best of doctors to Gehenna\": an unskilled doctor gives mild remedies that, if they do not help, will not harm; the expert relies on himself and gives sharp, strong drugs to fight the illness, and at times errs in the dose."
+      },
+      "he": {
+        "discuss": "מדוע לא ילמד רווק או אשה תינוקות, וכיצד מרחיבים זאת רבי אלעזר ורבי יהודה?",
+        "question": "מדוע רבי מאיר מייעץ לאב ללמד את בנו אומנות נקייה וקלה, ואילו רבי נהוראי בוחר ללמד את בנו תורה בלבד?",
+        "reading": "״אין אומנות שאין בה עניות ועשירות״: בזמן שאין הרווחה האומנים בטלים ומוזילים בשכרם חצי הערך ועדיין אין להם עסק, ובזמן הרווחה, כשבני אדם מרויחים במשא ומתן ובשדות, מביאים מלאכה לאומנים והם מתעשרים. ״טוב שברופאים לגיהנם״: רופא שאינו מומחה נותן סמים קלים, שאם לא יועילו לא יזיקו; המומחה סומך על דעתו ונותן סמים חריפים ותקיפים להילחם בחולי, ולפעמים שוגה בשיעור."
+      },
+      "revision": "22f3673da0bd0d9af15f8792c945a789a28cc243231de10724ef92f2979338a6",
+      "sources": [
+        {
+          "en": "Kiddushin 82a",
+          "he": "קידושין פ״ב א",
+          "url": "https://www.sefaria.org/Kiddushin_82a"
+        },
+        {
+          "en": "Kiddushin 82b",
+          "he": "קידושין פ״ב ב",
+          "url": "https://www.sefaria.org/Kiddushin_82b"
         }
       ]
     },
