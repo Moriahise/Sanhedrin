@@ -30,8 +30,8 @@
     }
   },
   "2026-W48": {
-    "daf_editions": 1895,
-    "daf_with_related_qa": 1583,
+    "daf_editions": 2011,
+    "daf_with_related_qa": 1639,
     "feed_entries": {
       "en": 4,
       "he": 4
@@ -49,7 +49,7 @@
         "he": true
       }
     },
-    "sitemap_urls": 423,
+    "sitemap_urls": 551,
     "voluntary_reports_week_to_date": {
       "repeat_session_reports": 0,
       "session_reports": 0
