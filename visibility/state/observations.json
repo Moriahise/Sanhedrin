@@ -20,6 +20,36 @@
       }
     },
     "sitemap_urls": 423,
+    "voluntary_reports_full_week": {
+      "repeat_session_reports": 0,
+      "session_reports": 0
+    },
+    "voluntary_reports_week_to_date": {
+      "repeat_session_reports": 0,
+      "session_reports": 0
+    }
+  },
+  "2026-W48": {
+    "daf_editions": 1895,
+    "daf_with_related_qa": 1583,
+    "feed_entries": {
+      "en": 4,
+      "he": 4
+    },
+    "learning_pages": 12,
+    "observed_date_has_daf": true,
+    "observed_on": "2026-11-23",
+    "public_links": {
+      "moriah": {
+        "en": true,
+        "he": true
+      },
+      "shiurim": {
+        "en": true,
+        "he": true
+      }
+    },
+    "sitemap_urls": 423,
     "voluntary_reports_week_to_date": {
       "repeat_session_reports": 0,
       "session_reports": 0

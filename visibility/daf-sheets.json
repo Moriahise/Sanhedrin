@@ -1641,6 +1641,31 @@
         }
       ]
     },
+    "cycle-14-arakhin-8": {
+      "en": {
+        "discuss": "Why are all five sela’im bound to the first valuation?",
+        "question": "What do the Mishna’s lists of “no less and no more” teach in valuations, purity, plagues and the calendar?",
+        "reading": "If he gave four to the first and one to the second, he fulfilled the second but not the first, since all were bound to the first. Rav Adda bar Ahava asks: with five sela’im, if he pledged two valuations at once, does he give two and a half to each, or is all fit for each? It remains unresolved. The repetition of the limits teaches that more than a sela and less than fifty are possible, following the Sages."
+      },
+      "he": {
+        "discuss": "מדוע כל חמש הסלעים משועבדות לערך הראשון?",
+        "question": "מה מלמדות רשימות \"אין פחות ולא יתר\" במשנה בערכין, בטהרה, בנגעים ובלוח?",
+        "reading": "נתן ארבע לראשונה ואחת לשנייה, ידי שנייה יצא וידי ראשונה לא יצא, שכולהו משעבדן לראשונה. רב אדא בר אהבה שואל: היו בידו חמש סלעים ואמר \"שני ערכי עלי\" בבת אחת, האם נותן שתיים ומחצה לכל אחד, או שכולן ראויות לזה ולזה? תיקו. שניית הגבולות מלמדת שיש יתר על סלע ופחות מחמשים, וסתמא כרבנן."
+      },
+      "revision": "5f301b5ae675332dd5f73f40bf030509931b526e39a156ab3436adfcabcc68db",
+      "sources": [
+        {
+          "en": "Arakhin 8a",
+          "he": "ערכין ח׳ א",
+          "url": "https://www.sefaria.org/Arakhin_8a"
+        },
+        {
+          "en": "Arakhin 8b",
+          "he": "ערכין ח׳ ב",
+          "url": "https://www.sefaria.org/Arakhin_8b"
+        }
+      ]
+    },
     "cycle-14-bekhorot-61": {
       "en": {
         "discuss": "How do the three baraitot reflect different views on disqualified sacrifices?",
@@ -1961,6 +1986,231 @@
         }
       ]
     },
+    "cycle-15-bava-kamma-21": {
+      "en": {
+        "discuss": "Why does the distinction between a courtyard \"for rent\" and \"not for rent\" reconcile Rav's rulings?",
+        "question": "When an animal turns its head from the public square to eat, what separates payment for the food it enjoyed from payment for the damage it caused?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 21. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 17a (opening words «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») and on Daf 30a (opening words «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "he": {
+        "discuss": "מדוע ההבחנה בין חצר דקיימא לאגרא לחצר דלא קיימא לאגרא מיישבת את פסקי רב?",
+        "question": "כשבהמה מטה את ראשה מרחבה ציבורית כדי לאכול, מה קובע אם בעליה משלם את מה שנהנתה או את מה שהזיקה?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא כ״א. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף י״ז א (בדיבור המתחיל «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») ובדף ל׳ א (בדיבור המתחיל «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "revision": "8e07d3bbad8fc8eb6302258ae11f1b881ec69cf1097ddd139b1db97957a66b31",
+      "sources": [
+        {
+          "en": "Bava Kamma 21a",
+          "he": "בבא קמא כ״א א",
+          "url": "https://www.sefaria.org/Bava_Kamma_21a"
+        },
+        {
+          "en": "Bava Kamma 21b",
+          "he": "בבא קמא כ״א ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_21b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-22": {
+      "en": {
+        "discuss": "What is each sage's objection to the other's model of fire?",
+        "question": "A dog carries a burning cake to a haystack. What does it mean to hold someone liable for the spreading fire as his arrows or as his property?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 22. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 17a (opening words «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») and on Daf 30a (opening words «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "he": {
+        "discuss": "מה הקושיה של כל חכם על תפיסת חברו באש?",
+        "question": "כלב נוטל חררה בוערת ומוליכה לגדיש. מה פירוש החיוב על האש המתפשטת משום חציו או משום ממונו?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא כ״ב. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף י״ז א (בדיבור המתחיל «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») ובדף ל׳ א (בדיבור המתחיל «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "revision": "ea0df632b968e0c316a9d55b108421a9b071091d5ebb43566a07d71bdb5cf516",
+      "sources": [
+        {
+          "en": "Bava Kamma 22a",
+          "he": "בבא קמא כ״ב א",
+          "url": "https://www.sefaria.org/Bava_Kamma_22a"
+        },
+        {
+          "en": "Bava Kamma 22b",
+          "he": "בבא קמא כ״ב ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_22b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-23": {
+      "en": {
+        "discuss": "How does the view that fire is both \"arrows\" and \"property\" solve the problem of hidden items?",
+        "question": "If a fire could not originally cross a barrier, what duty can remain when the barrier falls and the flames spread?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 23. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 17a (opening words «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») and on Daf 30a (opening words «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "he": {
+        "discuss": "כיצד השיטה שאשו משום חציו וגם משום ממונו פותרת את בעיית הטמון?",
+        "question": "אם בתחילה לא הייתה האש יכולה לעבור את הגדר, איזה חיוב עשוי להישאר כשנופלת הגדר והאש מתפשטת?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא כ״ג. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף י״ז א (בדיבור המתחיל «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») ובדף ל׳ א (בדיבור המתחיל «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "revision": "b638fc79f79393eee9c4e64dd370c13c8b1c70ee3bc4dadd856c0d75aec59109",
+      "sources": [
+        {
+          "en": "Bava Kamma 23a",
+          "he": "בבא קמא כ״ג א",
+          "url": "https://www.sefaria.org/Bava_Kamma_23a"
+        },
+        {
+          "en": "Bava Kamma 23b",
+          "he": "בבא קמא כ״ג ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_23b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-24": {
+      "en": {
+        "discuss": "How does Rabbi Meir use the verses of zav and zava to defend counting by times?",
+        "question": "Do three gorings establish a pattern in the ox, or must they also give its owner three opportunities to take warning?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 24. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 17a (opening words «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») and on Daf 30a (opening words «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "he": {
+        "discuss": "כיצד משתמש רבי מאיר בפסוקי זב וזבה כדי להגן על המנייה בפעמים?",
+        "question": "האם שלוש נגיחות קובעות הרגל של השור, או שעליהן גם להעמיד את בעליו על הסכנה בשלושה מועדים נפרדים?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא כ״ד. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף י״ז א (בדיבור המתחיל «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») ובדף ל׳ א (בדיבור המתחיל «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "revision": "6d034a7cae9c2c9ea604a91296611ac220b80a4db40a5ca0b745a3156b042584",
+      "sources": [
+        {
+          "en": "Bava Kamma 24a",
+          "he": "בבא קמא כ״ד א",
+          "url": "https://www.sefaria.org/Bava_Kamma_24a"
+        },
+        {
+          "en": "Bava Kamma 24b",
+          "he": "בבא קמא כ״ד ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_24b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-25": {
+      "en": {
+        "discuss": "Why does \"it is sufficient\" work with Miriam but nullify Rabbi Tarfon's argument in damages?",
+        "question": "When Rabbi Tarfon argues for full damages for goring in the injured party's courtyard, how far does the principle of dayo let the inference reach?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 25. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 17a (opening words «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») and on Daf 30a (opening words «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "he": {
+        "discuss": "מדוע \"דיו\" פועל במרים אך מבטל את טיעון רבי טרפון בנזיקין?",
+        "question": "כשרבי טרפון לומד בקל וחומר שנגיחה בחצר הניזק מחייבת נזק שלם, איזה גבול מציב ללימוד הכלל ״דיו לבא מן הדין להיות כנדון״?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא כ״ה. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף י״ז א (בדיבור המתחיל «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») ובדף ל׳ א (בדיבור המתחיל «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "revision": "f074d3c020eda17e51b9f83d86eff9843d55d0d2cf30b79ba18f9f6bd3e8a05c",
+      "sources": [
+        {
+          "en": "Bava Kamma 25a",
+          "he": "בבא קמא כ״ה א",
+          "url": "https://www.sefaria.org/Bava_Kamma_25a"
+        },
+        {
+          "en": "Bava Kamma 25b",
+          "he": "בבא קמא כ״ה ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_25b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-26": {
+      "en": {
+        "discuss": "Why does the Gemara keep answering a fortiori arguments with specific verses rather than with logic?",
+        "question": "Why can a person owe damages for a stone that fell unnoticed from his clothing even when the same lack of awareness matters for Shabbat or exile?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 26. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 17a (opening words «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») and on Daf 30a (opening words «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "he": {
+        "discuss": "מדוע הגמרא עונה שוב ושוב על קל וחומר בפסוקים מסוימים ולא בסברה?",
+        "question": "מדוע אדם עשוי להתחייב בנזיקין על אבן שנפלה מבגדו בלי שידע עליה, אף שלעניין שבת או גלות יש משמעות לחוסר הידיעה?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא כ״ו. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף י״ז א (בדיבור המתחיל «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») ובדף ל׳ א (בדיבור המתחיל «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "revision": "0aa0d433f5efa75f20532d9276d2371be3662a304f0fed1b6f6f0401d8599b94",
+      "sources": [
+        {
+          "en": "Bava Kamma 26a",
+          "he": "בבא קמא כ״ו א",
+          "url": "https://www.sefaria.org/Bava_Kamma_26a"
+        },
+        {
+          "en": "Bava Kamma 26b",
+          "he": "בבא קמא כ״ו ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_26b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-27": {
+      "en": {
+        "discuss": "How does Rabba distinguish between an unusual and an ordinary wind regarding the four payments and humiliation?",
+        "question": "If a jug blocks a public path, what difference is there between stumbling over it and breaking it deliberately to get through?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 27. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 17a (opening words «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») and on Daf 30a (opening words «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "he": {
+        "discuss": "כיצד מבחין רבה בין רוח שאינה מצויה לרוח מצויה לענין ארבעה דברים ובושת?",
+        "question": "אם כד חוסם דרך ציבורית, מה ההבדל בין מי שנתקל בו ושברו ובין מי ששוברו במכוון כדי לעבור?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא כ״ז. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף י״ז א (בדיבור המתחיל «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») ובדף ל׳ א (בדיבור המתחיל «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "revision": "8056ba3201a56823569e5b26bbb5d78a78c2f6a3b5cc1772b4a010f54ff924bf",
+      "sources": [
+        {
+          "en": "Bava Kamma 27a",
+          "he": "בבא קמא כ״ז א",
+          "url": "https://www.sefaria.org/Bava_Kamma_27a"
+        },
+        {
+          "en": "Bava Kamma 27b",
+          "he": "בבא קמא כ״ז ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_27b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-28": {
+      "en": {
+        "discuss": "How does the distinction between loss and no loss guide the evaluation of every proof about self-help?",
+        "question": "When may a person act to protect his own property before going to court, and what if he could avert the loss with less harm?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 28. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 17a (opening words «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») and on Daf 30a (opening words «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "he": {
+        "discuss": "כיצד ההבחנה בין פסידא ללא פסידא מנחה את בחינת כל ראיה בעשיית דין לעצמו?",
+        "question": "מתי רשאי אדם להגן בעצמו על רכושו לפני פנייה לבית דין, ומה הדין אם יכול היה למנוע את ההפסד בפגיעה קטנה יותר?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא כ״ח. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף י״ז א (בדיבור המתחיל «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») ובדף ל׳ א (בדיבור המתחיל «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "revision": "4b684085c37f730b09ec03d56d18df0f2e5699ff2ef232827db6e73c440afaf7",
+      "sources": [
+        {
+          "en": "Bava Kamma 28a",
+          "he": "בבא קמא כ״ח א",
+          "url": "https://www.sefaria.org/Bava_Kamma_28a"
+        },
+        {
+          "en": "Bava Kamma 28b",
+          "he": "בבא קמא כ״ח ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_28b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-29": {
+      "en": {
+        "discuss": "What two moments does Abaye identify in the dispute, and what question belongs to each?",
+        "question": "If a jug breaks in the road, how does liability at the instant of the fall differ from liability for the shards left afterward?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 29. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 17a (opening words «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») and on Daf 30a (opening words «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "he": {
+        "discuss": "אילו שני רגעים מזהה אביי במחלוקת, ואיזו שאלה שייכת לכל אחד?",
+        "question": "כשכד נשבר בדרך, במה שונה האחריות בשעת הנפילה מן האחריות לחרסים שנשארו אחריה?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא כ״ט. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף י״ז א (בדיבור המתחיל «\"וכבוד עשו לו במותו\", זה חזקיה מלך …») ובדף ל׳ א (בדיבור המתחיל «האי מאן דבעי למיהוי חסידא, ליקים מילי …»)."
+      },
+      "revision": "5383fa5e03ca4f20ae442528f00ed2e10bb2895978901af3c87473f4f0341de7",
+      "sources": [
+        {
+          "en": "Bava Kamma 29a",
+          "he": "בבא קמא כ״ט א",
+          "url": "https://www.sefaria.org/Bava_Kamma_29a"
+        },
+        {
+          "en": "Bava Kamma 29b",
+          "he": "בבא קמא כ״ט ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_29b"
+        }
+      ]
+    },
     "cycle-15-bava-kamma-3": {
       "en": {
         "discuss": "Why does the Gemara insist that each of the two verbs, \"and he sends forth\" and \"and it consumes,\" needs its own supporting verse?",
@@ -1983,6 +2233,256 @@
           "en": "Bava Kamma 3b",
           "he": "בבא קמא ג׳ ב",
           "url": "https://www.sefaria.org/Bava_Kamma_3b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-30": {
+      "en": {
+        "discuss": "Why does Rabbi Yoḥanan distinguish between protruding and flush thorns?",
+        "question": "Why may passersby acquire straw left in the street, and does the penalty extend to the straw itself or only to the value it gains there?",
+        "reading": "Ben Yehoyada reads the three versions of \"one who wishes to be pious should fulfill...\" as three disciplines of speech and character. \"Matters of damages,\" he explains, include damage done by words: \"a covenant is made with the lips,\" and careless speech can kill, as in the story of Rabbi Yannai and Yehuda son of Rabbi Ḥiyya, or Pinḥas's remark to Mar Shmuel that brought mourning upon him. The pious guard their mouths from causing harm. \"Matters of the Fathers\" means speaking with humility as the patriarchs did: Avraham called passing strangers \"my lords\" and himself \"your servant,\" Yaakov called lowly shepherds \"my brothers,\" and both described themselves as dust and as unworthy. \"Matters of Blessings,\" following the Ya'arot Devash, means living out the words of the Amida: \"open my lips\" — speak only praise and truth; \"who bestows kindness\" — do kindness; \"who revives the dead... heals the sick and frees the captive\" — act on these as far as one can; \"holy\" — sanctify oneself; \"who graciously grants knowledge\" — teach others. Ben Yehoyada on Bava Kamma 30a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע רבי יוחנן מבחין בין קוצים מופלגין למצמצמין?",
+        "question": "מדוע רשאים עוברי דרך לזכות בתבן שהונח ברחוב, והאם הקנס חל על התבן עצמו או רק על השבח שהשביח שם?",
+        "reading": "בן יהוידע קורא את שלוש הלשונות של \"מאן דבעי למהוי חסידא ליקיים...\" כשלוש משמעות של דיבור ומידות. \"מילי דנזיקין\", הוא מבאר, כוללים נזק הנעשה בדיבור: \"ברית כרותה לשפתים\", ודיבור שאינו מדוקדק יכול להרוג, כבמעשה רבי ינאי ויהודה בנו של רבי חייא, או בדברי פנחס למר שמואל שגרמו לו אבלות. החסיד שומר את פיו מלגרום נזק. \"מילי דאבות\" — לדבר בענוה כדרך האבות: אברהם קרא לעוברי דרך \"עבדכם\" עוד בטרם ידע שהם מלאכים, יעקב קרא לרועים הבזויים \"אחי\", ושניהם תיארו את עצמם כעפר ואפר וכקטנים מכל החסדים. \"מילי דברכות\", על פי היערות דבש, פירושו לקיים בעצמו את דברי העמידה: \"ה' שפתי תפתח\" — שלא לדבר אלא תהלות ואמת; \"גומל חסדים\" — לגמול חסד; \"מחיה מתים, רופא חולים ומתיר אסורים\" — לעשות כן כפי יכולתו; \"קדוש\" — לקדש עצמו; \"חונן הדעת\" — ללמד דעת לבני אדם. Ben Yehoyada on Bava Kamma 30a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "58f707da4c082423d5d54ee1a3f4f9f25141627d3329eacfb19c590e757a4307",
+      "sources": [
+        {
+          "en": "Bava Kamma 30a",
+          "he": "בבא קמא ל׳ א",
+          "url": "https://www.sefaria.org/Bava_Kamma_30a"
+        },
+        {
+          "en": "Bava Kamma 30b",
+          "he": "בבא קמא ל׳ ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_30b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-31": {
+      "en": {
+        "discuss": "Why does Rabbi Yoḥanan insist the potters' mishnah can follow even the Rabbis?",
+        "question": "When potters fall one after another on the road, when must the one who fell get up, and when is warning the next person enough?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 31. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 30a (opening words «האי מאן דבעי למיהוי חסידא, ליקים מילי …») and on Daf 32a (opening words «מאי 'ברשות' איכא? כדרבי חנינא, דאמר רבי …»)."
+      },
+      "he": {
+        "discuss": "מדוע מתעקש רבי יוחנן שמשנת הקדרים יכולה להיות אפילו כרבנן?",
+        "question": "כשקדרים נופלים בזה אחר זה בדרך, מתי חייב הנופל לקום ומתי די שיזהיר את הבא אחריו?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ל״א. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ל׳ א (בדיבור המתחיל «האי מאן דבעי למיהוי חסידא, ליקים מילי …») ובדף ל״ב א (בדיבור המתחיל «מאי 'ברשות' איכא? כדרבי חנינא, דאמר רבי …»)."
+      },
+      "revision": "a133e242e5e2ee5800676658cd82b8a08dc441310aa81614e5dbc9de93eff33b",
+      "sources": [
+        {
+          "en": "Bava Kamma 31a",
+          "he": "בבא קמא ל״א א",
+          "url": "https://www.sefaria.org/Bava_Kamma_31a"
+        },
+        {
+          "en": "Bava Kamma 31b",
+          "he": "בבא קמא ל״א ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_31b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-32": {
+      "en": {
+        "discuss": "How does Rava distinguish injury between spouses from the mishnah's two people walking with permission?",
+        "question": "Why does running on the eve of Shabbat change the ruling when a runner collides with someone who is walking?",
+        "reading": "Ben Yehoyada focuses on Rabbi Ḥanina's \"come, let us go out to greet the bride, the queen.\" Following the Arizal, he reads \"go out\" as going outside the city into the field, not merely receiving Shabbat at home; otherwise why would one running on Shabbat eve be exempt for damage, as running \"with permission\"? And why must one run? Because going out to the field is the greater mitzva, and one should always run to a mitzva — as one runs to the synagogue. On \"come,\" he explains that Rabbi Ḥanina gathered people as he walked, to bring merit to others and to have a minyan. He adds a numerical reading: the name אהי״ה spelled with yods equals 161, and ישראל equals 541; together they total 702, the value of שבת — so \"come, let us go out\" means: your number and mine together meet Shabbat, echoing the midrash that Israel is Shabbat's partner. On Rabbi Yannai's \"come, bride\" said twice aloud, while the Arizal adds a third time silently, he explains: twice aloud for deed and speech, which are revealed, and once silently for thought, which is hidden. Ben Yehoyada on Bava Kamma 32a, Ben Yehoyada on Bava Kamma 32b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד רבא מבחין בין חבלה בין בני זוג לבין שני ההולכים ברשות שבמשנה?",
+        "question": "מדוע הריצה בערב שבת משנה את הדין כשרץ מתנגש באדם ההולך כדרכו?",
+        "reading": "בן יהוידע מתמקד בדברי רבי חנינא \"בואו ונצא לקראת כלה מלכתא\". בעקבות האר״י הוא קורא \"ונצא\" כיציאה מחוץ לעיר אל השדה, ולא קבלת שבת בבית בלבד; שאם לא כן, מדוע ייפטר הרץ בערב שבת מנזקים כ\"רץ ברשות\"? ולמה צריך לרוץ? משום שהיציאה לשדה היא מצוה גדולה יותר, ולעולם ירוץ אדם לדבר מצוה — כמו שרצים לבית הכנסת. על \"בואו\" הוא מבאר שרבי חנינא היה מקבץ אנשים בדרכו, כדי לזכות את הרבים וכדי שיהיה עמו מנין. ועוד רמז במספר: שם אהי״ה דיודין עולה קס״א, וישראל עולה תקמ״א; יחד הם תש״ב, כמניין שבת — וזהו \"בואו ונצא\": המספר שלכם והמספר שלי יחד יוצאים לקראת שבת, כמאמר חז״ל שישראל הם בן זוגה של שבת. ועל \"בואי כלה\" שאמר רבי ינאי פעמיים בקול, והאר״י מוסיף פעם שלישית בלחש, הוא מבאר: פעמיים בקול כנגד מעשה ודיבור הגלויים, ופעם בלחש כנגד המחשבה הנסתרת. Ben Yehoyada on Bava Kamma 32a, Ben Yehoyada on Bava Kamma 32b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "c4991012d7b9b94ab316c0f5ab9df2e95c7d4378528004feba61b344ef98c3cb",
+      "sources": [
+        {
+          "en": "Bava Kamma 32a",
+          "he": "בבא קמא ל״ב א",
+          "url": "https://www.sefaria.org/Bava_Kamma_32a"
+        },
+        {
+          "en": "Bava Kamma 32b",
+          "he": "בבא קמא ל״ב ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_32b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-33": {
+      "en": {
+        "discuss": "How does the meaning of \"yes\" at the gate determine whether the laborer entered with permission?",
+        "question": "After a tam ox gores, does the injured party hold a debt against the owner or a share in the ox itself, and who may then sell it?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 33. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 32b (opening words «בואו ונצא לקראת כלה מלכתא») and on Daf 37a (opening words «חנן בישא תקע ליה לההוא גברא»)."
+      },
+      "he": {
+        "discuss": "כיצד משמעות \"הין\" בשער קובעת אם הפועל נכנס ברשות?",
+        "question": "לאחר ששור תם נגח, האם לניזק יש חוב כלפי הבעלים או חלק בגוף השור, ומי רשאי למכור אותו?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ל״ג. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ל״ב ב (בדיבור המתחיל «בואו ונצא לקראת כלה מלכתא») ובדף ל״ז א (בדיבור המתחיל «חנן בישא תקע ליה לההוא גברא»)."
+      },
+      "revision": "1e678a89605ba1279f80b4f9d61ba3b940005cf9a438186452d27e95ed07c998",
+      "sources": [
+        {
+          "en": "Bava Kamma 33a",
+          "he": "בבא קמא ל״ג א",
+          "url": "https://www.sefaria.org/Bava_Kamma_33a"
+        },
+        {
+          "en": "Bava Kamma 33b",
+          "he": "בבא קמא ל״ג ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_33b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-34": {
+      "en": {
+        "discuss": "Why can the injured party claim the goring ox ahead of a prior creditor?",
+        "question": "If the goring ox or the carcass changes in value before judgment, which gains and losses enter the calculation of half-damages?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 34. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 32b (opening words «בואו ונצא לקראת כלה מלכתא») and on Daf 37a (opening words «חנן בישא תקע ליה לההוא גברא»)."
+      },
+      "he": {
+        "discuss": "מדוע הניזק קודם לבעל חוב מוקדם בשור הנוגח?",
+        "question": "אם ערך השור הנוגח או ערך הנבלה משתנה לפני העמדה בדין, אילו שבחים ופחתים באים בחשבון בתשלום חצי נזק?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ל״ד. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ל״ב ב (בדיבור המתחיל «בואו ונצא לקראת כלה מלכתא») ובדף ל״ז א (בדיבור המתחיל «חנן בישא תקע ליה לההוא גברא»)."
+      },
+      "revision": "5a03338ce9ec9a232916d5dd6933e13c6781a0b5d988481d5aa99bd748406f61",
+      "sources": [
+        {
+          "en": "Bava Kamma 34a",
+          "he": "בבא קמא ל״ד א",
+          "url": "https://www.sefaria.org/Bava_Kamma_34a"
+        },
+        {
+          "en": "Bava Kamma 34b",
+          "he": "בבא קמא ל״ד ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_34b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-35": {
+      "en": {
+        "discuss": "How does Rav Avya's clever ox allow the mishnah to compare an owner and his ox?",
+        "question": "If two oxen could have caused an injury and the owners dispute which one did it, what must the claimant prove to collect?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 35. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 32b (opening words «בואו ונצא לקראת כלה מלכתא») and on Daf 37a (opening words «חנן בישא תקע ליה לההוא גברא»)."
+      },
+      "he": {
+        "discuss": "כיצד השור הפיקח של רב אויא מאפשר למשנה להשוות בין הבעלים לשורו?",
+        "question": "כששני שוורים יכלו לגרום לנזק ובעליהם חלוקים בשאלה מי מהם הזיק, מה צריך הניזק להוכיח כדי לגבות?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ל״ה. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ל״ב ב (בדיבור המתחיל «בואו ונצא לקראת כלה מלכתא») ובדף ל״ז א (בדיבור המתחיל «חנן בישא תקע ליה לההוא גברא»)."
+      },
+      "revision": "7d8b0a980ff289759dd154614b7fa43203f867485f2a3c6999922d71c18df003",
+      "sources": [
+        {
+          "en": "Bava Kamma 35a",
+          "he": "בבא קמא ל״ה א",
+          "url": "https://www.sefaria.org/Bava_Kamma_35a"
+        },
+        {
+          "en": "Bava Kamma 35b",
+          "he": "בבא קמא ל״ה ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_35b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-36": {
+      "en": {
+        "discuss": "Why does Rav Aḥa the Elder reject applying \"both are liable\" to forewarned oxen?",
+        "question": "When a single ox gores several oxen in succession, how do later victims' claims affect the shares of the earlier ones?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 36. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 32b (opening words «בואו ונצא לקראת כלה מלכתא») and on Daf 37a (opening words «חנן בישא תקע ליה לההוא גברא»)."
+      },
+      "he": {
+        "discuss": "מדוע רב אחא סבא דוחה את העמדת \"שניהם חייבין\" במועדין?",
+        "question": "כששור אחד נוגח כמה שוורים בזה אחר זה, כיצד תביעות הניזקים האחרונים משפיעות על חלקם של הראשונים?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ל״ו. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ל״ב ב (בדיבור המתחיל «בואו ונצא לקראת כלה מלכתא») ובדף ל״ז א (בדיבור המתחיל «חנן בישא תקע ליה לההוא גברא»)."
+      },
+      "revision": "a04b038060b67accbc15a2b8300c049ba581fbb1eca7832aad53277d10918cf6",
+      "sources": [
+        {
+          "en": "Bava Kamma 36a",
+          "he": "בבא קמא ל״ו א",
+          "url": "https://www.sefaria.org/Bava_Kamma_36a"
+        },
+        {
+          "en": "Bava Kamma 36b",
+          "he": "בבא קמא ל״ו ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_36b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-37": {
+      "en": {
+        "discuss": "Why does the Gemara call Ḥanan \"wicked\" even though he paid as the court ordered?",
+        "question": "How narrowly can an ox's pattern of goring be defined: by the species it attacks, by the day, or even by a sound it hears?",
+        "reading": "Ben Yehoyada finds three lessons in the story of Ḥanan the wicked. First, it shows that the mishnah's sela for a slap is the provincial sela, half a dinar. Second, although damages are paid \"from the best,\" a payment for humiliation may be made with a worn coin — for the victim accepted it without protesting to Rav Huna. Third, though Ḥanan accepted the court's ruling and paid, he is still called \"wicked,\" because he did not regret his act and wished to shame a fellow Jew. He applies \"do not say, I will repay evil\": if you owe half a dinar and have only a worn whole one that no one will change, give it all to the one you shamed, and do not strike him again to \"use up\" the coin. A worn coin, he adds, is still the king's currency and acceptable as payment, though a money-changer would not split it. Ben Yehoyada on Bava Kamma 37a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע הגמרא קוראת לחנן \"בישא\" אף ששילם כפי שציווה בית הדין?",
+        "question": "עד כמה אפשר לצמצם את העדת השור: לפי מין הבהמה שהוא נוגח, לפי היום או אפילו לפי קול שהוא שומע?",
+        "reading": "בן יהוידע מוצא שלושה לימודים במעשה חנן בישא. ראשית, הוא מלמד שהסלע שבמשנה בתוקע הוא סלע מדינה, פלגא דזוזא. שנית, אף שבנזיקין כתוב \"מיטב\", בדמי בושת אפשר לשלם בזוזא מכא — שהרי הנפגע קיבלו ולא צעק לפני רב הונא. שלישית, אף שחנן קיבל עליו את הדין ושילם, נקרא \"בישא\", משום שלא ניחם על מעשהו ואוותה נפשו לבייש אדם מישראל. הוא מחיל על כך \"אל תאמר אשלמה רע\": אם אתה חייב פלגא דזוזא ואין בידך אלא זוזא מכא שאין מי שיפרטנו, תן את כולו למבויש, ואל תתקע לו שנית כדי \"לנצל\" את המטבע. מטבע שנמחקה צורתו מעט, הוא מוסיף, עדיין מטבע מלך ומתקבל בפרעון, אף שהשולחני לא יפרטנו. Ben Yehoyada on Bava Kamma 37a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "37838b7bb52b4cc929a2b5cc56d7a5410571fdd846f0da5a210cb9573245f906",
+      "sources": [
+        {
+          "en": "Bava Kamma 37a",
+          "he": "בבא קמא ל״ז א",
+          "url": "https://www.sefaria.org/Bava_Kamma_37a"
+        },
+        {
+          "en": "Bava Kamma 37b",
+          "he": "בבא קמא ל״ז ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_37b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-38": {
+      "en": {
+        "discuss": "How do Rabbi Abbahu and Rabbi Yoḥanan justify the mishnah's ruling on a gentile's ox?",
+        "question": "How do the Roman officials challenge the Mishnah's distinction between a Jew's ox and a gentile's ox, and how does the Gemara explain that distinction?",
+        "reading": "Ben Yehoyada dwells on the aggada of Moav and Ammon. Why spare two whole nations for Ruth and Naamah, rather than destroy them and save only their parents? Because then their royal houses would be lost, and God wanted Ruth and Naamah to come to Israel as daughters of kings — a greater novelty and a deeper subjugation of the forces of impurity. \"Moshe reasoned an a fortiori by himself\" means: by his own prophetic perception, before he was told \"harass the Midianites,\" he foresaw it — and God answered \"what entered your mind did not enter Mine,\" pointing to the limit of even Moshe's understanding. \"Moav\" he reads through an Egyptian word: \"mo\" means water, and seed is called water — \"mo-av,\" the father's seed; the younger daughter's \"ben ami\" was a subtler hint. The elder preceded by one night and her line preceded by four generations, corresponding to the four watches of the night; David, the third generation, matches the third watch, which begins at midnight — hence \"at midnight I rise to thank You.\" Ben Yehoyada on Bava Kamma 38b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד מצדיקים רבי אבהו ורבי יוחנן את פסק המשנה בשור הנכרי?",
+        "question": "כיצד הקשו שלוחי רומי על ההבחנה במשנה בין שור של ישראל לשור של נכרי, וכיצד הגמרא מסבירה אותה?",
+        "reading": "בן יהוידע מתעכב על אגדת מואב ועמון. למה להציל שתי אומות שלמות בשביל רות ונעמה, ולא להשמידן ולהציל רק את הוריהן? משום שאז היתה בטלה מלכותם, והקב״ה רצה שרות ונעמה יבואו להתגייר כבנות מלכים — חידוש גדול יותר והכנעה עמוקה יותר של הקליפה. \"נשא משה קל וחומר בעצמו\" — מכח השגת עצמו ברוח הקודש, עוד בטרם נאמר לו \"צרור את המדינים\", צפה זאת; והקב״ה השיבו \"לא כשעלתה על דעתך עלתה על דעתי\", כנגד גבול הדעת אף של משה. את \"מואב\" הוא קורא דרך לשון מצרי: \"מו\" הוא מים, והזרע נקרא מים — \"מו אב\", זרע האב; ו\"בן עמי\" של הצעירה הוא רמז דק יותר. הבכירה קדמה לילה אחת וזרעה קדם ארבעה דורות, כנגד ארבע משמרות הלילה; ודוד, הדור השלישי, כנגד המשמרת השלישית המתחילה בחצות — ולכן \"חצות לילה אקום להודות לך\". Ben Yehoyada on Bava Kamma 38b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "e194681b16826bd8510fb3486a5ab71a3de7695b5d05a1345e3821372ae4bc83",
+      "sources": [
+        {
+          "en": "Bava Kamma 38a",
+          "he": "בבא קמא ל״ח א",
+          "url": "https://www.sefaria.org/Bava_Kamma_38a"
+        },
+        {
+          "en": "Bava Kamma 38b",
+          "he": "בבא קמא ל״ח ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_38b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-39": {
+      "en": {
+        "discuss": "Why does Rabbi Meir not fine those who seduce a Samaritan girl, according to Abaye?",
+        "question": "When a court appoints a guardian for a minor's ox, whose land can the injured party collect from if the ox gores again?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 39. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 38b (opening words «שתי פרידות טובות יש לי להוציא מהם; …») and on Daf 46b (opening words «\"מי בעל דברים יגש אלהם\", יגיש ראיה …»)."
+      },
+      "he": {
+        "discuss": "מדוע אין רבי מאיר קונס את הבא על הכותית, לפי אביי?",
+        "question": "כשבית דין מעמיד אפוטרופוס לשור של קטן והשור חוזר ונוגח, מקרקעותיו של מי יגבה הניזק?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ל״ט. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ל״ח ב (בדיבור המתחיל «שתי פרידות טובות יש לי להוציא מהם; …») ובדף מ״ו ב (בדיבור המתחיל «\"מי בעל דברים יגש אלהם\", יגיש ראיה …»)."
+      },
+      "revision": "b2a44dc5b2b186e031fbdadf46cbb1dbf7fec0775920668a517e3958cc1253e1",
+      "sources": [
+        {
+          "en": "Bava Kamma 39a",
+          "he": "בבא קמא ל״ט א",
+          "url": "https://www.sefaria.org/Bava_Kamma_39a"
+        },
+        {
+          "en": "Bava Kamma 39b",
+          "he": "בבא קמא ל״ט ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_39b"
         }
       ]
     },
@@ -2011,6 +2511,256 @@
         }
       ]
     },
+    "cycle-15-bava-kamma-40": {
+      "en": {
+        "discuss": "Why can guardians not pay ransom, according to the view that ransom is atonement?",
+        "question": "When a borrower discovers that an ox he thought was a tam is already a muad, how do owner and borrower divide the loss if it gores?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 40. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 38b (opening words «שתי פרידות טובות יש לי להוציא מהם; …») and on Daf 46b (opening words «\"מי בעל דברים יגש אלהם\", יגיש ראיה …»)."
+      },
+      "he": {
+        "discuss": "מדוע אפוטרופוסים אינם משלמים כופר, לפי השיטה שכופר כפרה?",
+        "question": "כששואל מגלה ששור שקיבל בחזקת תם הוא כבר מועד, כיצד מתחלק החיוב בינו לבין המשאיל אם השור נוגח?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא מ׳. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ל״ח ב (בדיבור המתחיל «שתי פרידות טובות יש לי להוציא מהם; …») ובדף מ״ו ב (בדיבור המתחיל «\"מי בעל דברים יגש אלהם\", יגיש ראיה …»)."
+      },
+      "revision": "eb70d28de7debee91ef4ecd6452354b4e6adece8271c05ea0cd39dc77e9d8b9d",
+      "sources": [
+        {
+          "en": "Bava Kamma 40a",
+          "he": "בבא קמא מ׳ א",
+          "url": "https://www.sefaria.org/Bava_Kamma_40a"
+        },
+        {
+          "en": "Bava Kamma 40b",
+          "he": "בבא קמא מ׳ ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_40b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-41": {
+      "en": {
+        "discuss": "How do Abaye and Rava differ on why bestiality does not incur ransom?",
+        "question": "How can an ox ever acquire the status of a forewarned killer if the first time it kills a person it is already liable to stoning?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 41. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 38b (opening words «שתי פרידות טובות יש לי להוציא מהם; …») and on Daf 46b (opening words «\"מי בעל דברים יגש אלהם\", יגיש ראיה …»)."
+      },
+      "he": {
+        "discuss": "במה נבדלים אביי ורבא בטעם שאין כופר ברביעה?",
+        "question": "כיצד ייתכן שור המועד להמית אדם, אם כבר בהריגה הראשונה הוא חייב סקילה?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא מ״א. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ל״ח ב (בדיבור המתחיל «שתי פרידות טובות יש לי להוציא מהם; …») ובדף מ״ו ב (בדיבור המתחיל «\"מי בעל דברים יגש אלהם\", יגיש ראיה …»)."
+      },
+      "revision": "237cfe358099b2b6b263b7e423282d1d07290e7b72bbac7933d20417337ea7f9",
+      "sources": [
+        {
+          "en": "Bava Kamma 41a",
+          "he": "בבא קמא מ״א א",
+          "url": "https://www.sefaria.org/Bava_Kamma_41a"
+        },
+        {
+          "en": "Bava Kamma 41b",
+          "he": "בבא קמא מ״א ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_41b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-42": {
+      "en": {
+        "discuss": "What is the difference between the two fishermen images for the order of Rabbi Eliezer's answers?",
+        "question": "What payment do the tannaim understand the words “the owner of the ox shall be clear” to exclude when a tam ox kills?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 42. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 38b (opening words «שתי פרידות טובות יש לי להוציא מהם; …») and on Daf 46b (opening words «\"מי בעל דברים יגש אלהם\", יגיש ראיה …»)."
+      },
+      "he": {
+        "discuss": "מה ההבדל בין שני דימויי הצייד לסדר תשובות רבי אלעזר?",
+        "question": "מאיזה תשלום פוטרות המילים ״ובעל השור נקי״ לדעת התנאים כאשר שור תם ממית?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא מ״ב. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ל״ח ב (בדיבור המתחיל «שתי פרידות טובות יש לי להוציא מהם; …») ובדף מ״ו ב (בדיבור המתחיל «\"מי בעל דברים יגש אלהם\", יגיש ראיה …»)."
+      },
+      "revision": "10e1881f1438c8e13b9f1b77bf6d4e38d4d94c2fdba903892f733f446ebc166c",
+      "sources": [
+        {
+          "en": "Bava Kamma 42a",
+          "he": "בבא קמא מ״ב א",
+          "url": "https://www.sefaria.org/Bava_Kamma_42a"
+        },
+        {
+          "en": "Bava Kamma 42b",
+          "he": "בבא קמא מ״ב ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_42b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-43": {
+      "en": {
+        "discuss": "Why does Reish Lakish tie the slave's thirty shekels to the ox's stoning?",
+        "question": "If an ox kills without intending to, do kofer for a free person and the fixed payment for a slave follow the same rule?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 43. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 38b (opening words «שתי פרידות טובות יש לי להוציא מהם; …») and on Daf 46b (opening words «\"מי בעל דברים יגש אלהם\", יגיש ראיה …»)."
+      },
+      "he": {
+        "discuss": "מדוע ריש לקיש קושר את שלשים של עבד לסקילת השור?",
+        "question": "אם שור ממית שלא בכוונה, האם דין הכופר על בן חורין ודין התשלום הקצוב על עבד שווים?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא מ״ג. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ל״ח ב (בדיבור המתחיל «שתי פרידות טובות יש לי להוציא מהם; …») ובדף מ״ו ב (בדיבור המתחיל «\"מי בעל דברים יגש אלהם\", יגיש ראיה …»)."
+      },
+      "revision": "6aec248da40d8c09cedfa49d1a7d8dafd4b808829c38238ee4d186b530bd2b1b",
+      "sources": [
+        {
+          "en": "Bava Kamma 43a",
+          "he": "בבא קמא מ״ג א",
+          "url": "https://www.sefaria.org/Bava_Kamma_43a"
+        },
+        {
+          "en": "Bava Kamma 43b",
+          "he": "בבא קמא מ״ג ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_43b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-44": {
+      "en": {
+        "discuss": "Why can innocuous oxen not be included for minors by logic alone?",
+        "question": "What intention must an ox have had, and who must own it, for a court to sentence it to stoning?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 44. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 38b (opening words «שתי פרידות טובות יש לי להוציא מהם; …») and on Daf 46b (opening words «\"מי בעל דברים יגש אלהם\", יגיש ראיה …»)."
+      },
+      "he": {
+        "discuss": "מדוע אי אפשר לכלול שור תם בקטנים מסברה בלבד?",
+        "question": "איזו כוונה נדרשת מן השור, ולמי עליו להיות שייך, כדי שבית דין ידון אותו לסקילה?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא מ״ד. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ל״ח ב (בדיבור המתחיל «שתי פרידות טובות יש לי להוציא מהם; …») ובדף מ״ו ב (בדיבור המתחיל «\"מי בעל דברים יגש אלהם\", יגיש ראיה …»)."
+      },
+      "revision": "52a13146ebbecb3379a21260a3cf424c3c44d13986f7b5f00fe57ca36b1e84bb",
+      "sources": [
+        {
+          "en": "Bava Kamma 44a",
+          "he": "בבא קמא מ״ד א",
+          "url": "https://www.sefaria.org/Bava_Kamma_44a"
+        },
+        {
+          "en": "Bava Kamma 44b",
+          "he": "בבא קמא מ״ד ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_44b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-45": {
+      "en": {
+        "discuss": "Why does Rabba reject the idea that the dispute concerns forbidden items and \"here is yours\"?",
+        "question": "If a guarded ox escapes and gores, does the same fence count as adequate guarding for a tam and for a muad?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 45. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 38b (opening words «שתי פרידות טובות יש לי להוציא מהם; …») and on Daf 46b (opening words «\"מי בעל דברים יגש אלהם\", יגיש ראיה …»)."
+      },
+      "he": {
+        "discuss": "מדוע רבה דוחה את האפשרות שהמחלוקת נוגעת לדברים האסורים בהנאה ול\"הרי שלך לפניך\"?",
+        "question": "אם שור יצא ממקום שמור ונגח, האם אותה גדר נחשבת שמירה מספקת לשור תם ולשור מועד?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא מ״ה. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ל״ח ב (בדיבור המתחיל «שתי פרידות טובות יש לי להוציא מהם; …») ובדף מ״ו ב (בדיבור המתחיל «\"מי בעל דברים יגש אלהם\", יגיש ראיה …»)."
+      },
+      "revision": "10df5d84d6f352a0576cca6dfe51ed5d63b8aed4d16e4f48bd938be8ac9dc4c2",
+      "sources": [
+        {
+          "en": "Bava Kamma 45a",
+          "he": "בבא קמא מ״ה א",
+          "url": "https://www.sefaria.org/Bava_Kamma_45a"
+        },
+        {
+          "en": "Bava Kamma 45b",
+          "he": "בבא קמא מ״ה ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_45b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-46": {
+      "en": {
+        "discuss": "Why does Abaye reject Rabba's reading of \"and he did not guard it\"?",
+        "question": "A gored cow is found beside her dead calf. Who must establish whether she gave birth before the goring or afterward, and how does that affect payment?",
+        "reading": "Ben Yehoyada comments on the source for \"the burden of proof is on the claimant\": \"whoever has a matter, let him come near to them.\" He reads the word \"devarim,\" matters, as doing double duty: whoever is a \"master of matters\" — a claimant — must himself bring \"matters,\" proofs, to the judges. On Rav Ashi's objection that no verse is needed, since \"one who is in pain goes to the doctor,\" he cites the Shita Mekubetzet in the name of Mahari: Moshe did not need to instruct this, for it is no less than the physician's practice — the doctor does not diagnose by his own guesswork until the patient tells him where it hurts and how it changes; so too in court, the one who claims must first show the face of his claim. Ben Yehoyada on Bava Kamma 46b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע אביי דוחה את קריאת רבה ב\"ולא ישמרנו\"?",
+        "question": "פרה שננגחה נמצאה ולדה המת בצדה. על מי להוכיח אם ילדה לפני הנגיחה או אחריה, וכיצד הדבר משפיע על התשלום?",
+        "reading": "בן יהוידע מעיר על המקור ל\"המוציא מחבירו עליו הראיה\": \"מי בעל דברים יגש אליהם\". הוא דורש את המילה \"דברים\" כפולה: מי שהוא \"בעל דברים\" — התובע — הוא עצמו צריך להגיש \"דברים\", ראיות, אל הדיינים. ועל קושיית רב אשי שאין צורך בפסוק, שהרי \"דכאיב ליה כאיבא אזיל לבי אסיא\", הוא מביא את השיטה מקובצת בשם מהר״י: לא היה צריך משה להזהיר על כך, שאין דין זה גרוע ממשפט הרופאים — הרופא אינו דן את החולה לפי סברתו לבדו עד שהחולה אומר לו היכן כואב לו וכיצד משתנה; כך גם בדין, התובע צריך להראות תחילה את פני תביעתו. Ben Yehoyada on Bava Kamma 46b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "f2dc10e880a3489d5c1bf5b4edf86523b754e54357cd68cf56603dd132b92216",
+      "sources": [
+        {
+          "en": "Bava Kamma 46a",
+          "he": "בבא קמא מ״ו א",
+          "url": "https://www.sefaria.org/Bava_Kamma_46a"
+        },
+        {
+          "en": "Bava Kamma 46b",
+          "he": "בבא קמא מ״ו ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_46b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-47": {
+      "en": {
+        "discuss": "Why can payment be collected from a calf but not from an egg?",
+        "question": "If a potter has permission to leave his pots in someone else's courtyard, has the owner of the courtyard also agreed to guard them?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 47. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 46b (opening words «\"מי בעל דברים יגש אלהם\", יגיש ראיה …») and on Daf 50a (opening words «שעה ראשונה אמר להם: שלום. שניה אמר …»)."
+      },
+      "he": {
+        "discuss": "מדוע גובים נזק מן הוולד ולא מן הביצה?",
+        "question": "אם קדר קיבל רשות להניח את קדרותיו בחצר חברו, האם בעל החצר גם קיבל עליו לשמור אותן?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא מ״ז. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף מ״ו ב (בדיבור המתחיל «\"מי בעל דברים יגש אלהם\", יגיש ראיה …») ובדף נ׳ א (בדיבור המתחיל «שעה ראשונה אמר להם: שלום. שניה אמר …»)."
+      },
+      "revision": "a9257031af9aa83f956fa348ca16c374312b8a3a3d7968857c0c7fcee7d2c517",
+      "sources": [
+        {
+          "en": "Bava Kamma 47a",
+          "he": "בבא קמא מ״ז א",
+          "url": "https://www.sefaria.org/Bava_Kamma_47a"
+        },
+        {
+          "en": "Bava Kamma 47b",
+          "he": "בבא קמא מ״ז ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_47b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-48": {
+      "en": {
+        "discuss": "Why does permission turn an outside ox's eating into eating in the injured party's domain?",
+        "question": "When a woman enters a courtyard to bake, who must keep the homeowner's animal from eating the dough, and why does the homeowner's presence matter?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 48. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 46b (opening words «\"מי בעל דברים יגש אלהם\", יגיש ראיה …») and on Daf 50a (opening words «שעה ראשונה אמר להם: שלום. שניה אמר …»)."
+      },
+      "he": {
+        "discuss": "מדוע הרשות הופכת אכילת שור מבחוץ לאכילה ברשות הניזק?",
+        "question": "כשאישה נכנסת לחצר כדי לאפות, מי חייב לשמור שבהמת בעל החצר לא תאכל את הבצק, ומדוע חשוב אם בעל החצר נשאר שם?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא מ״ח. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף מ״ו ב (בדיבור המתחיל «\"מי בעל דברים יגש אלהם\", יגיש ראיה …») ובדף נ׳ א (בדיבור המתחיל «שעה ראשונה אמר להם: שלום. שניה אמר …»)."
+      },
+      "revision": "c53db7caf4e77437eda05c20e09b71807592a3197b2346ee03bb7a32cc3894ea",
+      "sources": [
+        {
+          "en": "Bava Kamma 48a",
+          "he": "בבא קמא מ״ח א",
+          "url": "https://www.sefaria.org/Bava_Kamma_48a"
+        },
+        {
+          "en": "Bava Kamma 48b",
+          "he": "בבא קמא מ״ח ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_48b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-49": {
+      "en": {
+        "discuss": "Why does Rav Adda bar Ahava exempt an ox even when it aimed at the woman?",
+        "question": "How do the sages value the loss when a blow causes a miscarriage, and who is entitled to claim that payment?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 49. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 46b (opening words «\"מי בעל דברים יגש אלהם\", יגיש ראיה …») and on Daf 50a (opening words «שעה ראשונה אמר להם: שלום. שניה אמר …»)."
+      },
+      "he": {
+        "discuss": "מדוע רב אדא בר אהבה פוטר שור אף כשנתכוון לאשה?",
+        "question": "כיצד שמים חכמים את ההפסד כשמכה גורמת להפלה, ומי זכאי לתבוע את דמי הוולדות?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא מ״ט. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף מ״ו ב (בדיבור המתחיל «\"מי בעל דברים יגש אלהם\", יגיש ראיה …») ובדף נ׳ א (בדיבור המתחיל «שעה ראשונה אמר להם: שלום. שניה אמר …»)."
+      },
+      "revision": "b326f3ed9f7d68876aec6493d876545a36951e90c406c8e447cc87090acada7d",
+      "sources": [
+        {
+          "en": "Bava Kamma 49a",
+          "he": "בבא קמא מ״ט א",
+          "url": "https://www.sefaria.org/Bava_Kamma_49a"
+        },
+        {
+          "en": "Bava Kamma 49b",
+          "he": "בבא קמא מ״ט ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_49b"
+        }
+      ]
+    },
     "cycle-15-bava-kamma-5": {
       "en": {
         "discuss": "Why does following Rabbi Akiva on conspiring witnesses explain their absence from Rabbi Oshaya's list?",
@@ -2033,6 +2783,256 @@
           "en": "Bava Kamma 5b",
           "he": "בבא קמא ה׳ ב",
           "url": "https://www.sefaria.org/Bava_Kamma_5b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-50": {
+      "en": {
+        "discuss": "How do Rabba and Rav Yosef place the dispute of Rabbi Yishmael and Rabbi Akiva differently?",
+        "question": "If an animal dies in a pit, is the digger answerable for the air in the pit, the impact of the fall, or both?",
+        "reading": "Ben Yehoyada reads the story of Neḥunya's daughter as a sign woven from the merit of her father, who dug wells for the pilgrims. The three hours of Rabbi Ḥanina ben Dosa correspond to the three pilgrimage festivals and the three patriarchs. The ram led by an old man hints at Avraham, founder of the pillar of kindness, and at the ram of Yitzḥak: as a ram went up in Yitzḥak's place, so her brother, who later died of thirst, was in a sense taken in her place. That she fell into a \"large\" pit tells Rabbi Ḥanina that the merit was of the largest, most laborious wells. On 50b he reads \"one should not clear stones from his domain into the public domain\" as a moral warning: one who sins in private and causes the public to learn from him bears their sins even after his own repentance — and the pious man's word \"empty one\" foretold that the man would one day be emptied of his property. Ben Yehoyada on Bava Kamma 50a, Ben Yehoyada on Bava Kamma 50b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד ממקמים רבה ורב יוסף באופן שונה את מחלוקת רבי ישמעאל ורבי עקיבא?",
+        "question": "כשבהמה מתה בבור, האם החופר חייב על הבל הבור, על חבטת הנפילה או על שניהם?",
+        "reading": "בן יהוידע קורא את מעשה בתו של נחוניא כסימן הארוג מזכות אביה, שחפר בורות לעולי רגלים. שלוש השעות של רבי חנינא בן דוסא כנגד שלוש הרגלים ושלושת האבות. הזכר של רחלים והזקן המנהיגו רומזים לאברהם, שהעמיד את עמוד גמילות החסדים, ולאילו של יצחק: כשם שעלה איל תחת יצחק, כך אחיה, שמת אחר כך בצמא, כאילו בא תחתיה. ומה שנפלה ל\"בור גדול\" מודיע לרבי חנינא שהזכות היא של הבורות הגדולים, שטרחתם מרובה. ובעמוד ב הוא דורש \"לא יסקל אדם מרשותו לרשות הרבים\" על דרך המוסר: החוטא בצנעה וגורם שהרבים ילמדו ממנו נושא בחטאיהם גם לאחר תשובתו — ומלת החסיד \"ריקה\" ניבאה שיבוא יום שיתרוקן מממונו. Ben Yehoyada on Bava Kamma 50a, Ben Yehoyada on Bava Kamma 50b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "b841dda7bdd8e2a3df155c5875384d88ee58ec7c5f0ee860e73f03ead20c9432",
+      "sources": [
+        {
+          "en": "Bava Kamma 50a",
+          "he": "בבא קמא נ׳ א",
+          "url": "https://www.sefaria.org/Bava_Kamma_50a"
+        },
+        {
+          "en": "Bava Kamma 50b",
+          "he": "בבא קמא נ׳ ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_50b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-51": {
+      "en": {
+        "discuss": "Why does Rav Naḥman's tereifa ruling not contradict the ten-handbreadth rule?",
+        "question": "One person digs nine handbreadths and another digs the tenth. Who answers for an animal that dies in the pit, and what if it is only injured?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 51. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 50b (opening words «לא יסקל אדם מרשותו לרשות הרבים וכו'») and on Daf 55a (opening words «שאלני אם נאמר בהם 'טוב' אם לאו. …»)."
+      },
+      "he": {
+        "discuss": "מדוע פסק הטרפה של רב נחמן אינו סותר את כלל עשרה הטפחים?",
+        "question": "אחד חופר תשעה טפחים ואחר מוסיף את הטפח העשירי. מי חייב אם בהמה מתה בבור, ומה הדין אם רק הוזקה?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא נ״א. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף נ׳ ב (בדיבור המתחיל «לא יסקל אדם מרשותו לרשות הרבים וכו'») ובדף נ״ה א (בדיבור המתחיל «שאלני אם נאמר בהם 'טוב' אם לאו. …»)."
+      },
+      "revision": "c7673a27f51b4959fe55630174aa0f3dd4d074d88546feec3d2ff17e4763c688",
+      "sources": [
+        {
+          "en": "Bava Kamma 51a",
+          "he": "בבא קמא נ״א א",
+          "url": "https://www.sefaria.org/Bava_Kamma_51a"
+        },
+        {
+          "en": "Bava Kamma 51b",
+          "he": "בבא קמא נ״א ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_51b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-52": {
+      "en": {
+        "discuss": "Why does handing over a key or a mashkukhit count as \"go take possession\"?",
+        "question": "If a pit cover can bear oxen but not camels, when does an ox's fall through it show that the owner failed to guard the pit?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 52. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 50b (opening words «לא יסקל אדם מרשותו לרשות הרבים וכו'») and on Daf 55a (opening words «שאלני אם נאמר בהם 'טוב' אם לאו. …»)."
+      },
+      "he": {
+        "discuss": "מדוע מסירת מפתח או משכוכית נחשבת כ\"לך חזק וקני\"?",
+        "question": "אם כיסוי הבור עומד בפני שוורים אך לא בפני גמלים, מתי נפילת שור דרכו מלמדת שבעל הבור התרשל בשמירתו?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא נ״ב. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף נ׳ ב (בדיבור המתחיל «לא יסקל אדם מרשותו לרשות הרבים וכו'») ובדף נ״ה א (בדיבור המתחיל «שאלני אם נאמר בהם 'טוב' אם לאו. …»)."
+      },
+      "revision": "833d175ee6a854674a2cd3888d39c201ffc440b23db6b4cb4d51451278a5a18c",
+      "sources": [
+        {
+          "en": "Bava Kamma 52a",
+          "he": "בבא קמא נ״ב א",
+          "url": "https://www.sefaria.org/Bava_Kamma_52a"
+        },
+        {
+          "en": "Bava Kamma 52b",
+          "he": "בבא קמא נ״ב ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_52b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-53": {
+      "en": {
+        "discuss": "How do Rav and Shmuel each read \"forward\" and \"backward\" according to their views on fumes and impact?",
+        "question": "If one ox pushes another into a pit, how do we divide the loss between the owner of the pushing ox and the owner of the pit?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 53. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 50b (opening words «לא יסקל אדם מרשותו לרשות הרבים וכו'») and on Daf 55a (opening words «שאלני אם נאמר בהם 'טוב' אם לאו. …»)."
+      },
+      "he": {
+        "discuss": "כיצד קוראים רב ושמואל \"לפניו\" ו\"לאחוריו\" כל אחד לשיטתו בהבל ובחבטה?",
+        "question": "כששור דוחף שור אחר לבור, כיצד מחלקים את הנזק בין בעל השור הדוחף לבעל הבור?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא נ״ג. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף נ׳ ב (בדיבור המתחיל «לא יסקל אדם מרשותו לרשות הרבים וכו'») ובדף נ״ה א (בדיבור המתחיל «שאלני אם נאמר בהם 'טוב' אם לאו. …»)."
+      },
+      "revision": "50e520394834406ebf81514c9fcdb49df3bb6324b1a3114daaa6f3fd6fb21a3b",
+      "sources": [
+        {
+          "en": "Bava Kamma 53a",
+          "he": "בבא קמא נ״ג א",
+          "url": "https://www.sefaria.org/Bava_Kamma_53a"
+        },
+        {
+          "en": "Bava Kamma 53b",
+          "he": "בבא קמא נ״ג ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_53b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-54": {
+      "en": {
+        "discuss": "Why is \"and the carcass shall be his\" a better source than \"generalization, detail, generalization\" for including birds?",
+        "question": "When the Torah names an ox or a donkey that falls into a pit, what tells us whether those animals are examples or limits on liability?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 54. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 50b (opening words «לא יסקל אדם מרשותו לרשות הרבים וכו'») and on Daf 55a (opening words «שאלני אם נאמר בהם 'טוב' אם לאו. …»)."
+      },
+      "he": {
+        "discuss": "מדוע \"והמת יהיה לו\" הוא מקור טוב יותר מכלל ופרט וכלל לרבות עופות?",
+        "question": "כשהתורה מזכירה שור או חמור שנפל לבור, מניין יודעים אם אלו דוגמאות שכיחות או גבולות החיוב?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא נ״ד. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף נ׳ ב (בדיבור המתחיל «לא יסקל אדם מרשותו לרשות הרבים וכו'») ובדף נ״ה א (בדיבור המתחיל «שאלני אם נאמר בהם 'טוב' אם לאו. …»)."
+      },
+      "revision": "e73b58bbf128e3f91471ba3332970ffbfa0004dfc6215a64f0dfdda06ed379de",
+      "sources": [
+        {
+          "en": "Bava Kamma 54a",
+          "he": "בבא קמא נ״ד א",
+          "url": "https://www.sefaria.org/Bava_Kamma_54a"
+        },
+        {
+          "en": "Bava Kamma 54b",
+          "he": "בבא קמא נ״ד ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_54b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-55": {
+      "en": {
+        "discuss": "How does Rav Ashi explain why \"good\" could not appear on the first tablets?",
+        "question": "What makes the door of a sheep pen secure enough to exempt the owner if the flock gets out and damages a field?",
+        "reading": "Ben Yehoyada asks how so great a scholar as Rabbi Ḥiyya bar Abba could say he did not know whether \"good\" appears in the commandments, a verse known to schoolchildren. He answers that Rabbi Ḥiyya certainly knew the words \"that it may be good for you\" stand only in the second version; his doubt was whether that \"good\" means wholeness — as in \"good for bad,\" meaning unblemished — for one who scorns his parents loses his sight, and honoring them keeps a person whole in body and soul. On the dream of the letter tet he shows that \"tet in a dream\" equals \"yafeh,\" good, in gematria, and that nine always returns to nine when doubled, a sign of permanence. On seeing a eulogy, hesped, he explains why Heaven showed the letter heh and not ḥet: so the dreamer would first grieve and then seek a sage to interpret it for good, and so the letters hint at \"has,\" silence — not to spread the dream — and at a substitution, a ransom. Ben Yehoyada on Bava Kamma 55a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד מסביר רב אשי מדוע לא יכול היה \"טוב\" להופיע בלוחות הראשונים?",
+        "question": "מה נחשב לנעילה ראויה של דיר צאן, הפוטרת את הבעלים אם הכבשים יצאו והזיקו בשדה?",
+        "reading": "בן יהוידע תמה כיצד גברא רבא כרבי חייא בר אבא אמר שאינו יודע אם נאמר \"טוב\" בדברות, פסוק הידוע לתינוקות של בית רבן. ומיישב שודאי ידע ש\"למען ייטב לך\" כתוב רק בדברות האחרונות; ספקו היה אם \"טוב\" זה לשון תמימות — כמו \"טוב ברע\", תם בבעל מום — שהמבזה אביו ואמו בא לידי סמיות עינים, והמכבדם נשאר תמים בגוף ובנפש. על הרואה טי״ת בחלומו הוא מראה ש\"ט׳ בחלום\" עולה במספר \"יפה\", ושמספר תשעה כל שתכפילו חוזר לתשעה, סימן לדבר שאינו מט. ועל הרואה הספד הוא מבאר מדוע הראוהו ה״א ולא ח״ית: כדי שיצטער תחילה וילך אצל חכם לפותרו לטובה, ושהאותיות רומזות ל\"הס\" — שישתוק ולא יספר חלומו לרבים — ולחליפין ותמורה, פדיון. Ben Yehoyada on Bava Kamma 55a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "c9cc0435fbc57141431fa3b1ac883d9be45b8c81ba494a585d7dd7cff4c510c0",
+      "sources": [
+        {
+          "en": "Bava Kamma 55a",
+          "he": "בבא קמא נ״ה א",
+          "url": "https://www.sefaria.org/Bava_Kamma_55a"
+        },
+        {
+          "en": "Bava Kamma 55b",
+          "he": "בבא קמא נ״ה ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_55b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-56": {
+      "en": {
+        "discuss": "Why must each of Rabbi Yehoshua's four cases be specified as liable before Heaven?",
+        "question": "Why might someone who breaches a fence before another person's animal be liable before Heaven even when a human court cannot make him pay?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 56. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 55a (opening words «שאלני אם נאמר בהם 'טוב' אם לאו. …») and on Daf 59b (opening words «אמר להו: גברא רבה אנא»)."
+      },
+      "he": {
+        "discuss": "מדוע יש לפרט כל אחד מארבעת המקרים של רבי יהושע כחייב בדיני שמים?",
+        "question": "מדוע הפורץ גדר בפני בהמת חברו עשוי להתחייב בדיני שמים אף שבית דין אינו יכול לחייבו בתשלום?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא נ״ו. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף נ״ה א (בדיבור המתחיל «שאלני אם נאמר בהם 'טוב' אם לאו. …») ובדף נ״ט ב (בדיבור המתחיל «אמר להו: גברא רבה אנא»)."
+      },
+      "revision": "3ad83122dab9fa8c173f3637ac425e5e0e1054c78dd9cc5526a2fda7f3065427",
+      "sources": [
+        {
+          "en": "Bava Kamma 56a",
+          "he": "בבא קמא נ״ו א",
+          "url": "https://www.sefaria.org/Bava_Kamma_56a"
+        },
+        {
+          "en": "Bava Kamma 56b",
+          "he": "בבא קמא נ״ו ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_56b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-57": {
+      "en": {
+        "discuss": "How does the distinction between morning and midday resolve the first objection?",
+        "question": "Is the finder who guards a lost object held to the standard of a paid or an unpaid bailee, and what difference does theft make?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 57. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 55a (opening words «שאלני אם נאמר בהם 'טוב' אם לאו. …») and on Daf 59b (opening words «אמר להו: גברא רבה אנא»)."
+      },
+      "he": {
+        "discuss": "כיצד ההבחנה בין שחרית לטיהרא מיישבת את הקושיה הראשונה?",
+        "question": "האם שומר אבדה נידון כשומר שכר או כשומר חינם, ומה ההבדל ביניהם אם האבדה נגנבה?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא נ״ז. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף נ״ה א (בדיבור המתחיל «שאלני אם נאמר בהם 'טוב' אם לאו. …») ובדף נ״ט ב (בדיבור המתחיל «אמר להו: גברא רבה אנא»)."
+      },
+      "revision": "c20d391b1bbfc3b13c26fca54bd93b8f976f9c3d2810c381f6005144b178eaf9",
+      "sources": [
+        {
+          "en": "Bava Kamma 57a",
+          "he": "בבא קמא נ״ז א",
+          "url": "https://www.sefaria.org/Bava_Kamma_57a"
+        },
+        {
+          "en": "Bava Kamma 57b",
+          "he": "בבא קמא נ״ז ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_57b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-58": {
+      "en": {
+        "discuss": "Why is the animal cushioned by produce unlike one who drives off a lion?",
+        "question": "Why is a patch of crops eaten by an animal appraised as part of a larger field rather than priced on its own?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 58. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 55a (opening words «שאלני אם נאמר בהם 'טוב' אם לאו. …») and on Daf 59b (opening words «אמר להו: גברא רבה אנא»)."
+      },
+      "he": {
+        "discuss": "מדוע בהמה שנחבטה בפירות אינה כמבריח ארי?",
+        "question": "מדוע שמים ערוגה שאכלה בהמה כחלק משדה גדול יותר, ולא לפי מחירה כשהיא לעצמה?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא נ״ח. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף נ״ה א (בדיבור המתחיל «שאלני אם נאמר בהם 'טוב' אם לאו. …») ובדף נ״ט ב (בדיבור המתחיל «אמר להו: גברא רבה אנא»)."
+      },
+      "revision": "9f2326b9d1c39537e31d33032876b4f8171928703ee2e64507c5708745e0f874",
+      "sources": [
+        {
+          "en": "Bava Kamma 58a",
+          "he": "בבא קמא נ״ח א",
+          "url": "https://www.sefaria.org/Bava_Kamma_58a"
+        },
+        {
+          "en": "Bava Kamma 58b",
+          "he": "בבא קמא נ״ח ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_58b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-59": {
+      "en": {
+        "discuss": "Why is the sixtieth used even where the baraita speaks of \"how much it was worth\"?",
+        "question": "When an animal eats grapes before the harvest, how does their stage of ripeness change the way the damage is assessed?",
+        "reading": "Ben Yehoyada asks how Eliezer Ze'eira could free himself by declaring \"I am a great man,\" when Rabbi Tarfon regretted saving himself by the crown of Torah. He answers that the Exilarch's men accused him of wearing black shoes out of arrogance, to win honor as a scholar; he had to clear himself of that suspicion, so he said that he is already known and honored and needs no shoes for it — his mourning was truly for Jerusalem. He said \"a great man\" rather than \"a sage\" out of humility, and perhaps as a play on his name Ze'eira, \"the small.\" He let them choose the question, because reciting halakhot he had memorized would prove nothing; only answering anything asked shows mastery of all six orders. He asked about the palm tree judged \"in sixty,\" shishim, read as \"shesh yam,\" six seas — the six orders of the Oral Torah, which is compared to the sea. Ben Yehoyada on Bava Kamma 59b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע משתמשים בשישים גם כשהברייתא אומרת \"כמה היתה יפה\"?",
+        "question": "כשבהמה אוכלת ענבים לפני הבציר, כיצד שלב הבשלתם משנה את דרך שומת הנזק?",
+        "reading": "בן יהוידע שואל כיצד הציל אליעזר זעירא את עצמו באמרו \"גברא רבה אנא\", והלא רבי טרפון הצטער על שהציל עצמו בכתרה של תורה. ומיישב שאנשי ריש גלותא חשדוהו שלובש מנעלים שחורים מתוך יוהרא, כדי לזכות בכבוד של תלמיד חכם; והוא היה מוכרח לנקות עצמו מן החשד, ולכן אמר שכבר ידוע ומכובד הוא ואינו צריך מנעלים לשם כך — אבלו באמת על ירושלים. ואמר \"גברא רבה\" ולא \"חכם\" מדרך הענווה, ואולי כמשחק על שמו \"זעירא\". הוא הניח להם לבחור את השאלה, כי אמירת הלכות שגורות אינה מוכיחה דבר; רק המשיב על כל שאלה מראה שהוא בקי בששה סדרים. ושאל על הכופרא שדינו \"בששים\" — \"שש ים\", ששה סדרי תורה שבעל פה המכונה ים. Ben Yehoyada on Bava Kamma 59b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "1e75c83759f0480c0cfc90edcd4fe133ddac586ca1e80248c96bf6e8ea6dac39",
+      "sources": [
+        {
+          "en": "Bava Kamma 59a",
+          "he": "בבא קמא נ״ט א",
+          "url": "https://www.sefaria.org/Bava_Kamma_59a"
+        },
+        {
+          "en": "Bava Kamma 59b",
+          "he": "בבא קמא נ״ט ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_59b"
         }
       ]
     },
@@ -2061,6 +3061,256 @@
         }
       ]
     },
+    "cycle-15-bava-kamma-60": {
+      "en": {
+        "discuss": "Why does Rav Ashi distinguish fanning with the wind in damages from winnowing on Sabbath?",
+        "question": "If a person fans a flame and the wind helps it spread, how does the Gemara decide whose force caused the fire?",
+        "reading": "Ben Yehoyada reads the aggadot of this daf closely. Calamity comes only \"when the wicked are in the world\" — for sins still being committed, not for past sins already left behind. The righteous are called \"gadish,\" a stack, as if \"gimel dish\" — they thresh in three ways, deed, speech, and thought, separating holy sparks from the husk. On \"a person should always enter with good and leave with good,\" he reads \"ki\" as a condition: speak of the good first, and do not end one's words on the bad. Dogs \"cry\" and \"laugh\" is figurative: they would weep or laugh if they could. On \"the fire went out by itself,\" he explains that the fire went out on its own but could not take hold of the holy place until the Holy One clothed it with power — hence \"I am obliged to pay for the fire I kindled.\" And David's question, \"who will give me water from the well of Bethlehem,\" in gematria hints at the very question: may a person save his life with another's property? Ben Yehoyada on Bava Kamma 60a, Ben Yehoyada on Bava Kamma 60b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע רב אשי מבחין בין מלבה ורוח מסייעתו בנזקין לבין זורה בשבת?",
+        "question": "כשאדם מלבה אש והרוח מסייעת לו, כיצד קובעת הגמרא אם האש התפשטה מכוח ליבויו או מכוח הרוח?",
+        "reading": "בן יהוידע מעמיק באגדות הדף. אין פורענות באה לעולם אלא \"בזמן שהרשעים בעולם\" — בעבור עבירות הנעשות עכשיו, ולא בעבור עבירות שכבר עזבום. הצדיקים נקראים \"גדיש\" כאילו \"ג׳ דיש\" — הם דשים בשלושה אופנים, במעשה, בדיבור ובמחשבה, ומפרידים ניצוצי קדושה מן הקליפה. על \"לעולם יכנס אדם בכי טוב ויצא בכי טוב\" הוא דורש \"כי\" לשון תנאי: יתפוס תחילה את צד הטוב ולא יסיים דבריו בצד הרע. \"כלבים בוכים... משחקים\" לשון מליצה הוא: ראוי להם לבכות או לשחוק אילו ידעו. על \"כי תצא אש — תצא מעצמה\" הוא מבאר שהאש יצאה מעצמה אך לא יכלה להתאחז במקום הקודש עד ששלח לה הקדוש ברוך הוא כוח שנתלבש בה — ולכן \"עלי לשלם את הבערה שהבערתי\". ושאלת דוד \"מי ישקני מים מבור בית לחם\" רומזת בגימטריה לשאלה עצמה: היש רשות לאדם להציל נפשו בממון חבירו? Ben Yehoyada on Bava Kamma 60a, Ben Yehoyada on Bava Kamma 60b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "a73c9259461dfa481a5c4581931201b8c9f9c71c2f16089e3bb5fa6226a2a246",
+      "sources": [
+        {
+          "en": "Bava Kamma 60a",
+          "he": "בבא קמא ס׳ א",
+          "url": "https://www.sefaria.org/Bava_Kamma_60a"
+        },
+        {
+          "en": "Bava Kamma 60b",
+          "he": "בבא קמא ס׳ ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_60b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-61": {
+      "en": {
+        "discuss": "Why does David refuse to quote the law in the names of those who risked their lives?",
+        "question": "If a fire crosses a fence and burns a haystack, how do the barrier and the objects hidden in the stack affect what the kindler must pay?",
+        "reading": "Ben Yehoyada explains why one who gives his life for words of Torah is not quoted by name. He first asks what life Torah gives \"in this world,\" since unlearned people often live longer, and \"in the World to Come,\" where all is life. Torah gives life in this world because a sage's teachings are repeated after him, and his lips move in the grave — he counts as living here; and in the World to Come because Torah shields him from delay, so he enters eternal life sooner. But one who gives himself to death for Torah does not value this world's life at all; he reads \"and live by them\" only of the World to Come. Measure for measure, he does not receive the this-worldly life of being quoted. Ben Yehoyada adds that sages whose words are repeated may ask that their body remain whole in the grave, so that \"lips moving in the grave\" be fulfilled for Torah's honor. Ben Yehoyada on Bava Kamma 61a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע מסרב דוד לומר את ההלכה משם אלה שמסרו נפשם?",
+        "question": "אם אש עוברת גדר ושורפת גדיש, כיצד משפיעים הגדר והחפצים הטמונים בגדיש על חיובו של המבעיר?",
+        "reading": "בן יהוידע מבאר מדוע המוסר עצמו למות על דברי תורה אין אומרים דבר הלכה משמו. תחילה הוא שואל מה הם החיים שהתורה נותנת \"בעולם הזה\", והלא עמי ארצות רבים חיים יותר, ו\"בעולם הבא\", שכולו חיים. התורה נותנת חיים בעולם הזה, שאומרים שמועה מפי החכם אחריו ושפתותיו דובבות בקבר — ונחשב חי כאן; ובעולם הבא, שהתורה מגינה עליו מעיכוב, ונכנס לחיי נצח מוקדם יותר. אבל המוסר עצמו למות על התורה אינו מחשיב כלל את חיי העולם הזה, ודורש \"וחי בהם\" על חיי העולם הבא בלבד. מידה כנגד מידה, אינו זוכה לחיי העולם הזה של אמירת שמועה מפיו. ומוסיף בן יהוידע שתלמידי חכמים שאומרים שמועה מפיהם יש להם טענה לבקש שיישאר גופם קיים בקבר, כדי שיתקיים \"שפתותיו דובבות בקבר\" לכבוד התורה. Ben Yehoyada on Bava Kamma 61a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "6c014e141e70c0911fa19f3a3ae2f3f1304dd5145cf60b0fdb62f64e1764d5b6",
+      "sources": [
+        {
+          "en": "Bava Kamma 61a",
+          "he": "בבא קמא ס״א א",
+          "url": "https://www.sefaria.org/Bava_Kamma_61a"
+        },
+        {
+          "en": "Bava Kamma 61b",
+          "he": "בבא קמא ס״א ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_61b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-62": {
+      "en": {
+        "discuss": "Why does Rabbi Yehuda agree that one who lent space pays only for the stack?",
+        "question": "When a camel's flax catches fire at a shopkeeper's lamp, why do the lamp's location and its use for Hanukkah matter?",
+        "reading": "Ben Yehoyada comments on the difference between a ḥamsan, who pays for what he takes, and a gazlan, who does not. He notes that the letters mem and nun in \"ḥamsan\" equal in number the word \"gazlan\" (ninety). What remains is ḥet-samekh, \"ḥas\" — pity. The hint: a ḥamsan is truly a robber, for he takes against the owner's will; he only \"has pity\" on the victim by not taking from him outright like a full robber, but paying him. And \"ḥas\" with its count equals \"hu yahiv zuzei,\" he gives money. Ben Yehoyada on Bava Kamma 62a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע מודה רבי יהודה שהמשאיל מקום משלם רק דמי גדיש?",
+        "question": "כשפשתנו של גמל נדלק מנרו של חנווני, מדוע חשוב היכן הונח הנר והאם היה זה נר חנוכה?",
+        "reading": "בן יהוידע מעיר על ההבדל בין חמסן, הנותן דמים, לגזלן, שאינו נותן. הוא מראה שאותיות מ״ם נו״ן של \"חמסן\" עולות במספר \"גזלן\" (תשעים). נשארו אותיות ח״ס — \"חס\". הרמז: חמסן גזלן הוא באמת, שהרי לוקח שלא ברצון בעלים; אלא שהוא \"חס\" על הנגזל שאינו לוקח ממנו כגזלן גמור, ונותן לו דמים. ו\"חס\" עם הכולל עולה כמספר \"הוא יהיב זוזי\". Ben Yehoyada on Bava Kamma 62a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "b77ae9e02d7e8e13f455aeb75a5779da47f89be9cd714bcc193455cf26d56acf",
+      "sources": [
+        {
+          "en": "Bava Kamma 62a",
+          "he": "בבא קמא ס״ב א",
+          "url": "https://www.sefaria.org/Bava_Kamma_62a"
+        },
+        {
+          "en": "Bava Kamma 62b",
+          "he": "בבא קמא ס״ב ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_62b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-63": {
+      "en": {
+        "discuss": "Why would one animal detail alone not suffice to define double payment?",
+        "question": "How can a bailee who swears that a deposit was stolen come to owe the same double payment as a thief?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 63. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 62a (opening words «'חמסן', יהיב דמי, 'גזלן', לא יהיב דמי») and on Daf 65b (opening words «שור בן יומו קרוי 'שור'. איל בן …»)."
+      },
+      "he": {
+        "discuss": "מדוע פרט של בהמה אחת לבדה לא היה מספיק להגדרת תשלומי כפל?",
+        "question": "כיצד שומר הנשבע שפיקדון נגנב עלול להתחייב באותו תשלום כפל המוטל על גנב?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ס״ג. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ס״ב א (בדיבור המתחיל «'חמסן', יהיב דמי, 'גזלן', לא יהיב דמי») ובדף ס״ה ב (בדיבור המתחיל «שור בן יומו קרוי 'שור'. איל בן …»)."
+      },
+      "revision": "26cca43ce77788444d21ad08d6e7bfa8c98fc8631512514e41fbb2c67e08c1a8",
+      "sources": [
+        {
+          "en": "Bava Kamma 63a",
+          "he": "בבא קמא ס״ג א",
+          "url": "https://www.sefaria.org/Bava_Kamma_63a"
+        },
+        {
+          "en": "Bava Kamma 63b",
+          "he": "בבא קמא ס״ג ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_63b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-64": {
+      "en": {
+        "discuss": "Why does each step of the school of Ḥizkiyya end with \"to include everything\"?",
+        "question": "How do the words “if the theft is indeed found in his hand” help determine which stolen goods carry double payment and what happens if the thief confesses?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 64. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 62a (opening words «'חמסן', יהיב דמי, 'גזלן', לא יהיב דמי») and on Daf 65b (opening words «שור בן יומו קרוי 'שור'. איל בן …»)."
+      },
+      "he": {
+        "discuss": "מדוע כל שלב בדבי חזקיה מסתיים ב\"לרבות כל דבר\"?",
+        "question": "כיצד לומדים מן המילים ״אם המצא תמצא בידו הגנבה״ על אילו חפצים משלמים כפל ומה הדין כשהגנב מודה?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ס״ד. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ס״ב א (בדיבור המתחיל «'חמסן', יהיב דמי, 'גזלן', לא יהיב דמי») ובדף ס״ה ב (בדיבור המתחיל «שור בן יומו קרוי 'שור'. איל בן …»)."
+      },
+      "revision": "2206117b41d70e80364acd528b04c48a3c53a06736d4bf1bce80a7018f3d9b3c",
+      "sources": [
+        {
+          "en": "Bava Kamma 64a",
+          "he": "בבא קמא ס״ד א",
+          "url": "https://www.sefaria.org/Bava_Kamma_64a"
+        },
+        {
+          "en": "Bava Kamma 64b",
+          "he": "בבא קמא ס״ד ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_64b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-65": {
+      "en": {
+        "discuss": "Why does the thief's yard count as \"his hand\"?",
+        "question": "If a stolen lamb grows into a ram, at what point is its value fixed for the principal and for the additional payments?",
+        "reading": "Ben Yehoyada comments on \"a day-old bull is called a bull, a day-old ram is called a ram.\" This is why the righteous are called by the names \"bull\" and \"ram\": some of them receive the full measure of their soul — nefesh, ruaḥ, and neshama — already in childhood, like the son of Rav Hamnuna Sava and the other wondrous children of the Zohar, and like Shmuel the prophet, who at two years old knew a law that Eli did not. In their smallness they are as the great — just as a day-old bull is already called a bull. Ben Yehoyada on Bava Kamma 65b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע חצרו של הגנב נחשבת כ\"ידו\"?",
+        "question": "אם טלה גנוב גדל ונעשה איל, לפי איזה מועד נקבע ערכו לעניין הקרן ולעניין התשלומים הנוספים?",
+        "reading": "בן יהוידע מעיר על \"שור בן יומו קרוי שור, איל בן יומו קרוי איל\". לכן הצדיקים מכונים בשם שור ובשם איל, כי יש מהם שבקטנותם לוקחים את הנר״ן שלהם — נפש, רוח ונשמה — במלואם, כמו בריה דרב המנונא סבא ושאר הינוקי שבזוהר הקדוש, וכמו שמואל הנביא שבהיותו בן שתי שנים ידע הלכה שלא ידע עלי. בקטנותם הרי הם כגדולים ממש — כשם ששור בן יומו כבר קרוי שור. Ben Yehoyada on Bava Kamma 65b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "1d6805e1575f716f1a7e05d45fc1170ac9e1312559a3b45b426c25f0b020129e",
+      "sources": [
+        {
+          "en": "Bava Kamma 65a",
+          "he": "בבא קמא ס״ה א",
+          "url": "https://www.sefaria.org/Bava_Kamma_65a"
+        },
+        {
+          "en": "Bava Kamma 65b",
+          "he": "בבא קמא ס״ה ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_65b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-66": {
+      "en": {
+        "discuss": "How do Beit Shammai and Beit Hillel read \"even these\"?",
+        "question": "Can the owner's despair of recovery give the taker title to the object, or must something change in the object itself?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 66. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 65b (opening words «שור בן יומו קרוי 'שור'. איל בן …») and on Daf 73b (opening words «כדי שאלת הרב לתלמיד \"שלום עליך רבי …»)."
+      },
+      "he": {
+        "discuss": "כיצד קוראים בית שמאי ובית הלל את \"גם שניהם\"?",
+        "question": "האם ייאוש הבעלים לבדו מקנה לנוטל את החפץ, או שנדרש גם שינוי בחפץ עצמו?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ס״ו. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ס״ה ב (בדיבור המתחיל «שור בן יומו קרוי 'שור'. איל בן …») ובדף ע״ג ב (בדיבור המתחיל «כדי שאלת הרב לתלמיד \"שלום עליך רבי …»)."
+      },
+      "revision": "fca3a026df4f93c6f320f5f0d6c6824e6fae75fb23f35c0144094d68a0332060",
+      "sources": [
+        {
+          "en": "Bava Kamma 66a",
+          "he": "בבא קמא ס״ו א",
+          "url": "https://www.sefaria.org/Bava_Kamma_66a"
+        },
+        {
+          "en": "Bava Kamma 66b",
+          "he": "בבא קמא ס״ו ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_66b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-67": {
+      "en": {
+        "discuss": "Why does Rabbi Zeira say a reversible change of name is no change?",
+        "question": "When a stolen object acquires a new name, why does it matter whether it can return to its former use and name?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 67. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 65b (opening words «שור בן יומו קרוי 'שור'. איל בן …») and on Daf 73b (opening words «כדי שאלת הרב לתלמיד \"שלום עליך רבי …»)."
+      },
+      "he": {
+        "discuss": "מדוע אומר רבי זירא ששינוי השם החוזר אינו שינוי?",
+        "question": "כשחפץ גזול מקבל שם חדש, מדוע חשוב אם הוא יכול לחזור לשימושו ולשמו הקודמים?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ס״ז. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ס״ה ב (בדיבור המתחיל «שור בן יומו קרוי 'שור'. איל בן …») ובדף ע״ג ב (בדיבור המתחיל «כדי שאלת הרב לתלמיד \"שלום עליך רבי …»)."
+      },
+      "revision": "3656eb1eb0725b85a009516aac4e959323fecf5c967657cb7f87c91c6b554ff2",
+      "sources": [
+        {
+          "en": "Bava Kamma 67a",
+          "he": "בבא קמא ס״ז א",
+          "url": "https://www.sefaria.org/Bava_Kamma_67a"
+        },
+        {
+          "en": "Bava Kamma 67b",
+          "he": "בבא קמא ס״ז ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_67b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-68": {
+      "en": {
+        "discuss": "How does Rava's \"repeated sin\" answer the proof from \"entrenched in sin\"?",
+        "question": "If a thief sells a stolen ox before its owner despairs of recovering it, what makes the sale count for the fivefold penalty?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 68. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 65b (opening words «שור בן יומו קרוי 'שור'. איל בן …») and on Daf 73b (opening words «כדי שאלת הרב לתלמיד \"שלום עליך רבי …»)."
+      },
+      "he": {
+        "discuss": "כיצד עונה \"איכפל חטא\" של רבא על הראיה מ\"נשתרש בחטא\"?",
+        "question": "אם גנב מוכר שור גנוב לפני ייאוש הבעלים, מה קובע אם המכירה מחייבת אותו בתשלומי חמישה?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ס״ח. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ס״ה ב (בדיבור המתחיל «שור בן יומו קרוי 'שור'. איל בן …») ובדף ע״ג ב (בדיבור המתחיל «כדי שאלת הרב לתלמיד \"שלום עליך רבי …»)."
+      },
+      "revision": "221d376d3b6b8edbc6e0d44282f32434db037e6aba23983d7a00cc27a28b7646",
+      "sources": [
+        {
+          "en": "Bava Kamma 68a",
+          "he": "בבא קמא ס״ח א",
+          "url": "https://www.sefaria.org/Bava_Kamma_68a"
+        },
+        {
+          "en": "Bava Kamma 68b",
+          "he": "בבא קמא ס״ח ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_68b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-69": {
+      "en": {
+        "discuss": "Why does \"you are obligated to give\" leave the thief liable for fourfold payment?",
+        "question": "How could vineyard owners redeem fourth-year grapes already picked by others if a person cannot consecrate property outside his control?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 69. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 65b (opening words «שור בן יומו קרוי 'שור'. איל בן …») and on Daf 73b (opening words «כדי שאלת הרב לתלמיד \"שלום עליך רבי …»)."
+      },
+      "he": {
+        "discuss": "מדוע \"חייב אתה ליתן לו\" משאיר את הגנב חייב בארבעה וחמשה?",
+        "question": "כיצד יכלו בעלי כרמים לפדות פירות רבעי שכבר נלקטו בידי אחרים, אם אין אדם יכול להקדיש דבר שאינו ברשותו?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ס״ט. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ס״ה ב (בדיבור המתחיל «שור בן יומו קרוי 'שור'. איל בן …») ובדף ע״ג ב (בדיבור המתחיל «כדי שאלת הרב לתלמיד \"שלום עליך רבי …»)."
+      },
+      "revision": "9e1653394011b32334b1259bab7a15de11375d1d201751dc8b3873a49204c9fc",
+      "sources": [
+        {
+          "en": "Bava Kamma 69a",
+          "he": "בבא קמא ס״ט א",
+          "url": "https://www.sefaria.org/Bava_Kamma_69a"
+        },
+        {
+          "en": "Bava Kamma 69b",
+          "he": "בבא קמא ס״ט ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_69b"
+        }
+      ]
+    },
     "cycle-15-bava-kamma-7": {
       "en": {
         "discuss": "Why can Rabbi Akiva's a fortiori not rest on a vow to the Temple, and how does Rabbi Shimon ben Menasya solve the problem?",
@@ -2086,6 +3336,256 @@
         }
       ]
     },
+    "cycle-15-bava-kamma-70": {
+      "en": {
+        "discuss": "Why do the judges of Neharde'a refuse authorization documents for movables?",
+        "question": "When one pair of witnesses sees the theft and another sees the slaughter, why can their accounts combine despite the requirement to testify to a whole matter?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 70. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 65b (opening words «שור בן יומו קרוי 'שור'. איל בן …») and on Daf 73b (opening words «כדי שאלת הרב לתלמיד \"שלום עליך רבי …»)."
+      },
+      "he": {
+        "discuss": "מדוע נהרדעי אינם כותבים אורכתא על מטלטלין?",
+        "question": "כשכת אחת מעידה על הגנבה ואחרת על הטביחה, כיצד מצטרפות העדויות אף שנדרשת עדות על ״דבר״ שלם?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ע׳. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ס״ה ב (בדיבור המתחיל «שור בן יומו קרוי 'שור'. איל בן …») ובדף ע״ג ב (בדיבור המתחיל «כדי שאלת הרב לתלמיד \"שלום עליך רבי …»)."
+      },
+      "revision": "e8bcb39626de8a86c2672dbb53f31fd5eaf56a140b9ba2119442492e4fda23da",
+      "sources": [
+        {
+          "en": "Bava Kamma 70a",
+          "he": "בבא קמא ע׳ א",
+          "url": "https://www.sefaria.org/Bava_Kamma_70a"
+        },
+        {
+          "en": "Bava Kamma 70b",
+          "he": "בבא קמא ע׳ ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_70b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-71": {
+      "en": {
+        "discuss": "Why can a thief be liable for slaughter performed by an agent?",
+        "question": "Why can a thief owe fourfold or fivefold payment when someone else slaughters the stolen animal at his direction?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 71. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 65b (opening words «שור בן יומו קרוי 'שור'. איל בן …») and on Daf 73b (opening words «כדי שאלת הרב לתלמיד \"שלום עליך רבי …»)."
+      },
+      "he": {
+        "discuss": "מדוע הגנב חייב על טביחה שנעשתה על ידי שליח?",
+        "question": "מדוע גנב עשוי להתחייב בתשלומי ארבעה וחמישה גם כשאדם אחר טבח את הבהמה בשליחותו?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ע״א. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ס״ה ב (בדיבור המתחיל «שור בן יומו קרוי 'שור'. איל בן …») ובדף ע״ג ב (בדיבור המתחיל «כדי שאלת הרב לתלמיד \"שלום עליך רבי …»)."
+      },
+      "revision": "7ab2954a2304d5e6eb980bfef8d8aa4c9642e2be0bb847347929926d9b38beba",
+      "sources": [
+        {
+          "en": "Bava Kamma 71a",
+          "he": "בבא קמא ע״א א",
+          "url": "https://www.sefaria.org/Bava_Kamma_71a"
+        },
+        {
+          "en": "Bava Kamma 71b",
+          "he": "בבא קמא ע״א ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_71b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-72": {
+      "en": {
+        "discuss": "Why does Rav Naḥman distinguish slaughter before and after the father's death?",
+        "question": "When witnesses are found to be zomemim, does their disqualification begin with the original testimony or only when other witnesses establish that they were elsewhere?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 72. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 65b (opening words «שור בן יומו קרוי 'שור'. איל בן …») and on Daf 73b (opening words «כדי שאלת הרב לתלמיד \"שלום עליך רבי …»)."
+      },
+      "he": {
+        "discuss": "מדוע מבחין רב נחמן בין טביחה לפני מות האב לאחריה?",
+        "question": "כשעדים נמצאים זוממים, האם הם נפסלים משעה שהעידו או רק משעה שהוזמו?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ע״ב. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ס״ה ב (בדיבור המתחיל «שור בן יומו קרוי 'שור'. איל בן …») ובדף ע״ג ב (בדיבור המתחיל «כדי שאלת הרב לתלמיד \"שלום עליך רבי …»)."
+      },
+      "revision": "b96824797bcbcaefc81a67ba681b39a674bec94a55b45a43378c7b4d39dbd20c",
+      "sources": [
+        {
+          "en": "Bava Kamma 72a",
+          "he": "בבא קמא ע״ב א",
+          "url": "https://www.sefaria.org/Bava_Kamma_72a"
+        },
+        {
+          "en": "Bava Kamma 72b",
+          "he": "בבא קמא ע״ב ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_72b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-73": {
+      "en": {
+        "discuss": "What practical differences follow from Rava's two reasons?",
+        "question": "How does the interval between testimony about a theft and testimony about the slaughter affect what survives when one part is discredited?",
+        "reading": "Ben Yehoyada comments on \"the time it takes a teacher to greet a student\" versus a student's greeting, \"peace upon you, my master and teacher.\" Tosafot note that one who greets his teacher with \"peace upon you\" alone, without \"my master and teacher,\" causes the Divine Presence to depart. So the student must lengthen his greeting. This explains \"great peace — shalom rav — to those who love Your Torah, and they have no stumbling\": \"rav\" — one who lengthens to say \"rabbi\" avoids the stumbling of a deficient greeting. And \"Torah scholars increase peace in the world\" — they lengthen the words of peace. In the future, though \"all your children will be taught of God\" and none will need to teach another, \"great will be the peace of your children\": they will still greet one another as a student greets his teacher. Ben Yehoyada on Bava Kamma 73b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "אילו הבדלים מעשיים נובעים משני טעמי רבא?",
+        "question": "כיצד משפיע מרווח הזמן שבין העדות על הגנבה לעדות על הטביחה על החלק שיכול להישאר בתוקף כשאחת העדויות מתבטלת?",
+        "reading": "בן יהוידע מעיר על \"כדי שאילת הרב לתלמיד\" מול שאילת תלמיד לרב, \"שלום עליך רבי ומורי\". התוספות כתבו שהנותן שלום לרבו ב\"שלום עליך\" לבד, בלי \"רבי ומורי\", גורם לשכינה שתסתלק. לכן צריך התלמיד להאריך בשלומו. בזה מובן \"שלום רב לאוהבי תורתך ואין למו מכשול\": \"רב\" — המאריך לומר \"רבי\" ניצל ממכשול של שלום חסר. וכן \"תלמידי חכמים מרבים שלום בעולם\" — מרבים בנוסח השלום. ולעתיד, אף ש\"כל בניך למודי ה׳\" ואין צריך אחד ללמד את חבירו, \"ורב שלום בניך\": עדיין ינהגו זה בזה כתלמיד לרבו ויאמרו \"שלום עליך רבי ומורי\". Ben Yehoyada on Bava Kamma 73b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "d674abb7bb499bb4e33b4f444b90ef1f12750ac1bdad6463ae41af7b1e4afdf4",
+      "sources": [
+        {
+          "en": "Bava Kamma 73a",
+          "he": "בבא קמא ע״ג א",
+          "url": "https://www.sefaria.org/Bava_Kamma_73a"
+        },
+        {
+          "en": "Bava Kamma 73b",
+          "he": "בבא קמא ע״ג ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_73b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-74": {
+      "en": {
+        "discuss": "Why does Abaye say the latter clause of the slave baraita needs no three sets?",
+        "question": "Why did Rabban Gamliel's admission that he had injured Tavi's eye fail to secure the freedom he wanted for Tavi?",
+        "reading": "Ben Yehoyada cites the Ḥida in the name of the Ramad: Tavi, Rabban Gamliel's slave, was a reincarnation of Ḥam, and was the refined good within him — hence his name Tavi, from \"tov.\" Ḥam's sin is tied to seeing: \"Ḥam saw his father's nakedness,\" while his brothers were praised for not seeing. So it came about that Rabban Gamliel blinded his eye, atoning for that sin of sight — which is why he rejoiced greatly, for the blinding both freed Tavi and repaired his soul. And the name \"Tavi,\" טבי, contains the letters of \"yabet,\" יבט, he will look. Ben Yehoyada on Bava Kamma 74b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע אומר אביי שהסיפא של ברייתת העבד אינה צריכה שלוש כיתות?",
+        "question": "מדוע לא היה די בהודאת רבן גמליאל שפגע בעינו של טבי כדי להביא לשחרורו כפי שרצה?",
+        "reading": "בן יהוידע מביא את החיד״א בשם הרמ״ד: טבי עבדו של רבן גמליאל היה גלגול חם, והיה הבירור מן הטוב שבו — ולכן נקרא טבי, מלשון טוב. וידוע שהכתוב תלה עוון חם בראייתו: \"וירא חם אבי כנען את ערות אביו\", ושיבח את אחיו \"וערות אביהם לא ראו\". לכן נתגלגל הדבר שסימא רבן גמליאל את עינו, לכפר על אותו עוון של ראייה — ולכן שמח שמחה גדולה, שהסימוי גם שחרר את טבי וגם תיקן את נשמתו. ו\"טבי\" הוא אותיות \"יבט\". Ben Yehoyada on Bava Kamma 74b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "df19e00b2e3a58b6130dc76a2ce7f072478b2dfcc5446456a534b3c899dd7c01",
+      "sources": [
+        {
+          "en": "Bava Kamma 74a",
+          "he": "בבא קמא ע״ד א",
+          "url": "https://www.sefaria.org/Bava_Kamma_74a"
+        },
+        {
+          "en": "Bava Kamma 74b",
+          "he": "בבא קמא ע״ד ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_74b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-75": {
+      "en": {
+        "discuss": "How do the two versions of Rabbi Yehoshua's reply relate to Rav's rule?",
+        "question": "If a thief confesses before witnesses arrive, when does the confession exempt him from a fine that their testimony would otherwise establish?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 75. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 74b (opening words «מעשה ברבן גמליאל, שסמא את עין טבי …») and on Daf 78b (opening words «בעי רבא 'הרי עלי עולה' והפריש שור …»)."
+      },
+      "he": {
+        "discuss": "כיצד שתי הגרסאות של תשובת רבי יהושע מתייחסות לכלל רב?",
+        "question": "אם גנב מודה לפני שבאו עדים, מתי הודאתו פוטרת אותו מן הקנס שהיה מתחייב בו על פי עדותם?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ע״ה. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ע״ד ב (בדיבור המתחיל «מעשה ברבן גמליאל, שסמא את עין טבי …») ובדף ע״ח ב (בדיבור המתחיל «בעי רבא 'הרי עלי עולה' והפריש שור …»)."
+      },
+      "revision": "994e50a453f8183eb76659a1815b27f21f35cf530cd8bc429dd7134a39a4b242",
+      "sources": [
+        {
+          "en": "Bava Kamma 75a",
+          "he": "בבא קמא ע״ה א",
+          "url": "https://www.sefaria.org/Bava_Kamma_75a"
+        },
+        {
+          "en": "Bava Kamma 75b",
+          "he": "בבא קמא ע״ה ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_75b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-76": {
+      "en": {
+        "discuss": "Why does selling a stolen animal to Heaven differ from selling it to a person?",
+        "question": "When a thief slaughters a consecrated animal, why does it matter whether its owner would have to bring another offering in its place?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 76. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 74b (opening words «מעשה ברבן גמליאל, שסמא את עין טבי …») and on Daf 78b (opening words «בעי רבא 'הרי עלי עולה' והפריש שור …»)."
+      },
+      "he": {
+        "discuss": "מדוע מכירת בהמה גנובה לגבוה שונה ממכירתה להדיוט?",
+        "question": "כשגנב טובח בהמת קרבן, מדוע חשוב אם בעליה חייב להביא קרבן אחר תחתיה?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ע״ו. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ע״ד ב (בדיבור המתחיל «מעשה ברבן גמליאל, שסמא את עין טבי …») ובדף ע״ח ב (בדיבור המתחיל «בעי רבא 'הרי עלי עולה' והפריש שור …»)."
+      },
+      "revision": "ceb009fbe49e07156a5cc3b4855c27533b3a7d9cd9afcf83c5153214948fa62a",
+      "sources": [
+        {
+          "en": "Bava Kamma 76a",
+          "he": "בבא קמא ע״ו א",
+          "url": "https://www.sefaria.org/Bava_Kamma_76a"
+        },
+        {
+          "en": "Bava Kamma 76b",
+          "he": "בבא קמא ע״ו ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_76b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-77": {
+      "en": {
+        "discuss": "What does \"the red heifer may be redeemed on its pyre\" teach about Rabbi Shimon?",
+        "question": "If a stolen animal is a tereifa and its slaughter cannot make it fit to eat, can selling it still incur the fourfold or fivefold penalty?",
+        "reading": "Ben Yehoyada (Senlake edition 2019, based on Jerusalem 1897) contains no comment on Bava Kamma 77. His commentary on this tractate is selective and dwells mainly on aggadic passages, so this daf is studied here without his voice. The nearest comments are on Daf 74b (opening words «מעשה ברבן גמליאל, שסמא את עין טבי …») and on Daf 78b (opening words «בעי רבא 'הרי עלי עולה' והפריש שור …»)."
+      },
+      "he": {
+        "discuss": "מה מלמד \"פרה נפדית על גב מערכתה\" על שיטת רבי שמעון?",
+        "question": "אם הבהמה הגנובה היא טרפה ושחיטתה אינה מתירה אותה באכילה, האם מכירתה בכל זאת מחייבת בתשלומי ארבעה וחמישה?",
+        "reading": "בבן יהוידע (מהדורת סנלייק 2019, על פי ירושלים תרנ״ז) אין ביאור על בבא קמא ע״ז. פירושו למסכת זו בררני ועוסק בעיקר בקטעי אגדה, ולכן דף זה נלמד כאן בלי קולו. הביאורים הקרובים ביותר הם בדף ע״ד ב (בדיבור המתחיל «מעשה ברבן גמליאל, שסמא את עין טבי …») ובדף ע״ח ב (בדיבור המתחיל «בעי רבא 'הרי עלי עולה' והפריש שור …»)."
+      },
+      "revision": "0b72dcc14d2c4f1590023c4e947b5d2d27036f1aaa42e1d4fe03f3e3a1e9989e",
+      "sources": [
+        {
+          "en": "Bava Kamma 77a",
+          "he": "בבא קמא ע״ז א",
+          "url": "https://www.sefaria.org/Bava_Kamma_77a"
+        },
+        {
+          "en": "Bava Kamma 77b",
+          "he": "בבא קמא ע״ז ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_77b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-78": {
+      "en": {
+        "discuss": "Why does \"or\" exclude in the context of offerings?",
+        "question": "If the thief sells all but one hundredth of a stolen animal, what makes the retained part count as a reservation in the sale?",
+        "reading": "Ben Yehoyada discusses Rava's ruling that if one vowed \"a burnt-offering is upon me,\" set aside an ox, and it was stolen, the thief may discharge himself with a sheep. Following the Shita Mekubetzet: since the vower never vowed an ox, his obligation is not fixed in the ox; if it died or was stolen he could fulfill his vow with a sheep, and so the thief too pays only a sheep's worth — though if the thief ate it, he benefited from consecrated property and pays the principal. Ben Yehoyada asks: the owner could seek annulment of his vow, retroactively returning the ox to ordinary status, and then the thief would owe a full ox! He answers that Rava's case fits where the vower has died and his heirs litigate with the thief — no one remains to seek annulment. He then engages later authorities on whether the mere possibility of annulment makes consecrated property count as full money, citing the Rashba that others may take produce one has forbidden on himself by vow, but if the vow is later annulled, they must pay. Ben Yehoyada on Bava Kamma 78b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע \"או\" ממעט בהקשר הקדשים?",
+        "question": "אם הגנב מוכר בהמה גנובה חוץ מאחד ממאה שבה, מה קובע אם החלק שהשאיר לעצמו נחשב שיור במכירה?",
+        "reading": "בן יהוידע דן בדין רבא שהאומר \"הרי עלי עולה\" והפריש שור ונגנב — הגנב פוטר עצמו בכבש. על פי השיטה מקובצת: כיון שלא נדר שור מתחילה, לא קבע נדרו בשור; אם מת או נגנב, יוצא בכבש — ולכן גם הגנב פוטר עצמו בכבש; אבל אם אכלו הגנב — נהנה מן ההקדש ומשלם קרן. ובן יהוידע מקשה: הרי יכול בעל הקרבן לישאל על נדרו, ויצא השור לחולין למפרע, ויתחייב הגנב דמי שור! ומיישב שדין רבא משכחת לה כשהנודר נפטר והיורשים באים לדון עם הגנב — ואין מי שיישאל. ואחר כך הוא נושא ונותן עם האחרונים אם עצם האפשרות לישאל עושה את ההקדש לממון גמור, ומביא את הרשב״א שאחרים נוטלים פירות שאסר אדם על עצמו בנדר, אך אם נשאל — חייבין לשלם. Ben Yehoyada on Bava Kamma 78b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "e517eb52774e9874644b3735cce213fa7fafde9945ecd141ce36ac9acd8a851f",
+      "sources": [
+        {
+          "en": "Bava Kamma 78a",
+          "he": "בבא קמא ע״ח א",
+          "url": "https://www.sefaria.org/Bava_Kamma_78a"
+        },
+        {
+          "en": "Bava Kamma 78b",
+          "he": "בבא קמא ע״ח ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_78b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-79": {
+      "en": {
+        "discuss": "Why is there agency for transgression in theft when there is none elsewhere?",
+        "question": "Why does Rabban Yoḥanan ben Zakkai see the thief's fear of being seen as a reason for a heavier penalty than the open robber's?",
+        "reading": "Ben Yehoyada adds reasons why the Torah is stricter with a thief than a robber. Theft appears in the Ten Commandments, which weigh more in people's eyes; the robber acts openly and is shamed, while the thief acts in secret and is not; and the thief may later, out of shame, swear falsely when suspected. On \"the ear below as if it does not hear,\" he explains the thief denies twice: that God sees his deed, and that God hears the victim's cry — \"if he cries out to Me, I will surely hear.\" So the verse cites the name Y-H in \"Y-H will not see\": yod corresponds to sight and heh to hearing, both blemished — and \"geneiva,\" theft, holds the letters \"ganav Y-H.\" On the ox walking (five) and the sheep carried (four), the Shita Mekubetzet asks why double payment is not likewise reduced; he answers that double payment is measure for measure — he sought to add his fellow's to his own, so the same amount is subtracted — and must be uniform, whereas the fourfold penalty is not based on that principle. Ben Yehoyada on Bava Kamma 79b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע יש שליח לדבר עבירה בגניבה, כשבשאר התורה אין?",
+        "question": "מדוע רבן יוחנן בן זכאי רואה בחששו של הגנב שמא יראוהו טעם להחמיר בו יותר מבגזלן הפועל בגלוי?",
+        "reading": "בן יהוידע מוסיף טעמים מדוע החמירה תורה בגנב יותר מגזלן. גניבה כתובה בעשרת הדברות, החמורים יותר בעיני בני אדם; הגזלן עושה בפרהסיא ומתבזה, והגנב עושה בצנעא ואינו מתבזה; והגנב עלול לבוא לידי שבועת שקר מחמת בושה כשיחשדוהו. על \"אוזן של מטה כאילו אינה שומעת\" הוא מבאר שהגנב כפר בשתיים: שאין עין רואה את מעשיו, ושאין אוזן שומעת צעקת הנגנב — \"כי אם צעק יצעק אלי שמע אשמע\". לכן נאמר \"לא יראה י־ה\": יו״ד כנגד הראייה וה״א כנגד השמיעה, ושתיהן נפגמו — ו\"גניבה\" אותיות \"גנב י־ה\". ועל שור שהלך ברגליו (חמשה) ושה שנשאו על כתפו (ארבעה), השיטה מקובצת מקשה מדוע לא נחלק גם הכפל; ומיישב שהכפל הוא מידה כנגד מידה — רצה להוסיף משל חבירו על שלו, ולכן נחסר ממנו כשיעור — וצריך להיות שווה, מה שאין כן קנס ארבעה וחמשה שאינו מטעם זה. Ben Yehoyada on Bava Kamma 79b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "5d8f3d38731753056f3e9b2fe79d74d88f74d559805787ae7aa4c83d0191c396",
+      "sources": [
+        {
+          "en": "Bava Kamma 79a",
+          "he": "בבא קמא ע״ט א",
+          "url": "https://www.sefaria.org/Bava_Kamma_79a"
+        },
+        {
+          "en": "Bava Kamma 79b",
+          "he": "בבא קמא ע״ט ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_79b"
+        }
+      ]
+    },
     "cycle-15-bava-kamma-8": {
       "en": {
         "discuss": "How do the three resolutions of the conflicting baraitot differ in what they assume about appraisal?",
@@ -2108,6 +3608,106 @@
           "en": "Bava Kamma 8b",
           "he": "בבא קמא ח׳ ב",
           "url": "https://www.sefaria.org/Bava_Kamma_8b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-80": {
+      "en": {
+        "discuss": "Why was the pious man's goat counted as a sin?",
+        "question": "What does the story of the sick man who kept a goat at his bedside reveal about the ban on raising small livestock in the Land of Israel?",
+        "reading": "Ben Yehoyada comments on the pious man whose only sin was the goat tied to his bed. Following the Maharsha that his illness was not dangerous, Ben Yehoyada explains that he permitted himself because the prohibition on raising small animals is a rabbinic decree, and the Sages did not decree in a case of illness. Yet the Sages counted it against him because he was an important person, and those who saw him might err and do the same without illness. On 80b, where Rav, Shmuel, and Rav Asi each refused to enter before another, he weighs the Shita Mekubetzet and offers his own reading: the questioner already knew Rav's practice of honoring Shmuel, and the answer adds a new point about Rav's acceptance of a curse from that earlier incident. Ben Yehoyada on Bava Kamma 80a, Ben Yehoyada on Bava Kamma 80b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע נחשבה עז החסיד לעוון?",
+        "question": "מה מלמד סיפור החולה שהחזיק עז ליד מיטתו על טיב האיסור לגדל בהמה דקה בארץ ישראל?",
+        "reading": "בן יהוידע מעיר על החסיד שלא נמצא בו עוון אלא עוון העז הקשורה לכרעי מטתו. על פי המהרש״א שחוליו לא היה בו סכנה, הוא מבאר שהחסיד התיר לעצמו מפני שאיסור גידול בהמה דקה גזירה דרבנן היא, ובמקום חולי לא גזרו. אך החכמים חשבו זאת לו לעוון מפני שאדם חשוב היה, והרואים אותו עלולים לטעות ולעשות כן בלא חולי. ובעמוד ב, היכן שרב, שמואל ורב אסי לא רצו להיכנס זה לפני זה, הוא שוקל את דברי השיטה מקובצת ומציע קריאה משלו: המקשן כבר ידע את מנהגו של רב לחלוק כבוד לשמואל, והתשובה מוסיפה חידוש על קבלת רב את הקללה מאותו מעשה. Ben Yehoyada on Bava Kamma 80a, Ben Yehoyada on Bava Kamma 80b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "f2f85f9ca9d6794a1e228094b2535d6646cd2e7cbf39ee0d9b21982541e78ac3",
+      "sources": [
+        {
+          "en": "Bava Kamma 80a",
+          "he": "בבא קמא פ׳ א",
+          "url": "https://www.sefaria.org/Bava_Kamma_80a"
+        },
+        {
+          "en": "Bava Kamma 80b",
+          "he": "בבא קמא פ׳ ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_80b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-81": {
+      "en": {
+        "discuss": "How does Rav Pappa limit the right to graze in forests?",
+        "question": "Under Joshua's conditions for settling the land, when may someone gather wood, graze animals, or cross a field belonging to another?",
+        "reading": "Ben Yehoyada explains why every tribe received mountain, lowland, Negev, and valley. The Torah has a part of deed and a part of study — \"we will do\" and \"we will hear\" — and the Land was given \"so that they might keep His statutes,\" for the sake of doing. So each tribe received Negev, Emek, Shefela, and Har, whose initials spell \"na'aseh,\" we will do. Alternatively, the four kinds of land correspond to the four levels of Torah, PaRDeS, or to the four commitments sworn at Sinai: to learn, to teach, to keep, and to do. On Rabbi and Rabbi Ḥiyya, who stepped to the roadside while Rabbi Yehuda ben Kanosa strode ahead: they did not practice his piety because they were walking and debating Torah, which requires an even pace; or because they walked publicly, and observers might think the law required it — so after deliberation they chose to move aside, lest a shepherd err in the core law. Ben Yehoyada on Bava Kamma 81b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד מגביל רב פפא את הזכות לרעות בחורשין?",
+        "question": "לפי התנאים שהתנה יהושע ביישוב הארץ, מתי מותר ללקט עצים, לרעות בהמות או לעבור בשדהו של אדם אחר?",
+        "reading": "בן יהוידע מבאר מדוע היה לכל שבט הר, שפלה, נגב ועמק. בתורה יש חלק מעשה וחלק תלמוד — \"נעשה\" ו\"נשמע\" — והארץ ניתנה \"בעבור ישמרו חוקיו\", בשביל חלק המעשה. לכן נתן לכל שבט נגב, עמק, שפלה והר, שראשי תיבותיהם \"נעשה\". אי נמי, ארבעת סוגי הקרקע כנגד ארבעת חלקי התורה, פרד״ס, או כנגד ארבע החובות שנשבעו בסיני: ללמוד וללמד לשמור ולעשות. ועל רבי ורבי חייא, שנסתלקו לצידי הדרך בעוד רבי יהודה בן קנוסא מפסיע לפניהם: לא נהגו בחסידות זו מפני שהיו מהלכים ונושאים ונותנים בדברי תורה, הדורש הליכה שקולה; או מפני שהלכו בפומבי, והרואה עלול לחשוב שכך הדין — ולכן לאחר שיקול דעת בחרו להסתלק לצד, שלא יטעה הרואה בעיקר הדין. Ben Yehoyada on Bava Kamma 81b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "498683ccd145c0f53712b3f4f7515b65d145a21a096dc5f50a5d7cffd74f2f55",
+      "sources": [
+        {
+          "en": "Bava Kamma 81a",
+          "he": "בבא קמא פ״א א",
+          "url": "https://www.sefaria.org/Bava_Kamma_81a"
+        },
+        {
+          "en": "Bava Kamma 81b",
+          "he": "בבא קמא פ״א ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_81b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-82": {
+      "en": {
+        "discuss": "Why does Rabbi Yoḥanan's ruling on a leaning tree show that Joshua's conditions shaped ownership?",
+        "question": "Why do some of Ezra's ordinances single out Mondays and Thursdays, and how do Torah reading and access to a court fit into that weekly rhythm?",
+        "reading": "Ben Yehoyada comments on several aggadot of this daf. The Sages are called \"dorshei reshumot,\" interpreters of traces, because they derive great laws from hints — the thirteen principles, inclusions and exclusions in words and letters — which the Karaites deny. On the prophets who instituted Torah reading, he notes this came after Moshe's generation, when \"three days without water,\" understood as Torah, moved them to act. On garlic \"bringing love and removing jealousy,\" he asks how food can remove a spiritual trait, and links it to garlic's natural effect on marital desire. On the pig raised up the wall, he explains that the pig is a powerful husk — within \"ḥazir\" lies the number of \"tov,\" good swallowed in its shell — and that the whole Land shook, not only Jerusalem. On the curses, he notes that \"at that moment\" they cursed only those who raise pigs, not yet knowing the elder's Greek wisdom had caused it; once they learned, they cursed teaching one's son Greek wisdom too. Ben Yehoyada on Bava Kamma 82a, Ben Yehoyada on Bava Kamma 82b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "מדוע פסק רבי יוחנן באילן הנוטה מראה שתנאי יהושע עיצבו את הבעלות?",
+        "question": "מדוע ייחד עזרא כמה מתקנותיו לימי שני וחמישי, וכיצד משתלבות קריאת התורה וישיבת בתי הדין בסדר השבוע?",
+        "reading": "בן יהוידע מעיר על כמה אגדות בדף. חכמינו נקראים \"דורשי רשומות\" מפני שהם מוציאים הלכות גדולות מרמזים — שלוש עשרה מידות, ריבויים ומיעוטים בתיבות ובאותיות — מה שהקראים כופרים בו. על הנביאים שתיקנו קריאת התורה הוא מעיר שהיה זה אחר דורו של משה, כאשר \"שלשת ימים... ולא מצאו מים\", שנדרש על תורה, עורר אותם לתקן. על השום ש\"מכניס אהבה ומוציא את הקנאה\" הוא שואל כיצד מאכל יוציא מידה רוחנית, וקושר זאת לפעולתו הטבעית של השום על תאוות האישות. על החזיר שהועלה על החומה הוא מבאר שהחזיר קליפה גדולה — בתוך \"חזיר\" יש מספר \"טוב\", טוב הבלוע בקליפתו — ושנזדעזעה כל ארץ ישראל ולא ירושלים בלבד. ועל הקללות הוא מעיר ש\"באותה שעה\" קיללו רק את המגדל חזירים, שעדיין לא ידעו שהזקן בחכמה יונית גרם לכך; משנודע להם — קיללו גם את המלמד את בנו חכמה יונית. Ben Yehoyada on Bava Kamma 82a, Ben Yehoyada on Bava Kamma 82b · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "42d5e055327d33e6a088ad28a187f3d909ec577da9848d7c83ccdf9a6769687e",
+      "sources": [
+        {
+          "en": "Bava Kamma 82a",
+          "he": "בבא קמא פ״ב א",
+          "url": "https://www.sefaria.org/Bava_Kamma_82a"
+        },
+        {
+          "en": "Bava Kamma 82b",
+          "he": "בבא קמא פ״ב ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_82b"
+        }
+      ]
+    },
+    "cycle-15-bava-kamma-83": {
+      "en": {
+        "discuss": "How does the Gemara reconcile Rabban Gamliel's house with the curse on Greek wisdom?",
+        "question": "How does the Gemara move from the words “an eye for an eye” to an obligation to pay for the loss of sight?",
+        "reading": "Ben Yehoyada offers several readings. Rabbi's question \"why Syriac in the Land of Israel?\" did not praise any language; he wondered how Syriac came there at all, when only the holy tongue or Greek — present before the decree and close to them — should have been found. The Divine Presence rests on no fewer than twenty-two thousand, matching the twenty-two letters of the Torah to which Israel is bound; and twenty-two is the value of \"tova,\" good — so \"one sinner destroys much good\": one soul missing lacks the number of good. On \"take your favor and throw it on the thorns,\" the woman meant that the fetus, though not yet expelled, was already destined to fall like thorns set for burning; or \"aḥizrei\" hints at the pig, which shows split hooves as a sign of purity while lacking the inner sign — a favor that only looks like help; or, following a Geonic reading, \"return your favor\" — to the dog, whose bark harms before it bites. Ben Yehoyada on Bava Kamma 83a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "he": {
+        "discuss": "כיצד מיישבת הגמרא את בית רבן גמליאל עם הקללה על חכמת יונית?",
+        "question": "כיצד עוברת הגמרא מלשון ״עין תחת עין״ לחיוב לשלם לנחבל על אובדן ראייתו?",
+        "reading": "בן יהוידע מציע כמה קריאות. שאלת רבי \"בארץ ישראל לשון סורסי למה\" לא באה לשבח לשון; הוא תמה כיצד נמצא שם לשון סורסי כלל, כשרק לשון הקודש או לשון יון — שהיו שם קודם הגזרה וקרובים להם — ראויים להימצא. השכינה אינה שורה על פחות מעשרים ושניים אלף, כנגד כ״ב אותיות התורה שישראל אחוזים בהן; וכ״ב הוא מספר \"טובה\" — ולכן \"וחוטא אחד יאבד טובה הרבה\": כשחסרה נפש אחת, חסר מספר הטובה. על \"שקילא טיבותיך ושדיא אחיזרי\" — כוונתה שהוולד, אף שעדיין לא הפילתו, כבר סופו ליפול כקוצים העומדים להסקה; או \"אחיזרי\" רומז לחזיר, המראה טלפיו כסימן טהרה וחסר הסימן הפנימי — טובה הנראית כעזרה ואין בה מועיל; או כפירוש הגאון \"החזר טובתך\" — אל הכלב, המזיק בנביחתו קודם שישוך. Ben Yehoyada on Bava Kamma 83a · Senlake edition 2019 based on Ben Yehoyada, Jerusalem, 1897"
+      },
+      "revision": "85874ac1077ee2e3cfc364954c5a658613199db5a089fb0376d21fbc9b4cce1c",
+      "sources": [
+        {
+          "en": "Bava Kamma 83a",
+          "he": "בבא קמא פ״ג א",
+          "url": "https://www.sefaria.org/Bava_Kamma_83a"
+        },
+        {
+          "en": "Bava Kamma 83b",
+          "he": "בבא קמא פ״ג ב",
+          "url": "https://www.sefaria.org/Bava_Kamma_83b"
         }
       ]
     },
