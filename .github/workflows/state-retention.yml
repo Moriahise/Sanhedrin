@@ -1,0 +1,32 @@
+name: Retain seven database backups
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Publish durable library"]
+    types: [completed]
+    branches: [main]
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/state-retention.yml'
+      - '.github/scripts/state_retention.py'
+permissions:
+  contents: read
+concurrency:
+  group: verified-state-retention
+  cancel-in-progress: false
+jobs:
+  retain:
+    if: github.ref == 'refs/heads/main' && (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - name: Verify retained snapshots and remove older automatic releases and tags
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/state_retention.py
