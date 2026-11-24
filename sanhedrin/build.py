@@ -391,8 +391,12 @@ def _build(store, root, out, max_bytes):
         out / "release.json",
         {"schema": 1, "release": release, "logical_hash": logical, "files": checksums},
     )
-    if sum(p.stat().st_size for p in out.rglob("*") if p.is_file()) > max_bytes:
-        raise DataError("Final export exceeds byte budget")
+    final_size = sum(p.stat().st_size for p in out.rglob("*") if p.is_file())
+    if final_size > max_bytes:
+        raise DataError(f"Final export is {final_size:,} bytes; budget is {max_bytes:,} bytes")
+    print(f"Final export: {final_size:,} bytes; headroom: {max_bytes - final_size:,} bytes")
+    if final_size >= 0.97 * max_bytes:
+        print("::warning::Less than 3% of the publication size budget remains.")
     return manifest
 
 
