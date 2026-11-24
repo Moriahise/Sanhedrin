@@ -99,14 +99,20 @@ def run(directory, reports):
             page.locator("#language").click()
             assert page.locator("html").get_attribute("dir") == "rtl"
             assert page.locator("html").get_attribute("lang") == "he"
-            assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
+            assert page.evaluate("document.documentElement.scrollWidth <= innerWidth"), page.evaluate("""() => [...document.querySelectorAll('body *')].filter(el => {
+                const box = el.getBoundingClientRect();
+                return box.width && (box.left < -1 || box.right > innerWidth + 1);
+            }).slice(0, 12).map(el => [el.tagName, el.id, el.className, Math.round(el.getBoundingClientRect().width)])""")
             page.screenshot(path=str(reports / "teshuva-mobile-rtl.png"), full_page=False)
             page.locator("#question-editor").fill("האם אפשר להדליק נרות בשבת?")
             page.locator("#keywords").fill("שבת נרות")
             page.locator("#generate").click()
             page.wait_for_selector("#answer-sources .source", timeout=90000)
             assert page.locator("#answer-sources .source").count() == 6
-            assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
+            assert page.evaluate("document.documentElement.scrollWidth <= innerWidth"), page.evaluate("""() => [...document.querySelectorAll('body *')].filter(el => {
+                const box = el.getBoundingClientRect();
+                return box.width && (box.left < -1 || box.right > innerWidth + 1);
+            }).slice(0, 12).map(el => [el.tagName, el.id, el.className, Math.round(el.getBoundingClientRect().width)])""")
             result["mobile_rtl"] = True
             page.locator("#keywords").fill("zzzznomatchxyz")
             page.locator("#generate").click()

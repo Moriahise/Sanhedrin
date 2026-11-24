@@ -33,7 +33,7 @@ jobs:
           python tools/audit_library.py --repeat
       - name: Build and verify export
         run: |
-          python -m sanhedrin --report test-results/build.json build
+          python -m sanhedrin --report test-results/build.json build --max-bytes 960000000
           python -m sanhedrin --report test-results/export-verification.json verify-export
       - name: Full database recovery
         run: |
