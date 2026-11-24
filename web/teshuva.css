@@ -30,7 +30,7 @@
 .track-form { max-width: 400px; margin-top: 1.5rem; }
 .track-form input { margin-block: .5rem; }
 .archive { margin-top: 3rem; }
-.archive article { border-block-end: 1px solid var(--line); padding: .8rem 0; }
+.archive article { overflow-wrap: anywhere; border-block-end: 1px solid var(--line); padding: .8rem 0; }
 [hidden] { display: none !important; }
 @media (max-width: 740px) { .editor-layout { grid-template-columns: minmax(0,1fr); } .teshuva-shell { padding: 1.5rem .85rem; } .editor-panel, .profile-panel, .answer-panel { padding: 1rem; } .profile-panel img { width: 120px; height: 120px; } .answer-profile { align-items: start; } }
 

@@ -85,6 +85,8 @@ def publish_snapshot(repo, directory, commit):
         + "-"
         + meta["logical_hash"][:12]
     )
+    # Anchor the release on the default branch, even if it advanced during the build.
+    # The notes identify the exact checkout that produced the verified snapshot.
     gh(
         "release",
         "create",
@@ -93,12 +95,11 @@ def publish_snapshot(repo, directory, commit):
         str(directory / "snapshot.json"),
         "--repo",
         repo,
-        "--target",
-        commit,
         "--latest=false",
         "--title",
         "Sanhedrin durable state " + tag,
         "--notes",
-        f"Verified state with {meta['total']} records; restore validates both checksums, public IDs and revisions.",
+        f"Snapshot built from commit {commit}. Verified {meta['total']} records; "
+        "restore validates both checksums, public IDs and revisions.",
     )
-    return {"tag": tag, "total": meta["total"]}
+    return {"tag": tag, "source_commit": commit, "total": meta["total"]}
