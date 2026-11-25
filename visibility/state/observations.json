@@ -30,13 +30,13 @@
     }
   },
   "2026-W48": {
-    "daf_editions": 2070,
-    "daf_with_related_qa": 1661,
+    "daf_editions": 2112,
+    "daf_with_related_qa": 1703,
     "feed_entries": {
-      "en": 4,
-      "he": 4
+      "en": 6,
+      "he": 6
     },
-    "learning_pages": 12,
+    "learning_pages": 16,
     "observed_date_has_daf": true,
     "observed_on": "2026-11-25",
     "public_links": {
@@ -49,7 +49,7 @@
         "he": true
       }
     },
-    "sitemap_urls": 679,
+    "sitemap_urls": 811,
     "voluntary_reports_week_to_date": {
       "repeat_session_reports": 0,
       "session_reports": 0
