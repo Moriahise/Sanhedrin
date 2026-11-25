@@ -44,6 +44,51 @@
       }
     ]
   },
+  "5787-2026-11-28": {
+    "date": "2026-11-28",
+    "en": {
+      "body": "The passage opens before the meeting itself. Yaakov sends messengers ahead “to Esav his brother,” yet the message they are told to carry addresses Esav as “my lord” and Yaakov as “your servant.” The text lets both descriptions stand at once: Esav is still brother, but he is approached through deference. Preparation here begins not with denial of history, but with careful speech shaped by danger and relationship together.",
+      "question": "What does a difficult encounter ask of us?",
+      "questions": [
+        "Why does Yaakov begin with words of humility and only afterward move to practical preparation and prayer?",
+        "What changes in Yaakov between “I fear him” and “I have seen your face like seeing the face of God”?",
+        "Does the night struggle resolve Yaakov’s fear, or does it prepare him to meet Esav while still vulnerable?"
+      ],
+      "title": "Yaakov’s path from fear to meeting"
+    },
+    "he": {
+      "body": "הפרשה נפתחת עוד לפני המפגש עצמו. יעקב שולח מלאכים לפניו ״אל עשו אחיו״, אך את המסר שהם נצטוו לשאת הוא מנסח בלשון ״לאדני לעשו״ ו״עבדך יעקב״. הכתוב משאיר את שתי ההגדרות יחד: עשו הוא עדיין אח, אבל הפנייה אליו נעשית מתוך הכנעה. ההכנה כאן מתחילה לא בהכחשת העבר, אלא בדיבור זהיר המעוצב גם בידי הסכנה וגם בידי הקִרבה.",
+      "question": "מה דורש מאתנו מפגש קשה?",
+      "questions": [
+        "מדוע יעקב פותח בלשון הכנעה ורק אחר כך עובר להיערכות מעשית ולתפילה?",
+        "מה משתנה אצל יעקב בין ״כי ירא אנכי אותו״ לבין ״ראיתי פניך כראות פני אלהים״?",
+        "האם מאבק הלילה פותר את פחדו של יעקב, או שהוא מכין אותו לפגוש את עשו דווקא מתוך פגיעוּת?"
+      ],
+      "title": "דרכו של יעקב מן הפחד אל המפגש"
+    },
+    "sources": [
+      {
+        "en": "Genesis 32:4-13",
+        "he": "בראשית ל״ב:ד׳-י״ג",
+        "url": "https://www.sefaria.org/Genesis_32:4-13"
+      },
+      {
+        "en": "Genesis 32:23-33",
+        "he": "בראשית ל״ב:כ״ג-ל״ג",
+        "url": "https://www.sefaria.org/Genesis_32:23-33"
+      },
+      {
+        "en": "Genesis 33:1-11",
+        "he": "בראשית ל״ג:א׳-י״א",
+        "url": "https://www.sefaria.org/Genesis_33:1-11"
+      },
+      {
+        "en": "Full weekly study at Shiurim",
+        "he": "השיעור המלא באתר שיעורים",
+        "url": "https://moriahise.github.io/Shiurim/shiur/5787-2026-11-28/"
+      }
+    ]
+  },
   "zohar-5787-2026-11-21": {
     "date": "2026-11-21",
     "en": {
@@ -76,6 +121,41 @@
         "en": "Full Zohar shiur",
         "he": "שיעור הזוהר המלא",
         "url": "https://moriahise.github.io/Zohar/shiur/5787-2026-11-21/"
+      }
+    ]
+  },
+  "zohar-5787-2026-11-28": {
+    "date": "2026-11-28",
+    "en": {
+      "body": "The heading about Jacob’s messengers leads to the angels charged with guarding a person’s ways. The opening then describes the evil inclination as a persistent accuser and seducer from the beginning of life. Protection is introduced beside the recognition of vulnerability. A person is not pictured as beyond struggle merely because a journey has begun. Read the named biblical verses and the account of the inclination together: the exposition supplies a setting in which vigilance and divine keeping can be discussed without confusing them.",
+      "question": "How do vigilance, gradual change and attachment to Torah belong together?",
+      "questions": [
+        "How do vigilance, gradual change and attachment to Torah belong together?",
+        "Compare Dawn comes through a widening opening with The ending returns to the road. Which exact source words support the connection?",
+        "After reading all intervening chapters, what complication or alternative reading should be added to these four studies?"
+      ],
+      "title": "Zohar · Guarding the way and learning to bear the light"
+    },
+    "he": {
+      "body": "כותרת שליחת מלאכי יעקב מובילה אל המלאכים המצווים לשמור את דרכי האדם. הפתיחה מתארת אחר כך את היצר הרע כמקטרג ומפתה מתמשך מתחילת החיים. השמירה מוצגת לצד ההכרה בפגיעוּת. האדם אינו מצויר כמי שיצא מן המאבק רק מפני שהחל ללכת בדרך. קראו את הפסוקים הנקובים ואת תיאור היצר יחד: הדרשה מספקת מסגרת לדיון בערנות ובשמירה האלוהית, בלי לבלבל ביניהן.",
+      "question": "כיצד קשורות יחד ערנות, התקדמות הדרגתית ואחיזה בתורה?",
+      "questions": [
+        "כיצד קשורות יחד ערנות, התקדמות הדרגתית ואחיזה בתורה?",
+        "השוו בין השחר בא דרך פתח המתרחב לבין הסיום חוזר אל הדרך. אילו מילים מדויקות במקור תומכות בקישור?",
+        "אחרי קריאת כל הפרקים שבין התחנות, איזו מורכבות או קריאה חלופית יש להוסיף לארבעת העיונים?"
+      ],
+      "title": "זוהר · שמירת הדרך ולימוד נשיאת האור"
+    },
+    "sources": [
+      {
+        "en": "Zohar · original text",
+        "he": "זוהר · נוסח המקור",
+        "url": "https://www.sefaria.org/Zohar,_Vayishlach"
+      },
+      {
+        "en": "Full Zohar shiur",
+        "he": "שיעור הזוהר המלא",
+        "url": "https://moriahise.github.io/Zohar/shiur/5787-2026-11-28/"
       }
     ]
   }
