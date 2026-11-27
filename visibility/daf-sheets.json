@@ -1541,6 +1541,31 @@
         }
       ]
     },
+    "cycle-14-arakhin-12": {
+      "en": {
+        "discuss": "What does “merit on a meritorious day” teach about history?",
+        "question": "Do libations brought alone require song, and how does the Gemara calculate that both Temples fell in the year after a Sabbatical year?",
+        "reading": "They asked whether libations brought alone require song: since song is said only over wine, perhaps yes, or perhaps only over eating and drinking together. The proof from the song as the Temple fell is deflected again: it was a lament, or song not over an offering, following Reish Lakish."
+      },
+      "he": {
+        "discuss": "מה מלמד \"מגלגלין זכות ליום זכאי\" על ההיסטוריה?",
+        "question": "האם נסכים הבאים בפני עצמם טעונים שירה, וכיצד הגמרא מחשבת ששני הבתים חרבו במוצאי שביעית?",
+        "reading": "איבעיא להו: נסכים הבאים בפני עצמם טעונים שירה? הואיל ואין אומרים שירה אלא על היין, אפשר שכן, או שמא רק על אכילה ושתייה יחד. הראיה מן השירה בשעת החורבן נדחית שוב: אילייא היתה, או שירה שלא על הקרבן, כריש לקיש."
+      },
+      "revision": "6e5b01aa69609df4a59921abdd39aa00ff82ba7059b5074e9d5438beb13e5993",
+      "sources": [
+        {
+          "en": "Arakhin 12a",
+          "he": "ערכין י״ב א",
+          "url": "https://www.sefaria.org/Arakhin_12a"
+        },
+        {
+          "en": "Arakhin 12b",
+          "he": "ערכין י״ב ב",
+          "url": "https://www.sefaria.org/Arakhin_12b"
+        }
+      ]
+    },
     "cycle-14-arakhin-2": {
       "en": {
         "discuss": "Why are a tumtum and androgynos excluded only from being valued?",
@@ -2486,6 +2511,81 @@
         }
       ]
     },
+    "cycle-15-bava-batra-37": {
+      "en": {
+        "discuss": "Why must the other trees not have borne fruit for rotating harvests to count?",
+        "question": "When trees and land are owned or transferred separately, how much land goes with the trees?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 37. His nearest comments in this tractate are on Daf 26 and Daf 56; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע שאר האילנות צריכים שלא לעשות פירות כדי שאכילה מתחלפת תיחשב?",
+        "question": "כאשר אילנות וקרקע נמצאים בבעלות נפרדת או מועברים בנפרד, כמה קרקע הולכת עם האילנות?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף ל״ז. דבריו הסמוכים במסכת הם בדף כ״ו ובדף נ״ו; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "5dc0a0c5f90c97df5f9e247bb40eb4d71f16ee0d3e5a4c5e895f91b21e7c1483",
+      "sources": [
+        {
+          "en": "Bava Batra 37a",
+          "he": "בבא בתרא ל״ז א",
+          "url": "https://www.sefaria.org/Bava_Batra_37a"
+        },
+        {
+          "en": "Bava Batra 37b",
+          "he": "בבא בתרא ל״ז ב",
+          "url": "https://www.sefaria.org/Bava_Batra_37b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-38": {
+      "en": {
+        "discuss": "Why must the buyer of a palm claim an explicit stipulation?",
+        "question": "When can a protest made far from the possessor still protect an owner's land?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 38. His nearest comments in this tractate are on Daf 26 and Daf 56; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע קונה הדקל צריך לטעון לתנאי מפורש?",
+        "question": "מתי מחאה שנעשתה הרחק מן המחזיק עדיין מגינה על קרקע הבעלים?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף ל״ח. דבריו הסמוכים במסכת הם בדף כ״ו ובדף נ״ו; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "97d2ea52a6038d813b0d69dd177e93085bbadd244c547f352ebb49509ce72ac3",
+      "sources": [
+        {
+          "en": "Bava Batra 38a",
+          "he": "בבא בתרא ל״ח א",
+          "url": "https://www.sefaria.org/Bava_Batra_38a"
+        },
+        {
+          "en": "Bava Batra 38b",
+          "he": "בבא בתרא ל״ח ב",
+          "url": "https://www.sefaria.org/Bava_Batra_38b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-39": {
+      "en": {
+        "discuss": "Why might \"do not tell him\" not invalidate a protest?",
+        "question": "Since a protest works by reaching the possessor, what words and how many listeners make that likely?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 39. His nearest comments in this tractate are on Daf 26 and Daf 56; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע \"לא תימרו ליה\" עשוי שלא לפסול מחאה?",
+        "question": "מאחר שמחאה פועלת בכך שהיא מגיעה למחזיק, אילו מילים וכמה שומעים הופכים זאת לסביר?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף ל״ט. דבריו הסמוכים במסכת הם בדף כ״ו ובדף נ״ו; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "edc9d4c33374cd36a94c258cd3d663853c337bfb6cae990a2817420692a65752",
+      "sources": [
+        {
+          "en": "Bava Batra 39a",
+          "he": "בבא בתרא ל״ט א",
+          "url": "https://www.sefaria.org/Bava_Batra_39a"
+        },
+        {
+          "en": "Bava Batra 39b",
+          "he": "בבא בתרא ל״ט ב",
+          "url": "https://www.sefaria.org/Bava_Batra_39b"
+        }
+      ]
+    },
     "cycle-15-bava-batra-4": {
       "en": {
         "discuss": "Why does the Gemara justify Bava ben Buta's counsel to Herod despite Daniel's punishment?",
@@ -2508,6 +2608,256 @@
           "en": "Bava Batra 4b",
           "he": "בבא בתרא ד׳ ב",
           "url": "https://www.sefaria.org/Bava_Batra_4b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-40": {
+      "en": {
+        "discuss": "Why does an admission require an explicit instruction to write, while acquisition does not?",
+        "question": "How does the law protect a person forced into a transaction, without making every transaction uncertain?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 40. His nearest comments in this tractate are on Daf 26 and Daf 56; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע הודאה מחייבת הוראה מפורשת לכתוב, ואילו קנין אינו מחייב?",
+        "question": "כיצד הדין מגן על אדם שנכפה לעסקה, בלי להפוך כל עסקה לבלתי ודאית?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף מ׳. דבריו הסמוכים במסכת הם בדף כ״ו ובדף נ״ו; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "2f46b4e9cda5365c6fdb803e6ea933a4b4f6873dc119b099dfd73f51f2c3400c",
+      "sources": [
+        {
+          "en": "Bava Batra 40a",
+          "he": "בבא בתרא מ׳ א",
+          "url": "https://www.sefaria.org/Bava_Batra_40a"
+        },
+        {
+          "en": "Bava Batra 40b",
+          "he": "בבא בתרא מ׳ ב",
+          "url": "https://www.sefaria.org/Bava_Batra_40b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-41": {
+      "en": {
+        "discuss": "Why does the court not apply \"open your mouth for the mute\" to a possessor?",
+        "question": "Why must a possessor state how he acquired the land, and when will the court not supply the claim for him?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 41. His nearest comments in this tractate are on Daf 26 and Daf 56; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע בית הדין אינו מקיים \"פתח פיך לאלם\" במחזיק?",
+        "question": "מדוע מחזיק חייב לומר כיצד קנה את הקרקע, ומתי בית הדין לא יטען בשבילו?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף מ״א. דבריו הסמוכים במסכת הם בדף כ״ו ובדף נ״ו; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "d3bc13213e76d43e8d2efd7aa560f9085a3ad0d92119defb353ba0cca428a348",
+      "sources": [
+        {
+          "en": "Bava Batra 41a",
+          "he": "בבא בתרא מ״א א",
+          "url": "https://www.sefaria.org/Bava_Batra_41a"
+        },
+        {
+          "en": "Bava Batra 41b",
+          "he": "בבא בתרא מ״א ב",
+          "url": "https://www.sefaria.org/Bava_Batra_41b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-42": {
+      "en": {
+        "discuss": "Why are loans made privately but sales publicly?",
+        "question": "When does possession reveal nothing about ownership, because the possessor was there with permission or as part of a family?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 42. His nearest comments in this tractate are on Daf 26 and Daf 56; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע הלוואות נעשות בצנעה ומכירות בפרהסיא?",
+        "question": "מתי ההחזקה אינה מגלה דבר על בעלות, משום שהמחזיק ישב שם ברשות או כבן משפחה?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף מ״ב. דבריו הסמוכים במסכת הם בדף כ״ו ובדף נ״ו; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "bd723d9974003e8d3a0b5a056ec806f9fcba143a399841c98a59963ed4d8baa8",
+      "sources": [
+        {
+          "en": "Bava Batra 42a",
+          "he": "בבא בתרא מ״ב א",
+          "url": "https://www.sefaria.org/Bava_Batra_42a"
+        },
+        {
+          "en": "Bava Batra 42b",
+          "he": "בבא בתרא מ״ב ב",
+          "url": "https://www.sefaria.org/Bava_Batra_42b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-43": {
+      "en": {
+        "discuss": "Why is a statement of \"no dealings\" insufficient to remove a partner's interest?",
+        "question": "When does a witness's financial interest disqualify his testimony, and can he remove that interest?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 43. His nearest comments in this tractate are on Daf 26 and Daf 56; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע אמירת \"דין ודברים אין לי\" אינה מספיקה להסרת נגיעת השותף?",
+        "question": "מתי האינטרס הכספי של עד פוסל את עדותו, והאם הוא יכול להסיר את האינטרס הזה?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף מ״ג. דבריו הסמוכים במסכת הם בדף כ״ו ובדף נ״ו; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "534334fb5cbd23ae4b87c0830020da59e2f0557f756a7203f71f05a182e9d6be",
+      "sources": [
+        {
+          "en": "Bava Batra 43a",
+          "he": "בבא בתרא מ״ג א",
+          "url": "https://www.sefaria.org/Bava_Batra_43a"
+        },
+        {
+          "en": "Bava Batra 43b",
+          "he": "בבא בתרא מ״ג ב",
+          "url": "https://www.sefaria.org/Bava_Batra_43b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-44": {
+      "en": {
+        "discuss": "Why does Abaye find Rav Sheshet's reading inconsistent with the wording of the baraita?",
+        "question": "Why does a seller remain an interested party in land he has already sold, but not in a cow or a cloak?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 44. His nearest comments in this tractate are on Daf 26 and Daf 56; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע אביי מוצא את פירוש רב ששת בלתי מתאים ללשון הברייתא?",
+        "question": "מדוע המוכר נשאר נוגע בדבר בקרקע שכבר מכר, אבל לא בפרה או בטלית?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף מ״ד. דבריו הסמוכים במסכת הם בדף כ״ו ובדף נ״ו; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "652ad6ac6cf68f38c8dcb86b6d25edad66e3eee137222970de16906dfb17181c",
+      "sources": [
+        {
+          "en": "Bava Batra 44a",
+          "he": "בבא בתרא מ״ד א",
+          "url": "https://www.sefaria.org/Bava_Batra_44a"
+        },
+        {
+          "en": "Bava Batra 44b",
+          "he": "בבא בתרא מ״ד ב",
+          "url": "https://www.sefaria.org/Bava_Batra_44b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-45": {
+      "en": {
+        "discuss": "Why does the wish to repay a creditor bias a seller's testimony?",
+        "question": "What makes a person interested in an outcome even when he has nothing to gain or lose in money?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 45. His nearest comments in this tractate are on Daf 26 and Daf 56; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע הרצון לפרוע לבעל חוב עושה את עדות המוכר נוגעת?",
+        "question": "מה הופך אדם לנוגע בדבר גם כשאין לו מה להרוויח או להפסיד בממון?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף מ״ה. דבריו הסמוכים במסכת הם בדף כ״ו ובדף נ״ו; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "b6910074d5713e5c41ff0b0f96e9c34506180b492d521a30343c2c95f41f1fdf",
+      "sources": [
+        {
+          "en": "Bava Batra 45a",
+          "he": "בבא בתרא מ״ה א",
+          "url": "https://www.sefaria.org/Bava_Batra_45a"
+        },
+        {
+          "en": "Bava Batra 45b",
+          "he": "בבא בתרא מ״ה ב",
+          "url": "https://www.sefaria.org/Bava_Batra_45b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-46": {
+      "en": {
+        "discuss": "Why is Rabba's distinction between witnessed and unwitnessed deposits rejected?",
+        "question": "When does physical possession speak for ownership, and when is it explained by a role such as craftsman or sharecropper?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 46. His nearest comments in this tractate are on Daf 26 and Daf 56; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע נדחה חילוקו של רבה בין פיקדון בעדים לפיקדון שלא בעדים?",
+        "question": "מתי החזקה הפיזית מעידה על בעלות, ומתי היא מוסברת בתפקיד כגון אומן או אריס?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף מ״ו. דבריו הסמוכים במסכת הם בדף כ״ו ובדף נ״ו; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "3d998d29779793f99e1f3e141637477d336e30403343d6b2fdcca2fbbea9019e",
+      "sources": [
+        {
+          "en": "Bava Batra 46a",
+          "he": "בבא בתרא מ״ו א",
+          "url": "https://www.sefaria.org/Bava_Batra_46a"
+        },
+        {
+          "en": "Bava Batra 46b",
+          "he": "בבא בתרא מ״ו ב",
+          "url": "https://www.sefaria.org/Bava_Batra_46b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-47": {
+      "en": {
+        "discuss": "Why may the son of a craftsman rely on his father's witnessed admission, but not the son of a robber?",
+        "question": "Does the suspicion attached to a person's role pass to his children, and when does it lapse?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 47. His nearest comments in this tractate are on Daf 26 and Daf 56; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע בן האומן רשאי לסמוך על הודאה בפני עדים לאביו, אבל לא בן הגזלן?",
+        "question": "האם החשד הדבק בתפקידו של אדם עובר לבניו, ומתי הוא פוקע?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף מ״ז. דבריו הסמוכים במסכת הם בדף כ״ו ובדף נ״ו; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "c7310ed3ede90cb9bebaf40a453e92c4dd067bb921c7596cf6bb691712377caf",
+      "sources": [
+        {
+          "en": "Bava Batra 47a",
+          "he": "בבא בתרא מ״ז א",
+          "url": "https://www.sefaria.org/Bava_Batra_47a"
+        },
+        {
+          "en": "Bava Batra 47b",
+          "he": "בבא בתרא מ״ז ב",
+          "url": "https://www.sefaria.org/Bava_Batra_47b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-48": {
+      "en": {
+        "discuss": "Why are the burnt-offering and the bill of divorce rejected as sources for Rav Huna?",
+        "question": "Can a decision made under pressure still count as a person's own will?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 48. His nearest comments in this tractate are on Daf 26 and Daf 56; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע נדחים העולה והגט כמקורות לדין רב הונא?",
+        "question": "האם החלטה שנעשתה תחת לחץ יכולה עדיין להיחשב רצונו של האדם?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף מ״ח. דבריו הסמוכים במסכת הם בדף כ״ו ובדף נ״ו; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "082c9488349ed0b6b42444360375c5a1bf02c6370aea3bf9db6946a7e3f1fb21",
+      "sources": [
+        {
+          "en": "Bava Batra 48a",
+          "he": "בבא בתרא מ״ח א",
+          "url": "https://www.sefaria.org/Bava_Batra_48a"
+        },
+        {
+          "en": "Bava Batra 48b",
+          "he": "בבא בתרא מ״ח ב",
+          "url": "https://www.sefaria.org/Bava_Batra_48b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-49": {
+      "en": {
+        "discuss": "Why can a written protest weaken a bill of sale when an oral one cannot?",
+        "question": "When can people undo what they have signed or said, and when are they held to it?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 49. His nearest comments in this tractate are on Daf 26 and Daf 56; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע מודעא בכתב יכולה להחליש שטר מכר ומודעא בעל פה אינה יכולה?",
+        "question": "מתי אנשים יכולים לבטל את מה שחתמו או אמרו, ומתי הם מחויבים בו?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף מ״ט. דבריו הסמוכים במסכת הם בדף כ״ו ובדף נ״ו; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "97467d154c371b536a9f9c54c960dbd95f7bdf60e19a91a7716dc4dd8248b4e3",
+      "sources": [
+        {
+          "en": "Bava Batra 49a",
+          "he": "בבא בתרא מ״ט א",
+          "url": "https://www.sefaria.org/Bava_Batra_49a"
+        },
+        {
+          "en": "Bava Batra 49b",
+          "he": "בבא בתרא מ״ט ב",
+          "url": "https://www.sefaria.org/Bava_Batra_49b"
         }
       ]
     },
@@ -2536,6 +2886,256 @@
         }
       ]
     },
+    "cycle-15-bava-batra-50": {
+      "en": {
+        "discuss": "Why does the claim of pleasing the husband apply more strongly to his other property?",
+        "question": "Who truly owns property when one person holds the item and another enjoys its profits?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 50. His nearest comments in this tractate are on Daf 26 and Daf 56; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע טענת נחת רוח חזקה יותר בשאר נכסי הבעל?",
+        "question": "מי הבעלים האמיתי של נכס כשאחד מחזיק בגופו ואחר נהנה מפירותיו?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף נ׳. דבריו הסמוכים במסכת הם בדף כ״ו ובדף נ״ו; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "0d98f9b25bfbf4937c650eda9b5271026c73a1172bde95e0eb9ef93943255ab6",
+      "sources": [
+        {
+          "en": "Bava Batra 50a",
+          "he": "בבא בתרא נ׳ א",
+          "url": "https://www.sefaria.org/Bava_Batra_50a"
+        },
+        {
+          "en": "Bava Batra 50b",
+          "he": "בבא בתרא נ׳ ב",
+          "url": "https://www.sefaria.org/Bava_Batra_50b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-51": {
+      "en": {
+        "discuss": "Why might a husband sell a field to his wife only to uncover her money?",
+        "question": "When a husband transfers land to his wife, is it a real transaction or a device to uncover her money?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 51. His nearest comments in this tractate are on Daf 26 and Daf 56; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע בעל עשוי למכור שדה לאשתו רק כדי לגלות את מעותיה?",
+        "question": "כשבעל מעביר קרקע לאשתו, האם זו עסקה אמיתית או תחבולה לגלות את מעותיה?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף נ״א. דבריו הסמוכים במסכת הם בדף כ״ו ובדף נ״ו; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "90459c3e4a3057abcb93fd73d8774cf834dad64246d735816624cb6000b3c300",
+      "sources": [
+        {
+          "en": "Bava Batra 51a",
+          "he": "בבא בתרא נ״א א",
+          "url": "https://www.sefaria.org/Bava_Batra_51a"
+        },
+        {
+          "en": "Bava Batra 51b",
+          "he": "בבא בתרא נ״א ב",
+          "url": "https://www.sefaria.org/Bava_Batra_51b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-52": {
+      "en": {
+        "discuss": "What does \"an explanation of their explanation\" mean for a bailee?",
+        "question": "Whose is the money when one member of a household trades in his own name with shared resources?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 52. His nearest comments in this tractate are on Daf 26 and Daf 56; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מה פירוש \"פירוש לפירושם\" לגבי שומר?",
+        "question": "של מי הכסף כאשר אחד מבני הבית נושא ונותן בשמו בנכסים משותפים?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף נ״ב. דבריו הסמוכים במסכת הם בדף כ״ו ובדף נ״ו; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "d3336c6912570d89465fce3836df3a35c1da8d860ed56ec3d030531099ad03e8",
+      "sources": [
+        {
+          "en": "Bava Batra 52a",
+          "he": "בבא בתרא נ״ב א",
+          "url": "https://www.sefaria.org/Bava_Batra_52a"
+        },
+        {
+          "en": "Bava Batra 52b",
+          "he": "בבא בתרא נ״ב ב",
+          "url": "https://www.sefaria.org/Bava_Batra_52b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-53": {
+      "en": {
+        "discuss": "Why might a gift not need the giver's instruction?",
+        "question": "What makes an act on land a real act of ownership and not just a neighborly service?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 53. His nearest comments in this tractate are on Daf 26 and Daf 56; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע מתנה אולי אינה צריכה את הוראת הנותן?",
+        "question": "מה הופך מעשה בקרקע למעשה בעלות אמיתי ולא לשירות של שכן?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף נ״ג. דבריו הסמוכים במסכת הם בדף כ״ו ובדף נ״ו; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "16ad379751d6cfed699bb5e485984afd1581664d405a0b24b2d276088253fee2",
+      "sources": [
+        {
+          "en": "Bava Batra 53a",
+          "he": "בבא בתרא נ״ג א",
+          "url": "https://www.sefaria.org/Bava_Batra_53a"
+        },
+        {
+          "en": "Bava Batra 53b",
+          "he": "בבא בתרא נ״ג ב",
+          "url": "https://www.sefaria.org/Bava_Batra_53b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-54": {
+      "en": {
+        "discuss": "Why does a field that improves \"by itself\" not show possession?",
+        "question": "How can a court read a person's intention from what he does to the land?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 54. His nearest comments in this tractate are on Daf 26 and Daf 56; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע שדה שהשביחה \"מאליה\" אינה מראה חזקה?",
+        "question": "כיצד בית דין יכול לקרוא את כוונת האדם ממה שהוא עושה בקרקע?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף נ״ד. דבריו הסמוכים במסכת הם בדף כ״ו ובדף נ״ו; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "c64aec22f03c4028f9733598a59b902c70e315ee1e3748ffafb138ffc8c1e5f5",
+      "sources": [
+        {
+          "en": "Bava Batra 54a",
+          "he": "בבא בתרא נ״ד א",
+          "url": "https://www.sefaria.org/Bava_Batra_54a"
+        },
+        {
+          "en": "Bava Batra 54b",
+          "he": "בבא בתרא נ״ד ב",
+          "url": "https://www.sefaria.org/Bava_Batra_54b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-55": {
+      "en": {
+        "discuss": "Why does Rav Naḥman follow Shmuel on a gentile's land but Rav on the hoe?",
+        "question": "When does the law of the state define ownership, and when does a boundary turn one field into two?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 55. His nearest comments in this tractate are on Daf 26 and Daf 56; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע רב נחמן הולך כשמואל בנכסי נכרי וכרב במכת המעדר?",
+        "question": "מתי חוק המדינה קובע בעלות, ומתי מצר הופך שדה אחת לשתיים?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף נ״ה. דבריו הסמוכים במסכת הם בדף כ״ו ובדף נ״ו; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "f6c874cf5541fc3e4ba6b8fd8b4498273ffa2d843fb6681a906b201d9dc8255e",
+      "sources": [
+        {
+          "en": "Bava Batra 55a",
+          "he": "בבא בתרא נ״ה א",
+          "url": "https://www.sefaria.org/Bava_Batra_55a"
+        },
+        {
+          "en": "Bava Batra 55b",
+          "he": "בבא בתרא נ״ה ב",
+          "url": "https://www.sefaria.org/Bava_Batra_55b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-56": {
+      "en": {
+        "discuss": "Why does Rava compare domains for Shabbat to domains for bills of divorce?",
+        "question": "When do separate pieces, of land or of testimony, combine into one, and when do they stay apart?",
+        "reading": "Ben Yehoyada comments only on the sea squill, חצובא, which the Gemara says divides the property of a convert. He suggests that the plant bears its name because the word is made of two words, חצו בה, \"they divided with it\": people planted it to make a partition between one field and the next. The name itself thus records the function that the halakha assigns to it, as a natural boundary marker that separates the estate into distinct units for acquisition."
+      },
+      "he": {
+        "discuss": "מדוע רבא משווה רשויות לשבת לרשויות לגיטין?",
+        "question": "מתי חלקים נפרדים, של קרקע או של עדות, מצטרפים לאחד, ומתי הם נשארים נפרדים?",
+        "reading": "בן יהוידע מעיר רק על החצובא, שהגמרא אומרת שהיא מפסיקה בנכסי הגר. הוא מציע שהצמח נקרא כך מפני שהשם מורכב משתי תיבות, \"חצו בה\", כלומר עשו בה מחיצה בין שדה לשדה. השם עצמו מעיד אפוא על התפקיד שההלכה מייחסת לו, כסימן גבול טבעי המחלק את הנכסים ליחידות נפרדות לעניין קנין."
+      },
+      "revision": "1f201e4e8458bc272236a37d43263a1a25bafe57df085d2e0e15eefe70554a1d",
+      "sources": [
+        {
+          "en": "Bava Batra 56a",
+          "he": "בבא בתרא נ״ו א",
+          "url": "https://www.sefaria.org/Bava_Batra_56a"
+        },
+        {
+          "en": "Bava Batra 56b",
+          "he": "בבא בתרא נ״ו ב",
+          "url": "https://www.sefaria.org/Bava_Batra_56b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-57": {
+      "en": {
+        "discuss": "Why is three-quarters of the testimony from brothers decisive for Rav Ashi?",
+        "question": "Which uses of a shared space show a claim of ownership, and which are tolerated between neighbors?",
+        "reading": "Ben Yehoyada reads Rabbi Bena'a's instructions symbolically. The scholar's undergarment is fear of Heaven, which the sages call a garment; it must cover the body so fully that the physical desire dwelling beneath it is never seen. The table, two-thirds covered and one-third bare, means the words of Torah spoken at it: two-thirds woven together, hint and derash, and one-third plain, the peshat; or Written and Oral Torah covered, with ethics and proper conduct open. He cites his son Rabbi Yaakov, who read the table as an allusion to modesty in married life. The rings inside and outside imply two different tables, one used when a child or the night calls for it, the other otherwise."
+      },
+      "he": {
+        "discuss": "מדוע שלושה רבעים מן העדות מפי אחים מכריעים לשיטת רב אשי?",
+        "question": "אילו שימושים במקום משותף מראים טענת בעלות, ואילו נסבלים בין שכנים?",
+        "reading": "בן יהוידע קורא את הוראות רבי בנאה בדרך רמז. חלוקו של תלמיד חכם הוא יראת שמים, המכונה מלבוש; עליה לכסות את הגוף עד שכוח התאווה השוכן תחתיו לא ייראה כלל. השולחן, שני שלישים גדיל ושליש גלאי, הוא דברי התורה הנאמרים עליו: שני שלישים שזורים זה בזה, רמז ודרש, ושליש גלוי, הפשט; או תורה שבכתב ושבעל פה מכוסות, ומוסר ודרך ארץ גלויים. הוא מביא את בנו הרב יעקב, שפירש את השולחן כרמז לצניעות בחיי האישות. הטבעת מבפנים ומבחוץ מלמדת על שני שולחנות שונים, אחד לשעה שיש תינוק או בלילה, והשני בשאר הזמנים."
+      },
+      "revision": "9fdf6b3d0b86514438e1bb6ae8bd4acdf024c51d45b111e7c525688bc4bb9e29",
+      "sources": [
+        {
+          "en": "Bava Batra 57a",
+          "he": "בבא בתרא נ״ז א",
+          "url": "https://www.sefaria.org/Bava_Batra_57a"
+        },
+        {
+          "en": "Bava Batra 57b",
+          "he": "בבא בתרא נ״ז ב",
+          "url": "https://www.sefaria.org/Bava_Batra_57b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-58": {
+      "en": {
+        "discuss": "How did Rabbi Bena'a identify the true son?",
+        "question": "How does a wise judge uncover the true meaning behind obscure words and silent rights?",
+        "reading": "Ben Yehoyada holds that Rabbi Bena'a did not physically enter the Cave of Machpelah, whose mouth was long sealed and marked; he saw all of this in a dream vision, as the sages explain Hosea's marriage to have occurred in prophecy. Eliezer's words are then hints: the letter heh added to Abraham's name came from the yod at the end of Sarai's name, \"in her wing\", and was filled out with aleph, \"at his head\". Adam surpassed Eve only after the sin, when she lost her original light, and \"Adam before the Shekhinah\" describes only how the divine light appears in prophecy. Rav Tovi seized the magus by the beard, the first thing to enter the grave and a symbol of wisdom unfit for a fool. When the king's men heard Rabbi Bena'a decode the wife's riddle, they saw that he could read hidden meanings and trusted his verdict in the case of the will."
+      },
+      "he": {
+        "discuss": "כיצד זיהה רבי בנאה את הבן האמיתי?",
+        "question": "כיצד דיין חכם מגלה את הכוונה האמיתית שמאחורי מילים סתומות וזכויות שותקות?",
+        "reading": "בן יהוידע סובר שרבי בנאה לא נכנס בגופו למערת המכפלה, שפיה היה מצוין ועומד מימי קדם; הוא ראה את הכל במראה חלום, כשם שאמרו חכמים שנישואי הושע היו במראה הנבואה. דברי אליעזר הם אפוא רמזים: אות ה' שנוספה לשם אברהם באה מן היו\"ד שבסוף שם שרי, \"בכנפה\", ונתמלאה באל\"ף, \"ברישיה\". אדם עלה על חוה רק אחר החטא, כשנסתלק ממנה אורה הראשון, ו\"אדם בפני שכינה\" מתאר רק את אור השכינה כפי שהוא מצטייר בנבואה. רב טובי תפס את האמגושי בזקנו, הדבר הראשון שנכנס לקבר וסמל החכמה שאינו הולם שוטה. כשראו אנשי המלך שרבי בנאה פותר את חידת האשה, הבינו שהוא יודע לפרש דברים סתומים, וסמכו על פסקו בצוואה."
+      },
+      "revision": "cb39cb2948470687046261d06378d3cad9064c06ea29083d499171e251c57442",
+      "sources": [
+        {
+          "en": "Bava Batra 58a",
+          "he": "בבא בתרא נ״ח א",
+          "url": "https://www.sefaria.org/Bava_Batra_58a"
+        },
+        {
+          "en": "Bava Batra 58b",
+          "he": "בבא בתרא נ״ח ב",
+          "url": "https://www.sefaria.org/Bava_Batra_58b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-59": {
+      "en": {
+        "discuss": "How can a courtyard owner acquire the runoff from a neighbor's roof?",
+        "question": "When does a neighbor's mere ability to look into my space count as real damage?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 59. His nearest comments in this tractate are on Daf 58 and Daf 60; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "כיצד בעל חצר יכול לקנות את מי הגג של שכנו?",
+        "question": "מתי עצם יכולתו של שכן להביט לתוך רשותי נחשבת נזק ממשי?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף נ״ט. דבריו הסמוכים במסכת הם בדף נ״ח ובדף ס׳; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "9e1809c484677fef04653981a36ac87a48560438369bbf3ceb889751afacd4a5",
+      "sources": [
+        {
+          "en": "Bava Batra 59a",
+          "he": "בבא בתרא נ״ט א",
+          "url": "https://www.sefaria.org/Bava_Batra_59a"
+        },
+        {
+          "en": "Bava Batra 59b",
+          "he": "בבא בתרא נ״ט ב",
+          "url": "https://www.sefaria.org/Bava_Batra_59b"
+        }
+      ]
+    },
     "cycle-15-bava-batra-6": {
       "en": {
         "discuss": "Why are none of the proofs able to settle whether migo overrides a presumption?",
@@ -2558,6 +3158,256 @@
           "en": "Bava Batra 6b",
           "he": "בבא בתרא ו׳ ב",
           "url": "https://www.sefaria.org/Bava_Batra_6b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-60": {
+      "en": {
+        "discuss": "What did Balaam see that turned his curse into a blessing?",
+        "question": "How does halakha balance a person's freedom to build and live against the privacy of neighbors, the needs of the public, and the memory of loss?",
+        "reading": "Ben Yehoyada finds Balaam's insight in the singular שֹׁכֵן: each family dwelt alone, and לשבטיו hints at יבט שלו, each looks only at his own. He explains Rabbi Yannai's \"go now and come tomorrow\": he first meant to have his tree cut at once, then chose to cut it at night so that the man would return unaware and hear that cutting was required by law and not as piety; \"go and see\" made him verify it himself. The ascetics mourned more for the Second Temple because its exile had no fixed term, and they renounced only things eaten, not wood, garments or oil. The plaster, the meal and the ornaments recall the house, the altar table and the priestly garments. Rabbi Yishmael ben Elisha's reasoning about refraining from marriage concerned a decree that punished entering a circumcision; but forbidding marriage would turn unwitting failures into deliberate ones, so the Jews are left alone."
+      },
+      "he": {
+        "discuss": "מה ראה בלעם שהפך את קללתו לברכה?",
+        "question": "כיצד ההלכה מאזנת בין חירות האדם לבנות ולחיות לבין צניעות השכנים, צורכי הציבור וזכר האבדן?",
+        "reading": "בן יהוידע מוצא את תובנת בלעם בלשון יחיד \"שֹׁכֵן\": כל משפחה שכנה לבדה, ו\"לשבטיו\" רומז ל\"יבט שלו\", כל אחד מביט רק בשלו. הוא מבאר את \"זיל האידנא ותא למחר\" של רבי ינאי: תחילה רצה לצוות לקוץ את אילנו מיד, ואחר כך בחר לקוץ בלילה כדי שהאיש יחזור בלא ידיעה וישמע שהקציצה חובה מן הדין ולא מידת חסידות; \"זיל חזי\" הניעו לראות בעצמו. הפרושים התאבלו יותר על הבית השני מפני שלגלותו אין קץ קצוב, ונמנעו רק ממה שנכנס לגוף, לא מעצים, בגדים ושמן. הסיד, הסעודה והתכשיטים זוכרים את הבית, את השולחן כמזבח ואת בגדי הכהונה. דברי רבי ישמעאל בן אלישע על הימנעות מנישואין נאמרו כשהגזרה העניש את הנכנס למילה; אך גזרה שלא לישא הייתה הופכת שוגגים למזידים, ולכן מניחים לישראל."
+      },
+      "revision": "1f75eb8c01bf55cbb7682687dd538456f54c1b61a2ad54f2c8fe2ac2905141a8",
+      "sources": [
+        {
+          "en": "Bava Batra 60a",
+          "he": "בבא בתרא ס׳ א",
+          "url": "https://www.sefaria.org/Bava_Batra_60a"
+        },
+        {
+          "en": "Bava Batra 60b",
+          "he": "בבא בתרא ס׳ ב",
+          "url": "https://www.sefaria.org/Bava_Batra_60b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-61": {
+      "en": {
+        "discuss": "Why does a parapet make the roof a separate entity?",
+        "question": "How do we decide what a seller meant to include when his words and boundaries do not say it exactly?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 61. His nearest comments in this tractate are on Daf 60 and Daf 73; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע מעקה הופך את הגג ליחידה נפרדת?",
+        "question": "כיצד מכריעים מה התכוון המוכר לכלול כשדבריו ומצריו אינם אומרים זאת במדויק?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף ס״א. דבריו הסמוכים במסכת הם בדף ס׳ ובדף ע״ג; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "209234900aec300beaac9dd59c16c0f5731a4057ea6754c1ea54d6321d551e32",
+      "sources": [
+        {
+          "en": "Bava Batra 61a",
+          "he": "בבא בתרא ס״א א",
+          "url": "https://www.sefaria.org/Bava_Batra_61a"
+        },
+        {
+          "en": "Bava Batra 61b",
+          "he": "בבא בתרא ס״א ב",
+          "url": "https://www.sefaria.org/Bava_Batra_61b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-62": {
+      "en": {
+        "discuss": "Why does a short boundary limit the sale for Rav?",
+        "question": "When a deed's boundaries are incomplete or uneven, how much land passes to the buyer?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 62. His nearest comments in this tractate are on Daf 60 and Daf 73; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע מצר קצר מגביל את המכר לשיטת רב?",
+        "question": "כשמצרי השטר חסרים או אינם שווים, כמה קרקע עוברת ללוקח?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף ס״ב. דבריו הסמוכים במסכת הם בדף ס׳ ובדף ע״ג; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "4782b37b78b1ef5606c9977474c6494dc969a46dfd6ff958e4c074fa7bb6a684",
+      "sources": [
+        {
+          "en": "Bava Batra 62a",
+          "he": "בבא בתרא ס״ב א",
+          "url": "https://www.sefaria.org/Bava_Batra_62a"
+        },
+        {
+          "en": "Bava Batra 62b",
+          "he": "בבא בתרא ס״ב ב",
+          "url": "https://www.sefaria.org/Bava_Batra_62b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-63": {
+      "en": {
+        "discuss": "Why does \"these are its boundaries\" turn the sale into half the field?",
+        "question": "How can a seller keep for himself something that does not yet exist or that the sale would otherwise include?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 63. His nearest comments in this tractate are on Daf 60 and Daf 73; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע \"אלו מצריה\" הופך את המכר לחצי השדה?",
+        "question": "כיצד יכול המוכר לשייר לעצמו דבר שעדיין לא בא לעולם או שהמכר היה כולל אותו?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף ס״ג. דבריו הסמוכים במסכת הם בדף ס׳ ובדף ע״ג; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "b91d328a283d43aa9cf6c16ac5aefe6f2c7d0ac9e2f4a28a250c1600b7e2af09",
+      "sources": [
+        {
+          "en": "Bava Batra 63a",
+          "he": "בבא בתרא ס״ג א",
+          "url": "https://www.sefaria.org/Bava_Batra_63a"
+        },
+        {
+          "en": "Bava Batra 63b",
+          "he": "בבא בתרא ס״ג ב",
+          "url": "https://www.sefaria.org/Bava_Batra_63b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-64": {
+      "en": {
+        "discuss": "Why does a ten-handbreadth parapet exclude the roof from a sale?",
+        "question": "When a sale leaves something unsaid, do we read it in the buyer's favor or the seller's?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 64. His nearest comments in this tractate are on Daf 60 and Daf 73; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע מעקה עשרה טפחים מוציא את הגג מן המכר?",
+        "question": "כשמכר משאיר דבר שלא נאמר, האם קוראים אותו לטובת הלוקח או לטובת המוכר?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף ס״ד. דבריו הסמוכים במסכת הם בדף ס׳ ובדף ע״ג; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "ac691d3f2dbd00801141c28cc394e27abe01df296a58927066b310f476342478",
+      "sources": [
+        {
+          "en": "Bava Batra 64a",
+          "he": "בבא בתרא ס״ד א",
+          "url": "https://www.sefaria.org/Bava_Batra_64a"
+        },
+        {
+          "en": "Bava Batra 64b",
+          "he": "בבא בתרא ס״ד ב",
+          "url": "https://www.sefaria.org/Bava_Batra_64b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-65": {
+      "en": {
+        "discuss": "How did reversed attributions explain Rav's silence?",
+        "question": "When one property is split into several, which old rights between the parts survive?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 65. His nearest comments in this tractate are on Daf 60 and Daf 73; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "כיצד שמות מוחלפים מסבירים את שתיקת רב?",
+        "question": "כשנכס אחד מתחלק לכמה, אילו זכויות ישנות בין החלקים נשארות?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף ס״ה. דבריו הסמוכים במסכת הם בדף ס׳ ובדף ע״ג; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "3faa16f79168328ec21e074eff956d4953849e4541b7aba13b8df9736f3f2409",
+      "sources": [
+        {
+          "en": "Bava Batra 65a",
+          "he": "בבא בתרא ס״ה א",
+          "url": "https://www.sefaria.org/Bava_Batra_65a"
+        },
+        {
+          "en": "Bava Batra 65b",
+          "he": "בבא בתרא ס״ה ב",
+          "url": "https://www.sefaria.org/Bava_Batra_65b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-66": {
+      "en": {
+        "discuss": "Why does the honey forest verse limit what can be learned from the beehive?",
+        "question": "Does attaching a vessel to the ground erase its identity as a vessel, and does it matter what it was first?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 66. His nearest comments in this tractate are on Daf 60 and Daf 73; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע פסוק יערת הדבש מגביל את מה שאפשר ללמוד מן הכוורת?",
+        "question": "האם חיבור כלי לקרקע מבטל את זהותו ככלי, והאם משנה מה היה תחילה?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף ס״ו. דבריו הסמוכים במסכת הם בדף ס׳ ובדף ע״ג; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "9b2e1a67f6bf74f4fbf6aaa34ac24cdbd1bb2e5257c6e8df7b9281552d264467",
+      "sources": [
+        {
+          "en": "Bava Batra 66a",
+          "he": "בבא בתרא ס״ו א",
+          "url": "https://www.sefaria.org/Bava_Batra_66a"
+        },
+        {
+          "en": "Bava Batra 66b",
+          "he": "בבא בתרא ס״ו ב",
+          "url": "https://www.sefaria.org/Bava_Batra_66b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-67": {
+      "en": {
+        "discuss": "Why can a dowry be collected from millstones and rent?",
+        "question": "What defines the essence of a property, so that its sale carries some parts but not others?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 67. His nearest comments in this tractate are on Daf 60 and Daf 73; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע אפשר לגבות נדוניה מאיצטרובלים ומשכר בתים?",
+        "question": "מה מגדיר את מהותו של נכס, כך שמכירתו כוללת חלקים מסוימים ולא אחרים?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף ס״ז. דבריו הסמוכים במסכת הם בדף ס׳ ובדף ע״ג; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "93f0487393a42f568770da2a3479fd8b7162b017840e8061eb1e844694cf58d1",
+      "sources": [
+        {
+          "en": "Bava Batra 67a",
+          "he": "בבא בתרא ס״ז א",
+          "url": "https://www.sefaria.org/Bava_Batra_67a"
+        },
+        {
+          "en": "Bava Batra 67b",
+          "he": "בבא בתרא ס״ז ב",
+          "url": "https://www.sefaria.org/Bava_Batra_67b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-68": {
+      "en": {
+        "discuss": "Why do stated boundaries decide whether the outside stores were sold?",
+        "question": "How far does the sale of a whole unit, a city or a field, reach into what surrounds and serves it?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 68. His nearest comments in this tractate are on Daf 60 and Daf 73; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע המצרים שנאמרו קובעים אם החנויות שבחוץ נמכרו?",
+        "question": "עד היכן מגיעה מכירת יחידה שלמה, עיר או שדה, אל מה שסובב אותה ומשרת אותה?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף ס״ח. דבריו הסמוכים במסכת הם בדף ס׳ ובדף ע״ג; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "d29f685573b099189ae511c6873e27d1c38f6f113a037d73f7c4f0a6abbed234",
+      "sources": [
+        {
+          "en": "Bava Batra 68a",
+          "he": "בבא בתרא ס״ח א",
+          "url": "https://www.sefaria.org/Bava_Batra_68a"
+        },
+        {
+          "en": "Bava Batra 68b",
+          "he": "בבא בתרא ס״ח ב",
+          "url": "https://www.sefaria.org/Bava_Batra_68b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-69": {
+      "en": {
+        "discuss": "How do Rabbi Meir and the Rabbis differ about stones \"for its use\"?",
+        "question": "Is something part of a field because it is ready to serve it, or only once it actually serves it?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 69. His nearest comments in this tractate are on Daf 60 and Daf 73; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "במה נחלקו רבי מאיר וחכמים באבנים \"לצרכה\"?",
+        "question": "האם דבר הוא חלק מן השדה משום שהוא מוכן לשרת אותו, או רק כשהוא משרת אותו בפועל?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף ס״ט. דבריו הסמוכים במסכת הם בדף ס׳ ובדף ע״ג; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "e6c196ae8d096008cbc87d7cb288146a291daadb54c13f072387524ff635fd65",
+      "sources": [
+        {
+          "en": "Bava Batra 69a",
+          "he": "בבא בתרא ס״ט א",
+          "url": "https://www.sefaria.org/Bava_Batra_69a"
+        },
+        {
+          "en": "Bava Batra 69b",
+          "he": "בבא בתרא ס״ט ב",
+          "url": "https://www.sefaria.org/Bava_Batra_69b"
         }
       ]
     },
@@ -2586,6 +3436,256 @@
         }
       ]
     },
+    "cycle-15-bava-batra-70": {
+      "en": {
+        "discuss": "How do Rav and the judges of the exile define a significant tree?",
+        "question": "When a person singles out one exception, does he reveal what else he meant to keep?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 70. His nearest comments in this tractate are on Daf 60 and Daf 73; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "כיצד רב ודייני גולה מגדירים אילן חשוב?",
+        "question": "כשאדם מוציא חריג אחד, האם הוא מגלה מה עוד התכוון לשמור?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף ע׳. דבריו הסמוכים במסכת הם בדף ס׳ ובדף ע״ג; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "4bc8814556f860a33fd47ec57e4d0ce8d02b32f4fb5c2c7f9632ffb0cd70a99a",
+      "sources": [
+        {
+          "en": "Bava Batra 70a",
+          "he": "בבא בתרא ע׳ א",
+          "url": "https://www.sefaria.org/Bava_Batra_70a"
+        },
+        {
+          "en": "Bava Batra 70b",
+          "he": "בבא בתרא ע׳ ב",
+          "url": "https://www.sefaria.org/Bava_Batra_70b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-71": {
+      "en": {
+        "discuss": "Why should a buyer, but not a recipient of a gift, specify what he receives?",
+        "question": "Why does the same field transfer more fully as a gift or a consecration than as a sale?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 71. His nearest comments in this tractate are on Daf 60 and Daf 73; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע לוקח, ולא מקבל מתנה, צריך לפרש מה שהוא מקבל?",
+        "question": "מדוע אותה שדה עוברת בשלמות רבה יותר כמתנה או כהקדש מאשר כמכר?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף ע״א. דבריו הסמוכים במסכת הם בדף ס׳ ובדף ע״ג; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "7fb4623fa1c85d7e66b6c61f8a506030020ce9774e1cdb2a8010308c5c897f21",
+      "sources": [
+        {
+          "en": "Bava Batra 71a",
+          "he": "בבא בתרא ע״א א",
+          "url": "https://www.sefaria.org/Bava_Batra_71a"
+        },
+        {
+          "en": "Bava Batra 71b",
+          "he": "בבא בתרא ע״א ב",
+          "url": "https://www.sefaria.org/Bava_Batra_71b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-72": {
+      "en": {
+        "discuss": "Why do three trees in the right density consecrate the land between them?",
+        "question": "Does one who consecrates act generously like a donor or sparingly like a seller, and at what moment is the field's status judged?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 72. His nearest comments in this tractate are on Daf 60 and Daf 73; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע שלושה אילנות בצפיפות הנכונה מקדישים את הקרקע שביניהם?",
+        "question": "האם המקדיש נוהג בעין יפה כנותן מתנה או בעין רעה כמוכר, ובאיזה רגע נקבע מעמד השדה?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף ע״ב. דבריו הסמוכים במסכת הם בדף ס׳ ובדף ע״ג; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "9f5910c8531655120c2cdb76874d4a4ef3ae5e5ce7443d8206dcd18be61b7233",
+      "sources": [
+        {
+          "en": "Bava Batra 72a",
+          "he": "בבא בתרא ע״ב א",
+          "url": "https://www.sefaria.org/Bava_Batra_72a"
+        },
+        {
+          "en": "Bava Batra 72b",
+          "he": "בבא בתרא ע״ב ב",
+          "url": "https://www.sefaria.org/Bava_Batra_72b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-73": {
+      "en": {
+        "discuss": "What do the verses from Ezekiel teach about the parts of a ship?",
+        "question": "How should a student read tales that seem impossible, and what do they teach about the sea and its Master?",
+        "reading": "Ben Yehoyada insists that these tales are not meant literally but are parables and riddles, \"the words of the wise and their riddles\" (Proverbs 1:6), whether seen in a dream or in waking life. The seafarers are the sages who descend into the depths of the Oral Torah; the wave that sinks the ship is the evil inclination drowning the body, appearing first as white fire, as if it were the good inclination; or it is the primordial serpent, whose head holds a spark of good, and it is struck with the names of truth. The three hundred parasangs between waves are the levels of impurity in the lower worlds. Rising on the wave until the \"small star\" is the sages' mystical ascent, reaching the light of Malkhut but no higher, lest they be burned. He declines to interpret Hurmin son of Lilith, since it concerns the forces of impurity. The day-old antelope is Yom Kippur, whose dimensions map the sefirot and which casts away Israel's sins and closes Satan's mouth; the frog, serpent and raven allude to the forces Adam overcame after the sin."
+      },
+      "he": {
+        "discuss": "מה מלמדים הפסוקים מיחזקאל על חלקי הספינה?",
+        "question": "כיצד צריך לומד לקרוא אגדות הנראות בלתי אפשריות, ומה הן מלמדות על הים ועל אדונו?",
+        "reading": "בן יהוידע מדגיש שהאגדות האלה אינן כפשוטן אלא משלים וחידות, \"דברי חכמים וחידותם\" (משלי א׳, ו׳), בין שנראו במראה חלום ובין בהקיץ. נחותי ימא הם החכמים היורדים לעומק התורה שבעל פה; הגל המטביע את הספינה הוא היצר הרע המטביע את הגוף, ובתחילה הוא נראה כאש לבנה, כאילו היה היצר הטוב; או שהוא נחש הקדמוני, שבראשו ניצוץ טוב, ומכים אותו בשמות של אמת. שלוש מאות הפרסאות בין גל לגל הן דרגות הקליפה בעולמות התחתונים. העלייה על הגל עד \"כוכבא זוטא\" היא עליית החכמים בסוד, שהגיעו לאור המלכות ולא למעלה ממנה, פן יישרפו. את הורמין בר לילית אינו מפרש, מפני שעניינו כוחות הטומאה. האורזילא בר יומיה הוא יום הכיפורים, שממדיו רומזים לספירות, והוא משליך את עוונות ישראל וסותם את פי השטן; הצפרדע, התנין והעורב רומזים לכוחות שאדם הראשון גבר עליהם אחר החטא."
+      },
+      "revision": "5ea4dc9640f61d81203a4d63dd8346e639eb573d5cac9ef1208c6820aa4229e0",
+      "sources": [
+        {
+          "en": "Bava Batra 73a",
+          "he": "בבא בתרא ע״ג א",
+          "url": "https://www.sefaria.org/Bava_Batra_73a"
+        },
+        {
+          "en": "Bava Batra 73b",
+          "he": "בבא בתרא ע״ג ב",
+          "url": "https://www.sefaria.org/Bava_Batra_73b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-74": {
+      "en": {
+        "discuss": "Why did the Sages rebuke Rabba bar bar Ḥana for returning the fringe uncounted?",
+        "question": "What do these tales of the wilderness and the sea reveal about truth, repentance and the hidden order of creation?",
+        "reading": "Ben Yehoyada asks how the Sages could call \"every Abba a donkey and every bar bar Ḥana a fool\", when so many great sages were named Abba. He suggests \"abba\" here means a forest, a place where donkeys graze, rebuking one who sought solitude in wildernesses yet failed to count the threads; \"bar bar\" may echo the Barbarians who go about naked; or \"donkey\" means one who carries learning without analysis, and סיכסא means confusion. Most likely the whole episode, including the Sages' rebuke, was seen in a dream; perhaps the righteous man whose fringe was cut made him forget his count. The \"woe\" over the oath was understood as the oath against a flood, which removed the world's fear of sin. Korah's company confess \"Moses is truth\" because Torah was given from Binah, whose seal is אמת. The place where earth and sky kiss is a mystical teaching about prayer rising through the twelve windows of the firmament, whose ascent completes only the next day; the Arab guide was a righteous soul in disguise."
+      },
+      "he": {
+        "discuss": "מדוע חכמים הוכיחו את רבה בר בר חנה על שהחזיר את הכנף בלא שמנה?",
+        "question": "מה מגלות אגדות המדבר והים על אמת, תשובה והסדר הנסתר של הבריאה?",
+        "reading": "בן יהוידע תמה כיצד יכלו חכמים לומר \"כל אבא חמרא וכל בר בר חנה סיכסא\", כשרבים מגדולי החכמים נקראו אבא. הוא מציע ש\"אבא\" כאן פירושו יער, מקום מרעה לחמורים, ותוכחה למי שהתבודד במדבריות ובכל זאת לא מנה את החוטים; \"בר בר\" אולי רומז לברברים ההולכים ערומים; או ש\"חמרא\" הוא מי שנושא תלמודו בלא עיון, ו\"סיכסא\" לשון בלבול. היותר נראה שכל המעשה, ואף תוכחת החכמים, נראה במראה חלום; ושמא הצדיק שנחתך כנפו גרם לו לשכוח את המניין. ה\"אוי\" על השבועה הובן כשבועת המבול, שהסירה מן העולם את היראה מחטא. עדת קרח מודים \"משה אמת\" משום שהתורה ניתנה מן הבינה, שחותמה אמת. המקום שבו ארץ ורקיע נושקים הוא סוד התפילה העולה דרך שנים עשר חלונות הרקיע, שעלייתה נשלמת רק למחרת; והטייעא היה נשמת צדיק שנתלבשה בדמות ערבי."
+      },
+      "revision": "7416bc20f1753a8f7d2adaaf0590ba6d08c057f30489463b4ebd6d6af6cc2c95",
+      "sources": [
+        {
+          "en": "Bava Batra 74a",
+          "he": "בבא בתרא ע״ד א",
+          "url": "https://www.sefaria.org/Bava_Batra_74a"
+        },
+        {
+          "en": "Bava Batra 74b",
+          "he": "בבא בתרא ע״ד ב",
+          "url": "https://www.sefaria.org/Bava_Batra_74b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-75": {
+      "en": {
+        "discuss": "Why do the levels of reward from the leviathan's skin differ?",
+        "question": "What do the visions of the leviathan and of future Jerusalem teach about reward and the honor of the righteous?",
+        "reading": "Ben Yehoyada explains why Gabriel hunts the leviathan: he appears in fire and water, judgment and mercy, and the hunt is judgment for the leviathan and mercy for Israel; by letter substitution his name contains the word תמשך of \"can you draw out leviathan\" (Job 40:25). The leviathan places its head toward the Garden of Eden so that its breath is sweetened there. The righteous who feast are Torah scholars and their supporters; the \"commerce\" is not sale, for eating the flesh brings wisdom, and the givers share in the added reward; סעודה hints at the secret of the Tree of Life. The four rewards, sukka, covering, necklace and amulet, correspond to the four levels of study, PaRDeS, and the letters of the divine name; his son Rabbi Yaakov links the sukka's roof to the highest level of the soul. The skin on Jerusalem's walls is the lesser part, and \"nations and kings\" are Israel's bodies and souls."
+      },
+      "he": {
+        "discuss": "מדוע דרגות השכר מעור הלויתן שונות?",
+        "question": "מה מלמדים חזיונות הלויתן וירושלים העתידה על שכר ועל כבוד הצדיקים?",
+        "reading": "בן יהוידע מבאר מדוע גבריאל צד את הלויתן: הוא נגלה באש ובמים, דין ורחמים, והציד הוא דין ללויתן ורחמים לישראל; בחילוף אותיות שמו מכיל את \"תמשך\" שבפסוק \"תמשך לויתן בחכה\" (איוב מ׳, כ״ה). הלויתן מכניס ראשו כלפי גן עדן כדי שהבלו יתמתק שם. הצדיקים הסועדים הם תלמידי החכמים ומחזיקיהם; \"הסחורה\" אינה מכירה, שכן אכילת הבשר מחכימה, והנותנים חולקים בשכר הנוסף; \"סעודה\" רומזת לסוד עץ החיים. ארבעת השכרים, סוכה, צלצל, ענק וקמיע, כנגד ארבעת חלקי הלימוד, פרד״ס, ואותיות השם; בנו הרב יעקב קושר את גג הסוכה למדרגה העליונה של הנשמה. העור הפרוס על חומות ירושלים הוא החלק הפחות, ו\"גוים ומלכים\" הם גופות ישראל ונשמותיהם."
+      },
+      "revision": "eea8dfeb583bffdbf93ed4ef37f2e5735c663a1f79a2b646f60a0230d8a8e42f",
+      "sources": [
+        {
+          "en": "Bava Batra 75a",
+          "he": "בבא בתרא ע״ה א",
+          "url": "https://www.sefaria.org/Bava_Batra_75a"
+        },
+        {
+          "en": "Bava Batra 75b",
+          "he": "בבא בתרא ע״ה ב",
+          "url": "https://www.sefaria.org/Bava_Batra_75b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-76": {
+      "en": {
+        "discuss": "Why does a ship not need a bill of sale?",
+        "question": "Why does the right act of acquisition depend on the object and on the place where it is done?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 76. His nearest comments in this tractate are on Daf 75 and Daf 78; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע ספינה אינה צריכה שטר?",
+        "question": "מדוע מעשה הקניין הנכון תלוי בחפץ ובמקום שבו הוא נעשה?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף ע״ו. דבריו הסמוכים במסכת הם בדף ע״ה ובדף ע״ח; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "32c56638acc3cbfe8d691d010d1198d840a8224046edd67d2c9bc7a18f92d7d1",
+      "sources": [
+        {
+          "en": "Bava Batra 76a",
+          "he": "בבא בתרא ע״ו א",
+          "url": "https://www.sefaria.org/Bava_Batra_76a"
+        },
+        {
+          "en": "Bava Batra 76b",
+          "he": "בבא בתרא ע״ו ב",
+          "url": "https://www.sefaria.org/Bava_Batra_76b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-77": {
+      "en": {
+        "discuss": "What does Rav Ashi mean by \"words cannot be acquired by words\"?",
+        "question": "When the words of a sale are ambiguous, may the price or the manner of attachment reveal what was sold?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 77. His nearest comments in this tractate are on Daf 75 and Daf 78; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מה פירוש דברי רב אשי \"מילי במילי לא מיקנו\"?",
+        "question": "כשלשון המכר משתמעת לשני פנים, האם המחיר או אופן החיבור יכולים לגלות מה נמכר?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף ע״ז. דבריו הסמוכים במסכת הם בדף ע״ה ובדף ע״ח; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "634ae2ab050eed250b9311a3dc9176ebb08e65fa58aa28fbd8eb6e0aaa9c85eb",
+      "sources": [
+        {
+          "en": "Bava Batra 77a",
+          "he": "בבא בתרא ע״ז א",
+          "url": "https://www.sefaria.org/Bava_Batra_77a"
+        },
+        {
+          "en": "Bava Batra 77b",
+          "he": "בבא בתרא ע״ז ב",
+          "url": "https://www.sefaria.org/Bava_Batra_77b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-78": {
+      "en": {
+        "discuss": "Why is a grossly overpriced sale treated as a gift?",
+        "question": "How do we decide what a buyer meant to buy, and how should a person weigh the gains and losses of his own deeds?",
+        "reading": "Ben Yehoyada builds on the teaching that each person should see the world as evenly balanced, so that one deed tips all. The evil inclination deceives a man about his own account, persuading him that his merits are many and one mitzva more or less hardly matters; but whoever weighs \"the account of the world\" cannot be misled, for he cannot know which way the whole will tip. So \"those who rule their inclination\" calculate together with all of Israel. He also reads it of penitents, who weigh their past failures against their present eagerness and earn double reward. The \"fire from those who calculate\" is the righteous, called Israel, whose name holds לי twice and a hidden אש. The wicked \"city\" is a foal following pleasant talk; with a perfect ש it becomes עשיר, with a damaged one ירשע. \"There is no ram\" means the wicked think each is judged alone, or that positive commandments go unpunished, until God says \"wait until judgment comes\", a time of wrath."
+      },
+      "he": {
+        "discuss": "מדוע מקח במחיר מופרז מאוד נחשב מתנה?",
+        "question": "כיצד מכריעים מה התכוון הלוקח לקנות, וכיצד צריך אדם לשקול את רווחי מעשיו והפסדיהם?",
+        "reading": "בן יהוידע בונה על המאמר שאדם יראה את העולם כחציו זכאי וחציו חייב, כך שמעשה אחד מכריע את הכל. היצר הרע מטעה את האדם בחשבונו שלו, ומשכנעו שזכויותיו מרובות ומצוה אחת פחות או יותר אינה משנה; אבל מי ששוקל \"חשבונו של עולם\" אינו יכול להיות מוטעה, שאינו יודע לאן ייטה הכלל. לכן \"המושלים ביצרם\" מחשבים יחד עם כלל ישראל. הוא מפרש זאת גם על בעלי תשובה, השוקלים את כשלונותיהם בעבר כנגד תשוקתם עתה וזוכים לשכר כפול. \"אש מהמחשבים\" הם הצדיקים הנקראים ישראל, שבשמם \"לי\" כפול ו\"אש\" נסתרת. ה\"עיר\" של הרשע הוא עייר ההולך אחר שיחה נאה; עם ש' שלמה נעשה \"עשיר\", ועם ש' פגומה \"ירשע\". \"אין רם\" פירושו שהרשעים סוברים שכל אחד נידון לבדו, או שאין עונשים על מצוות עשה, עד שהקב״ה אומר \"המתן עד שיבוא דין\", עידן רתחא."
+      },
+      "revision": "847068006a95e714282eb3293dbcf3def1ff1fdc5c0d5186285ff281f15973a2",
+      "sources": [
+        {
+          "en": "Bava Batra 78a",
+          "he": "בבא בתרא ע״ח א",
+          "url": "https://www.sefaria.org/Bava_Batra_78a"
+        },
+        {
+          "en": "Bava Batra 78b",
+          "he": "בבא בתרא ע״ח ב",
+          "url": "https://www.sefaria.org/Bava_Batra_78b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-79": {
+      "en": {
+        "discuss": "Why does separating from Torah lead to fire?",
+        "question": "When something is consecrated or sold, does it carry with it what is inside it now or what will come later?",
+        "reading": "Ben Yehoyada asks why the verse says \"out of the fire they came forth\" rather than \"they separated\". Israel's souls are rooted in the letters of the Torah, which is called fire, so every Jew truly comes forth from it; one who departs from it is consumed by the same fire. He adds a reading from the saying that in man and woman, איש and אשה, the divine letters are joined: in אשה the letters of אש stand together, so the child who emerges from the mother \"comes forth from fire\"; the verse may refer especially to males, obligated in Torah study, whose birth the sages link more closely to the mother."
+      },
+      "he": {
+        "discuss": "מדוע פרישה מן התורה מובילה לאש?",
+        "question": "כשדבר מוקדש או נמכר, האם הוא כולל את מה שבתוכו עתה או את מה שיבוא אחר כך?",
+        "reading": "בן יהוידע שואל מדוע הכתוב אומר \"מהאש יצאו\" ולא \"פרשו\". נשמות ישראל מושרשות באותיות התורה, הנקראת אש, ולכן כל יהודי יוצא ממנה באמת; הפורש ממנה נאכל באותה אש. הוא מוסיף פירוש מן המאמר על איש ואשה שזכו ששכינה ביניהם: ב\"אשה\" אותיות \"אש\" מצורפות, ולכן הוולד היוצא מן האם \"מהאש יצא\"; ושמא הכתוב מדבר בייחוד בזכרים, החייבים בתלמוד תורה, שחכמים קושרים את לידתם יותר לאם."
+      },
+      "revision": "d511d0bbdb2fee2ab279dc113cad63290b0a800bb36d023e572952b5ce11ac25",
+      "sources": [
+        {
+          "en": "Bava Batra 79a",
+          "he": "בבא בתרא ע״ט א",
+          "url": "https://www.sefaria.org/Bava_Batra_79a"
+        },
+        {
+          "en": "Bava Batra 79b",
+          "he": "בבא בתרא ע״ט ב",
+          "url": "https://www.sefaria.org/Bava_Batra_79b"
+        }
+      ]
+    },
     "cycle-15-bava-batra-8": {
       "en": {
         "discuss": "Why are scholars exempt from protection taxes but not from paying for wells?",
@@ -2611,6 +3711,256 @@
         }
       ]
     },
+    "cycle-15-bava-batra-80": {
+      "en": {
+        "discuss": "Why must a mother dove and a daughter dove each be left with a pair?",
+        "question": "When someone buys only the yield of a thing, what must be left so that the source keeps producing?",
+        "reading": "Ben Yehoyada finds a hint in the word את, \"to include\": its letters begin ארז and תמר, the first and last letters of the alphabet, showing that the righteous are compared to both only for their good qualities. So \"make me a sign (אות) for good\" asks for the likeness of palm and cedar for good. The final letters of ארז and תמר form רז, equal to אור, light, the Torah, and זר, a crown. He explains why the righteous are compared to two trees and not to one with both virtues: the palm's fruit is high, beyond strangers' reach, as the righteous' deeds are hidden from the forces of impurity, and the palm embodies the union of male and female, as the righteous both receive and give influence through Torah and mitzvot."
+      },
+      "he": {
+        "discuss": "מדוע צריך להשאיר זוג לאם היונה וזוג לבתה?",
+        "question": "כשאדם קונה רק את תנובתו של דבר, מה צריך להשאיר כדי שהמקור ימשיך להניב?",
+        "reading": "בן יהוידע מוצא רמז במילה \"את\" לרבות: אותיותיה פותחות את \"ארז\" ו\"תמר\", האות הראשונה והאחרונה של האלפא ביתא, ומלמדות שהצדיק נמשל לשניהם רק במעלותיהם. לכן \"עשה עמי אות לטובה\" מבקש את דמיון התמר והארז לטובה. סופי התיבות של ארז ותמר יוצרים \"רז\", בגימטריא \"אור\", התורה, ו\"זר\", כתר. הוא מבאר מדוע נמשל הצדיק לשני אילנות ולא לאחד שיש בו שתי המעלות: פירות התמר גבוהים ואין יד זרים מגעת בהם, כשם שמצוות הצדיק גנוזות מן הסטרא אחרא, והתמר מגלם חיבור זכר ונקבה, כשם שהצדיק מקבל ומשפיע על ידי התורה והמצוות."
+      },
+      "revision": "df3ca39c489ee43051e355e3d72cc5cf9e1cc26269ce13fcc5b5680a678b5482",
+      "sources": [
+        {
+          "en": "Bava Batra 80a",
+          "he": "בבא בתרא פ׳ א",
+          "url": "https://www.sefaria.org/Bava_Batra_80a"
+        },
+        {
+          "en": "Bava Batra 80b",
+          "he": "בבא בתרא פ׳ ב",
+          "url": "https://www.sefaria.org/Bava_Batra_80b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-81": {
+      "en": {
+        "discuss": "Why do three trees acquire ground when two do not?",
+        "question": "When it is uncertain whether a person owns the land under his tree, how can he fulfill the mitzva of first fruits?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 81. His nearest comments in this tractate are on Daf 80 and Daf 84; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע שלושה אילנות קונים קרקע ושניים אינם קונים?",
+        "question": "כשמסופק אם אדם בעלים על הקרקע שתחת אילנו, כיצד יוכל לקיים את מצוות ביכורים?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף פ״א. דבריו הסמוכים במסכת הם בדף פ׳ ובדף פ״ד; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "b4d78b6a1161aaea91a07efeff34501add449a2b2f6d7c5a8c4fa202337928b8",
+      "sources": [
+        {
+          "en": "Bava Batra 81a",
+          "he": "בבא בתרא פ״א א",
+          "url": "https://www.sefaria.org/Bava_Batra_81a"
+        },
+        {
+          "en": "Bava Batra 81b",
+          "he": "בבא בתרא פ״א ב",
+          "url": "https://www.sefaria.org/Bava_Batra_81b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-82": {
+      "en": {
+        "discuss": "Why might reciting the first-fruits verses look like falsehood?",
+        "question": "Where does the buyer of trees stop and the owner of the field begin?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 82. His nearest comments in this tractate are on Daf 80 and Daf 84; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע קריאת פסוקי הביכורים עשויה להיראות כשקר?",
+        "question": "היכן נגמר קונה האילנות ומתחיל בעל השדה?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף פ״ב. דבריו הסמוכים במסכת הם בדף פ׳ ובדף פ״ד; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "88bc4b14c5a3aa24694c6e2ae609cf8376438e7190efcf05c01c6e43a362980c",
+      "sources": [
+        {
+          "en": "Bava Batra 82a",
+          "he": "בבא בתרא פ״ב א",
+          "url": "https://www.sefaria.org/Bava_Batra_82a"
+        },
+        {
+          "en": "Bava Batra 82b",
+          "he": "בבא בתרא פ״ב ב",
+          "url": "https://www.sefaria.org/Bava_Batra_82b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-83": {
+      "en": {
+        "discuss": "Why is a practical ruling preferred over a mishna as proof?",
+        "question": "What makes several trees one estate, and what makes a sale binding or void?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 83. His nearest comments in this tractate are on Daf 80 and Daf 84; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע מעשה עדיף על משנה כראיה?",
+        "question": "מה הופך כמה אילנות לנחלה אחת, ומה עושה מקח למחייב או לבטל?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף פ״ג. דבריו הסמוכים במסכת הם בדף פ׳ ובדף פ״ד; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "a171c75394ea72d6afa42e4eeb3162a47693a36098d21f51f5059613ee0cd98f",
+      "sources": [
+        {
+          "en": "Bava Batra 83a",
+          "he": "בבא בתרא פ״ג א",
+          "url": "https://www.sefaria.org/Bava_Batra_83a"
+        },
+        {
+          "en": "Bava Batra 83b",
+          "he": "בבא בתרא פ״ג ב",
+          "url": "https://www.sefaria.org/Bava_Batra_83b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-84": {
+      "en": {
+        "discuss": "Why can only the wronged party retract after a price change?",
+        "question": "When does a measured or pulled sale become final, and who may still back out?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 84. His nearest comments in this tractate are on Daf 80 and Daf 88; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע רק הצד שנתאנה יכול לחזור לאחר שינוי מחיר?",
+        "question": "מתי מקח שנמדד או נמשך נעשה סופי, ומי עדיין יכול לחזור בו?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף פ״ד. דבריו הסמוכים במסכת הם בדף פ׳ ובדף פ״ח; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "0126d1bfc8c46065b0c20d715b3f8829fc14c0c3214453ce62afa0f2f5fca4fa",
+      "sources": [
+        {
+          "en": "Bava Batra 84a",
+          "he": "בבא בתרא פ״ד א",
+          "url": "https://www.sefaria.org/Bava_Batra_84a"
+        },
+        {
+          "en": "Bava Batra 84b",
+          "he": "בבא בתרא פ״ד ב",
+          "url": "https://www.sefaria.org/Bava_Batra_84b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-85": {
+      "en": {
+        "discuss": "Why does a vessel not acquire in the true public domain?",
+        "question": "Does a person's vessel act as his domain wherever it stands, or only where he is entitled to place it?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 85. His nearest comments in this tractate are on Daf 84 and Daf 88; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע כלי אינו קונה ברשות הרבים ממש?",
+        "question": "האם כליו של אדם פועלים כרשותו בכל מקום שהם עומדים, או רק במקום שמותר לו להניחם?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף פ״ה. דבריו הסמוכים במסכת הם בדף פ״ד ובדף פ״ח; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "42c458b272b040cb0c3196d944603c68b9853250cd3ef0314881f4ad758d8f22",
+      "sources": [
+        {
+          "en": "Bava Batra 85a",
+          "he": "בבא בתרא פ״ה א",
+          "url": "https://www.sefaria.org/Bava_Batra_85a"
+        },
+        {
+          "en": "Bava Batra 85b",
+          "he": "בבא בתרא פ״ה ב",
+          "url": "https://www.sefaria.org/Bava_Batra_85b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-86": {
+      "en": {
+        "discuss": "Why does fixing the price show the seller has made up his mind?",
+        "question": "Which act of acquisition suits each kind of object, and at what point does a quantity sale become binding?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 86. His nearest comments in this tractate are on Daf 84 and Daf 88; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע פסיקת המחיר מראה שהמוכר גמר בדעתו?",
+        "question": "איזה מעשה קניין מתאים לכל סוג חפץ, ובאיזו נקודה מקח של כמות נעשה מחייב?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף פ״ו. דבריו הסמוכים במסכת הם בדף פ״ד ובדף פ״ח; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "9f8e7453edad8b5a8b82c81dbc43ce96067b10b872825e86801551675fe2dbe7",
+      "sources": [
+        {
+          "en": "Bava Batra 86a",
+          "he": "בבא בתרא פ״ו א",
+          "url": "https://www.sefaria.org/Bava_Batra_86a"
+        },
+        {
+          "en": "Bava Batra 86b",
+          "he": "בבא בתרא פ״ו ב",
+          "url": "https://www.sefaria.org/Bava_Batra_86b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-87": {
+      "en": {
+        "discuss": "Why is hiring a laborer from now not payment for waiting?",
+        "question": "At what moment does liquid change hands, and who bears the loss when goods pass through a child or a middleman?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 87. His nearest comments in this tractate are on Daf 84 and Daf 88; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע שכירת פועל מעכשיו אינה אגר נטר?",
+        "question": "באיזה רגע נוזל עובר מיד ליד, ומי נושא בהפסד כשסחורה עוברת דרך תינוק או סרסור?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף פ״ז. דבריו הסמוכים במסכת הם בדף פ״ד ובדף פ״ח; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "e9739e4a66c43b9b1b481908bb6482429d116e5acd84011d09d7451bdecc2e64",
+      "sources": [
+        {
+          "en": "Bava Batra 87a",
+          "he": "בבא בתרא פ״ז א",
+          "url": "https://www.sefaria.org/Bava_Batra_87a"
+        },
+        {
+          "en": "Bava Batra 87b",
+          "he": "בבא בתרא פ״ז ב",
+          "url": "https://www.sefaria.org/Bava_Batra_87b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-88": {
+      "en": {
+        "discuss": "Why is one who borrows without permission considered a robber?",
+        "question": "Why does the Torah treat dishonest measures as among the gravest of sins?",
+        "reading": "Ben Yehoyada reads \"a perfect and just weight shall you have\" as a promise: one who gives extra on the scale below will receive extra on the heavenly scale, where his merits will be made to outweigh his sins; so \"whoever is wise will keep these (אלה)\", the measures, \"and consider the kindnesses of the Lord\". The extra heh in אלה for measures recalls a teaching that the scale mirrors the divine name: the chain is yod, the beam vav, the two pans the two heh; one who weighs falsely damages that name, so it is called \"an abomination of the Lord\". Robbing a person is graver than robbing the Temple because restitution may become impossible when the victim cannot be found, while the Temple can always be repaid. God's blessings run from alef to tav and Moses's from vav to mem, together spelling אמתו, \"His truth\", and hinted in ואמת and כח."
+      },
+      "he": {
+        "discuss": "מדוע שואל שלא מדעת נחשב גזלן?",
+        "question": "מדוע התורה רואה במידות כוזבות אחד החטאים החמורים ביותר?",
+        "reading": "בן יהוידע קורא את \"אבן שלמה וצדק יהיה לך\" כהבטחה: מי שמוותר במאזניים למטה יוותרו לו במאזניים של מעלה, ויכריעו את זכויותיו על עוונותיו; לכן \"מי חכם וישמר אלה\", המידות, \"ויתבוננו חסדי ה'\". אות ה' היתרה ב\"אלה\" במידות מזכירה מאמר שהמאזניים כנגד שם הוי״ה: השלשלת כנגד יו״ד, העמוד כנגד וא״ו, ושתי הכפות כנגד שתי ההי״ן; השוקל בחסר פוגם בשם, ולכן נקרא \"תועבת ה'\". גזל הדיוט חמור מגזל גבוה משום שהשבה עלולה להיות בלתי אפשרית כשהנגזל אינו מצוי, ואילו להקדש אפשר תמיד להשיב. ברכות הקב״ה מאל״ף ועד תי״ו וברכות משה מוא״ו ועד מ״ם, ויחד הן מצרפות \"אמתו\", ונרמזות ב\"ואמת\" וב\"כח\"."
+      },
+      "revision": "1f69730f8908117d25d74c771437b641c3d0e7f4bf76fc1abad10b026759f86d",
+      "sources": [
+        {
+          "en": "Bava Batra 88a",
+          "he": "בבא בתרא פ״ח א",
+          "url": "https://www.sefaria.org/Bava_Batra_88a"
+        },
+        {
+          "en": "Bava Batra 88b",
+          "he": "בבא בתרא פ״ח ב",
+          "url": "https://www.sefaria.org/Bava_Batra_88b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-89": {
+      "en": {
+        "discuss": "Why may a seller not change the local custom even if he adjusts the price?",
+        "question": "How does the community protect buyers from dishonest weights without teaching swindlers new tricks?",
+        "reading": "Ben Yehoyada explains Shmuel's curse on Karna, \"let a horn come out in his eye\", as a small white or red growth that shamed him but did not blind him; so a second such curse elsewhere did not contradict it. Shmuel asked his name, though he knew it, to show that the curse matched the name, and struck the eye because Shmuel was \"the eye of the sages\", whom Karna had contradicted. On Rabban Yoḥanan ben Zakkai's \"woe if I say, woe if I do not say\", he cites a reading of Psalms 36:2: speaking teaches the wicked to sin, and silence lets the swindler lose his fear of God, thinking the sages do not know his tricks; and \"I have hidden Your word in my heart, so as not to sin against You\" means sometimes withholding such teachings. Rabban Yoḥanan could teach openly because he taught halakha, unlike Rabbi Yosei, whose homily on thieves gave them ideas."
+      },
+      "he": {
+        "discuss": "מדוע אין המוכר רשאי לשנות את מנהג המקום אפילו אם הוא משנה את המחיר?",
+        "question": "כיצד הציבור מגן על לוקחים מפני משקלות כוזבים בלי ללמד את הרמאים תחבולות חדשות?",
+        "reading": "בן יהוידע מבאר את קללת שמואל לקרנא, \"תיפוק קרנא בעיניה\", כחתיכה קטנה לבנה או אדומה שביזתה אותו אך לא סימאה; לכן קללה שנייה כזו במקום אחר אינה סותרת. שמואל שאל לשמו, אף שידעו, כדי להראות שהקללה הולמת את השם, והכה בעין משום ששמואל היה \"עין החכמים\", שקרנא סתר את דבריו. על \"אוי לי אם אומר ואוי לי אם לא אומר\" של רבן יוחנן בן זכאי הוא מביא פירוש לתהלים ל״ו, ב׳: האמירה מלמדת את הרשע לחטוא, והשתיקה גורמת לרמאי לאבד את יראתו, בחושבו שהחכמים אינם מכירים את תחבולותיו; ו\"בלבי צפנתי אמרתך למען לא אחטא לך\" פירושו לפעמים להצפין הלכות כאלה. רבן יוחנן יכול היה לדרוש בגלוי מפני שלימד הלכה, שלא כרבי יוסי, שדרשתו על הגנבים נתנה להם רעיונות."
+      },
+      "revision": "d7b06f485863c5c4adcef1df192c74aaef8b6a29690f878b4c9a52225ac8606b",
+      "sources": [
+        {
+          "en": "Bava Batra 89a",
+          "he": "בבא בתרא פ״ט א",
+          "url": "https://www.sefaria.org/Bava_Batra_89a"
+        },
+        {
+          "en": "Bava Batra 89b",
+          "he": "בבא בתרא פ״ט ב",
+          "url": "https://www.sefaria.org/Bava_Batra_89b"
+        }
+      ]
+    },
     "cycle-15-bava-batra-9": {
       "en": {
         "discuss": "Why do Rav Huna and Rav Yehuda reach opposite rules from the same verse?",
@@ -2633,6 +3983,256 @@
           "en": "Bava Batra 9b",
           "he": "בבא בתרא ט׳ ב",
           "url": "https://www.sefaria.org/Bava_Batra_9b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-90": {
+      "en": {
+        "discuss": "Why was a two-kav measure not made?",
+        "question": "How far may a community or a merchant shape prices and supply before it harms the poor?",
+        "reading": "Ben Yehoyada comments on \"the Lord has sworn by the pride of Jacob, I will never forget any of their works\", said of hoarders and cheats. The name יעקב, he notes, equals the numerical value of two divine names associated with livelihood, which the kabbalists find in the initials of \"You open Your hand\" (Psalms 145:16). God therefore swears by those very names concerning people whose evil deeds touch the money of others' sustenance, for they corrupt the channel through which He provides for His creatures."
+      },
+      "he": {
+        "discuss": "מדוע לא עשו מידה של קביים?",
+        "question": "עד היכן רשאים ציבור או סוחר לעצב מחירים והיצע לפני שהדבר פוגע בעניים?",
+        "reading": "בן יהוידע מעיר על \"נשבע ה' בגאון יעקב אם אשכח לנצח כל מעשיהם\", שנאמר על אוצרי פירות ורמאים. השם יעקב, הוא מציין, עולה כמספר שני שמות קדושים הקשורים לפרנסה, שהמקובלים מוצאים בראשי התיבות של \"פותח את ידך\" (תהלים קמ״ה, ט״ז). לכן נשבע הקב״ה בשמות אלה עצמם על בני אדם שמעשיהם הרעים נוגעים בממון פרנסתם של אחרים, שהם משחיתים את הצינור שבו הוא מפרנס את בריותיו."
+      },
+      "revision": "925d3954faf955f802e01432c75d69e5a2f8712f45503176acc383dcba33b360",
+      "sources": [
+        {
+          "en": "Bava Batra 90a",
+          "he": "בבא בתרא צ׳ א",
+          "url": "https://www.sefaria.org/Bava_Batra_90a"
+        },
+        {
+          "en": "Bava Batra 90b",
+          "he": "בבא בתרא צ׳ ב",
+          "url": "https://www.sefaria.org/Bava_Batra_90b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-91": {
+      "en": {
+        "discuss": "Why may middlemen not profit from staples in the land?",
+        "question": "When may a person leave the Land of Israel in hard times, and what is expected of leaders in a crisis?",
+        "reading": "Ben Yehoyada derives \"Have you seen Naomi?\" from reading הזאת as חזות, and explains \"great men\" as wealth and \"leaders\" as wisdom. Boaz's wife's death on Ruth's arrival is hinted in \"her chance was the portion of the field of Boaz\": a wife is called a field, and that portion had parted from him; perhaps she died before Shavuot, and Ruth came on the day after the festival. Boaz did not invite Manoah not from stinginess but lest he shame him, yet Manoah felt slighted, and Boaz was punished. His sixty children belonged to the side of strict judgment and died; only Oved, from Ruth, came from kindness and survived. Abraham's ten years in prison earned him ten nations, seven taken now and three in messianic times. Even an overseer of water channels is appointed by Heaven, read from לכל, \"measuring out\". The honey on the child's arms and the fat on the wall were signs of the generation's righteous deeds. Torah, like wheat and wine, improves with age, unlike philosophy, which each generation discards; Ruth is \"mother of the kingdom\" because David's royal line endured through her humble origin."
+      },
+      "he": {
+        "discuss": "מדוע אסור למתווכים להשתכר במצרכי יסוד בארץ?",
+        "question": "מתי רשאי אדם לצאת מארץ ישראל בשעת דוחק, ומה נדרש ממנהיגים בשעת משבר?",
+        "reading": "בן יהוידע לומד \"חזיתם נעמי\" מקריאת \"הזאת\" כ\"חזות\", ומבאר \"גדולי הדור\" מצד העושר ו\"פרנסי הדור\" מצד החכמה. מות אשת בועז בבוא רות נרמז ב\"ויקר מקרה חלקת השדה לבעז\": אשה נקראת שדה, וחלקה זו נפרדה ממנו; ושמא נפטרה בערב שבועות ורות באה באסרו חג. בועז לא הזמין את מנוח לא מצרות עין אלא כדי שלא לביישו, ובכל זאת חלשה דעתו של מנוח ובועז נענש. ששים בניו היו מצד הגבורות ומתו; רק עובד, מרות, בא מצד החסד ונתקיים. עשר שנות מאסרו של אברהם זיכוהו בעשרה עממים, שבעה נלקחו עתה ושלושה לימות המשיח. אפילו ריש גרגותא מן השמים מוקמי ליה, מן \"לכל\" לשון כלכול. הדבש על זרועות התינוק והשומן על החומה היו סימנים למעשיהם הטובים של בני הדור. התורה, כחיטים ויין, משתבחת בישנותה, שלא כפילוסופיה שכל דור זורק; ורות היא \"אמה של מלכות\" משום שמלכות בית דוד נתקיימה מכוח מוצאה הצנוע."
+      },
+      "revision": "b083779ef44d94f60094b1f489d072dc829a95fd4d9f270801b12b552b6c3adc",
+      "sources": [
+        {
+          "en": "Bava Batra 91a",
+          "he": "בבא בתרא צ״א א",
+          "url": "https://www.sefaria.org/Bava_Batra_91a"
+        },
+        {
+          "en": "Bava Batra 91b",
+          "he": "בבא בתרא צ״א ב",
+          "url": "https://www.sefaria.org/Bava_Batra_91b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-92": {
+      "en": {
+        "discuss": "Why is the seller of flaxseed not liable but the seller of garden seeds is?",
+        "question": "When a buyer's purpose was not stated, may we assume he bought for the most common use?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 92. His nearest comments in this tractate are on Daf 91 and Daf 93; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע מוכר זרע פשתן אינו חייב ומוכר זרעוני גינה חייב?",
+        "question": "כשמטרת הלוקח לא נאמרה, האם מותר להניח שקנה לשימוש הנפוץ ביותר?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף צ״ב. דבריו הסמוכים במסכת הם בדף צ״א ובדף צ״ג; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "8c58fbcab1f8011edb8902b0e496e62326aa4f16aef15a4de475175017b38cec",
+      "sources": [
+        {
+          "en": "Bava Batra 92a",
+          "he": "בבא בתרא צ״ב א",
+          "url": "https://www.sefaria.org/Bava_Batra_92a"
+        },
+        {
+          "en": "Bava Batra 92b",
+          "he": "בבא בתרא צ״ב ב",
+          "url": "https://www.sefaria.org/Bava_Batra_92b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-93": {
+      "en": {
+        "discuss": "How do majority and presumption differ in deciding monetary cases?",
+        "question": "When a defect is discovered after a sale, how do we decide whether the buyer should have expected it?",
+        "reading": "Ben Yehoyada asks why the cloth over the doorway is called a \"great custom\" in Jerusalem, when compensating a host for a spoiled meal clearly deserves that title by going beyond the strict law, but a cloth seems trivial. He answers that it works in reverse, as a euphemism: while the cloth is spread like a barrier, guests enter, and when it is removed and the door stands open, they should hold back. Beyond its plain meaning it hints at a broader lesson for a guest: even when your friend opens his house to you, \"let your foot be seldom in your neighbor's house\" (Proverbs 25:17). That hidden lesson makes it great."
+      },
+      "he": {
+        "discuss": "במה שונים רוב וחזקה בהכרעת דיני ממונות?",
+        "question": "כשמתגלה פגם לאחר מכירה, כיצד מכריעים אם הלוקח היה צריך לצפות לו?",
+        "reading": "בן יהוידע שואל מדוע המפה הפרוסה על הפתח נקראת \"מנהג גדול\" בירושלים, כשפיצוי בעל סעודה שנתקלקלה ראוי לשם זה משום שהוא לפנים משורת הדין, ואילו מפה נראית דבר של מה בכך. הוא משיב שהמנהג פועל בהיפוך, כלשון סגי נהור: כשהמפה פרוסה כגדר, האורחים נכנסים, וכשהיא מוסרת והפתח פתוח, עליהם להימנע. מלבד פשוטו הוא רומז ללקח רחב יותר לאורח: גם כשחברך פותח לפניך את ביתו, \"הקר רגלך מבית רעך\" (משלי כ״ה, י״ז). הרמז הנסתר הזה הוא שעושה אותו גדול."
+      },
+      "revision": "e00867cf1f85611b65268a1ad8dc3815de54665df96680532f0a41c71ac66e53",
+      "sources": [
+        {
+          "en": "Bava Batra 93a",
+          "he": "בבא בתרא צ״ג א",
+          "url": "https://www.sefaria.org/Bava_Batra_93a"
+        },
+        {
+          "en": "Bava Batra 93b",
+          "he": "בבא בתרא צ״ג ב",
+          "url": "https://www.sefaria.org/Bava_Batra_93b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-94": {
+      "en": {
+        "discuss": "Why does a buyer tolerate more dirt in lentils than in wheat?",
+        "question": "When a seller exceeds the tolerated defect, should he repay only the excess or everything?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 94. His nearest comments in this tractate are on Daf 93 and Daf 98; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע לוקח סובל יותר עפר בעדשים מאשר בחיטים?",
+        "question": "כשהמוכר עובר את שיעור הפגם המותר, האם עליו להחזיר רק את העודף או את הכל?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף צ״ד. דבריו הסמוכים במסכת הם בדף צ״ג ובדף צ״ח; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "b5ef0728a9a652ec3a0d1c0a945b843550366ac007b9b79298e3c23475467ee1",
+      "sources": [
+        {
+          "en": "Bava Batra 94a",
+          "he": "בבא בתרא צ״ד א",
+          "url": "https://www.sefaria.org/Bava_Batra_94a"
+        },
+        {
+          "en": "Bava Batra 94b",
+          "he": "בבא בתרא צ״ד ב",
+          "url": "https://www.sefaria.org/Bava_Batra_94b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-95": {
+      "en": {
+        "discuss": "Why does extra land beyond a quarter-kav per se'a all return?",
+        "question": "When the agreed tolerance is exceeded, does the whole discrepancy become unacceptable?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 95. His nearest comments in this tractate are on Daf 93 and Daf 98; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע קרקע עודפת מעל רובע לסאה חוזרת כולה?",
+        "question": "כשנחצה גבול הסבולת המוסכם, האם כל הפער נעשה בלתי מקובל?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף צ״ה. דבריו הסמוכים במסכת הם בדף צ״ג ובדף צ״ח; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "bda0bffed3907453631c9f5105ae3b1d8d117bd7827a1311b4f5e8bf2bfed8ef",
+      "sources": [
+        {
+          "en": "Bava Batra 95a",
+          "he": "בבא בתרא צ״ה א",
+          "url": "https://www.sefaria.org/Bava_Batra_95a"
+        },
+        {
+          "en": "Bava Batra 95b",
+          "he": "בבא בתרא צ״ה ב",
+          "url": "https://www.sefaria.org/Bava_Batra_95b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-96": {
+      "en": {
+        "discuss": "Why does the place where souring starts matter?",
+        "question": "When a change is discovered only later, how far back do we date it, and who bears the loss?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 96. His nearest comments in this tractate are on Daf 93 and Daf 98; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע המקום שבו החימוץ מתחיל משנה?",
+        "question": "כשמתגלה שינוי רק אחר כך, עד כמה אחורה מתארכים אותו, ומי נושא בהפסד?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף צ״ו. דבריו הסמוכים במסכת הם בדף צ״ג ובדף צ״ח; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "dc3431df9fb464a37f84a647f75632c4b5cb3e52bb02ab08f9b85f0871b0a265",
+      "sources": [
+        {
+          "en": "Bava Batra 96a",
+          "he": "בבא בתרא צ״ו א",
+          "url": "https://www.sefaria.org/Bava_Batra_96a"
+        },
+        {
+          "en": "Bava Batra 96b",
+          "he": "בבא בתרא צ״ו ב",
+          "url": "https://www.sefaria.org/Bava_Batra_96b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-97": {
+      "en": {
+        "discuss": "Why does the mishna on tamad present only the case where yield equals the water?",
+        "question": "When is a diluted or imperfect wine still wine, for blessing, for holiness and for the mitzva of kiddush?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 97. His nearest comments in this tractate are on Daf 93 and Daf 98; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע המשנה בתמד מציגה רק את המקרה שהיציאה שווה למים?",
+        "question": "מתי יין מהול או פגום עדיין נחשב יין, לברכה, לקדושה ולמצוות קידוש?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף צ״ז. דבריו הסמוכים במסכת הם בדף צ״ג ובדף צ״ח; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "0a714cbe704537387bbdecc065f61e3c2988a4183ad54096e9dcf88652f62b73",
+      "sources": [
+        {
+          "en": "Bava Batra 97a",
+          "he": "בבא בתרא צ״ז א",
+          "url": "https://www.sefaria.org/Bava_Batra_97a"
+        },
+        {
+          "en": "Bava Batra 97b",
+          "he": "בבא בתרא צ״ז ב",
+          "url": "https://www.sefaria.org/Bava_Batra_97b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-98": {
+      "en": {
+        "discuss": "Why does Rabbi Yosei son of Rabbi Ḥanina limit the seller's exemption?",
+        "question": "Whose fault is wine that spoils after a sale, and what does a promise of a house of a certain kind commit the builder to?",
+        "reading": "Ben Yehoyada (Rabbi Yosef Ḥayyim of Baghdad) has no comment on Bava Batra 98. His nearest comments in this tractate are on Daf 93 and Daf 99; this daf is therefore studied here from the Gemara itself, without his commentary."
+      },
+      "he": {
+        "discuss": "מדוע רבי יוסי ברבי חנינא מגביל את פטור המוכר?",
+        "question": "באשמת מי יין המתקלקל לאחר מכירה, ולמה מתחייב בונה שהבטיח בית מסוג מסוים?",
+        "reading": "לבן יהוידע (רבי יוסף חיים מבגדאד) אין פירוש על בבא בתרא דף צ״ח. דבריו הסמוכים במסכת הם בדף צ״ג ובדף צ״ט; לכן הדף נלמד כאן מתוך הגמרא עצמה, בלי פירושו."
+      },
+      "revision": "9c1e4fb4539307d912b7f7a080480559f57443ea8126ebe55db4f722f369d794",
+      "sources": [
+        {
+          "en": "Bava Batra 98a",
+          "he": "בבא בתרא צ״ח א",
+          "url": "https://www.sefaria.org/Bava_Batra_98a"
+        },
+        {
+          "en": "Bava Batra 98b",
+          "he": "בבא בתרא צ״ח ב",
+          "url": "https://www.sefaria.org/Bava_Batra_98b"
+        }
+      ]
+    },
+    "cycle-15-bava-batra-99": {
+      "en": {
+        "discuss": "What does the miracle of the Ark's space teach?",
+        "question": "How may a person use a right of passage through another's home or field without encroaching on the other's privacy and property?",
+        "reading": "Ben Yehoyada notes that \"below as above\" teaches that the Holy of Holies did not widen upward. That the Ark and cherubs took no space hints that money spent on Torah study does not reduce the livelihood fixed on Rosh HaShana, and that Israel, symbolized by the cherubs, is sustained by blessing without diminishing Esau's portion; his son Rabbi Yaakov adds that Torah and mitzvot should be free of earthly intent. The ten cubits on every side form four yods, the yods of the divine name that total chesed, since Torah was given in kindness; forty cubits for the forty days of the Tablets; and four crowns, of Torah, priesthood, kingship and a good name. The faces of a cherub hint at the divine name, two eyes as two yods and the nose as vav; when they face each other, the doubled name equals בן, \"son\", a sign that Israel does God's will, as \"they will see eye to eye when the Lord returns to Zion\"."
+      },
+      "he": {
+        "discuss": "מה מלמד נס מקום הארון?",
+        "question": "כיצד רשאי אדם להשתמש בזכות מעבר בבית חברו או בשדהו בלי לפגוע בצניעותו ובקניינו?",
+        "reading": "בן יהוידע מציין ש\"למטה כלמעלה\" מלמד שקודש הקודשים לא התרחב כלפי מעלה. שהארון והכרובים לא תפסו מקום רומז שהוצאות לתלמוד תורה אינן ממעטות את המזונות הקצובים בראש השנה, ושישראל, הרמוזים בכרובים, ניזונים מן הברכה בלי לגרוע מחלק עשו; בנו הרב יעקב מוסיף שתורה ומצוות צריכות להיות בלי כוונה ארצית. עשר האמות לכל רוח יוצרות ארבעה יודי״ן, יודי השם במילוי העולים חסד, שהתורה ניתנה בחסד; ארבעים אמה כנגד ארבעים יום של הלוחות; וארבעה כתרים, תורה, כהונה, מלכות ושם טוב. פני הכרוב רומזים לשם, שתי עיניים כשני יודי״ן והחוטם כוא״ו; כשהם פונים זה אל זה, השם הכפול עולה \"בן\", סימן שישראל עושים רצון המקום, כ\"עין בעין יראו בשוב ה' ציון\"."
+      },
+      "revision": "3712c604f0d227f3ee8907c464e46a8ff0fcd0913e1e7e074f0b7113489f3ee2",
+      "sources": [
+        {
+          "en": "Bava Batra 99a",
+          "he": "בבא בתרא צ״ט א",
+          "url": "https://www.sefaria.org/Bava_Batra_99a"
+        },
+        {
+          "en": "Bava Batra 99b",
+          "he": "בבא בתרא צ״ט ב",
+          "url": "https://www.sefaria.org/Bava_Batra_99b"
         }
       ]
     },
